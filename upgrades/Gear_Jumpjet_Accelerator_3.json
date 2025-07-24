@@ -1,0 +1,88 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 1860522,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "JJ ACCEL",
+        "UIName" : "Jump Jet Accelerator + + +",
+        "Id" : "Gear_Jumpjet_Accelerator_3",
+        "Name" : "Jump Jet Accelerator + + +",
+        "Details" : "This device will amplify and extend the power of a battlemech's jump jets, allowing jumps to make the battlemech travel farther with each accelerator installed.  Up to two units may be installed with cumulative effect, and any beyond that are ineffective.  This device comes with pipes, tubes, and hoses, so that it doesn't have to be installed in the same area as the battlemech's jump jets.  These devices do not replace jump jets, and if no jump jets are installed than this device has no effect and is wasteful dead machinery taking up space.  Jump jet accelerators are built with lightweight but strong non-metallic materials, made from 31st-century polymer fiber components, and as such they weigh far less than metal yet are much stronger than steel ever can be, and so they add no significant weight in tons to a 'Mech.",
+        "Icon" : "uixSvgIcon_action_jump"
+    },
+    "BonusValueA" : "+80% Jumping Distance",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"statusEffects" : [
+    {
+        "durationData" : {
+            "duration" : -1,
+            "ticksOnActivations" : false,
+            "useActivationsOfTarget" : false,
+            "ticksOnEndOfRound" : false,
+            "ticksOnMovements" : false,
+            "stackLimit" : 2,
+            "clearedWhenAttacked" : false
+        },
+        "targetingData" : {
+            "effectTriggerType" : "Passive",
+            "triggerLimit" : 0,
+            "extendDurationOnTrigger" : 0,
+            "specialRules" : "NotSet",
+            "effectTargetType" : "Creator",
+            "range" : 0,
+            "forcePathRebuild" : false,
+            "forceVisRebuild" : false,
+            "showInTargetPreview" : false,
+            "showInStatusPanel" : true
+        },
+        "effectType" : "StatisticEffect",
+        "Description" : {
+            "Id" : "StatusEffect-Jump_Distance-T3",
+            "Name" : "JUMP DISTANCE INCREASED",
+            "Details" : "Jump Jet Accelerators increase jump distance.  This battlemech's current increase is [AMT]x.",
+            "Icon" : "uixSvgIcon_action_jump"
+        },
+        "nature" : "Buff",
+        "statisticData" : {
+            "appliesEachTick" : false,
+            "effectsPersistAfterDestruction" : false,
+            "statName" : "JumpDistanceMultiplier",
+            "operation" : "Float_Add",
+            "modValue" : "0.8",
+            "modType" : "System.Single",
+            "additionalRules" : "NotSet",
+            "targetCollection" : "NotSet",
+            "targetWeaponCategory" : "NotSet",
+            "targetWeaponType" : "NotSet",
+            "targetAmmoCategory" : "NotSet",
+            "targetWeaponSubType" : "NotSet"
+        },
+        "tagData" : null,
+        "floatieData" : null,
+        "actorBurningData" : null,
+        "vfxData" : null,
+        "instantModData" : null,
+        "poorlyMaintainedEffectData" : null
+    }
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

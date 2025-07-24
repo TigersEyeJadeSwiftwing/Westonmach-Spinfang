@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 80,
+    "Description" : {
+        "Cost" : 925025,
+        "Rarity" : 6,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Mega Cluster",
+        "UIName" : "Heat Sink 25x-M",
+        "Id" : "Gear_HeatSink_Generic_Mega",
+        "Name" : "Heat Sink 25x-M",
+        "Details" : "Mega Cluster Heat Sinks provide many times the efficiency of standard Heat Sinks, though with increased weight. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "-80 Heat",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1.75,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

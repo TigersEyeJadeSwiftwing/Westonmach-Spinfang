@@ -1,0 +1,173 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Donnerschwert",
+        "Name": "Donnerschwert",
+        "Details": "Donnerschwert is a terran-sized world covered almost entirely by oceans, with occasional islands here and there scattered across it's surface.  It's population puts up with year-round far-reaching storms that never completely settle.  People who live here however know how to survive and actually do well with bad weather, and build their towns and cities to withstand frequent hurricanes and more.  The population is actually well-to-do for the most part, and live high-technology lifestyles, as the cultures found here excel in technology and research as well as architecture and construction methods for building things that handle storms easily, including the aquatic farms that continue to grow, produce, and harvest food as usual even during a bad storm, able to get a days work done even during a bad hurricane just like any other day.  They know how to do that here, and build their farms and towns so they can be like that here.  During the worst storms all businesses in towns are still open as usual, and Donnerschwert continues to export food and it's economy continues to thrive.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 74.11,
+        "y": -520.34,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_water",
+            "planet_size_medium",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_industry_research",
+            "planet_industry_chemicals",
+	    "planet_industry_aquaculture",
+            "planet_industry_rich",
+	    "planet_other_storms",
+            "planet_name_donnerschwert",
+            "planet_faction_steiner",
+            "planet_progress_2",
+            "planet_feature_moon01"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "polarFrozen",
+        "tundraFrozen",
+        "jungleTropical"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 4,
+    "ownerID": "Steiner",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 30,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 32,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_battlefield"
+    ],
+    "factionShopOwnerID": "Steiner",
+    "FactionShopItems": [
+        "itemCollection_faction_Steiner",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_battlefield"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Donnerschwert",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 0,
+    "DifficultyList": [
+        0,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Steiner"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates"
+    ]
+}

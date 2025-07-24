@@ -1,0 +1,251 @@
+{
+    "Description": {
+        "Cost": 5200000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Fire Shrike",
+        "Id": "chassisdef_fireshrike_FS-5FX",
+        "Name": "Fire Shrike",
+        "Details": "The Fire Shrike is a middle-of-the-road 'Mech for a top-tier machine.  It offers generous spaces for autocannons and missle racks, and support weapons as well, and moves FAST for it's size.  It also has potential for having a lot of armor.  It has beefed-up internal structural reinforcement, made with lighter and stronger high-tech materials.",
+        "Icon": "uixTxrIcon_shadowhawk"
+    },
+    "MovementCapDefID": "movedef_fireshrike_FS-5FX",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_shadowhawk",
+    "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
+    "PrefabBase": "shadowhawk",
+    "Tonnage": 59,
+    "InitialTonnage": 2,
+    "weightClass": "MEDIUM",
+    "BattleValue": 5171000,
+    "Heatsinks": 0,
+    "TopSpeed": 80,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 250,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 250,
+    "MeleeInstability": 500,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 120,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 5,
+    "DFAInstability": 315,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 1200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 128
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 2500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 180
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 3000,
+            "MaxRearArmor": 2000,
+            "InternalStructure": 260
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 3600,
+            "MaxRearArmor": 2800,
+            "InternalStructure": 360
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 3000,
+            "MaxRearArmor": 2000,
+            "InternalStructure": 260
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 2500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 180
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 260
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 260
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "FS-5FX",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Pursuit & Combat",
+    "YangsThoughts": "The Fire Shrike is a middle-of-the-road 'Mech for a top-tier machine.  It offers generous spaces for autocannons and missle racks, and support weapons as well, and moves FAST for it's size.  It also has potential for having a lot of armor.  It has beefed-up internal structural reinforcement, made with lighter and stronger high-tech materials."
+}

@@ -1,0 +1,189 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Tal_Tengar",
+        "Name": "Tal Tengar",
+        "Details": "Tal Tengar is an Earth-sized, Earth-gravity agricultural jungle planet that has a somewhat sparse population, and has many large-scale mining and manufacturing operations all times of the year.  It exports plenty of food, metals, and minerals on a consistent basis.  Owned by the Draconis Combine, it is not a place for tourism or recreation, but a planet full of farmers, miners, and other workers, as well as a place where pirates conduct almost as many operations as the Draconis Combine does in efforts to flush them out and maintain order and justice.  Aside from the oceans, all of the land is jungle of sorts, with hot tropical weather.  Regardless of the weather, the planet has been terraformed to the point where the air is breathable, and the wild animals are not anywhere near as dangerous as the pirates and organized criminal groups can be.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -32.12,
+        "y": -448.51,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_tropical",
+            "planet_pop_small",
+            "planet_civ_innersphere",
+            "planet_progress_1",
+            "planet_feature_moon01",
+            "planet_feature_moon02",
+            "planet_feature_moon03",
+            "planet_industry_aquaculture",
+            "planet_industry_rich",
+            "planet_other_blackmarket",
+            "planet_industry_agriculture",
+            "planet_name_taltengar",
+            "planet_faction_kurita",
+            "planet_industry_mining",
+            "planet_industry_manufacturing"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 7,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 8,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "K",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 32,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Tal_Tengar",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "AuriganPirates",
+        "Kurita"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "Kurita"
+    ]
+}

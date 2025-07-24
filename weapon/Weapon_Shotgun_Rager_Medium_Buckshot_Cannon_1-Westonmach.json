@@ -1,0 +1,63 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "LB10X",
+    "MinRange" : 0,
+    "MaxRange" : 410,
+    "RangeSplit" : [
+        205,
+        205,
+        410
+    ],
+    "ammoCategoryID" : "RagerMedium",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 50,
+    "Damage" : 21,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 2,
+    "CriticalChanceMultiplier" : 2,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 10,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 21,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LB10X",
+    "Description" : {
+        "Cost" : 600125,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Buckshot Cannon +",
+        "UIName" : "Rager Medium Buckshot Cannon +",
+        "Id" : "Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_1-Westonmach",
+        "Name" : "Rager Medium Buckshot Cannon +",
+        "Details" : "Rager buckshot cannons fire a blast of 10 pellet projectiles.  They tend to have short effective range, and up close are deadly.  Their ammunition is small and lightweight.  They aren't very accurate.  Rager cannons have recoil.  Rager cannons are compact, taking up little space.  When armor has been stripped away, they have an increased chance of scoring critical hits.  Rager cannons use ammunition that is nothing more than the pellet projectiles, using no gunpowder or explosive components, and no casing or shell.  The part that makes the pellets fly out of the barrel is the cannon itself, not anything in the ammunition, so upgraded models do better firing the same ammunition.  Rager cannons and their ammunition are made of polymer materials made only by Westonmach that are lighter than aluminum and stronger than the toughest steel.  No other corporation has been able to reproduce or reverse engineer Westonmach's polymers.  Westonmach is also the creator of non-magnetic sub-atomic pulse repulsion technology that makes cannons push their ammunition out of their barrels.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "+10 Total Dmg",
+    "BonusValueB" : "+10m Range",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lbx10",
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "VolleyDivisor" : 10,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

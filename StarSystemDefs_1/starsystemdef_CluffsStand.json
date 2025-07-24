@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_CluffsStand",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_WS_1"
+		}
+    ]
+}

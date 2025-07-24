@@ -1,0 +1,275 @@
+{
+    "Description": {
+        "Cost": 6650250,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Bazooka",
+        "Id": "chassisdef_bazooka_BZ-WS1",
+        "Name": "Bazooka",
+        "Details": "The Bazooka BZ-WS1 is a somewhat distant relative of the Hunchback, at 53 tons and with more hardpoints for mounting more weapons, including a potential trio of missle or rocket launchers.  It's mighty over-the-shoulder components support up to EIGHT ballistic weapons at a time, depending on how much space they take up, although the default configuration you might find on the battlefield has three AC/10s and enough ammunition for firing all three of them eight times, plus two backup medium lasers.  The whole thing has a custom-modified chassis thanks to Westonmach and Spinfang corporations, and is lightweight to begin with before adding armor and weapons.  Although the default configuration has somewhat thin armor, it supports quite a bit with some customization.  It also supports jump jets, and two is all it needs to fly with maximum capability for such.  It also supports up to four energy weapons on both arms, when customized.  It will walk and run as far and as fast as it's distant cousin, the Hunchback.",
+        "Icon": "uixTxrIcon_hunchback"
+    },
+    "MovementCapDefID": "movedef_hunchback_HBK-4G",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_hunchback",
+    "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
+    "PrefabBase": "hunchback",
+    "Tonnage": 53,
+    "InitialTonnage": 5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 6500250,
+    "Heatsinks": 0,
+    "TopSpeed": 65,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 210,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 200,
+    "MeleeInstability": 200,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 80,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 5,
+    "DFAInstability": 80,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 450,
+            "MaxRearArmor": -1,
+            "InternalStructure": 32
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1200,
+            "MaxRearArmor": 600,
+            "InternalStructure": 120
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1600,
+            "MaxRearArmor": 800,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1200,
+            "MaxRearArmor": 600,
+            "InternalStructure": 120
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 120
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 120
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 4.5,
+            "z": 2
+        },
+        {
+            "x": -2.5,
+            "y": 4.5,
+            "z": 2
+        }
+    ],
+    "VariantName": "BZ-WS1",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut & Close Assault",
+    "YangsThoughts": "The Bazooka BZ-WS1 is a somewhat distant relative of the Hunchback, at 53 tons and with more hardpoints for mounting more weapons, including a potential trio of missle or rocket launchers.  It's mighty over-the-shoulder components support up to EIGHT ballistic weapons at a time, depending on how much space they take up, although the default configuration you might find on the battlefield has three AC/10s and enough ammunition for firing all three of them eight times, plus two backup medium lasers.  The whole thing has a custom-modified chassis thanks to Westonmach and Spinfang corporations, and is lightweight to begin with before adding armor and weapons.  Although the default configuration has somewhat thin armor, it supports quite a bit with some customization.  It also supports jump jets, and two is all it needs to fly with maximum capability for such.  It also supports up to four energy weapons on both arms, when customized.  It will walk and run as far and as fast as it's distant cousin, the Hunchback."
+}

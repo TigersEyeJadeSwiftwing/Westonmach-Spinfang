@@ -1,0 +1,62 @@
+{
+    "Description" : {
+        "Id" : "pilot_ws_Mach_Five_Assault",
+        "Name" : "Mach Five Assault",
+        "FirstName" : "Bill",
+        "LastName" : "Anderton",
+        "Callsign" : "Mach Five Assault",
+        "Gender" : "Male",
+        "factionID" : "Kurita",
+        "Age" : 18,
+        "Details" : "TEST",
+        "Icon" : "ws_img_pilot_Blue_Warrior"
+    },
+        "BaseGunnery" : 2,
+        "BonusGunnery" : 0,
+        "BasePiloting" : 1,
+        "BonusPiloting" : 0,
+        "BaseGuts" : 1,
+        "BonusGuts" : 0,
+        "BaseTactics" : 2,
+        "BonusTactics" : 0,
+        "ExperienceUnspent" : 0,
+        "ExperienceSpent" : 0,
+        "Injuries" : 0,
+        "Health" : 4,
+        "LethalInjury" : false,
+        "Incapacitated" : false,
+        "Morale" : 0,
+        "Voice" : "m_pro01_stark_chad",
+        "abilityDefNames" : [
+            "TraitDefWeaponHit9",
+            "TraitDefMeleeHit5",
+            "TraitDefDFASelfDmgReduction",
+            "TraitDefRefireReduceTwo",
+            "TraitDefCalledShotImprove",
+            "TraitDefEvasiveChargeAddOne",
+            "TraitDefOverheatAddFifteen",
+            "TraitDefUnsteadySet60",
+            "TraitDefSprintIncrease20"
+    ],
+    "AIPersonality" : "Undefined",
+    "PilotTags" : {
+        "items" : [
+            "BLACKLISTED",
+            "pilot_backer",
+            "pilot_brave",
+            "pilot_athletic",
+            "pilot_honest",
+            "pilot_bookish",
+            "pilot_dependable",
+            "pilot_tech",
+            "pilot_wealthy",
+            "pilot_spacer",
+            "name_Mach_Five_Assault",
+            "pilot_kurita"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "PilotCost" : 0
+    "IsRonin": true,
+    "IsVanguard": false
+}

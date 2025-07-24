@@ -1,0 +1,63 @@
+{
+    "Category" : "Energy",
+    "Type" : "Laser",
+    "WeaponSubType" : "LargeLaser",
+    "MinRange" : 0,
+    "MaxRange" : 600,
+    "RangeSplit" : [
+        400,
+        400,
+        600
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 25,
+    "Damage" : 60,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
+    "Description" : {
+        "Cost" : 750000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Ultra Laser + +",
+        "UIName" : "U Laser + +",
+        "Id" : "Weapon_Laser_UltraLaser_2-Westonmach",
+        "Name" : "U Laser + +",
+        "Details" : "Ultra Lasers are killer weapons that are compact, powerful, and have profound range and accuracy.  They really hurt.  Like all Lasers, Ultra Lasers enjoy a baseline accuracy bonus over other weapons.  They are manufactured exclusively by Westonmach, which builds them with high-tech polymers that are much lighter than aluminum yet far stronger than the toughest steel, which also allows a very compact design so that the weapon doesn't use up much space on a battlemech.  Ultra lasers are superior to other types of lasers, except for multifrequency lasers, which outperform.\n\nNo corporation other than Westonmach has the ability to make such technologies so lightweight, compact, and strong all at the same time, and although other companies have tried to catch up, no other company has ever been able to successfully reverse engineer or duplicate Westonmach's ultra lasers or other battlemech weapons.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "+10 Damage",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant2",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

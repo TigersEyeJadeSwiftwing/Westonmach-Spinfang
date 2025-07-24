@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 36,
+    "Description" : {
+        "Cost" : 245026,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Grecklyn-Fost",
+        "Model" : "Multi Cluster",
+        "UIName" : "Heat Sink 12x",
+        "Id" : "Gear_HeatSink_Generic_MultiCluster",
+        "Name" : "Heat Sink 12x",
+        "Details" : "Multicluster Heat Sinks provide about 12x the efficiency of standard Heat Sinks, though with increased weight. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "-36 Heat",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1.75,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "Category" : "Energy",
+    "Type" : "Laser",
+    "WeaponSubType" : "LargeLaser",
+    "MinRange" : 0,
+    "MaxRange" : 600,
+    "RangeSplit" : [
+        300,
+        300,
+        600
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 50,
+    "Damage" : 190,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 95,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
+    "Description" : {
+        "Cost" : 6892000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Ultra Multifrequency Laser +++++/++++",
+        "UIName" : "U MF Laser +++++/++++",
+        "Id" : "Weapon_DualLaser_UltraLaser_9-Westonmach",
+        "Name" : "U MF Laser +++++/++++",
+        "Details" : "Multifrequency lasers are more damaging than regular lasers of the same size.  Like all Lasers, multifrequency asers enjoy a baseline accuracy bonus over other weapons.  Multifrequency lasers, manufactured exclusively by Westonmach, discharge multiple laser beams simultaneously in one attack, at different frequencies, in one combined blast or beam.  They generate more heat than regular lasers, but also heat up the target a bit in addition to damaging it.  Upgraded models will do more damage and also heat the target more, when compared to the basic model of it's size.  Multifrequency lasers by Westonmach are made from high-tech next-gen polymers that are much lighter in weight than any metal while also being much stronger and more durable, and also allowing for more compact designs when used for various, superior products and technologies.  Upgraded variants of Westonmach-made multifrequency lasers do more damage and more heat damage to a target.  Ultra multifrequency lasers are long ranged, and add little tonnage to a battlemech compared to most lasers from other manufacturers when installed.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "+90 Damage",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.75,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

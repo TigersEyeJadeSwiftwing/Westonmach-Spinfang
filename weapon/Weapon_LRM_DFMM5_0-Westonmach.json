@@ -1,0 +1,62 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM20",
+    "MinRange" : 300,
+    "MaxRange" : 1200,
+    "RangeSplit" : [
+        600,
+        600,
+        1200
+    ],
+    "ammoCategoryID" : "DFR",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 10,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 5,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 10,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
+    "Description" : {
+        "Cost" : 650000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Deathfire Rocket Launcher 5",
+        "UIName" : "Deathfire Rocket Launcher 5",
+        "Id" : "Weapon_LRM_DFMM5_0-Westonmach",
+        "Name" : "Deathfire Rocket Launcher 5",
+        "Details" : "Deathfire Rocket 5 racks fire only 5 rockets, which are heavy-hitting and can do a lot of damage.  They use patented technology from Westonmach to program and charge a handful of special rockets made just for this launcher, at one time.  Like LRMs, Deathfire Rockets are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.  They can travel farther than LRMs to hit a target, but have a farther minimum range as well.  Each rocket packs a serious punch, that can cause serious instability as well as damage.  Deathfire rockets are compact and lightweight thanks to being built with custom high-tech materials, and have engines, fuel, and warheads that are inert and non-explosive when not in use and stored in ammunition containers, even if armed, as well as during flight, until the warhead is triggered with contact with the target.  As such, their ammo bins won't explode with a critical hit.  The rockets are not much bigger than SRM and LRM missles.  Deathfire launcher racks are very lightweight, adding no significant weight in tons to a battlemech, as they are made from Westonmach-engineered polymers that are much lighter than aluminum and far stronger than the toughest steel alloys, while being paper-thin and non-metallic, rugged, and very strong.  The launcher racks don't have much more than a few rockets ready to fire, and a little bit of shielding and some controller microchips, which weigh far less than a quarter of a ton.  The launchers themselves don't store anywhere as many rockets as what can be found in rocket ammunition bins, and the rockets themselves don't weigh that much anyways, being much less heavy and designed very differently than SRMs and LRMs.\n\nUpgraded variants can fire more rapidly, launching more rockets at a time per a combat turn.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "5 Rockets per attack",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm20",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

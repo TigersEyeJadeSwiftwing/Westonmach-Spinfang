@@ -1,0 +1,616 @@
+--------------------------------------------------------------------------------------------------
+----- Master
+itemCollection_WS_weapon_energy_laser,Reference,6,1
+itemCollection_WS_weapon_energy_non-laser,Reference,7,1
+itemCollection_WS_weapon_energy_non-laser_rare,Reference,4,1
+itemCollection_WS_weapon_rocket,Reference,5,1
+itemCollection_WS_weapon_rocket_rare,Reference,3,1
+itemCollection_WS_ammo_rocket,Reference,2,1
+itemCollection_WS_weapon_ballistic,Reference,8,1
+itemCollection_WS_weapon_ballistic_rare,Reference,4,1
+itemCollection_WS_ammo_ballistic,Reference,5,1
+
+itemCollection_WS_upgrade_electronic,Reference,8,1
+itemCollection_WS_upgrade_mechanical,Reference,10,1
+
+itemCollection_WS_ammo_all,,,
+--------------------------------------------------------------------------------------------------
+
+-- groups: 6
+itemCollection_WS_weapon_energy_laser,,,
+Weapon_Laser_UltraLaser_0-Westonmach,Weapon,0,10
+Weapon_Laser_UltraLaser_1-Westonmach,Weapon,0,10
+Weapon_Laser_UltraLaser_2-Westonmach,Weapon,0,10
+Weapon_Laser_UltraLaser_3-Westonmach,Weapon,0,10
+Weapon_DualLaser_SmallLaser_0-Westonmach,Weapon,0,10
+Weapon_DualLaser_SmallLaser_1-Westonmach,Weapon,0,10
+Weapon_DualLaser_SmallLaser_2-Westonmach,Weapon,0,10
+Weapon_DualLaser_SmallLaser_3-Westonmach,Weapon,0,10
+Weapon_DualLaser_SmallLaser_4-Westonmach,Weapon,0,10
+Weapon_DualLaser_SmallLaser_5-Westonmach,Weapon,0,10
+Weapon_DualLaser_MediumLaser_0-Westonmach,Weapon,0,10
+Weapon_DualLaser_MediumLaser_1-Westonmach,Weapon,0,10
+Weapon_DualLaser_MediumLaser_2-Westonmach,Weapon,0,10
+Weapon_DualLaser_MediumLaser_3-Westonmach,Weapon,0,10
+Weapon_DualLaser_MediumLaser_4-Westonmach,Weapon,0,10
+Weapon_DualLaser_MediumLaser_5-Westonmach,Weapon,0,10
+Weapon_DualLaser_LargeLaser_0-Westonmach,Weapon,0,10
+Weapon_DualLaser_LargeLaser_1-Westonmach,Weapon,0,10
+Weapon_DualLaser_LargeLaser_2-Westonmach,Weapon,0,10
+Weapon_DualLaser_LargeLaser_3-Westonmach,Weapon,0,10
+Weapon_DualLaser_LargeLaser_4-Westonmach,Weapon,0,10
+Weapon_DualLaser_LargeLaser_5-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_0-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_1-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_2-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_3-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_4-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_5-Westonmach,Weapon,0,10
+Weapon_Laser_ThermalLaser_0-Westonmach,Weapon,0,10
+Weapon_Laser_ThermalLaser_1-Westonmach,Weapon,0,10
+Weapon_Laser_ThermalLaser_2-Westonmach,Weapon,0,10
+Weapon_Laser_ThermalLaser_3-Westonmach,Weapon,0,10
+Weapon_Laser_ThermalLaser_4-Westonmach,Weapon,0,10
+Weapon_Laser_ThermalLaser_5-Westonmach,Weapon,0,10
+Weapon_Laser_SmallLaserPulse_3-Westonmach,Weapon,0,10
+
+-- groups: 5
+itemCollection_WS_weapon_energy_laser_rare,,,
+Weapon_DualLaser_UltraLaser_6-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_7-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_8-Westonmach,Weapon,0,10
+Weapon_DualLaser_UltraLaser_9-Westonmach,Weapon,0,10
+
+-- groups: 7
+itemCollection_WS_weapon_energy_non-laser,,,
+Weapon_Korvaxx_EC_0-Westonmach,Weapon,0,10
+Weapon_Korvaxx_EC_1-Westonmach,Weapon,0,10
+Weapon_Korvaxx_EC_2-Westonmach,Weapon,0,10
+Weapon_Korvaxx_EC_3-Westonmach,Weapon,0,10
+Weapon_Korvaxx_EC_4-Westonmach,Weapon,0,10
+Weapon_Korvaxx_EC_5-Westonmach,Weapon,0,10
+Weapon_Plasma_PAC_0-Westonmach,Weapon,0,10
+Weapon_Plasma_PAC_1-Westonmach,Weapon,0,10
+Weapon_Plasma_PAC_2-Westonmach,Weapon,0,10
+Weapon_Plasma_PAC_3-Westonmach,Weapon,0,10
+Weapon_Plasma_PAC_4-Westonmach,Weapon,0,10
+Weapon_Plasma_PAC_5-Westonmach,Weapon,0,10
+Weapon_Plasma_PHAC_0-Westonmach,Weapon,0,10
+Weapon_Plasma_PHAC_1-Westonmach,Weapon,0,10
+Weapon_Plasma_PHAC_2-Westonmach,Weapon,0,10
+Weapon_Plasma_PHAC_3-Westonmach,Weapon,0,10
+Weapon_Plasma_PHAC_4-Westonmach,Weapon,0,10
+Weapon_Plasma_PHAC_5-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_0-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_1-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_2-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_3-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_4-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_5-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_0-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_1-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_2-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_3-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_4-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_5-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_0-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_1-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_2-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_3-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_4-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_5-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_0-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_1-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_2-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_3-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_4-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_5-Westonmach,Weapon,0,10
+
+-- groups: 4
+itemCollection_WS_weapon_energy_non-laser_rare,,,
+Weapon_JoltexCannon_Small_6-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_7-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_8-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Small_9-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_6-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_7-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_8-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Medium_9-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_6-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_7-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_8-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Large_9-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_6-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_7-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_8-Westonmach,Weapon,0,10
+Weapon_JoltexCannon_Ultra_9-Westonmach,Weapon,0,10
+
+-- groups: 5
+itemCollection_WS_weapon_rocket,,,
+Weapon_LRM_DFMM2_0-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_0-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_1-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_2-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_3-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_4-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_5-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM2_0-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_0-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_1-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_2-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_3-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_4-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_5-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_0-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_1-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_2-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_3-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_4-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_5-Westonmach,Weapon,0,10
+
+-- groups: 3
+itemCollection_WS_weapon_rocket_rare,,,
+Weapon_LRM_DFMM5_6-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_7-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_8-Westonmach,Weapon,0,10
+Weapon_LRM_DFMM5_9-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_6-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_7-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_8-Westonmach,Weapon,0,10
+Weapon_LRM_DFIM5_9-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_6-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_7-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_8-Westonmach,Weapon,0,10
+Weapon_ViperRocket_1_9-Westonmach,Weapon,0,10
+
+-- groups: 2
+itemCollection_WS_ammo_rocket,,,
+Ammo_AmmunitionBox_DFR_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_25x,AmmunitionBox,0,10
+
+-- groups: 8
+itemCollection_WS_weapon_ballistic,,,
+Weapon_MachineGun_Defender_0-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_1-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_2-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_3-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_4-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_5-Westonmach,Weapon,0,10
+Weapon_Reaper_AC_Light,Weapon,0,10
+Weapon_Reaper_AC_Light_1,Weapon,0,10
+Weapon_Reaper_AC_Heavy,Weapon,0,10
+Weapon_Reaper_AC_Heavy_1,Weapon,0,10
+Weapon_Reaper_AC_Sniper,Weapon,0,10
+Weapon_Reaper_AC_Sniper_1,Weapon,0,10
+Weapon_Reaper_UAC_Light,Weapon,0,10
+Weapon_Reaper_UAC_Light_1,Weapon,0,10
+Weapon_Reaper_UAC_Light_2,Weapon,0,10
+Weapon_Reaper_UAC_Light_3,Weapon,0,10
+Weapon_Reaper_UAC_Light_4,Weapon,0,10
+Weapon_Reaper_UAC_Light_5,Weapon,0,10
+Weapon_Reaper_UAC_Heavy,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_1,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_2,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_3,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_4,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_5,Weapon,0,10
+Weapon_Reaper_UAC_Sniper,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_1,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_2,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_3,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_4,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_5,Weapon,0,10
+Weapon_Shotgun_Rager_Small_Buckshot_Cannon_0-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Small_Buckshot_Cannon_1-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Small_Buckshot_Cannon_2-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Small_Buckshot_Cannon_3-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Small_Buckshot_Cannon_4-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Small_Buckshot_Cannon_5-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_0-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_1-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_2-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_3-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_4-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Medium_Buckshot_Cannon_5-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Large_Buckshot_Cannon_0-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Large_Buckshot_Cannon_1-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Large_Buckshot_Cannon_2-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Large_Buckshot_Cannon_3-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Large_Buckshot_Cannon_4-Westonmach,Weapon,0,10
+Weapon_Shotgun_Rager_Large_Buckshot_Cannon_5-Westonmach,Weapon,0,10
+
+-- groups: 4
+itemCollection_WS_weapon_ballistic_rare,,,
+Weapon_MachineGun_Defender_6-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_7-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_8-Westonmach,Weapon,0,10
+Weapon_MachineGun_Defender_9-Westonmach,Weapon,0,10
+Weapon_Reaper_UAC_Light_6,Weapon,0,10
+Weapon_Reaper_UAC_Light_7,Weapon,0,10
+Weapon_Reaper_UAC_Light_8,Weapon,0,10
+Weapon_Reaper_UAC_Light_9,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_6,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_7,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_8,Weapon,0,10
+Weapon_Reaper_UAC_Heavy_9,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_6,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_7,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_8,Weapon,0,10
+Weapon_Reaper_UAC_Sniper_9,Weapon,0,10
+
+-- groups: 5
+itemCollection_WS_ammo_ballistic,,,
+Ammo_AmmunitionBox_DefenderMG_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DefenderMG_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DefenderMG_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Small_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Small_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Medium_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Medium_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Large_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Large_2x,AmmunitionBox,0,10
+
+-- groups: NA
+itemCollection_WS_ammo_all,,,
+Ammo_AmmunitionBox_DFR_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DFR_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_ViperR_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DefenderMG_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DefenderMG_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_DefenderMG_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Light_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Heavy_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_5x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_10x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Reaper_Sniper_25x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Small_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Small_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Medium_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Medium_2x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Large_1x,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Rager_Large_2x,AmmunitionBox,0,10
+
+-- groups: 8
+itemCollection_WS_upgrade_electronic,,,
+Gear_Cockpit_Sensor_Array,Upgrade,0,10
+Gear_Cockpit_Sensor_Array_1,Upgrade,0,10
+Gear_Cockpit_Sensor_Array_2,Upgrade,0,10
+Gear_Cockpit_Sensor_Array_3,Upgrade,0,10
+Gear_Cockpit_Sensor_Array_4,Upgrade,0,10
+Gear_Cockpit_Sensor_Array_5,Upgrade,0,10
+Gear_Cockpit_Sensor_Module,Upgrade,0,10
+Gear_Cockpit_Sensor_Module_1,Upgrade,0,10
+Gear_Cockpit_Sensor_Module_2,Upgrade,0,10
+Gear_Cockpit_Sensor_Module_3,Upgrade,0,10
+Gear_Cockpit_Sensor_Module_4,Upgrade,0,10
+Gear_Cockpit_Sensor_Module_5,Upgrade,0,10
+Gear_General_Response_Facilitator,Upgrade,0,10
+Gear_TargetingComputer_Ballistic,Upgrade,0,10
+Gear_TargetingComputer_Ballistic_1,Upgrade,0,10
+Gear_TargetingComputer_Ballistic_2,Upgrade,0,10
+Gear_TargetingComputer_Ballistic_3,Upgrade,0,10
+Gear_TargetingComputer_Ballistic_4,Upgrade,0,10
+Gear_TargetingComputer_Ballistic_5,Upgrade,0,10
+Gear_TargetingComputer_Energy,Upgrade,0,10
+Gear_TargetingComputer_Energy_1,Upgrade,0,10
+Gear_TargetingComputer_Energy_2,Upgrade,0,10
+Gear_TargetingComputer_Energy_3,Upgrade,0,10
+Gear_TargetingComputer_Energy_4,Upgrade,0,10
+Gear_TargetingComputer_Energy_5,Upgrade,0,10
+Gear_TargetingComputer_Missle,Upgrade,0,10
+Gear_TargetingComputer_Missle_1,Upgrade,0,10
+Gear_TargetingComputer_Missle_2,Upgrade,0,10
+Gear_TargetingComputer_Missle_3,Upgrade,0,10
+Gear_TargetingComputer_Missle_4,Upgrade,0,10
+Gear_TargetingComputer_Missle_5,Upgrade,0,10
+Gear_TargetingComputer_Support,Upgrade,0,10
+Gear_TargetingComputer_Support_1,Upgrade,0,10
+Gear_TargetingComputer_Support_2,Upgrade,0,10
+Gear_TargetingComputer_Support_3,Upgrade,0,10
+Gear_TargetingComputer_Support_4,Upgrade,0,10
+Gear_TargetingComputer_Support_5,Upgrade,0,10
+Gear_TargetingJammer,Upgrade,0,10
+Gear_TargetingJammer_1,Upgrade,0,10
+Gear_TargetingJammer_2,Upgrade,0,10
+Gear_TargetingJammer_3,Upgrade,0,10
+Gear_TargetingJammer_4,Upgrade,0,10
+Gear_TargetingJammer_5,Upgrade,0,10
+
+-- groups: 10
+itemCollection_WS_upgrade_mechanical,,,
+Gear_Actuator_Spinfang_Stomper_0,Upgrade,0,10
+Gear_Actuator_Spinfang_Stomper_1,Upgrade,0,10
+Gear_Actuator_Spinfang_Stomper_2,Upgrade,0,10
+Gear_Actuator_Spinfang_Stomper_3,Upgrade,0,10
+Gear_Actuator_Spinfang_Stomper_4,Upgrade,0,10
+Gear_Actuator_Spinfang_Stomper_5,Upgrade,0,10
+Gear_Cockpit_Armor_0,Upgrade,0,10
+Gear_Cockpit_Armor_1,Upgrade,0,10
+Gear_Cockpit_Armor_2,Upgrade,0,10
+Gear_Cockpit_Armor_3,Upgrade,0,10
+Gear_ForceField_0,Upgrade,0,10
+Gear_ForceField_1,Upgrade,0,10
+Gear_ForceField_2,Upgrade,0,10
+Gear_ForceField_3,Upgrade,0,10
+Gear_ForceField_4,Upgrade,0,10
+Gear_ForceField_5,Upgrade,0,10
+Gear_Engine_SpeedEnhance_0,Upgrade,0,10
+Gear_Engine_SpeedEnhance_1,Upgrade,0,10
+Gear_Engine_SpeedEnhance_2,Upgrade,0,10
+Gear_Engine_SpeedEnhance_3,Upgrade,0,10
+Gear_Engine_SpeedEnhance_4,Upgrade,0,10
+Gear_Engine_SpeedEnhance_5,Upgrade,0,10
+Gear_Jumpjet_Accelerator,Upgrade,0,10
+Gear_Jumpjet_Accelerator_1,Upgrade,0,10
+Gear_Jumpjet_Accelerator_2,Upgrade,0,10
+Gear_Jumpjet_Accelerator_3,Upgrade,0,10
+Gear_Jumpjet_Accelerator_4,Upgrade,0,10
+Gear_Jumpjet_Accelerator_5,Upgrade,0,10
+Gear_JumpJet_Generic_Mega,JumpJet,0,10
+Gear_JumpJet_Spinfang_Omni,JumpJet,0,10
+Gear_HeatSink_Generic_Double,HeatSink,0,10
+Gear_HeatSink_Generic_Triple,HeatSink,0,10
+Gear_HeatSink_Generic_Quad,HeatSink,0,10
+Gear_HeatSink_Generic_MultiCluster,HeatSink,0,10
+Gear_HeatSink_Generic_Mega,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_1,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_2,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_3,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_5,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4x,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4x_1,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4x_2,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4x_3,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4x_4,HeatSink,0,10
+Gear_HeatSink_Generic_Coolant_Plant_4x_5,HeatSink,0,10
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Ballistic Ammo Sizes		Tonnage		Inventory Size
+1x				0.25		1
+2x				0.5		1
+5x				0.75		2
+10x				1.25		2
+25x				2		2
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+----- Total Damage Tables, Format: Total Damage / Total Heat Damage / Total Stability Damage
+-----
+Weapon				Base		1+		2+		3+		4+		5+		6+		7+		8+		9+
+
+-- Energy:
+Laser, Small			20/0/0		25/0/0		30/0/0		30/0/0
+Laser, Medium			25/0/0		30/0/0		35/0/0		25/0/0
+Laser, Large			40/0/0		45/0/0		50/0/0		50/0/0
+Laser, Ultra			50/0/0		55/0/0		60/0/0		65/0/0
+
+Laser, Thermal			0/50/0		0/60/0		0/70/0		0/80/0		0/90/0		0/100/0
+
+MF Laser, Small			40/20/0		45/22/0		50/25/0		55/27/0		60/30/0		65/32/0
+MF Laser, Medium		50/25/0		60/30/0		70/35/0		80/40/0		90/45/0		100/50/0
+MF Laser, Large			80/40/0		90/45/0		100/50/0	105/52/0	115/57/0	125/62/0
+MF Laser, Ultra			100/50/0	110/55/0	120/60/0	130/65/0	140/70/0	150/75/0	160/80/0	170/85/0	180/90/0	190/95/0
+
+PPC				50/0/20		55/0/20		60/0/20
+
+Joltex Cannon, Small		90/0/90		95/0/95		100/0/100	105/0/105	110/0/110	115/0/115	120/0/120	125/0/125	130/0/130	135/0/135
+Joltex Cannon, Medium		140/0/140	156/0/156	172/0/172	188/0/188	204/0/204	220/0/220	236/0/236	252/0/252	268/0/268	284/0/284
+Joltex Cannon, Large		200/0/200	216/0/216	232/0/232	248/0/248	264/0/264	280/0/280	296/0/296	312/0/312	328/0/328	344/0/344
+Joltex Cannon, Ultra		250/0/250	270/0/270	290/0/290	310/0/310	330/0/330	350/0/350	370/0/370	390/0/390	410/0/410	430/0/430
+
+Plasma Cannon			20/200/0	22/220/0	24/240/0	26/260/0	28/280/0	30/300/0
+Plasma Cannon, Heavy		50/500/0	55/550/0	60/600/0	65/650/0	70/700/0	75/750/0
+
+Korvaxx Energy Cannon		200/0/200	220/0/220	240/0/240	260/0/260	280/0/280	300/0/300
+
+-- Ballistic:
+Machine Gun, Generic		15/0/0		15/0/0		15/0/0
+Machine Gun, Defender		16/0/0		20/0/0		25/0/0		30/0/0		36/0/0		45/0/0		54/0/0		64/0/0		76/0/0		90/0/0
+
+AC/2				25/0/5
+AC/5				45/0/10
+AC/10				60/0/20
+AC/20				100/0/40
+
+Reaper Cannon, Sniper		80/0/80		96/0/96
+Reaper Cannon, Light		100/0/100	120/0/120
+Reaper Cannon, Heavy		200/0/200	240/0/240
+Reaper U Cannon, Sniper		120/0/120	136/0/136	152/0/152	168/0/168	184/0/184	200/0/200	216/0/216	232/0/232	248/0/248	264/0/264
+Reaper U Cannon, Light		200/0/200	220/0/220	240/0/240	260/0/260	280/0/280	300/0/300	320/0/320	340/0/340	360/0/360	380/0/380
+Reaper U Cannon, Heavy		300/0/300	340/0/340	380/0/380	420/0/420	460/0/460	500/0/500	540/0/540	580/0/580	620/0/620	660/0/660
+
+Rager Buckshot, Small		100/0/100	110/0/110	120/0/120	130/0/130	140/0/140	150/0/150
+Rager Buckshot, Medium		200/0/200	210/0/210	220/0/220	230/0/230	240/0/240	250/0/250
+Rager Buckshot, Large		300/0/300	310/0/310	320/0/320	330/0/330	340/0/340	350/0/350
+
+-- Rocket / Missle:
+SRM2				16/0/6		16/0/6		16/0/6		16/0/6
+SRM4				32/0/12		32/0/12		32/0/12		32/0/12
+SRM6				48/0/18		48/0/18		48/0/18		48/0/18
+
+LRM5				20/0/10		20/0/10		20/0/10		20/0/10
+LRM10				40/0/20		40/0/20		40/0/20		40/0/20
+LRM15				60/0/30		60/0/30		60/0/30		60/0/30
+LRM20				80/0/40		80/0/40		80/0/40		80/0/40
+
+Deathfire 2			20/0/20
+Deathfire 5			50/0/20		60/0/60		80/0/80		100/0/100	120/0/100	160/0/160	190/0/190	230/0/230	260/0/260	300/0/300
+
+Viper				80/0/80		120/0/120	160/0/160	200/0/200	240/0/240	280/0/280	320/0/320	360/0/360	400/0/400	440/0/440
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+----- Range Tables, in meters, Format: Optimal Range / Maximum Range
+-----
+Weapon				Base		1+		2+		3+		4+		5+		6+		7+		8+		9+
+
+-- Energy:
+Laser, Small			90/90		90/90		90/90		90/90
+Laser, Medium			180/270		180/270		180/270		180/270
+Laser, Large			300/450		300/450		300/450		300/450
+Laser, Ultra			400/600		400/600		400/600		400/600
+
+Laser, Thermal			90/90		90/90		90/90		90/90		90/90		90/90
+
+MF Laser, Small			90/90		90/90		90/90		90/90		90/90		90/90
+MF Laser, Medium		135/270		135/270		135/270		135/270		135/270		135/270
+MF Laser, Large			225/450		225/450		225/450		225/450		225/450		225/450
+MF Laser, Ultra			300/600		300/600		300/600		300/600		300/600		300/600
+
+PPC				360/540		360/540		360/540
+
+Joltex Cannon, Small		60/60		60/60		60/60		60/60		60/60		60/60		60/60		60/60		60/60		60/60
+Joltex Cannon, Medium		210/210		210/210		210/210		210/210		210/210		210/210		210/210		210/210		210/210		210/210
+Joltex Cannon, Large		360/360		360/360		360/360		360/360		360/360		360/360		360/360		360/360		360/360		360/360
+Joltex Cannon, Ultra		480/480		480/480		480/480		480/480		480/480		480/480		480/480		480/480		480/480		480/480
+
+Plasma Cannon			500/500		520/520		540/540		560/560		580/580		600/600
+Plasma Cannon, Heavy		650/650		680/680		710/710		740/740		770/770		800/800
+
+Korvaxx Energy Cannon		340/680		365/730		390/780		415/830		440/880		465/930
+
+-- Ballistic:
+Machine Gun, Generic		90/90		90/90		90/90
+Machine Gun, Defender		45/90		60/120		75/150		90/180		105/210		120/240		135/270		150/300		165/330		180/360
+
+AC/2				480/720
+AC/5				360/540
+AC/10				300/450
+AC/20				180/270
+
+Reaper Cannon, Sniper		450/900		460/920
+Reaper Cannon, Light		250/500		260/520
+Reaper Cannon, Heavy		150/300		160/320
+Reaper U Cannon, Sniper		470/940		480/960		490/980		500/1000	510/1020	520/1040	530/1060	540/1080	550/1100	560/1120
+Reaper U Cannon, Light		270/540		280/560		290/580		300/600		310/620		320/640		330/660		340/680		350/700		360/720
+Reaper U Cannon, Heavy		170/340		180/360		190/380		200/400		210/420		220/440		230/460		240/480		250/500		260/520
+
+Rager Buckshot, Small		125/250		130/260		135/270		140/280		145/290		150/300
+Rager Buckshot, Medium		200/400		205/410		210/420		215/430		220/440		225/450
+Rager Buckshot, Large		250/500		262/525		275/550		287/575		300/600		312/625
+
+-- Rocket / Missle:
+SRM2				180/270		180/270		180/270
+SRM4				180/270		180/270		180/270
+SRM6				180/270		180/270		180/270
+
+LRM5				420/630		420/630		420/630
+LRM10				420/630		420/630		420/630
+LRM15				420/630		420/630		420/630
+LRM20				420/630		420/630		420/630
+
+Deathfire 2			600/1200
+Deathfire 5			600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200
+
+Viper				600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200	600/1200
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+----- Misc Data Tables
+Weapon				Tonnage		Heat Gen.	Size		Base Accuracy
+
+-- Energy:
+Laser, Small			0.5		6		1		-1
+Laser, Medium			1		12		1		-1
+Laser, Large			5		18		2		-1
+Laser, Ultra			0.5		25		1		-1
+
+Laser, Thermal			0		6		1		-1
+
+MF Laser, Small			0		12		1		-1
+MF Laser, Medium		0.25		24		1		-1
+MF Laser, Large			0.5		36		1		-1
+MF Laser, Ultra			0.75		50		1		-1
+
+PPC				7		35		7		0
+
+Joltex Cannon, Small		0.25		24		1		1
+Joltex Cannon, Medium		0.5		48		1		1
+Joltex Cannon, Large		0.75		72		1		1
+Joltex Cannon, Ultra		1.25		100		1		1
+
+Plasma Cannon			0.5		75		1		0
+Plasma Cannon, Heavy		1		150		1		0
+
+Korvaxx Energy Cannon		0.5		100		1		0
+
+-- Ballistic:
+Machine Gun, Generic		0.5		0		1		0
+Machine Gun, Defender		0		0		1		0
+
+AC/2				6		4		1		0
+AC/5				8		8		2		0
+AC/10				12		12		3		0
+AC/20				14		24		4		0
+
+Reaper Cannon, Sniper		0.25		10		1		0
+Reaper Cannon, Light		0.5		20		1		1
+Reaper Cannon, Heavy		1		45		1		1
+Reaper U Cannon, Sniper		0.25		20		1		0
+Reaper U Cannon, Light		0.5		45		1		1
+Reaper U Cannon, Heavy		1		90		1		1
+
+Rager Buckshot, Small		0.25		20		1		2
+Rager Buckshot, Medium		0.5		50		1		2
+Rager Buckshot, Large		0.75		80		1		2
+
+-- Rocket / Missle:
+SRM2				1		4		1		0
+SRM4				2		8		1		0
+SRM6				3		12		2		0
+
+LRM5				2		6		1		0
+LRM10				5		10		2		0
+LRM15				7		14		3		0
+LRM20				10		18		4		0
+
+Deathfire 2			0		0		1		0
+Deathfire 5			0		0		1		0
+
+Viper				0		0		1		0
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------

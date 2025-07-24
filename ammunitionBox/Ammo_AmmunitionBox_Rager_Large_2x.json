@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_Rager_Large",
+    "Capacity" : 200,
+    "Description" : {
+        "Cost" : 570000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Rager Large Buckshot",
+        "UIName" : "Rager Large Buckshot Ammo 2x",
+        "Id" : "Ammo_AmmunitionBox_Rager_Large_2x",
+        "Name" : "Rager Large Buckshot Ammo 2x",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nRager Large 2x Ammo Bins each contain 200 buckshot pellet projectiles and may feed multiple weapons.  This allows a Rager buckshot cannon that uses this ammunition to be fired 20 times per ammunition box of this type.",
+        "Icon" : "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+	"CanExplode" : true,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

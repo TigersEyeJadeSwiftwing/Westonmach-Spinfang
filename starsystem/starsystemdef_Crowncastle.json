@@ -1,0 +1,192 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Crowncastle",
+        "Name": "Crowncastle",
+        "Details": "Crowncastle is a well-populated terran world with massive industries, research, and technologies, among Earth-origin life-inhabited and terraformed land, oceans, and large megacities.  It's megacities and large urban areas house many people and also many pirates that the world's owner, the Lyran Commonwealth, continually fights to suppress and stifle as best as it can.  Aside from bloody, brutally dangerous and volatile urban areas, this world is also home to open areas of terrain including trees, farms, and oceans, all of which are beautiful yet deadly.  While many places are like a bad neighborhood, it still manages to have a thriving role and function as a vacation spot and is home to much recreation, from it's urban casinos to it's outdoor sports stadiums.  One can vacation here if they have money to spend, but should best bring body armor and know how to protect oneself, as they say.  Crowncastles stores and shops are massive and extensive, including it's public stores, it's black market, and it's faction stores that sell to allies and friends of House Steiner.  Businessmen and corporate officials frequent this world, along with their bodyguards.  Repeat visitors quickly learn what places to avoid ending up in, or else they get swallowed up and are often not heard from again, except perhaps their dead body parts being found in filthy places.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 111.45,
+        "y": -516.28,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_terran",
+            "planet_size_medium",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_industry_electronics",
+            "planet_industry_research",
+            "planet_industry_manufacturing",
+            "planet_industry_recreation",
+            "planet_other_megacity",
+            "planet_industry_rich",
+            "planet_industry_agriculture",
+            "planet_name_crowncastle",
+            "planet_faction_steiner",
+            "planet_progress_2",
+            "planet_feature_moon01",
+            "planet_feature_moon02",
+            "planet_feature_moon03"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "polarFrozen",
+        "tundraFrozen",
+        "desertParched",
+        "badlandsParched",
+        "jungleTropical",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 4,
+    "ownerID": "Steiner",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 20,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_battlefield"
+    ],
+    "factionShopOwnerID": "Steiner",
+    "FactionShopItems": [
+        "itemCollection_faction_Steiner",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Crowncastle",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 6,
+    "DifficultyList": [
+        6,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Steiner",
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Steiner",
+        "AuriganPirates"
+    ]
+}

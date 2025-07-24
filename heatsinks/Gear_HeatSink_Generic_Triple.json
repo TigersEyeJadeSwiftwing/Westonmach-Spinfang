@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 10,
+    "Description" : {
+        "Cost" : 145000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Grecklyn-Fost",
+        "Model" : "Triple",
+        "UIName" : "Heat Sink 3x",
+        "Id" : "Gear_HeatSink_Generic_Triple",
+        "Name" : "Heat Sink 3x",
+        "Details" : "Triple Heat Sinks provide a bit more than thrice the efficiency of standard Heat Sinks, though with increased weight. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "-10 Heat",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1.25,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

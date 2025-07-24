@@ -1,0 +1,203 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Bellowton",
+        "Name": "Bellowton",
+        "Details": "Bellowton is a rocky Earth-sized world with a moderate and somewhat sleazy population of street people who lie, cheat, and steal as a lifestyle and global culture that nearly every native person born here is accustomed to, from birth and childhood until death.  People here live under a fake organization that calls itself the local planetary government, and people don't care about what they know all-to-well, which is that the planetary government is owned and run by pirates that blatantly control, steal from, and toy with it, often without hiding it or being discrete in any way, even openly admitting it when asked.  The planetary government pretends to put up a fight and supposedly resist the pirates, while actually letting them win as they know that they depend upon the pirates which they also answer to in their chain of command anyways.  Regardless, Bellowton has well-sized mining and manufacturing industries built on and in the rocky surface of the planet, with plenty of chemical processing plants as well, and a large assortment of manufactured goods and various products to offer in it's markets.  The black market contains the good stuff, and the pirates do maintain an organized market of their own for their special friends with massive inventories that come from a wide range of local and illicit sources.  Here on Bellowton one can buy nearly anything, regardless of how legal it is or isn't, and can quickly be a welcome guest despite the high crime rate if they have money to spend and have stolen, from merchants and pirates who love to make a quick buck any way they can off of someone.  Note that only the pirates do any real serious business here, including any offers for mercenary work.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 134.2,
+        "y": -531.67,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_rocky",
+            "planet_size_medium",
+            "planet_pop_medium",
+            "planet_civ_periphery",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+            "planet_industry_chemicals",
+            "planet_other_pirate",
+            "planet_other_blackmarket",
+            "planet_other_battlefield",
+            "planet_progress_2",
+            "planet_name_bellowton",
+            "planet_faction_pirate",
+            "planet_feature_asteroids",
+            "planet_feature_moon02",
+            "planet_feature_moon03"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "badlandsParched",
+        "desertParched"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 9,
+    "ownerID": "AuriganPirates",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 40,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "F",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 40,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield"
+    ],
+    "factionShopOwnerID": "AuriganPirates",
+    "FactionShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Bellowton",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        3
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Locals"
+    ]
+}

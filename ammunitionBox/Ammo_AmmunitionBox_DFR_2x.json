@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_DFR",
+    "Capacity" : 100,
+    "Description" : {
+        "Cost" : 260500,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "DFR",
+        "UIName" : "Deathfire Rocket Ammo 2x",
+        "Id" : "Ammo_AmmunitionBox_DFR_2x",
+        "Name" : "Deathfire Rocket Ammo 2x",
+        "Details" : "Capacity: 100 rockets.\n\nAmmo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.\n\nDeathfire Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.  Deathfire rockets are compact and lightweight thanks to being built with custom high-tech materials, and have engines, fuel, and warheads that are inert and non-explosive when not in use and stored in ammunition containers, even if armed, as well as during flight, until the warhead is triggered with contact with the target.  As such, their ammo bins won't explode with a critical hit.  The rockets are not much bigger than SRM and LRM missles.",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+	"CanExplode" : false,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

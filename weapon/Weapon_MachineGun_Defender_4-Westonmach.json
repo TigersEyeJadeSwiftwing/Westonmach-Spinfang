@@ -1,0 +1,65 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "MachineGun",
+    "WeaponSubType" : "MachineGun",
+    "MinRange" : 0,
+    "MaxRange" : 210,
+    "RangeSplit" : [
+        105,
+        105,
+        210
+    ],
+    "ammoCategoryID" : "DefenderMG",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 12,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 1.65,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 3,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
+    "Description" : {
+        "Cost" : 185400,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Machine Gun ++++",
+        "UIName" : "Defender MG ++++",
+        "Id" : "Weapon_MachineGun_Defender_4-Westonmach",
+        "Name" : "Defender MG ++++",
+        "Details" : "Machine Guns deal very little damage, have severely limited range, and depend upon volatile ammunition stores. However, they have a greatly increased chance to cause Criticals when they impact a target that has been stripped of its armor.  Westonmach Defender machine guns are made of light-weight high-tech polymers and special non-metallic materials, so that they add no significant weight to a 'Mech they are installed on.  Upgraded variants have enhanced range and can fire more shots during an attack, and also sometimes have an accuracy bonus.  Westonmach Defender machine guns do not use gunpowder or any explosive materials in the ammunition.  The ammunition is a bunch of specially shaped polymer pellets that have no casing and leave no shells behind after firing, and the gun itself - not the ammunition - is what uses non-magnetic sub-atomic repulsion kinetic generation technology in short repeated impulses to accelerate the rounds and give them sudden inertia and velocity that makes them fly out of the barrel and into the target, subject to air drag which makes more distant targets get hit with a bit less punch.  Because the gun has what makes the rounds fly through the air, not the ammunition, increased performance can be achieved by upgrading the gun, but using the same ammunition.  What this means is that upgraded models of a Defender machine gun have better range and more punch that means more damage, but with the same ammunition bins using the same type of ammunition installed in a battlemech.  This is also why more than one Defender machine gun can be installed, sharing ammunition, yet doing different damage and having different range and other results.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "36 Total Dmg",
+    "BonusValueB" : "+120m Range",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

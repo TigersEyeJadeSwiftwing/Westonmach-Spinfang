@@ -1,0 +1,196 @@
+{
+    "Description": {
+        "Id": "starsystemdef_ParadiseHills",
+        "Name": "Paradise Hills",
+        "Details": "A rich, tropical world of jungle and oceans, Paradise Hills is filled with farms, massive electronics and 'Mech combat equipment industries and research, and unfortunately pirates who want to plunder and steal from it all.  Owned by the Draconis Combine, the jungles of this world are ferocious in how dangerous they are, as the fighting with the pirates has gotten a bit out of hand in recent years, with both pirates and House Kurita fighting harder and putting massive resources into trying to win.  So far the Draconis Combine has maintained control of this world, though gripping it with a bloody and wounded hand, so to speak, hoping to one day stomp out the pirates and return this world into being a vacation and recreation hub that it used to be.  Paradise Hills is a place of a lot of industries and a powerful economy, lots of money, and lots of blood.  One must be brave to do business here.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -50.52,
+        "y": -406.42,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_tropical",
+            "planet_size_medium",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_industry_electronics",
+            "planet_industry_research",
+            "planet_industry_chemicals",
+            "planet_other_battlefield",
+            "planet_industry_rich",
+            "planet_industry_aquaculture",
+            "planet_industry_agriculture",
+            "planet_progress_2",
+            "planet_name_paradisehills",
+            "planet_faction_kurita",
+            "planet_feature_moon01",
+            "planet_feature_moon02",
+            "planet_feature_moon03",
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 8,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 40,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "K",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 32,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "CoreSystemID": "starsystemdef_ParadiseHills",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 6,
+    "DifficultyList": [
+        6,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Kurita",
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Kurita",
+        "AuriganPirates"
+    ]
+}

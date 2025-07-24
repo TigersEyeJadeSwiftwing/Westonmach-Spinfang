@@ -1,0 +1,229 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Sky_Jewel",
+        "Name": "Sky Jewel",
+        "Details": "Sky Jewel is a terran Earth-like paradise world that is clean and low-pollution, completely terraformed with Earth-origin life, with a large, wealthy population of well-to-do nobles and classy merchants, as well as workers of sorts in it's many high-technology industries of various types.  It is a cultural center for arts and universities, as well as a source of food for nearby systems with it's agricultural exports from it's farms, and is known for exporting many fine foods and other technology products of sorts, with huge markets and thriving businesses.  Sky Jewel has it's dense urban areas and cities as well, and has a local regional headquarters located here for it's owner, the Draconis Combine.  If there is one downside, it would be the brutal and barbaric pirates that fight tooth and nail here, showing no mercy at times, and having powerful battlemechs in organized groups that conduct terrorist operations from time to time, in urban areas as well as across the countryside.  Black market merchants are among the many marketplaces here, although House Kurita fights the pirates and has succeeded in making it too dangerous for the pirates to openly organize to the point of offering any MRB contracts here, and the Kuritans also offer their own contracts quite frequently to fight such pirates, combining everything it can to keep pirates suppressed and reduced as much as possible at all times, using help from all sources.  The Draconis Combine has a seat of government here, and offers much for both merchants as well as mercenaries who want to make money here in Sky Jewel.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -57.42,
+        "y": -411.91,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_terran",
+            "planet_size_medium",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_industry_electronics",
+            "planet_industry_mining",
+            "planet_industry_manufacturing",
+            "planet_industry_chemicals",
+            "planet_industry_research",
+            "planet_industry_rich",
+            "planet_industry_aquaculture",
+            "planet_industry_agriculture",
+            "planet_other_blackmarket",
+            "planet_other_factionhq_kurita",
+            "planet_feature_comet",
+            "planet_progress_2",
+            "planet_name_skyjewel",
+            "planet_faction_kurita",
+            "planet_feature_moon02",
+            "planet_feature_moon03",
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "desertParched",
+        "badlandsParched",
+        "jungleTropical",
+        "polarFrozen",
+        "tundraFrozen",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 15,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 80,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "O",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 50,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_manufacturing",
+	"itemCollection_shop_chemicals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_manufacturingProgression",
+	"itemCollection_shop_chemicalsProgression",
+	"itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_researchProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_manufacturing",
+	"itemCollection_shop_chemicals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_manufacturingProgression",
+	"itemCollection_shop_chemicalsProgression",
+	"itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_researchProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_manufacturing",
+	"itemCollection_shop_chemicals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_manufacturingProgression",
+	"itemCollection_shop_chemicalsProgression",
+	"itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_researchProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Sky_Jewel",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 6,
+    "DifficultyList": [
+        6,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Kurita"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates"
+    ]
+}

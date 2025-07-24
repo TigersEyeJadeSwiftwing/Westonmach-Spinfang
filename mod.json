@@ -1,0 +1,43 @@
+{
+    "Name": "Westonmach-Spinfang",
+    "Author": "TJS",
+    "Enabled": true,
+
+    "Version": "1.1.1",
+    "BattleTechVersionMin": "1.9.1",
+
+    "DependsOn": [
+    ],
+
+    "OptionallyDependsOn": [
+    ],
+
+    "ConflictsWith": [],
+
+    "DataAddendumEntries":[
+    	{
+      		"name": "BattleTech.AmmoCategoryEnumeration",
+      		"path": "AmmoCategory.json"
+    	}
+    ],
+    "Manifest": [
+      	{ "Type": "Sprite", "Path": "sprites_pilots", "ShouldMergeJSON": false, "AddToDB": true },
+      	{ "Type": "PilotDef", "Path": "pilot", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis_original", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "AmmunitionDef", "Path": "ammunition", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "WeaponDef", "Path": "weapon", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "HeatSinkDef", "Path": "heatsinks", "ShouldMergeJSON": false, "AddToDB": true  },
+      	{ "Type": "JumpJetDef", "Path": "jumpjets", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ItemCollectionDef", "Path": "item_collections_WS" },
+        { "Type": "ItemCollectionDef", "Path": "item_collections_WS_append", "ShouldAppendText": true },
+      	{ "Type": "ShipModuleUpgrade", "Path": "shipUpgrades" },
+        { "Type": "SimGameConstants", "Path": "simGameConstants" },
+        { "Type": "StarSystemDef", "Path": "starsystem", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "SimGameMilestoneDef", "Path": "milestones", "ShouldMergeJSON": true, "AddToDB": false }
+    ]
+}

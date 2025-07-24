@@ -1,0 +1,5 @@
+itemCollection_WS_weapon_rocket,Reference,100,1
+itemCollection_WS_weapon_rocket_rare,Reference,12,1
+itemCollection_WS_ammo_rocket,Reference,40,1
+itemCollection_WS_upgrade_electronic,Reference,32,1
+itemCollection_WS_upgrade_mechanical,Reference,40,1

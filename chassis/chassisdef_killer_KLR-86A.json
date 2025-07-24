@@ -1,0 +1,310 @@
+{
+    "Description": {
+        "Cost": 16250125,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Killer",
+        "Id": "chassisdef_killer_KLR-86A",
+        "Name": "Killer",
+        "Details": "Huge and monsterous, yet quick and fast as well, the Killer will win a battle for you, again and again.  It's performance will leave you with a grin and a grin.  Oh, and it supports a mountain of armor, too.  It can just about pick up, crumple, and throw darn near any other 'Mech like a cheap toy.  It supports tons of weaponry and/or armor, and it runs and walks farther and faster than it's distant cousin, the Atlas.  For maximum jumping capability, it needs two jump jets, typically the mega-size ones meant for 'Mechs over 100 tons.  It also has enhanced sensor range for detecting prey.  Compared to the Atlas, its a bit more customizable, can handle more stuff loaded into it, and handles melee far better than the Atlas, as well as vastly improved ability to handle stability damage.",
+        "Icon": "uixTxrIcon_atlas"
+    },
+    "MovementCapDefID": "movedef_killer_KLR-86A",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_atlas",
+    "PrefabIdentifier": "chrPrfMech_atlasBase-001",
+    "PrefabBase": "atlas",
+    "Tonnage": 105,
+    "InitialTonnage": 17,
+    "weightClass": "ASSAULT",
+    "BattleValue": 1058100,
+    "Heatsinks": 0,
+    "TopSpeed": 60,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 150,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.2,
+    "VisibilityMultiplier": 1.2,
+    "SensorRangeMultiplier": 1.2,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 150,
+    "MeleeInstability": 150,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 110,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 10,
+    "DFAInstability": 110,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+		{
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 4250,
+            "MaxRearArmor": -1,
+            "InternalStructure": 350
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 3500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 350
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 5000,
+            "MaxRearArmor": 4000,
+            "InternalStructure": 400
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 9000,
+            "MaxRearArmor": 7500,
+            "InternalStructure": 650
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 5000,
+            "MaxRearArmor": 4000,
+            "InternalStructure": 400
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 3500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 350
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 10000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 650
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 10000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 650
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "KLR-86A",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Total Devastation",
+    "YangsThoughts": "Huge and monsterous, yet quick and fast as well, the Killer will win a battle for you, again and again.  It's performance will leave you with a grin and a grin.  Oh, and it supports a mountain of armor, too.  It can just about pick up, crumple, and throw darn near any other 'Mech like a cheap toy.  It supports tons of weaponry and/or armor, and it runs and walks farther and faster than it's distant cousin, the Atlas.  For maximum jumping capability, it needs two jump jets, typically the mega-size ones meant for 'Mechs over 100 tons.  It also has enhanced sensor range for detecting prey.  Compared to the Atlas, its a bit more customizable, can handle more stuff loaded into it, and handles melee far better than the Atlas, as well as vastly improved ability to handle stability damage."
+}

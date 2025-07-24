@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC20",
+    "MinRange" : 0,
+    "MaxRange" : 440,
+    "RangeSplit" : [
+        220,
+        220,
+        440
+    ],
+    "ammoCategoryID" : "ReaperHeavy",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 90,
+    "Damage" : 500,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1.125,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 3,
+    "Instability" : 500,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
+    "Description" : {
+        "Cost" : 2199000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Reaper Heavy Autocannon +++++",
+        "UIName" : "Reaper Heavy Ultra AC +++++",
+        "Id" : "Weapon_Reaper_UAC_Heavy_5",
+        "Name" : "Reaper Heavy Ultra AC +++++",
+        "Details" : "Reaper autocannons are known for their massive damage and sometimes long range.  Reaper autocannons normally fire either a single or a few shots.  They are compact in size.  Reaper autocannons suffer from recoil effects from continuous fire.  Reaper autocannons use ammunition that has no explosive parts, and is made up entirely of the projectile itself, leaving no shell or casing after firing.  The round is accelerated by the cannon itself when it is in the barrel.  The round won't explode or pose any hazard if hit, physically abused, or even set on fire.  Reaper ammunition bins, as such, don't explode when hit.  Because of this design is the fact that using an upgraded cannon, but with the same ammunition, results in better range and more damage, as the round is given kinetic velocity that accelerates it harder and faster for more inertia and more speed.  This is also why multiple Reaper cannons can use the same ammunition, yet if one cannon is upgraded and another isn't, the two cannons fire the same type of rounds differently, having different damage and range.  Upgraded Reaper cannons can do more damage and have better range.  Upgraded variants also sometimes have better accuracy.  Ultra variants fire the same ammuntion with more speed, inertia, and distance.\n\nReaper autocannons and their ammunition both use non-metal super-light polymers that are lighter and stronger than any metal.  They are compact and take up less space than autocannons by other companies, although like other autocannons Reaper cannons do generate heat.  Reaper autocannons, because of superior design, have a slight bonus to critical hits once armor on a target is defeated.  Reaper autocannons and their polymers are manufactured and designed exclusively by Westonmach and have never successfully been reverse engineered.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "+200 Damage",
+    "BonusValueB" : "+100m Range",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

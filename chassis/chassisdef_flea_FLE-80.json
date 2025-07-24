@@ -1,0 +1,238 @@
+{
+    "Description": {
+        "Cost": 1500000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Flea",
+        "Id": "chassisdef_flea_FLE-80",
+        "Name": "Flea",
+        "Details": "The Flea FLE-80 is a diminutive special model 'Mech that has been upgraded by Spinfang and Westonmach, with good short-range firepower for its size.  It is equipped with targeting baffles that make it harder to hit with ranged weaponry, and supports more tonnage than the regular Flea models.  It also has twice as much internal structural strength, and much larger maximum armor in all areas, so it can be customized to be thinly armored and have more weapons, or be armed much like the basic models yet be tough like a bug that just doesn't die no matter how many times you stomp on it.",
+        "Icon": "uixTxrIcon_flea"
+    },
+    "MovementCapDefID": "movedef_flea_FLE-15",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_flea",
+    "PrefabIdentifier": "chrPrfMech_fleaBase-001",
+    "PrefabBase": "flea",
+    "Tonnage": 27,
+    "InitialTonnage": 7,
+    "weightClass": "LIGHT",
+    "Heatsinks": 0,
+    "MaxJumpjets": 6,
+    "Stability": 150,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 32,
+    "MeleeInstability": 50,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 34,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 2,
+    "DFAInstability": 36,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 450,
+            "MaxRearArmor": -1,
+            "InternalStructure": 32
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 300,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 500,
+            "MaxRearArmor": 250,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 600,
+            "MaxRearArmor": 300,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 500,
+            "MaxRearArmor": 250,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 300,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 6.5,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 6.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 6.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 6.5,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 6.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 6.5,
+            "z": -0.5
+        },
+        {
+            "x": 1.25,
+            "y": 3.5,
+            "z": 0
+        },
+        {
+            "x": -1.25,
+            "y": 3.5,
+            "z": 0
+        }
+    ],
+    "VariantName": "FLE-80",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Light Striker & Scout",
+    "YangsThoughts": "The Flea FLE-80 is a diminutive special model 'Mech that has been upgraded by Spinfang and Westonmach, with good short-range firepower for its size.  It is equipped with targeting baffles that make it harder to hit with ranged weaponry, and supports more tonnage than the regular Flea models.  It also has twice as much internal structural strength, and much larger maximum armor in all areas, so it can be customized to be thinly armored and have more weapons, or be armed much like the basic models yet be tough like a bug that just doesn't die no matter how many times you stomp on it.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Gear_General_Targeting_Baffle",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_General_Targeting_Baffle",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
+}

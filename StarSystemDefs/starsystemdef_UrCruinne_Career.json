@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_UrCruinne_Career",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_WS_Custom_1"
+		}
+    ]
+}

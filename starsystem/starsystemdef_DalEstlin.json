@@ -1,0 +1,197 @@
+{
+    "Description": {
+        "Id": "starsystemdef_DalEstlin",
+        "Name": "Dal Estlin",
+        "Details": "Property of the Capellan Confederation, Dal Estlin is a dangerous Earth-sized, terraformed tropical world of oceans, jungle, urban cities, large-scale mining operations and factories of sorts, and terribly ruthless pirates that make the planet a very nasty place to set foot on.  It is well populated, with a lot of busy industries, and workers put up with people being slaughtered by the pirates and House Liao's attempts to crush them on a daily basis.  The Capellans make it no secret that they welcome all the help they can get in fighting the pirates, which operate in large organized groups, sometimes taking control of entire areas and terrorizing people in large numbers, with their own armies and battlemechs.  For a warrior, this is a good place to make money, as well as a good place to get yourself killed very quickly.  Regardless, Dal Estlin has thriving marketplaces with much for sale, for those who carry a large wallet and wear some good body armor for all the theives and pirates.  Those who are too refined and too civilized have no business here, and just don't survive - more than a few quick and bloodied seconds, one could say.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 5.46,
+        "y": -400.59,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_tropical",
+            "planet_size_medium",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+            "planet_industry_chemicals",
+            "planet_other_battlefield",
+            "planet_industry_rich",
+            "planet_progress_2",
+            "planet_name_dalestlin",
+            "planet_faction_liao",
+            "planet_feature_moon01",
+            "planet_feature_moon02",
+            "planet_feature_moon03",
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 3,
+    "ownerID": "Liao",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 40,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "K",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 40,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "factionShopOwnerID": "Liao",
+    "FactionShopItems": [
+        "itemCollection_faction_Liao",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "CoreSystemID": "starsystemdef_DalEstlin",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 6,
+    "DifficultyList": [
+        6,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Liao",
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Liao",
+        "AuriganPirates"
+    ]
+}

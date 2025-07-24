@@ -1,0 +1,36 @@
+{
+	"TargetID": "SimGameConstants",
+	"Instructions" : [
+		{
+			"JSONPath": "Finances",
+			"Action": "ObjectMerge",
+			"Value": {
+				"ContractPricePerDifficulty" : 8000000,
+				"ContractPriceVariance" : 0.15,
+				"ContractFloorSalaryMultiplier" : 5.0
+			}
+		},
+		{
+			"JSONPath": "Story",
+			"Action": "ObjectMerge",
+			"Value": {
+				"StartingCBills" : 320000000,
+				"StartingMechTechSkill" : 35,
+				"StartingMedTechSkill" : 8,
+				"MaxMechWarriorsPerPod" : 10,
+				"StartingPlayerMech" : "mechdef_blackjack_BJ-1_INIT",
+				"MaxContractsPerSystem" : 14
+			}
+		},
+		{
+			"JSONPath": "Story/StartingLance",
+			"Action": "Replace",
+			"Value": [
+				"mechdef_pest_P-7",
+				"mechdef_pest_P-7",
+				"mechdef_fireshrike_FS-5FX",
+				"mechdef_pest_P-7"
+			]
+		}
+	]
+}

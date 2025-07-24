@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_fireshrike_FS-5FX",
+      "Name" : "MovementCapabilitiesDef for Fire Shrike FS-5FX",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 300.0,
+   "MaxSprintDistance" : 450.0,
+   "WalkVelocity" : 16.0,
+   "RunVelocity" : 28.0,
+   "SprintVelocity" : 32.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 25.0,
+   "SprintAcceleration" : 35.0,
+   "MaxRadialVelocity" : 50.0,
+   "MaxRadialAcceleration" : 40.0,
+   "MaxJumpVel" : 50.0,
+   "MaxJumpAccel" : 20.0,
+   "MaxJumpVerticalAccel" : 45.0
+}

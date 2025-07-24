@@ -1,0 +1,6 @@
+itemCollection_WS_weapon_energy_laser,Reference,120,1
+itemCollection_WS_weapon_energy_laser_rare,Reference,8,1
+itemCollection_WS_weapon_energy_non-laser,Reference,140,1
+itemCollection_WS_weapon_energy_non-laser_rare,Reference,32,1
+itemCollection_WS_upgrade_electronic,Reference,64,1
+itemCollection_WS_upgrade_mechanical,Reference,40,1

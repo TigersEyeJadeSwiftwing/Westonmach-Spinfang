@@ -1,0 +1,71 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 19851000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Jammer",
+        "UIName" : "Targeting Jammer +++++",
+        "Id" : "Gear_TargetingJammer_5",
+        "Name" : "Targeting Jammer +++++",
+        "Details" : "This device scrambles targeting systems of ranged weapons that target or attack the 'Mech it is installed in.  This makes all ranged attacks have increased difficulty to hit the 'Mech.  Only one installed jammer will have any effect at any time, so multiple jammers will not provide cumulative protection.  Target jamming computers by Westonmach add no significant weight to a 'Mech they are installed in, their weight being nowhere near heavy armor or metals used for mounted weapon barrels or systems, etc.  They use 31st Century super-efficient, small and lightweight high-tech microchips and processors.",
+        "Icon" : "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA" : "+6 Hit Defense",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-TargetJammer-HitDefense1",
+                "Name" : "TARGETING JAMMER",
+                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "6",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

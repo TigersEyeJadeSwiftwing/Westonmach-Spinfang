@@ -1,0 +1,168 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Blauerkomet",
+        "Name": "Blauerkomet",
+        "Details": "A large, tropical jungle and ocean planet, Blauerkomet is a thriving agricultural world with many farms, and high-technology industries which in particular have very good electronics.  Blauerkomet exports much food and many consumer electronics to nearby star systems, and has a wealthy population.  Part of an off-shoot of the Lyran Commonwealth, this world has minor troubles with pirates and their meddling with business and nearby spacecraft and merchants, but such problems are usually petty.  On the other hand, the local authorities on Blauerkomet aren't used to major pirate-related issues, and don't have experience or know-how in dealing with more significant pirate threats.  The name Blauerkomet, by the way, translates into 'Blue Comet.'",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 60.12,
+        "y": -524.01,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_tropical",
+            "planet_size_large",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_industry_electronics",
+            "planet_industry_research",
+	    "planet_industry_agriculture",
+	    "planet_industry_aquaculture",
+            "planet_industry_rich",
+	    "planet_feature_comet",
+            "planet_name_blauerkomet",
+            "planet_faction_steiner",
+            "planet_progress_2",
+            "planet_feature_moon01"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 9,
+    "ownerID": "Steiner",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 40,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "A",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 32,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronicsProgression"
+    ],
+    "factionShopOwnerID": "Steiner",
+    "FactionShopItems": [
+        "itemCollection_faction_Steiner",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronicsProgression"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Blauerkomet",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -2,
+    "DifficultyList": [
+        -2,
+        3
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Steiner"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates"
+    ]
+}

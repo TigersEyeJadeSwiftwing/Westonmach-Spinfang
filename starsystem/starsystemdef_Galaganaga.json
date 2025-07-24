@@ -1,0 +1,183 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Galaganaga",
+        "Name": "Galaganaga",
+        "Details": "A remote Earth-sized sandy desert world that is frequently thought of across the stars as a hole in space, Galaganaga is a planet that certainly has plenty of holes in it, in more ways than one.  In a literal sense, it is a planet with many mines and established mining and manufacturing industries, though in other ways the population mostly lives in seedy, rough towns where organized pirates are the real planetary government, which control, bully, rape, and steal from a facade puppet local planetary government that is helpless within their clutches.  Pirates do plenty of business here, and are the ones that offer any MRB contracts.  On the other hand, the population is light in some areas, and sparse to unpopulated in others, and while the local government is broke and corrupt, and actually depends upon the corruption, there are plenty of places where one can go on Galaganaga where there are few to no people and mostly no one will bother you unless someone is angry at you and wants you hurting or dead.  There are no big cities here, so overall the populated areas are unpleasant and ruled by corruption and crime, yet somewhat tame overall for those who don't cause trouble.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 129.85,
+        "y": -526.84,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_desert",
+            "planet_size_medium",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+            "planet_other_pirate",
+            "planet_other_blackmarket",
+            "planet_other_battlefield",
+            "planet_event_pox",
+            "planet_progress_2",
+            "planet_name_galaganaga",
+            "planet_faction_pirate",
+            "planet_feature_moon01",
+            "planet_feature_moon02"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "desertParched"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 9,
+    "ownerID": "AuriganPirates",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 40,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "A",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 40,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield"
+    ],
+    "factionShopOwnerID": "AuriganPirates",
+    "FactionShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield"
+    ],
+    "CoreSystemID": "starsystemdef_Galaganaga",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -3,
+    "DifficultyList": [
+        -3,
+        2
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Locals"
+    ]
+}

@@ -1,0 +1,354 @@
+{
+    "Description": {
+        "Cost": 28800000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "Westonmach",
+        "Model": "",
+        "UIName": "Lunatic",
+        "Id": "chassisdef_lunatic_LNC-99",
+        "Name": "Lunatic",
+        "Details": "At 140 tons, the Lunatic is a real head-turner of a 'Mech, and about as heavy as you can get.  If you want the very baddest and the best, at least tonnage-wise, this is probably it.  It carries anything you want to put into it, has armor that can take a blow that splits the planet in half, and walks and runs really fast and far.  If you still have a mommy and daddy that get you stuff for Christmas, L-u-n-a-t-i-c is easy enough to spell on a short must-have list for Santa...  (Yikes...)",
+        "Icon": "uixTxrIcon_highlander"
+    },
+    "MovementCapDefID": "movedef_lunatic_LNC-99",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_highlander",
+    "PrefabIdentifier": "chrPrfMech_highlanderBase-001",
+    "PrefabBase": "highlander",
+    "Tonnage": 140,
+    "InitialTonnage": 25,
+    "weightClass": "ASSAULT",
+    "BattleValue": 9642000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 300,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.4,
+    "VisibilityMultiplier": 1.4,
+    "SensorRangeMultiplier": 1.4,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 300,
+    "MeleeInstability": 300,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 150,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 5,
+    "DFAInstability": 150,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+		    {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 6000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 450
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 6200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 450
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 7250,
+            "MaxRearArmor": 6250,
+            "InternalStructure": 600
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+		    {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 11000,
+            "MaxRearArmor": 9200,
+            "InternalStructure": 800
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 7250,
+            "MaxRearArmor": 6250,
+            "InternalStructure": 600
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 6200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 450
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 14000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 750
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 14000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 750
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "LNC-99",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Rule (No Really!)",
+    "YangsThoughts": "At 140 tons, the Lunatic is a real head-turner of a 'Mech, and about as heavy as you can get.  If you want the very baddest and the best, at least tonnage-wise, this is probably it.  It carries anything you want to put into it, has armor that can take a blow that splits the planet in half, and walks and runs really fast and far.  If you still have a mommy and daddy that get you stuff for Christmas, L-u-n-a-t-i-c is easy enough to spell on a short must-have list for Santa...  (Yikes...)"
+}

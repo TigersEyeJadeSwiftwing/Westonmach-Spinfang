@@ -1,0 +1,12 @@
+itemCollection_WS_weapon_energy_laser,Reference,36,1
+itemCollection_WS_weapon_energy_laser_rare,Reference,3,1
+itemCollection_WS_weapon_energy_non-laser,Reference,42,1
+itemCollection_WS_weapon_energy_non-laser_rare,Reference,12,1
+itemCollection_WS_weapon_rocket,Reference,30,1
+itemCollection_WS_weapon_rocket_rare,Reference,4,1
+itemCollection_WS_ammo_rocket,Reference,12,1
+itemCollection_WS_weapon_ballistic,Reference,48,1
+itemCollection_WS_weapon_ballistic_rare,Reference,5,1
+itemCollection_WS_ammo_ballistic,Reference,30,1
+itemCollection_WS_upgrade_electronic,Reference,96,1
+itemCollection_WS_upgrade_mechanical,Reference,120,1

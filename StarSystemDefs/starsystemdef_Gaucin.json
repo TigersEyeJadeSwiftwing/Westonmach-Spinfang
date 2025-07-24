@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Gaucin",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_WS_Custom_1"
+		}
+    ]
+}

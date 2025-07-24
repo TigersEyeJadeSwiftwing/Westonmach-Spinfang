@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_Reaper_H",
+    "Capacity" : 100,
+    "Description" : {
+        "Cost" : 2000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Reaper Heavy AC",
+        "UIName" : "Reaper Heavy AC Ammo 10x",
+        "Id" : "Ammo_AmmunitionBox_Reaper_Heavy_10x",
+        "Name" : "Reaper Heavy AC Ammo 10x",
+        "Details" : "Capacity: 100 rounds, good for 100 attacks.\n\nAmmo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Most Ammo Bins will normally explode and destroy their installed location when they receive a Critical Hit.\n\nHeavy Reaper 10x Ammo Bins each contain 100 rounds and may feed multiple weapons.  As usual, the weapons can be installed in a location other than where the ammunition is stored, and mechanisms inside the 'Mech internally move around and feed the ammunition internally to the weapon.  Reaper Auto Cannon ammunition does not explode when hit, struck with great force, crushed, or even set on fire or superheated.  This is because Reaper Auto Cannons don't use antiquated old gunpowder or anything like such to fire the rounds across any distance to a target, but instead high-technology sub-atomic and non-magnetic reactions that are triggered and enhanced by the cannon itself.  This is also why upgraded versions of Reaper Auto Cannons can fire the same ammunition harder, farther, and faster than basic models.  In other words, its really the cannon that does the work in making the projectiles fire and come out of the barrel, and not anything in the ammunition itself, not any gunpowder or compressed substance that isn't in the ammunition anyways.  The ammunition itself has no shell or casing, and is nothing more than the projectile that flies through the air into the target.  It is contructed out of 31st Century high-tech polymers patented by Westonmach that no one else, so far at least, has been able to reverse engineer or replicate with any success.  Any information otherwise over the years has invariably been proven to be false rumor.",
+        "Icon" : "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.25,
+	"CanExplode" : false,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

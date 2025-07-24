@@ -1,0 +1,137 @@
+{
+    "DissipationCapacity" : 1250,
+    "Description" : {
+        "Cost" : 26625165,
+        "Rarity" : 9,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Coolant Plant 4x +",
+        "UIName" : "Coolant Plant 4x +",
+        "Id" : "Gear_HeatSink_Generic_Coolant_Plant_4x_1",
+        "Name" : "On-board Coolant Plant 4x +",
+        "Details" : "On-board coolant plants keep your 'Mech chill like you wouldn't believe.  Coolant plants are installed with pipes and hoses that are connected throughout the 'Mech, much like air ducts that go throughout with heat sinks, but coolant plants use special super-chilled liquid chemical coolant to cool all areas of the 'Mech no matter where the guts of the machinery and pumps are installed.  If by chance one isn't enough, additional coolant plants can be installed in other slots, though this can get expensive - These things aren't cheap.  Like heat sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively, even though the pipes and hoses are sealed and don't have outlets, unlike heat sinks.  Coolant plants also raise the maximum heat threshold for a 'Mech, with each coolant plant installed.  This upgraded model weighs a little less and cools as much as five standard coolant plants.",
+        "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+    },
+    "BonusValueA" : "-1250 Heat",
+    "BonusValueB" : "+125 Max Heat",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1.75,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Heat_Max-T2",
+                "Name" : "MAX HEAT INCREASED",
+                "Details" : "Maximum allowed heat increased by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_HeatBank"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "125",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Overheat_Threshold-T2",
+                "Name" : "Increased Overheat Level",
+                "Details" : "Overheat threshold increased by 125",
+                "Icon" : "uixSvgIcon_equipment_HeatBank"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "125",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

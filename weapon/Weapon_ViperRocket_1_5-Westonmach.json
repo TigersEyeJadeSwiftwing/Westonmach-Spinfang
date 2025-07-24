@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM6",
+    "MinRange" : 0,
+    "MaxRange" : 1200,
+    "RangeSplit" : [
+        600,
+        600,
+        1200
+    ],
+    "ammoCategoryID" : "ViperR",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 40,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 7,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 40,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 2550000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Viper Rocket Launcher +++++",
+        "UIName" : "Viper RL +++++",
+        "Id" : "Weapon_ViperRocket_1_5-Westonmach",
+        "Name" : "Viper RL +++++",
+        "Details" : "Viper rockets are self-guided, yet fire-and-forget high-potency rockets that have limited ability to slightly adjust trajectory mid-flight to nail targets at medium and long ranges, yet also work at close range, and have no minimum distance required to work properly.  They are not capable of indirect fire, and need a straight path from the launcher to the target.  Viper rocket launchers don't often fire a whole lot of rockets at once, but the rockets themselves pack a lot of punch in each rocket to make up for this.  Viper rockets have superior range compared to SRMs, but less than that of LRMs, and much less than that of Deathfire Rockets.  Each Viper rocket does a little more damage than a single Deathfire rocket, and is built very differently than a Deathfire rocket.  Viper rockets lack any capability or variant that can incinerate or superheat a target, unlike Deathfire rockets which can be programmed by the launcher to fire with different settings.  The reason for this has to do with a very different warhead design found inside of a Viper rocket.  Viper rocket launchers are made with high-tech lightweight non-metal polymers and special 31st composite fiber materials that only Westonmach knows how to manufacture, protected by patent and trade secret laws, which so far no one else has been known to reverse engineer successfully.  As such, they don't conduct heat as much as metal, meaning less heat buildup, they are stronger than metal, and much lighter in weight, and some models add no significant tonnage to a 'Mech they are installed in.  They are also non-ferrous, meaning they don't contain iron and magnets won't stick to them like they would to metal.  Upgraded models are even lighter, and redesinged to fire more rockets at once, but cost more C-bills to buy.  Ammunition for Viper rockets can be expensive, and one can blame Westonmach's monopoly on the technologies used for that, as well as their corporate policies.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "7 Rockets per attack",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm6",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "Description": {
+        "Cost": 5900000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "JagerMech",
+        "Id": "chassisdef_jagermech_JM6-WS",
+        "Name": "JagerMech",
+        "Details": "The JagerMech WS model is specialized in ballistic weapon support.  It has been redesigned and enhanced by Spinfang and Westonmach to support more tonnage, more armor, and more weapons overall, as well as only need two jump jets for full jumping capability.  It doesn't support missles or rockets though, so it won't do indirect fire.",
+        "Icon": "uixTxrIcon_jagermech"
+    },
+    "MovementCapDefID": "movedef_jagermech_JM6-S",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_jagermech",
+    "PrefabIdentifier": "chrPrfMech_jagermechBase-001",
+    "PrefabBase": "jagermech",
+    "Tonnage": 79,
+    "InitialTonnage": 8,
+    "weightClass": "HEAVY",
+    "BattleValue": 5514000,
+    "Heatsinks": 0,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 320,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.125,
+    "VisibilityMultiplier": 1.125,
+    "SensorRangeMultiplier": 1.125,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 120,
+    "MeleeInstability": 130,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 160,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 4,
+    "DFAInstability": 160,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 450,
+            "MaxRearArmor": -1,
+            "InternalStructure": 32
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1500,
+            "MaxRearArmor": 750,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2100,
+            "MaxRearArmor": 1050,
+            "InternalStructure": 210
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1500,
+            "MaxRearArmor": 750,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 150
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "JM6-WS",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper & Direct-Fire Support",
+    "YangsThoughts": "The JagerMech WS model is specialized in ballistic weapon support.  It has been redesigned and enhanced by Spinfang and Westonmach to support more tonnage, more armor, and more weapons overall, as well as only need two jump jets for full jumping capability.  It doesn't support missles or rockets though, so it won't do indirect fire."
+}

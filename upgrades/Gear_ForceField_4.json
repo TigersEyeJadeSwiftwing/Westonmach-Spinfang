@@ -1,0 +1,71 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 28250100,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Force Field Generator",
+        "UIName" : "Force Field ++++",
+        "Id" : "Gear_ForceField_4",
+        "Name" : "Force Field ++++",
+        "Details" : "This device uses 31st Century super-efficient, small and lightweight high-tech microchips and processors, combined with somewhat mysterious machinery that only Spinfang tech gurus even begin to understand, all of which is patented by Spinfang and to date hasn't been sucessfully reverse engineered by anyone anywhere, to generate an invisible force field with a complex dynamic shape that covers a 'Mech head-to-toe just a militmeter off of the outer surface of the armor and other parts of such a 'Mech, which lessens damage from all sources and of all types.  It doesn't interfere with any operation of any weapons or other gear or equipment of a 'Mech when it is active.  Only one of these bad boys can work in a 'Mech at a time though, so install just one of the best one you can get your hands on for best results.  Spinfang force fields are expensive, yet worth it according to popular opinion.",
+        "Icon" : "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA" : "35% Damage (All)",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.25,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ForceField-DamageReduction_x",
+                "Name" : "Force Field",
+                "Details" : "Mech takes [AMT] less damage from all sources and types of attacks.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.35",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

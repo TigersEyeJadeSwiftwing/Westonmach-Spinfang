@@ -1,0 +1,291 @@
+{
+    "Description": {
+        "Cost": 6600000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Catapult",
+        "Id": "chassisdef_catapult_CPLT-WS",
+        "Name": "Catapult",
+        "Details": "The Catapult WS variant is redesigned and rebuilt by Westonmach and Spinfang corporations, to support more tonnage, be lighter in weight before adding armor and weapons, support more armor and a mountain of additional missle and rocket launchers, and require only two jump jets for maximum jumping capability.  It also has support for ballistic weapons added, and supports additional energy weapons as well, but lacks hardpoints for mounting close-range support weapons used in melee with other 'Mechs.  Its mainly designed for supporting tons of long range weapons, especially lots of missles and rockets, and taking down targets at a distance.  It has a beefed-up internal structure as well.",
+        "Icon": "uixTxrIcon_catapult"
+    },
+    "MovementCapDefID": "movedef_catapult_CPLT-C1",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_catapult",
+    "PrefabIdentifier": "chrPrfMech_catapultBase-001",
+    "PrefabBase": "catapult",
+    "Tonnage": 73,
+    "InitialTonnage": 9,
+    "weightClass": "HEAVY",
+    "BattleValue": 8344000,
+    "Heatsinks": 0,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 260,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.5,
+    "VisibilityMultiplier": 1.5,
+    "SensorRangeMultiplier": 1.5,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 96,
+    "MeleeInstability": 105,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 5,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 32
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 600,
+            "MaxRearArmor": 300,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 840,
+            "MaxRearArmor": 420,
+            "InternalStructure": 210
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 600,
+            "MaxRearArmor": 300,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 150
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "CPLT-WS",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Mobile Long Range Support",
+    "YangsThoughts": "The Catapult WS variant is redesigned and rebuilt by Westonmach and Spinfang corporations, to support more tonnage, be lighter in weight before adding armor and weapons, support more armor and a mountain of additional missle and rocket launchers, and require only two jump jets for maximum jumping capability.  It also has support for ballistic weapons added, and supports additional energy weapons as well, but lacks hardpoints for mounting close-range support weapons used in melee with other 'Mechs.  Its mainly designed for supporting tons of long range weapons, especially lots of missles and rockets, and taking down targets at a distance.  It has a beefed-up internal structure as well."
+}

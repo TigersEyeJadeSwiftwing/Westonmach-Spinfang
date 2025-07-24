@@ -1,0 +1,174 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Cherrygarden",
+        "Name": "Cherrygarden",
+        "Details": "Cherrygarden is a terran-like and Earth-sized world known for it's beautiful lush forests and outdoor wildlife, famous for it's hunting grounds and a vacation spot for people who like outdoor forests, hills, and mountains like what one could find on Earth over a thousand years ago.  Owned by the Draconis Combine, a number of factions show up here at times, and House Kurita does a fairly good job at suppressing pirates.  With a good-sized population, many wilderness areas are protected from building and development by very strong rules that prevent pollution and hurting any wildlife or nature, and hunting is allowed only in authorized locations and is highly regulated.  The whole planet has clean outdoor areas, even though there are many chemical and research industries based here, as well as agriculture and food production.  All of the wildlife is Earth-origin, as the planet used to be a plain dead rock with no native life but has been successfully terraformed and carefully maintained.  Comstar maintains some corporate offices here.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -35.31,
+        "y": -464.41,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_terran",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_other_comstar",
+            "planet_progress_1",
+            "planet_feature_moon02",
+            "planet_feature_moon03",
+            "planet_industry_recreation",
+            "planet_industry_aquaculture",
+            "planet_industry_rich",
+            "planet_industry_agriculture",
+            "planet_name_cherrygarden",
+            "planet_faction_kurita",
+            "planet_industry_chemicals",
+            "planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical",
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "tundraFrozen"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 8,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 8,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "M",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 25,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_researchProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_researchProgression"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Cherrygarden",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 0,
+    "DifficultyList": [
+        0,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "ComStar",
+        "Marik",
+        "MagistracyOfCanopus",
+        "AuriganPirates",
+        "Kurita"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "Kurita"
+    ]
+}

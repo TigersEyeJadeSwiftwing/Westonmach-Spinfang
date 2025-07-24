@@ -1,0 +1,189 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Tal_Tinlan",
+        "Name": "Tal Tinlan",
+        "Details": "Often regarded as a twin of Tal Tengar, Tal Tinlan is an Earth-sized, Earth-gravity agricultural jungle planet that has a moderate population, and is owned by the Draconis Combine.  It is home to research, manufacturing, and electronics industries and workers, among farmers and wealthy merchants and corporations that develop, make and sell many products here.  Although it lacks aquacultural food production, it's farms export plenty of food products to nearby systems.  Like Tal Tengar, the planet has long been terraformed with Earth-origin life, and has breathable air world-wide, most of which is either jungle or ocean.  Pirates also live here, selling their stolen wares on a black market, and while they have tried many times over the past twenty years or so, they can't get organized enough to offer their own contracts to mercanaries through the MRB.  That is thanks to the Draconis Combine, who use their own forces as well as guns for hire to fight them.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -33.75,
+        "y": -459.14,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_tropical",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_progress_1",
+            "planet_feature_moon01",
+            "planet_feature_moon03",
+            "planet_industry_rich",
+            "planet_other_blackmarket",
+            "planet_industry_agriculture",
+            "planet_name_taltinlan",
+            "planet_faction_kurita",
+            "planet_industry_electronics",
+            "planet_industry_research",
+            "planet_industry_manufacturing"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 11,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 45,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "O",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 45,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Tal_Tinlan",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Kurita"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates"
+    ]
+}

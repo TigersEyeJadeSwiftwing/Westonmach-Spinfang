@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC20",
+    "MinRange" : 0,
+    "MaxRange" : 930,
+    "RangeSplit" : [
+        465,
+        465,
+        930
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 100,
+    "Damage" : 300,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 300,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
+    "Description" : {
+        "Cost" : 2212000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Korvaxx Energy Cannon +++++",
+        "UIName" : "Korvaxx EC +++++",
+        "Id" : "Weapon_Korvaxx_EC_5-Westonmach",
+        "Name" : "Korvaxx EC +++++",
+        "Details" : "Designed to be installed where one would normally install a missle or rocket launcher, Korvaxx Energy Cannons are special devices that use energy from a 'Mech's on-board power to launch a single focused shockwave pulse out of multiple output ports on the device, which travels through the air and rips apart a target's armor, structure, and more with damaging concussive force that has choatic turbulence upon impact.  This means the concussive force at impact with the target isn't one single push, but a swirling mass of random, small concussive forces that are clustered together at the spot of impact, causing damaged armor and more to shred in many pieces in different directions.  Korvaxx ECs are made with high-tech lightweight non-metal polymers and special 31st composite fiber materials that only Westonmach knows how to manufacture, protected by patent and trade secret laws, which so far no one else has been known to reverse engineer successfully.  As such, they don't conduct heat as much as metal, meaning less heat buildup, they are stronger than metal, and much lighter in weight, and some models add little tonnage to a 'Mech they are installed in.  They are also non-ferrous, meaning they don't contain iron and magnets won't stick to them like they would to metal.  Upgraded models are even lighter, and redesinged to do more damage and have longer range, but cost more C-bills to buy.  Korvaxx ECs can be expensive, and one can blame Westonmach's monopoly on the technologies used for that, as well as their corporate policies.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "+100 Damage",
+    "BonusValueB" : "+250m Range",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

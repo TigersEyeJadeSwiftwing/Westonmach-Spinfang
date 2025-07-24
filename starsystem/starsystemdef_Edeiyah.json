@@ -1,0 +1,178 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Edeiyah",
+        "Name": "Edeiyah",
+        "Details": "Orbiting a very bright supermassive star, Edeiyah is a terran planet of agriculture, with massive farms on it's fertile lands and coastlines in it's areas with climates that support it.  Edeiyah is a major source of and exporter of food for the nearby planets belonging to the Lyran Commonwealth.  It is also known for it's science and technology academies that it's wealthy farmers get a good education from, and especially research, technology, and the manufacture of chemical products and high-tech electronics.  It is terraformed with Earth-origin life, for it's various climates that mirror that of what Earth is known for throughout the ages.  Edeiyah also has some struggles with pirates, although such difficulties only escalate so much.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 100.64,
+        "y": -520.56,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_terran",
+            "planet_size_medium",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_industry_research",
+            "planet_industry_electronics",
+            "planet_industry_chemicals",
+            "planet_industry_rich",
+            "planet_industry_agriculture",
+            "planet_industry_aquaculture",
+            "planet_name_edeiyah",
+            "planet_faction_steiner",
+            "planet_progress_2",
+            "planet_feature_moon01",
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "polarFrozen",
+        "tundraFrozen",
+        "desertParched",
+        "badlandsParched",
+        "jungleTropical"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 14,
+    "ownerID": "Steiner",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 60,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "O",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 32,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield"
+    ],
+    "factionShopOwnerID": "Steiner",
+    "FactionShopItems": [
+        "itemCollection_faction_Steiner",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Edeiyah",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 4,
+    "DifficultyList": [
+        4,
+        8
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Steiner"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates"
+    ]
+}

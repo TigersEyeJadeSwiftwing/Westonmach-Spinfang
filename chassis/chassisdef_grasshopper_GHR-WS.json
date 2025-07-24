@@ -1,0 +1,308 @@
+{
+    "Description": {
+        "Cost": 7100000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Grasshopper",
+        "Id": "chassisdef_grasshopper_GHR-WS",
+        "Name": "Grasshopper",
+        "Details": "The Grasshopper WS is a special model by Spinfang and Westonmach that supports more tonnage, more armor, and a lot of energy weapons.  It also needs up to only two jump jets to fly.  It has some missle and/or rocket support as well, so it can be used for indirect fire, but it's main thing is energy weapons and a lot of them.  It will not support ballistic weaponry.",
+        "Icon": "uixTxrIcon_grasshopper"
+    },
+    "MovementCapDefID": "movedef_grasshopper_GHR-5H",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_grasshopper",
+    "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
+    "PrefabBase": "grasshopper",
+    "Tonnage": 74,
+    "InitialTonnage": 5,
+    "weightClass": "HEAVY",
+    "BattleValue": 7602000,
+    "Heatsinks": 0,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.125,
+    "VisibilityMultiplier": 1.125,
+    "SensorRangeMultiplier": 1.125,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 150,
+    "MeleeInstability": 130,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 150,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 4,
+    "DFAInstability": 150,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 450,
+            "MaxRearArmor": -1,
+            "InternalStructure": 32
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 110
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1500,
+            "MaxRearArmor": 750,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2200,
+            "MaxRearArmor": 1100,
+            "InternalStructure": 220
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1500,
+            "MaxRearArmor": 750,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 110
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1500,
+            "MaxRearArmor": -1,
+            "InternalStructure": 150
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 18,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 17,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 18,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "GHR-WS",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Heavy Skirmisher & Cavalry",
+    "YangsThoughts": "The Grasshopper WS is a special model by Spinfang and Westonmach that supports more tonnage, more armor, and a lot of energy weapons.  It also needs up to only two jump jets to fly.  It has some missle and/or rocket support as well, so it can be used for indirect fire, but it's main thing is energy weapons and a lot of them.  It will not support ballistic weaponry."
+}

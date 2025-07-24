@@ -1,0 +1,8 @@
+itemCollection_WS_weapon_ballistic,Reference,40,1
+itemCollection_WS_weapon_ballistic_rare,Reference,4,1
+itemCollection_WS_ammo_ballistic,Reference,25,1
+itemCollection_WS_weapon_rocket,Reference,10,1
+itemCollection_WS_weapon_rocket_rare,Reference,3,1
+itemCollection_WS_ammo_rocket,Reference,4,1
+itemCollection_WS_upgrade_electronic,Reference,8,1
+itemCollection_WS_upgrade_mechanical,Reference,10,1

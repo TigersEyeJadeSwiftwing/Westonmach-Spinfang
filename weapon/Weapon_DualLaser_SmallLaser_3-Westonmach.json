@@ -1,0 +1,63 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Laser",
+    "WeaponSubType" : "SmallLaser",
+    "MinRange" : 0,
+    "MaxRange" : 90,
+    "RangeSplit" : [
+        90,
+        90,
+        90
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 55,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 27,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
+    "Description" : {
+        "Cost" : 121000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Small Multifrequency Laser + + +",
+        "UIName" : "S MF Laser + + +",
+        "Id" : "Weapon_DualLaser_SmallLaser_3-Westonmach",
+        "Name" : "S MF Laser + + +",
+        "Details" : "Multifrequency lasers are more damaging than regular lasers of the same size.  Like all Lasers, multifrequency asers enjoy a baseline accuracy bonus over other weapons.  Multifrequency lasers, manufactured exclusively by Westonmach, discharge multiple laser beams simultaneously in one attack, at different frequencies, in one combined blast or beam.  They generate more heat than regular lasers, but also heat up the target a bit in addition to damaging it.  Upgraded models will do more damage and also heat the target more, when compared to the basic model of it's size.  Multifrequency lasers by Westonmach are made from high-tech next-gen polymers that are much lighter in weight than any metal while also being much stronger and more durable, and also allowing for more compact designs when used for various, superior products and technologies.  Upgraded variants of Westonmach-made multifrequency lasers do more damage and more heat damage to a target.  Small multifrequency lasers are very short range and can be used by a battlemech during melee, and add no signficant tonnage to a battlemech when installed.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "+15 Damage",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

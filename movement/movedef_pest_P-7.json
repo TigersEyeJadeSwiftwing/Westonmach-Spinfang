@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_pest_P-7",
+      "Name" : "MovementCapabilitiesDef for Pest P-7",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 300.0,
+   "MaxSprintDistance" : 450.0,
+   "WalkVelocity" : 25.0,
+   "RunVelocity" : 28.0,
+   "SprintVelocity" : 40.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 25.0,
+   "SprintAcceleration" : 40.0,
+   "MaxRadialVelocity" : 600.0,
+   "MaxRadialAcceleration" : 1600.0,
+   "MaxJumpVel" : 95.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
+}

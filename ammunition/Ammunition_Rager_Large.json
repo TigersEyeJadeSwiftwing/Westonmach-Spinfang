@@ -1,0 +1,19 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_Rager_Large",
+      "Name" : "Rager Large Ammo",
+      "Details" : "Ammunition for the Rager Large Buckshot Cannon.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ammunitionTypeID" : "Normal",
+   "Category" : "NotSet",
+   "ammoCategoryID" : "RagerLarge",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

@@ -1,0 +1,254 @@
+{
+    "Description": {
+        "Cost": 7200000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Centurion",
+        "Id": "chassisdef_centurion_CN9-WS",
+        "Name": "Centurion",
+        "Details": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating.  The WS variant is rebuilt and custom-modified by Westonmach and Spinfang for accepting more tonnage of gear being equipped, and supports more weapon hardpoints to mount additional weapons compared to the stock CN9-A model.  It has a lighter and reinforced interal structure.  It requires only two jump jets instead of four for maximum jumping capability, and it's default configuration includes jump jet accelerators so that it can jump farther, which makes it good for jumping into close range - sometimes behind other targets for a rear attack, and dealing rapid death with close range attacks.  It can then get around and reposition itself on the battlefield again rather quickly.  The CN9-WS variant also runs cooler with it's default configuration, giving it capability for firing many weapons and jumping around for an extended amount of time.",
+        "Icon": "uixTxrIcon_centurion"
+    },
+    "MovementCapDefID": "movedef_centurion_CN9-A",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_centurion",
+    "PrefabIdentifier": "chrPrfMech_centurionBase-001",
+    "PrefabBase": "centurion",
+    "Tonnage": 54,
+    "InitialTonnage": 6,
+    "weightClass": "MEDIUM",
+    "BattleValue": 7112500,
+    "Heatsinks": 0,
+    "TopSpeed": 65,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 180,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 160,
+    "MeleeInstability": 150,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 75,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 5,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 450,
+            "MaxRearArmor": -1,
+            "InternalStructure": 32
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1200,
+            "MaxRearArmor": 600,
+            "InternalStructure": 120
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1600,
+            "MaxRearArmor": 800,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1200,
+            "MaxRearArmor": 600,
+            "InternalStructure": 120
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 120
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 120
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2
+        }
+    ],
+    "VariantName": "CN9-WS",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler & General Assault",
+    "YangsThoughts": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating.  The WS variant is rebuilt and custom-modified by Westonmach and Spinfang for accepting more tonnage of gear being equipped, and supports more weapon hardpoints to mount additional weapons compared to the stock CN9-A model.  It has a lighter and reinforced interal structure.  It requires only two jump jets instead of four for maximum jumping capability, and it's default configuration includes jump jet accelerators so that it can jump farther, which makes it good for jumping into close range - sometimes behind other targets for a rear attack, and dealing rapid death with close range attacks.  It can then get around and reposition itself on the battlefield again rather quickly.  The CN9-WS variant also runs cooler with it's default configuration, giving it capability for firing many weapons and jumping around for an extended amount of time."
+}

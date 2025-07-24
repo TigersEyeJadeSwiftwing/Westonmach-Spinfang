@@ -1,0 +1,291 @@
+{
+    "Description": {
+        "Cost": 19900000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Spinfang",
+        "Model": "",
+        "UIName": "Wrathful",
+        "Id": "chassisdef_wrathful_WRT-16",
+        "Name": "Wrathful",
+        "Details": "Wow.  Of Ultra-heavy 'Mechs, this one kinda takes the cake.  Check it out, as 'show' does more than I can 'tell' here.  Under the hood, this one has really good sensor range, for spotting enemy units quite a distance away, compared to other 'Mechs, although it can still benefit from a sensor array or two, or even a sensor module.",
+        "Icon": "uixTxrIcon_kingcrab"
+    },
+    "MovementCapDefID": "movedef_wrathful_WRT-16",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_kingcrab",
+    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+    "PrefabBase": "kingcrab",
+    "Tonnage": 120,
+    "InitialTonnage": 20,
+    "weightClass": "ASSAULT",
+    "BattleValue": 10206000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 2,
+    "Stability": 250,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.45,
+    "VisibilityMultiplier": 1.45,
+    "SensorRangeMultiplier": 1.45,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 250,
+    "MeleeInstability": 250,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 125,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 10,
+    "DFAInstability": 125,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+		{
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+		],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 6000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 650
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 5000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 500
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 8000,
+            "MaxRearArmor": 6000,
+            "InternalStructure": 600
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 12000,
+            "MaxRearArmor": 11000,
+            "InternalStructure": 1200
+        },
+        {
+            "Location": "RightTorso",
+          "Hardpoints": [
+            {
+              "WeaponMount": "Ballistic",
+              "Omni": false
+            },
+            {
+              "WeaponMount": "Ballistic",
+              "Omni": false
+            },
+            {
+              "WeaponMount": "Energy",
+              "Omni": false
+            },
+            {
+              "WeaponMount": "Energy",
+              "Omni": false
+            },
+            {
+              "WeaponMount": "Energy",
+              "Omni": false
+            },
+            {
+              "WeaponMount": "Energy",
+              "Omni": false
+            }
+          ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 8000,
+            "MaxRearArmor": 6000,
+            "InternalStructure": 600
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 5000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 500
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 11000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 500
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 11000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 500
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": -1
+        }
+    ],
+    "VariantName": "WRT-16",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Win a war or two",
+    "YangsThoughts": "Wow.  Of Ultra-heavy 'Mechs, this one kinda takes the cake.  Check it out, as 'show' does more than I can 'tell' here.  Under the hood, this one has really good sensor range, for spotting enemy units quite a distance away, compared to other 'Mechs, although it can still benefit from a sensor array or two, or even a sensor module."
+}

@@ -1,0 +1,139 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 8250250,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Engine Speed Upgrade + +",
+        "UIName" : "Engine Speed Upgrade + +",
+        "Id" : "Gear_Engine_SpeedEnhance_2",
+        "Name" : "Engine Speed Upgrade + +",
+        "Details" : "Spinfang Engine Enhancement Speed Upgrades are modifications to a battlemech's engine that increase speed and performance when it comes to walking and sprinting.  The resulting upgrade to the engine takes up a little bit of additional space in the center torso of the battlemech.  The very basic upgrade, with it's parts and components most easily found in certain markets, enhances performance by a small percentage, while various upgraded variants of the engine upgrade kits that Spinfang manufactures go up in price substantially while offering larger boosts in walking and sprinting speed.  These upgrade toolkits and parts do not affect jump jets or jumping distance in any way.  Only one engine upgrade installed may have any effect in a battlemech, and if more than one is installed it is wasteful and won't enhance the engine's performance any further.  Upgrading the engine with these toolkits won't add to the weight of the battlemech, despite the engine size being larger which takes away from space in the center torso.",
+        "Icon" : "uixSvgIcon_action_evasivemove"
+    },
+    "BonusValueA" : "250% Walk/Run Distance",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"statusEffects" : [
+    {
+        "durationData" : {
+            "duration" : -1,
+            "ticksOnActivations" : false,
+            "useActivationsOfTarget" : false,
+            "ticksOnEndOfRound" : false,
+            "ticksOnMovements" : false,
+            "stackLimit" : 1,
+            "clearedWhenAttacked" : false
+        },
+        "targetingData" : {
+            "effectTriggerType" : "Passive",
+            "triggerLimit" : 0,
+            "extendDurationOnTrigger" : 0,
+            "specialRules" : "NotSet",
+            "effectTargetType" : "Creator",
+            "range" : 0,
+            "forcePathRebuild" : false,
+            "forceVisRebuild" : false,
+            "showInTargetPreview" : false,
+            "showInStatusPanel" : true
+        },
+        "effectType" : "StatisticEffect",
+        "Description" : {
+            "Id" : "StatusEffect-Spinfang-EngineUpgrade-WalkSpeedIncrease",
+            "Name" : "WALK SPEED INCREASED",
+            "Details" : "Engine Speed Enhancement upgrades increase walking distance.  This battlemech's current increase is [AMT]x.",
+            "Icon" : "uixSvgIcon_action_evasivemove"
+        },
+        "nature" : "Buff",
+        "statisticData" : {
+            "appliesEachTick" : false,
+            "effectsPersistAfterDestruction" : false,
+            "statName" : "WalkSpeed",
+            "operation" : "Float_Multiply",
+            "modValue" : "2.5",
+            "modType" : "System.Single",
+            "additionalRules" : "NotSet",
+            "targetCollection" : "NotSet",
+            "targetWeaponCategory" : "NotSet",
+            "targetWeaponType" : "NotSet",
+            "targetAmmoCategory" : "NotSet",
+            "targetWeaponSubType" : "NotSet"
+        },
+        "tagData" : null,
+        "floatieData" : null,
+        "actorBurningData" : null,
+        "vfxData" : null,
+        "instantModData" : null,
+        "poorlyMaintainedEffectData" : null
+    },
+    {
+        "durationData" : {
+            "duration" : -1,
+            "ticksOnActivations" : false,
+            "useActivationsOfTarget" : false,
+            "ticksOnEndOfRound" : false,
+            "ticksOnMovements" : false,
+            "stackLimit" : 1,
+            "clearedWhenAttacked" : false
+        },
+        "targetingData" : {
+            "effectTriggerType" : "Passive",
+            "triggerLimit" : 0,
+            "extendDurationOnTrigger" : 0,
+            "specialRules" : "NotSet",
+            "effectTargetType" : "Creator",
+            "range" : 0,
+            "forcePathRebuild" : false,
+            "forceVisRebuild" : false,
+            "showInTargetPreview" : false,
+            "showInStatusPanel" : true
+        },
+        "effectType" : "StatisticEffect",
+        "Description" : {
+            "Id" : "StatusEffect-Spinfang-EngineUpgrade-RunSpeedIncrease",
+            "Name" : "SPRINT SPEED INCREASED",
+            "Details" : "Engine Speed Enhancement upgrades increase sprinting distance.  This battlemech's current increase is [AMT]x.",
+            "Icon" : "uixSvgIcon_action_evasivemove"
+        },
+        "nature" : "Buff",
+        "statisticData" : {
+            "appliesEachTick" : false,
+            "effectsPersistAfterDestruction" : false,
+            "statName" : "RunSpeed",
+            "operation" : "Float_Multiply",
+            "modValue" : "2.5",
+            "modType" : "System.Single",
+            "additionalRules" : "NotSet",
+            "targetCollection" : "NotSet",
+            "targetWeaponCategory" : "NotSet",
+            "targetWeaponType" : "NotSet",
+            "targetAmmoCategory" : "NotSet",
+            "targetWeaponSubType" : "NotSet"
+        },
+        "tagData" : null,
+        "floatieData" : null,
+        "actorBurningData" : null,
+        "vfxData" : null,
+        "instantModData" : null,
+        "poorlyMaintainedEffectData" : null
+    }
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant2"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

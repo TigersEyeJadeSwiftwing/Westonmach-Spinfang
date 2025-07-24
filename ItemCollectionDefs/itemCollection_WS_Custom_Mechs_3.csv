@@ -1,0 +1,15 @@
+itemCollection_WS_Custom_Mechs_3,,,
+mechdef_pest_P-7,MechPart,2,9
+mechdef_pest_P-7A,MechPart,2,9
+mechdef_fireshrike_FS-5FX,MechPart,1,8
+mechdef_killer_KLR-86A,MechPart,1,6
+mechdef_wrathful_WRT-16,MechPart,1,5
+mechdef_lunatic_LNC-99,MechPart,1,3
+mechdef_lunatic_LNC-99X,MechPart,1,1
+mechdef_pest_P-7,Mech,1,8
+mechdef_pest_P-7A,Mech,1,8
+mechdef_fireshrike_FS-5FX,Mech,1,6
+mechdef_killer_KLR-86A,Mech,1,4
+mechdef_wrathful_WRT-16,Mech,1,3
+mechdef_lunatic_LNC-99,Mech,1,2
+mechdef_lunatic_LNC-99X,Mech,1,1

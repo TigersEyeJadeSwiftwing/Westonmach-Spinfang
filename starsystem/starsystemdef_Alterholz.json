@@ -1,0 +1,166 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Alterholz",
+        "Name": "Alterholz",
+        "Details": "Thanks to being small in size and being made of low-density, lightweight dust, Alterholz is a lunar world that doesn't have enough gravity to have much of any atmosphere at all, but regardless is a moderately well-populated world for it's size that has significant mining and manufacturing industries.  It manages to stay independent without too much mess or fuss, although the Lyran Commonwealth, the Taurian Concordat, and pirates do occasionally step in with their petty spats and fights with each other as well as the local planetary government.  Alterholz used to belong to the Lyran Commonwealth, but wealthy miners and businesses who owned and controlled the planet under their flag actually purchased enough of the world and the rights to it's resources, and effectively bought the planet from the Lyran Commonwealth and established the world's independence, which House Steiner occasionally challenges, well after what happened.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 104.76,
+        "y": -504.02,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_lunar",
+            "planet_size_small",
+            "planet_pop_medium",
+            "planet_civ_periphery",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+	    "planet_other_blackmarket",
+            "planet_name_alterholz",
+            "planet_faction_independent",
+            "planet_progress_2",
+	    "planet_feature_rings",
+            "planet_feature_moon01"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lunarVacuum"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 7,
+    "ownerID": "Locals",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 10,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "A",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_manufacturing"
+    ],
+    "factionShopOwnerID": "INVALID_UNSET",
+    "FactionShopItems": null,
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_manufacturing"
+    ],
+    "CoreSystemID": "starsystemdef_Alterholz",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -2,
+    "DifficultyList": [
+        -2,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Locals",
+        "Steiner",
+        "TaurianConcordat",
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Locals",
+        "AuriganPirates"
+    ]
+}

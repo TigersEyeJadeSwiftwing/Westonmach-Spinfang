@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Bringdam",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_WS_3"
+		}
+    ]
+}

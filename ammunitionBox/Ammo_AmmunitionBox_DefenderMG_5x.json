@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_DefenderMG",
+    "Capacity" : 500,
+    "Description" : {
+        "Cost" : 61000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Defender",
+        "UIName" : "Defender MG Ammo 5x",
+        "Id" : "Ammo_AmmunitionBox_DefenderMG_5x",
+        "Name" : "Defender MG Ammo 5x",
+        "Details" : "Capacity: 500 rounds.\n\nAmmo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, however Defender Machine Gun ammunition is stored in shielded sections to avoid this issue.  Defender Machine Gun ammunition can be struck, dropped, and even set on fire and it will not explode and in some cases still be usable, thanks to patented Westonmach technology and how the rounds are designed.\n\nDefender Machine Gun Ammo 5x Bins each contain 500 rounds and may feed multiple weapons, which do not have to be installed in the same location, thanks to a 'Mechs internal mechanisms which feed and transfer ammunition around inside of a 'Mech's parts, like any other ammunition bins.",
+        "Icon" : "uixSvgIcon_ammoBox_Support"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.75,
+    "CanExplode" : false,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

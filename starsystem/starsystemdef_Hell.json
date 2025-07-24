@@ -1,0 +1,268 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Hell",
+        "Name": "Hell",
+        "Details": "Hell's name fits what it's like to live or even visit here.  The planet orbits a super-bright massive star with tons of asteroids that orbit it, and Hell has plenty of asteroids in it's own orbit as well, among three moons.  The asteroids are a headache and a half to navigate through to get to the planet, and extend far outside of Hell's sun's orbit, making the trip from a jump point to the planet a slow and tedious one.  When one finally travels to and reaches the planet, the world is anything but worth the unpleasant trip, as highly organized pirates with entire armies of ships and battlemechs under their control run, fund, and loot and plunder a puppet planetary government that they assign disgraced pirates to work in as politicians as a punishment of sorts.  The pirates openly make a game out of how they fund and support this puppet government, while using it's military as target practice for their own amusement, and the planetary government's militaries - who have to let the pirates ultimately win in the end - are helplessly toyed with, propped up only to get knocked down again for the entertainment of the wealthy pirate elite people and their diabolical tyrant aristocratic culture of sorts.  The pirates are the only ones who will offer MRB contracts to mercenaries here, as they won't allow anyone else to do so.  Understand that if you sign up for one of their contracts, you are getting paid to entertain wealthy pirates as part of their sick fun and games as they enjoy watching the puppet planetary government's blood flow, and your paycheck is compensation for feeding their amusement.  Meanwhile, Hell has plenty of markets with massive inventories to shop from, much more than what the planet should have for all of it's mines and factories and more here, even though there are a lot of industries on the planet.  Just don't ask where the extra products come from, or where the merchants get their goods, and you'll find you avoid doing something blatantly stupid you would have regretted for the rest of your life - both split seconds of it.  The entire planet is a dangerously high-crime area, as if it needed to be pointed out, from the urban cities to the countrysides, pole to pole on this world.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 146.15,
+        "y": -528.33,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_terran",
+            "planet_size_medium",
+            "planet_pop_large",
+            "planet_civ_periphery",
+            "planet_industry_electronics",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+            "planet_industry_chemicals",
+            "planet_industry_research",
+            "planet_other_battlefield",
+            "planet_other_pirate",
+            "planet_other_blackmarket",
+            "planet_other_megacity",
+            "planet_progress_2",
+            "planet_name_hell",
+            "planet_faction_pirate",
+            "planet_feature_asteroids",
+            "planet_feature_moon01",
+            "planet_feature_moon02",
+            "planet_feature_moon03"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "desertParched",
+        "badlandsParched",
+        "jungleTropical",
+        "polarFrozen",
+        "tundraFrozen",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 20,
+    "ownerID": "AuriganPirates",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 200,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "O",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 40,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "factionShopOwnerID": "AuriganPirates",
+    "FactionShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Hell",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 6,
+    "DifficultyList": [
+        6,
+        9
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Locals"
+    ]
+}
