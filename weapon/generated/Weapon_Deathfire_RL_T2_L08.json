@@ -1,0 +1,119 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 240676,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Deathfire_RL_T2_L08",
+    "Model": "Death Fire Rocket Launcher",
+    "UIName": "Deathfire RL T2 L08",
+    "Name": "Deathfire RL T2 L08",
+    "Icon": "uixSvgIcon_weapon_Missile",
+    "Details": "Power Drain: -32\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different type levels (Type 1, Type 2, etc.).  Weapons of a higher level have increased damage, range, and accuracy, but also draw more continual power from a battlemech's engine and power systems, which result in lower maximum heat and heat shutdown thresholds for the battlemech."
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 0,
+  "MaxRange": 950,
+  "RangeSplit": [
+    0,
+    500,
+    950
+  ],
+  "ammoCategoryID": "DFR",
+  "StartingAmmoCapacity": 0,
+  "Damage": 42,
+  "HeatDamage": 0,
+  "Instability": 0,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.9,
+  "IndirectFireCapable": true,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 15,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 0,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 16,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm20",
+  "BattleValue": 0,
+  "InventorySize": 8,
+  "Tonnage": 0.4,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Buildup",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "[AMT] heat generated.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "OverheatLevel",
+        "operation": "Int_Add",
+        "modValue": "-32",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Reduced_Max",
+        "Name": "MAX HEAT DECREASED",
+        "Details": "Max heat level lowered by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "MaxHeat",
+        "operation": "Int_Add",
+        "modValue": "-32",
+        "modType": "System.Int32"
+      }
+    }
+  ]
+}

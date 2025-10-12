@@ -2,10 +2,495 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="None" />
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L10.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="260" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L09.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L07.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Melee\Gear_Actuator_Spinfang_Stomper_4.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3549" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Melee\Gear_Actuator_Spinfang_Stomper_1.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3540" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Melee\Gear_Actuator_Spinfang_Stomper_5.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3552" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Melee\Gear_Actuator_Spinfang_Stomper_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3534" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Melee\Gear_Actuator_Spinfang_Stomper_3.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3552" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Enforcer\Weapon-WS_MG_Enforcer_t1.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2748" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Medium_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3214" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stats\item_descriptions.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4654" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L06.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="297" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stats\weapon.json" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="140" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L05.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="297" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stats\StatusEffects.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="552" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L04.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="297" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Defender\Weapon-WS_MG_Defender_t3.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L03.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="255" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Enforcer\Weapon-WS_MG_Enforcer_t5.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="459" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Defender\Weapon-WS_MG_Defender_t1.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1081" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stats\index.html" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="461" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Enforcer\Weapon-WS_MG_Enforcer_t3.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2793" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Light_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3027" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Defender\Weapon-WS_MG_Defender_t2.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Medium_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4738" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L01.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1688" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Heavy_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3034" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stats\process.js" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10262" topLine="121" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L02.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="258" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Defender\Weapon-WS_MG_Defender_t5.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Melee\Gear_Actuator_Spinfang_Stomper_2.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3545" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Enforcer\Weapon-WS_MG_Enforcer_t4.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2795" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Light_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4731" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\Rocket-Deathfire\Weapon-WS_Rocket_Deathfire_t1_L08.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Light_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4731" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Medium_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3037" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\MG\AmmunitionBox_UKMG_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1585" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2183" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Nuclear_Murder.json" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="203" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Chromatic_Wolf.json" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="341" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Acid_Burn.json" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="326" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_story_kamea_end.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1476" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="milestones\milestone_106_title_threeYearsLater.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1148" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Medium_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4742" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Defender\Weapon-WS_MG_Defender_t4.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Light_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3028" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Medium_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4742" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Light_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3028" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Medium_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4742" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Heavy_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3034" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jumpjets\Gear_JumpJet_Spinfang_Omni.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="73" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\MG_Enforcer\Weapon-WS_MG_Enforcer_t2.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2792" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jumpjets\Gear_JumpJet_Generic_Standard.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="739" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Medium_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4742" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Light_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3027" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jumpjets\Gear_JumpJet_Generic_Mega.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="742" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jumpjets\Gear_JumpJet_Generic_Heavy.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="732" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Light_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4730" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Heavy_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2455" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jumpjets\Gear_JumpJet_Generic_Assault.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="738" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Heavy_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4733" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_researchProgression.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="522" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Sniper_t1_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3039" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_research.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="520" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Light_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2334" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Light_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2118" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_miningProgression.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="152" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Sniper_t2_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3039" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_mining.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="150" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Heavy_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4733" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_manufacturingProgression.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="152" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Light_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4730" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_manufacturing.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="293" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Heavy_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4733" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Medium_t2_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3023" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Heavy_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4733" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Heavy_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3034" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_chemicalsProgression.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Sniper_t3_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3039" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS_append\itemCollection_shop_chemicals.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="140" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Sniper_t4_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3039" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Light_t3_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3014" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Medium_t1_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3023" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_rocket_rare.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="40" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Heavy_t4_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3019" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_rocket.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Medium_t5_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3024" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Range_Enhance\Gear_RangeEnhance_Ballistic_3.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8536" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Medium_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3038" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Sensors\Gear-WS_Upgrade_Sensor_Array_t2.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="125" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="simGameConstants\SimGameConstants.json" open="0" top="0" tabpos="3" split="2" active="1" splitpos="1019" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="5679" topLine="147" />
 			<Cursor2 position="0" topLine="163" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Heavy_t2_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3019" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Range_Enhance\Gear_RangeEnhance_Ballistic_1.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8535" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Sniper_t5_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3040" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Rage_Fire.json" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="304" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="milestones\milestone_114_sim_leopard_start.json" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5543" topLine="132" />
+		</Cursor>
+	</File>
+	<File name="mod.json" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1719" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_story_kamea.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1462" topLine="2" />
 		</Cursor>
 	</File>
 	<File name="portraits\PortraitPreset_ws_Tigerstone_mohawk.json" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -13,9 +498,54 @@
 			<Cursor1 position="222" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="pilots.txt" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pilot\pilot_ws_Divebomb.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="13616" topLine="0" />
+			<Cursor1 position="57" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Car_Crash.json" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1245" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Black_Coffee.json" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="335" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilots.txt" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="375" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Wild_Boy.json" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="337" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_story_mastiff.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1014" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="milestones\milestone_003_title_coronation_palace.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="515" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Plastic_Splash.json" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="341" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_story_kamea_mid.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Superphotonic.json" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="338" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="pilot\pilot_ws_Thrustheavy.json" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -23,9 +553,14 @@
 			<Cursor1 position="1481" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="pilot\pilot_ws_Superphotonic.json" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pilot\pilot_ws_Spaghetti.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="338" topLine="0" />
+			<Cursor1 position="798" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pilot\pilot_ws_Space_Case.json" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="337" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="pilot\pilot_ws_Slamdancer.json" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -38,59 +573,14 @@
 			<Cursor1 position="332" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="pilot\pilot_ws_Screwdriver.json" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pilot\pilot_ws_Screwdriver.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="332" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_ws_Rage_Fire.json" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5226" topLine="0" />
+			<Cursor1 position="1326" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="pilot\pilot_ws_Prismatic_Cougar.json" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4741" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_ws_Power_Dive.json" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="329" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_ws_Black_Coffee.json" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="335" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_story_kamea_end.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_ws_Nuclear_Murder.json" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="308" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_ws_Chromatic_Wolf.json" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="341" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="mod.json" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="603" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_ws_Overcooked.json" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="329" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="pilot\pilot_story_kamea.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1393" topLine="5" />
+			<Cursor1 position="1297" topLine="2" />
 		</Cursor>
 	</File>
 	<File name="pilot\pilot_ws_Mach_Five_Assault.json" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -98,24 +588,619 @@
 			<Cursor1 position="350" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="pilot\pilot_ws_Car_Crash.json" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pilot\pilot_ws_Overcooked.json" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2818" topLine="0" />
+			<Cursor1 position="329" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="pilot\pilot_ws_Plastic_Splash.json" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pilot\pilot_ws_Power_Dive.json" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="341" topLine="0" />
+			<Cursor1 position="329" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="pilot\pilot_ws_Acid_Burn.json" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Medium_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="326" topLine="0" />
+			<Cursor1 position="3038" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="milestones\milestone_114_sim_leopard_start.json" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="upgrades\Sensors\Gear-WS_Upgrade_Sensor_Array_t5.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7781" topLine="197" />
+			<Cursor1 position="123" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_energy_non-laser.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="45" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Sniper_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2210" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Ultra_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3030" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Sensors\Gear-WS_Upgrade_Sensor_Array_t1.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1705" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Heavy_t5_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3020" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Sensors\Gear-WS_Upgrade_Sensor_Array_t3.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="126" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Sniper_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2220" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_wrathful_WRT-16.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3735" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Heavy_t1_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3010" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Sensors\Gear-WS_Upgrade_Sensor_Array_t4.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="123" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="itemCollection_Master.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21479" topLine="387" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_ViperR_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1619" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_ViperR_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="314" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_ViperR_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="313" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Medium_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3038" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_DFR_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="308" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_Burst_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2248" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Sniper_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3052" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Range_Enhance\Gear_RangeEnhance_Ballistic_5.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8536" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_DFR_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1518" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_grasshopper_GHR-WS.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4655" topLine="102" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_flea_FLE-80.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Light_t5_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3014" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_energy_non-laser_rare.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="50" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_commando_XCOM-F6.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6471" topLine="199" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_centurion_CN9-WS.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7521" topLine="188" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Heavy_t3_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3019" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Range_Enhance\Gear_RangeEnhance_Ballistic_2.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8536" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_ammo_ballistic.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1186" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_DFR_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="307" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_catapult_CPLT-WS.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1288" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Medium_t4_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3024" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_energy_laser_rare.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="46" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="chassis\chassisdef_bazooka_BZ-WS1.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7010" topLine="169" />
+		</Cursor>
+	</File>
+	<File name="ammunition\Ammunition_UKMG.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="161" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunition\Ammunition_Reaper_U.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="137" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Light_t2_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3014" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_energy_laser.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="41" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunition\Ammunition_Reaper_MB.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="83" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\Burst_Fire\Weapon-WS_AC_Reaper_Burst_Heavy_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4733" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Heavy_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3034" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_ballistic_rare.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="76" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunition\Ammunition_Reaper_M.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="350" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Ultra_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3040" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_ViperR_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunition\Ammunition_Reaper_LB.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="365" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Sniper_t3_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3052" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_ViperR_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1620" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Ultra_t2_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3040" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_weapon_ballistic.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1273" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Ultra_03x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="58" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunition\Ammunition_Reaper_HB.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="82" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Ultra_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3040" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_ammo_rocket.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="383" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Sniper_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2212" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2220" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_0.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Sniper_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2222" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_Burst_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2233" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_DFR_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1516" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_4.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Rocket\Ammo_AmmunitionBox_DFR_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="308" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_Burst_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2243" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2189" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_1.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Ultra_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2671" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Ultra_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="105" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_Burst_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2240" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2214" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Sniper_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2219" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_2.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_Custom_Mechs_3.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2212" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2212" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_Burst_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2240" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_Burst_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2232" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2205" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_Burst_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2236" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2402" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_Burst_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2240" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="AmmoCategory.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2035" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_Burst_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2236" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2206" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_Burst_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2239" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2402" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_Burst_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2246" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_Burst_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2231" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_Custom_Mechs_1.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2210" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2208" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2208" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_Custom_Mechs.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="34" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Light_Burst_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2244" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Medium_Burst_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2235" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2214" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_Custom_MechParts.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="38" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2207" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\Reaper_AC\Ammo_AmmunitionBox_Reaper_Heavy_Burst_25x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2241" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="item_collections_WS\itemCollection_WS_upgrade_mechanical.csv" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1165" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_3.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Light_t4_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3014" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\MG\AmmunitionBox_UKMG_10x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1584" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Medium_t3_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3024" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Range_Enhance\Gear_RangeEnhance_Ballistic_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2497" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\MG\AmmunitionBox_UKMG_01x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="336" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefsAppend\itemCollection_shopItems_battlefield.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="899" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Ultra_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3041" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="upgrades\Range_Enhance\Gear_RangeEnhance_Ballistic_4.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8536" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefsAppend\itemCollection_shopItems_blackmarket.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="48" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Sniper_t5_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3053" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefsAppend\itemCollection_shopItems_chemicalsProgression.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="932" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Sniper_t1_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2461" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\MG\AmmunitionBox_UKMG_05x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="338" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefs\itemCollection_WS_Custom_Mechs_2.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefsAppend\itemCollection_shopItems_chemicals.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="762" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\1x\Weapon-WS_AC_Reaper_Sniper_t4_0.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3053" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ItemCollectionDefsAppend\itemCollection_shopItems_battlefieldProgression.csv" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1531" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="weapon\AC_Reaper\2x\Weapon-WS_AC_Reaper_Light_t1_0_2x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3012" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ammunitionBox\MG\AmmunitionBox_UKMG_02x.json" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="302" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

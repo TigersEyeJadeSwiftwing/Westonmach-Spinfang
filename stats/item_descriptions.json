@@ -1,0 +1,52 @@
+{
+    "Descriptions" : {
+        "Reaper" : [
+                "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
+                "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
+                "Their warheads also deal heat damage.  ",
+                "Heavier models have an increased chance of inflicting critical hits.\n\n",
+                "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
+                "making them very strong while being very lightweight and compact.  ",
+                "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
+                "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
+                "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple type levels (Type 1, Type 2, etc.).  ",
+                "Weapons of a higher level have increased damage and range, but also draw more continual power from a battlemech's engine and power systems, ",
+                "which result in lower maximum heat and heat shutdown thresholds for the battlemech.\n\n",
+                "    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, ",
+                "with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  ",
+                "Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  ",
+                "Sniper models are designed for very long range attack.  ",
+                "\"BF\" or \"Burst Fire\" models shoot bursts of five rounds per attack."
+            ],
+        "Deathfire" : [
+                "    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  ",
+                "They can be used for indirect fire with the help of a spotter.  ",
+                "Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, ",
+                "and are made out of high-tech materials that make them lightweight.\n\n",
+                "    These weapons come in different type levels (Type 1, Type 2, etc.).  ",
+                "Weapons of a higher level have increased damage, range, and accuracy, ",
+                "but also draw more continual power from a battlemech's engine and power systems, ",
+                "which result in lower maximum heat and heat shutdown thresholds for the battlemech."
+            ],
+        "Enforcer" : [
+                "    Westonmach Ultra-Kinetic Machine Guns shoot lightweight but hard-hitting rounds that are made out of shaped, ",
+                "metal alloy materials with a custom-engineered atomic structure, designed and patented by Westonmach corporation.  ",
+                "Their ammunition doesn't contain or use any gunpowder, chemicals, or explosives, ",
+                "and as such can be struck, damaged, and set on fire without any risk of exploding.  ",
+                "The guns that fire them, not the ammunition, accelerate the rounds, ",
+                "and so the speed and range of the fired rounds depend on the gun that shoots them and not the ammunition.\n\n",
+                "    Westonmach Enforcer Machine Guns are designed to shoot rounds for a considerable distance, ",
+                "and rival short and medium range lasers and other battlemech-mounted weaponry, ",
+                "while at the same time functioning as support weapons that fire during battlemech melee combat.  ",
+                "UK (Ultra-Kinetic) Machine Guns have an increased chance of inflicting critical hits when hitting a target.\n\n",
+                "    These weapons come in different levels, such as \"Type 1\", \"Type 2\", etc.  ",
+                "A higher-level type is designed better than lower level types, and has superior characteristics.  ",
+                "Higher-level types will also stress the battlemech's engines and cooling systems, ",
+                "resulting in somewhat lower maximum heat thresholds, which can be offset by installing on-board cooling plants."
+            ],
+        "END" : [
+                "END Descriptions.  You should not see me (this text) in-game.  ",
+                "If you do, some developer on GitHub for this Mod needs to be beaned up-side the head until the problem is fixed."
+            ]
+    }
+}

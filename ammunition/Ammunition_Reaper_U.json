@@ -1,0 +1,19 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_Reaper_U",
+      "Name" : "Heavy Ultra Ammo",
+      "Details" : "Ammunition for the Ultra Reaper Autocannon.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ammunitionTypeID" : "Normal",
+   "Category" : "NotSet",
+   "ammoCategoryID" : "ReaperUltra",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

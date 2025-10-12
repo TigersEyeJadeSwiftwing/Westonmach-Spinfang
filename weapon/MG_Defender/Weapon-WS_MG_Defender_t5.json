@@ -1,0 +1,129 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "MachineGun",
+    "WeaponSubType" : "MachineGun",
+    "MinRange" : 0,
+    "MaxRange" : 60,
+    "RangeSplit" : [
+        30,
+        30,
+        60
+    ],
+    "ammoCategoryID" : "UKMG",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 17,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.25,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 3,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
+    "Description" : {
+        "Cost" : 125000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Defender Ultra-Kinetic Machine Gun",
+        "UIName" : "Defender MG t5",
+        "Id" : "Weapon-WS_MG_Defender_t5",
+        "Name" : "Defender MG t5",
+        "Details" : "Overheat threshold: -15\n
+    Westonmach Ultra-Kinetic Machine Guns shoot lightweight but hard-hitting rounds that are made out of shaped, metal alloy materials with a custom-engineered atomic structure, designed and patented by Westonmach corporation.  Their ammunition doesn't contain or use any gunpowder, chemicals, or explosives, and as such can be struck, damaged, and set on fire without any risk of exploding.  The guns that fire them, not the ammunition, accelerate the rounds, and so the speed and range of the fired rounds depend on the gun that shoots them and not the ammunition.
+    Westonmach Defender and Enforcer Machine Guns both use the same ammunition.  Enforcer series weapons are designed to shoot rounds for a considerable distance, and rival short and medium range lasers and other battlemech-mounted weaponry, while at the same time functioning as support weapons that fire during battlemech melee combat.  Defender Machine Guns are designed to only hit targets at a very short range, mostly for melee combat, but shoot rounds with extra punch and penetration, doing a lot more damage.
+    Both types of UK Machine Guns have an increased chance of inflicting critical hits when hitting a target.
+    These weapons come in different levels, such as \"Type 1\", \"Type 2\", etc.  A higher-level type is designed better than lower level types, and has superior characteristics.  Higher-level types will also stress the battlemech's engines and cooling systems, resulting in somewhat lower maximum heat thresholds, which can be offset by installing on-board cooling plants.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "51 Total Dmg",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Heat_Buildup",
+                "Name" : "HEAT GENERATED",
+                "Details" : "[AMT] heat generated.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "-15",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Heat_Reduced_Max",
+                "Name" : "MAX HEAT DECREASED",
+                "Details" : "Max heat level lowered by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "-15",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

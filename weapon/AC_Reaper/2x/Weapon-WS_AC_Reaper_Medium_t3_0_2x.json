@@ -1,0 +1,55 @@
+{
+    "Description" : {
+        "Manufacturer" : "Westonmach",
+        "Cost" : 450000, "Rarity" : 0, "Purchasable" : true,
+        "Id" : "Weapon-WS_AC_Reaper_Medium_t3_0_2x",
+        "Model" : "Medium Auto Cannon",
+        "UIName" : "Reaper Medium 2x AC T3",
+        "Name" : "Reaper Medium 2x AC T3",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+        "Details" : "Power Drain: -24\n
+    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n
+    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n
+    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple type levels (Type 1, Type 2, etc.).  Weapons of a higher level have increased damage and range, but also draw more continual power from a battlemech's engine and power systems, which result in lower maximum heat and heat shutdown thresholds for the battlemech.\n
+    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, with heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  Sniper models are designed for very long range attack.  \"BF\" or \"Burst Fire\" models shoot bursts of five rounds per attack.",
+    },
+    "Category" : "Ballistic", "Type" : "Autocannon", "WeaponSubType" : "AC10",
+    "MinRange" : 0, "MaxRange" : 550, "RangeSplit" : [120, 120, 550],
+    "ammoCategoryID" : "ReaperMedium", "StartingAmmoCapacity" : 0,
+    "Damage" : 100, "HeatDamage" : 40, "Instability" : 25, "DamageVariance" : 0, "CriticalChanceMultiplier" : 1.2, "IndirectFireCapable" : false, "AOECapable" : false,
+    "OverheatedDamageMultiplier" : 0, "EvasiveDamageMultiplier" : 0,
+    "ShotsWhenFired" : 2, "ProjectilesPerShot" : 1,
+    "AccuracyModifier" : 0, "EvasivePipsIgnored" : 0,
+    "HeatGenerated" : 16, "AttackRecoil" : 2, "RefireModifier" : 1,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Ultra",
+    "BonusValueA" : "", "BonusValueB" : "",
+    "ComponentType" : "Weapon", "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC10",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 0.25,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ComponentTags" : {"items" : ["component_type_stock", "range_standard"], "tagSetSourceFile" : ""},
+    "statusEffects" : [
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {"Id" : "StatusEffect-WS-Heat_Buildup", "Name" : "OVERHEAT THRESHOLD DECREASED", "Details" : "[AMT] heat generated.", "Icon" : "uixSvgIcon_equipment_ThermalExchanger"},
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : false,
+                "statName" : "OverheatLevel", "operation" : "Int_Add", "modValue" : "-24", "modType" : "System.Int32",
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {"Id" : "StatusEffect-WS-Heat_Reduced_Max", "Name" : "MAX HEAT DECREASED", "Details" : "Max heat level lowered by [AMT].", "Icon" : "uixSvgIcon_equipment_ThermalExchanger"},
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxHeat", "operation" : "Int_Add", "modValue" : "-24", "modType" : "System.Int32"
+            }
+        }
+    ]
+}

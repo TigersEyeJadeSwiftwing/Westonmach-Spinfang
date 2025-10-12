@@ -1,0 +1,38 @@
+{
+    "Description" : {
+            "Manufacturer" : "Westonmach",
+            "Cost" : 22000, "Rarity" : 0, "Purchasable" : true,
+            "Id" : "Weapon-WS_Rocket_Deathfire_t1_L01",
+            "Model" : "Deathfire Rocket",
+            "UIName" : "Deathfire RL T1 L01",
+            "Name" : "Deathfire RL T1 L01",
+            "Icon" : "uixSvgIcon_weapon_Missile",
+            "Details" : ""
+    },
+    "Category" : "Missile", "Type" : "LRM", "WeaponSubType" : "LRM20",
+    "MinRange" : 300, "MaxRange" : 1200, "RangeSplit" : [300, 300, 1200],
+    "ammoCategoryID" : "DFR", "StartingAmmoCapacity" : 0,
+    "Damage" : 11, "HeatDamage" : 1, "Instability" : 2, "DamageVariance" : 0, "CriticalChanceMultiplier" : 0.725, "IndirectFireCapable" : true, "AOECapable" : false,
+    "OverheatedDamageMultiplier" : 0, "EvasiveDamageMultiplier" : 0,
+    "ShotsWhenFired" : 2, "ProjectilesPerShot" : 1,
+    "AccuracyModifier" : 0, "EvasivePipsIgnored" : 0,
+    "HeatGenerated" : 2, "AttackRecoil" : 0, "RefireModifier" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
+    "BonusValueA" : "", "BonusValueB" : "",
+    "ComponentType" : "Weapon", "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm20",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "statusEffects" : []
+}

@@ -22,32 +22,28 @@
    "ExperienceUnspent" : 0,
    "ExperienceSpent" : 0,
    "Injuries" : 0,
-   "Health" : 5,
+   "Health" : 10,
    "LethalInjury" : false,
    "Incapacitated" : false,
    "Morale" : 0,
    "Voice" : "f_kamea",
    "abilityDefNames" : [
       "AbilityDefG5",
-      "AbilityDefG8",
-
-      "TraitDefHealthAddOne",
-      "TraitDefRefireReduceOne",
-	  "TraitDefOverheatAddFifteen",
-	  "TraitDefHealthAddTwo",
-      "TraitDefRefireReduceTwo",
-	  "AbilityDefGu5",
-	  "AbilityDefGu8",
-	  "TraitDefOverheatAddThirty",
-	  
-      "TraitDefIndirectReduceOne",
-	  "TraitDefUnsteadySet60",
-	  "AbilityDefP5",
-	  "TraitDefSprintIncrease20",
-
-	  "TraitDefMinRangeReduce45",
 	  "AbilityDefT5A",
-	  "TraitDefCalledShotImprove"
+	  "AbilityDefT8A",
+
+      "TraitDefWeaponHit10",
+      "TraitDefMeleeHit10",
+      "TraitDefIndirectReduceThree",
+      "TraitDefEliteMechWarrior",
+      "TraitDefDFASelfDmgReduction",
+      "TraitDefHealthAddTwo",
+      "TraitDefRefireReduceTwo",
+	  "TraitDefOverheatAddThirty",
+	  "TraitDefUnsteadySet60",
+	  "TraitDefSprintIncrease20",
+	  "TraitDefMinRangeReduce45",
+	  "TraitDefCalledShotMaster"
    ],
    "AIPersonality" : "Undefined",
    "PilotTags" : {

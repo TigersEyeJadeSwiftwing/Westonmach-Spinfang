@@ -157,104 +157,16 @@
                     "value" : "Leopard",
                     "valueConstant" : null
                 },
+                {
+                    "Type" : "System_StartConversation",
+                    "value" : "ws_sim_convo_new_young_pilots",
+					"additionalValues" : [
+						"Last minute loose ends...",
+						"Leopard, Command Deck"
+					]
+                },
 
                 /* Hire additional pilots */
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Rage_Fire",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Car_Crash",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Mach_Five_Assault",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Nuclear_Murder",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Acid_Burn",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Thrustheavy",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Prismatic_Cougar",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Chromatic_Wolf",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Black_Coffee",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Overcooked",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Screwdriver",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Slamdancer",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Power_Dive",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Skin_Peeler",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Plastic_Splash",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
-				{
-					"Type" : "MechWarrior_AddRoster",
-					"value" : "pilot_ws_Superphotonic",
-					"valueConstant" : null,
-					"additionalValues" : null
-				},
 
 				/* set in 111, repeated here for debug purposes */
 				{

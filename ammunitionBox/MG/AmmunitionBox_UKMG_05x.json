@@ -1,0 +1,39 @@
+{
+    "AmmoID" : "Ammunition_UKMG",
+    "Capacity" : 150,
+    "Description" : {
+        "Cost" : 25000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Westonmach",
+        "Model" : "Ultra-Kinetic",
+        "UIName" : "UK MG Ammo 05x",
+        "Id" : "AmmunitionBox_UKMG_05x",
+        "Name" : "UK MG Ammo 05x",
+        "Details" : "Capacity: 150 rounds, good for 50 attacks.\n
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, however Ultra-Kinetic Machine Gun ammunition is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to patented technology developed and used exclusively by Westonmach.  This solid alloy material makes up all of the rounds, and there is no casing, gunpowder, or chemical components, explosive or otherwise.  As such, there isn't any part of the ammunition to explode or burn if the ammunition or it's storage container gets damaged or set on fire in combat, so no explosion will occur from a critical hit.\n
+    Ultra-Kinetic Machine Gun Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.",
+        "Icon" : "uixSvgIcon_ammoBox_Support"
+    },
+    "BonusValueA" : "150 Shots",
+    "BonusValueB" : "50 Attacks",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.25,
+    "CanExplode" : false,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
