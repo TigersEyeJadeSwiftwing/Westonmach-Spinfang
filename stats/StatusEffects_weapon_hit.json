@@ -1,0 +1,250 @@
+{
+    "List" : [
+    [
+        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START" },
+        {
+            "List_of_EffectTriggerType_Values" : [
+                "Passive",
+                "OnActivation",
+                "OnHit",
+                "OnDamaged",
+                "OnWeaponFire",
+                "OnUnitActivationBegin",
+                "OnUnitActivationEnd",
+                "OnUnitActivationBeginOrEnd",
+                "TurnUpdate",
+                "Preview"
+            ]
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Stun", "Mod_WS_EquipEffect_ID" : "STUN" },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed_Debuff",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : true, "showInStatusPanel" : true,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed_Debuff",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed_Debuff",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP" },
+        {
+            "Description" : {
+                "Id" : "AbilityDefPPC",
+                "Name" : "SENSORS IMPAIRED",
+                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAK" },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Weakness",
+                "Name" : "WEAKNESS AGAINST DAMAGE",
+                "Details" : "Mech takes [AMT] damage from all sources and types of attacks.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_D" },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Debuff",
+                "Name" : "MAX HEAT IMPAIRMENT",
+                "Details" : "Maximum allowed heat and overheating threshold impaired by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Debuff",
+                "Name" : "OVERHEAT THRESHOLD IMPAIRMENT",
+                "Details" : "Overheat threshold impaired by [AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
+        { "Note" : "End of JSON file." }
+    ]
+
+    ]
+}

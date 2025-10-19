@@ -1,22 +1,380 @@
 {
-    "Effect_Power_Drain" : [
+    "List" : [
+    [
+        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START" },
         {
-            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "List_of_EffectTriggerType_Values" : [
+                "Passive",
+                "OnActivation",
+                "OnHit",
+                "OnDamaged",
+                "OnWeaponFire",
+                "OnUnitActivationBegin",
+                "OnUnitActivationEnd",
+                "OnUnitActivationBeginOrEnd",
+                "TurnUpdate",
+                "Preview"
+            ]
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Power_Drain_Debuff", "Mod_WS_EquipEffect_ID" : "PWDRN" },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
             "durationData" : {"duration" : -1, "stackLimit" : -1},
-            "Description" : {"Id" : "StatusEffect-WS-Heat_Buildup", "Name" : "OVERHEAT THRESHOLD DECREASED", "Details" : "[AMT] heat generated.", "Icon" : "uixSvgIcon_equipment_ThermalExchanger"},
+            "Description" : {"Id" : "StatusEffect-WS-Reduced_Overheat_Threshold", "Name" : "OVERHEAT THRESHOLD DECREASED", "Details" : "[AMT] heat generated.", "Icon" : "uixSvgIcon_equipment_ThermalExchanger"},
             "statisticData" : {
                 "appliesEachTick" : false, "effectsPersistAfterDestruction" : false,
                 "statName" : "OverheatLevel", "operation" : "Int_Add", "modValue" : "0", "modType" : "System.Int32"
             }
         },
         {
-            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
             "durationData" : {"duration" : -1, "stackLimit" : -1},
-            "Description" : {"Id" : "StatusEffect-WS-Heat_Reduced_Max", "Name" : "MAX HEAT DECREASED", "Details" : "Max heat level lowered by [AMT].", "Icon" : "uixSvgIcon_equipment_ThermalExchanger"},
+            "Description" : {"Id" : "StatusEffect-WS-Reduced_Max_Heat", "Name" : "MAX HEAT DECREASED", "Details" : "Max heat level lowered by [AMT].", "Icon" : "uixSvgIcon_equipment_ThermalExchanger"},
             "statisticData" : {
                 "appliesEachTick" : false, "effectsPersistAfterDestruction" : false,
                 "statName" : "MaxHeat", "operation" : "Int_Add", "modValue" : "0", "modType" : "System.Int32"
             }
         }
+    ],
+
+    [
+        { "Name" : "Effect_Heat_Stress_Debuff", "Mod_WS_EquipEffect_ID" : "HSTR0" },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "OnActivation", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Heat_Modifier",
+                "Name" : "HEAT STRESS",
+                "Details" : "[AMT] heat generated every turn from equipped items and their stress on this Battlemech's systems.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : true, "effectsPersistAfterDestruction" : false,
+                "statName" : "CurrentHeat", "operation" : "Int_Add", "modValue" : "1", "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Equipment_Armor_Penalty", "Mod_WS_EquipEffect_ID" : "AMRPN" },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-Head",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is reduced, from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "Head.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-CenterTorso",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "CenterTorso.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-LeftTorso",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftTorso.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-RightTorso",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightTorso.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-CenterTorsoRear",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "CenterTorso.RearArmor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-LeftTorsoRear",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftTorso.RearArmor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-RightTorsoRear",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightTorso.RearArmor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-LeftArm",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftArm.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-RightArm",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightArm.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-LeftLeg",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftLeg.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Penalty-RightLeg",
+                "Name" : "EQUIPMENT ARMOR PENALTY",
+                "Details" : "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightLeg.Armor", "operation" : "Float_Divide", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Stun", "Mod_WS_EquipEffect_ID" : "STUN" },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed_Debuff",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : true, "showInStatusPanel" : true,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed_Debuff",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed_Debuff",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "ENGNE" },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed_Modifier",
+                "Name" : "ENGINE PERFORMANCE UPGRADE",
+                "Details" : "This unit's upgraded engine improves its movement speed by [AMT].",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true, "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet", "targetCollection" : "NotSet", "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet", "targetAmmoCategory" : "NotSet", "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed_Modifier",
+                "Name" : "ENGINE PERFORMANCE UPGRADE",
+                "Details" : "This unit's upgraded engine improves its movement speed by [AMT].",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet", "targetCollection" : "NotSet", "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet", "targetAmmoCategory" : "NotSet", "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP" },
+        {
+            "Description" : {
+                "Id" : "AbilityDefPPC",
+                "Name" : "SENSORS IMPAIRED",
+                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 0,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
+        { "Note" : "End of JSON file." }
+    ]
+
     ]
 }

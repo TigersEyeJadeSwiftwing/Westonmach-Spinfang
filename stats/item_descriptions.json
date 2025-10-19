@@ -1,52 +1,144 @@
 {
     "Descriptions" : {
         "Reaper" : [
-                "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
-                "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
-                "Their warheads also deal heat damage.  ",
-                "Heavier models have an increased chance of inflicting critical hits.\n\n",
-                "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
-                "making them very strong while being very lightweight and compact.  ",
-                "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
-                "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
-                "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple type levels (Type 1, Type 2, etc.).  ",
-                "Weapons of a higher level have increased damage and range, but also draw more continual power from a battlemech's engine and power systems, ",
-                "which result in lower maximum heat and heat shutdown thresholds for the battlemech.\n\n",
-                "    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, ",
-                "with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  ",
-                "Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  ",
-                "Sniper models are designed for very long range attack.  ",
-                "\"BF\" or \"Burst Fire\" models shoot bursts of five rounds per attack."
-            ],
+            "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
+            "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
+            "Their warheads also deal heat damage.  ",
+            "Heavier models have an increased chance of inflicting critical hits.\n\n",
+            "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
+            "making them very strong while being very lightweight and compact.  ",
+            "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
+            "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
+            "    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, ",
+            "with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  ",
+            "Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  ",
+            "Sniper models are designed for very long range attack.  ",
+            "\"BF\" or \"Burst Fire\" models shoot bursts of five rounds per attack.  ",
+            "Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, ",
+            "causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n",
+            "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+        "Reaper_Basic" : [
+            "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
+            "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
+            "Their warheads also deal heat damage.  ",
+            "Heavier models have an increased chance of inflicting critical hits.\n\n",
+            "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
+            "making them very strong while being very lightweight and compact.  ",
+            "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
+            "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
+            "    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, ",
+            "with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  ",
+            "Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, ",
+            "causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n",
+            "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+        "Reaper_Ultra" : [
+            "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
+            "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
+            "Their warheads also deal heat damage.  ",
+            "Heavier models have an increased chance of inflicting critical hits.\n\n",
+            "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
+            "making them very strong while being very lightweight and compact.  ",
+            "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
+            "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
+            "    Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  ",
+            "Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, ",
+            "causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n",
+            "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+        "Reaper_Sniper" : [
+            "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
+            "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
+            "Their warheads also deal heat damage.  ",
+            "Heavier models have an increased chance of inflicting critical hits.\n\n",
+            "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
+            "making them very strong while being very lightweight and compact.  ",
+            "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
+            "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
+            "    Sniper models are designed for very long range attack.  ",
+            "They fire a pair of shots that use very long, needle-like rounds, which have an accuracy bonus for distant targets.  ",
+            "They have serious accuracy penalties when used against close-range targets, which they are not designed to attack.\n\n",
+            "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+        "Reaper_BF" : [
+            "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  ",
+            "Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  ",
+            "Their warheads also deal heat damage.  ",
+            "Heavier models have an increased chance of inflicting critical hits.\n\n",
+            "    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, ",
+            "making them very strong while being very lightweight and compact.  ",
+            "Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, ",
+            "so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n",
+            "    \"BF\" or \"Burst Fire\" models shoot bursts of five rounds per attack.  ",
+            "Compared to the basic versions, they do more regular damage but have reduced accuracy per individual shot and have a shorter maximum range.  ",
+            "They have smaller warheads that inflict less heat damage, snd in short have some other trade-offs compared to the basic versions.\n\n",
+            "    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+
         "Deathfire" : [
-                "    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  ",
-                "They can be used for indirect fire with the help of a spotter.  ",
-                "Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, ",
-                "and are made out of high-tech materials that make them lightweight.\n\n",
-                "    These weapons come in different type levels (Type 1, Type 2, etc.).  ",
-                "Weapons of a higher level have increased damage, range, and accuracy, ",
-                "but also draw more continual power from a battlemech's engine and power systems, ",
-                "which result in lower maximum heat and heat shutdown thresholds for the battlemech."
-            ],
+            "    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  ",
+            "They can be used for indirect fire with the help of a spotter.  ",
+            "Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, ",
+            "and are made out of high-tech materials that make them lightweight.\n\n",
+            "    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, ",
+            "and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, ",
+            "but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+
+        "Viper_Nine" : [
+            "    Viper Nine Rockets are extreme long-range rockets with explosive warheads that fly in straight lines and lack indirect fire, something like beefed-up SRMs.  ",
+            "Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, ",
+            "and are made out of high-tech materials that make them lightweight.\n\n",
+            "    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, ",
+            "and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, ",
+            "but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+
         "Enforcer" : [
-                "    Westonmach Ultra-Kinetic Machine Guns shoot lightweight but hard-hitting rounds that are made out of shaped, ",
-                "metal alloy materials with a custom-engineered atomic structure, designed and patented by Westonmach corporation.  ",
-                "Their ammunition doesn't contain or use any gunpowder, chemicals, or explosives, ",
-                "and as such can be struck, damaged, and set on fire without any risk of exploding.  ",
-                "The guns that fire them, not the ammunition, accelerate the rounds, ",
-                "and so the speed and range of the fired rounds depend on the gun that shoots them and not the ammunition.\n\n",
-                "    Westonmach Enforcer Machine Guns are designed to shoot rounds for a considerable distance, ",
-                "and rival short and medium range lasers and other battlemech-mounted weaponry, ",
-                "while at the same time functioning as support weapons that fire during battlemech melee combat.  ",
-                "UK (Ultra-Kinetic) Machine Guns have an increased chance of inflicting critical hits when hitting a target.\n\n",
-                "    These weapons come in different levels, such as \"Type 1\", \"Type 2\", etc.  ",
-                "A higher-level type is designed better than lower level types, and has superior characteristics.  ",
-                "Higher-level types will also stress the battlemech's engines and cooling systems, ",
-                "resulting in somewhat lower maximum heat thresholds, which can be offset by installing on-board cooling plants."
-            ],
+            "    Westonmach Ultra-Kinetic Machine Guns shoot lightweight but hard-hitting rounds that are made out of shaped, ",
+            "metal alloy materials with a custom-engineered atomic structure, designed and patented by Westonmach corporation.  ",
+            "Their ammunition doesn't contain or use any gunpowder, chemicals, or explosives, ",
+            "and as such can be struck, damaged, and set on fire without any risk of exploding.  ",
+            "The guns that fire them, not the ammunition, accelerate the rounds, ",
+            "and so the speed and range of the fired rounds depend on the gun that shoots them and not the ammunition.\n\n",
+            "    Westonmach Enforcer Machine Guns are designed to shoot rounds for a considerable distance, ",
+            "and rival short and medium range lasers and other battlemech-mounted weaponry, ",
+            "while at the same time functioning as support weapons that fire during battlemech melee combat.  ",
+            "UK (Ultra-Kinetic) Machine Guns have an increased chance of inflicting critical hits when hitting a target.\n\n",
+            "    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, ",
+            "but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+
+        "MF_Laser" : [
+            "    Westonmach Multi-Frequency Battlemech lasers are super-intense laser weapons that shoot a laser beam containing ",
+            "multiple lasers of different frequencies at the same time, integrated into one beam of energy.  They do a serious amount ",
+            "of damage to their targets, and also heat up the target when they hit.  Like regular battlemech-mounted lasers, they enjoy ",
+            "an accuracy bonus, and don't require any ammunition.  The small versions are support weapons that fire during melee.\n\n",
+            "    Westonmach Multi-Frequency lasers will temporarily impair a target's ability to cool itself, overheating the target on a successful hit.  ",
+            "A target hit by one of these lasers will have a lower maximum heat threshold for a few turns, as well as a lower threshold for shutting down.  ",
+            "In addition, while a target that has been hit is cooling off, the damaged area is melting and hot, and for a short time won't protect the target ",
+            "as much from further damage, making other damage temporarily reduce armor and structure a little more than it normally would.\n\n",
+            "    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  ",
+            "Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, ",
+            "but also weaken the structural integrity of a battlemech's armor as a trade-off."
+        ],
+
+        "IPBC" : [
+            "    Ion Particle Bolt Cannons, or IPBCs, "
+        ],
+
         "END" : [
                 "END Descriptions.  You should not see me (this text) in-game.  ",
                 "If you do, some developer on GitHub for this Mod needs to be beaned up-side the head until the problem is fixed."
-            ]
+        ]
     }
 }

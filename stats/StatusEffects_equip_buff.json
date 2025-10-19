@@ -1,0 +1,143 @@
+{
+    "List" : [
+    [
+        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START" },
+        {
+            "List_of_EffectTriggerType_Values" : [
+                "Passive",
+                "OnActivation",
+                "OnHit",
+                "OnDamaged",
+                "OnWeaponFire",
+                "OnUnitActivationBegin",
+                "OnUnitActivationEnd",
+                "OnUnitActivationBeginOrEnd",
+                "TurnUpdate",
+                "Preview"
+            ]
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "ENGNE" },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed_Modifier",
+                "Name" : "ENGINE PERFORMANCE UPGRADE",
+                "Details" : "This unit's upgraded engine improves its movement speed by [AMT].",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true, "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet", "targetCollection" : "NotSet", "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet", "targetAmmoCategory" : "NotSet", "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed_Modifier",
+                "Name" : "ENGINE PERFORMANCE UPGRADE",
+                "Details" : "This unit's upgraded engine improves its movement speed by [AMT].",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet", "targetCollection" : "NotSet", "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet", "targetAmmoCategory" : "NotSet", "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "JUMP" },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed_Modifier",
+                "Name" : "UPGRADED JUMP DISTANCE",
+                "Details" : "This unit has upgraded jump jets that makes it's jumping distance multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_action_jump"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "HEAT_B" },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Increased",
+                "Name" : "MAX HEAT INCREASED",
+                "Details" : "Maximum allowed heat and overheating threshold increased by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Name" : "OVERHEAT THRESHOLD INCREASED",
+                "Details" : "Overheat threshold increased by [AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
+        { "Note" : "End of JSON file." }
+    ]
+
+    ]
+}

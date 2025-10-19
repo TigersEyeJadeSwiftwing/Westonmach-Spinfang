@@ -1,0 +1,73 @@
+{
+    "Description" : {
+        "Id" : "pilot_ws_Prismatic_Cougar",
+        "Name" : "Prismatic Cougar",
+        "FirstName" : "Joe",
+        "LastName" : "Gillon",
+        "Callsign" : "Prismatic Cougar",
+        "Gender" : "Male",
+        "factionID" : "AuriganMercenaries",
+        "Age" : 19,
+        "Details" :
+"    With a history of familiarity with both the Aurigan Reach and the Inner Sphere solar systems, 19 year old Joe Gillon is a rather young and novice battlemech pilot to begin with that has a surprisingly good know-how of how to survive as a battlemech pilot mercenary in modern times across the stars, and a large amount of potential to succeed as a battlemech pilot pilot with above average skills in controlling, piloting, and fighting in a battlemech.  He is especially good at taking a long-range missle-bearing battlemech out across terrain at high speed, with agility, and positioning it at far off locations where, with the help of a spotter unit, can nail targets with indirect fire and razor-sharp accuracy.  He can manage a battlemech's heat better than most can, and can also do well in a stand-up fight when indirect fire isn't an option.  Joe also knows how to shrug off damage to his battlemech rather well, and can take a beating but also fight back and win.
+
+    Growing up on the road, Joe's parents were battlemech pilots and mercenaries, and didn't have a permanent home, but were always traveling from star system to star system, taking Joe with them.  Joe doesn't know what it's like to grow up in a house that has a real address, located in a specific town or city, or have a hometown or home world to belong to and always come home to.  His parents paid for a private, personalized education, teaching him as the whole family traveled the stars.  Joe had a robot and it's on-board, modified AI for a schoolteacher and mentor for nearly all subjects that made up his education.  It was a heavily modified battlemech pilot mechanic's workshop assistant to begin with, originally a very expensive model, and a MechTech's best friend.  It taught him everything from math to algebra to philosophy and sciences of all sorts, and of course taught Joe how to not only be a battlemech pilot pilot but also a mechanic who could alter and upgrade weapons and other equipment that one can install on a battlemech, and also a good amount of technical know-how about lostech and such.  Joe was fortunately quite interested in these things, and picked up a lot of skills from his robot mentor.
+    The robot also taught Joe, of all things, how to find friends when one is always on the road and has no hometown or place to call home, and Joe actually learned how to quickly make \"instant friends\" that were teenagers like himself in places like shopping malls and public parks when his family would leave him for a few hours in such places while traveling.  His parents were so certain that Joe would develop weird social skills and end up being messed up from not having normal friendships with such a lifestyle, but Joe instead somehow ended up very normal and healthy, and if left alone on a weekend wandering a shopping mall planet-side in some star system he had never been to before, by the time his parents picked him up after a few hours of being away for business nearby in the town or city, Joe would have already met with and bonded with local children who were enjoying the weekend before going back to school on Monday, and in his pockets Joe would have phone numbers and contact information for kids his age he hung out with who he would call and talk to even a year or more later, and keep in touch with, and also play multi-player network video games with when light-years away.  If his parents and their mercenary company happened to come by the star system again, taking Joe with them of course, as his own quarters on-board the ship that he shared with his parents was his home, he would sometimes meet up with friends he hadn't seen face-to-face in perhaps a year or more sometimes, yet still played remote video games with and kept in touch with via emails and other communications.  Having his robot teacher and mentor teach him secrets of Comstar technology and how to work with it also helped.
+
+    When Joe turned 17, he reluctantly cooperated with his parents and got his own living quarters, and prepared to grow up a little and have his own life as a battlemech pilot mercenary.  His loving parents cared about him very much, and told him he had to.  He then quickly got used to being independent, and finally moved out of his parents' living quarters for good, and got his own ride, and a start to his own destiny, on-board another ship and with a separate group of battlemech pilot mercenaries, well-trained and prepared, with a lot of potential and a good start.  Now, at 19, he lives on-board a ship independently, working as a mercenary and ready for work and what life has in store for him.",
+        "Icon" : "ws_img_pilot_Copper_Fox"
+    },
+        "BaseGunnery" : 2,
+        "BonusGunnery" : 0,
+        "BasePiloting" : 1,
+        "BonusPiloting" : 0,
+        "BaseGuts" : 1,
+        "BonusGuts" : 0,
+        "BaseTactics" : 2,
+        "BonusTactics" : 0,
+        "ExperienceUnspent" : 0,
+        "ExperienceSpent" : 0,
+        "Injuries" : 0,
+        "Health" : 5,
+        "LethalInjury" : false,
+        "Incapacitated" : false,
+        "Morale" : 0,
+        "Voice" : "m_pro01_stark_chad",
+        "abilityDefNames" : [
+            "TraitDefWeaponHit5",
+            "TraitDefMeleeHit2",
+            "TraitDefRefireReduceOne",
+            "TraitDefIndirectReduceOne",
+            "TraitDefIndirectReduceTwo",
+            "TraitDefIndirectReduceThree",
+            "TraitDefEvasiveChargeAddOne",
+            "TraitDefOverheatAddFifteen",
+            "TraitDefOverheatAddThirty",
+            "TraitDefUnsteadySet60",
+            "TraitDefSprintIncrease20",
+            "TraitDefEliteMechWarrior"
+    ],
+    "AIPersonality" : "Undefined",
+    "PilotTags" : {
+        "items" : [
+            "BLACKLISTED",
+            "pilot_backer",
+            "pilot_tech",
+            "pilot_comstar",
+            "pilot_spacer",
+            "pilot_lostech",
+            "pilot_athletic",
+            "pilot_brave",
+            "pilot_cautious",
+            "pilot_dependable",
+            "pilot_honest",
+            "name_Prismatic_Cougar",
+            "pilot_innersphere",
+            "pilot_aurigan",
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "PilotCost" : 0
+    "IsRonin": true,
+    "IsVanguard": false
+}

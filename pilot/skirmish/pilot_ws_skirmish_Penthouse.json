@@ -1,0 +1,69 @@
+{
+    "Description" : {
+        "Id" : "pilot_ws_skirmish_Penthouse",
+        "Name" : "Penthouse",
+        "FirstName" : "Andy",
+        "LastName" : "Iceland",
+        "Callsign" : "Penthouse",
+        "Gender" : "Male",
+        "factionID" : "AuriganMercenaries",
+        "Age" : 91,
+        "Details" : "Born a tribal half-dragon of the Aurigan Reach, Andrew Iceland... TODO",
+        "Icon" : "ws_img_pilot_Tigerstone_2"
+    },
+        "BaseGunnery" : 10,
+        "BasePiloting" : 10,
+        "BaseGuts" : 10,
+        "BaseTactics" : 10,
+        "BonusGunnery" : 0, "BonusPiloting" : 0, "BonusGuts" : 0, "BonusTactics" : 0, "ExperienceUnspent" : 0, "ExperienceSpent" : 0,
+        "Injuries" : 0,
+        "Health" : 12,
+        "LethalInjury" : false, "Incapacitated" : false, "Morale" : 0,
+        "Voice" : "m_pro01_stark_chad",
+        "abilityDefNames" : [
+            "TraitDefWeaponHit1",   "TraitDefMeleeHit1",
+            "TraitDefWeaponHit2",   "TraitDefMeleeHit2",
+            "TraitDefWeaponHit3",   "TraitDefMeleeHit3",
+            "TraitDefWeaponHit4",   "TraitDefMeleeHit4",
+            "TraitDefWeaponHit5",   "TraitDefMeleeHit5",
+            "TraitDefWeaponHit6",   "TraitDefMeleeHit6",
+            "TraitDefWeaponHit7",   "TraitDefMeleeHit7",
+            "TraitDefWeaponHit8",   "TraitDefMeleeHit8",
+            "TraitDefWeaponHit9",   "TraitDefMeleeHit9",
+            "TraitDefWeaponHit10",  "TraitDefMeleeHit10",
+
+            "AbilityDefG5",
+            "AbilityDefP5",
+            "AbilityDefP8",
+
+            "TraitDefVeteranMechWarrior",
+            "TraitDefEliteMechWarrior",
+            "TraitDefEvasiveChargeAddOne",
+            "TraitDefEvasiveChargeAddTwo",
+            "TraitDefHeadshotImmunity",
+            "TraitDefIndirectReduceOne",
+            "TraitDefIndirectReduceTwo",
+            "TraitDefIndirectReduceThree",
+            "TraitDefMinRangeReduce45",
+            "TraitDefMinRangeReduce90",
+            "TraitDefOverheatAddFifteen",
+            "TraitDefOverheatAddThirty",
+            "TraitDefRefireReduceOne",
+            "TraitDefRefireReduceTwo",
+            "TraitDefSprintIncrease10",
+            "TraitDefSprintIncrease20",
+            "TraitDefUnsteadySet80",
+            "TraitDefUnsteadySet60",
+            "TraitDefCalledShotImprove",
+            "TraitDefCalledShotMaster"
+    ],
+    "AIPersonality" : "Undefined",
+    "PilotTags" : {
+        "items" : [
+            "BLACKLISTED", "pilot_release_ksbeta", "pilot_release_skirmish",
+            "name_Penthouse"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "PilotCost" : 0
+}
