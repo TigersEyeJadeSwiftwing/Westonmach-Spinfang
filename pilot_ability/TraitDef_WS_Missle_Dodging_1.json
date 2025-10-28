@@ -1,0 +1,50 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Missle_Dodging_1",
+		"Name" : "Missle Dodging",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior are harder to hit with missles and rockets.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "+1 Missle Dodging",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "Trait-WS-Missle_Dodging",
+                "Name" : "MISSLE DODGING",
+                "Details" : "+[AMT] Aim difficulty for enemies to hit this unit with missles and rockets, including indirect fire, such as missles and rockets that shoot around terrain and obstacles, etc.",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+	]
+}

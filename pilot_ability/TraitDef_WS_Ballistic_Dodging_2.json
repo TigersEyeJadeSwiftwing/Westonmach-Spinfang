@@ -1,0 +1,50 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Ballistic_Dodging_2",
+		"Name" : "Ballistic Dodging",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior are harder to hit with ballistic weapons.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "+2 Ballistic Dodging",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "Trait-WS-Ballistic_Dodging",
+                "Name" : "BALLISTIC DODGING",
+                "Details" : "+[AMT] Aim difficulty for enemies to hit this unit with ballistic weapons.",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+	]
+}

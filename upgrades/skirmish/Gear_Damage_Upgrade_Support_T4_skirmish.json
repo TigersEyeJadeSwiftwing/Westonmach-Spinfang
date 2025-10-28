@@ -1,0 +1,378 @@
+{
+  "Description": {
+    "Cost": 927618,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Spinfang",
+    "Model": "Weapon Damage Upgrade",
+    "UIName": "Damage Upgrade Support T4",
+    "Id": "Gear_Damage_Upgrade_Support_T4_skirmish",
+    "Name": "Damage Upgrade Support T4",
+    "Details": "Armor Penalty: 94.652%\n\n",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BonusValueA": "120% Damage",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-Head",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is reduced, from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_maint_Level0"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "Head.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-CenterTorso",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "CenterTorso.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-LeftTorso",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "LeftTorso.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-RightTorso",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "RightTorso.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-CenterTorsoRear",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "CenterTorso.RearArmor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-LeftTorsoRear",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "LeftTorso.RearArmor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-RightTorsoRear",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "RightTorso.RearArmor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-LeftArm",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "LeftArm.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-RightArm",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "RightArm.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-LeftLeg",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "LeftLeg.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Penalty-RightLeg",
+        "Name": "EQUIPMENT ARMOR PENALTY",
+        "Details": "Armor is at [AMT] from installed equipment that weakens this battlemech as a trade-off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "RightLeg.Armor",
+        "operation": "Float_Divide",
+        "modValue": 1.0565,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Support_Modifier",
+        "Name": "SUPPORT WEAPON DAMAGE INCREASED",
+        "Details": "Support weapons on this unit deal [AMT] more damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamagePerShot",
+        "operation": "Float_Multiply",
+        "modValue": 1.2,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "AntiPersonnel",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ]
+}

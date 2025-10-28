@@ -1,0 +1,227 @@
+{
+    "Description" : {
+        "Id" : "event_ws_new_young_pilots",
+        "Name" : "Car Crash and friends",
+        "Details" : "You have more than a dozen new battlemech pilots, and their luggage, filled with all of their possessions and their lives.  They are young and inexperienced, but show potential.  They have rather low scores to start off with, but a lot of room to grow.  They are yours to train and mold however you want, and if you dismiss any, you probably won't see them again.  Note that you still have a few spare bunks if you want to hire the usual new recruits you find in various star systems.",
+        "Icon" : "uixTxrSpot_Crates.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 100,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "",
+            "items" : []
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : []
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "Commander",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "RequirementComparisons" : []
+        },
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "Tags/PlanetTags",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "Tags/PlanetTags",
+                "items" : []
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "OK",
+                "Details" : "option one",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "something happens",
+                        "Details" : "The young mechwarriors settle in without incident.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : []
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : []
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Acid_Burn",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Black_Coffee",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Car_Crash",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Chromatic_Wolf",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Divebomb",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Mach_Five_Assault",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Nuclear_Murder",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Overcooked",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Plastic_Splash",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Power_Dive",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Prismatic_Cougar",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Rage_Fire",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Screwdriver",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Skin_Peeler",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Slamdancer",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Space_Case",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Spaghetti",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Superphotonic",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Thrustheavy",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddRoster",
+                                    "value" : "pilot_ws_Wild_Boy",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : false
+}

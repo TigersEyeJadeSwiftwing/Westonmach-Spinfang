@@ -1,0 +1,282 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_ArmorStructure_Plus_01",
+		"Name" : "Armor and Structure Boost",
+		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have higher armor and structure.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "+05 Armor Structure",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-Head",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "Head.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-CenterTorso",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "CenterTorso.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftTorso",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftTorso.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightTorso",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightTorso.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-CenterTorsoRear",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "CenterTorso.RearArmor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftTorsoRear",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftTorso.RearArmor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightTorsoRear",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightTorso.RearArmor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftArm",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftArm.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightArm",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightArm.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftLeg",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftLeg.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightLeg",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightLeg.Armor", "operation" : "Float_Multiply", "modValue" : "1.08", "modType" : "System.Single"
+            }
+        },
+
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-HeadStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "Head.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-CenterTorsoStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "CenterTorso.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftTorsoStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftTorso.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightTorsoStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightTorso.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftArmStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftArm.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightArmStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightArm.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-LeftLegStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "LeftLeg.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Armor_Boost-RightLegStructure",
+                "Name" : "ARMOR STRUCTURE BOOST",
+                "Details" : "Armor and structure levels are boosted.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "RightLeg.Structure", "operation" : "Float_Multiply", "modValue" : "1.045", "modType" : "System.Single"
+            }
+        }
+	]
+}

@@ -19,12 +19,16 @@
     ],
 
     [
-        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "ENGNE" },
+        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "ENGINE",
+          "Prepend" : [
+            { "Text" : "Walking / Sprinting movement spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
 		{
             "Description" : {
                 "Id" : "StatusEffect-WS-Walk_Speed_Modifier",
                 "Name" : "ENGINE PERFORMANCE UPGRADE",
-                "Details" : "This unit's upgraded engine improves its movement speed by [AMT].",
+                "Details" : "This unit's upgraded engine multiplies its movement speed by [1+AMT].",
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -46,7 +50,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Run_Speed_Modifier",
                 "Name" : "ENGINE PERFORMANCE UPGRADE",
-                "Details" : "This unit's upgraded engine improves its movement speed by [AMT].",
+                "Details" : "This unit's upgraded engine multiplies its movement speed by [1+AMT].",
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -67,12 +71,16 @@
     ],
 
     [
-        { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "JUMP" },
+        { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "JUMP",
+          "Prepend" : [
+            { "Text" : "Jumping spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
         {
             "Description" : {
                 "Id" : "StatusEffect-WS-Jump_Speed_Modifier",
                 "Name" : "UPGRADED JUMP DISTANCE",
-                "Details" : "This unit has upgraded jump jets that makes it's jumping distance multiplied by [AMT].",
+                "Details" : "This unit has upgraded jump jets that makes it's jumping distance multiplied by [1+AMT].",
                 "Icon" : "uixSvgIcon_action_jump"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -91,12 +99,17 @@
     ],
 
     [
-        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "HEAT_B" },
+        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "HEAT_B",
+          "Prepend" : [
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
         {
             "Description" : {
                 "Id" : "StatusEffect-WS-Max_Heat-Increased",
                 "Name" : "MAX HEAT INCREASED",
-                "Details" : "Maximum allowed heat and overheating threshold increased by [AMT].",
+                "Details" : "Maximum allowed heat increased by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -116,8 +129,162 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
                 "Name" : "OVERHEAT THRESHOLD INCREASED",
+                "Details" : "Overheating shutdown threshold increased by [AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "HEAT_BUFF",
+          "Prepend" : [
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Increased",
+                "Name" : "MAX HEAT INCREASED",
+                "Details" : "Maximum allowed heat increased by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Name" : "OVERHEAT THRESHOLD INCREASED",
+                "Details" : "Overheating shutdown threshold increased by [AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Max_Heat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "MAX_HEAT_BUFF",
+          "Prepend" : [
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Increased",
+                "Name" : "MAX HEAT INCREASED",
+                "Details" : "Maximum allowed heat increased by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Level_Buff", "Mod_WS_EquipEffect_ID" : "OVERHEAT_BUFF",
+          "Prepend" : [
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Name" : "OVERHEAT THRESHOLD INCREASED",
                 "Details" : "Overheat threshold increased by [AMT]",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "STABILITY_BUFF",
+          "Prepend" : [
+            { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Stability_Maximum",
+                "Name" : "STABILITY INCREASED",
+                "Details" : "Maximum stability and unsteady thresholds increased by [AMT]",
+                "Icon" : "uixSvgIcon_status_unsteady"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxStability",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold",
+                "Name" : "UNSTEADY THRESHOLD INCREASED",
+                "Details" : "Unsteady threshold increased by [AMT]",
+                "Icon" : "uixSvgIcon_status_unsteady"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
@@ -126,11 +293,1592 @@
                 "showInTargetPreview" : false, "showInStatusPanel" : false
             },
             "statisticData" : {
-                "statName" : "OverheatLevel",
+                "statName" : "UnsteadyThreshold",
                 "operation" : "Int_Add",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "INIT_BUFF",
+          "Prepend" : [
+            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "neg_int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Initiative_Adjust",
+                "Name" : "UNIT INITIATIVE INCREASED",
+                "Details" : "Provides a [INVERSE_AMT] bonus to Unit Initiative Every Turn.",
+                "Icon" : "uixSvgIcon_special_Equipment"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BaseInitiative",
+                "operation" : "Int_Add",
+                "modValue" : "-1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Force_Field_Buff", "Mod_WS_EquipEffect_ID" : "SHIELD",
+          "Prepend" : [
+            { "Text" : "Damage taken modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Force_Field",
+                "Name" : "Force Field",
+                "Details" : "Mech takes [AMT] less damage from all sources and types of attacks.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.8",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "JAMMER",
+          "Prepend" : [
+            { "Text" : "Enemy targeting aim difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Targeting_Jammer",
+                "Name" : "TARGETING JAMMER",
+                "Details" : "+[AMT] Aim difficulty for enemies to hit this unit with direct line-of-sight fire.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActorDirectFire",
+                "operation" : "Float_Add",
+                "modValue" : "1",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "ECM",
+          "Prepend" : [
+            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Targeting_ECM_Indirect",
+                "Name" : "ECM COUNTER-TRACKING UNIT",
+                "Details" : "+[AMT] Aim difficulty for enemies to hit this unit with missles and rockets, including indirect fire, such as missles and rockets that shoot around terrain and obstacles, etc.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "1",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Cockpit_Armor", "Mod_WS_EquipEffect_ID" : "COCKPIT",
+          "Prepend" : [
+            { "Text" : "Pilot injuries negated: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Pilot_HealthAdd-T1",
+                "Name" : "INJURY RESIST INCREASED",
+                "Details" : "Prevents [AMT] Injuries against a MechWarrior.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BonusHealth",
+                "operation" : "Int_Add",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Pilot",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Melee_Damage_Buff", "Mod_WS_EquipEffect_ID" : "MELEE",
+          "Prepend" : [
+            { "Text" : "Melee damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Melee_Damage",
+                "Name" : "MELEE DAMAGE INCREASED",
+                "Details" : "Melee attacks by this unit deal [AMT] additional damage to the enemy.",
+                "Icon" : "uixSvgIcon_specialEquip_Melee"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Melee_Stability_Damage",
+                "Name" : "MELEE STABILITY DAMAGE INCREASED",
+                "Details" : "Melee attacks by this unit deal [AMT] additional stability damage to the enemy.",
+                "Icon" : "uixSvgIcon_specialEquip_Melee"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "Instability",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_DFA_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DFA_BUFF",
+          "Prepend" : [
+            { "Text" : "DFA self-inflicted damage modifier: ", "Data_Type" : "div_percent", "Digits" : "2" },
+            { "Text" : "DFA damage to enemy modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "DFA stability damage to enemy modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-DFA_Self_Damage",
+                "Name" : "DFA SELF-INFLICTED DAMAGE DECREASED",
+                "Details" : "DFA (Death-From-Above) attacks by this unit deal [1/AMT] self-inflicted damage.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DFASelfDamage",
+                "operation" : "Float_Divide",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "DFA"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-DFA_Enemy_Damage",
+                "Name" : "DFA DAMAGE INCREASED",
+                "Details" : "DFA (Death-From-Above) attacks by this unit deal [AMT] additional damage to the enemy.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "DFA"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-DFA_Enemy_Stability_Damage",
+                "Name" : "DFA DAMAGE INCREASED",
+                "Details" : "DFA (Death-From-Above) attacks by this unit deal [AMT] additional stability damage to the enemy.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "Instability",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "DFA"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Accuracy_Support_Buff", "Mod_WS_EquipEffect_ID" : "ACC+SPPT",
+          "Prepend" : [
+            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+          ]
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Support_Modifier",
+                "Name" : "SUPPORT WEAPON ACCURACY UPGRADED",
+                "Details" : "Support weapon attacks have their hit improved by [1-AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "AntiPersonnel",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Accuracy_Energy_Buff", "Mod_WS_EquipEffect_ID" : "ACC+ENGY",
+          "Prepend" : [
+            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+          ]
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Energy_Modifier",
+                "Name" : "ENERGY WEAPON ACCURACY UPGRADED",
+                "Details" : "Energy weapon attacks have their hit improved by [1-AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Accuracy_Ballistic_Buff", "Mod_WS_EquipEffect_ID" : "ACC+BALL",
+          "Prepend" : [
+            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+          ]
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Ballistic_Modifier",
+                "Name" : "BALLISTIC WEAPON ACCURACY UPGRADED",
+                "Details" : "Ballistic weapon attacks have their hit improved by [1-AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Accuracy_Missle_Buff", "Mod_WS_EquipEffect_ID" : "ACC+MSSL",
+          "Prepend" : [
+            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+          ]
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Missle_Modifier",
+                "Name" : "MISSLE WEAPON ACCURACY UPGRADED",
+                "Details" : "Missle weapon attacks have their hit improved by [1-AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Support_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+SPPT",
+          "Prepend" : [
+            { "Text" : "Support weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Support_LongRange",
+                "Name" : "SUPPORT WEAPON RANGE INCREASE",
+                "Details" : "Increased attack range of Support weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LongRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "AntiPersonnel",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Support_MaxRange",
+                "Name" : "SUPPORT WEAPON MAX RANGE INCREASE",
+                "Details" : "Increased max range of Support weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "AntiPersonnel",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Energy_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+ENGY",
+          "Prepend" : [
+            { "Text" : "Energy weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Energy_LongRange",
+                "Name" : "ENERGY WEAPON RANGE INCREASE",
+                "Details" : "Increased attack range of Energy weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LongRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Energy_MaxRange",
+                "Name" : "ENERGY WEAPON MAX RANGE INCREASE",
+                "Details" : "Increased max range of Energy weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Ballistic_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+BALL",
+          "Prepend" : [
+            { "Text" : "Ballistic weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Ballistic_LongRange",
+                "Name" : "BALLISTIC WEAPON RANGE INCREASE",
+                "Details" : "Increased attack range of Ballistic weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LongRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Ballistic_MaxRange",
+                "Name" : "BALLISTIC WEAPON MAX RANGE INCREASE",
+                "Details" : "Increased max range of Ballistic weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Missile_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+MSSL",
+          "Prepend" : [
+            { "Text" : "Rocket / Missle weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Missile_LongRange",
+                "Name" : "MISSLE WEAPON RANGE INCREASE",
+                "Details" : "Increased attack range of Missile weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LongRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Range_Increase_Missile_MaxRange",
+                "Name" : "MISSLE WEAPON MAX RANGE INCREASE",
+                "Details" : "Increased max range of Missile weapons by [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxRange",
+                "operation" : "Float_Add",
+                "modValue" : "90.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Support_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+SPPT",
+          "Prepend" : [
+            { "Text" : "Support weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Support_Modifier",
+                "Name" : "SUPPORT WEAPON DAMAGE INCREASED",
+                "Details" : "Support weapons on this unit deal [AMT] more damage.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "AntiPersonnel",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Ballistic_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+BALL",
+          "Prepend" : [
+            { "Text" : "Ballistic weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Ballistic_Modifier",
+                "Name" : "BALLISTIC WEAPON DAMAGE INCREASED",
+                "Details" : "Ballistic weapons on this unit deal [AMT] more damage.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Energy_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+ENGY",
+          "Prepend" : [
+            { "Text" : "Energy weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Energy_Modifier",
+                "Name" : "ENERGY WEAPON DAMAGE INCREASED",
+                "Details" : "Energy weapons on this unit deal [AMT] more damage.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Missle_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+MSSL",
+          "Prepend" : [
+            { "Text" : "Missle / Rocket weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Missle_Modifier",
+                "Name" : "MISSLE WEAPON DAMAGE INCREASED",
+                "Details" : "Missle weapons on this unit deal [AMT] more damage.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Sensor_Range_Buff", "Mod_WS_EquipEffect_ID" : "SENSOR_BUFF",
+          "Prepend" : [
+            { "Text" : "Sensor range enhancement: ", "Data_Type" : "meters", "Digits" : "0" }
+          ]
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Spotting_Distance_Gain",
+                "Name" : "SENSOR RANGE INCREASED",
+                "Details" : "This unit's Sensor spotting, visibility, and detection range is increased by [AMT]m.",
+                "Icon" : "uixSvgIcon_equipment_Rangefinder"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SpotterDistanceAbsolute",
+                "operation" : "Float_Add",
+                "modValue" : "100.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Spotting_Visibility_Gain",
+                "Name" : "SPOTTING VISIBILITY INCREASED",
+                "Details" : "Spotting visibility increased by [AMT]m.",
+                "Icon" : "uixSvgIcon_equipment_Rangefinder"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SpottingVisibilityAbsolute",
+                "operation" : "Float_Add",
+                "modValue" : "100.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Sensor_Distance_Gain",
+                "Name" : "SENSOR DISTANCE INCREASED",
+                "Details" : "Sensor distance increased by [AMT]m.",
+                "Icon" : "uixSvgIcon_equipment_Rangefinder"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SensorDistanceAbsolute",
+                "operation" : "Float_Add",
+                "modValue" : "100.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Stealth_Buff", "Mod_WS_EquipEffect_ID" : "STEALTH",
+          "Prepend" : [
+            { "Text" : "Enemy sensor detection range modifier (cloak): ", "Data_Type" : "meters", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Sensor_Signature_Modifier",
+                "Name" : "UNIT STEALTHED",
+                "Details" : "This unit is stealthed, with the range enemy sensors can detect it modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_Rangefinder"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SensorSignatureModifier",
+                "operation" : "Float_Add",
+                "modValue" : "50.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
         }
     ],
 

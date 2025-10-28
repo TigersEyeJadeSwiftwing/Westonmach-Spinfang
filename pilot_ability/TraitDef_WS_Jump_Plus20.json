@@ -1,0 +1,46 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Jump_Plus20",
+		"Name" : "Increased Jump",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior gain 20% Jump distance.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "JumpDistance",
+	"ShortDesc" : "+ 20% Max Jump",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : -1
+			},
+			"targetingData" :
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Trait-WS-Jump_Speed_Modifier",
+				"Name" : "Increased Jump",
+				"Details" : "Gain 20% Jump distance",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" :
+			{
+				"statName" : "JumpDistanceMultiplier",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.2",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}
+	]
+}

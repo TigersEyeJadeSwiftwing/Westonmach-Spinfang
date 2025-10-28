@@ -14,8 +14,8 @@
         "Details" : "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Additionally, they may also be used to perform the dreaded 'Death from Above' attack. Assault Jump Jets are specially designed for use on 'Mechs 90 to 100 tons.",
         "Icon" : "uixSvgIcon_action_jump"
     },
-    "BonusValueA" : null,
-    "BonusValueB" : null,
+    "BonusValueA" : "2 Tons",
+    "BonusValueB" : "90-100T Mechs",
     "ComponentType" : "JumpJet",
     "ComponentSubType" : "Functionality",
     "PrefabIdentifier" : "JumpJet",

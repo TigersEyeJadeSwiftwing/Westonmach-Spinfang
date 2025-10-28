@@ -1,0 +1,75 @@
+Face,Callsign,First Name,Last Name,Gender,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes
+,,,,,,,,,,,,,
+Skirmish Pilots,,,,,,,,,,,,,
+,Callsign,First Name,Last Name,Male,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes
+,,,,,,,,,,,,,
+Black Fox,Sweet Hot Death,John,Doe,Male,AuriganMercenaries,50,6,4,6,6,9,m_ermy01,Sensor-Lock Bulwark
+Blade Hawk,Binoculars,John,Doe,Male,AuriganMercenaries,50,7,4,7,5,11,m_pro01_stark_chad,Breach-Shot Bulwark Sure-Foot
+Blood Lightning,Meat On A Stick,John,Doe,Male,AuriganMercenaries,50,7,9,5,8,10,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot
+Blue Warrior,Mach Five Assault,John,Doe,Male,AuriganMercenaries,50,10,8,3,5,12,m_ermy01,Multi-Targ Sure-Foot Ace-Pilot
+Bronze Wood,Spaghetti,John,Doe,Male,AuriganMercenaries,50,4,4,2,3,5,m_pro01_stark_chad,
+Chrome Puma,Lucid Dream,John,Doe,Male,AuriganMercenaries,50,8,10,6,5,9,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact
+Cloud Fighter,Turbo Twit,John,Doe,Male,AuriganMercenaries,50,6,8,4,9,8,m_pro01_stark_chad,Ace-Pilot Sensor-Lock Bulwark
+Cobra,Acid Burn,John,Doe,Male,AuriganMercenaries,50,12,5,8,7,8,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot Veteran
+Coolstone Cat,Chainsaw Tooth,John,Doe,Male,AuriganMercenaries,50,7,4,6,7,7,m_ermy01,Sure-Foot Bulwark Ace-Pilot
+Copper Fox,Prismatic Cougar,John,Doe,Male,AuriganMercenaries,50,16,8,7,9,9,m_ermy01,Multi-Targ Sensor-Lock Master-Tact Veteran
+Copper Wolf,Shark Fin,John,Doe,Male,AuriganMercenaries,50,6,7,10,11,6,m_pro01_stark_chad,Master-Tact Breach-Shot Bulwark
+Crystal Stiletto,Leather Jacket,John,Doe,Male,AuriganMercenaries,50,9,4,9,8,11,m_ermy01,Multi-Targ Ace-Pilot Master-Tact
+Deep Sky,Wild Kid,John,Doe,Male,AuriganMercenaries,50,10,9,3,4,7,m_pro01_stark_chad,Sensor-Lock Ace-Pilot Master-Tact
+Defthand,Space Case,John,Doe,Male,AuriganMercenaries,50,5,4,6,5,7,m_ermy01,Multi-Targ Sure-Foot
+Desert Sand,Black Coffee,John,Doe,Male,AuriganMercenaries,50,8,4,7,9,10,m_ermy01,Multi-Targ Sensor-Lock Master-Tact
+Feral,Wild Boy,John,Doe,Male,AuriganMercenaries,50,13,9,11,10,5,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact Elite
+Firewalker,Rabid Firecracker,John,Doe,Male,AuriganMercenaries,50,7,9,10,9,14,m_ermy01,Bulwark Ace-Pilot Master-Tact Veteran No-Headshot
+Glass Snake,Sunray,John,Doe,Male,AuriganMercenaries,50,10,9,13,4,15,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark Elite
+Golden Sword,Electrocution Party,John,Doe,Male,AuriganMercenaries,50,8,6,5,7,10,m_pro01_stark_chad,Master-Tact Breach-Shot Ace-Pilot
+Grand Flight,Oil Can,John,Doe,Male,AuriganMercenaries,50,9,7,5,5,7,m_pro01_stark_chad,Bulwark Multi-Targ Sensor-Lock
+High Road Wolf,Blood Streak,John,Doe,Male,AuriganMercenaries,50,7,9,6,5,6,m_pro01_stark_chad,Ace-Pilot Sure-Foot Bulwark
+Hot Lightning,Mad Tarantula,John,Doe,Male,AuriganMercenaries,50,8,14,10,5,12,m_pro01_stark_chad,Bulwark Ace-Pilot Master-Tact
+Laser Blade,Raging Bloodshed,John,Doe,Male,AuriganMercenaries,50,7,6,5,9,11,m_pro01_stark_chad,Master-Tact Breach-Shot Multi-Targ Veteran
+Leopard Blade,Manslaughter Delight,John,Doe,Male,AuriganMercenaries,50,5,6,4,3,5,m_ermy01,Multi-Targ Sure-Foot Veteran
+Magic Katana,Murder Kitten,John,Doe,Male,AuriganMercenaries,50,9,10,3,14,9,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite
+Magicland Panther,True Color Torture,John,Doe,Male,AuriganMercenaries,50,4,7,7,3,5,m_pro01_stark_chad,Sure-Foot Bulwark
+Morning Windfire,Soldier Slay What,John,Doe,Male,AuriganMercenaries,50,8,10,11,8,12,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot
+North Forest,Glory Carnage,John,Doe,Male,AuriganMercenaries,50,9,5,6,7,15,m_pro01_stark_chad,Bulwark Ace-Pilot Multi-Targ Elite No-Headshot
+Photon Ninjato,Land of Revenge,John,Doe,Male,AuriganMercenaries,50,8,7,6,9,10,m_pro01_stark_chad,Multi-Targ Master-Tact Bulwark Elite No-Headshot
+Pinewood,Lynching Holiday,John,Doe,Male,AuriganMercenaries,50,5,6,4,4,6,m_ermy01,Bulwark Sensor-Lock Elite
+Quickfighter,Lunchtime Massacre,John,Doe,Male,AuriganMercenaries,50,12,9,7,8,11,m_ermy01,Sensor-Lock Master-Tact Breach-Shot Elite No-Headshot
+Rage Fighter,Skull Cleaver,John,Doe,Male,AuriganMercenaries,50,16,12,6,13,8,m_pro01_stark_chad,Breach-Shot Multi-Targ Master-Tact Elite
+Raging Vitality,Coffee Break,John,Doe,Male,AuriganMercenaries,50,11,14,9,10,8,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite No-Headshot
+Raptor,Sun Zombie,John,Doe,Male,AuriganMercenaries,50,13,10,8,7,10,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark Veteran No-Headshot
+Red Thunder Dawn,Power Dive,John,Doe,Male,AuriganMercenaries,50,15,9,12,10,13,m_ermy01,Multi-Targ Bulwark Ace-Pilot
+Riverside Cougar,Bronze Skeleton,John,Doe,Male,AuriganMercenaries,50,8,12,9,8,9,m_pro01_stark_chad,Multi-Targ Sensor-Lock Master-Tact Veteran
+Shotgun,Superphotonic,John,Doe,Male,AuriganMercenaries,50,3,4,1,2,8,m_pro01_stark_chad,
+Sky Raven,Contrasensical,John,Doe,Male,AuriganMercenaries,50,10,2,3,8,8,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact
+Solar Glory,Tender Loathing Care,John,Doe,Male,AuriganMercenaries,50,12,8,5,10,8,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact Veteran No-Headshot
+Solar Wind Spellcaster,Murder Club,John,Doe,Male,AuriganMercenaries,50,7,5,6,8,7,m_ermy01,Multi-Targ Breach-Shot Ace-Pilot Veteran
+Solar Youth,Chunky Decapitation,John,Doe,Male,AuriganMercenaries,50,7,9,5,10,11,m_pro01_stark_chad,Multi-Targ Master-Tact Bulwark Elite No-Headshot
+Spunk Cutlass,Mobster Buddy,John,Doe,Male,AuriganMercenaries,50,9,4,7,9,9,m_pro01_stark_chad,Sure-Foot Bulwark Ace-Pilot
+Summer Wind,Ambush Predator,John,Doe,Male,AuriganMercenaries,50,16,14,9,5,5,m_pro01_stark_chad,Master-Tact Ace-Pilot Multi-Targ Veteran
+Sun Tiger,Gung Ho,John,Doe,Male,AuriganMercenaries,50,9,8,7,15,10,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Veteran No-Headshot Elite
+Tall Cloud,Fusion Thrash,John,Doe,Male,AuriganMercenaries,50,9,7,9,6,6,m_ermy01,Multi-Targ Master-Tact Ace-Pilot Veteran
+Tall Crystal Sky,Regal Club,John,Doe,Male,AuriganMercenaries,50,6,9,8,7,8,m_pro01_stark_chad,Coolant-Vent Sure-Foot Sensor-Lock Veteran
+Tall Tornado Wind,Gentle Brutality,John,Doe,Male,AuriganMercenaries,50,13,16,6,9,11,m_pro01_stark_chad,Ace-Pilot Multi-Targ Sure-Foot Veteran
+Tigerland,Asphyxiation,John,Doe,Male,AuriganMercenaries,50,7,3,6,5,6,m_ermy01,Ace-Pilot Master-Tact Bulwark
+Tigerstone 1,Heavy Handed,John,Doe,Male,AuriganMercenaries,50,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite No-Headshot
+Tigerstone 2,Penthouse,John,Doe,Male,AuriganMercenaries,50,15,14,10,12,14,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite No-Headshot
+Tundrahawk,Majestic Conquest,John,Doe,Male,AuriganMercenaries,50,7,4,6,3,11,m_pro01_stark_chad,Multi-Targ Ace-Pilot Bulwark Elite No-Headshot
+White Snake,Torture Compartment,John,Doe,Male,AuriganMercenaries,50,11,14,14,14,11,m_pro01_stark_chad,Breach-Shot Multi-Targ Bulwark Elite
+Wind Fire,Toxic Waste Dump,John,Doe,Male,AuriganMercenaries,50,9,10,6,15,7,m_ermy01,Breach-Shot Multi-Targ Sensor-Lock
+Winter Day,Hurt In A Box,John,Doe,Male,AuriganMercenaries,50,11,13,15,9,11,m_pro01_stark_chad,Sensor-Lock Sure-Foot Master-Tact Veteran
+Yellow Viper,Car Crash,John,Doe,Male,AuriganMercenaries,50,9,16,10,12,12,m_pro01_stark_chad,Multi-Targ Sensor-Lock Bulwark Elite
+,,,,,,,,,,,,,
+List of Trait Codes,,,,,,,,,,,,,
+,Code,Trait,,,,,Description,,,,,,
+,,,,,,,,,,,,,
+-----,Multi-Targ,AbilityDefG5,,,,,"Gunnery 5, Multi-Target",,,,,,
+-----,Breach-Shot,AbilityDefG8,,,,,"Gunnery 8, Breaching Shot",,,,,,
+-----,Bulwark,AbilityDefGu5,,,,,"Guts 5, Bulwark",,,,,,
+-----,Coolant-Vent,AbilityDefGu8,,,,,"Guts 8, Coolant Vent",,,,,,
+-----,Sure-Foot,AbilityDefP5,,,,,"Piloting 5, Sure Footing",,,,,,
+-----,Ace-Pilot,AbilityDefP8,,,,,"Piloting 8, Ace Pilot",,,,,,
+-----,Sensor-Lock,AbilityDefT5A,,,,,"Tactics 5, Sensor Lock",,,,,,
+-----,Master-Tact,AbilityDefT8A,,,,,"Tactics 8, Master Tactician",,,,,,
+-----,No-Headshot,TraitDefHeadshotImmunity,,,,,Immune to head shots,,,,,,
+-----,Veteran,TraitDefVeteranMechWarrior,,,,,"Veteran pilot, takes less damage",,,,,,
+-----,Elite,TraitDefEliteMechWarrior,,,,,"Elite pilot, takes less damage",,,,,,

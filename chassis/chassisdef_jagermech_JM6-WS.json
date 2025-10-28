@@ -78,7 +78,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 1000,
+            "MaxArmor": 2500,
             "MaxRearArmor": -1,
             "InternalStructure": 100
         },
@@ -94,18 +94,30 @@
                     "Omni": false
                 },
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 1500,
-            "MaxRearArmor": 750,
+            "MaxArmor": 3200,
+            "MaxRearArmor": 2500,
             "InternalStructure": 150
         },
         {
@@ -113,8 +125,8 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 2100,
-            "MaxRearArmor": 1050,
+            "MaxArmor": 5000,
+            "MaxRearArmor": 3200,
             "InternalStructure": 210
         },
         {
@@ -129,18 +141,30 @@
                     "Omni": false
                 },
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 1500,
-            "MaxRearArmor": 750,
+            "MaxArmor": 3200,
+            "MaxRearArmor": 2500,
             "InternalStructure": 150
         },
         {
@@ -165,7 +189,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 1000,
+            "MaxArmor": 2500,
             "MaxRearArmor": -1,
             "InternalStructure": 100
         },
@@ -174,7 +198,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 1500,
+            "MaxArmor": 2500,
             "MaxRearArmor": -1,
             "InternalStructure": 150
         },
@@ -183,7 +207,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 1500,
+            "MaxArmor": 2500,
             "MaxRearArmor": -1,
             "InternalStructure": 150
         }

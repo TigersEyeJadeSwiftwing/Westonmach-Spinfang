@@ -1,0 +1,46 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Walk_Plus20",
+		"Name" : "Increased Walk",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior gain 20% Walk distance.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "WalkDistance",
+	"ShortDesc" : "+ 20% Max Walk",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : -1
+			},
+			"targetingData" :
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Trait-WS-Walk_Speed_Modifier",
+				"Name" : "Increased Walk",
+				"Details" : "Gain 20% Walk distance",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" :
+			{
+				"statName" : "WalkSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.2",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}
+	]
+}

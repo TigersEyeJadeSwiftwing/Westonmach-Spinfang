@@ -1,14 +1,41 @@
 const fs = require("fs");
 const path = require("path");
 
+/** Makes a deep copy of any object.  Doesn't copy functions, just data.
+ * @return {object} A deep copy of the input object.
+ */
+Object.defineProperty(
+    Object.prototype,'Deep',{
+        value:function(){
+            return JSON.parse( JSON.stringify(this) );
+        },
+        enumerable:false
+    }
+);
+
+const EmptyFolder = (folderPath) => {
+    if (fs.existsSync(folderPath)) {
+        fs.rmSync(folderPath, { recursive: true, force: true });
+        fs.mkdirSync(folderPath);
+    }
+};
+
+const power_drain_divisor = 2000.0;
+
 // Hard-coded input/output folders
 const folder_input = "./";
 const folder_root = "../";
 const folder_ammobox = "../ammunitionBox/generated/";
+const folder_ammobox_skirmish = "../ammunitionBox/skirmish/";
 const folder_weapons = "../weapon/generated/";
+const folder_weapons_skirmish = "../weapon/skirmish/";
 const folder_heatsinks = "../heatsinks/generated/";
+const folder_heatsinks_skirmish = "../heatsinks/skirmish/";
 const folder_jumpjets = "../jumpjets/generated/";
+const folder_jumpjets_skirmish = "../jumpjets/skirmish/";
 const folder_upgrades = "../upgrades/generated/";
+const folder_upgrades_skirmish = "../upgrades/skirmish/";
+const folder_pilot_skirmish = "../pilot/skirmish/";
 
 // File names
 const csv_ammobox = path.join(folder_input, "ammo_box.csv");
@@ -19,17 +46,48 @@ const csv_heatsinks = path.join(folder_input, "heatsinks.csv");
 const json_heatsinks = path.join(folder_input, "heatsinks.json");
 const csv_jumpjets = path.join(folder_input, "jumpjets.csv");
 const json_jumpjets = path.join(folder_input, "jumpjets.json");
-const csv_upgrades = path.join(folder_input, "upgrades.csv");
-const json_upgrades = path.join(folder_input, "upgrades.json");
+const csv_upgrades = path.join(folder_input, "equipment.csv");
+const json_upgrades = path.join(folder_input, "equipment_template.json");
+const csv_pilot_skirmish = path.join(folder_input, "pilot_skirmish.csv");
+const json_pilot_skirmish = path.join(folder_input, "pilot_skirmish_template.json");
 
 var Effects = [];
 var ItemDescriptions = [];
 var IconList = [];
+var console_output = [];
+var console_index_count = 0;
 
-/** Makes a deep copy of any object.  Doesn't copy functions, just data.
- * @return {object} A deep copy of the input object.
- */
-Object.defineProperty(Object.prototype,'Deep',{value:function(){return JSON.parse(JSON.stringify(this));},enumerable:false});
+function Log(txt) {
+    console_output.push(txt);
+    console_index_count = 0;
+}
+
+function FlushConsole() {
+    if (console_index_count > 1) {
+        console_output = [];
+
+        return;
+    }
+
+    const output = console_output.join("\n");
+    console.log(output);
+    console_output = [];
+    console_index_count++;
+}
+
+function ClearDirs() {
+    EmptyFolder(folder_ammobox);
+    EmptyFolder(folder_ammobox_skirmish);
+    EmptyFolder(folder_weapons);
+    EmptyFolder(folder_weapons_skirmish);
+    EmptyFolder(folder_heatsinks);
+    EmptyFolder(folder_heatsinks_skirmish);
+    EmptyFolder(folder_jumpjets);
+    EmptyFolder(folder_jumpjets_skirmish);
+    EmptyFolder(folder_upgrades);
+    EmptyFolder(folder_upgrades_skirmish);
+    EmptyFolder(folder_pilot_skirmish);
+}
 
 // --- CSV parser (simple, assumes comma-separated, no quotes) ---
 function ParseCSV(text) {
@@ -59,6 +117,14 @@ function ParseListOfIcons() {
 function GetIcon(text) {
     if (IconList.length < 1)
         ParseListOfIcons();
+
+    if (text === "Ballistic") return "uixSvgIcon_weapon_Ballistic";
+    else if (text === "Energy") return "uixSvgIcon_weapon_Energy";
+    else if (text === "Missile") return "uixSvgIcon_weapon_Missile";
+    else if (text === "Missle") return "uixSvgIcon_weapon_Missile";
+    else if (text === "Support") return "uixSvgIcon_weapon_Support";
+    else if (text === "Generic") return "uixSvgIcon_equipment_Generic";
+    else if (text === "General") return "uixSvgIcon_equipment_Generic";
 
     const list = IconList.filter( (icon) => icon.includes(String(text)) );
 
@@ -98,6 +164,7 @@ function FindEquipmentEffect(tag, value, duration=null, stack=null) {
 
 function Main_Weapons(diag=false) {
     const output_folder = folder_weapons;
+    const output_folder_skirmish = folder_weapons_skirmish;
     const fext = ".json";
 
     // Load files
@@ -126,9 +193,10 @@ function Main_Weapons(diag=false) {
             const d_name = ("Weapon_").concat(e_name.replaceAll("Burst Fire", "BF").replaceAll(" ", "_"));
             // const f_name = path.join(folder_input, "test.json");
             const f_name = path.join(output_folder, d_name.concat(fext));
+            const f_name_skirmish = path.join(output_folder_skirmish, d_name.concat("_skirmish", fext));
 
             let index = {};
-            index.name = Number(headers.indexOf("Name"));
+            index.name = String(headers.indexOf("Name"));
             index.type = Number(headers.indexOf("Type"));
             index.level = Number(headers.indexOf("Level"));
             index.tonnage = Number(headers.indexOf("Tonnage"));
@@ -163,6 +231,7 @@ function Main_Weapons(diag=false) {
             index.gui_feature_b = Number(headers.indexOf("GUI Feature B"));
             index.specials_code = Number(headers.indexOf("Specials Code"));
             index.icon_code = Number(headers.indexOf("Icon Code"));
+            index.manufacturer = Number(headers.indexOf("Manf. Code"));
             index.weapon_model_name = Number(headers.indexOf("Weapon Model Name"));
 
             const item_type = row[index.type] ? Number(row[index.type]) : 1;
@@ -210,6 +279,12 @@ function Main_Weapons(diag=false) {
             else if (icon_code === "Support") data.Description.Icon = "uixSvgIcon_weapon_Support";
             else data.Description.Icon = GetIcon(icon_code);
 
+            if (index.manufacturer) {
+                if (index.manufacturer === "WS") data.Description.Manufacturer = "Westonmach";
+                if (index.manufacturer === "SF") data.Description.Manufacturer = "Spinfang";
+                if (index.manufacturer === "GR") data.Description.Manufacturer = "Gralthler";
+            }
+
             let item_tags = [];
             if (item_type == 5) {
                 item_tags.push( "component_type_variant" );
@@ -236,6 +311,8 @@ function Main_Weapons(diag=false) {
             else if (range_tag === "far") item_tags.push( "range_long" );
             else item_tags.push( range_tag );
             data.ComponentTags.items = item_tags;
+            let item_tags_skirmish = [ "component_type_stock", "range_" + range_tag.Deep() ];
+            data.ComponentTags.items.push( "BLACKLISTED" );
 
             const range_min = Number(row[index.range_min]);
             const range_optimal = Number(row[index.range_optimal]);
@@ -249,9 +326,310 @@ function Main_Weapons(diag=false) {
             const power_drain = row[index.power_drain] ? Number(row[index.power_drain]) : null;
             SetSpecials(data, specials_codes, power_drain);
 
+            let data_skirmish = data.Deep();
+            data_skirmish.ComponentTags.items = item_tags_skirmish.Deep();
+            data_skirmish.Description.Id = data_skirmish.Description.Id.Deep() + "_skirmish";
+
             fs.writeFileSync(f_name, JSON.stringify(data, null, 2), "utf8");
-            console.log(`Wrote ${f_name}`);
+            fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
+            // console.log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
+            Log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
+        } else {
+            FlushConsole();
         }
+
+        FlushConsole();
+    });
+}
+
+function Main_Pilots_Skirmish(diag=false) {
+    const output_folder_skirmish = folder_pilot_skirmish;
+    const fext = ".json";
+
+    // Load files
+    const json_template = JSON.parse(fs.readFileSync(json_pilot_skirmish, "utf8"));
+    const csv_text = fs.readFileSync(csv_pilot_skirmish, "utf8");
+    const { headers, rows } = ParseCSV(csv_text);
+
+    if (diag == true) {
+        const t_data = { headers, rows };
+        const tf_name = path.join(folder_input, "test_pilot_skirmish.json");
+        fs.writeFileSync(tf_name, JSON.stringify(t_data, null, 2), "utf8");
+    }
+
+    let trait_code_list = [];
+    let trait_list = [];
+
+    FlushConsole();
+    Log("Trait Codes:");
+
+    rows.forEach((row, idx) => {
+        const i_face = String(headers.indexOf("Face"));
+        const e_face = i_face ? String(row[i_face]) : "";
+        const i_code = Number(headers.indexOf("Callsign"));
+        const e_code = i_code ? String(row[i_code]) : null;
+        const i_trait = Number(headers.indexOf("First Name"));
+        const e_trait = i_trait ? String(row[i_trait]) : null;
+
+        if ((e_face === "-----") && e_code && e_trait && !trait_code_list.includes(e_code)) {
+            trait_code_list.push(e_code);
+            trait_list.push(e_trait);
+            Log("    " + e_code + "    " + e_trait);
+        }
+    });
+
+    FlushConsole();
+
+    rows.forEach((row, idx) => {
+        const i_face = String(headers.indexOf("Face"));
+        const e_face = i_face ? row[i_face] : null;
+        const i_callsign = Number(headers.indexOf("Callsign"));
+        const e_callsign = i_callsign ? row[i_callsign] : null;
+        const i_gender = Number(headers.indexOf("Gender"));
+        const e_gender = i_gender ? row[i_gender] : null;
+        const i_age = Number(headers.indexOf("Age"));
+        const e_age = i_age ? row[i_age] : null;
+
+        if (e_face && e_callsign && e_gender && e_age) {
+            // Clone template
+            let data = JSON.parse(JSON.stringify(json_template));
+
+            let dat = {};
+            dat.face = e_face.Deep();
+            dat.callsign = e_callsign.Deep();
+            dat.callsign_u = e_callsign.Deep().replaceAll(" ", "_");
+            dat.face_u = e_face.Deep().replaceAll(" ", "_");
+            dat.Id = "pilot_ws_skirmish_" + dat.callsign_u.Deep();
+            dat.Icon = "ws_img_pilot_" + dat.face_u.Deep();
+            dat.name_tag = "name_" + dat.callsign_u.Deep();
+
+            const f_name = path.join(output_folder_skirmish, dat.Id.concat(fext));
+
+            let index = {};
+            index.gender = Number(headers.indexOf("Gender"));
+            index.faction = Number(headers.indexOf("Faction"));
+            index.age = Number(headers.indexOf("Age"));
+            index.gunnery = Number(headers.indexOf("Gunnery"));
+            index.piloting = Number(headers.indexOf("Piloting"));
+            index.guts = Number(headers.indexOf("Guts"));
+            index.tactics = Number(headers.indexOf("Tactics"));
+            index.health = Number(headers.indexOf("Health"));
+            index.voice = Number(headers.indexOf("Voice"));
+            index.trait_codes = Number(headers.indexOf("Trait Codes"));
+
+            data.Description.Id = dat.Id.Deep();
+            data.Description.Name = e_callsign.Deep();
+            data.Description.Callsign = e_callsign.Deep();
+            data.Description.Gender = String(row[index.gender]);
+            data.Description.factionID = String(row[index.faction]);
+            data.Description.Age = Number(row[index.age]);
+            data.Description.Icon = dat.Icon.Deep();
+            data.BaseGunnery = Number(row[index.gunnery]);
+            data.BasePiloting = Number(row[index.piloting]);
+            data.BaseGuts = Number(row[index.guts]);
+            data.BaseTactics = Number(row[index.tactics]);
+            data.Health = Number(row[index.health]);
+            data.Voice = String(row[index.voice]);
+            data.PilotTags.items = ["BLACKLISTED", "pilot_release_ksbeta", "pilot_release_skirmish"];
+            data.PilotTags.items.push(dat.name_tag.Deep());
+
+            const trait_codes = String(row[index.trait_codes]);
+
+            let traits = [];
+            for (let i = 1; i <= data.BaseGunnery; i++) {
+                const trait_weapon_hit = "TraitDefWeaponHit" + String(i);
+                traits.push(trait_weapon_hit);
+            }
+            for (let i = 1; i <= data.BasePiloting; i++) {
+                const trait_melee_hit = "TraitDefMeleeHit" + String(i);
+                traits.push(trait_melee_hit);
+            }
+
+            if (data.BasePiloting >= 4) traits.push("TraitDefUnsteadySet80");
+            if (data.BasePiloting >= 5) traits.push("TraitDefSprintIncrease10");
+            if (data.BasePiloting >= 6) traits.push("TraitDefEvasiveChargeAddOne");
+            if (data.BasePiloting >= 7) traits.push("TraitDefSprintIncrease20");
+            if (data.BasePiloting >= 9) traits.push("TraitDefUnsteadySet60");
+            if (data.BasePiloting >= 10) traits.push("TraitDefEvasiveChargeAddTwo");
+            if (data.BasePiloting >= 11) traits.push("TraitDefUnsteadySet50");
+            if (data.BasePiloting >= 12) traits.push("TraitDef_WS_Walk_Plus10");
+            if (data.BasePiloting >= 12) traits.push("TraitDef_WS_Jump_Plus10");
+            if (data.BasePiloting >= 13) traits.push("TraitDefUnsteadySet40");
+            if (data.BasePiloting >= 14) traits.push("TraitDef_WS_Walk_Plus20");
+            if (data.BasePiloting >= 14) traits.push("TraitDef_WS_Jump_Plus20");
+            if (data.BasePiloting >= 15) traits.push("TraitDefEvasiveChargeAddThree");
+            if (data.BasePiloting >= 16) traits.push("TraitDef_WS_Walk_Plus30");
+            if (data.BasePiloting >= 16) traits.push("TraitDef_WS_Jump_Plus30");
+
+            if (data.BaseGuts >= 4) traits.push("TraitDefHealthAddOne");
+            if (data.BaseGuts >= 5) traits.push("TraitDefRefireReduceOne");
+            if (data.BaseGuts >= 6) traits.push("TraitDefOverheatAddFifteen");
+            if (data.BaseGuts >= 7) traits.push("TraitDefHealthAddTwo");
+            if (data.BaseGuts >= 8) traits.push("TraitDefRefireReduceTwo");
+            if (data.BaseGuts >= 9) traits.push("TraitDefOverheatAddThirty");
+            if (data.BaseGuts >= 10) traits.push("TraitDefHealthAddThree");
+
+            if (data.BaseGuts >= 2) traits.push("TraitDef_WS_ArmorStructure_Plus_01");
+            if (data.BaseGuts >= 3) traits.push("TraitDef_WS_ArmorStructure_Plus_02");
+            if (data.BaseGuts >= 4) traits.push("TraitDef_WS_ArmorStructure_Plus_03");
+            if (data.BaseGuts >= 5) traits.push("TraitDef_WS_ArmorStructure_Plus_04");
+            if (data.BaseGuts >= 6) traits.push("TraitDef_WS_ArmorStructure_Plus_05");
+            if (data.BaseGuts >= 7) traits.push("TraitDef_WS_ArmorStructure_Plus_06");
+            if (data.BaseGuts >= 8) traits.push("TraitDef_WS_ArmorStructure_Plus_07");
+            if (data.BaseGuts >= 9) traits.push("TraitDef_WS_ArmorStructure_Plus_08");
+            if (data.BaseGuts >= 10) traits.push("TraitDef_WS_ArmorStructure_Plus_09");
+            if (data.BaseGuts >= 11) traits.push("TraitDef_WS_ArmorStructure_Plus_10");
+            if (data.BaseGuts >= 12) traits.push("TraitDef_WS_ArmorStructure_Plus_11");
+            if (data.BaseGuts >= 13) traits.push("TraitDef_WS_ArmorStructure_Plus_12");
+            if (data.BaseGuts >= 14) traits.push("TraitDef_WS_ArmorStructure_Plus_13");
+            if (data.BaseGuts >= 15) traits.push("TraitDef_WS_ArmorStructure_Plus_14");
+            if (data.BaseGuts >= 16) traits.push("TraitDef_WS_ArmorStructure_Plus_15");
+
+            if (data.BaseTactics >= 4) traits.push("TraitDefIndirectReduceOne");
+            if (data.BaseTactics >= 5) traits.push("TraitDefMinRangeReduce45");
+            if (data.BaseTactics >= 6) traits.push("TraitDefCalledShotImprove");
+            if (data.BaseTactics >= 7) traits.push("TraitDefIndirectReduceTwo");
+            if (data.BaseTactics >= 8) traits.push("TraitDefMinRangeReduce90");
+            if (data.BaseTactics >= 9) traits.push("TraitDefCalledShotMaster");
+            if (data.BaseTactics >= 10) traits.push("TraitDefIndirectReduceThree");
+            if (data.BaseTactics >= 11) traits.push("TraitDefMinRangeReduce135");
+            if (data.BaseTactics >= 12) traits.push("TraitDef_WS_Missle_Dodging_1");
+            if (data.BaseTactics >= 12) traits.push("TraitDef_WS_Sensor_Range_01");
+            if (data.BaseTactics >= 13) traits.push("TraitDef_WS_Ballistic_Dodging_1");
+            if (data.BaseTactics >= 14) traits.push("TraitDefMinRangeReduce180");
+            if (data.BaseTactics >= 14) traits.push("TraitDef_WS_Sensor_Range_02");
+            if (data.BaseTactics >= 15) traits.push("TraitDef_WS_Missle_Dodging_2");
+            if (data.BaseTactics >= 16) traits.push("TraitDef_WS_Ballistic_Dodging_2");
+            if (data.BaseTactics >= 16) traits.push("TraitDef_WS_Sensor_Range_03");
+
+            if (trait_codes.length > 0) {
+                let tr = trait_codes.split(" ");
+
+                for (let trait of tr) {
+                    const code_index = trait_code_list.indexOf(trait);
+                    if (code_index >= 0) {
+                        const trait_name = trait_list[code_index].Deep();
+                        traits.push(trait_name);
+                    }
+                }
+            }
+
+            data.abilityDefNames = traits;
+
+            fs.writeFileSync(f_name, JSON.stringify(data, null, 2), "utf8");
+            // console.log(`Wrote ${f_name}`);
+            Log(`Wrote ${f_name}`);
+        }
+
+        FlushConsole();
+    });
+}
+
+function Main_Upgrades(diag=false) {
+    const output_folder = folder_upgrades;
+    const output_folder_skirmish = folder_upgrades_skirmish;
+    const fext = ".json";
+
+    // Load files
+    const json_template = JSON.parse(fs.readFileSync(json_upgrades, "utf8"));
+    const csv_text = fs.readFileSync(csv_upgrades, "utf8");
+    const { headers, rows } = ParseCSV(csv_text);
+
+    if (diag == true) {
+        const t_data = { headers, rows };
+        const tf_name = path.join(folder_input, "test_upgrades.json");
+        fs.writeFileSync(tf_name, JSON.stringify(t_data, null, 2), "utf8");
+    }
+
+    rows.forEach((row, idx) => {
+        const i_name = String(headers.indexOf("Name"));
+        const e_name = i_name ? row[i_name] : null;
+        const i_tons = Number(headers.indexOf("Tonnage"));
+        const e_tons = i_tons ? row[i_tons] : null;
+        const i_cost = Number(headers.indexOf("Cost"));
+        const e_cost = i_cost ? row[i_cost] : null;
+
+        if (e_name && e_tons && e_cost) {
+            // Clone template
+            let data = JSON.parse(JSON.stringify(json_template));
+
+            const d_name = ("Gear_").concat(e_name.replaceAll(" ", "_"));
+            const f_name = path.join(output_folder, d_name.concat(fext));
+            const f_name_skirmish = path.join(output_folder_skirmish, d_name.concat("_skirmish", fext));
+
+            let index = {};
+            index.name = Number(headers.indexOf("Name"));
+            index.type = Number(headers.indexOf("Type"));
+            index.level = Number(headers.indexOf("Level"));
+            index.tonnage = Number(headers.indexOf("Tonnage"));
+            index.power_drain = Number(headers.indexOf("Power Drain"));
+            index.equip_slots = Number(headers.indexOf("Equip Slots"));
+            index.cost = Number(headers.indexOf("Cost"));
+            index.gui_feature_a = Number(headers.indexOf("GUI Feature A"));
+            index.gui_feature_b = Number(headers.indexOf("GUI Feature B"));
+            index.specials_code = Number(headers.indexOf("Specials Code"));
+            index.allowed_locations = Number(headers.indexOf("Allowed Locations"));
+            index.icon_code = Number(headers.indexOf("Icon Code"));
+            index.model_name = Number(headers.indexOf("Model Name"));
+
+            const item_type = row[index.type] ? Number(row[index.type]) : 1;
+            const item_level = row[index.level] ? Number(row[index.level]) : 1;
+
+            data.Description.Cost = Number(row[index.cost]);
+            data.Description.Id = d_name;
+            data.Description.Name = row[index.name];
+            data.Description.UIName = row[index.name];
+            data.Description.Model = row[index.model_name];
+            data.Tonnage = Number(row[index.tonnage]);
+            data.InventorySize = Number(row[index.equip_slots]);
+            data.BonusValueA = String(row[index.gui_feature_a]);
+            data.BonusValueB = String(row[index.gui_feature_b]);
+
+            const icon_code = String(row[index.icon_code]);
+            if (icon_code === "Ballistic") data.Description.Icon = "uixSvgIcon_weapon_Ballistic";
+            else if (icon_code === "Energy") data.Description.Icon = "uixSvgIcon_weapon_Energy";
+            else if (icon_code === "Missile") data.Description.Icon = "uixSvgIcon_weapon_Missile";
+            else if (icon_code === "Support") data.Description.Icon = "uixSvgIcon_weapon_Support";
+            else data.Description.Icon = GetIcon(icon_code);
+
+            data.AllowedLocations = GetAllowedLocations( String(row[index.allowed_locations]) );
+
+            let item_tags = [];
+            if (item_type == 5) {
+                item_tags.push( "component_type_variant" );
+                item_tags.push( "component_type_variant3" );
+            }
+            else if (item_type == 4) {
+                item_tags.push( "component_type_variant" );
+                item_tags.push( "component_type_variant2" );
+            }
+            else if (item_type == 3) {
+                item_tags.push( "component_type_variant" );
+                item_tags.push( "component_type_variant1" );
+            }
+            else
+                item_tags.push( "component_type_stock" );
+            data.ComponentTags.items = item_tags;
+            let item_tags_skirmish = [ "component_type_stock" ];
+            data.ComponentTags.items.push( "BLACKLISTED" );
+
+            const specials_codes = row[index.specials_code] ? String(row[index.specials_code]) : null;
+            const power_drain = row[index.power_drain] ? Number(row[index.power_drain]) : null;
+            SetSpecials(data, specials_codes, power_drain);
+
+            let data_skirmish = data.Deep();
+            data_skirmish.ComponentTags.items = item_tags_skirmish.Deep();
+            data_skirmish.Description.Id = data_skirmish.Description.Id.Deep() + "_skirmish";
+
+            fs.writeFileSync(f_name, JSON.stringify(data, null, 2), "utf8");
+            fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
+            // console.log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
+            Log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
+        } else {
+            FlushConsole();
+        }
+
+        FlushConsole();
     });
 }
 
@@ -288,7 +666,7 @@ function ParseSpecials(codes) {
             special = special_template.Deep();
         }
         else
-            text = text.concat(tchar);
+            text = text.concat(tchar).Deep();
 
         if (i == (codes.length - 1)) {
             if (pos == 0) special.ID = text.Deep();
@@ -303,10 +681,49 @@ function ParseSpecials(codes) {
     return specials;
 }
 
+function GetAllowedLocations(codes) {
+    let locations = [];
+    if (!codes) return "All";
+    if (codes.length < 1) return "All";
+
+    let text = "";
+
+    for (let i = 0; i < codes.length; i++) {
+        const tchar = codes[i].Deep();
+        if ((tchar === " ") || (i == codes.length - 1)) {
+            if (i == codes.length - 1) text = text.concat(tchar).Deep();
+            const loc = text.Deep();
+
+            text = "";
+
+            if (loc === "T") locations.push( "Torso" );
+            else if (loc === "A") locations.push( "Arms" );
+            else if (loc === "L") locations.push( "Legs" );
+            else if (loc === "H") locations.push( "Head" );
+            else if (loc === "CT") locations.push( "CenterTorso" );
+            else if (loc === "LT") locations.push( "LeftTorso" );
+            else if (loc === "RT") locations.push( "RightTorso" );
+            else if (loc === "LA") locations.push( "LeftArm" );
+            else if (loc === "RA") locations.push( "RightArm" );
+            else if (loc === "LL") locations.push( "LeftLeg" );
+            else if (loc === "RL") locations.push( "RightLeg" );
+        }
+        else
+            text = text.concat(tchar).Deep();
+    }
+
+    if (locations.length < 1) return "All";
+
+    return locations.join(", ");
+}
+
 function SetSpecials(data, specials_codes, power_drain) {
     if (!data) console.log("Warning: \"data\" function input parameter invalid for called function: \"SetSpecials(data)\".");
 
     let item_description = "";
+
+    if (!data.Description) console.log(data);
+    else if (!data.Description.Model) console.log(data);
 
     if (data.Description.Model.includes("Reaper") && data.Description.Model.includes("Auto Cannon")) {
         if (data.Description.Model.includes("Light") || data.Description.Model.includes("Medium") || data.Description.Model.includes("Heavy"))
@@ -326,7 +743,7 @@ function SetSpecials(data, specials_codes, power_drain) {
     // Power Drain
     if (power_drain) {
         if (power_drain > 0) {
-            const m_value = 1.0 + (Number(power_drain) / 500.0);
+            const m_value = 1.0 + (Number(power_drain) / power_drain_divisor);
             const m_value_div = 100.0 / m_value;
 
             data.Description.Details = ("Armor Penalty: " + m_value_div.toFixed(3) + "%\n\n") + item_description;
@@ -335,8 +752,8 @@ function SetSpecials(data, specials_codes, power_drain) {
             if (fx) data.statusEffects = fx;
         }
         else if (power_drain < 0) {
-            const m_value = 1.0 + (Number(power_drain) / 500.0);
-            const m_value_neg = 1.0 + (Number(power_drain) * -1.0 / 500.0);
+            const m_value = 1.0 + (Number(power_drain) / power_drain_divisor);
+            const m_value_neg = 1.0 + (Number(power_drain) * -1.0 / power_drain_divisor);
             const m_value_div = 100.0 / m_value;
 
             data.Description.Details = ("Armor Penalty Relief: " + m_value_div.toFixed(3) + "%\n\n") + item_description;
@@ -355,8 +772,6 @@ function SetSpecials(data, specials_codes, power_drain) {
     if (specials_codes) {
         const specials = ParseSpecials(specials_codes);
 
-        console.log(specials);
-
         for (const special of specials) {
             const effects = FindEquipmentEffect(special.ID, special.value, special.duration, special.stack);
 
@@ -374,7 +789,11 @@ function Main() {
     ParseListOfEffects();
     ParseListOfItemDescriptions();
 
-    Main_Weapons(false);
+    ClearDirs();
+
+    Main_Weapons();
+    Main_Upgrades();
+    Main_Pilots_Skirmish();
 }
 
 Main();

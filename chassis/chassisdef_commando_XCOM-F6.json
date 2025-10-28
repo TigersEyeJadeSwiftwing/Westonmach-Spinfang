@@ -52,7 +52,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 180,
+            "MaxArmor": 1800,
             "MaxRearArmor": -1,
             "InternalStructure": 80
         },
@@ -86,7 +86,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 1600,
             "MaxRearArmor": -1,
             "InternalStructure": 120
         },
@@ -95,8 +95,8 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 240,
-            "MaxRearArmor": 120,
+            "MaxArmor": 2400,
+            "MaxRearArmor": 1200,
             "InternalStructure": 140
         },
         {
@@ -121,8 +121,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 320,
-            "MaxRearArmor": 160,
+            "MaxArmor": 3200,
+            "MaxRearArmor": 1600,
             "InternalStructure": 160
         },
         {
@@ -130,8 +130,8 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 240,
-            "MaxRearArmor": 120,
+            "MaxArmor": 2400,
+            "MaxRearArmor": 1200,
             "InternalStructure": 140
         },
         {
@@ -184,7 +184,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 1600,
             "MaxRearArmor": -1,
             "InternalStructure": 120
         },
@@ -193,7 +193,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 240,
+            "MaxArmor": 2400,
             "MaxRearArmor": -1,
             "InternalStructure": 120
         },
@@ -202,7 +202,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 240,
+            "MaxArmor": 2400,
             "MaxRearArmor": -1,
             "InternalStructure": 120
         }

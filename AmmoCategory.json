@@ -114,48 +114,6 @@
         },
         {
             "ID" : 25,
-            "Name" : "RagerSmall",
-            "FriendlyName" : "RagerSmall",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC5"
-        },
-        {
-            "ID" : 26,
-            "Name" : "RagerMedium",
-            "FriendlyName" : "RagerMedium",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC10"
-        },
-        {
-            "ID" : 27,
-            "Name" : "RagerLarge",
-            "FriendlyName" : "RagerLarge",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC20"
-        },
-        {
-            "ID" : 28,
             "Name" : "UKMG",
             "FriendlyName" : "UKMG",
             "IsBallistic" : false,
@@ -169,7 +127,7 @@
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_MG"
         },
         {
-            "ID" : 29,
+            "ID" : 26,
             "Name" : "DFR",
             "FriendlyName" : "DFR",
             "IsBallistic" : false,
@@ -183,7 +141,7 @@
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_LRM"
         },
         {
-            "ID" : 30,
+            "ID" : 27,
             "Name" : "ViperR",
             "FriendlyName" : "ViperR",
             "IsBallistic" : false,
@@ -197,18 +155,60 @@
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_SRM"
         },
         {
-            "ID" : 31,
-            "Name" : "DefenderMG",
-            "FriendlyName" : "DefenderMG",
-            "IsBallistic" : false,
+            "ID" : 28,
+            "Name" : "WM_Lgt",
+            "FriendlyName" : "WM_Lgt",
+            "IsBallistic" : true,
             "IsMissile" : false,
             "IsEnergy" : false,
-            "IsSupport" : true,
+            "IsSupport" : false,
             "UsesInternalAmmo" : false,
-            "UIColorRef" : "Small",
+            "UIColorRef" : "Ballistic",
             "FallbackUIColor" : null,
-            "Icon" : "SmallHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_MG"
+            "Icon" : "BallisticHardpointIcon",
+            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC5"
+        },
+        {
+            "ID" : 29,
+            "Name" : "WM_Med",
+            "FriendlyName" : "WM_Med",
+            "IsBallistic" : true,
+            "IsMissile" : false,
+            "IsEnergy" : false,
+            "IsSupport" : false,
+            "UsesInternalAmmo" : false,
+            "UIColorRef" : "Ballistic",
+            "FallbackUIColor" : null,
+            "Icon" : "BallisticHardpointIcon",
+            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC10"
+        },
+        {
+            "ID" : 30,
+            "Name" : "WM_Hvy",
+            "FriendlyName" : "WM_Hvy",
+            "IsBallistic" : true,
+            "IsMissile" : false,
+            "IsEnergy" : false,
+            "IsSupport" : false,
+            "UsesInternalAmmo" : false,
+            "UIColorRef" : "Ballistic",
+            "FallbackUIColor" : null,
+            "Icon" : "BallisticHardpointIcon",
+            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC20"
+        },
+        {
+            "ID" : 31,
+            "Name" : "WM_Snp",
+            "FriendlyName" : "WM_Snp",
+            "IsBallistic" : true,
+            "IsMissile" : false,
+            "IsEnergy" : false,
+            "IsSupport" : false,
+            "UsesInternalAmmo" : false,
+            "UIColorRef" : "Ballistic",
+            "FallbackUIColor" : null,
+            "Icon" : "BallisticHardpointIcon",
+            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC2"
         }
     ]
 }

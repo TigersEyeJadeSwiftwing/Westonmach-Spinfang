@@ -1,69 +1,185 @@
 Acid Burn
-(Cobra)
-
+    (Cobra)
 Black Coffee
-(Desert Sand)
-
+    (Desert Sand) Mike Green
 Car Crash
-Matt Angler
-
+    (Yellow Viper) Matt Angler
 Chromatic Wolf
-(Glass Snake)
-
+    (Glass Snake)
 Divebomb
-(Tundrahawk)
-
+    (Tundrahawk)
 Mach Five Assault
-Bill Anderton
-
+    (Blue Warrior) Bill Anderton
 Nuclear Murder
-Dexter Grandon
-
+    (Raging Vitality) Dexter Grandon
 Overcooked
-(Firewalker)
-
+    (Firewalker)
 Plastic Splash
-(Wolf)
-
+    (Tigerland)
 Power Dive
-(Winter Day)
-
+    (Winter Day)
 Prismatic Cougar
-Joe Gillon
-
+    (Copper Fox) Joe Gillon
 Rage Fire
-Jeff Vendler
-
+    (Tigerstone 1) Jeff Vendler
 Screwdriver
-(Golden Sword)
-
+    (Golden Sword)
 Skin Peeler
-(Summer Wind)
-
+    (Summer Wind)
 Slamdancer
-(Quickfighter)
-
+    (Quickfighter)
 Space Case
-(Defthand)
-
+    (Defthand)
 Spaghetti
-(Bronze Wood)
-
+    (Bronze Wood) Ron Benson
 Superphotonic
-(Shotgun)
-
+    (Shotgun) Bill Wallerton
 Thrustheavy
-(Raptor)
-
+    (Raptor)
 Wild Boy
-(Feral)
+    (Feral)
 
-/////
-Unused:
+Heavy Handed
+    (Tigerstone) Mike Barner
+Penthouse
+    (Tigerstone) Andy Iceland
 
 Binoculars
+    (Blade Hawk)
 Contrasensical
-Turbo Twit
+    (Sky Raven)
+Gung Ho
+    (Sun Tiger)
+Mad Tarantula
+    (Hot Lightning)
+Meat On A Stick
+    (Blood Lightning)
+Murder Kitten
+    (Magic Katana)
+Power Dive
+    (Red Thunder Dawn)
+Soldier Slay What
+    (Morning Wildfire)
+Tender Loathing Care
+    (Solar Glory)
 
-(TS_1)
-(TS_2)
+Unused:
+Gentle Slaughter
+Garbage Man
+Bad Boy
+Flesh Wound
+Cleaver
+Critical Breakage
+Totality Infliction
+Facial Mutilation
+Lethal Disfigurement
+Dry Rot
+
+ambush
+ruin
+slaughter
+trash
+vanquish
+crush
+butcher
+cleaver
+demolish
+shatter
+wound
+breakage
+hurt
+infliction
+mischief
+mutilation
+waste
+wreck
+injury
+lacerate
+disfigurement
+rot
+rust
+scathe
+cripple
+
+box
+cubicle
+hut
+stall
+compartment
+cubbyhole
+booth
+boutique
+cell
+
+eatery
+diner
+cafe
+snack bar
+
+/////
+Voices:
+m_pro01_stark_chad
+m_ermy01
+
+AbilityDefG5    Gunnery 5   Multi-Target
+AbilityDefG8    Gunnery 8   Breaching Shot
+AbilityDefGu5   Guts 5      Bulwark
+AbilityDefGu8   Guts 8      Coolant Vent
+AbilityDefP5    Piloting 5  Sure Footing
+AbilityDefP8    Piloting 8  Ace Pilot
+AbilityDefT5A   Tactics 5   Sensor Lock
+AbilityDefT8A   Tactics 8   Master Tactician
+
+Black Fox
+Blade Hawk
+Blood Lightning
+Blue Warrior
+Bronze Wood
+Chrome Puma
+Cobra
+Coolstone Cat
+Copper Fox
+Copper Wolf
+Crystal Stiletto
+Deep Sky
+Defthand
+Desert Sand
+Feral
+Firewalker
+Glass Snake
+Golden Light
+Golden Sword
+Grand Flight
+High Road Wolf
+Hot Lightning
+Leopard Blade
+Magic Katana
+Magicland Panther
+Morning Windfire
+North Forest
+Photon Ninjato
+Pinewood
+Quickfighter
+Raging Vitality
+Raptor
+Red Thunder Dawn
+Riverside Cougar
+Shotgun
+Sky Raven
+Solar Glory
+Solar Wind Spellcaster
+Solar Youth
+Spunk Cutlass
+Summer Wind
+Sun Tiger
+Tall Cloud
+Tall Crystal Sky
+Tall Tornado Wind
+Tigerland
+Tigerstone 1
+Tigerstone 2
+Tundrahawk
+White Snake
+Wind Fire
+Winter Day
+Yellow Viper

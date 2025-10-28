@@ -1,0 +1,109 @@
+{
+    "List_of_EffectTriggerType_Values" : [
+        "Passive",
+        "OnActivation",
+        "OnHit",
+        "OnDamaged",
+        "OnWeaponFire",
+        "OnUnitActivationBegin",
+        "OnUnitActivationEnd",
+        "OnUnitActivationBeginOrEnd",
+        "TurnUpdate",
+        "Preview"
+    ],
+
+    "Template_Equip_Buff" : {
+        "effectType" : "StatisticEffect",
+        "Description" : {
+            "Id" : "StatusEffect-WS",
+            "Name" : "EQUIPMENT",
+            "Details" : "[AMT]",
+            "Icon" : "uixSvgIcon_maint_Level0"
+        },
+        "nature" : "Buff",
+        "targetingData" : {
+            "effectTriggerType" : "Passive",
+            "effectTargetType" : "Creator",
+            "showInTargetPreview" : true,
+            "showInStatusPanel" : true
+        },
+        "durationData" : {
+            "duration" : -1,
+            "stackLimit" : -1
+        },
+        "statisticData" : {
+            "appliesEachTick" : false,
+            "effectsPersistAfterDestruction" : true,
+            "statName" : "Head.Armor",
+            "operation" : "Float_Multiply",
+            "modValue" : "1.0",
+            "modType" : "System.Single"
+        }
+    },
+
+    "Template_Equip_Debuff" : {
+        "effectType" : "StatisticEffect",
+        "Description" : {
+            "Id" : "StatusEffect-WS",
+            "Name" : "EQUIPMENT",
+            "Details" : "Armor is reduced, from installed equipment that weakens this battlemech as a trade-off.",
+            "Icon" : "uixSvgIcon_maint_Level0"
+        },
+        "nature" : "Debuff",
+        "targetingData" : {
+            "effectTriggerType" : "Passive",
+            "effectTargetType" : "Creator",
+            "showInTargetPreview" : true,
+            "showInStatusPanel" : true
+        },
+        "durationData" : {
+            "duration" : -1,
+            "stackLimit" : -1
+        },
+        "statisticData" : {
+            "appliesEachTick" : false,
+            "effectsPersistAfterDestruction" : true,
+            "statName" : "Head.Armor",
+            "operation" : "Float_Divide",
+            "modValue" : "1.0",
+            "modType" : "System.Single"
+        }
+    },
+
+    "Template_OnHit" : {
+        "Description" : {
+            "Id" : "StatusEffect-WS",
+            "Name" : "TARGET AFFECTED",
+            "Details" : "Target affected by [AMT]",
+            "Icon" : "uixSvgIcon_status_sensorsImpaired"
+        },
+        "effectType" : "StatisticEffect", "nature" : "Debuff",
+        "durationData" : {
+            "duration" : 1,
+            "stackLimit" : 1,
+            "ticksOnActivations" : true,
+            "useActivationsOfTarget" : true,
+            "ticksOnEndOfRound" : false,
+            "ticksOnMovements" : false,
+            "clearedWhenAttacked" : false
+        },
+        "targetingData" : {
+            "effectTriggerType" : "OnHit",
+            "triggerLimit" : 0,
+            "extendDurationOnTrigger" : 0,
+            "range" : 0,
+            "forcePathRebuild" : false,
+            "forceVisRebuild" : false,
+            "showInTargetPreview" : true,
+            "showInStatusPanel" : true
+        },
+        "statisticData" : {
+            "appliesEachTick" : false,
+            "effectsPersistAfterDestruction" : false,
+            "statName" : "AccuracyModifier",
+            "operation" : "Float_Add",
+            "modValue" : "1.0",
+            "modType" : "System.Single"
+        }
+    }
+}

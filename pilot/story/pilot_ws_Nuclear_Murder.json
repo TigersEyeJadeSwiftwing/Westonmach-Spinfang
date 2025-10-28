@@ -7,9 +7,9 @@
         "Callsign" : "Nuclear Murder",
         "Gender" : "Male",
         "factionID" : "Davion",
-        "Age" : 91,
+        "Age" : 16,
         "Details" : "TEST",
-        "Icon" : "ws_img_pilot_Nuclear"
+        "Icon" : "ws_img_pilot_Raging_Vitality"
     },
         "BaseGunnery" : 3,
         "BonusGunnery" : 0,

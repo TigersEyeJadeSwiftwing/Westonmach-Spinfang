@@ -3,7 +3,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 501250,
+        "Cost" : 5,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Westonmach",
@@ -14,14 +14,14 @@
         "Details" : "Using a combination of high-tech electronics combined with cables and wires that go throughout the battlemech to all installed ballistic weapons, this contraption comes with inertia focus projector systems that are installed in all equipped ballistic weapons, which give all fired projectiles extra \"kick\" when they are fired, resulting in extra push to counter air drag and gravity, effectively increasing the range of the ballistic weaponry on-board a battlemech.  Although lightweight, the installed machinery and cables draw power from the battlemech's engine and generate a small amount of heat, and as an end-result lower the battlemech's threshold for overheating and shutting down.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "+10% Ballistic Range",
+    "BonusValueA" : "x10 Ballistic Range",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 0.0625,
+    "Tonnage" : 0.0,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -41,75 +41,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Range_Enhance_Ballistic",
                 "Name" : "BALLISTIC WEAPON RANGE UPGRADED",
-                "Details" : "Ballistic weapon attacks have their range increased by [AMT].",
-                "Icon" : "uixSvgIcon_weapon_Ballistic"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "MaxRange",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.10",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            }
-        },
-        {
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-WS-Range_Enhance_Ballistic",
-                "Name" : "BALLISTIC WEAPON RANGE UPGRADED",
-                "Details" : "Ballistic weapon attacks have their range increased by [AMT].",
-                "Icon" : "uixSvgIcon_weapon_Ballistic"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "LongRange",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.10",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            }
-        },
-        {
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-WS-Range_Enhance_Ballistic",
-                "Name" : "BALLISTIC WEAPON RANGE UPGRADED",
-                "Details" : "Ballistic weapon attacks have their range increased by [AMT].",
+                "Details" : "Ballistic weapon attacks have their medium and long ranges increased by [AMT].",
                 "Icon" : "uixSvgIcon_weapon_Ballistic"
             },
             "nature" : "Buff",
@@ -118,14 +50,10 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "MediumRange",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.10",
+                "modValue" : "10.0",
                 "modType" : "System.Single",
-                "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+                "targetWeaponCategory" : "Ballistic"
             }
         },
         {
@@ -143,29 +71,25 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Range_Enhance_Ballistic",
                 "Name" : "BALLISTIC WEAPON RANGE UPGRADED",
-                "Details" : "Ballistic weapon attacks have their range increased by [AMT].",
+                "Details" : "Ballistic weapon attacks have their medium and long ranges increased by [AMT].",
                 "Icon" : "uixSvgIcon_weapon_Ballistic"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "ShortRange",
+                "statName" : "LongRange",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.10",
+                "modValue" : "10.0",
                 "modType" : "System.Single",
-                "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+                "targetWeaponCategory" : "Ballistic"
             }
         },
         {
             "durationData" : {
                 "duration" : -1,
-                "stackLimit" : -1
+                "stackLimit" : 1
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
@@ -175,25 +99,21 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-WS-Heat_Buildup",
-                "Name" : "HEAT GENERATED",
-                "Details" : "[AMT] heat generated.",
-                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                "Id" : "StatusEffect-WS-Range_Enhance_Ballistic",
+                "Name" : "BALLISTIC WEAPON RANGE UPGRADED",
+                "Details" : "Ballistic weapon attacks have their medium and long ranges increased by [AMT].",
+                "Icon" : "uixSvgIcon_weapon_Ballistic"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "OverheatLevel",
-                "operation" : "Int_Add",
-                "modValue" : "-1",
-                "modType" : "System.Int32",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+                "statName" : "MaxRange",
+                "operation" : "Float_Multiply",
+                "modValue" : "10.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic"
             }
         }
     ],

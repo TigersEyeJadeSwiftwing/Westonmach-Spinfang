@@ -177,6 +177,101 @@
     ],
 
     [
+        { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_DEBUFF",
+          "Description_Prepend" : "Max heat and overheating threshold penalty: ", "Data_Type" : "int", "Digits" : "0" },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Increased",
+                "Name" : "MAX HEAT DECREASED",
+                "Details" : "Maximum allowed heat decreased by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Name" : "OVERHEAT THRESHOLD DECREASED",
+                "Details" : "Overheat threshold decreased by [AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Max_Heat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "MAX_HEAT_DEBUFF",
+          "Description_Prepend" : "Max heat penalty: " },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Increased",
+                "Name" : "MAX HEAT DECREASED",
+                "Details" : "Maximum allowed heat decreased by [-AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Level_Debuff", "Mod_WS_EquipEffect_ID" : "OVERHEAT_DEBUFF",
+          "Description_Prepend" : "Overheating threshold penalty: " },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Name" : "OVERHEAT THRESHOLD DECREASED",
+                "Details" : "Overheat threshold decreased by [-AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
         { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
         { "Note" : "End of JSON file." }
     ]

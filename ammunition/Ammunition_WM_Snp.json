@@ -1,0 +1,19 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_WM_Snp",
+      "Name" : "Sniper Wastemaker Ammo",
+      "Details" : "Ammunition for the Sniper Wastemaker Autocannon.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ammunitionTypeID" : "Normal",
+   "Category" : "NotSet",
+   "ammoCategoryID" : "WM_Snp",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

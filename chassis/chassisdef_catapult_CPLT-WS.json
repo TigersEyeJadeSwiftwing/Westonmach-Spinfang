@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_catapultBase-001",
     "PrefabBase": "catapult",
     "Tonnage": 73,
-    "InitialTonnage": 9,
+    "InitialTonnage": 2,
     "weightClass": "HEAVY",
     "BattleValue": 8344000,
     "Heatsinks": 0,
@@ -52,7 +52,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 180,
+            "MaxArmor": 1800,
             "MaxRearArmor": -1,
             "InternalStructure": 32
         },
@@ -94,7 +94,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 400,
+            "MaxArmor": 4000,
             "MaxRearArmor": -1,
             "InternalStructure": 100
         },
@@ -120,8 +120,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 600,
-            "MaxRearArmor": 300,
+            "MaxArmor": 6000,
+            "MaxRearArmor": 3000,
             "InternalStructure": 150
         },
         {
@@ -146,8 +146,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 840,
-            "MaxRearArmor": 420,
+            "MaxArmor": 8400,
+            "MaxRearArmor": 4200,
             "InternalStructure": 210
         },
         {
@@ -172,8 +172,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 600,
-            "MaxRearArmor": 300,
+            "MaxArmor": 6000,
+            "MaxRearArmor": 3000,
             "InternalStructure": 150
         },
         {
@@ -214,7 +214,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 400,
+            "MaxArmor": 4000,
             "MaxRearArmor": -1,
             "InternalStructure": 100
         },
@@ -223,7 +223,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 600,
+            "MaxArmor": 6000,
             "MaxRearArmor": -1,
             "InternalStructure": 150
         },
@@ -232,7 +232,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 600,
+            "MaxArmor": 6000,
             "MaxRearArmor": -1,
             "InternalStructure": 150
         }

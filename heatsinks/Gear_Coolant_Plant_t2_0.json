@@ -1,0 +1,137 @@
+{
+    "DissipationCapacity" : 100,
+    "Description" : {
+        "Cost" : 803006,
+        "Rarity" : 1,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Coolant Plant",
+        "UIName" : "Coolant Plant t2",
+        "Id" : "Gear_Coolant_Plant_t2_0",
+        "Name" : "On-board Coolant Plant",
+        "Details" : "    On-board coolant plants keep your 'Mech chill like you wouldn't believe.  Coolant plants are installed with pipes and hoses that are connected throughout the battlemech's engines, weapons, upgrades and other systems, and use special proprietary, patented super-chilled lightweight chemical heat-defeating vapor coolant to cool all areas of the battlemech.  Coolant plants work no matter where the guts of the machinery and pumps are installed, and use up one slot, working to enhance the battlemech's ablity to shed heat from a torso area, leg, arm, head, wherever you want.  If by chance one isn't enough, additional coolant plants can be installed in other slots, though this can get expensive - These things aren't cheap.  Like heat sinks, their effectiveness can be impacted by the surrounding environment, as they are integrated with a battlemech's existing heat sinks and heat venting systems.  Coolant plants also raise the maximum heat threshold for a battlemech to tolerate before shutting down, and also increase tolerance for Westonmach and Spinfang equipment and upgrades that lower this threshold, with each coolant plant installed.  Up to 5 (five) coolant plants of any type can be installed in a battlemech for cumulative effect, and any additional coolant plants will result in only 5 (five) of them working.\n
+    Coolant plants come in five type classes, starting with Type 1, then Type 2, etc., with effectiveness increasing with each type number.  They are lightweight, and their systems, pipes, hoses, and control circuits add little weight to a battlemech they are installed in, and are made of superior technology non-metal materials - including the circuits and coolant control computers and their microchips - that are featherweight 31st Century polymers developed by Westonmach and Spinfang corporations, in partnership, and are designed to resist reverse-engineering, which to-date has successfully prevented all competition from recreating or duplicating any of their technologies.",
+        "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+    },
+    "BonusValueA" : "-100 Heat",
+    "BonusValueB" : "+20 Max Heat",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 5,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Coolant_Plant",
+                "Name" : "MAX HEAT INCREASED",
+                "Details" : "Maximum allowed heat increased by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "20",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 5,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Coolant_Plant",
+                "Name" : "Increased Overheat Level",
+                "Details" : "Overheat threshold increased by [AMT]",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "20",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
