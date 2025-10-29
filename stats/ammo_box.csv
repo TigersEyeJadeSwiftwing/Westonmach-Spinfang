@@ -1,0 +1,158 @@
+Name,Type,Level,Tonnage,Power Drain,Equip Slots,Cost,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Capacity,Shots Per Attack,Ammo ID,Can Explode,Mnaf Code,Model Name
+,,,,,,,,,,,,,,,,
+UK-MG Ammo,,,,,,,,,,,,,,,,
+Description:,"    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, however Ultra-Kinetic Machine Gun ammunition is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  This solid alloy material makes up all of the rounds, and there is no casing, gunpowder, or chemical components, explosive or otherwise.  As such, there isn't any part of the ammunition to explode or burn if the ammunition or it's storage container gets damaged or even set on fire in combat, so no explosion will occur from a critical hit.\n\n    Ultra-Kinetic Machine Gun Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech’s cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
+,,,,,,,,,,,,,,,,
+UK-MG Ammo 01x,1,1,0.0000,0,1,2000,30 Cartridges,10 Attacks,,ammoBox_Support,30,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 02x,2,2,0.0000,1,1,2609,60 Cartridges,20 Attacks,,ammoBox_Support,60,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 03x,3,3,0.0000,4,1,3879,90 Cartridges,30 Attacks,,ammoBox_Support,90,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 04x,4,4,0.0000,8,1,5632,120 Cartridges,40 Attacks,,ammoBox_Support,120,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 06x,5,6,0.0000,14,1,7797,180 Cartridges,60 Attacks,,ammoBox_Support,180,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 08x,6,8,0.0000,19,1,10331,240 Cartridges,80 Attacks,,ammoBox_Support,240,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 10x,7,10,0.0000,26,1,13204,300 Cartridges,100 Attacks,,ammoBox_Support,300,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 13x,8,13,0.0000,34,1,16393,390 Cartridges,130 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Support,390,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 15x,9,15,0.0000,42,1,19880,450 Cartridges,150 Attacks,HEAT_DEBUFF`-2`-1`1,ammoBox_Support,450,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 18x,10,18,0.0000,51,1,23652,540 Cartridges,180 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Support,540,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 22x,11,22,0.0000,60,1,27696,660 Cartridges,220 Attacks,HEAT_DEBUFF`-4`-1`1,ammoBox_Support,660,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 25x,12,25,0.0000,70,1,32000,750 Cartridges,250 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Support,750,3,Ammunition_UKMG,FALSE,GN,Ultra-Kinetic MG Ammunition
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+"Rocket, Deathfire",,,,,,,,,,,,,,,,
+Description:,"    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Deathfire Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.\n\n    Deathfire rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Deathfire rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher’s type and level.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech’s cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
+,,,,,,,,,,,,,,,,
+Deathfire Rocket Ammo 01x,1,1,0.0000,0,1,8000,40 Rockets,,,ammoBox_Missile,40,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 02x,2,2,0.0000,7,1,14373,80 Rockets,,,ammoBox_Missile,80,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 05x,3,5,0.0000,21,1,27656,200 Rockets,,,ammoBox_Missile,200,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 09x,4,9,0.0000,41,1,45988,360 Rockets,,,ammoBox_Missile,360,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 14x,5,14,0.0000,65,1,68627,560 Rockets,,HEAT_DEBUFF`-1`-1`1,ammoBox_Missile,560,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 19x,6,19,0.0000,93,1,95126,760 Rockets,,HEAT_DEBUFF`-2`-1`1,ammoBox_Missile,760,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 25x,7,25,0.0000,125,1,125170,1000 Rockets,,HEAT_DEBUFF`-3`-1`1,ammoBox_Missile,1000,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 32x,8,32,0.0000,161,1,158524,1280 Rockets,,HEAT_DEBUFF`-5`-1`1,ammoBox_Missile,1280,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+Deathfire Rocket Ammo 40x,9,40,0.0000,200,1,195000,1600 Rockets,,HEAT_DEBUFF`-8`-1`1,ammoBox_Missile,1600,1,Ammunition_DFR,TRUE,GN,Deathfire Rocket Ammunition
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+"Rocket, Viper Nine",,,,,,,,,,,,,,,,
+Description:,"    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper Nine Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.\n\n    Viper Nine rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Viper Nine rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher’s type and level.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech’s cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
+,,,,,,,,,,,,,,,,
+Viper Nine Rocket Ammo 01x,1,1,0.0000,0,1,8000,40 Rockets,,,ammoBox_Missile,40,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 02x,2,2,0.0000,7,1,14373,80 Rockets,,,ammoBox_Missile,80,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 05x,3,5,0.0000,21,1,27656,200 Rockets,,,ammoBox_Missile,200,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 09x,4,9,0.0000,41,1,45988,360 Rockets,,,ammoBox_Missile,360,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 14x,5,14,0.0000,65,1,68627,560 Rockets,,HEAT_DEBUFF`-1`-1`1,ammoBox_Missile,560,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 19x,6,19,0.0000,93,1,95126,760 Rockets,,HEAT_DEBUFF`-2`-1`1,ammoBox_Missile,760,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 25x,7,25,0.0000,125,1,125170,1000 Rockets,,HEAT_DEBUFF`-3`-1`1,ammoBox_Missile,1000,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 32x,8,32,0.0000,161,1,158524,1280 Rockets,,HEAT_DEBUFF`-5`-1`1,ammoBox_Missile,1280,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+Viper Nine Rocket Ammo 40x,9,40,0.0000,200,1,195000,1600 Rockets,,HEAT_DEBUFF`-8`-1`1,ammoBox_Missile,1600,1,Ammunition_ViperR,TRUE,GN,Viper Nine Rocket Ammunition
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+Reaper Auto Cannon Ammo,,,,,,,,,,,,,,,,
+Description:,"    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, including Reaper Auto Cannon ammunition, which have warheads that can be made to explode under certain conditions.  Aside from the warhead, a Reaper Auto Cannon round is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  The rounds do not leave any shell or casing behind after firing, and do not use gunpowder or out-dated archaic technology to propel the round through and out of the barrel, but use alternative technology.\n\n    Reaper Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech’s cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
+,,,,,,,,,,,,,,,,
+Reaper AC A-Light Ammo 01x,1,1,0.0000,0,1,2000,12 Rounds,12 Attacks,,ammoBox_Ballistic,12,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+Reaper AC A-Light Ammo 03x,2,3,0.0000,10,1,10607,36 Rounds,36 Attacks,,ammoBox_Ballistic,36,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+Reaper AC A-Light Ammo 08x,3,8,0.0000,30,1,28547,96 Rounds,96 Attacks,,ammoBox_Ballistic,96,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+Reaper AC A-Light Ammo 14x,4,14,0.0000,58,1,53306,168 Rounds,168 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,168,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+Reaper AC A-Light Ammo 21x,5,21,0.0000,93,1,83883,252 Rounds,252 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,252,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+Reaper AC A-Light Ammo 30x,6,30,0.0000,134,1,119672,360 Rounds,360 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,360,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+Reaper AC A-Light Ammo 40x,7,40,0.0000,180,1,160250,480 Rounds,480 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,480,1,Ammunition_Reaper_L,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC B-Medium Ammo 01x,1,1,0.0000,0,1,4200,8 Rounds,8 Attacks,,ammoBox_Ballistic,8,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+Reaper AC B-Medium Ammo 03x,2,3,0.0000,12,1,21389,24 Rounds,24 Attacks,,ammoBox_Ballistic,24,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+Reaper AC B-Medium Ammo 07x,3,7,0.0000,37,1,57219,56 Rounds,56 Attacks,,ammoBox_Ballistic,56,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+Reaper AC B-Medium Ammo 12x,4,12,0.0000,71,1,106667,96 Rounds,96 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,96,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+Reaper AC B-Medium Ammo 19x,5,19,0.0000,114,1,167734,152 Rounds,152 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,152,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+Reaper AC B-Medium Ammo 27x,6,27,0.0000,164,1,239210,216 Rounds,216 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,216,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+Reaper AC B-Medium Ammo 36x,7,36,0.0000,220,1,320250,288 Rounds,288 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,288,1,Ammunition_Reaper_M,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC C-Heavy Ammo 01x,1,1,0.0000,0,1,6600,5 Rounds,5 Attacks,,ammoBox_Ballistic,5,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+Reaper AC C-Heavy Ammo 03x,2,3,0.0000,15,1,43239,15 Rounds,15 Attacks,,ammoBox_Ballistic,15,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+Reaper AC C-Heavy Ammo 06x,3,6,0.0000,47,1,119609,30 Rounds,30 Attacks,,ammoBox_Ballistic,30,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+Reaper AC C-Heavy Ammo 10x,4,10,0.0000,91,1,225004,50 Rounds,50 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,50,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+Reaper AC C-Heavy Ammo 16x,5,16,0.0000,145,1,355167,80 Rounds,80 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,80,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+Reaper AC C-Heavy Ammo 23x,6,23,0.0000,208,1,507516,115 Rounds,115 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,115,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+Reaper AC C-Heavy Ammo 30x,7,30,0.0000,280,1,680250,150 Rounds,150 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,150,1,Ammunition_Reaper_H,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC D-Sniper Ammo 01x,1,1,0.0000,0,1,5000,20 Rounds,10 Attacks,,ammoBox_Ballistic,20,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+Reaper AC D-Sniper Ammo 03x,2,3,0.0000,14,1,31990,60 Rounds,30 Attacks,,ammoBox_Ballistic,60,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+Reaper AC D-Sniper Ammo 06x,3,6,0.0000,42,1,88249,120 Rounds,60 Attacks,,ammoBox_Ballistic,120,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+Reaper AC D-Sniper Ammo 11x,4,11,0.0000,81,1,165889,220 Rounds,110 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,220,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+Reaper AC D-Sniper Ammo 18x,5,18,0.0000,129,1,261775,360 Rounds,180 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,360,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+Reaper AC D-Sniper Ammo 25x,6,25,0.0000,186,1,374004,500 Rounds,250 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,500,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+Reaper AC D-Sniper Ammo 33x,7,33,0.0000,250,1,501250,660 Rounds,330 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,660,2,Ammunition_Reaper_S,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC E-Ultra Ammo 01x,1,1,0.0000,20,1,8920,2 Rounds,2 Attacks,,ammoBox_Ballistic,2,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+Reaper AC E-Ultra Ammo 03x,2,3,0.0000,62,1,152592,6 Rounds,6 Attacks,,ammoBox_Ballistic,6,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+Reaper AC E-Ultra Ammo 05x,3,5,0.0000,151,1,452064,10 Rounds,10 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,10,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+Reaper AC E-Ultra Ammo 09x,4,9,0.0000,273,1,865353,18 Rounds,18 Attacks,HEAT_DEBUFF`-2`-1`1,ammoBox_Ballistic,18,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+Reaper AC E-Ultra Ammo 12x,5,12,0.0000,424,1,1375763,24 Rounds,24 Attacks,HEAT_DEBUFF`-4`-1`1,ammoBox_Ballistic,24,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+Reaper AC E-Ultra Ammo 16x,6,16,0.0000,600,1,1973173,32 Rounds,32 Attacks,HEAT_DEBUFF`-7`-1`1,ammoBox_Ballistic,32,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+Reaper AC E-Ultra Ammo 20x,7,20,0.0000,800,1,2650520,40 Rounds,40 Attacks,HEAT_DEBUFF`-11`-1`1,ammoBox_Ballistic,40,1,Ammunition_Reaper_U,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC F-Light BF Ammo 01x,1,1,0.0000,0,1,2000,60 Rounds,12 Attacks,,ammoBox_Ballistic,60,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+Reaper AC F-Light BF Ammo 03x,2,3,0.0000,10,1,10607,180 Rounds,36 Attacks,,ammoBox_Ballistic,180,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+Reaper AC F-Light BF Ammo 08x,3,8,0.0000,30,1,28547,480 Rounds,96 Attacks,,ammoBox_Ballistic,480,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+Reaper AC F-Light BF Ammo 14x,4,14,0.0000,58,1,53306,840 Rounds,168 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,840,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+Reaper AC F-Light BF Ammo 21x,5,21,0.0000,93,1,83883,1260 Rounds,252 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,1260,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+Reaper AC F-Light BF Ammo 30x,6,30,0.0000,134,1,119672,1800 Rounds,360 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,1800,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+Reaper AC F-Light BF Ammo 40x,7,40,0.0000,180,1,160250,2400 Rounds,480 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,2400,5,Ammunition_Reaper_LB,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC G-Medium BF Ammo 01x,1,1,0.0000,0,1,4200,40 Rounds,8 Attacks,,ammoBox_Ballistic,40,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+Reaper AC G-Medium BF Ammo 03x,2,3,0.0000,12,1,21389,120 Rounds,24 Attacks,,ammoBox_Ballistic,120,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+Reaper AC G-Medium BF Ammo 07x,3,7,0.0000,37,1,57219,280 Rounds,56 Attacks,,ammoBox_Ballistic,280,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+Reaper AC G-Medium BF Ammo 12x,4,12,0.0000,71,1,106667,480 Rounds,96 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,480,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+Reaper AC G-Medium BF Ammo 19x,5,19,0.0000,114,1,167734,760 Rounds,152 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,760,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+Reaper AC G-Medium BF Ammo 27x,6,27,0.0000,164,1,239210,1080 Rounds,216 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,1080,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+Reaper AC G-Medium BF Ammo 36x,7,36,0.0000,220,1,320250,1440 Rounds,288 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,1440,5,Ammunition_Reaper_MB,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+Reaper AC H-Heavy BF Ammo 01x,1,1,0.0000,0,1,6600,25 Rounds,5 Attacks,,ammoBox_Ballistic,25,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+Reaper AC H-Heavy BF Ammo 03x,2,3,0.0000,15,1,43239,75 Rounds,15 Attacks,,ammoBox_Ballistic,75,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+Reaper AC H-Heavy BF Ammo 06x,3,6,0.0000,47,1,119609,150 Rounds,30 Attacks,,ammoBox_Ballistic,150,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+Reaper AC H-Heavy BF Ammo 10x,4,10,0.0000,91,1,225004,250 Rounds,50 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,250,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+Reaper AC H-Heavy BF Ammo 16x,5,16,0.0000,145,1,355167,400 Rounds,80 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,400,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+Reaper AC H-Heavy BF Ammo 23x,6,23,0.0000,208,1,507516,575 Rounds,115 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,575,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+Reaper AC H-Heavy BF Ammo 30x,7,30,0.0000,280,1,680250,750 Rounds,150 Attacks,HEAT_DEBUFF`-8`-1`1,ammoBox_Ballistic,750,5,Ammunition_Reaper_HB,TRUE,GN,Reaper AC Ammunition
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+Wastemaker Auto Cannon Ammo,,,,,,,,,,,,,,,,
+Description:,"    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, although Wastemaker Cannon ammunition is completely made up of a shaped slug, with no casing, no warhead, and no chemical or explosive propellant of any kind as it relies on the cannon shooting it to propel it through the air.  As such, it will not explode while inside of an ammunition bin that gets hit or damaged, and is therefore not a fire or explosion hazard.  Wastemaker rounds differ from Reaper Auto Cannon rounds in these ways, as well as the rounds and the guns that fire them being smaller.  Wastemaker rounds are made of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  Wastemaker Auto Cannon rounds use a technology other than archaic methods involving gunpowder, etc., to propel the rounds.\n\n    Wastemaker Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech’s cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
+,,,,,,,,,,,,,,,,
+Wastemaker AC A-Light Ammo 01x,1,1,0.0000,0,1,1600,16 Rounds,16 Attacks,,ammoBox_Ballistic,16,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC A-Light Ammo 03x,2,3,0.0000,5,1,10229,48 Rounds,48 Attacks,,ammoBox_Ballistic,48,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC A-Light Ammo 06x,3,6,0.0000,15,1,28214,96 Rounds,96 Attacks,,ammoBox_Ballistic,96,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC A-Light Ammo 10x,4,10,0.0000,29,1,53036,160 Rounds,160 Attacks,,ammoBox_Ballistic,160,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC A-Light Ammo 16x,5,16,0.0000,47,1,83690,256 Rounds,256 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,256,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC A-Light Ammo 23x,6,23,0.0000,67,1,119570,368 Rounds,368 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,368,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC A-Light Ammo 30x,7,30,0.0000,90,1,160250,480 Rounds,480 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,480,1,Ammunition_WM_Lgt,FALSE,GN,Wastemaker AC Ammunition
+,,,,,,,,,,,,,,,,
+Wastemaker AC B-Medium Ammo 01x,1,1,0.0000,0,1,2500,12 Rounds,12 Attacks,,ammoBox_Ballistic,12,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC B-Medium Ammo 02x,2,2,0.0000,6,1,15431,24 Rounds,24 Attacks,,ammoBox_Ballistic,24,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC B-Medium Ammo 05x,3,5,0.0000,18,1,42384,60 Rounds,60 Attacks,,ammoBox_Ballistic,60,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC B-Medium Ammo 09x,4,9,0.0000,36,1,79581,108 Rounds,108 Attacks,,ammoBox_Ballistic,108,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC B-Medium Ammo 13x,5,13,0.0000,57,1,125519,156 Rounds,156 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,156,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC B-Medium Ammo 19x,6,19,0.0000,82,1,179287,228 Rounds,228 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,228,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC B-Medium Ammo 25x,7,25,0.0000,110,1,240250,300 Rounds,300 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,300,1,Ammunition_WM_Med,FALSE,GN,Wastemaker AC Ammunition
+,,,,,,,,,,,,,,,,
+Wastemaker AC C-Heavy Ammo 01x,1,1,0.0000,0,1,3350,8 Rounds,8 Attacks,,ammoBox_Ballistic,8,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC C-Heavy Ammo 02x,2,2,0.0000,8,1,20586,16 Rounds,16 Attacks,,ammoBox_Ballistic,16,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC C-Heavy Ammo 04x,3,4,0.0000,23,1,56512,32 Rounds,32 Attacks,,ammoBox_Ballistic,32,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC C-Heavy Ammo 07x,4,7,0.0000,45,1,106092,56 Rounds,56 Attacks,,ammoBox_Ballistic,56,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC C-Heavy Ammo 11x,5,11,0.0000,72,1,167324,88 Rounds,88 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,88,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC C-Heavy Ammo 15x,6,15,0.0000,104,1,238992,120 Rounds,120 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,120,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC C-Heavy Ammo 20x,7,20,0.0000,140,1,320250,160 Rounds,160 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,160,1,Ammunition_WM_Hvy,FALSE,GN,Wastemaker AC Ammunition
+,,,,,,,,,,,,,,,,
+Wastemaker AC D-Sniper Ammo 01x,1,1,0.0000,0,1,3010,28 Rounds,14 Attacks,,ammoBox_Ballistic,28,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC D-Sniper Ammo 02x,2,2,0.0000,7,1,18089,56 Rounds,28 Attacks,,ammoBox_Ballistic,56,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC D-Sniper Ammo 05x,3,5,0.0000,21,1,49519,140 Rounds,70 Attacks,,ammoBox_Ballistic,140,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC D-Sniper Ammo 08x,4,8,0.0000,41,1,92894,224 Rounds,112 Attacks,,ammoBox_Ballistic,224,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC D-Sniper Ammo 12x,5,12,0.0000,65,1,146462,336 Rounds,168 Attacks,HEAT_DEBUFF`-1`-1`1,ammoBox_Ballistic,336,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC D-Sniper Ammo 17x,6,17,0.0000,93,1,209161,476 Rounds,238 Attacks,HEAT_DEBUFF`-3`-1`1,ammoBox_Ballistic,476,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
+Wastemaker AC D-Sniper Ammo 22x,7,22,0.0000,125,1,280250,616 Rounds,308 Attacks,HEAT_DEBUFF`-5`-1`1,ammoBox_Ballistic,616,2,Ammunition_WM_Snp,FALSE,GN,Wastemaker AC Ammunition
