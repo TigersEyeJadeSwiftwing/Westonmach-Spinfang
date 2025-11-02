@@ -1,0 +1,29 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Damage_Resist_Guts_04",
+		"Name" : "Damage Resist",
+		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have a resistance to damage, from the pilot\'s Guts ability score.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "Damage Resist",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Guts_Damage_Resist",
+                "Name" : "PILOT SKILL: BATTLEMECH DAMAGE RESIST",
+                "Details" : "This battlemech is piloted by a mechwarrior that has a Guts ability score which reduces the battlemech\'s damage from all sources [AMT]",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "DamageReductionMultiplierAll", "operation" : "Float_Multiply", "modValue" : "0.9665183", "modType" : "System.Single"
+            }
+        }
+	]
+}

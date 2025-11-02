@@ -1,0 +1,66 @@
+3{
+	"Description" : {
+		"Id" : "TraitDef_WS_Weapon_Heat_Damage_Bonus_04",
+		"Name" : "Weapon Heat Damage",
+		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have an increase to their weapon heat damage.",
+		"Icon" : "uixSvgIcon_status_prone"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "Weapon Heat Damage",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "Trait-WS-Attack_Heat_Damage_Modifier",
+                "Name" : "PILOT BONUS ABILITY: INCREASED ATTACK HEAT DAMAGE",
+                "Details" : "This pilot has unique skills that increase the heat damage of attacks made by any battlemech he or she pilots by [AMT].",
+                "Icon" : "uixSvgIcon_status_prone"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatDamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.4025",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+	]
+}

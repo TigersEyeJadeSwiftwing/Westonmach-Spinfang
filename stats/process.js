@@ -469,21 +469,21 @@ function Main_Pilots_Skirmish(diag=false) {
             if (data.BaseGuts >= 9) traits.push("TraitDefOverheatAddThirty");
             if (data.BaseGuts >= 10) traits.push("TraitDefHealthAddThree");
 
-            if (data.BaseGuts >= 2) traits.push("TraitDef_WS_ArmorStructure_Plus_01");
-            if (data.BaseGuts >= 3) traits.push("TraitDef_WS_ArmorStructure_Plus_02");
-            if (data.BaseGuts >= 4) traits.push("TraitDef_WS_ArmorStructure_Plus_03");
-            if (data.BaseGuts >= 5) traits.push("TraitDef_WS_ArmorStructure_Plus_04");
-            if (data.BaseGuts >= 6) traits.push("TraitDef_WS_ArmorStructure_Plus_05");
-            if (data.BaseGuts >= 7) traits.push("TraitDef_WS_ArmorStructure_Plus_06");
-            if (data.BaseGuts >= 8) traits.push("TraitDef_WS_ArmorStructure_Plus_07");
-            if (data.BaseGuts >= 9) traits.push("TraitDef_WS_ArmorStructure_Plus_08");
-            if (data.BaseGuts >= 10) traits.push("TraitDef_WS_ArmorStructure_Plus_09");
-            if (data.BaseGuts >= 11) traits.push("TraitDef_WS_ArmorStructure_Plus_10");
-            if (data.BaseGuts >= 12) traits.push("TraitDef_WS_ArmorStructure_Plus_11");
-            if (data.BaseGuts >= 13) traits.push("TraitDef_WS_ArmorStructure_Plus_12");
-            if (data.BaseGuts >= 14) traits.push("TraitDef_WS_ArmorStructure_Plus_13");
-            if (data.BaseGuts >= 15) traits.push("TraitDef_WS_ArmorStructure_Plus_14");
-            if (data.BaseGuts >= 16) traits.push("TraitDef_WS_ArmorStructure_Plus_15");
+            if (data.BaseGuts >= 2) traits.push("TraitDef_WS_Damage_Resist_Guts_01");
+            if (data.BaseGuts >= 3) traits.push("TraitDef_WS_Damage_Resist_Guts_02");
+            if (data.BaseGuts >= 4) traits.push("TraitDef_WS_Damage_Resist_Guts_03");
+            if (data.BaseGuts >= 5) traits.push("TraitDef_WS_Damage_Resist_Guts_04");
+            if (data.BaseGuts >= 6) traits.push("TraitDef_WS_Damage_Resist_Guts_05");
+            if (data.BaseGuts >= 7) traits.push("TraitDef_WS_Damage_Resist_Guts_06");
+            if (data.BaseGuts >= 8) traits.push("TraitDef_WS_Damage_Resist_Guts_07");
+            if (data.BaseGuts >= 9) traits.push("TraitDef_WS_Damage_Resist_Guts_08");
+            if (data.BaseGuts >= 10) traits.push("TraitDef_WS_Damage_Resist_Guts_09");
+            if (data.BaseGuts >= 11) traits.push("TraitDef_WS_Damage_Resist_Guts_10");
+            if (data.BaseGuts >= 12) traits.push("TraitDef_WS_Damage_Resist_Guts_11");
+            if (data.BaseGuts >= 13) traits.push("TraitDef_WS_Damage_Resist_Guts_12");
+            if (data.BaseGuts >= 14) traits.push("TraitDef_WS_Damage_Resist_Guts_13");
+            if (data.BaseGuts >= 15) traits.push("TraitDef_WS_Damage_Resist_Guts_14");
+            if (data.BaseGuts >= 16) traits.push("TraitDef_WS_Damage_Resist_Guts_15");
 
             if (data.BaseTactics >= 4) traits.push("TraitDefIndirectReduceOne");
             if (data.BaseTactics >= 5) traits.push("TraitDefMinRangeReduce45");
@@ -740,6 +740,7 @@ function SetSpecials(data, specials_codes, power_drain) {
     else if (data.Description.Model.includes("Enforcer") && data.Description.Model.includes("Machine Gun")) item_description = ItemDescriptions.Descriptions.Enforcer.join("");
     else if (data.Description.Model.includes("Multi-Frequency") && data.Description.Model.includes("Laser")) item_description = ItemDescriptions.Descriptions.MF_Laser.join("");
 
+/*
     // Power Drain
     if (power_drain) {
         if (power_drain > 0) {
@@ -759,6 +760,33 @@ function SetSpecials(data, specials_codes, power_drain) {
             data.Description.Details = ("Armor Penalty Relief: " + m_value_div.toFixed(3) + "%\n\n") + item_description;
 
             const fx = FindEquipmentEffect("AMRPN", m_value_neg);
+            if (fx) data.statusEffects = fx;
+        }
+        else
+            data.Description.Details = item_description;
+    } else {
+        data.statusEffects = [];
+        data.Description.Details = item_description;
+    }
+*/
+    // Power Drain
+    if (power_drain) {
+        if (power_drain != 0) {
+            const m_value = 1.0 + (Number(power_drain) / power_drain_divisor);
+            const m_value_div = 100.0 * m_value;
+
+            data.Description.Details = ("Damage taken from enemies when installed: " + m_value_div.toFixed(4) + "%\n\n") + item_description;
+
+            const fx = FindEquipmentEffect("DMGPN", m_value);
+            if (fx) data.statusEffects = fx;
+        }
+        else if (power_drain < 0) {
+            const m_value_neg = 1.0 + (Number(power_drain) * -1.0 / power_drain_divisor);
+            const m_value_div = 100.0 * m_value_neg;
+
+            data.Description.Details = ("Damage taken from enemies when installed: " + m_value_div.toFixed(4) + "%\n\n") + item_description;
+
+            const fx = FindEquipmentEffect("DMGPN", m_value_neg);
             if (fx) data.statusEffects = fx;
         }
         else

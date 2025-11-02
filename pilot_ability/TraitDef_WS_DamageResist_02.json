@@ -1,0 +1,29 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Damage_Resist_02",
+		"Name" : "Bonus Damage Resist",
+		"Details" : "PILOT BONUS ABILITY: Battlemechs piloted by this MechWarrior have a resistance to damage.",
+		"Icon" : "uixSvgIcon_fillArmor"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "Bonus Damage Resist",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true, "hideApplicationFloatie" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : -1},
+            "Description" : {
+                "Id" : "Trait-WS-Bonus_Damage_Resist",
+                "Name" : "PILOT BONUS ABILITY: BATTLEMECH DAMAGE RESIST",
+                "Details" : "This battlemech is piloted by a mechwarrior that has an uncanny unique way of handling a battlemech which reduces the battlemech\'s damage from all sources [AMT]",
+                "Icon" : "uixSvgIcon_fillArmor"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "DamageReductionMultiplierAll", "operation" : "Float_Multiply", "modValue" : "0.85", "modType" : "System.Single"
+            }
+        }
+	]
+}

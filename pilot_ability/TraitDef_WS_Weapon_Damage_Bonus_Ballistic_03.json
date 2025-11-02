@@ -1,0 +1,66 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Weapon_Damage_Bonus_Ballistic_03",
+		"Name" : "Ballistic Weapon Damage",
+		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have an increase to their ballistic weapon damage.",
+		"Icon" : "uixSvgIcon_weapon_Ballistic"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "Weapon Damage",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "Trait-WS-Damage_Ballistic_Modifier",
+                "Name" : "PILOT BONUS ABILITY: INCREASED BALLISTIC WEAPON DAMAGE",
+                "Details" : "This pilot has unique skills that increase the damage of ballistic weapons of any battlemech he or she pilots by [AMT].",
+                "Icon" : "uixSvgIcon_weapon_Ballistic"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.325",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+	]
+}

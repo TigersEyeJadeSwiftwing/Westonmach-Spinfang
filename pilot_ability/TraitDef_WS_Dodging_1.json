@@ -1,0 +1,50 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Dodging_1",
+		"Name" : "Dodging",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior are harder to hit with all weapons.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "SprintDistance",
+	"ShortDesc" : "+1 Dodging",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "Trait-WS-Dodging",
+                "Name" : "PILOT BONUS ABILITY: DODGING",
+                "Details" : "This pilot has unique skills that cause +[AMT] aim difficulty for enemies to hit this unit with all weapons.",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "0.5",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+	]
+}
