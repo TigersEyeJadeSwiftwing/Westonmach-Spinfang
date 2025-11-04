@@ -39,7 +39,8 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
             },
             "statisticData" : {
                 "appliesEachTick" : false,

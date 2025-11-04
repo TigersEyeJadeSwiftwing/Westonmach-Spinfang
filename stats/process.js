@@ -20,7 +20,7 @@ const EmptyFolder = (folderPath) => {
     }
 };
 
-const power_drain_divisor = 2000.0;
+const drain_divisor = 200.0;
 
 // Hard-coded input/output folders
 const folder_input = "./";
@@ -39,7 +39,7 @@ const folder_pilot_skirmish = "../pilot/skirmish/";
 
 // File names
 const csv_ammobox = path.join(folder_input, "ammo_box.csv");
-const json_ammobox = path.join(folder_input, "ammo_box.json");
+const json_ammobox = path.join(folder_input, "ammo_box_template.json");
 const csv_weapons = path.join(folder_input, "weapon.csv");
 const json_weapons = path.join(folder_input, "weapon.json");
 const csv_heatsinks = path.join(folder_input, "heatsinks.csv");
@@ -134,6 +134,17 @@ function GetIcon(text) {
     return list[0];
 }
 
+function GetManufacturer(code) {
+    if (!code) return "MISSING";
+
+    if (code === "WS") return "Westonmach";
+    if (code === "SF") return "Spinfang";
+    if (code === "GR") return "Gralthler";
+    if (code === "GN") return "Generic";
+
+    return "MISSING";
+}
+
 function FindEquipmentEffect(tag, value, duration=null, stack=null) {
     if (Effects.length < 1)
         ParseListOfEffects();
@@ -162,6 +173,130 @@ function FindEquipmentEffect(tag, value, duration=null, stack=null) {
     return null;
 }
 
+function Main_AmmoBoxes(diag=false) {
+    const output_folder_story = folder_ammobox;
+    const output_folder_skirmish = folder_ammobox_skirmish;
+    const input_json = json_ammobox;
+    const input_csv = csv_ammobox;
+    const filename_ext = ".json";
+
+    // Load files
+    const json_template = JSON.parse(fs.readFileSync(input_json, "utf8"));
+    const csv_text = fs.readFileSync(input_csv, "utf8");
+    const { headers, rows } = ParseCSV(csv_text);
+    let item_description = "";
+
+    FlushConsole();
+
+    rows.forEach((row, idx) => {
+        const index_name = String(headers.indexOf("Name"));
+        const index_type = Number(headers.indexOf("Type"));
+        const index_tons = Number(headers.indexOf("Tonnage"));
+        const index_cost = Number(headers.indexOf("Cost"));
+        const index_model_name = Number(headers.indexOf("Model Name"));
+
+        if (!index_name || !index_type || !index_tons || !index_cost || !index_model_name) {
+            Log("ERROR: CSV file for input file " + csv_text + " cannot be read, parsed, or is not formatted as expected.");
+            FlushConsole();
+
+            return;
+        }
+
+        const element_name = row[index_name] ? String(row[index_name]) : "";
+        const element_type = row[index_type] ? row[index_type] : null;
+        const element_tons = row[index_tons] ? Number(row[index_tons]) : -1;
+        const element_cost = row[index_cost] ? Number(row[index_cost]) : -1;
+        const element_model_name = row[index_model_name] ? String(row[index_model_name]) : "";
+
+        if (element_name === "Description:") {
+            FlushConsole();
+            item_description = row[index_type] ?
+                String(row[index_type]).replaceAll("````", "    ").replaceAll("`", ",").replaceAll("’", "\'").replaceAll("\n\n", "\n \n") : "";
+
+            Log("Row Index: " + String(idx) +  ", Description:");
+            Log(item_description);
+        }
+        else if (element_name && element_tons>=0 && element_cost>=0) {
+            let data = json_template.Deep();
+
+            const item_name = element_name.Deep().replaceAll("Burst Fire", "BF");
+            const file_name_base = ("AmmunitionBox_WS_").concat(element_name.Deep().replaceAll("Burst Fire", "BF").replaceAll(" ", "_"));
+            const file_name_story = path.join(output_folder_story, file_name_base.concat(filename_ext));
+            const file_name_skirmish = path.join(output_folder_skirmish, file_name_base.concat(filename_ext));
+
+            let index = {};
+            index.name = String(headers.indexOf("Name"));
+            index.type = Number(headers.indexOf("Type"));
+            index.level = Number(headers.indexOf("Level"));
+            index.tonnage = Number(headers.indexOf("Tonnage"));
+            index.drain = Number(headers.indexOf("Drain"));
+            index.equip_slots = Number(headers.indexOf("Equip Slots"));
+            index.cost = Number(headers.indexOf("Cost"));
+            index.gui_feature_a = Number(headers.indexOf("GUI Feature A"));
+            index.gui_feature_b = Number(headers.indexOf("GUI Feature B"));
+            index.specials_codes = Number(headers.indexOf("Specials Codes"));
+            index.icon_code = Number(headers.indexOf("Icon Code"));
+            index.capacity = Number(headers.indexOf("Capacity"));
+            index.shots_per_attack = Number(headers.indexOf("Shots Per Attack"));
+            index.ammo_id = Number(headers.indexOf("Ammo ID"));
+            index.can_explode = Number(headers.indexOf("Can Explode"));
+            index.manufacturer = Number(headers.indexOf("Manf. Code"));
+            index.model_name = Number(headers.indexOf("Model Name"));
+
+            const item_type = row[index.type] ? Number(row[index.type]) : 1;
+            const item_level = row[index.level] ? Number(row[index.level]) : 1;
+            const item_capacity = Number(row[index.capacity]);
+            const item_shots_per_attack = Number(row[index.shots_per_attack]);
+            const item_attacks_per_item = Math.floor(item_capacity / item_shots_per_attack);
+            const item_description_prepend =
+                item_shots_per_attack == 1 ?
+                    "Capacity: " + String(item_capacity) + "\n\n" :
+                    "Capacity: " + String(item_capacity) + "\n" +
+                    "Cartridges or Rounds per Firing: " + String(item_shots_per_attack) + "\n" +
+                    "Number of Firings: " + String(item_attacks_per_item) + "\n\n";
+
+            const item_tags = [ "component_type_stock" ];
+            const item_tags_story = item_tags.Deep().concat( ["BLACKLISTED"] );
+            const item_tags_skirmish = item_tags.Deep();
+
+            data.Description.Name = item_name;
+            data.Description.UIName = item_name;
+            data.Description.Id = file_name_base;
+            data.Description.Model = String(row[index.model_name]);
+            data.Description.Cost = Number(row[index.cost]);
+            data.Description.Icon = GetIcon( String(row[index.icon_code]) );
+            data.Description.Manufacturer = GetManufacturer( String(row[index.manufacturer]) );
+            data.Description.Details = "";
+            data.Tonnage = Number(row[index.tonnage]);
+            data.InventorySize = Number(row[index.equip_slots]);
+            data.BonusValueA = String(row[index.gui_feature_a]);
+            data.BonusValueB = String(row[index.gui_feature_b]);
+            data.Capacity = Number(row[index.capacity]);
+            data.AmmoID = String(row[index.ammo_id]);
+            data.CanExplode = String(row[index.can_explode]) === "TRUE" ? true : false;
+
+            const specials_codes = row[index.specials_codes] ? String(row[index.specials_codes]) : null;
+            const drain = row[index.drain] ? Number(row[index.drain]) : null;
+            SetSpecials(data, specials_codes, drain);
+
+            data.Description.Details = item_description_prepend.Deep() + data.Description.Details.Deep() + item_description.Deep();
+
+            let data_story = data;
+            let data_skirmish = data.Deep();
+            data_story.ComponentTags.items = item_tags_story;
+            data_skirmish.ComponentTags.items = item_tags_skirmish;
+
+            fs.writeFileSync(file_name_story, JSON.stringify(data_story, null, 2), "utf8");
+            fs.writeFileSync(file_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
+            Log("Wrote file: " + file_name_story + "\nWrote file: " + file_name_skirmish);
+        } else {
+            FlushConsole();
+        }
+
+        FlushConsole();
+    });
+}
+
 function Main_Weapons(diag=false) {
     const output_folder = folder_weapons;
     const output_folder_skirmish = folder_weapons_skirmish;
@@ -177,6 +312,9 @@ function Main_Weapons(diag=false) {
         const tf_name = path.join(folder_input, "test_weapons.json");
         fs.writeFileSync(tf_name, JSON.stringify(t_data, null, 2), "utf8");
     }
+
+    FlushConsole();
+    Log("Weapons:");
 
     rows.forEach((row, idx) => {
         const i_name = String(headers.indexOf("Name"));
@@ -272,12 +410,7 @@ function Main_Weapons(diag=false) {
             if (weapon_type === "AC") data.Type = "Autocannon";
             if (weapon_type === "MG") data.Type = "MachineGun";
 
-            const icon_code = String(row[index.icon_code]);
-            if (icon_code === "Ballistic") data.Description.Icon = "uixSvgIcon_weapon_Ballistic";
-            else if (icon_code === "Energy") data.Description.Icon = "uixSvgIcon_weapon_Energy";
-            else if (icon_code === "Missile") data.Description.Icon = "uixSvgIcon_weapon_Missile";
-            else if (icon_code === "Support") data.Description.Icon = "uixSvgIcon_weapon_Support";
-            else data.Description.Icon = GetIcon(icon_code);
+            data.Description.Icon = GetIcon( String(row[index.icon_code]) );
 
             if (index.manufacturer) {
                 if (index.manufacturer === "WS") data.Description.Manufacturer = "Westonmach";
@@ -379,6 +512,7 @@ function Main_Pilots_Skirmish(diag=false) {
     });
 
     FlushConsole();
+    Log("Custom Battlemech pilots / Mechwarriors:");
 
     rows.forEach((row, idx) => {
         const i_face = String(headers.indexOf("Face"));
@@ -415,7 +549,8 @@ function Main_Pilots_Skirmish(diag=false) {
             index.tactics = Number(headers.indexOf("Tactics"));
             index.health = Number(headers.indexOf("Health"));
             index.voice = Number(headers.indexOf("Voice"));
-            index.trait_codes = Number(headers.indexOf("Trait Codes"));
+            index.trait_codes_1 = Number(headers.indexOf("Trait Codes 1"));
+            index.trait_codes_2 = Number(headers.indexOf("Trait Codes 2"));
 
             data.Description.Id = dat.Id.Deep();
             data.Description.Name = e_callsign.Deep();
@@ -433,7 +568,8 @@ function Main_Pilots_Skirmish(diag=false) {
             data.PilotTags.items = ["BLACKLISTED", "pilot_release_ksbeta", "pilot_release_skirmish"];
             data.PilotTags.items.push(dat.name_tag.Deep());
 
-            const trait_codes = String(row[index.trait_codes]);
+            const trait_codes_1_string = String(row[index.trait_codes_1]);
+            const trait_codes_2_string = String(row[index.trait_codes_2]);
 
             let traits = [];
             for (let i = 1; i <= data.BaseGunnery; i++) {
@@ -502,14 +638,22 @@ function Main_Pilots_Skirmish(diag=false) {
             if (data.BaseTactics >= 16) traits.push("TraitDef_WS_Ballistic_Dodging_2");
             if (data.BaseTactics >= 16) traits.push("TraitDef_WS_Sensor_Range_03");
 
-            if (trait_codes.length > 0) {
-                let tr = trait_codes.split(" ");
+            let trait_codes = [];
+            if (trait_codes_1_string.length > 0) {
+                const tr = trait_codes_1_string.split(" ");
+                trait_codes = trait_codes.concat(tr).Deep();
+            }
+            if (trait_codes_2_string.length > 0) {
+                const tr = trait_codes_2_string.split(" ");
+                trait_codes = trait_codes.concat(tr).Deep();
+            }
 
-                for (let trait of tr) {
+            if (trait_codes.length > 0) {
+                for (let trait of trait_codes) {
                     const code_index = trait_code_list.indexOf(trait);
                     if (code_index >= 0) {
-                        const trait_name = trait_list[code_index].Deep();
-                        traits.push(trait_name);
+                        const trait_name = trait_list[code_index];
+                        traits.push(trait_name).Deep();
                     }
                 }
             }
@@ -717,13 +861,13 @@ function GetAllowedLocations(codes) {
     return locations.join(", ");
 }
 
-function SetSpecials(data, specials_codes, power_drain) {
+function SetSpecials(data, specials_codes, drain_data) {
     if (!data) console.log("Warning: \"data\" function input parameter invalid for called function: \"SetSpecials(data)\".");
 
     let item_description = "";
 
-    if (!data.Description) console.log(data);
-    else if (!data.Description.Model) console.log(data);
+    if (!data.Description) { console.log("ERROR: No \"Description\" sub-object inside of data object to apply specials to in \"SetSpecials()\"."); return; }
+    else if (!data.Description.Model) { console.log("ERROR: No \"Model\" sub-object inside of \"Description\" sub-object of data object to apply specials to in \"SetSpecials()\"."); }
 
     if (data.Description.Model.includes("Reaper") && data.Description.Model.includes("Auto Cannon")) {
         if (data.Description.Model.includes("Light") || data.Description.Model.includes("Medium") || data.Description.Model.includes("Heavy"))
@@ -740,51 +884,24 @@ function SetSpecials(data, specials_codes, power_drain) {
     else if (data.Description.Model.includes("Enforcer") && data.Description.Model.includes("Machine Gun")) item_description = ItemDescriptions.Descriptions.Enforcer.join("");
     else if (data.Description.Model.includes("Multi-Frequency") && data.Description.Model.includes("Laser")) item_description = ItemDescriptions.Descriptions.MF_Laser.join("");
 
-/*
-    // Power Drain
-    if (power_drain) {
-        if (power_drain > 0) {
-            const m_value = 1.0 + (Number(power_drain) / power_drain_divisor);
-            const m_value_div = 100.0 / m_value;
+    // Drain
+    if (drain_data) {
+        const drain = Number(drain_data);
 
-            data.Description.Details = ("Armor Penalty: " + m_value_div.toFixed(3) + "%\n\n") + item_description;
-
-            const fx = FindEquipmentEffect("AMRPN", m_value);
-            if (fx) data.statusEffects = fx;
-        }
-        else if (power_drain < 0) {
-            const m_value = 1.0 + (Number(power_drain) / power_drain_divisor);
-            const m_value_neg = 1.0 + (Number(power_drain) * -1.0 / power_drain_divisor);
-            const m_value_div = 100.0 / m_value;
-
-            data.Description.Details = ("Armor Penalty Relief: " + m_value_div.toFixed(3) + "%\n\n") + item_description;
-
-            const fx = FindEquipmentEffect("AMRPN", m_value_neg);
-            if (fx) data.statusEffects = fx;
-        }
-        else
-            data.Description.Details = item_description;
-    } else {
-        data.statusEffects = [];
-        data.Description.Details = item_description;
-    }
-*/
-    // Power Drain
-    if (power_drain) {
-        if (power_drain != 0) {
-            const m_value = 1.0 + (Number(power_drain) / power_drain_divisor);
+        if (drain >= 0) {
+            const m_value = 1.0 + (Number(drain) / drain_divisor);
             const m_value_div = 100.0 * m_value;
 
-            data.Description.Details = ("Damage taken from enemies when installed: " + m_value_div.toFixed(4) + "%\n\n") + item_description;
+            data.Description.Details = ("Damage taken when installed: " + m_value_div.toFixed(2) + "%\n\n") + item_description;
 
             const fx = FindEquipmentEffect("DMGPN", m_value);
             if (fx) data.statusEffects = fx;
         }
-        else if (power_drain < 0) {
-            const m_value_neg = 1.0 + (Number(power_drain) * -1.0 / power_drain_divisor);
+        else if (drain < 0) {
+            const m_value_neg = 1.0 + (Number(drain) * -1.0 / drain_divisor);
             const m_value_div = 100.0 * m_value_neg;
 
-            data.Description.Details = ("Damage taken from enemies when installed: " + m_value_div.toFixed(4) + "%\n\n") + item_description;
+            data.Description.Details = ("Damage taken when installed: " + m_value_div.toFixed(2) + "%\n\n") + item_description;
 
             const fx = FindEquipmentEffect("DMGPN", m_value_neg);
             if (fx) data.statusEffects = fx;
@@ -819,6 +936,7 @@ function Main() {
 
     ClearDirs();
 
+    Main_AmmoBoxes();
     Main_Weapons();
     Main_Upgrades();
     Main_Pilots_Skirmish();

@@ -1,12 +1,12 @@
 {
 	"Description" : {
-		"Id" : "TraitDef_WS_Weapon_Damage_Bonus_05",
-		"Name" : "Weapon Damage",
-		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have an increase to their weapon damage.",
-		"Icon" : "uixSvgIcon_action_attack"
+		"Id" : "TraitDef_WS_Weapon_Aim_Bonus_Missle_04",
+		"Name" : "Missle Weapon Aim",
+		"Details" : "PASSIVE: This MechWarrior has a bonus to hit with missle weapons.",
+		"Icon" : "uixSvgIcon_weapon_Missile"
 	},
 	"Type" : "SprintDistance",
-	"ShortDesc" : "Weapon Damage",
+	"ShortDesc" : "Weapon Aim",
     "DisplayParams" : "NeverShow",
 	"ActivationTime" : "Passive",
 	"EffectData" :
@@ -15,10 +15,10 @@
             "effectType" : "StatisticEffect",
             "nature" : "Buff",
             "Description" : {
-                "Id" : "Trait-WS-Damage_Modifier",
-                "Name" : "PILOT BONUS ABILITY: INCREASED WEAPON DAMAGE",
-                "Details" : "This pilot has unique skills that increase the damage of ballistic weapons of any battlemech he or she pilots by [AMT].",
-                "Icon" : "uixSvgIcon_action_attack"
+                "Id" : "Trait-WS-Aim_Missle_Modifier",
+                "Name" : "PILOT BONUS ABILITY: SUPERIOR MISSLE WEAPON AIM",
+                "Details" : "This pilot has unique superior aiming skills with missle weapons.  Difficulty to hit is adjusted by [AMT].",
+                "Icon" : "uixSvgIcon_weapon_Missile"
             },
             "durationData" : {
                 "duration" : -1,
@@ -45,13 +45,13 @@
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.5025",
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.00",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
+                "targetWeaponCategory" : "Missile",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"

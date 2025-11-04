@@ -3,7 +3,7 @@
 		"Id" : "TraitDef_WS_Weapon_Stability_Damage_Bonus_05",
 		"Name" : "Weapon Stability Damage",
 		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have an increase to their weapon stability damage.",
-		"Icon" : "uixSvgIcon_status_prone"
+		"Icon" : "uixSvgIcon_action_attack"
 	},
 	"Type" : "SprintDistance",
 	"ShortDesc" : "Weapon Stability Damage",
@@ -18,7 +18,7 @@
                 "Id" : "Trait-WS-Attack_Stability_Damage_Modifier",
                 "Name" : "PILOT BONUS ABILITY: INCREASED ATTACK STABILITY DAMAGE",
                 "Details" : "This pilot has unique skills that increase the stability damage of attacks made by any battlemech he or she pilots by [AMT].",
-                "Icon" : "uixSvgIcon_status_prone"
+                "Icon" : "uixSvgIcon_action_attack"
             },
             "durationData" : {
                 "duration" : -1,
@@ -39,7 +39,8 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
             },
             "statisticData" : {
                 "appliesEachTick" : false,

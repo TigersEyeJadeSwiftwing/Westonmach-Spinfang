@@ -1,75 +1,159 @@
-Face,Callsign,First Name,Last Name,Gender,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes
-,,,,,,,,,,,,,
-Skirmish Pilots,,,,,,,,,,,,,
-,Callsign,First Name,Last Name,Male,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes
-,,,,,,,,,,,,,
-Black Fox,Sweet Hot Death,John,Doe,Male,AuriganMercenaries,50,6,4,6,6,9,m_ermy01,Sensor-Lock Bulwark
-Blade Hawk,Binoculars,John,Doe,Male,AuriganMercenaries,50,7,4,7,5,11,m_pro01_stark_chad,Breach-Shot Bulwark Sure-Foot
-Blood Lightning,Meat On A Stick,John,Doe,Male,AuriganMercenaries,50,7,9,5,8,10,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot
-Blue Warrior,Mach Five Assault,John,Doe,Male,AuriganMercenaries,50,10,8,3,5,12,m_ermy01,Multi-Targ Sure-Foot Ace-Pilot
-Bronze Wood,Spaghetti,John,Doe,Male,AuriganMercenaries,50,4,4,2,3,5,m_pro01_stark_chad,
-Chrome Puma,Lucid Dream,John,Doe,Male,AuriganMercenaries,50,8,10,6,5,9,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact
-Cloud Fighter,Turbo Twit,John,Doe,Male,AuriganMercenaries,50,6,8,4,9,8,m_pro01_stark_chad,Ace-Pilot Sensor-Lock Bulwark
-Cobra,Acid Burn,John,Doe,Male,AuriganMercenaries,50,12,5,8,7,8,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot Veteran
-Coolstone Cat,Chainsaw Tooth,John,Doe,Male,AuriganMercenaries,50,7,4,6,7,7,m_ermy01,Sure-Foot Bulwark Ace-Pilot
-Copper Fox,Prismatic Cougar,John,Doe,Male,AuriganMercenaries,50,16,8,7,9,9,m_ermy01,Multi-Targ Sensor-Lock Master-Tact Veteran
-Copper Wolf,Shark Fin,John,Doe,Male,AuriganMercenaries,50,6,7,10,11,6,m_pro01_stark_chad,Master-Tact Breach-Shot Bulwark
-Crystal Stiletto,Leather Jacket,John,Doe,Male,AuriganMercenaries,50,9,4,9,8,11,m_ermy01,Multi-Targ Ace-Pilot Master-Tact
-Deep Sky,Wild Kid,John,Doe,Male,AuriganMercenaries,50,10,9,3,4,7,m_pro01_stark_chad,Sensor-Lock Ace-Pilot Master-Tact
-Defthand,Space Case,John,Doe,Male,AuriganMercenaries,50,5,4,6,5,7,m_ermy01,Multi-Targ Sure-Foot
-Desert Sand,Black Coffee,John,Doe,Male,AuriganMercenaries,50,8,4,7,9,10,m_ermy01,Multi-Targ Sensor-Lock Master-Tact
-Feral,Wild Boy,John,Doe,Male,AuriganMercenaries,50,13,9,11,10,5,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact Elite
-Firewalker,Rabid Firecracker,John,Doe,Male,AuriganMercenaries,50,7,9,10,9,14,m_ermy01,Bulwark Ace-Pilot Master-Tact Veteran No-Headshot
-Glass Snake,Sunray,John,Doe,Male,AuriganMercenaries,50,10,9,13,4,15,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark Elite
-Golden Sword,Electrocution Party,John,Doe,Male,AuriganMercenaries,50,8,6,5,7,10,m_pro01_stark_chad,Master-Tact Breach-Shot Ace-Pilot
-Grand Flight,Oil Can,John,Doe,Male,AuriganMercenaries,50,9,7,5,5,7,m_pro01_stark_chad,Bulwark Multi-Targ Sensor-Lock
-High Road Wolf,Blood Streak,John,Doe,Male,AuriganMercenaries,50,7,9,6,5,6,m_pro01_stark_chad,Ace-Pilot Sure-Foot Bulwark
-Hot Lightning,Mad Tarantula,John,Doe,Male,AuriganMercenaries,50,8,14,10,5,12,m_pro01_stark_chad,Bulwark Ace-Pilot Master-Tact
-Laser Blade,Raging Bloodshed,John,Doe,Male,AuriganMercenaries,50,7,6,5,9,11,m_pro01_stark_chad,Master-Tact Breach-Shot Multi-Targ Veteran
-Leopard Blade,Manslaughter Delight,John,Doe,Male,AuriganMercenaries,50,5,6,4,3,5,m_ermy01,Multi-Targ Sure-Foot Veteran
-Magic Katana,Murder Kitten,John,Doe,Male,AuriganMercenaries,50,9,10,3,14,9,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite
-Magicland Panther,True Color Torture,John,Doe,Male,AuriganMercenaries,50,4,7,7,3,5,m_pro01_stark_chad,Sure-Foot Bulwark
-Morning Windfire,Soldier Slay What,John,Doe,Male,AuriganMercenaries,50,8,10,11,8,12,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot
-North Forest,Glory Carnage,John,Doe,Male,AuriganMercenaries,50,9,5,6,7,15,m_pro01_stark_chad,Bulwark Ace-Pilot Multi-Targ Elite No-Headshot
-Photon Ninjato,Land of Revenge,John,Doe,Male,AuriganMercenaries,50,8,7,6,9,10,m_pro01_stark_chad,Multi-Targ Master-Tact Bulwark Elite No-Headshot
-Pinewood,Lynching Holiday,John,Doe,Male,AuriganMercenaries,50,5,6,4,4,6,m_ermy01,Bulwark Sensor-Lock Elite
-Quickfighter,Lunchtime Massacre,John,Doe,Male,AuriganMercenaries,50,12,9,7,8,11,m_ermy01,Sensor-Lock Master-Tact Breach-Shot Elite No-Headshot
-Rage Fighter,Skull Cleaver,John,Doe,Male,AuriganMercenaries,50,16,12,6,13,8,m_pro01_stark_chad,Breach-Shot Multi-Targ Master-Tact Elite
-Raging Vitality,Coffee Break,John,Doe,Male,AuriganMercenaries,50,11,14,9,10,8,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite No-Headshot
-Raptor,Sun Zombie,John,Doe,Male,AuriganMercenaries,50,13,10,8,7,10,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark Veteran No-Headshot
-Red Thunder Dawn,Power Dive,John,Doe,Male,AuriganMercenaries,50,15,9,12,10,13,m_ermy01,Multi-Targ Bulwark Ace-Pilot
-Riverside Cougar,Bronze Skeleton,John,Doe,Male,AuriganMercenaries,50,8,12,9,8,9,m_pro01_stark_chad,Multi-Targ Sensor-Lock Master-Tact Veteran
-Shotgun,Superphotonic,John,Doe,Male,AuriganMercenaries,50,3,4,1,2,8,m_pro01_stark_chad,
-Sky Raven,Contrasensical,John,Doe,Male,AuriganMercenaries,50,10,2,3,8,8,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact
-Solar Glory,Tender Loathing Care,John,Doe,Male,AuriganMercenaries,50,12,8,5,10,8,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact Veteran No-Headshot
-Solar Wind Spellcaster,Murder Club,John,Doe,Male,AuriganMercenaries,50,7,5,6,8,7,m_ermy01,Multi-Targ Breach-Shot Ace-Pilot Veteran
-Solar Youth,Chunky Decapitation,John,Doe,Male,AuriganMercenaries,50,7,9,5,10,11,m_pro01_stark_chad,Multi-Targ Master-Tact Bulwark Elite No-Headshot
-Spunk Cutlass,Mobster Buddy,John,Doe,Male,AuriganMercenaries,50,9,4,7,9,9,m_pro01_stark_chad,Sure-Foot Bulwark Ace-Pilot
-Summer Wind,Ambush Predator,John,Doe,Male,AuriganMercenaries,50,16,14,9,5,5,m_pro01_stark_chad,Master-Tact Ace-Pilot Multi-Targ Veteran
-Sun Tiger,Gung Ho,John,Doe,Male,AuriganMercenaries,50,9,8,7,15,10,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Veteran No-Headshot Elite
-Tall Cloud,Fusion Thrash,John,Doe,Male,AuriganMercenaries,50,9,7,9,6,6,m_ermy01,Multi-Targ Master-Tact Ace-Pilot Veteran
-Tall Crystal Sky,Regal Club,John,Doe,Male,AuriganMercenaries,50,6,9,8,7,8,m_pro01_stark_chad,Coolant-Vent Sure-Foot Sensor-Lock Veteran
-Tall Tornado Wind,Gentle Brutality,John,Doe,Male,AuriganMercenaries,50,13,16,6,9,11,m_pro01_stark_chad,Ace-Pilot Multi-Targ Sure-Foot Veteran
-Tigerland,Asphyxiation,John,Doe,Male,AuriganMercenaries,50,7,3,6,5,6,m_ermy01,Ace-Pilot Master-Tact Bulwark
-Tigerstone 1,Heavy Handed,John,Doe,Male,AuriganMercenaries,50,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite No-Headshot
-Tigerstone 2,Penthouse,John,Doe,Male,AuriganMercenaries,50,15,14,10,12,14,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact Elite No-Headshot
-Tundrahawk,Majestic Conquest,John,Doe,Male,AuriganMercenaries,50,7,4,6,3,11,m_pro01_stark_chad,Multi-Targ Ace-Pilot Bulwark Elite No-Headshot
-White Snake,Torture Compartment,John,Doe,Male,AuriganMercenaries,50,11,14,14,14,11,m_pro01_stark_chad,Breach-Shot Multi-Targ Bulwark Elite
-Wind Fire,Toxic Waste Dump,John,Doe,Male,AuriganMercenaries,50,9,10,6,15,7,m_ermy01,Breach-Shot Multi-Targ Sensor-Lock
-Winter Day,Hurt In A Box,John,Doe,Male,AuriganMercenaries,50,11,13,15,9,11,m_pro01_stark_chad,Sensor-Lock Sure-Foot Master-Tact Veteran
-Yellow Viper,Car Crash,John,Doe,Male,AuriganMercenaries,50,9,16,10,12,12,m_pro01_stark_chad,Multi-Targ Sensor-Lock Bulwark Elite
-,,,,,,,,,,,,,
-List of Trait Codes,,,,,,,,,,,,,
-,Code,Trait,,,,,Description,,,,,,
-,,,,,,,,,,,,,
------,Multi-Targ,AbilityDefG5,,,,,"Gunnery 5, Multi-Target",,,,,,
------,Breach-Shot,AbilityDefG8,,,,,"Gunnery 8, Breaching Shot",,,,,,
------,Bulwark,AbilityDefGu5,,,,,"Guts 5, Bulwark",,,,,,
------,Coolant-Vent,AbilityDefGu8,,,,,"Guts 8, Coolant Vent",,,,,,
------,Sure-Foot,AbilityDefP5,,,,,"Piloting 5, Sure Footing",,,,,,
------,Ace-Pilot,AbilityDefP8,,,,,"Piloting 8, Ace Pilot",,,,,,
------,Sensor-Lock,AbilityDefT5A,,,,,"Tactics 5, Sensor Lock",,,,,,
------,Master-Tact,AbilityDefT8A,,,,,"Tactics 8, Master Tactician",,,,,,
------,No-Headshot,TraitDefHeadshotImmunity,,,,,Immune to head shots,,,,,,
------,Veteran,TraitDefVeteranMechWarrior,,,,,"Veteran pilot, takes less damage",,,,,,
------,Elite,TraitDefEliteMechWarrior,,,,,"Elite pilot, takes less damage",,,,,,
+Face,Callsign,First Name,Last Name,Gender,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes 1,Trait Codes 2
+Skirmish Pilots,,,,,,,,,,,,,,
+,Callsign,First Name,Last Name,Male,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes 1,Trait Codes 2
+Arctic Snow,Gentle Slaughter,John,Doe,Male,AuriganMercenaries,22,7,8,12,6,12,m_ermy01,Breach-Shot Bulwark Ace-Pilot,Dmg-Resist4 Dmg-Stability1
+Black Fox,Sweet Hot Death,John,Doe,Male,AuriganMercenaries,22,6,4,6,6,9,m_ermy01,Sensor-Lock Bulwark,
+Blade Hawk,Binoculars,John,Doe,Male,AuriganMercenaries,22,7,4,7,5,11,m_pro01_stark_chad,Breach-Shot Bulwark Sure-Foot,Dodge1
+Blood Lightning,Meat On A Stick,John,Doe,Male,AuriganMercenaries,22,7,9,11,8,10,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,Dmg-Resist2 Dmg-Heat2 Dmg-Ballistic2
+Blue Warrior,Mach Five Assault,John,Doe,Male,AuriganMercenaries,22,10,9,16,5,11,m_ermy01,Multi-Targ Sure-Foot Ace-Pilot,Dodge4 Dmg-Heat3 Rng1 Rng-Missle3
+Bronze Wood,Spaghetti,John,Doe,Male,AuriganMercenaries,22,4,4,2,3,5,m_pro01_stark_chad,,
+Chrome Puma,Lucid Dream,John,Doe,Male,AuriganMercenaries,22,8,13,6,5,9,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact,Dodge3 Dmg-Resist2  Dmg-Energy3
+Cloud Fighter,Turbo Twit,John,Doe,Male,AuriganMercenaries,22,6,8,4,9,8,m_pro01_stark_chad,Ace-Pilot Sensor-Lock Bulwark,Dmg-Resist1
+Cobra,Acid Burn,John,Doe,Male,AuriganMercenaries,22,16,14,16,11,9,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,Rng2 Rng-Energy1 Rng-Energy2 Rng-Energy3 Dmg2 Dmg-Energy1 Dmg-Energy2 Dmg-Energy3 Dmg-Heat5 Dodge5
+Coolstone Cat,Chainsaw Tooth,John,Doe,Male,AuriganMercenaries,22,7,4,6,7,7,m_ermy01,Sure-Foot Bulwark Ace-Pilot,Rng2 Rng-Energy2 Dmg1 Dmg-Energy2 Dmg-Heat2
+Copper Fox,Prismatic Cougar,John,Doe,Male,AuriganMercenaries,22,16,12,16,14,9,m_ermy01,Multi-Targ Sure-Foot Master-Tact,Rng5 Rng-Ballistic3 Dmg1 Dmg-Ballistic1 Dmg-Ballistic2 Dmg-Ballistic3 Dmg-Energy1 Dmg-Energy2 Dmg-Stability3 Dodge4
+Copper Wolf,Shark Fin,John,Doe,Male,AuriganMercenaries,22,6,7,10,11,6,m_pro01_stark_chad,Master-Tact Breach-Shot Bulwark,Dmg-Ballistic2
+Crystal Stiletto,Leather Jacket,John,Doe,Male,AuriganMercenaries,22,9,4,9,8,11,m_ermy01,Multi-Targ Ace-Pilot Master-Tact,
+Deep Sky,Wild Kid,John,Doe,Male,AuriganMercenaries,22,10,9,3,4,7,m_pro01_stark_chad,Sensor-Lock Ace-Pilot Master-Tact,
+Defthand,Space Case,John,Doe,Male,AuriganMercenaries,22,5,4,6,5,7,m_ermy01,Multi-Targ Sure-Foot,
+Desert Sand,Black Coffee,John,Doe,Male,AuriganMercenaries,22,8,4,7,9,10,m_ermy01,Multi-Targ Sensor-Lock Master-Tact,
+Feral,Wild Boy,John,Doe,Male,AuriganMercenaries,22,13,9,11,10,5,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact,Elite
+Firewalker,Rabid Firecracker,John,Doe,Male,AuriganMercenaries,22,7,9,10,9,14,m_ermy01,Bulwark Ace-Pilot Master-Tact,Veteran No-Headshot
+Glass Snake,Sunray,John,Doe,Male,AuriganMercenaries,22,10,9,13,4,15,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark,Elite
+Golden Sword,Electrocution Party,John,Doe,Male,AuriganMercenaries,22,8,6,5,7,10,m_pro01_stark_chad,Master-Tact Breach-Shot Ace-Pilot,
+Grand Flight,Oil Can,John,Doe,Male,AuriganMercenaries,22,9,7,5,5,7,m_pro01_stark_chad,Bulwark Multi-Targ Sensor-Lock,
+High Road Wolf,Blood Streak,John,Doe,Male,AuriganMercenaries,22,7,9,6,5,6,m_pro01_stark_chad,Ace-Pilot Sure-Foot Bulwark,
+Hot Lightning,Mad Tarantula,John,Doe,Male,AuriganMercenaries,22,8,14,10,5,12,m_pro01_stark_chad,Bulwark Ace-Pilot Master-Tact,
+Iron Plains,Garbage Man,John,Doe,Male,AuriganMercenaries,22,14,6,8,7,8,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite
+Iron Soldier,Bad Boy,John,Doe,Male,AuriganMercenaries,22,16,13,8,6,9,m_ermy01,Multi-Targ Bulwark Master-Tact,Elite
+Jetstone Sky,Flesh Wound,John,Doe,Male,AuriganMercenaries,22,12,16,5,14,6,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark,Veteran
+Laser Blade,Raging Bloodshed,John,Doe,Male,AuriganMercenaries,22,7,6,5,9,11,m_pro01_stark_chad,Master-Tact Breach-Shot Multi-Targ,Veteran
+Leopard Blade,Manslaughter Delight,John,Doe,Male,AuriganMercenaries,22,5,6,4,3,5,m_ermy01,Multi-Targ Sure-Foot,Veteran
+Long Flight Thunder,Cleaver,John,Doe,Male,AuriganMercenaries,22,7,9,6,10,6,m_ermy01,Sensor-Lock Ace-Pilot Bulwark,
+Magic Katana,Murder Kitten,John,Doe,Male,AuriganMercenaries,22,9,10,3,14,9,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite
+Magicland Panther,True Color Torture,John,Doe,Male,AuriganMercenaries,22,4,7,7,3,5,m_pro01_stark_chad,Sure-Foot Bulwark,
+Morning Fox,Critical Breakage,John,Doe,Male,AuriganMercenaries,22,15,12,8,11,8,m_pro01_stark_chad,Multi-Targ Breach-Shot Ace-Pilot,Elite
+Morning Windfire,Soldier Slay What,John,Doe,Male,AuriganMercenaries,22,8,10,11,8,12,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,
+North Forest,Glory Carnage,John,Doe,Male,AuriganMercenaries,22,9,5,6,7,15,m_pro01_stark_chad,Bulwark Ace-Pilot Multi-Targ,Elite No-Headshot
+Photon Ninjato,Land of Revenge,John,Doe,Male,AuriganMercenaries,22,8,7,6,9,10,m_pro01_stark_chad,Multi-Targ Master-Tact Bulwark,Elite No-Headshot
+Pinewood,Lynching Holiday,John,Doe,Male,AuriganMercenaries,22,5,6,4,4,6,m_ermy01,Bulwark Sensor-Lock,Elite
+Quickfighter,Lunchtime Massacre,John,Doe,Male,AuriganMercenaries,22,12,9,7,8,11,m_ermy01,Sensor-Lock Master-Tact Breach-Shot,Elite No-Headshot
+Rage Fighter,Skull Cleaver,John,Doe,Male,AuriganMercenaries,22,16,12,6,13,8,m_pro01_stark_chad,Breach-Shot Multi-Targ Master-Tact,Elite
+Raging Vitality,Coffee Break,John,Doe,Male,AuriganMercenaries,22,11,14,9,10,8,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite No-Headshot
+Raptor,Sun Zombie,John,Doe,Male,AuriganMercenaries,22,13,10,8,7,10,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark,Veteran No-Headshot
+Red Thunder Dawn,Power Dive,John,Doe,Male,AuriganMercenaries,22,15,9,12,10,13,m_ermy01,Multi-Targ Bulwark Ace-Pilot,
+Riverside Cougar,Bronze Skeleton,John,Doe,Male,AuriganMercenaries,22,8,12,9,8,9,m_pro01_stark_chad,Multi-Targ Sensor-Lock Master-Tact,Veteran
+Sapphire Lake,Totality Infliction,John,Doe,Male,AuriganMercenaries,22,8,7,9,16,7,m_pro01_stark_chad,Master-Tact Ace-Pilot Bulwark,Elite
+Shotgun,Superphotonic,John,Doe,Male,AuriganMercenaries,22,3,4,1,2,8,m_pro01_stark_chad,,
+Sky Raven,Contrasensical,John,Doe,Male,AuriganMercenaries,22,10,2,3,8,8,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact,
+Slate Mountainrise,Facial Mutilation,John,Doe,Male,AuriganMercenaries,22,14,11,4,11,5,m_pro01_stark_chad,Multi-Targ Sure-Foot Bulwark,Elite
+Snow Flint,Lethal Disfigurement,John,Doe,Male,AuriganMercenaries,22,8,6,9,5,5,m_pro01_stark_chad,Breach-Shot Bulwark Multi-Targ,
+Solar Glory,Tender Loathing Care,John,Doe,Male,AuriganMercenaries,22,12,8,5,10,8,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact,Veteran No-Headshot
+Solar Wind Spellcaster,Murder Club,John,Doe,Male,AuriganMercenaries,22,7,5,6,8,7,m_ermy01,Multi-Targ Breach-Shot Ace-Pilot,Veteran
+Solar Youth,Chunky Decapitation,John,Doe,Male,AuriganMercenaries,22,7,9,5,10,11,m_pro01_stark_chad,Multi-Targ Master-Tact Bulwark,Elite No-Headshot
+Spunk Cutlass,Mobster Buddy,John,Doe,Male,AuriganMercenaries,22,9,4,7,9,9,m_pro01_stark_chad,Sure-Foot Bulwark Ace-Pilot,
+Steel Wolf,Dry Rot,John,Doe,Male,AuriganMercenaries,22,15,12,16,10,7,m_pro01_stark_chad,Multi-Targ Bulwark Sure-Foot,Elite
+Strong Fire Slayer,Terminal Catastrophe,John,Doe,Male,AuriganMercenaries,22,9,7,14,13,8,m_pro01_stark_chad,Bulwark Breach-Shot Ace-Pilot,Elite
+Summer Quartz,Gratuitous Ooga Chucka,John,Doe,Male,AuriganMercenaries,22,9,16,11,10,8,m_ermy01,Sure-Foot Ace-Pilot Master-Tact,Veteran
+Summer Wind,Ambush Predator,John,Doe,Male,AuriganMercenaries,22,16,14,9,5,5,m_pro01_stark_chad,Master-Tact Ace-Pilot Multi-Targ,Veteran
+Sun Tiger,Gung Ho,John,Doe,Male,AuriganMercenaries,22,9,8,7,15,10,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Veteran Elite No-Headshot
+Tall Cloud,Fusion Thrash,John,Doe,Male,AuriganMercenaries,22,9,7,9,6,6,m_ermy01,Multi-Targ Master-Tact Ace-Pilot,Veteran
+Tall Crystal Sky,Regal Club,John,Doe,Male,AuriganMercenaries,22,6,9,8,7,8,m_pro01_stark_chad,Coolant-Vent Sure-Foot Sensor-Lock,Veteran
+Tall Tornado Wind,Gentle Brutality,John,Doe,Male,AuriganMercenaries,22,13,16,6,9,11,m_pro01_stark_chad,Ace-Pilot Multi-Targ Sure-Foot,Veteran
+Thunder Day,More Painful If You Please,John,Doe,Male,AuriganMercenaries,22,9,6,12,7,6,m_ermy01,Bulwark Sure-Foot Multi-Targ,
+Tigerland,Asphyxiation,John,Doe,Male,AuriganMercenaries,22,7,3,6,5,6,m_ermy01,Ace-Pilot Master-Tact Bulwark,
+Tigerstone 1,Heavy Handed,John,Doe,Male,AuriganMercenaries,22,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite No-Headshot
+Tigerstone 2,Penthouse,John,Doe,Male,AuriganMercenaries,22,15,14,10,12,14,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite No-Headshot
+Tundrahawk,Majestic Conquest,John,Doe,Male,AuriganMercenaries,22,14,7,16,6,11,m_pro01_stark_chad,Multi-Targ Ace-Pilot Bulwark,Elite No-Headshot
+Warrior Fields,Eat Suck,John,Doe,Male,AuriganMercenaries,22,14,16,14,12,11,m_pro01_stark_chad,Bulwark Multi-Targ Master-Tact,Elite No-Headshot
+White Snake,Torture Compartment,John,Doe,Male,AuriganMercenaries,22,11,14,14,14,11,m_pro01_stark_chad,Breach-Shot Multi-Targ Bulwark,Elite
+Wind Fire,Toxic Waste Dump,John,Doe,Male,AuriganMercenaries,22,9,10,6,15,7,m_ermy01,Breach-Shot Multi-Targ Sensor-Lock,
+Winter Day,Hurt In A Box,John,Doe,Male,AuriganMercenaries,22,11,13,15,9,11,m_pro01_stark_chad,Sensor-Lock Sure-Foot Master-Tact,Veteran
+Wolf,Dude You Suck,John,Doe,Male,AuriganMercenaries,22,14,12,15,4,12,m_pro01_stark_chad,Master-Tact Ace-Pilot Sure-Foot,Elite No-Headshot
+Yellow Viper,Car Crash,John,Doe,Male,AuriganMercenaries,22,9,16,10,12,12,m_pro01_stark_chad,Multi-Targ Sensor-Lock Bulwark,Elite
+,,,,,,,,,,,,,,
+List of Trait Codes,,,,,,,,,,,,,,
+,Code,Trait,,,,,Description,,,,,,,
+-----,Multi-Targ,AbilityDefG5,,,,,"Gunnery 5, Multi-Target",,,,,,,
+-----,Breach-Shot,AbilityDefG8,,,,,"Gunnery 8, Breaching Shot",,,,,,,
+-----,Bulwark,AbilityDefGu5,,,,,"Guts 5, Bulwark",,,,,,,
+-----,Coolant-Vent,AbilityDefGu8,,,,,"Guts 8, Coolant Vent",,,,,,,
+-----,Sure-Foot,AbilityDefP5,,,,,"Piloting 5, Sure Footing",,,,,,,
+-----,Ace-Pilot,AbilityDefP8,,,,,"Piloting 8, Ace Pilot",,,,,,,
+-----,Sensor-Lock,AbilityDefT5A,,,,,"Tactics 5, Sensor Lock",,,,,,,
+-----,Master-Tact,AbilityDefT8A,,,,,"Tactics 8, Master Tactician",,,,,,,
+,,,,,,,,,,,,,,
+-----,Dmg-Resist1,TraitDef_WS_Damage_Resist_01,,,,,Damage from all sources is multiplied by 0.90x,,,,,,,
+-----,Dmg-Resist2,TraitDef_WS_Damage_Resist_02,,,,,Damage from all sources is multiplied by 0.85x,,,,,,,
+-----,Dmg-Resist3,TraitDef_WS_Damage_Resist_03,,,,,Damage from all sources is multiplied by 0.80x,,,,,,,
+-----,Dmg-Resist4,TraitDef_WS_Damage_Resist_04,,,,,Damage from all sources is multiplied by 0.75x,,,,,,,
+-----,Dmg-Resist5,TraitDef_WS_Damage_Resist_05,,,,,Damage from all sources is multiplied by 0.70x,,,,,,,
+,,,,,,,,,,,,,,
+-----,Aim-Ballistic1,TraitDef_WS_Weapon_Aim_Bonus_Ballistic_01,,,,,Accuracy with Ballistic weapons is adjusted by -0.25,,,,,,,
+-----,Aim-Ballistic2,TraitDef_WS_Weapon_Aim_Bonus_Ballistic_02,,,,,Accuracy with Ballistic weapons is adjusted by -0.50,,,,,,,
+-----,Aim-Ballistic3,TraitDef_WS_Weapon_Aim_Bonus_Ballistic_03,,,,,Accuracy with Ballistic weapons is adjusted by -0.75,,,,,,,
+-----,Aim-Ballistic4,TraitDef_WS_Weapon_Aim_Bonus_Ballistic_04,,,,,Accuracy with Ballistic weapons is adjusted by -1.00,,,,,,,
+-----,Aim-Ballistic5,TraitDef_WS_Weapon_Aim_Bonus_Ballistic_05,,,,,Accuracy with Ballistic weapons is adjusted by -1.25,,,,,,,
+-----,Aim-Energy1,TraitDef_WS_Weapon_Aim_Bonus_Energy_01,,,,,Accuracy with Energy weapons is adjusted by -0.25,,,,,,,
+-----,Aim-Energy2,TraitDef_WS_Weapon_Aim_Bonus_Energy_02,,,,,Accuracy with Energy weapons is adjusted by -0.50,,,,,,,
+-----,Aim-Energy3,TraitDef_WS_Weapon_Aim_Bonus_Energy_03,,,,,Accuracy with Energy weapons is adjusted by -0.75,,,,,,,
+-----,Aim-Energy4,TraitDef_WS_Weapon_Aim_Bonus_Energy_04,,,,,Accuracy with Energy weapons is adjusted by -1.00,,,,,,,
+-----,Aim-Energy5,TraitDef_WS_Weapon_Aim_Bonus_Energy_05,,,,,Accuracy with Energy weapons is adjusted by -1.25,,,,,,,
+-----,Aim-Missle1,TraitDef_WS_Weapon_Aim_Bonus_Missle_01,,,,,Accuracy with Missle weapons is adjusted by -0.25,,,,,,,
+-----,Aim-Missle2,TraitDef_WS_Weapon_Aim_Bonus_Missle_02,,,,,Accuracy with Missle weapons is adjusted by -0.50,,,,,,,
+-----,Aim-Missle3,TraitDef_WS_Weapon_Aim_Bonus_Missle_03,,,,,Accuracy with Missle weapons is adjusted by -0.75,,,,,,,
+-----,Aim-Missle4,TraitDef_WS_Weapon_Aim_Bonus_Missle_04,,,,,Accuracy with Missle weapons is adjusted by -1.00,,,,,,,
+-----,Aim-Missle5,TraitDef_WS_Weapon_Aim_Bonus_Missle_05,,,,,Accuracy with Missle weapons is adjusted by -1.25,,,,,,,
+,,,,,,,,,,,,,,
+-----,Rng1,TraitDef_WS_Weapon_Range_Bonus_01,,,,,Pilot’s Battlemech’s Weapons (all) have extra range (+50m),,,,,,,
+-----,Rng2,TraitDef_WS_Weapon_Range_Bonus_02,,,,,Pilot’s Battlemech’s Weapons (all) have extra range (+100m),,,,,,,
+-----,Rng3,TraitDef_WS_Weapon_Range_Bonus_03,,,,,Pilot’s Battlemech’s Weapons (all) have extra range (+150m),,,,,,,
+-----,Rng4,TraitDef_WS_Weapon_Range_Bonus_04,,,,,Pilot’s Battlemech’s Weapons (all) have extra range (+200m),,,,,,,
+-----,Rng5,TraitDef_WS_Weapon_Range_Bonus_05,,,,,Pilot’s Battlemech’s Weapons (all) have extra range (+250m),,,,,,,
+-----,Rng-Ballistic1,TraitDef_WS_Weapon_Range_Bonus_Ballistic_01,,,,,Pilot’s Battlemech’s Ballistic Weapons have extra range (+40m),,,,,,,
+-----,Rng-Ballistic2,TraitDef_WS_Weapon_Range_Bonus_Ballistic_02,,,,,Pilot’s Battlemech’s Ballistic Weapons have extra range (+80m),,,,,,,
+-----,Rng-Ballistic3,TraitDef_WS_Weapon_Range_Bonus_Ballistic_03,,,,,Pilot’s Battlemech’s Energy Weapons have extra range (+120m),,,,,,,
+-----,Rng-Energy1,TraitDef_WS_Weapon_Range_Bonus_Energy_01,,,,,Pilot’s Battlemech’s Energy Weapons have extra range (+40m),,,,,,,
+-----,Rng-Energy2,TraitDef_WS_Weapon_Range_Bonus_Energy_02,,,,,Pilot’s Battlemech’s Energy Weapons have extra range (+80m),,,,,,,
+-----,Rng-Energy3,TraitDef_WS_Weapon_Range_Bonus_Energy_03,,,,,Pilot’s Battlemech’s Energy Weapons have extra range (+120m),,,,,,,
+-----,Rng-Missle1,TraitDef_WS_Weapon_Range_Bonus_Missle_01,,,,,Pilot’s Battlemech’s Missle Weapons have extra range (+75m),,,,,,,
+-----,Rng-Missle2,TraitDef_WS_Weapon_Range_Bonus_Missle_02,,,,,Pilot’s Battlemech’s Missle Weapons have extra range (+150m),,,,,,,
+-----,Rng-Missle3,TraitDef_WS_Weapon_Range_Bonus_Missle_03,,,,,Pilot’s Battlemech’s Missle Weapons have extra range (+225m),,,,,,,
+,,,,,,,,,,,,,,
+-----,Dmg1,TraitDef_WS_Weapon_Damage_Bonus_01,,,,,Pilot’s Battlemech’s Weapons (all) have damage multipied by 1.1025x,,,,,,,
+-----,Dmg2,TraitDef_WS_Weapon_Damage_Bonus_02,,,,,Pilot’s Battlemech’s Weapons (all) have damage multipied by 1.2025x,,,,,,,
+-----,Dmg3,TraitDef_WS_Weapon_Damage_Bonus_03,,,,,Pilot’s Battlemech’s Weapons (all) have damage multipied by 1.3025x,,,,,,,
+-----,Dmg4,TraitDef_WS_Weapon_Damage_Bonus_04,,,,,Pilot’s Battlemech’s Weapons (all) have damage multipied by 1.4025x,,,,,,,
+-----,Dmg5,TraitDef_WS_Weapon_Damage_Bonus_05,,,,,Pilot’s Battlemech’s Weapons (all) have damage multipied by 1.5025x,,,,,,,
+-----,Dmg-Ballistic1,TraitDef_WS_Weapon_Damage_Bonus_Ballistic_01,,,,,Pilot’s Battlemech’s Ballistic Weapons have damage multipied by 1.1075x,,,,,,,
+-----,Dmg-Ballistic2,TraitDef_WS_Weapon_Damage_Bonus_Ballistic_02,,,,,Pilot’s Battlemech’s Ballistic Weapons have damage multipied by 1.2125x,,,,,,,
+-----,Dmg-Ballistic3,TraitDef_WS_Weapon_Damage_Bonus_Ballistic_03,,,,,Pilot’s Battlemech’s Ballistic Weapons have damage multipied by 1.3250x,,,,,,,
+-----,Dmg-Energy1,TraitDef_WS_Weapon_Damage_Bonus_Energy_01,,,,,Pilot’s Battlemech’s Energy Weapons have damage multipied by 1.1075x,,,,,,,
+-----,Dmg-Energy2,TraitDef_WS_Weapon_Damage_Bonus_Energy_02,,,,,Pilot’s Battlemech’s Energy Weapons have damage multipied by 1.2125x,,,,,,,
+-----,Dmg-Energy3,TraitDef_WS_Weapon_Damage_Bonus_Energy_03,,,,,Pilot’s Battlemech’s Energy Weapons have damage multipied by 1.3250x,,,,,,,
+-----,Dmg-Missle1,TraitDef_WS_Weapon_Damage_Bonus_Missle_01,,,,,Pilot’s Battlemech’s Missle Weapons have damage multipied by 1.1075x,,,,,,,
+-----,Dmg-Missle2,TraitDef_WS_Weapon_Damage_Bonus_Missle_02,,,,,Pilot’s Battlemech’s Missle Weapons have damage multipied by 1.2125x,,,,,,,
+-----,Dmg-Missle3,TraitDef_WS_Weapon_Damage_Bonus_Missle_03,,,,,Pilot’s Battlemech’s Missle Weapons have damage multipied by 1.3250x,,,,,,,
+,,,,,,,,,,,,,,
+-----,Dmg-Stability1,TraitDef_WS_Weapon_Stability_Damage_Bonus_01,,,,,Pilot’s Battlemech’s Weapons have stability damage multipied by 1.1025x,,,,,,,
+-----,Dmg-Stability2,TraitDef_WS_Weapon_Stability_Damage_Bonus_02,,,,,Pilot’s Battlemech’s Weapons have stability damage multipied by 1.2025x,,,,,,,
+-----,Dmg-Stability3,TraitDef_WS_Weapon_Stability_Damage_Bonus_03,,,,,Pilot’s Battlemech’s Weapons have stability damage multipied by 1.3025x,,,,,,,
+-----,Dmg-Stability4,TraitDef_WS_Weapon_Stability_Damage_Bonus_04,,,,,Pilot’s Battlemech’s Weapons have stability damage multipied by 1.4025x,,,,,,,
+-----,Dmg-Stability5,TraitDef_WS_Weapon_Stability_Damage_Bonus_05,,,,,Pilot’s Battlemech’s Weapons have stability damage multipied by 1.5025x,,,,,,,
+,,,,,,,,,,,,,,
+-----,Dmg-Heat1,TraitDef_WS_Weapon_Heat_Damage_Bonus_01,,,,,Pilot’s Battlemech’s Weapons have heat damage multipied by 1.1025x,,,,,,,
+-----,Dmg-Heat2,TraitDef_WS_Weapon_Heat_Damage_Bonus_02,,,,,Pilot’s Battlemech’s Weapons have heat damage multipied by 1.2025x,,,,,,,
+-----,Dmg-Heat3,TraitDef_WS_Weapon_Heat_Damage_Bonus_03,,,,,Pilot’s Battlemech’s Weapons have heat damage multipied by 1.3025x,,,,,,,
+-----,Dmg-Heat4,TraitDef_WS_Weapon_Heat_Damage_Bonus_04,,,,,Pilot’s Battlemech’s Weapons have heat damage multipied by 1.4025x,,,,,,,
+-----,Dmg-Heat5,TraitDef_WS_Weapon_Heat_Damage_Bonus_05,,,,,Pilot’s Battlemech’s Weapons have heat damage multipied by 1.5025x,,,,,,,
+,,,,,,,,,,,,,,
+-----,Dodge1,TraitDef_WS_Dodging_1,,,,,"Battlemech is harder to hit, +0.5 difficulty for all enemy attacks",,,,,,,
+-----,Dodge2,TraitDef_WS_Dodging_2,,,,,"Battlemech is harder to hit, +1.0 difficulty for all enemy attacks",,,,,,,
+-----,Dodge3,TraitDef_WS_Dodging_3,,,,,"Battlemech is harder to hit, +1.5 difficulty for all enemy attacks",,,,,,,
+-----,Dodge4,TraitDef_WS_Dodging_4,,,,,"Battlemech is harder to hit, +2.0 difficulty for all enemy attacks",,,,,,,
+-----,Dodge5,TraitDef_WS_Dodging_5,,,,,"Battlemech is harder to hit, +2.5 difficulty for all enemy attacks",,,,,,,
+,,,,,,,,,,,,,,
+-----,No-Headshot,TraitDefHeadshotImmunity,,,,,Immune to head shots,,,,,,,
+,,,,,,,,,,,,,,
+-----,Veteran,TraitDefVeteranMechWarrior,,,,,"Veteran pilot, battlemech takes less damage",,,,,,,
+-----,Elite,TraitDefEliteMechWarrior,,,,,"Elite pilot, battlemech takes less damage",,,,,,,

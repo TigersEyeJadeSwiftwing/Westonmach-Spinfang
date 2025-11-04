@@ -3,7 +3,7 @@
 		"Id" : "TraitDef_WS_Weapon_Heat_Damage_Bonus_01",
 		"Name" : "Weapon Heat Damage",
 		"Details" : "PASSIVE: Battlemechs piloted by this MechWarrior have an increase to their weapon heat damage.",
-		"Icon" : "uixSvgIcon_status_prone"
+		"Icon" : "uixSvgIcon_status_overheating"
 	},
 	"Type" : "SprintDistance",
 	"ShortDesc" : "Weapon Heat Damage",
@@ -18,7 +18,7 @@
                 "Id" : "Trait-WS-Attack_Heat_Damage_Modifier",
                 "Name" : "PILOT BONUS ABILITY: INCREASED ATTACK HEAT DAMAGE",
                 "Details" : "This pilot has unique skills that increase the heat damage of attacks made by any battlemech he or she pilots by [AMT].",
-                "Icon" : "uixSvgIcon_status_prone"
+                "Icon" : "uixSvgIcon_status_overheating"
             },
             "durationData" : {
                 "duration" : -1,
@@ -39,7 +39,8 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
             },
             "statisticData" : {
                 "appliesEachTick" : false,
