@@ -1,15 +1,15 @@
 {
   "Description": {
-    "Id": "pilot_ws_skirmish_Heavy_Handed",
-    "Name": "Heavy Handed",
+    "Id": "pilot_ws_skirmish_Sky_Soldier",
+    "Name": "Sky Soldier",
     "FirstName": "John",
     "LastName": "Doe",
-    "Callsign": "Heavy Handed",
+    "Callsign": "Sky Soldier",
     "Gender": "Male",
     "factionID": "AuriganMercenaries",
     "Age": 22,
     "Details": "Skirmish Pilot",
-    "Icon": "ws_img_pilot_Tigerstone_1"
+    "Icon": "ws_img_pilot_Tigerstone_3"
   },
   "BaseGunnery": 16,
   "BasePiloting": 16,
@@ -114,11 +114,11 @@
     "TraitDef_WS_Ballistic_Dodging_2",
     "TraitDef_WS_Sensor_Range_03",
     "TraitDefHeadshotImmunity",
-    "TraitDef_WS_Weapon_Damage_Bonus_05",
-    "TraitDef_WS_Weapon_Stability_Damage_Bonus_05",
-    "TraitDef_WS_Weapon_Heat_Damage_Bonus_05",
-    "TraitDef_WS_Weapon_Range_Bonus_02",
-    "TraitDef_WS_Dodging_2",
+    "TraitDef_WS_Damage_Resist_02",
+    "TraitDef_WS_Weapon_Aim_Bonus_Ballistic_05",
+    "TraitDef_WS_Weapon_Aim_Bonus_Energy_05",
+    "TraitDef_WS_Weapon_Range_Bonus_05",
+    "TraitDef_WS_Dodging_3",
     "AbilityDefG5",
     "AbilityDefP8",
     "AbilityDefT8A"
@@ -129,7 +129,7 @@
       "BLACKLISTED",
       "pilot_release_ksbeta",
       "pilot_release_skirmish",
-      "name_Heavy_Handed"
+      "name_Sky_Soldier"
     ],
     "tagSetSourceFile": ""
   },

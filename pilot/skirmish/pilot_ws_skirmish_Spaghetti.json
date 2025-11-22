@@ -37,7 +37,10 @@
     "TraitDefMeleeHit3",
     "TraitDefMeleeHit4",
     "TraitDefUnsteadySet80",
-    "TraitDef_WS_Damage_Resist_Guts_01"
+    "TraitDef_WS_Damage_Resist_Guts_01",
+    "TraitDef_WS_Weapon_Stability_Damage_Bonus_01",
+    "AbilityDefG5",
+    "AbilityDefP8"
   ],
   "AIPersonality": "Undefined",
   "PilotTags": {

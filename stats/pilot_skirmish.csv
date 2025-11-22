@@ -2,27 +2,27 @@ Face,Callsign,First Name,Last Name,Gender,Faction,Age,Gunnery,Piloting,Guts,Tact
 Skirmish Pilots,,,,,,,,,,,,,,
 ,Callsign,First Name,Last Name,Male,Faction,Age,Gunnery,Piloting,Guts,Tactics,Health,Voice,Trait Codes 1,Trait Codes 2
 Arctic Snow,Gentle Slaughter,John,Doe,Male,AuriganMercenaries,22,7,8,12,6,12,m_ermy01,Breach-Shot Bulwark Ace-Pilot,Dmg-Resist4 Dmg-Stability1
-Black Fox,Sweet Hot Death,John,Doe,Male,AuriganMercenaries,22,6,4,6,6,9,m_ermy01,Sensor-Lock Bulwark,
-Blade Hawk,Binoculars,John,Doe,Male,AuriganMercenaries,22,7,4,7,5,11,m_pro01_stark_chad,Breach-Shot Bulwark Sure-Foot,Dodge1
-Blood Lightning,Meat On A Stick,John,Doe,Male,AuriganMercenaries,22,7,9,11,8,10,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,Dmg-Resist2 Dmg-Heat2 Dmg-Ballistic2
-Blue Warrior,Mach Five Assault,John,Doe,Male,AuriganMercenaries,22,10,9,16,5,11,m_ermy01,Multi-Targ Sure-Foot Ace-Pilot,Dodge4 Dmg-Heat3 Rng1 Rng-Missle3
-Blue Warrior alt 1,Flesh Wound,John,Doe,Male,AuriganMercenaries,22,12,16,5,14,6,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark,Veteran
-Bronze Wood,Spaghetti,John,Doe,Male,AuriganMercenaries,22,4,4,2,3,5,m_pro01_stark_chad,,
+Black Fox,Sweet Hot Death,John,Doe,Male,AuriganMercenaries,22,6,4,6,6,9,m_ermy01,Sensor-Lock Bulwark,Aim-Energy2
+Blade Hawk,Binoculars,John,Doe,Male,AuriganMercenaries,22,7,4,7,5,11,m_pro01_stark_chad,Breach-Shot Bulwark Sure-Foot,Dodge1 Dmg-Resist2 Dmg-Heat2
+Blood Lightning,Meat On A Stick,John,Doe,Male,AuriganMercenaries,22,7,9,11,8,10,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,Dmg-Resist2 Dmg-Heat2 Dmg-Ballistic5
+Blue Warrior,Mach Five Assault,John,Doe,Male,AuriganMercenaries,22,14,13,16,10,11,m_pro01_stark_chad,Multi-Targ Sure-Foot Ace-Pilot,Dodge4 Dmg-Heat3 Rng2 Rng-Missle3
+Blue Warrior alt 1,Flesh Wound,John,Doe,Male,AuriganMercenaries,22,7,8,6,6,6,m_pro01_stark_chad,Multi-Targ,Dodge1 Dmg-Heat1 Rng-Missle2
+Bronze Wood,Spaghetti,John,Doe,Male,AuriganMercenaries,22,4,4,2,3,5,m_pro01_stark_chad,Multi-Targ Ace-Pilot,Dmg-Stability1
 Chrome Puma,Lucid Dream,John,Doe,Male,AuriganMercenaries,22,8,13,6,5,9,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact,Dodge3 Dmg-Resist2  Dmg-Energy3
 Cloud Fighter,Turbo Twit,John,Doe,Male,AuriganMercenaries,22,6,8,4,9,8,m_pro01_stark_chad,Ace-Pilot Sensor-Lock Bulwark,Dmg-Resist1
-Cobalt,,,,,,,,,,,,,,
-Cobalt alt 1,,,,,,,,,,,,,,
-Cobra,Acid Burn,John,Doe,Male,AuriganMercenaries,22,16,14,16,11,9,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,Rng2 Rng-Energy1 Rng-Energy2 Rng-Energy3 Dmg2 Dmg-Energy1 Dmg-Energy2 Dmg-Energy3 Dmg-Heat5 Dodge5
-Cobra alt 1,Facial Mutilation,John,Doe,Male,AuriganMercenaries,22,14,11,4,11,5,m_pro01_stark_chad,Multi-Targ Sure-Foot Bulwark,Elite
+Cobalt,Tornado Blood Warrior,John,Doe,Male,AuriganMercenaries,22,16,13,15,16,14,m_ermy01,Master-Tact Multi-Targ Ace-Pilot,Dmg5 Dmg-Ballistic3 Rng-Ballistic3 Aim-Ballistic2
+Cobalt alt 1,Rage Wind,John,Doe,Male,AuriganMercenaries,22,9,7,8,10,7,m_ermy01,Master-Tact Ace-Pilot,Dmg2 Dmg-Ballistic1 Rng-Ballistic2
+Cobra,Acid Burn,John,Doe,Male,AuriganMercenaries,22,16,14,16,15,9,m_pro01_stark_chad,Multi-Targ Bulwark Ace-Pilot,Rng5 Rng-Energy3 Dmg5 Dodge2
+Cobra alt 1,Facial Mutilation,John,Doe,Male,AuriganMercenaries,22,9,7,10,9,4,m_pro01_stark_chad,Multi-Targ Bulwark,Rng2 Rng-Energy1 Dmg2
 Coolstone Cat,Chainsaw Tooth,John,Doe,Male,AuriganMercenaries,22,7,4,6,7,7,m_ermy01,Sure-Foot Bulwark Ace-Pilot,Rng2 Rng-Energy2 Dmg1 Dmg-Energy2 Dmg-Heat2
 Copper Fox,Prismatic Cougar,John,Doe,Male,AuriganMercenaries,22,16,12,16,14,9,m_ermy01,Multi-Targ Sure-Foot Master-Tact,Rng5 Rng-Ballistic3 Dmg1 Dmg-Ballistic1 Dmg-Ballistic2 Dmg-Ballistic3 Dmg-Energy1 Dmg-Energy2 Dmg-Stability3 Dodge4
-Copper Fox alt 1,,,,,,,,,,,,,,
+Copper Fox alt 1,Chrome Kitten,John,Doe,Male,AuriganMercenaries,22,9,6,7,7,3,m_pro01_stark_chad,Multi-Targ Sure-Foot,Rng2 Rng-Ballistic1 Dmg-Ballistic1 Dmg-Stability1
 Copper Wolf,Shark Fin,John,Doe,Male,AuriganMercenaries,22,6,7,10,11,6,m_pro01_stark_chad,Master-Tact Breach-Shot Bulwark,Dmg-Ballistic2
-Crystal Stiletto,Leather Jacket,John,Doe,Male,AuriganMercenaries,22,9,4,9,8,11,m_ermy01,Multi-Targ Ace-Pilot Master-Tact,
-Deep Sky,Wild Kid,John,Doe,Male,AuriganMercenaries,22,10,9,3,4,7,m_pro01_stark_chad,Sensor-Lock Ace-Pilot Master-Tact,
-Defthand,Space Case,John,Doe,Male,AuriganMercenaries,22,5,4,6,5,7,m_ermy01,Multi-Targ Sure-Foot,
-Desert Sand,Black Coffee,John,Doe,Male,AuriganMercenaries,22,8,4,7,9,10,m_ermy01,Multi-Targ Sensor-Lock Master-Tact,
-Diamond Sword,,,,,,,,,,,,,,
+Crystal Stiletto,Leather Jacket,John,Doe,Male,AuriganMercenaries,22,9,8,9,8,11,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Aim-Ballistic2 Aim-Energy1 Aim-Missle1
+Deep Sky,Wild Kid,John,Doe,Male,AuriganMercenaries,22,10,9,6,9,7,m_pro01_stark_chad,Sensor-Lock Ace-Pilot Master-Tact,Rng5
+Defthand,Space Case,John,Doe,Male,AuriganMercenaries,22,7,5,9,5,7,m_ermy01,Multi-Targ Sure-Foot,Rng3 Dodge2 Dmg-Stability2
+Desert Sand,Black Coffee,John,Doe,Male,AuriganMercenaries,22,11,12,7,16,11,m_ermy01,Multi-Targ Sensor-Lock Master-Tact,Rng2 Aim-Ballistic4 Aim-Energy5 Dmg-Ballistic3 Dmg-Energy4
+Diamond Sword,Toaster Oven,,,,,,,,,,,,,
 Feral,Wild Boy,John,Doe,Male,AuriganMercenaries,22,13,9,11,10,5,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact,Elite
 Firewalker,Rabid Firecracker,John,Doe,Male,AuriganMercenaries,22,7,9,10,9,14,m_ermy01,Bulwark Ace-Pilot Master-Tact,Veteran No-Headshot
 Glass Snake,Sunray,John,Doe,Male,AuriganMercenaries,22,10,9,13,4,15,m_pro01_stark_chad,Ace-Pilot Master-Tact Bulwark,Elite
@@ -54,7 +54,7 @@ Sapphire Lake,Totality Infliction,John,Doe,Male,AuriganMercenaries,22,8,7,9,16,7
 Shotgun,Superphotonic,John,Doe,Male,AuriganMercenaries,22,3,4,1,2,8,m_pro01_stark_chad,,
 Sky Raven,Contrasensical,John,Doe,Male,AuriganMercenaries,22,10,2,3,8,8,m_pro01_stark_chad,Multi-Targ Breach-Shot Master-Tact,
 Snow Flint,Lethal Disfigurement,John,Doe,Male,AuriganMercenaries,22,8,6,9,5,5,m_pro01_stark_chad,Breach-Shot Bulwark Multi-Targ,
-Solar Dream Sky,,,,,,,,,,,,,,
+Solar Dream Sky,Deathbreak,John,Doe,Male,AuriganMercenaries,22,4,5,3,4,3,m_pro01_stark_chad,Sure-Foot,
 Solar Glory,Tender Loathing Care,John,Doe,Male,AuriganMercenaries,22,12,8,5,10,8,m_pro01_stark_chad,Breach-Shot Ace-Pilot Master-Tact,Veteran No-Headshot
 Solar Wind Spellcaster,Murder Club,John,Doe,Male,AuriganMercenaries,22,7,5,6,8,7,m_ermy01,Multi-Targ Breach-Shot Ace-Pilot,Veteran
 Solar Wizard,,,,,,,,,,,,,,
@@ -65,15 +65,17 @@ Strong Fire Slayer,Terminal Catastrophe,John,Doe,Male,AuriganMercenaries,22,9,7,
 Summer Quartz,Gratuitous Ooga Chucka,John,Doe,Male,AuriganMercenaries,22,9,16,11,10,8,m_ermy01,Sure-Foot Ace-Pilot Master-Tact,Veteran
 Summer Wind,Ambush Predator,John,Doe,Male,AuriganMercenaries,22,16,14,9,5,5,m_pro01_stark_chad,Master-Tact Ace-Pilot Multi-Targ,Veteran
 Sun Tiger,Gung Ho,John,Doe,Male,AuriganMercenaries,22,9,8,7,15,10,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Veteran Elite No-Headshot
-Sun Tiger alt 1,,,,,,,,,,,,,,
+Sun Tiger alt 1,Blockhead,John,Doe,Male,AuriganMercenaries,22,5,6,5,9,3,m_pro01_stark_chad,Multi-Targ,
 Tall Cloud,Fusion Thrash,John,Doe,Male,AuriganMercenaries,22,9,7,9,6,6,m_ermy01,Multi-Targ Master-Tact Ace-Pilot,Veteran
 Tall Crystal Sky,Regal Club,John,Doe,Male,AuriganMercenaries,22,6,9,8,7,8,m_pro01_stark_chad,Coolant-Vent Sure-Foot Sensor-Lock,Veteran
 Tall Tornado Wind,Gentle Brutality,John,Doe,Male,AuriganMercenaries,22,13,16,6,9,11,m_pro01_stark_chad,Ace-Pilot Multi-Targ Sure-Foot,Veteran
 Thunder Day,More Painful If You Please,John,Doe,Male,AuriganMercenaries,22,9,6,12,7,6,m_ermy01,Bulwark Sure-Foot Multi-Targ,
 Tigerland,Asphyxiation,John,Doe,Male,AuriganMercenaries,22,7,3,6,5,6,m_ermy01,Ace-Pilot Master-Tact Bulwark,
-Tigerstone 1,Heavy Handed,John,Doe,Male,AuriganMercenaries,22,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite No-Headshot
-Tigerstone 2,Penthouse,John,Doe,Male,AuriganMercenaries,22,15,14,10,12,14,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,Elite No-Headshot
+Tigerstone 1,Heavy Handed,John,Doe,Male,AuriganMercenaries,22,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,No-Headshot Dmg5 Dmg-Stability5 Dmg-Heat5 Rng2 Dodge2
+Tigerstone 2,Penthouse,John,Doe,Male,AuriganMercenaries,22,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,No-Headshot Dmg-Resist4 Dmg4 Aim-Ballistic2 Aim-Energy2 Aim-Missle4 Dodge1
+Tigerstone 3,Sky Soldier,John,Doe,Male,AuriganMercenaries,22,16,16,16,16,16,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,No-Headshot Dmg-Resist2 Aim-Ballistic5 Aim-Energy5 Rng5 Dodge3
 Tundrahawk,Majestic Conquest,John,Doe,Male,AuriganMercenaries,22,14,7,16,6,11,m_pro01_stark_chad,Multi-Targ Ace-Pilot Bulwark,Elite No-Headshot
+War Path,War Path,John,Doe,Male,AuriganMercenaries,22,16,11,13,12,6,m_pro01_stark_chad,Multi-Targ Ace-Pilot Master-Tact,No-Headshot Dmg-Resist1 Aim-Ballistic4 Aim-Energy4 Rng4 Dodge2
 Warrior Fields,Eat Suck,John,Doe,Male,AuriganMercenaries,22,14,16,14,12,11,m_pro01_stark_chad,Bulwark Multi-Targ Master-Tact,Elite No-Headshot
 White Snake,Torture Compartment,John,Doe,Male,AuriganMercenaries,22,11,14,14,14,11,m_pro01_stark_chad,Breach-Shot Multi-Targ Bulwark,Elite
 Wind Fire,Toxic Waste Dump,John,Doe,Male,AuriganMercenaries,22,9,10,6,15,7,m_ermy01,Breach-Shot Multi-Targ Sensor-Lock,
