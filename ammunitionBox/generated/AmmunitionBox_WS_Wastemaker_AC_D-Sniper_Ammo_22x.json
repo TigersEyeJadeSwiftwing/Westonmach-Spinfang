@@ -1,0 +1,123 @@
+{
+  "AmmoID": "Ammunition_WM_Snp",
+  "Capacity": 616,
+  "Description": {
+    "Cost": 280250,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Wastemaker AC Ammunition",
+    "UIName": "Wastemaker AC D-Sniper Ammo 22x",
+    "Id": "AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_22x",
+    "Name": "Wastemaker AC D-Sniper Ammo 22x",
+    "Details": "Capacity: 616\nCartridges or Rounds per Firing: 2\nNumber of Firings: 308\n\nDamage taken when installed: 162.50%\n\n    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, although Wastemaker Cannon ammunition is completely made up of a shaped slug, with no casing, no warhead, and no chemical or explosive propellant of any kind as it relies on the cannon shooting it to propel it through the air.  As such, it will not explode while inside of an ammunition bin that gets hit or damaged, and is therefore not a fire or explosion hazard.  Wastemaker rounds differ from Reaper Auto Cannon rounds in these ways, as well as the rounds and the guns that fire them being smaller.  Wastemaker rounds are made of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  Wastemaker Auto Cannon rounds use a technology other than archaic methods involving gunpowder, etc., to propel the rounds.\\n\\n    Wastemaker Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\\n\\n    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",
+    "Icon": "uixSvgIcon_ammoBox_Ballistic"
+  },
+  "BonusValueA": "616 Rounds",
+  "BonusValueB": "308 Attacks",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "CanExplode": false,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.625,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat-Increased",
+        "Name": "MAX HEAT DECREASED",
+        "Details": "Maximum allowed heat decreased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Add",
+        "modValue": -5,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Increased",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Add",
+        "modValue": -5,
+        "modType": "System.Int32"
+      }
+    }
+  ]
+}

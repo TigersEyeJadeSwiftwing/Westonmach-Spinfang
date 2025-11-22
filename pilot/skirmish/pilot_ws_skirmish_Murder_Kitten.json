@@ -7,7 +7,7 @@
     "Callsign": "Murder Kitten",
     "Gender": "Male",
     "factionID": "AuriganMercenaries",
-    "Age": 50,
+    "Age": 22,
     "Details": "Skirmish Pilot",
     "Icon": "ws_img_pilot_Magic_Katana"
   },
@@ -53,8 +53,8 @@
     "TraitDefSprintIncrease20",
     "TraitDefUnsteadySet60",
     "TraitDefEvasiveChargeAddTwo",
-    "TraitDef_WS_ArmorStructure_Plus_01",
-    "TraitDef_WS_ArmorStructure_Plus_02",
+    "TraitDef_WS_Damage_Resist_Guts_01",
+    "TraitDef_WS_Damage_Resist_Guts_02",
     "TraitDefIndirectReduceOne",
     "TraitDefMinRangeReduce45",
     "TraitDefCalledShotImprove",
@@ -68,10 +68,10 @@
     "TraitDef_WS_Ballistic_Dodging_1",
     "TraitDefMinRangeReduce180",
     "TraitDef_WS_Sensor_Range_02",
+    "TraitDefEliteMechWarrior",
     "AbilityDefG5",
     "AbilityDefP8",
-    "AbilityDefT8A",
-    "TraitDefEliteMechWarrior"
+    "AbilityDefT8A"
   ],
   "AIPersonality": "Undefined",
   "PilotTags": {

@@ -1,0 +1,71 @@
+{
+  "AmmoID": "Ammunition_ViperR",
+  "Capacity": 80,
+  "Description": {
+    "Cost": 14373,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Viper Nine Rocket Ammunition",
+    "UIName": "Viper Nine Rocket Ammo 02x",
+    "Id": "AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_02x",
+    "Name": "Viper Nine Rocket Ammo 02x",
+    "Details": "Capacity: 80\n\nDamage taken when installed: 103.50%\n\n    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper Nine Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.\\n\\n    Viper Nine rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Viper Nine rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher's type and level.\\n\\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "80 Rockets",
+  "BonusValueB": "",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.035,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ]
+}

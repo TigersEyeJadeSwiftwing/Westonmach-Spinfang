@@ -7,7 +7,7 @@
     "Callsign": "Lynching Holiday",
     "Gender": "Male",
     "factionID": "AuriganMercenaries",
-    "Age": 50,
+    "Age": 22,
     "Details": "Skirmish Pilot",
     "Icon": "ws_img_pilot_Pinewood"
   },
@@ -43,13 +43,13 @@
     "TraitDefSprintIncrease10",
     "TraitDefEvasiveChargeAddOne",
     "TraitDefHealthAddOne",
-    "TraitDef_WS_ArmorStructure_Plus_01",
-    "TraitDef_WS_ArmorStructure_Plus_02",
-    "TraitDef_WS_ArmorStructure_Plus_03",
+    "TraitDef_WS_Damage_Resist_Guts_01",
+    "TraitDef_WS_Damage_Resist_Guts_02",
+    "TraitDef_WS_Damage_Resist_Guts_03",
     "TraitDefIndirectReduceOne",
+    "TraitDefEliteMechWarrior",
     "AbilityDefGu5",
-    "AbilityDefT5A",
-    "TraitDefEliteMechWarrior"
+    "AbilityDefT5A"
   ],
   "AIPersonality": "Undefined",
   "PilotTags": {

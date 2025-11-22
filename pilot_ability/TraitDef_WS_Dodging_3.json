@@ -1,6 +1,6 @@
 {
 	"Description" : {
-		"Id" : "TraitDef_WS_Dodging_2",
+		"Id" : "TraitDef_WS_Dodging_3",
 		"Name" : "Dodging",
 		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior are harder to hit with all weapons.",
 		"Icon" : "uixSvgIcon_action_evasivemove"

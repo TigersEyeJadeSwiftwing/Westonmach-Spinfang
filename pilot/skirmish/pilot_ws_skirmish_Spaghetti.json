@@ -7,7 +7,7 @@
     "Callsign": "Spaghetti",
     "Gender": "Male",
     "factionID": "AuriganMercenaries",
-    "Age": 50,
+    "Age": 22,
     "Details": "Skirmish Pilot",
     "Icon": "ws_img_pilot_Bronze_Wood"
   },
@@ -37,7 +37,7 @@
     "TraitDefMeleeHit3",
     "TraitDefMeleeHit4",
     "TraitDefUnsteadySet80",
-    "TraitDef_WS_ArmorStructure_Plus_01"
+    "TraitDef_WS_Damage_Resist_Guts_01"
   ],
   "AIPersonality": "Undefined",
   "PilotTags": {

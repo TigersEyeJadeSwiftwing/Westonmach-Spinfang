@@ -7,7 +7,7 @@
     "Callsign": "Tender Loathing Care",
     "Gender": "Male",
     "factionID": "AuriganMercenaries",
-    "Age": 50,
+    "Age": 22,
     "Details": "Skirmish Pilot",
     "Icon": "ws_img_pilot_Solar_Glory"
   },
@@ -54,10 +54,10 @@
     "TraitDefSprintIncrease20",
     "TraitDefHealthAddOne",
     "TraitDefRefireReduceOne",
-    "TraitDef_WS_ArmorStructure_Plus_01",
-    "TraitDef_WS_ArmorStructure_Plus_02",
-    "TraitDef_WS_ArmorStructure_Plus_03",
-    "TraitDef_WS_ArmorStructure_Plus_04",
+    "TraitDef_WS_Damage_Resist_Guts_01",
+    "TraitDef_WS_Damage_Resist_Guts_02",
+    "TraitDef_WS_Damage_Resist_Guts_03",
+    "TraitDef_WS_Damage_Resist_Guts_04",
     "TraitDefIndirectReduceOne",
     "TraitDefMinRangeReduce45",
     "TraitDefCalledShotImprove",
@@ -65,11 +65,11 @@
     "TraitDefMinRangeReduce90",
     "TraitDefCalledShotMaster",
     "TraitDefIndirectReduceThree",
+    "TraitDefVeteranMechWarrior",
+    "TraitDefHeadshotImmunity",
     "AbilityDefG8",
     "AbilityDefP8",
-    "AbilityDefT8A",
-    "TraitDefVeteranMechWarrior",
-    "TraitDefHeadshotImmunity"
+    "AbilityDefT8A"
   ],
   "AIPersonality": "Undefined",
   "PilotTags": {

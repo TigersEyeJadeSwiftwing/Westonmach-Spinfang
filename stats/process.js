@@ -639,12 +639,12 @@ function Main_Pilots_Skirmish(diag=false) {
             if (data.BaseTactics >= 16) traits.push("TraitDef_WS_Sensor_Range_03");
 
             let trait_codes = [];
-            if (trait_codes_1_string.length > 0) {
-                const tr = trait_codes_1_string.split(" ");
-                trait_codes = trait_codes.concat(tr).Deep();
-            }
             if (trait_codes_2_string.length > 0) {
                 const tr = trait_codes_2_string.split(" ");
+                trait_codes = trait_codes.concat(tr).Deep();
+            }
+            if (trait_codes_1_string.length > 0) {
+                const tr = trait_codes_1_string.split(" ");
                 trait_codes = trait_codes.concat(tr).Deep();
             }
 
