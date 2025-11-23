@@ -28,7 +28,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Walk_Speed_Modifier",
                 "Name" : "ENGINE PERFORMANCE UPGRADE",
-                "Details" : "This unit's upgraded engine multiplies its movement speed by [1+AMT].",
+                "Details" : "This unit's upgraded engine multiplies its movement speed by [AMT].",
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -50,7 +50,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Run_Speed_Modifier",
                 "Name" : "ENGINE PERFORMANCE UPGRADE",
-                "Details" : "This unit's upgraded engine multiplies its movement speed by [1+AMT].",
+                "Details" : "This unit's upgraded engine multiplies its movement speed by [AMT].",
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -80,7 +80,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Jump_Speed_Modifier",
                 "Name" : "UPGRADED JUMP DISTANCE",
-                "Details" : "This unit has upgraded jump jets that makes it's jumping distance multiplied by [1+AMT].",
+                "Details" : "This unit has upgraded jump jets that makes it's jumping distance multiplied by [AMT].",
                 "Icon" : "uixSvgIcon_action_jump"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -829,7 +829,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Weapon_Accuracy_Support_Modifier",
                 "Name" : "SUPPORT WEAPON ACCURACY UPGRADED",
-                "Details" : "Support weapon attacks have their hit improved by [1-AMT].",
+                "Details" : "Support weapon attacks have their hit improved by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -888,7 +888,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Weapon_Accuracy_Energy_Modifier",
                 "Name" : "ENERGY WEAPON ACCURACY UPGRADED",
-                "Details" : "Energy weapon attacks have their hit improved by [1-AMT].",
+                "Details" : "Energy weapon attacks have their hit improved by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -947,7 +947,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Weapon_Accuracy_Ballistic_Modifier",
                 "Name" : "BALLISTIC WEAPON ACCURACY UPGRADED",
-                "Details" : "Ballistic weapon attacks have their hit improved by [1-AMT].",
+                "Details" : "Ballistic weapon attacks have their hit improved by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -1006,7 +1006,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Weapon_Accuracy_Missle_Modifier",
                 "Name" : "MISSLE WEAPON ACCURACY UPGRADED",
-                "Details" : "Missle weapon attacks have their hit improved by [1-AMT].",
+                "Details" : "Missle weapon attacks have their hit improved by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {

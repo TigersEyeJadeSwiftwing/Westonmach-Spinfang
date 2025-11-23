@@ -9,7 +9,7 @@
     "UIName": "MF Laser C-Large T5",
     "Name": "MF Laser C-Large T5",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Damage taken when installed: 140.00%\n\n    Westonmach Multi-Frequency Battlemech lasers are super-intense laser weapons that shoot a laser beam containing multiple lasers of different frequencies at the same time, integrated into one beam of energy.  They do a serious amount of damage to their targets, and also heat up the target when they hit.  Like regular battlemech-mounted lasers, they enjoy an accuracy bonus, and don't require any ammunition.  The small versions are support weapons that fire during melee.\n\n    Westonmach Multi-Frequency lasers will temporarily impair a target's ability to cool itself, overheating the target on a successful hit.  A target hit by one of these lasers will have a lower maximum heat threshold for a few turns, as well as a lower threshold for shutting down.  In addition, while a target that has been hit is cooling off, the damaged area is melting and hot, and for a short time won't protect the target as much from further damage, making other damage temporarily reduce armor and structure a little more than it normally would.\n\n    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Heat generated when installed: 8\n\n    Westonmach Multi-Frequency Battlemech lasers are super-intense laser weapons that shoot a laser beam containing multiple lasers of different frequencies at the same time, integrated into one beam of energy.  They do a serious amount of damage to their targets, and also heat up the target when they hit.  Like regular battlemech-mounted lasers, they enjoy an accuracy bonus, and don't require any ammunition.  The small versions are support weapons that fire during melee.\n\n    Westonmach Multi-Frequency lasers will temporarily impair a target's ability to cool itself, overheating the target on a successful hit.  A target hit by one of these lasers will have a lower maximum heat threshold for a few turns, as well as a lower threshold for shutting down.  In addition, while a target that has been hit is cooling off, the damaged area is melting and hot, and for a short time won't protect the target as much from further damage, making other damage temporarily reduce armor and structure a little more than it normally would.\n\n    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Energy",
   "Type": "Laser",
@@ -47,7 +47,7 @@
   "PrefabIdentifier": "Laser",
   "BattleValue": 0,
   "InventorySize": 2,
-  "Tonnage": 0.1875,
+  "Tonnage": 0.125,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -63,12 +63,16 @@
       "effectType": "StatisticEffect",
       "nature": "Debuff",
       "Description": {
-        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-        "Details": "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
-        "Icon": "UixSvgIcon_specialEquip_System"
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
       "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
         "duration": -1,
         "stackLimit": -1
       },
@@ -81,10 +85,10 @@
       "statisticData": {
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
-        "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": 1.4,
-        "modType": "System.Single",
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Subtract",
+        "modValue": 8,
+        "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",

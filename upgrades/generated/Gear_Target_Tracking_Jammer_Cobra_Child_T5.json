@@ -15,7 +15,7 @@
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "BonusValueA": "-5 Enemy Accuracy",
-  "BonusValueB": "-5 Max Heat",
+  "BonusValueB": "-15 Max Heat",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",

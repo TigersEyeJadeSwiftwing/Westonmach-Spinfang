@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade Contraformer T2",
     "Id": "Gear_Engine_Upgrade_Contraformer_T2",
     "Name": "Engine Upgrade Contraformer T2",
-    "Details": "Damage taken when installed: 117.00%\n\n",
+    "Details": "Heat generated when installed: 4\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -37,12 +37,16 @@
       "effectType": "StatisticEffect",
       "nature": "Debuff",
       "Description": {
-        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-        "Details": "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
-        "Icon": "UixSvgIcon_specialEquip_System"
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
       "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
         "duration": -1,
         "stackLimit": -1
       },
@@ -55,10 +59,10 @@
       "statisticData": {
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
-        "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": 1.17,
-        "modType": "System.Single",
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Subtract",
+        "modValue": 4,
+        "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",
@@ -71,7 +75,7 @@
       "Description": {
         "Id": "StatusEffect-WS-Walk_Speed_Modifier",
         "Name": "ENGINE PERFORMANCE UPGRADE",
-        "Details": "This unit's upgraded engine multiplies its movement speed by [1+AMT].",
+        "Details": "This unit's upgraded engine multiplies its movement speed by [AMT].",
         "Icon": "uixSvgIcon_action_evasivemove"
       },
       "effectType": "StatisticEffect",
@@ -104,7 +108,7 @@
       "Description": {
         "Id": "StatusEffect-WS-Run_Speed_Modifier",
         "Name": "ENGINE PERFORMANCE UPGRADE",
-        "Details": "This unit's upgraded engine multiplies its movement speed by [1+AMT].",
+        "Details": "This unit's upgraded engine multiplies its movement speed by [AMT].",
         "Icon": "uixSvgIcon_action_evasivemove"
       },
       "effectType": "StatisticEffect",

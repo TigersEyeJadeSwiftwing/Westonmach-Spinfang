@@ -9,7 +9,7 @@
     "UIName": "Viper Nine RL T5 L05",
     "Name": "Viper Nine RL T5 L05",
     "Icon": "uixSvgIcon_weapon_Missile",
-    "Details": "Damage taken when installed: 133.00%\n\n    Viper Nine Rockets are extreme long-range rockets with explosive warheads that fly in straight lines and lack indirect fire, something like beefed-up SRMs.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Heat generated when installed: 7\n\n    Viper Nine Rockets are extreme long-range rockets with explosive warheads that fly in straight lines and lack indirect fire, something like beefed-up SRMs.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Missile",
   "Type": "SRM",
@@ -46,7 +46,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "srm6",
   "BattleValue": 0,
-  "InventorySize": 4,
+  "InventorySize": 3,
   "Tonnage": 0.1875,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -63,12 +63,16 @@
       "effectType": "StatisticEffect",
       "nature": "Debuff",
       "Description": {
-        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-        "Details": "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
-        "Icon": "UixSvgIcon_specialEquip_System"
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
       "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
         "duration": -1,
         "stackLimit": -1
       },
@@ -81,10 +85,10 @@
       "statisticData": {
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
-        "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": 1.33,
-        "modType": "System.Single",
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Subtract",
+        "modValue": 7,
+        "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",

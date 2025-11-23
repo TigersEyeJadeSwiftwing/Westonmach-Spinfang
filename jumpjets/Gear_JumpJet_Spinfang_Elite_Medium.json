@@ -1,0 +1,35 @@
+{
+    "JumpCapacity" : 1,
+    "MinTonnage" : 40,
+    "MaxTonnage" : 59,
+    "Description" : {
+        "Cost" : 45000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Spinfang",
+        "Model" : "Elite Medium",
+        "UIName" : "Elite Jump Jet (M)",
+        "Id" : "Gear_JumpJet_Spinfang_Elite_Medium",
+        "Name" : "Elite Jump Jet (M)",
+        "Details" : "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Additionally, they may also be used to perform the dreaded 'Death from Above' attack. Omni Jump Jets are designed for use on 'Mechs that weigh any number of tons.  This special model is light in weight, so it uses up little tonnage.",
+        "Icon" : "uixSvgIcon_action_jump"
+    },
+    "BonusValueA" : "-2.5 Tons",
+    "BonusValueB" : "Any Ton Mech",
+    "ComponentType" : "JumpJet",
+    "ComponentSubType" : "Functionality",
+    "PrefabIdentifier" : "JumpJet",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -2.5,
+    "AllowedLocations" : "Torso, Legs",
+    "DisallowedLocations" : "Head, Arms",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

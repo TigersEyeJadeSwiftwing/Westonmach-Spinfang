@@ -58,6 +58,49 @@
     ],
 
     [
+        { "Name" : "Effect_Heat_Sinking_Reduction_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "HEATPN",
+          "Description_Prepend" : "Heat generated per turn from equipped gear: ", "Data_Type" : "int", "Digits" : "0" },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+                "Name" : "INSTALLED EQUIPMENT HEAT GENERATED",
+                "Details" : "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "durationData" : {
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatSinkCapacity",
+                "operation" : "Int_Subtract",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
         { "Name" : "Effect_Equipment_Armor_Penalty", "Mod_WS_EquipEffect_ID" : "AMRPN" },
         {
             "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true},

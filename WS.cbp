@@ -367,6 +367,11 @@
 		<Unit filename="jumpjets/Gear_JumpJet_Generic_Heavy.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Generic_Mega.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Generic_Standard.json" />
+		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Assault.json" />
+		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Heavy.json" />
+		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Light.json" />
+		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Medium.json" />
+		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Ultra.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Omni.json" />
 		<Unit filename="mech/story/mechdef_atlas_AS7-D-HT.json" />
 		<Unit filename="mech/story/mechdef_highlander_HGN-732b.json" />

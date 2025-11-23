@@ -63,7 +63,7 @@
       "Description": {
         "Id": "StatusEffect-WS-Walk_Speed_Debuff",
         "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -94,7 +94,7 @@
       "Description": {
         "Id": "StatusEffect-WS-Run_Speed_Debuff",
         "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -125,7 +125,7 @@
       "Description": {
         "Id": "StatusEffect-WS-Jump_Speed_Debuff",
         "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [1 - AMT].",
+        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",

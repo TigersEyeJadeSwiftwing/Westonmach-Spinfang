@@ -20,7 +20,7 @@ const EmptyFolder = (folderPath) => {
     }
 };
 
-const drain_divisor = 200.0;
+const drain_divisor = 250.0;
 
 // Hard-coded input/output folders
 const folder_input = "./";
@@ -211,7 +211,7 @@ function Main_AmmoBoxes(diag=false) {
         if (element_name === "Description:") {
             FlushConsole();
             item_description = row[index_type] ?
-                String(row[index_type]).replaceAll("````", "    ").replaceAll("`", ",").replaceAll("’", "\'").replaceAll("\n\n", "\n \n") : "";
+                String(row[index_type]).replaceAll("````", "    ").replaceAll("`", ",").replaceAll("’", "\'").replaceAll("\\n\\n", "\n\n") : "";
 
             Log("Row Index: " + String(idx) +  ", Description:");
             Log(item_description);
@@ -888,6 +888,7 @@ function SetSpecials(data, specials_codes, drain_data) {
     if (drain_data) {
         const drain = Number(drain_data);
 
+        /*
         if (drain >= 0) {
             const m_value = 1.0 + (Number(drain) / drain_divisor);
             const m_value_div = 100.0 * m_value;
@@ -895,6 +896,15 @@ function SetSpecials(data, specials_codes, drain_data) {
             data.Description.Details = ("Damage taken when installed: " + m_value_div.toFixed(2) + "%\n\n") + item_description;
 
             const fx = FindEquipmentEffect("DMGPN", m_value);
+            if (fx) data.statusEffects = fx;
+        }
+        */
+        if (drain >= 0) {
+            const drain_value = Math.ceil(Number(drain) / 10);
+
+            data.Description.Details = String("Heat generated when installed: " + drain_value.toFixed(0) + "\n\n") + item_description;
+
+            const fx = FindEquipmentEffect("HEATPN", drain_value);
             if (fx) data.statusEffects = fx;
         }
         else if (drain < 0) {
