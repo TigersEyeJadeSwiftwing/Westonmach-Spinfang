@@ -32,7 +32,7 @@
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
-            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "durationData" : { "duration" : -1, "stackLimit" : 1 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
                 "showInTargetPreview" : true, "showInStatusPanel" : true, "hideApplicationFloatie" : true
@@ -54,7 +54,7 @@
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
-            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "durationData" : { "duration" : -1, "stackLimit" : 1 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
                 "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true
@@ -84,7 +84,7 @@
                 "Icon" : "uixSvgIcon_action_jump"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
-            "durationData" : { "duration" : -1, "stackLimit" : -1 },
+            "durationData" : { "duration" : -1, "stackLimit" : 2 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
                 "showInTargetPreview" : true, "showInStatusPanel" : true
