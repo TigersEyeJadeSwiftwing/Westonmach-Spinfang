@@ -1,8 +1,48 @@
 {
     "List" : [
     [
-        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START" },
+        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START",
+            "Prepend" : []
+        },
         {
+            "List_of_Special_IDs" : [
+                "+COCKPIT_ARMOR",
+                "+HEAD_ARMOR",
+                "+ENGINE1",
+                "+ENGINE2",
+                "+JJ_DIST1",
+                "+JJ_DIST2",
+                "+COOLANT_PLANT",
+                "+HEAT_MOD",
+                "+MAX_HEAT",
+                "+OVERHEAT",
+                "+STABILITY",
+                "+STABILITY_ENGINE1",
+                "+STABILITY_ENGINE2",
+                "+INIT",
+                "+INIT_ENGINE1",
+                "+INIT_ENGINE2",
+                "+FORCE_FIELD",
+                "+JAMMER",
+                "+ECM",
+                "+MELEE_DMG",
+                "+DFA_DMG",
+                "+ACC_BALL",
+                "+ACC_ENGY",
+                "+ACC_MSSL",
+                "+ACC_SPPT",
+                "+ACC_OMNI",
+                "+RANGE_BALL",
+                "+RANGE_ENGY",
+                "+RANGE_MSSL",
+                "+RANGE_SPPT",
+                "+DAMAGE_BALL",
+                "+DAMAGE_ENGY",
+                "+DAMAGE_MSSL",
+                "+DAMAGE_SPPT",
+                "+SENSORS",
+                "+STEALTH"
+            ],
             "List_of_EffectTriggerType_Values" : [
                 "Passive",
                 "OnActivation",
@@ -14,21 +54,53 @@
                 "OnUnitActivationBeginOrEnd",
                 "TurnUpdate",
                 "Preview"
+            ],
+            "List_of_Description_Data_Types" : [
+                "int",
+                "neg_int",
+                "percent",
+                "one_div_percent",
+                "meters",
+                "effect_duration",
+                "stack_limit"
             ]
         }
     ],
 
     [
-        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "ENGINE",
+        { "Name" : "Effect_Head_Armor_Bonus", "Mod_WS_EquipEffect_ID" : "+HEAD_ARMOR",
           "Prepend" : [
-            { "Text" : "Walking / Sprinting movement spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Unit's head armor effectiveness: ", "Data_Type" : "percent", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect", "nature" : "Buff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true},
+            "durationData" : {"duration" : -1, "stackLimit" : 1},
+            "Description" : {
+                "Id" : "StatusEffect-WS-Armor_Bonus-Head",
+                "Name" : "HEAD ARMOR BONUS",
+                "Details" : "This unit's starting and maximum head armor is multiplied by [AMT], from an installed cockpit upgrade.",
+                "Icon" : "uixSvgIcon_maint_Level0"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false, "effectsPersistAfterDestruction" : true,
+                "statName" : "Head.Armor", "operation" : "Float_Multiply", "modValue" : "1.0", "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "+ENGINE1",
+          "Prepend" : [
+            { "Text" : "Walking / Sprinting movement spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
 		{
             "Description" : {
-                "Id" : "StatusEffect-WS-Walk_Speed_Modifier",
+                "Id" : "StatusEffect-WS-Walk_Speed_Modifier-Engine1",
                 "Name" : "ENGINE PERFORMANCE UPGRADE",
-                "Details" : "This unit's upgraded engine multiplies its movement speed by [AMT].",
+                "Details" : "This unit's engine upgrade(s) increases it's walk and sprint distance by [AMT].",
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -48,9 +120,9 @@
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Run_Speed_Modifier",
+                "Id" : "StatusEffect-WS-Run_Speed_Modifier-Engine1",
                 "Name" : "ENGINE PERFORMANCE UPGRADE",
-                "Details" : "This unit's upgraded engine multiplies its movement speed by [AMT].",
+                "Details" : "This unit's engine upgrade(s) increases it's walk and sprint distance by [AMT].",
                 "Icon" : "uixSvgIcon_action_evasivemove"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -71,16 +143,99 @@
     ],
 
     [
-        { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "JUMP",
+        { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "+ENGINE2",
           "Prepend" : [
-            { "Text" : "Jumping spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Walking / Sprinting movement spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed_Modifier-Engine2",
+                "Name" : "ENGINE PERFORMANCE UPGRADE",
+                "Details" : "This unit's engine upgrade(s) increases it's walk and sprint distance by [AMT].",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 2 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true, "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet", "targetCollection" : "NotSet", "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet", "targetAmmoCategory" : "NotSet", "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed_Modifier-Engine2",
+                "Name" : "ENGINE PERFORMANCE UPGRADE",
+                "Details" : "This unit's engine upgrade(s) increases it's walk and sprint distance by [AMT].",
+                "Icon" : "uixSvgIcon_action_evasivemove"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 2 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false, "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet", "targetCollection" : "NotSet", "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet", "targetAmmoCategory" : "NotSet", "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "+JJ_DIST1",
+          "Prepend" : [
+            { "Text" : "Jumping spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Jump_Speed_Modifier",
+                "Id" : "StatusEffect-WS-Jump_Distance-JJ_Upgrade1",
                 "Name" : "UPGRADED JUMP DISTANCE",
-                "Details" : "This unit has upgraded jump jets that makes it's jumping distance multiplied by [AMT].",
+                "Details" : "This unit's jump jet upgrade(s) increases it's jumping distance by [AMT].",
+                "Icon" : "uixSvgIcon_action_jump"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.50",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "+JJ_DIST2",
+          "Prepend" : [
+            { "Text" : "Jumping spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Distance-JJ_Upgrade2",
+                "Name" : "UPGRADED JUMP DISTANCE",
+                "Details" : "This unit's jump jet upgrade(s) increases it's jumping distance by [AMT].",
                 "Icon" : "uixSvgIcon_action_jump"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -99,7 +254,57 @@
     ],
 
     [
-        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "HEAT_B",
+        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "+COOLANT_PLANT",
+          "Prepend" : [
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative heat threshold modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Coolant_Plant",
+                "Name" : "COOLANT PLANT",
+                "Details" : "This unit has modified heat thresholds from one or more onbaord coolant plants.\\nMaximum allowed heat modified by [AMT].\\nOverheating shutdown threshold modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 5 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Coolant_Plant",
+                "Name" : "COOLANT PLANT",
+                "Details" : "This unit has modified heat thresholds from one or more onbaord coolant plants.\\nMaximum allowed heat modified by [AMT].\\nOverheating shutdown threshold modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 5 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "+HEAT_MOD",
           "Prepend" : [
             { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
             { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
@@ -108,8 +313,8 @@
         {
             "Description" : {
                 "Id" : "StatusEffect-WS-Max_Heat-Increased",
-                "Name" : "MAX HEAT INCREASED",
-                "Details" : "Maximum allowed heat increased by [AMT].",
+                "Name" : "MAX HEAT AND OVERHEAT THRESHOLD INCREASED",
+                "Details" : "This unit has modified heat thresholds.\n\nMaximum allowed heat modified by [AMT].\\nOverheating shutdown threshold modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -129,14 +334,14 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
                 "Name" : "OVERHEAT THRESHOLD INCREASED",
-                "Details" : "Overheating shutdown threshold increased by [AMT]",
+                "Details" : "This unit has modified heat thresholds.\n\nMaximum allowed heat modified by [AMT].\\nOverheating shutdown threshold modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
-                "showInTargetPreview" : true, "showInStatusPanel" : true
+                "showInTargetPreview" : false, "showInStatusPanel" : false
             },
             "statisticData" : {
                 "statName" : "OverheatLevel",
@@ -148,58 +353,10 @@
     ],
 
     [
-        { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "HEAT_BUFF",
+        { "Name" : "Effect_Max_Heat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "+MAX_HEAT",
           "Prepend" : [
             { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
-          ]
-        },
-        {
-            "Description" : {
-                "Id" : "StatusEffect-WS-Max_Heat-Increased",
-                "Name" : "MAX HEAT INCREASED",
-                "Details" : "Maximum allowed heat increased by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
-            },
-            "effectType" : "StatisticEffect", "nature" : "Buff",
-            "durationData" : { "duration" : -1, "stackLimit" : -1 },
-            "targetingData" : {
-                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
-                "showInTargetPreview" : true, "showInStatusPanel" : true
-            },
-            "statisticData" : {
-                "statName" : "MaxHeat",
-                "operation" : "Int_Add",
-                "modValue" : "10",
-                "modType" : "System.Int32"
-            }
-        },
-        {
-            "Description" : {
-                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
-                "Name" : "OVERHEAT THRESHOLD INCREASED",
-                "Details" : "Overheating shutdown threshold increased by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
-            },
-            "effectType" : "StatisticEffect", "nature" : "Buff",
-            "durationData" : { "duration" : -1, "stackLimit" : -1 },
-            "targetingData" : {
-                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
-                "showInTargetPreview" : true, "showInStatusPanel" : true
-            },
-            "statisticData" : {
-                "statName" : "OverheatLevel",
-                "operation" : "Int_Add",
-                "modValue" : "10",
-                "modType" : "System.Int32"
-            }
-        }
-    ],
-
-    [
-        { "Name" : "Effect_Max_Heat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "MAX_HEAT_BUFF",
-          "Prepend" : [
-            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Maximum cumulative heat threshold modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -225,16 +382,17 @@
     ],
 
     [
-        { "Name" : "Effect_Overheat_Level_Buff", "Mod_WS_EquipEffect_ID" : "OVERHEAT_BUFF",
+        { "Name" : "Effect_Overheat_Level_Buff", "Mod_WS_EquipEffect_ID" : "+OVERHEAT",
           "Prepend" : [
-            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative heat threshold modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "Description" : {
                 "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
                 "Name" : "OVERHEAT THRESHOLD INCREASED",
-                "Details" : "Overheat threshold increased by [AMT]",
+                "Details" : "Overheat threshold increased by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -253,17 +411,18 @@
     ],
 
     [
-        { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "STABILITY_BUFF",
+        { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "+STABILITY",
           "Prepend" : [
             { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative stability modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Stability_Maximum",
+                "Id" : "StatusEffect-WS-Stability_Maximum_Buff",
                 "Name" : "STABILITY INCREASED",
-                "Details" : "Maximum stability and unsteady thresholds increased by [AMT]",
+                "Details" : "Maximum stability and unsteady thresholds increased by [AMT].",
                 "Icon" : "uixSvgIcon_status_unsteady"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -281,9 +440,9 @@
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold",
+                "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold_Buff",
                 "Name" : "UNSTEADY THRESHOLD INCREASED",
-                "Details" : "Unsteady threshold increased by [AMT]",
+                "Details" : "Unsteady threshold increased by [AMT].",
                 "Icon" : "uixSvgIcon_status_unsteady"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
@@ -302,9 +461,108 @@
     ],
 
     [
-        { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "INIT_BUFF",
+        { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "+STABILITY_ENGINE1",
           "Prepend" : [
-            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Stability_Maximum-Engine1",
+                "Name" : "STABILITY INCREASED",
+                "Details" : "Maximum stability and unsteady thresholds increased by [AMT].",
+                "Icon" : "uixSvgIcon_status_unsteady"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxStability",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold-Engine1",
+                "Name" : "UNSTEADY THRESHOLD INCREASED",
+                "Details" : "Unsteady threshold increased by [AMT].",
+                "Icon" : "uixSvgIcon_status_unsteady"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 1 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "statName" : "UnsteadyThreshold",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "+STABILITY_ENGINE2",
+          "Prepend" : [
+            { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Stability_Maximum-Engine2",
+                "Name" : "STABILITY INCREASED",
+                "Details" : "Maximum stability and unsteady thresholds increased by [AMT].",
+                "Icon" : "uixSvgIcon_status_unsteady"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 2 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : true, "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxStability",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold-Engine2",
+                "Name" : "UNSTEADY THRESHOLD INCREASED",
+                "Details" : "Unsteady threshold increased by [AMT].",
+                "Icon" : "uixSvgIcon_status_unsteady"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Buff",
+            "durationData" : { "duration" : -1, "stackLimit" : 2 },
+            "targetingData" : {
+                "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
+                "showInTargetPreview" : false, "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "statName" : "UnsteadyThreshold",
+                "operation" : "Int_Add",
+                "modValue" : "10",
+                "modType" : "System.Int32"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT",
+          "Prepend" : [
+            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative initiative modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -313,7 +571,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Initiative_Adjust",
                 "Name" : "UNIT INITIATIVE INCREASED",
-                "Details" : "Provides a [INVERSE_AMT] bonus to Unit Initiative Every Turn.",
+                "Details" : "This unit has a [INVERSE_AMT] bonus to Initiative every combat turn.",
                 "Icon" : "uixSvgIcon_special_Equipment"
             },
             "durationData" : {
@@ -341,7 +599,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "BaseInitiative",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "-1",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
@@ -361,18 +619,139 @@
     ],
 
     [
-        { "Name" : "Effect_Force_Field_Buff", "Mod_WS_EquipEffect_ID" : "SHIELD",
+        { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT_ENGINE1",
           "Prepend" : [
-            { "Text" : "Damage taken modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative engine initiative modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "effectType" : "StatisticEffect",
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Force_Field",
+                "Id" : "StatusEffect-WS-Initiative_Adjust-Engine1",
+                "Name" : "ENGINE UPGRADE: UNIT INITIATIVE INCREASED",
+                "Details" : "This unit has a [INVERSE_AMT] bonus to Initiative every combat turn.",
+                "Icon" : "uixSvgIcon_special_Equipment"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BaseInitiative",
+                "operation" : "Int_Subtract",
+                "modValue" : "-1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT_ENGINE2",
+          "Prepend" : [
+            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative engine initiative modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Initiative_Adjust-Engine2",
+                "Name" : "ENGINE UPGRADE: UNIT INITIATIVE INCREASED",
+                "Details" : "This unit has a [INVERSE_AMT] bonus to Initiative every combat turn.",
+                "Icon" : "uixSvgIcon_special_Equipment"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 2,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BaseInitiative",
+                "operation" : "Int_Subtract",
+                "modValue" : "-1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Force_Field_Buff", "Mod_WS_EquipEffect_ID" : "+FORCE_FIELD",
+          "Prepend" : [
+            { "Text" : "Damage taken modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative force fields: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Force_Field-Buff",
                 "Name" : "Force Field",
-                "Details" : "Mech takes [AMT] less damage from all sources and types of attacks.",
+                "Details" : "This unit takes [AMT] less damage from all sources and types of attacks.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "durationData" : {
@@ -403,18 +782,19 @@
     ],
 
     [
-        { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "JAMMER",
+        { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "+JAMMER",
           "Prepend" : [
-            { "Text" : "Enemy targeting aim difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Enemy aim (direct fire) difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "effectType" : "StatisticEffect",
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Targeting_Jammer",
+                "Id" : "StatusEffect-WS-Targeting_Jammer-Buff",
                 "Name" : "TARGETING JAMMER",
-                "Details" : "+[AMT] Aim difficulty for enemies to hit this unit with direct line-of-sight fire.",
+                "Details" : "Enemies have a [AMT] modifier to difficulty to hit this unit with direct fire attacks.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "durationData" : {
@@ -432,7 +812,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "ToHitThisActorDirectFire",
                 "operation" : "Float_Add",
-                "modValue" : "1",
+                "modValue" : "1.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -445,18 +825,19 @@
     ],
 
     [
-        { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "ECM",
+        { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "+ECM",
           "Prepend" : [
-            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "effectType" : "StatisticEffect",
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Targeting_ECM_Indirect",
+                "Id" : "StatusEffect-WS-Targeting_ECM_Missle-Buff",
                 "Name" : "ECM COUNTER-TRACKING UNIT",
-                "Details" : "+[AMT] Aim difficulty for enemies to hit this unit with missles and rockets, including indirect fire, such as missles and rockets that shoot around terrain and obstacles, etc.",
+                "Details" : "Enemies have a [AMT] modifier to difficulty to hit this unit with rockets and missles.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "durationData" : {
@@ -474,7 +855,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "ToHitThisActor",
                 "operation" : "Float_Add",
-                "modValue" : "1",
+                "modValue" : "1.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -487,7 +868,7 @@
     ],
 
     [
-        { "Name" : "Effect_Cockpit_Armor", "Mod_WS_EquipEffect_ID" : "COCKPIT",
+        { "Name" : "Effect_Cockpit_Armor", "Mod_WS_EquipEffect_ID" : "+COCKPIT_ARMOR",
           "Prepend" : [
             { "Text" : "Pilot injuries negated: ", "Data_Type" : "int", "Digits" : "0" }
           ]
@@ -499,7 +880,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -511,14 +892,14 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Pilot_HealthAdd-T1",
-                "Name" : "INJURY RESIST INCREASED",
-                "Details" : "Prevents [AMT] Injuries against a MechWarrior.",
+                "Id" : "StatusEffect-Pilot_Injury_Resist-Buff",
+                "Name" : "COCKPIT UPGRADE: INJURY RESIST INCREASED",
+                "Details" : "This unit has an upgraded cockpit that prevents [AMT] injuries against it's MechWarrior.",
                 "Icon" : "uixSvgIcon_equipment_Cockpit"
             },
             "nature" : "Buff",
@@ -546,16 +927,17 @@
     ],
 
     [
-        { "Name" : "Effect_Melee_Damage_Buff", "Mod_WS_EquipEffect_ID" : "MELEE",
+        { "Name" : "Effect_Melee_Damage_Buff", "Mod_WS_EquipEffect_ID" : "+MELEE_DMG",
           "Prepend" : [
-            { "Text" : "Melee damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Melee damage modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "effectType" : "StatisticEffect",
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Melee_Damage",
+                "Id" : "StatusEffect-WS-Melee_Damage-Buff",
                 "Name" : "MELEE DAMAGE INCREASED",
                 "Details" : "Melee attacks by this unit deal [AMT] additional damage to the enemy.",
                 "Icon" : "uixSvgIcon_specialEquip_Melee"
@@ -606,7 +988,7 @@
             "effectType" : "StatisticEffect",
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Melee_Stability_Damage",
+                "Id" : "StatusEffect-WS-Melee_Stability_Damage-Buff",
                 "Name" : "MELEE STABILITY DAMAGE INCREASED",
                 "Details" : "Melee attacks by this unit deal [AMT] additional stability damage to the enemy.",
                 "Icon" : "uixSvgIcon_specialEquip_Melee"
@@ -656,11 +1038,12 @@
     ],
 
     [
-        { "Name" : "Effect_DFA_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DFA_BUFF",
+        { "Name" : "Effect_DFA_Damage_Buff", "Mod_WS_EquipEffect_ID" : "+DFA_DMG",
           "Prepend" : [
-            { "Text" : "DFA self-inflicted damage modifier: ", "Data_Type" : "div_percent", "Digits" : "2" },
             { "Text" : "DFA damage to enemy modifier: ", "Data_Type" : "percent", "Digits" : "2" },
-            { "Text" : "DFA stability damage to enemy modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "DFA stability damage to enemy modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "DFA self-inflicted damage modifier: ", "Data_Type" : "one_div_percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -669,7 +1052,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-DFA_Self_Damage",
                 "Name" : "DFA SELF-INFLICTED DAMAGE DECREASED",
-                "Details" : "DFA (Death-From-Above) attacks by this unit deal [1/AMT] self-inflicted damage.",
+                "Details" : "DFA (Death-From-Above) attacks by this unit deal [INVERSE_AMT] self-inflicted damage.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
             },
             "durationData" : {
@@ -819,17 +1202,18 @@
     ],
 
     [
-        { "Name" : "Effect_Accuracy_Support_Buff", "Mod_WS_EquipEffect_ID" : "ACC+SPPT",
+        { "Name" : "Effect_Accuracy_Support_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_SPPT",
           "Prepend" : [
-            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Support_Modifier",
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Support-Buff",
                 "Name" : "SUPPORT WEAPON ACCURACY UPGRADED",
-                "Details" : "Support weapon attacks have their hit improved by [AMT].",
+                "Details" : "Support weapon attacks have their difficulty to hit enemies modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -878,17 +1262,18 @@
     ],
 
     [
-        { "Name" : "Effect_Accuracy_Energy_Buff", "Mod_WS_EquipEffect_ID" : "ACC+ENGY",
+        { "Name" : "Effect_Accuracy_Energy_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_ENGY",
           "Prepend" : [
-            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Energy_Modifier",
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Energy-Buff",
                 "Name" : "ENERGY WEAPON ACCURACY UPGRADED",
-                "Details" : "Energy weapon attacks have their hit improved by [AMT].",
+                "Details" : "Energy weapon attacks have their difficulty to hit enemies modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -937,17 +1322,18 @@
     ],
 
     [
-        { "Name" : "Effect_Accuracy_Ballistic_Buff", "Mod_WS_EquipEffect_ID" : "ACC+BALL",
+        { "Name" : "Effect_Accuracy_Ballistic_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_BALL",
           "Prepend" : [
-            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Ballistic_Modifier",
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Ballistic-Buff",
                 "Name" : "BALLISTIC WEAPON ACCURACY UPGRADED",
-                "Details" : "Ballistic weapon attacks have their hit improved by [AMT].",
+                "Details" : "Ballistic weapon attacks have their difficulty to hit enemies modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -996,17 +1382,18 @@
     ],
 
     [
-        { "Name" : "Effect_Accuracy_Missle_Buff", "Mod_WS_EquipEffect_ID" : "ACC+MSSL",
+        { "Name" : "Effect_Accuracy_Missle_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_MSSL",
           "Prepend" : [
-            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Missle_Modifier",
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Missle-Buff",
                 "Name" : "MISSLE WEAPON ACCURACY UPGRADED",
-                "Details" : "Missle weapon attacks have their hit improved by [AMT].",
+                "Details" : "Missle weapon attacks have their difficulty to hit enemies modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -1055,9 +1442,175 @@
     ],
 
     [
-        { "Name" : "Effect_Support_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+SPPT",
+        { "Name" : "Effect_Accuracy_Omni_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_OMNI",
           "Prepend" : [
-            { "Text" : "Support weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Ballistic-Buff",
+                "Name" : "BALLISTIC WEAPON ACCURACY UPGRADED",
+                "Details" : "Ballistic weapon attacks have their difficulty to hit enemies modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Energy-Buff",
+                "Name" : "ENERGY WEAPON ACCURACY UPGRADED",
+                "Details" : "Energy weapon attacks have their difficulty to hit enemies modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Missle-Buff",
+                "Name" : "MISSLE WEAPON ACCURACY UPGRADED",
+                "Details" : "Missle weapon attacks have their difficulty to hit enemies modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_Support-Buff",
+                "Name" : "SUPPORT WEAPON ACCURACY UPGRADED",
+                "Details" : "Support weapon attacks have their difficulty to hit enemies modified by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "AntiPersonnel",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Support_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_SPPT",
+          "Prepend" : [
+            { "Text" : "Support weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1165,9 +1718,10 @@
     ],
 
     [
-        { "Name" : "Effect_Energy_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+ENGY",
+        { "Name" : "Effect_Energy_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_ENGY",
           "Prepend" : [
-            { "Text" : "Energy weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Energy weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1275,9 +1829,10 @@
     ],
 
     [
-        { "Name" : "Effect_Ballistic_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+BALL",
+        { "Name" : "Effect_Ballistic_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_BALL",
           "Prepend" : [
-            { "Text" : "Ballistic weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Ballistic weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1385,9 +1940,10 @@
     ],
 
     [
-        { "Name" : "Effect_Missile_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "RANGE+MSSL",
+        { "Name" : "Effect_Missile_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_MSSL",
           "Prepend" : [
-            { "Text" : "Rocket / Missle weapon range increase: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Rocket / Missle weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1495,9 +2051,10 @@
     ],
 
     [
-        { "Name" : "Effect_Support_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+SPPT",
+        { "Name" : "Effect_Support_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "+DAMAGE_SPPT",
           "Prepend" : [
-            { "Text" : "Support weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Support weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1537,9 +2094,10 @@
     ],
 
     [
-        { "Name" : "Effect_Ballistic_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+BALL",
+        { "Name" : "Effect_Ballistic_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "+DAMAGE_BALL",
           "Prepend" : [
-            { "Text" : "Ballistic weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Ballistic weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1579,9 +2137,10 @@
     ],
 
     [
-        { "Name" : "Effect_Energy_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+ENGY",
+        { "Name" : "Effect_Energy_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "+DAMAGE_ENGY",
           "Prepend" : [
-            { "Text" : "Energy weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Energy weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1621,9 +2180,10 @@
     ],
 
     [
-        { "Name" : "Effect_Missle_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "DAMAGE+MSSL",
+        { "Name" : "Effect_Missle_Weapon_Damage_Buff", "Mod_WS_EquipEffect_ID" : "+DAMAGE_MSSL",
           "Prepend" : [
-            { "Text" : "Missle / Rocket weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" }
+            { "Text" : "Missle / Rocket weapon damage modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1663,9 +2223,10 @@
     ],
 
     [
-        { "Name" : "Effect_Sensor_Range_Buff", "Mod_WS_EquipEffect_ID" : "SENSOR_BUFF",
+        { "Name" : "Effect_Sensor_Range_Buff", "Mod_WS_EquipEffect_ID" : "+SENSORS",
           "Prepend" : [
-            { "Text" : "Sensor range enhancement: ", "Data_Type" : "meters", "Digits" : "0" }
+            { "Text" : "Sensor range enhancement: ", "Data_Type" : "meters", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1694,7 +2255,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Spotting_Distance_Gain",
                 "Name" : "SENSOR RANGE INCREASED",
-                "Details" : "This unit's Sensor spotting, visibility, and detection range is increased by [AMT]m.",
+                "Details" : "This unit's Sensor spotting, visibility, and detection range are increased by [AMT]m.",
                 "Icon" : "uixSvgIcon_equipment_Rangefinder"
             },
             "nature" : "Buff",
@@ -1824,9 +2385,10 @@
     ],
 
     [
-        { "Name" : "Effect_Stealth_Buff", "Mod_WS_EquipEffect_ID" : "STEALTH",
+        { "Name" : "Effect_Stealth_Buff", "Mod_WS_EquipEffect_ID" : "+STEALTH",
           "Prepend" : [
-            { "Text" : "Enemy sensor detection range modifier (cloak): ", "Data_Type" : "meters", "Digits" : "0" }
+            { "Text" : "Enemy sensor detection range modifier (cloak): ", "Data_Type" : "meters", "Digits" : "0" },
+            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -1883,7 +2445,9 @@
     ],
 
     [
-        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
+        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END",
+            "Prepend" : []
+        },
         { "Note" : "End of JSON file." }
     ]
 

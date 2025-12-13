@@ -1,8 +1,18 @@
 {
     "List" : [
     [
-        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START" },
+        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START",
+            "Prepend" : []
+        },
         {
+            "List_of_Special_IDs" : [
+                "-DMG_TAKEN",
+                "-HEAT_SINKING",
+                "-ARMOR",
+                "-GEAR_HEAT_TOLERANCE",
+                "-MAX_HEAT",
+                "-OVERHEAT_LEVEL"
+            ],
             "List_of_EffectTriggerType_Values" : [
                 "Passive",
                 "OnActivation",
@@ -14,20 +24,32 @@
                 "OnUnitActivationBeginOrEnd",
                 "TurnUpdate",
                 "Preview"
+            ],
+            "List_of_Description_Data_Types" : [
+                "int",
+                "neg_int",
+                "percent",
+                "one_div_percent",
+                "meters",
+                "effect_duration",
+                "stack_limit"
             ]
         }
     ],
 
     [
-        { "Name" : "Effect_Damage_Taken_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "DMGPN",
-          "Description_Prepend" : "Damage Taken from equipped gear multiplier penalty: ", "Data_Type" : "percent", "Digits" : "4" },
+        { "Name" : "Effect_Damage_Taken_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "-DMG_TAKEN",
+          "Prepend" : [
+            { "Text" : "Damage taken from enemies and other sources: ", "Data_Type" : "percent", "Digits" : "4" }
+          ]
+        },
         {
             "effectType" : "StatisticEffect",
             "nature" : "Debuff",
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
                 "Name" : "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-                "Details" : "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+                "Details" : "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "durationData" : {
@@ -58,14 +80,17 @@
     ],
 
     [
-        { "Name" : "Effect_Heat_Sinking_Reduction_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "HEATPN",
-          "Description_Prepend" : "Heat generated per turn from equipped gear: ", "Data_Type" : "int", "Digits" : "0" },
+        { "Name" : "Effect_Heat_Sinking_Reduction_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "-HEAT_SINKING",
+          "Prepend" : [
+            { "Text" : "Heat generated per turn from equipped gear: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
         {
             "effectType" : "StatisticEffect",
             "nature" : "Debuff",
             "Description" : {
                 "Id" : "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-                "Name" : "INSTALLED EQUIPMENT HEAT GENERATED",
+                "Name" : "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
                 "Details" : "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
@@ -101,14 +126,18 @@
     ],
 
     [
-        { "Name" : "Effect_Equipment_Armor_Penalty", "Mod_WS_EquipEffect_ID" : "AMRPN" },
+        { "Name" : "Effect_Equipment_Armor_Penalty", "Mod_WS_EquipEffect_ID" : "-ARMOR",
+          "Prepend" : [
+            { "Text" : "Unit's armor effectiveness when installed: ", "Data_Type" : "one_div_percent", "Digits" : "4" }
+          ]
+        },
         {
             "effectType" : "StatisticEffect", "nature" : "Debuff", "targetingData" : {"effectTriggerType" : "Passive", "effectTargetType" : "Creator", "showInTargetPreview" : true, "showInStatusPanel" : true},
             "durationData" : {"duration" : -1, "stackLimit" : -1},
             "Description" : {
                 "Id" : "StatusEffect-WS-Armor_Penalty-Head",
                 "Name" : "EQUIPMENT ARMOR PENALTY",
-                "Details" : "Armor is reduced, from installed equipment that weakens this battlemech as a trade-off.",
+                "Details" : "Armor is reduced, from installed equipment that weakens this battlemech as a trade-off: [AMT].",
                 "Icon" : "uixSvgIcon_maint_Level0"
             },
             "statisticData" : {
@@ -259,13 +288,16 @@
     ],
 
     [
-        { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_DEBUFF",
-          "Description_Prepend" : "Max heat and overheating threshold penalty: ", "Data_Type" : "int", "Digits" : "0" },
+        { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "-GEAR_HEAT_TOLERANCE",
+          "Prepend" : [
+            { "Text" : "Max heat and overheating threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Max_Heat-Increased",
-                "Name" : "MAX HEAT DECREASED",
-                "Details" : "Maximum allowed heat decreased by [AMT].",
+                "Id" : "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+                "Name" : "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+                "Details" : "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.\\nMaximum allowed heat decreased by [AMT].\\nOverheat threshold decreased by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -276,14 +308,14 @@
             },
             "statisticData" : {
                 "statName" : "MaxHeat",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
                 "Name" : "OVERHEAT THRESHOLD DECREASED",
                 "Details" : "Overheat threshold decreased by [AMT]",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
@@ -292,11 +324,11 @@
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
-                "showInTargetPreview" : true, "showInStatusPanel" : true
+                "showInTargetPreview" : false, "showInStatusPanel" : false
             },
             "statisticData" : {
                 "statName" : "OverheatLevel",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
@@ -304,24 +336,27 @@
     ],
 
     [
-        { "Name" : "Effect_Max_Heat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "MAX_HEAT_DEBUFF",
-          "Description_Prepend" : "Max heat penalty: " },
+        { "Name" : "Effect_Max_Heat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "-MAX_HEAT",
+          "Prepend" : [
+            { "Text" : "Max heat threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Max_Heat-Increased",
+                "Id" : "StatusEffect-WS-Max_Heat-Debuff",
                 "Name" : "MAX HEAT DECREASED",
-                "Details" : "Maximum allowed heat decreased by [-AMT].",
+                "Details" : "Maximum allowed heat decreased by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
-                "showInTargetPreview" : true, "showInStatusPanel" : true
+                "showInTargetPreview" : false, "showInStatusPanel" : false
             },
             "statisticData" : {
                 "statName" : "MaxHeat",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
@@ -329,24 +364,27 @@
     ],
 
     [
-        { "Name" : "Effect_Overheat_Level_Debuff", "Mod_WS_EquipEffect_ID" : "OVERHEAT_DEBUFF",
-          "Description_Prepend" : "Overheating threshold penalty: " },
+        { "Name" : "Effect_Overheat_Level_Debuff", "Mod_WS_EquipEffect_ID" : "-OVERHEAT_LEVEL",
+          "Prepend" : [
+            { "Text" : "Overheating threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Overheat_Threshold-Increased",
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Debuff",
                 "Name" : "OVERHEAT THRESHOLD DECREASED",
-                "Details" : "Overheat threshold decreased by [-AMT]",
+                "Details" : "Overheat threshold decreased by [AMT]",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
             "targetingData" : {
                 "effectTriggerType" : "Passive", "effectTargetType" : "Creator",
-                "showInTargetPreview" : true, "showInStatusPanel" : true
+                "showInTargetPreview" : false, "showInStatusPanel" : false
             },
             "statisticData" : {
                 "statName" : "OverheatLevel",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
@@ -354,7 +392,9 @@
     ],
 
     [
-        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
+        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END",
+            "Prepend" : []
+        },
         { "Note" : "End of JSON file." }
     ]
 

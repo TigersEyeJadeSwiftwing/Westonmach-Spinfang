@@ -1,8 +1,27 @@
 {
     "List" : [
     [
-        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START" },
+        { "Name" : "List_Data", "Mod_WS_EquipEffect_ID" : "START",
+            "Prepend" : []
+        },
         {
+            "List_of_Special_IDs" : [
+                "STUN_2x5",
+                "STUN_2x10",
+                "STUN_2x1",
+                "STUN_2x12",
+                "STUN_3x5",
+                "SNRSIMP1",
+                "SNRSIMP2",
+                "WEAKEN_2x3",
+                "WEAKEN_3x3",
+                "WEAKEN_4x3",
+                "WEAKEN_2x15",
+                "WEAKEN_3x15",
+                "WEAKEN_4x15",
+                "HEAT_TOL_DMG_3x5",
+                "HEAT_DMG_5x3"
+            ],
             "List_of_EffectTriggerType_Values" : [
                 "Passive",
                 "OnActivation",
@@ -14,21 +33,36 @@
                 "OnUnitActivationBeginOrEnd",
                 "TurnUpdate",
                 "Preview"
+            ],
+            "List_of_Description_Data_Types" : [
+                "int",
+                "neg_int",
+                "percent",
+                "one_div_percent",
+                "meters",
+                "effect_duration",
+                "stack_limit"
             ]
         }
     ],
 
     [
-        { "Name" : "Effect_Engine_Walk_Run_Stun", "Mod_WS_EquipEffect_ID" : "STUN" },
+        { "Name" : "Effect_Engine_Walk_Run_Stun_2x5", "Mod_WS_EquipEffect_ID" : "STUN_2x5",
+          "Prepend" : [
+            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
 		{
             "Description" : {
-                "Id" : "StatusEffect-WS-Walk_Speed_Debuff",
-                "Name" : "IMPAIRED MOVEMENT",
-                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+                "Id" : "StatusEffect-WS-Walk_Speed-Stun_2x5",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
                 "Icon" : "uixSvgIcon_statusStunned"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
-            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 5 },
             "targetingData" : {
                 "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
                 "showInTargetPreview" : true, "showInStatusPanel" : true,
@@ -37,19 +71,19 @@
             "statisticData" : {
                 "statName" : "WalkSpeed",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.50",
+                "modValue" : "0.90288045",
                 "modType" : "System.Single"
             }
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Run_Speed_Debuff",
-                "Name" : "IMPAIRED MOVEMENT",
-                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+                "Id" : "StatusEffect-WS-Run_Speed-Stun_2x5",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
                 "Icon" : "uixSvgIcon_statusStunned"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
-            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 5 },
             "targetingData" : {
                 "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
                 "showInTargetPreview" : false, "showInStatusPanel" : false,
@@ -58,19 +92,19 @@
             "statisticData" : {
                 "statName" : "RunSpeed",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.50",
+                "modValue" : "0.90288045",
                 "modType" : "System.Single"
             }
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Jump_Speed_Debuff",
-                "Name" : "IMPAIRED MOVEMENT",
-                "Details" : "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+                "Id" : "StatusEffect-WS-Jump_Speed-Stun_2x5",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
                 "Icon" : "uixSvgIcon_statusStunned"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
-            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : -1, "stackLimit" : -1 },
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 5 },
             "targetingData" : {
                 "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
                 "showInTargetPreview" : false, "showInStatusPanel" : false,
@@ -79,25 +113,323 @@
             "statisticData" : {
                 "statName" : "JumpDistanceMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.50",
+                "modValue" : "0.90288045",
                 "modType" : "System.Single"
             }
         }
     ],
 
     [
-        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP" },
+        { "Name" : "Effect_Engine_Walk_Run_Stun_2x10", "Mod_WS_EquipEffect_ID" : "STUN_2x10",
+          "Prepend" : [
+            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed-Stun_2x10",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 10 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : true, "showInStatusPanel" : true,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.93303299",
+                "modType" : "System.Single"
+            }
+        },
         {
             "Description" : {
-                "Id" : "AbilityDefPPC",
-                "Name" : "SENSORS IMPAIRED",
-                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Id" : "StatusEffect-WS-Run_Speed-Stun_2x10",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 10 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.93303299",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed-Stun_2x10",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 10 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.93303299",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Stun_2x1", "Mod_WS_EquipEffect_ID" : "STUN_2x1",
+          "Prepend" : [
+            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed-Stun_2x1",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : true, "showInStatusPanel" : true,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.2",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed-Stun_2x1",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.2",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed-Stun_2x1",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 1 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.2",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Stun_2x12", "Mod_WS_EquipEffect_ID" : "STUN_2x12",
+          "Prepend" : [
+            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed-Stun_2x12",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 12 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : true, "showInStatusPanel" : true,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9438743127",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed-Stun_2x12",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 12 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9438743127",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed-Stun_2x12",
+                "Name" : "STUNNED: IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 2, "stackLimit" : 12 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9438743127",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Engine_Walk_Run_Stun_3x5", "Mod_WS_EquipEffect_ID" : "STUN_3x5",
+          "Prepend" : [
+            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-WS-Walk_Speed-Stun_3x5",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 3, "stackLimit" : 5 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : true, "showInStatusPanel" : true,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Run_Speed-Stun_3x5",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 3, "stackLimit" : 5 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Jump_Speed-Stun_3x5",
+                "Name" : "IMPAIRED MOVEMENT",
+                "Details" : "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+                "Icon" : "uixSvgIcon_statusStunned"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : { "ticksOnActivations" : true, "useActivationsOfTarget" : true, "duration" : 3, "stackLimit" : 5 },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit", "effectTargetType" : "NotSet",
+                "showInTargetPreview" : false, "showInStatusPanel" : false,
+                "triggerLimit" : 0, "extendDurationOnTrigger" : 0, "range" : 0
+            },
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP1",
+          "Prepend" : [
+            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative impaired aim effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Sensors_Impaired1",
+                "Name" : "SENSORS TEMPORARILY IMPAIRED",
+                "Details" : "[AMT] Difficulty to all of this unit's attacks (aiming), due to damage to it's sensors and targeting systems.",
                 "Icon" : "uixSvgIcon_status_sensorsImpaired"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
             "durationData" : {
                 "duration" : 1,
-                "stackLimit" : 1,
+                "stackLimit" : 4,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
@@ -119,25 +451,77 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "1.0",
+                "modValue" : "0.8",
                 "modType" : "System.Single"
             }
         }
     ],
 
     [
-        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAK" },
+        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP2",
+          "Prepend" : [
+            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative impaired aim effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Sensors_Impaired1",
+                "Name" : "SENSORS TEMPORARILY IMPAIRED",
+                "Details" : "[AMT] Difficulty to all of this unit's attacks (aiming), due to damage to it's sensors and targeting systems.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 2,
+                "stackLimit" : 4,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "0.75",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_2x3",
+          "Prepend" : [
+            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
         {
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "Mech takes [AMT] damage from all sources and types of attacks.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
             "durationData" : {
-                "duration" : 1,
-                "stackLimit" : 1,
+                "duration" : 2,
+                "stackLimit" : 3,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
@@ -158,26 +542,262 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.25",
+                "operation" : "Float_Divide",
+                "modValue" : "0.5",
                 "modType" : "System.Single"
             }
         }
     ],
 
     [
-        { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_D" },
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x3",
+          "Prepend" : [
+            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Max_Heat-Debuff",
-                "Name" : "MAX HEAT IMPAIRMENT",
-                "Details" : "Maximum allowed heat and overheating threshold impaired by [AMT].",
+                "Id" : "StatusEffect-WS-Damage_Weakness",
+                "Name" : "WEAKNESS AGAINST DAMAGE",
+                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 3,
+                "stackLimit" : 3,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Divide",
+                "modValue" : "0.5",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_4x3",
+          "Prepend" : [
+            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Weakness",
+                "Name" : "WEAKNESS AGAINST DAMAGE",
+                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 4,
+                "stackLimit" : 3,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Divide",
+                "modValue" : "0.5",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_2x15",
+          "Prepend" : [
+            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Weakness",
+                "Name" : "WEAKNESS AGAINST DAMAGE",
+                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 2,
+                "stackLimit" : 15,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Divide",
+                "modValue" : "0.5",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x15",
+          "Prepend" : [
+            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Weakness",
+                "Name" : "WEAKNESS AGAINST DAMAGE",
+                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 3,
+                "stackLimit" : 15,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Divide",
+                "modValue" : "0.5",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_4x15",
+          "Prepend" : [
+            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Damage_Weakness",
+                "Name" : "WEAKNESS AGAINST DAMAGE",
+                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 4,
+                "stackLimit" : 15,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Divide",
+                "modValue" : "0.5",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_TOL_DMG_3x5",
+          "Prepend" : [
+            { "Text" : "Target's maximum allowed heat and overheating threshold impaired by: ", "Data_Type" : "int", "Digits" : "4" },
+            { "Text" : "Effect Duration of impaired heat thresholds: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative heat thresholds of target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Max_Heat-Impairment",
+                "Name" : "DAMAGE: MAX HEAT IMPAIRMENT",
+                "Details" : "Maximum allowed heat and overheating thresholds impaired by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
             "durationData" : {
-                "duration" : 1,
-                "stackLimit" : 1,
+                "duration" : 3,
+                "stackLimit" : 5,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
@@ -198,22 +818,22 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "MaxHeat",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
         },
         {
             "Description" : {
-                "Id" : "StatusEffect-WS-Overheat_Threshold-Debuff",
-                "Name" : "OVERHEAT THRESHOLD IMPAIRMENT",
-                "Details" : "Overheat threshold impaired by [AMT]",
+                "Id" : "StatusEffect-WS-Overheat_Threshold-Impairment",
+                "Name" : "DAMAGE: OVERHEAT THRESHOLD IMPAIRMENT",
+                "Details" : "Overheat threshold impaired by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
             "durationData" : {
-                "duration" : 1,
-                "stackLimit" : 1,
+                "duration" : 3,
+                "stackLimit" : 5,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
@@ -234,7 +854,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "OverheatLevel",
-                "operation" : "Int_Add",
+                "operation" : "Int_Subtract",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
@@ -242,7 +862,60 @@
     ],
 
     [
-        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END" },
+        { "Name" : "Effect_Heat_Sinking_Debuff_from_damage_3x5", "Mod_WS_EquipEffect_ID" : "HEAT_DMG_5x3",
+          "Prepend" : [
+            { "Text" : "Persistant heat per turn inflicted to target upon hit: ", "Data_Type" : "int", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Thermal_Damage_Inflicted-On_Hit",
+                "Name" : "HEAT FROM THERMAL DAMAGE",
+                "Details" : "This battlemech has suffered damage that temporarily results in [AMT] additional heat per turn.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "durationData" : {
+                "duration" : 5,
+                "stackLimit" : 3
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatSinkCapacity",
+                "operation" : "Int_Subtract",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "END", "Mod_WS_EquipEffect_ID" : "END",
+            "Prepend" : []
+        },
         { "Note" : "End of JSON file." }
     ]
 
