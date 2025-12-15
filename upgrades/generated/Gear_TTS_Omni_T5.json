@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 3620120,
+    "Cost": 2420120,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,13 +8,13 @@
     "UIName": "TTS Omni T5",
     "Id": "Gear_TTS_Omni_T5",
     "Name": "TTS Omni T5",
-    "Details": "Heat generated when installed: 50\n\n",
+    "Details": "Weapon accuracy (all types) increase: \n\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 20.\nMax heat and overheating modifiers: 8.\nDamage taken from all sources: 162.5000%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "+5 Aim Bonus",
+  "BonusValueA": "+2.5 Aim Bonus",
   "BonusValueB": "All Weapon Types",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -39,7 +39,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -62,7 +62,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 50,
+        "modValue": -20,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -73,208 +73,56 @@
       }
     },
     {
-      "nature": "Buff",
       "Description": {
-        "Id": "StatusEffect-WS-Weapon_Accuracy_Ballistic_Modifier",
-        "Name": "BALLISTIC WEAPON ACCURACY UPGRADED",
-        "Details": "Ballistic weapon attacks have their hit improved by [AMT].",
-        "Icon": "uixSvgIcon_equipment_TTS"
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.\\nMaximum allowed heat decreased by [AMT].\\nOverheat threshold decreased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
       "durationData": {
         "duration": -1,
-        "stackLimit": 1,
-        "ticksOnActivations": false,
-        "useActivationsOfTarget": false,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
+        "stackLimit": -1
       },
       "targetingData": {
         "effectTriggerType": "Passive",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
         "effectTargetType": "Creator",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
         "showInTargetPreview": true,
         "showInStatusPanel": true
       },
-      "effectType": "StatisticEffect",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": -5,
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "Weapon",
-        "targetWeaponCategory": "Ballistic",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
+        "statName": "MaxHeat",
+        "operation": "Int_Subtract",
+        "modValue": -8,
+        "modType": "System.Int32"
+      }
     },
     {
-      "nature": "Buff",
       "Description": {
-        "Id": "StatusEffect-WS-Weapon_Accuracy_Energy_Modifier",
-        "Name": "ENERGY WEAPON ACCURACY UPGRADED",
-        "Details": "Energy weapon attacks have their hit improved by [AMT].",
-        "Icon": "uixSvgIcon_equipment_TTS"
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
       "durationData": {
         "duration": -1,
-        "stackLimit": 1,
-        "ticksOnActivations": false,
-        "useActivationsOfTarget": false,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
+        "stackLimit": -1
       },
       "targetingData": {
         "effectTriggerType": "Passive",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
         "effectTargetType": "Creator",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
       },
-      "effectType": "StatisticEffect",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": -5,
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "Weapon",
-        "targetWeaponCategory": "Energy",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
-    },
-    {
-      "nature": "Buff",
-      "Description": {
-        "Id": "StatusEffect-WS-Weapon_Accuracy_Missle_Modifier",
-        "Name": "MISSLE WEAPON ACCURACY UPGRADED",
-        "Details": "Missle weapon attacks have their hit improved by [AMT].",
-        "Icon": "uixSvgIcon_equipment_TTS"
-      },
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1,
-        "ticksOnActivations": false,
-        "useActivationsOfTarget": false,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
-        "effectTargetType": "Creator",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "effectType": "StatisticEffect",
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": -5,
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "Weapon",
-        "targetWeaponCategory": "Missile",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
-    },
-    {
-      "nature": "Buff",
-      "Description": {
-        "Id": "StatusEffect-WS-Weapon_Accuracy_Support_Modifier",
-        "Name": "SUPPORT WEAPON ACCURACY UPGRADED",
-        "Details": "Support weapon attacks have their hit improved by [AMT].",
-        "Icon": "uixSvgIcon_equipment_TTS"
-      },
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1,
-        "ticksOnActivations": false,
-        "useActivationsOfTarget": false,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
-        "effectTargetType": "Creator",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "effectType": "StatisticEffect",
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": -5,
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "Weapon",
-        "targetWeaponCategory": "AntiPersonnel",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
+        "statName": "OverheatLevel",
+        "operation": "Int_Subtract",
+        "modValue": -8,
+        "modType": "System.Int32"
+      }
     },
     {
       "effectType": "StatisticEffect",
@@ -282,12 +130,12 @@
       "Description": {
         "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
         "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-        "Details": "This Battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "durationData": {
         "duration": -1,
-        "stackLimit": 1
+        "stackLimit": -1
       },
       "targetingData": {
         "effectTriggerType": "Passive",
@@ -300,10 +148,48 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 1.5,
+        "modValue": 1.625,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Weapon_Accuracy_All_Weapons-Buff",
+        "Name": "WEAPON ACCURACY UPGRADED",
+        "Details": "Weapon (all types) attacks have their difficulty to hit enemies modified by [AMT].",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": -2.5,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
         "targetWeaponCategory": "NotSet",
         "targetWeaponType": "NotSet",
         "targetAmmoCategory": "NotSet",

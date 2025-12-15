@@ -36,6 +36,7 @@ const folder_jumpjets_skirmish = "../jumpjets/skirmish/";
 const folder_upgrades = "../upgrades/generated/";
 const folder_upgrades_skirmish = "../upgrades/skirmish/";
 const folder_pilot_skirmish = "../pilot/skirmish/";
+const folder_pilot_face_sprites = "../sprites_pilots/";
 
 // File names
 const csv_ammobox = path.join(folder_input, "ammo_box.csv");
@@ -56,6 +57,25 @@ var ItemDescriptions = [];
 var IconList = [];
 var console_output = [];
 var console_index_count = 0;
+var log_file = "";
+
+function Log_Start() {
+    log_file = "Process.js, started:\n" + new Date().toString() + "\n\n";
+}
+
+function Log_End() {
+    FlushConsole();
+    Log("");
+    Log("Writing output to log file: \"process js log.txt\"...");
+    Log("  at: " + new Date().toString());
+    FlushConsole();
+
+    try {
+        fs.writeFileSync("process js log.txt", log_file);
+    } catch (err) {
+        console.error(err);
+    }
+}
 
 function Log(txt) {
     console_output.push(txt);
@@ -71,6 +91,10 @@ function FlushConsole() {
 
     const output = console_output.join("\n");
     console.log(output);
+
+    // for (const line of output)
+        log_file = log_file.Deep() + String(output) + "\n";
+
     console_output = [];
     console_index_count++;
 }
@@ -145,7 +169,7 @@ function GetManufacturer(code) {
     return "MISSING";
 }
 
-function FindEquipmentEffect(tag, value, duration=null, stack=null) {
+function FindEquipmentEffect_old(tag, value, duration=null, stack=null) {
     if (Effects.length < 1)
         ParseListOfEffects();
 
@@ -169,7 +193,59 @@ function FindEquipmentEffect(tag, value, duration=null, stack=null) {
         return resulting_effect;
     }
 
-    console.log("Error: No Battlemech Equipment Effect was found in Effects with a matching ID of: " + tag);
+    Log("Error: No Battlemech Equipment Effect was found in Effects with a matching ID of: " + tag);
+    FlushConsole();
+    return null;
+}
+
+function FindEquipmentEffect(tag, value) {
+    if (Effects.length < 1)
+        ParseListOfEffects();
+
+    let effect = Effects.find( (fx) => fx[0].Mod_WS_EquipEffect_ID === tag );
+
+    if (effect) {
+        let fx = effect.Deep();
+
+        let effect_text = "";
+        if (fx[0].Prepend) {
+            const prepend_data = fx[0].Prepend.Deep();
+
+            for (let i = 0; i < prepend_data.length; i++) {
+                const data_text = prepend_data[i].Text;
+                const data_type = prepend_data[i].Data_Type;
+                const data_digits = Number(prepend_data[i].Digits);
+                const data_value = value;
+                const data_duration = fx[1].durationData.duration;
+                const data_stack = fx[1].durationData.stackLimit;
+
+                let effect_text_line = data_text + "\n";
+                if (data_type === "float") effect_text_line = data_text + data_value.toFixed(data_digits) + ".";
+                else if (data_type === "int") effect_text_line = data_text + data_value.toFixed(0) + ".";
+                else if (data_type === "neg_int") effect_text_line = data_text + (-data_value).toFixed(0) + ".";
+                else if (data_type === "percent") effect_text_line = data_text + (data_value * 100.0).toFixed(data_digits) + "%.";
+                else if (data_type === "one_div_percent") effect_text_line = (100.0 / data_value).toFixed(data_digits) + "%.";
+                else if (data_type === "meters") effect_text_line = data_text + (data_value).toFixed(0) + " meters.";
+                else if (data_type === "effect_duration") effect_text_line = data_text + (data_duration).toFixed(0) + " turns.";
+                else if (data_type === "stack_limit") effect_text_line = data_text + (data_stack).toFixed(0) + "x.";
+
+                effect_text = effect_text.Deep() + effect_text_line.Deep() + "\n";
+            }
+        }
+
+        let effect_data = [];
+        for (let i = 1; i < fx.length; i++) {
+            if (value)
+                fx[i].statisticData.modValue = value;
+
+            effect_data.push(fx[i]);
+        }
+
+        return { info:effect_text, data:effect_data };
+    }
+
+    Log("Error: No Battlemech Equipment Effect was found in Effects with a matching ID of: " + tag);
+    FlushConsole();
     return null;
 }
 
@@ -250,10 +326,10 @@ function Main_AmmoBoxes(diag=false) {
             const item_attacks_per_item = Math.floor(item_capacity / item_shots_per_attack);
             const item_description_prepend =
                 item_shots_per_attack == 1 ?
-                    "Capacity: " + String(item_capacity) + "\n\n" :
+                    "Capacity: " + String(item_capacity) + "\n" :
                     "Capacity: " + String(item_capacity) + "\n" +
                     "Cartridges or Rounds per Firing: " + String(item_shots_per_attack) + "\n" +
-                    "Number of Firings: " + String(item_attacks_per_item) + "\n\n";
+                    "Number of Firings: " + String(item_attacks_per_item) + "\n";
 
             const item_tags = [ "component_type_stock" ];
             const item_tags_story = item_tags.Deep().concat( ["BLACKLISTED"] );
@@ -276,7 +352,7 @@ function Main_AmmoBoxes(diag=false) {
             data.CanExplode = String(row[index.can_explode]) === "TRUE" ? true : false;
 
             const specials_codes = row[index.specials_codes] ? String(row[index.specials_codes]) : null;
-            const drain = row[index.drain] ? Number(row[index.drain]) : null;
+            const drain = row[index.drain] ? String(row[index.drain]) : null;
             SetSpecials(data, specials_codes, drain);
 
             data.Description.Details = item_description_prepend.Deep() + data.Description.Details.Deep() + item_description.Deep();
@@ -411,12 +487,7 @@ function Main_Weapons(diag=false) {
             if (weapon_type === "MG") data.Type = "MachineGun";
 
             data.Description.Icon = GetIcon( String(row[index.icon_code]) );
-
-            if (index.manufacturer) {
-                if (index.manufacturer === "WS") data.Description.Manufacturer = "Westonmach";
-                if (index.manufacturer === "SF") data.Description.Manufacturer = "Spinfang";
-                if (index.manufacturer === "GR") data.Description.Manufacturer = "Gralthler";
-            }
+            data.Description.Manufacturer = GetManufacturer( String(row[index.manufacturer]) );
 
             let item_tags = [];
             if (item_type == 5) {
@@ -456,7 +527,7 @@ function Main_Weapons(diag=false) {
             data.RangeSplit = range_splits;
 
             const specials_codes = row[index.specials_code] ? String(row[index.specials_code]) : null;
-            const power_drain = row[index.power_drain] ? Number(row[index.power_drain]) : null;
+            const power_drain = row[index.power_drain] ? String(row[index.power_drain]) : null;
             SetSpecials(data, specials_codes, power_drain);
 
             let data_skirmish = data.Deep();
@@ -494,7 +565,8 @@ function Main_Pilots_Skirmish(diag=false) {
     let trait_list = [];
 
     FlushConsole();
-    Log("Trait Codes:");
+    Log("");
+    Log("Pilot Trait Codes:");
 
     rows.forEach((row, idx) => {
         const i_face = String(headers.indexOf("Face"));
@@ -510,8 +582,22 @@ function Main_Pilots_Skirmish(diag=false) {
             Log("    " + e_code + "    " + e_trait);
         }
     });
-
+    Log("Total number of trait codes: " + trait_code_list.length.toFixed(0));
+    Log("");
     FlushConsole();
+
+    Log("Pilot sprite file names:");
+    FlushConsole();
+    let face_name_list = [];
+    fs.readdirSync(folder_pilot_face_sprites).forEach(file => { face_name_list.push( String(file) ); Log(file); });
+    Log("Total number of face name filenames: " + face_name_list.length.toFixed(0));
+    Log("");
+    FlushConsole();
+
+    let pilot_count = 0;
+    let pilot_total_count = 0;
+    let pilot_incomplete_or_error_count = 0;
+
     Log("Custom Battlemech pilots / Mechwarriors:");
 
     rows.forEach((row, idx) => {
@@ -525,6 +611,8 @@ function Main_Pilots_Skirmish(diag=false) {
         const e_age = i_age ? row[i_age] : null;
 
         if (e_face && e_callsign && e_gender && e_age) {
+            pilot_total_count += 1;
+
             // Clone template
             let data = JSON.parse(JSON.stringify(json_template));
 
@@ -536,6 +624,17 @@ function Main_Pilots_Skirmish(diag=false) {
             dat.Id = "pilot_ws_skirmish_" + dat.callsign_u.Deep();
             dat.Icon = "ws_img_pilot_" + dat.face_u.Deep();
             dat.name_tag = "name_" + dat.callsign_u.Deep();
+
+            const face_filename = dat.Icon.Deep() + ".png";
+            if (!face_name_list.includes(face_filename)) {
+                pilot_incomplete_or_error_count += 1;
+
+                Log("Error: No pilot face sprite exists for pilot " + pilot_total_count.toFixed(0) + " at spreadsheet row " +
+                    idx.toFixed(0) + " with callsign: " + e_callsign +
+                    ", face: " + e_face + ", with non-existant face filename: " + face_filename);
+
+                return;
+            }
 
             const f_name = path.join(output_folder_skirmish, dat.Id.concat(fext));
 
@@ -649,11 +748,17 @@ function Main_Pilots_Skirmish(diag=false) {
             }
 
             if (trait_codes.length > 0) {
-                for (let trait of trait_codes) {
+                for (const trait of trait_codes) {
+                    if (trait.length < 1) continue;
                     const code_index = trait_code_list.indexOf(trait);
+
                     if (code_index >= 0) {
                         const trait_name = trait_list[code_index];
                         traits.push(trait_name).Deep();
+                    } else {
+                        Log("Error for pilot: " + String(e_face) + ", callsign: " + String(e_callsign) +
+                            " -- Unknown trait for code: " + String(trait) + " , from trait code list: " +
+                            "\n    " + trait_codes );
                     }
                 }
             }
@@ -662,11 +767,35 @@ function Main_Pilots_Skirmish(diag=false) {
 
             fs.writeFileSync(f_name, JSON.stringify(data, null, 2), "utf8");
             // console.log(`Wrote ${f_name}`);
-            Log(`Wrote ${f_name}`);
+            // Log(`Wrote ${f_name}`);
+            pilot_count += 1;
+            Log("Wrote JSON file for pilot " + pilot_total_count.toFixed(0) + " callsign: " + e_callsign + ", face: " + e_face + ", file: " + f_name);
         }
+        else if ((e_face !== "-----") && (e_face !== "Skirmish Pilots") && (e_face !== "List of Trait Codes") && e_face.length > 2) {
+            pilot_total_count += 1;
+            pilot_incomplete_or_error_count += 1;
 
-        FlushConsole();
+            if (e_callsign)
+                Log("Incomplete pilot - no pilot JSON file written, for pilot: " + pilot_total_count.toFixed(0) +
+                    " at spreadsheet row: " + idx.toFixed(0) +
+                    ", for pilot with face: " + e_face + ", callsign: " + e_callsign);
+            else
+                Log("Incomplete pilot - no pilot JSON file written, for pilot: " + pilot_total_count.toFixed(0) +
+                    " at spreadsheet row: " + idx.toFixed(0) +
+                    ", for pilot with face: " + e_face);
+            Log("  Spreadsheet row data: " + String(row));
+        }
     });
+
+    Log("");
+    FlushConsole();
+
+    Log("Total pilot JSON files written: " + pilot_count.toFixed(0));
+    Log("Total pilot JSON files attempted: " + pilot_total_count.toFixed(0));
+    Log("Total incomplete pilots (no file written) or errors: " + pilot_incomplete_or_error_count.toFixed(0));
+
+    Log("");
+    FlushConsole();
 }
 
 function Main_Upgrades(diag=false) {
@@ -714,6 +843,7 @@ function Main_Upgrades(diag=false) {
             index.specials_code = Number(headers.indexOf("Specials Code"));
             index.allowed_locations = Number(headers.indexOf("Allowed Locations"));
             index.icon_code = Number(headers.indexOf("Icon Code"));
+            index.manufacturer = Number(headers.indexOf("Manf. Code"));
             index.model_name = Number(headers.indexOf("Model Name"));
 
             const item_type = row[index.type] ? Number(row[index.type]) : 1;
@@ -724,17 +854,12 @@ function Main_Upgrades(diag=false) {
             data.Description.Name = row[index.name];
             data.Description.UIName = row[index.name];
             data.Description.Model = row[index.model_name];
+            data.Description.Icon = GetIcon( String(row[index.icon_code]) );
+            data.Description.Manufacturer = GetManufacturer( String(row[index.manufacturer]) );
             data.Tonnage = Number(row[index.tonnage]);
             data.InventorySize = Number(row[index.equip_slots]);
             data.BonusValueA = String(row[index.gui_feature_a]);
             data.BonusValueB = String(row[index.gui_feature_b]);
-
-            const icon_code = String(row[index.icon_code]);
-            if (icon_code === "Ballistic") data.Description.Icon = "uixSvgIcon_weapon_Ballistic";
-            else if (icon_code === "Energy") data.Description.Icon = "uixSvgIcon_weapon_Energy";
-            else if (icon_code === "Missile") data.Description.Icon = "uixSvgIcon_weapon_Missile";
-            else if (icon_code === "Support") data.Description.Icon = "uixSvgIcon_weapon_Support";
-            else data.Description.Icon = GetIcon(icon_code);
 
             data.AllowedLocations = GetAllowedLocations( String(row[index.allowed_locations]) );
 
@@ -758,7 +883,7 @@ function Main_Upgrades(diag=false) {
             data.ComponentTags.items.push( "BLACKLISTED" );
 
             const specials_codes = row[index.specials_code] ? String(row[index.specials_code]) : null;
-            const power_drain = row[index.power_drain] ? Number(row[index.power_drain]) : null;
+            const power_drain = row[index.power_drain] ? String(row[index.power_drain]) : null;
             SetSpecials(data, specials_codes, power_drain);
 
             let data_skirmish = data.Deep();
@@ -778,10 +903,26 @@ function Main_Upgrades(diag=false) {
 }
 
 function ParseSpecials(codes) {
-    let specials = [];
-    if (!codes) return specials;
-    if (codes.length < 1) return specials;
+    if (!codes) return [];
+    if (codes.length < 1) return [];
 
+    let specials = [];
+
+    const specials_text = codes.split(" ");
+    if (specials_text.length < 1) return [];
+
+    for (const special of specials_text) {
+        let element = special.Deep().split("`");
+        if (!element[0] || !element[1]) {
+            Log("Error parsing special code: " + special.Deep() + ", from list of specials: " + codes.Deep());
+            return [];
+        }
+        specials.push( {ID:String(element[0]), value:Number(element[1])} );
+    }
+
+    return specials;
+
+/*
     const special_template = { ID:"", value:0, duration:-1, stack:-1 };
     let special = special_template.Deep();
     let pos = 0;
@@ -823,6 +964,7 @@ function ParseSpecials(codes) {
     }
 
     return specials;
+*/
 }
 
 function GetAllowedLocations(codes) {
@@ -862,12 +1004,15 @@ function GetAllowedLocations(codes) {
 }
 
 function SetSpecials(data, specials_codes, drain_data) {
-    if (!data) console.log("Warning: \"data\" function input parameter invalid for called function: \"SetSpecials(data)\".");
+    if (!data) Log("Warning: \"data\" function input parameter invalid for called function: \"SetSpecials(data)\".");
 
     let item_description = "";
+    let drain_text = "";
+    let specials_text = "";
+    let fx_array = [];
 
-    if (!data.Description) { console.log("ERROR: No \"Description\" sub-object inside of data object to apply specials to in \"SetSpecials()\"."); return; }
-    else if (!data.Description.Model) { console.log("ERROR: No \"Model\" sub-object inside of \"Description\" sub-object of data object to apply specials to in \"SetSpecials()\"."); }
+    if (!data.Description) { Log("ERROR: No \"Description\" sub-object inside of data object to apply specials to in \"SetSpecials()\"."); return; }
+    else if (!data.Description.Model) { Log("ERROR: No \"Model\" sub-object inside of \"Description\" sub-object of data object to apply specials to in \"SetSpecials()\"."); }
 
     if (data.Description.Model.includes("Reaper") && data.Description.Model.includes("Auto Cannon")) {
         if (data.Description.Model.includes("Light") || data.Description.Model.includes("Medium") || data.Description.Model.includes("Heavy"))
@@ -885,61 +1030,59 @@ function SetSpecials(data, specials_codes, drain_data) {
     else if (data.Description.Model.includes("Multi-Frequency") && data.Description.Model.includes("Laser")) item_description = ItemDescriptions.Descriptions.MF_Laser.join("");
 
     // Drain
-    if (drain_data) {
-        const drain = Number(drain_data);
+    if (!drain_data)
+        drain_data = "0 0 1.00000";
 
-        /*
-        if (drain >= 0) {
-            const m_value = 1.0 + (Number(drain) / drain_divisor);
-            const m_value_div = 100.0 * m_value;
+    const drain = drain_data.Deep().split(" ");
+    if (drain.length < 3)
+        drain = ["0", "0", "1.00000"];
 
-            data.Description.Details = ("Damage taken when installed: " + m_value_div.toFixed(2) + "%\n\n") + item_description;
-
-            const fx = FindEquipmentEffect("DMGPN", m_value);
-            if (fx) data.statusEffects = fx;
+    if (drain[0] !== "0") {
+        const fx = FindEquipmentEffect( "-HEAT_SINKING", Number(drain[0]) * -1 );
+        if (fx) {
+            drain_text = drain_text.Deep() + fx.info.Deep();
+            fx_array = fx_array.Deep().concat(fx.data);
         }
-        */
-        if (drain >= 0) {
-            const drain_value = Math.ceil(Number(drain) / 10);
-
-            data.Description.Details = String("Heat generated when installed: " + drain_value.toFixed(0) + "\n\n") + item_description;
-
-            const fx = FindEquipmentEffect("HEATPN", drain_value);
-            if (fx) data.statusEffects = fx;
+    }
+    if (drain[1] !== "0") {
+        const fx = FindEquipmentEffect( "-GEAR_HEAT_TOLERANCE", Number(drain[1]) * -1 );
+        if (fx) {
+            drain_text = drain_text.Deep() + fx.info.Deep();
+            fx_array = fx_array.Deep().concat(fx.data);
         }
-        else if (drain < 0) {
-            const m_value_neg = 1.0 + (Number(drain) * -1.0 / drain_divisor);
-            const m_value_div = 100.0 * m_value_neg;
-
-            data.Description.Details = ("Damage taken when installed: " + m_value_div.toFixed(2) + "%\n\n") + item_description;
-
-            const fx = FindEquipmentEffect("DMGPN", m_value_neg);
-            if (fx) data.statusEffects = fx;
+    }
+    if (drain[2] !== "1.00000") {
+        const fx = FindEquipmentEffect( "-DMG_TAKEN", Number(drain[2]) );
+        if (fx) {
+            drain_text = drain_text.Deep() + fx.info.Deep();
+            fx_array = fx_array.Deep().concat(fx.data);
         }
-        else
-            data.Description.Details = item_description;
-    } else {
-        data.statusEffects = [];
-        data.Description.Details = item_description;
     }
 
     // Specials
-    if (specials_codes) {
-        const specials = ParseSpecials(specials_codes);
-
-        for (const special of specials) {
-            const effects = FindEquipmentEffect(special.ID, special.value, special.duration, special.stack);
-
-            if (effects.length > 0) {
-                for (const effect of effects)
-                    data.statusEffects.push(effect);
-            }
+    const specials = ParseSpecials(specials_codes);
+    for (const special of specials) {
+        const fx = FindEquipmentEffect( special.ID, special.value );
+        if (fx) {
+            specials_text = specials_text.Deep() + fx.info.Deep();
+            fx_array = fx_array.Deep().concat(fx.data);
         }
     }
+
+    let description = "";
+    if (specials_text.length > 0) description = description.Deep() + specials_text.Deep();
+    if (drain_text.length > 0) description = description.Deep() + drain_text.Deep();
+    if (description.length > 0) description = description.Deep() + "\n";
+    description = description.Deep() + item_description.Deep();
+
+    data.Description.Details = description.Deep();
+    data.statusEffects = fx_array.Deep();
 }
 
 // --- Main ---
 function Main() {
+    Log_Start();
+
     ParseListOfIcons();
     ParseListOfEffects();
     ParseListOfItemDescriptions();
@@ -950,6 +1093,8 @@ function Main() {
     Main_Weapons();
     Main_Upgrades();
     Main_Pilots_Skirmish();
+
+    Log_End();
 }
 
 Main();

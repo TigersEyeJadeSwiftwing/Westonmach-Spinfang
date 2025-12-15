@@ -8,20 +8,20 @@
     "UIName": "Force Field T5",
     "Id": "Gear_Force_Field_T5",
     "Name": "Force Field T5",
-    "Details": "Heat generated when installed: 25\n\n",
+    "Details": "Damage taken, all sources: 50.00%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: 40.\nMax heat and overheating modifiers: 12.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "70% Dmg",
-  "BonusValueB": "-15 Max Heat",
+  "BonusValueA": "50% Dmg",
+  "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 0.0625,
+  "Tonnage": 0.125,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -39,7 +39,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -62,7 +62,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 25,
+        "modValue": -40,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -73,12 +73,64 @@
       }
     },
     {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.\\nMaximum allowed heat decreased by [AMT].\\nOverheat threshold decreased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Subtract",
+        "modValue": -12,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Subtract",
+        "modValue": -12,
+        "modType": "System.Int32"
+      }
+    },
+    {
       "effectType": "StatisticEffect",
       "nature": "Buff",
       "Description": {
-        "Id": "StatusEffect-WS-Force_Field",
+        "Id": "StatusEffect-WS-Force_Field-Buff",
         "Name": "Force Field",
-        "Details": "Mech takes [AMT] less damage from all sources and types of attacks.",
+        "Details": "This unit takes [AMT] less damage from all sources and types of attacks.",
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "durationData": {
@@ -96,7 +148,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 0.7,
+        "modValue": 0.5,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -104,58 +156,6 @@
         "targetWeaponType": "NotSet",
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
-      }
-    },
-    {
-      "Description": {
-        "Id": "StatusEffect-WS-Max_Heat-Increased",
-        "Name": "MAX HEAT DECREASED",
-        "Details": "Maximum allowed heat decreased by [AMT].",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "statisticData": {
-        "statName": "MaxHeat",
-        "operation": "Int_Add",
-        "modValue": -15,
-        "modType": "System.Int32"
-      }
-    },
-    {
-      "Description": {
-        "Id": "StatusEffect-WS-Overheat_Threshold-Increased",
-        "Name": "OVERHEAT THRESHOLD DECREASED",
-        "Details": "Overheat threshold decreased by [AMT]",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "statisticData": {
-        "statName": "OverheatLevel",
-        "operation": "Int_Add",
-        "modValue": -15,
-        "modType": "System.Int32"
       }
     }
   ]

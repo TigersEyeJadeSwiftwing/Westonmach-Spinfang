@@ -8,7 +8,7 @@
     "UIName": "Stomper DFA Controller T3",
     "Id": "Gear_Stomper_DFA_Controller_T3",
     "Name": "Stomper DFA Controller T3",
-    "Details": "Heat generated when installed: 4\n\n",
+    "Details": "DFA damage to enemy modifier: 188.00%.\nDFA stability damage to enemy modifier: 188.00%.\n53.19%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 5.\nMax heat and overheating modifiers: 1.\n\n",
     "Icon": "uixSvgIcon_equipment_ActuatorLeg"
   },
   "StatName": null,
@@ -22,7 +22,7 @@
   "BattleValue": 0,
   "InventorySize": 1,
   "Tonnage": 0,
-  "AllowedLocations": "Legs, Torso",
+  "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "ComponentTags": {
@@ -39,7 +39,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -62,7 +62,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 4,
+        "modValue": -5,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -73,12 +73,64 @@
       }
     },
     {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.\\nMaximum allowed heat decreased by [AMT].\\nOverheat threshold decreased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Subtract",
+        "modValue": -1,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Subtract",
+        "modValue": -1,
+        "modType": "System.Int32"
+      }
+    },
+    {
       "effectType": "StatisticEffect",
       "nature": "Buff",
       "Description": {
         "Id": "StatusEffect-WS-DFA_Self_Damage",
         "Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
-        "Details": "DFA (Death-From-Above) attacks by this unit deal [1/AMT] self-inflicted damage.",
+        "Details": "DFA (Death-From-Above) attacks by this unit deal [INVERSE_AMT] self-inflicted damage.",
         "Icon": "uixSvgIcon_equipment_ActuatorLeg"
       },
       "durationData": {

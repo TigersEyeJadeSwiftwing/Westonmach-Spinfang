@@ -1,246 +1,235 @@
-Name,Type,Level,Tonnage,Power Drain,Equip Slots,Cost,GUI Feature A,GUI Feature B,Specials Code,Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Engine Upgrade,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Engine Upgrade Basic T1,1,7.5,0.0625,16,1,20120,108% Walk/Sprint,,ENGINE`1.0750`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Basic T2,2,7.5,0.0625,19,1,23991,115% Walk/Sprint,,ENGINE`1.1500`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Basic T3,3,7.5,0.0625,28,1,35603,123% Walk/Sprint,,ENGINE`1.2250`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Basic T4,4,7.5,0.0625,44,1,54956,130% Walk/Sprint,,ENGINE`1.3000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Basic T5,5,7.5,0.0625,65,1,82050,138% Walk/Sprint,,ENGINE`1.3750`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-,,,,,,,,,,,,
-Engine Upgrade Contraformer T1,1,12,0.0625,30,2,50565,112% Walk/Sprint,,ENGINE`1.1200`-1`1 DMGPN`1.03000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Contraformer T2,2,12,0.0625,34,2,59295,124% Walk/Sprint,,ENGINE`1.2400`-1`1 DMGPN`1.06000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Contraformer T3,3,12,0.0625,45,2,85486,136% Walk/Sprint,,ENGINE`1.3600`-1`1 DMGPN`1.09000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Contraformer T4,4,12,0.0625,64,2,129138,148% Walk/Sprint,,ENGINE`1.4800`-1`1 DMGPN`1.12000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Contraformer T5,5,12,0.0625,90,2,190250,160% Walk/Sprint,,ENGINE`1.6000`-1`1 DMGPN`1.15000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-,,,,,,,,,,,,
-Engine Upgrade Excelsior T1,1,12,0.0625,85,2,92150,112% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.1200`-1`1 OVERHEAT_DEBUFF`-5`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.08400`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Excelsior T2,2,12,0.0625,91,2,118898,124% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.2400`-1`1 OVERHEAT_DEBUFF`-5`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.16800`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Excelsior T3,3,12,0.0625,109,2,199143,136% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.3600`-1`1 OVERHEAT_DEBUFF`-5`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.25200`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Excelsior T4,4,12,0.0625,138,2,332883,148% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.4800`-1`1 OVERHEAT_DEBUFF`-5`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.33600`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Excelsior T5,5,12,0.0625,180,2,520120,160% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.6000`-1`1 OVERHEAT_DEBUFF`-5`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.42000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-,,,,,,,,,,,,
-Engine Upgrade Ultra T1,1,20,0.0625,125,3,191020,120% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.2000`-1`1 OVERHEAT_DEBUFF`-10`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.20000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Ultra T2,2,20,0.0625,133,3,238491,140% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.4000`-1`1 OVERHEAT_DEBUFF`-10`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.40000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Ultra T3,3,20,0.0625,156,3,380905,160% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.6000`-1`1 OVERHEAT_DEBUFF`-10`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.60000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Ultra T4,4,20,0.0625,195,3,618261,180% Walk/Sprint,+1 Initiative Bonus,ENGINE`1.8000`-1`1 OVERHEAT_DEBUFF`-10`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`1.80000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-Engine Upgrade Ultra T5,5,20,0.0625,250,3,950560,200% Walk/Sprint,+1 Initiative Bonus,ENGINE`2.0000`-1`1 OVERHEAT_DEBUFF`-10`-1`1 MAX_HEAT_DEBUFF`-5`-1`1 INIT_BUFF`-1`-1`1 DMGPN`2.00000`-1`1,CT LT RT,action_evasivemove,Engine Speed Upgrade
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Jump Jet Upgrade,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-JJ Upgrade Basic T1,1,10,0.0625,25,1,20120,110% Jump Distance,,JUMP`1.1000`-1`1 DMGPN`1.08000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Basic T2,2,10,0.0625,28,1,23991,120% Jump Distance,,JUMP`1.2000`-1`1 DMGPN`1.16000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Basic T3,3,10,0.0625,39,1,35603,130% Jump Distance,,JUMP`1.3000`-1`1 DMGPN`1.24000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Basic T4,4,10,0.0625,56,1,54956,140% Jump Distance,,JUMP`1.4000`-1`1 DMGPN`1.32000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Basic T5,5,10,0.0625,80,1,82050,150% Jump Distance,,JUMP`1.5000`-1`1 DMGPN`1.40000`-1`1,T L,_action_jump,Jump Jet Accelerator
-,,,,,,,,,,,,
-JJ Upgrade Contraformer T1,1,20,0.0625,50,2,92150,120% Jump Distance,-5 Overheat,JUMP`1.2000`-1`1 OVERHEAT_DEBUFF`-5`-1`1 DMGPN`1.15000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Contraformer T2,2,20,0.0625,59,2,118898,140% Jump Distance,-5 Overheat,JUMP`1.4000`-1`1 OVERHEAT_DEBUFF`-5`-1`1 DMGPN`1.30000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Contraformer T3,3,20,0.0625,88,2,199143,160% Jump Distance,-5 Overheat,JUMP`1.6000`-1`1 OVERHEAT_DEBUFF`-5`-1`1 DMGPN`1.45000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Contraformer T4,4,20,0.0625,134,2,332883,180% Jump Distance,-5 Overheat,JUMP`1.8000`-1`1 OVERHEAT_DEBUFF`-5`-1`1 DMGPN`1.60000`-1`1,T L,_action_jump,Jump Jet Accelerator
-JJ Upgrade Contraformer T5,5,20,0.0625,200,2,520120,200% Jump Distance,-5 Overheat,JUMP`2.0000`-1`1 OVERHEAT_DEBUFF`-5`-1`1 DMGPN`1.75000`-1`1,T L,_action_jump,Jump Jet Accelerator
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Force Field,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Force Field T1,1,6,0.0625,50,1,32080,94% Dmg,-3 Max Heat,SHIELD`0.94000`-1`1 HEAT_DEBUFF`-3`-1`1,,specialEquip_System,Force Field Generator
-Force Field T2,2,6,0.0625,78,1,91702,88% Dmg,-6 Max Heat,SHIELD`0.88000`-1`1 HEAT_DEBUFF`-6`-1`1,,specialEquip_System,Force Field Generator
-Force Field T3,3,6,0.0625,124,1,270566,82% Dmg,-9 Max Heat,SHIELD`0.82000`-1`1 HEAT_DEBUFF`-9`-1`1,,specialEquip_System,Force Field Generator
-Force Field T4,4,6,0.0625,183,1,568674,76% Dmg,-12 Max Heat,SHIELD`0.76000`-1`1 HEAT_DEBUFF`-12`-1`1,,specialEquip_System,Force Field Generator
-Force Field T5,5,6,0.0625,250,1,986025,70% Dmg,-15 Max Heat,SHIELD`0.70000`-1`1 HEAT_DEBUFF`-15`-1`1,,specialEquip_System,Force Field Generator
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Target System Jammer,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Target Tracking Jammer Cobra Child T1,1,3,0.0625,0,1,92080,-1 Enemy Accuracy,-3 Max Heat,JAMMER`1`-1`1 HEAT_DEBUFF`-3`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Cobra Child T2,2,3,0.0625,0,1,175477,-2 Enemy Accuracy,-6 Max Heat,JAMMER`2`-1`1 HEAT_DEBUFF`-6`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Cobra Child T3,3,3,0.0625,0,1,425666,-3 Enemy Accuracy,-9 Max Heat,JAMMER`3`-1`1 HEAT_DEBUFF`-9`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Cobra Child T4,4,3,0.0625,0,1,842649,-4 Enemy Accuracy,-12 Max Heat,JAMMER`4`-1`1 HEAT_DEBUFF`-12`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Cobra Child T5,5,3,0.0625,0,1,1426425,-5 Enemy Accuracy,-15 Max Heat,JAMMER`5`-1`1 HEAT_DEBUFF`-15`-1`1,,specialEquip_System,Target Tracking System Jammer
-,,,,,,,,,,,,
-Target Tracking Jammer Fairhawk T1,1,1,0.0625,50,1,68420,-1 Enemy Accuracy,,JAMMER`1`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Fairhawk T2,2,1,0.0625,78,1,129151,-2 Enemy Accuracy,,JAMMER`2`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Fairhawk T3,3,1,0.0625,124,1,311345,-3 Enemy Accuracy,,JAMMER`3`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Fairhawk T4,4,1,0.0625,183,1,615001,-4 Enemy Accuracy,,JAMMER`4`-1`1,,specialEquip_System,Target Tracking System Jammer
-Target Tracking Jammer Fairhawk T5,5,1,0.0625,250,1,1040120,-5 Enemy Accuracy,,JAMMER`5`-1`1,,specialEquip_System,Target Tracking System Jammer
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-ECM Unit,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-ECM Unit Cobra Child T1,1,1,0.0625,0,1,92080,-1 Enemy Accuracy,-1 Max Heat,ECM`1`-1`1 HEAT_DEBUFF`-3`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Cobra Child T2,2,1,0.0625,0,1,175477,-2 Enemy Accuracy,-2 Max Heat,ECM`2`-1`1 HEAT_DEBUFF`-6`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Cobra Child T3,3,1,0.0625,0,1,425666,-3 Enemy Accuracy,-3 Max Heat,ECM`3`-1`1 HEAT_DEBUFF`-9`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Cobra Child T4,4,1,0.0625,0,1,842649,-4 Enemy Accuracy,-4 Max Heat,ECM`4`-1`1 HEAT_DEBUFF`-12`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Cobra Child T5,5,1,0.0625,0,1,1426425,-5 Enemy Accuracy,-5 Max Heat,ECM`5`-1`1 HEAT_DEBUFF`-15`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-,,,,,,,,,,,,
-ECM Unit Fairhawk T1,1,1,0.0625,50,1,68420,-1 Enemy Accuracy,,ECM`1`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Fairhawk T2,2,1,0.0625,78,1,129151,-2 Enemy Accuracy,,ECM`2`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Fairhawk T3,3,1,0.0625,124,1,311345,-3 Enemy Accuracy,,ECM`3`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Fairhawk T4,4,1,0.0625,183,1,615001,-4 Enemy Accuracy,,ECM`4`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-ECM Unit Fairhawk T5,5,1,0.0625,250,1,1040120,-5 Enemy Accuracy,,ECM`5`-1`1,,specialEquip_System,ECM Counter-Tracking Unit
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-"Stealth Module, Ninja",,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Ninja Stealth Module T1,1,100,0.0625,90,2,58025,100m Cloak Effect,,STEALTH`100.0`-1`1,,specialEquip_System,Stealth Module
-Ninja Stealth Module T2,2,225,0.0625,96,2,143714,225m Cloak Effect,,STEALTH`225.0`-1`1,,specialEquip_System,Stealth Module
-Ninja Stealth Module T3,3,350,0.0625,113,2,400781,350m Cloak Effect,,STEALTH`350.0`-1`1,,specialEquip_System,Stealth Module
-Ninja Stealth Module T4,4,475,0.0625,141,2,829227,475m Cloak Effect,,STEALTH`475.0`-1`1,,specialEquip_System,Stealth Module
-Ninja Stealth Module T5,5,-1600,0.0625,180,2,1429050,-1600m Cloak Effect,,STEALTH`-1600.0`-1`1,,specialEquip_System,Stealth Module
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Sensor Array Package,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Sensor Array Package T1,1,400,0.0625,50,1,12050,400m Range Enhance,,SENSOR_BUFF`400.0`-1`1,,equipment_Rangefinder,Sensor Array Package
-Sensor Array Package T2,2,675,0.0625,78,1,54943,675m Range Enhance,,SENSOR_BUFF`675.0`-1`1,,equipment_Rangefinder,Sensor Array Package
-Sensor Array Package T3,3,950,0.0625,124,1,144350,950m Range Enhance,,SENSOR_BUFF`950.0`-1`1,,equipment_Rangefinder,Sensor Array Package
-Sensor Array Package T4,4,1225,0.0625,183,1,267737,1225m Range Enhance,,SENSOR_BUFF`1225.0`-1`1,,equipment_Rangefinder,Sensor Array Package
-Sensor Array Package T5,5,1500,0.0625,250,1,420120,1500m Range Enhance,,SENSOR_BUFF`1500.0`-1`1,,equipment_Rangefinder,Sensor Array Package
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Cockpit Armor and Upgrades,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Cockpit Armor T1,1,1,0.0000,50,1,6020,+1 Injury Resist,,COCKPIT`1`-1`1 OVERHEAT_DEBUFF`-1`-1`1,H,equipment_Cockpit,Cockpit Armor
-Cockpit Armor T2,2,2,0.0000,78,1,46425,+2 Injury Resist,,COCKPIT`2`-1`1 OVERHEAT_DEBUFF`-2`-1`1,H,equipment_Cockpit,Cockpit Armor
-Cockpit Armor T3,3,3,0.0000,124,1,130646,+3 Injury Resist,,COCKPIT`3`-1`1 OVERHEAT_DEBUFF`-3`-1`1,H,equipment_Cockpit,Cockpit Armor
-Cockpit Armor T4,4,4,0.0000,183,1,246876,+4 Injury Resist,,COCKPIT`4`-1`1 OVERHEAT_DEBUFF`-4`-1`1,H,equipment_Cockpit,Cockpit Armor
-Cockpit Armor T5,5,5,0.0000,250,1,390420,+5 Injury Resist,,COCKPIT`5`-1`1 OVERHEAT_DEBUFF`-5`-1`1,H,equipment_Cockpit,Cockpit Armor
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Melee Upgrades,,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Stomper DFA Controller T1,1,25,0.0000,12,1,9020,125% DFA Damage,80% DFA Self Injury,DFA_BUFF`1.25000`-1`1,L T,equipment_ActuatorLeg,Stomper
-Stomper DFA Controller T2,2,45,0.0000,20,1,41718,145% DFA Damage,69% DFA Self Injury,DFA_BUFF`1.45000`-1`1,L T,equipment_ActuatorLeg,Stomper
-Stomper DFA Controller T3,3,88,0.0000,34,1,109875,188% DFA Damage,53% DFA Self Injury,DFA_BUFF`1.88000`-1`1,L T,equipment_ActuatorLeg,Stomper
-Stomper DFA Controller T4,4,147,0.0000,50,1,203936,247% DFA Damage,40% DFA Self Injury,DFA_BUFF`2.47000`-1`1,L T,equipment_ActuatorLeg,Stomper
-Stomper DFA Controller T5,5,220,0.0000,70,1,320100,320% DFA Damage,31% DFA Self Injury,DFA_BUFF`3.20000`-1`1,L T,equipment_ActuatorLeg,Stomper
-,,,,,,,,,,,,
-Melee Control Enhancer T1,1,25,0.0000,12,1,9020,125% Melee Damage,,MELEE`1.25000`-1`1,T A,specialEquip_Melee,Melee Controller
-Melee Control Enhancer T2,2,45,0.0000,20,1,41718,145% Melee Damage,,MELEE`1.45000`-1`1,T A,specialEquip_Melee,Melee Controller
-Melee Control Enhancer T3,3,88,0.0000,34,1,109875,188% Melee Damage,,MELEE`1.88000`-1`1,T A,specialEquip_Melee,Melee Controller
-Melee Control Enhancer T4,4,147,0.0000,50,1,203936,247% Melee Damage,,MELEE`2.47000`-1`1,T A,specialEquip_Melee,Melee Controller
-Melee Control Enhancer T5,5,220,0.0000,70,1,320100,320% Melee Damage,,MELEE`3.20000`-1`1,T A,specialEquip_Melee,Melee Controller
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-"Weapon Upgrades, Accuracy",,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-TTS Ballistic T1,1,1,0.0000,50,1,22425,+1 Aim Bonus,,ACC+BALL`-1.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Ballistic T2,2,2,0.0000,78,1,156189,+2 Aim Bonus,,ACC+BALL`-2.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Ballistic T3,3,3,0.0000,124,1,435010,+3 Aim Bonus,,ACC+BALL`-3.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Ballistic T4,4,4,0.0000,183,1,819798,+4 Aim Bonus,,ACC+BALL`-4.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Ballistic T5,5,5,0.0000,250,1,1295010,+5 Aim Bonus,,ACC+BALL`-5.0`-1`1,,equipment_TTS,Weapon TTS
-,,,,,,,,,,,,
-TTS Energy T1,1,1,0.0000,50,1,22425,+1 Aim Bonus,,ACC+ENGY`-1.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Energy T2,2,2,0.0000,78,1,156189,+2 Aim Bonus,,ACC+ENGY`-2.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Energy T3,3,3,0.0000,124,1,435010,+3 Aim Bonus,,ACC+ENGY`-3.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Energy T4,4,4,0.0000,183,1,819798,+4 Aim Bonus,,ACC+ENGY`-4.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Energy T5,5,5,0.0000,250,1,1295010,+5 Aim Bonus,,ACC+ENGY`-5.0`-1`1,,equipment_TTS,Weapon TTS
-,,,,,,,,,,,,
-TTS Missle T1,1,1,0.0000,50,1,22425,+1 Aim Bonus,,ACC+MSSL`-1.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Missle T2,2,2,0.0000,78,1,156189,+2 Aim Bonus,,ACC+MSSL`-2.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Missle T3,3,3,0.0000,124,1,435010,+3 Aim Bonus,,ACC+MSSL`-3.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Missle T4,4,4,0.0000,183,1,819798,+4 Aim Bonus,,ACC+MSSL`-4.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Missle T5,5,5,0.0000,250,1,1295010,+5 Aim Bonus,,ACC+MSSL`-5.0`-1`1,,equipment_TTS,Weapon TTS
-,,,,,,,,,,,,
-TTS Support T1,1,1,0.0000,30,1,22425,+1 Aim Bonus,,ACC+SPPT`-1.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Support T2,2,2,0.0000,42,1,156189,+2 Aim Bonus,,ACC+SPPT`-2.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Support T3,3,3,0.0000,64,1,435010,+3 Aim Bonus,,ACC+SPPT`-3.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Support T4,4,4,0.0000,90,1,819798,+4 Aim Bonus,,ACC+SPPT`-4.0`-1`1,,equipment_TTS,Weapon TTS
-TTS Support T5,5,5,0.0000,120,1,1295010,+5 Aim Bonus,,ACC+SPPT`-5.0`-1`1,,equipment_TTS,Weapon TTS
-,,,,,,,,,,,,
-TTS Omni T1,1,1,0.0000,100,1,82125,+1 Aim Bonus,All Weapon Types,ACC+BALL`-1.0`-1`1 ACC+ENGY`-1.0`-1`1 ACC+MSSL`-1.0`-1`1 ACC+SPPT`-1.0`-1`1 DMGPN`1.10000`-1`1,,equipment_TTS,Weapon TTS
-TTS Omni T2,2,2,0.0000,155,1,454011,+2 Aim Bonus,All Weapon Types,ACC+BALL`-2.0`-1`1 ACC+ENGY`-2.0`-1`1 ACC+MSSL`-2.0`-1`1 ACC+SPPT`-2.0`-1`1 DMGPN`1.15500`-1`1,,equipment_TTS,Weapon TTS
-TTS Omni T3,3,3,0.0000,249,1,1229178,+3 Aim Bonus,All Weapon Types,ACC+BALL`-3.0`-1`1 ACC+ENGY`-3.0`-1`1 ACC+MSSL`-3.0`-1`1 ACC+SPPT`-3.0`-1`1 DMGPN`1.24900`-1`1,,equipment_TTS,Weapon TTS
-TTS Omni T4,4,4,0.0000,365,1,2298952,+4 Aim Bonus,All Weapon Types,ACC+BALL`-4.0`-1`1 ACC+ENGY`-4.0`-1`1 ACC+MSSL`-4.0`-1`1 ACC+SPPT`-4.0`-1`1 DMGPN`1.36500`-1`1,,equipment_TTS,Weapon TTS
-TTS Omni T5,5,5,0.0000,500,1,3620120,+5 Aim Bonus,All Weapon Types,ACC+BALL`-5.0`-1`1 ACC+ENGY`-5.0`-1`1 ACC+MSSL`-5.0`-1`1 ACC+SPPT`-5.0`-1`1 DMGPN`1.50000`-1`1,,equipment_TTS,Weapon TTS
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-"Weapon Upgrades, Range",,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Range Upgrade Ballistic T1,1,30,0.0000,50,1,22425,+30m Range,,RANGE+BALL`30.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Ballistic T2,2,60,0.0000,78,1,156189,+60m Range,,RANGE+BALL`60.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Ballistic T3,3,90,0.0000,124,1,435010,+90m Range,,RANGE+BALL`90.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Ballistic T4,4,120,0.0000,183,1,819798,+120m Range,,RANGE+BALL`120.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Ballistic T5,5,150,0.0000,250,1,1295010,+150m Range,,RANGE+BALL`150.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-,,,,,,,,,,,,
-Range Upgrade Energy T1,1,30,0.0000,50,1,22425,+30m Range,,RANGE+ENGY`30.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Energy T2,2,60,0.0000,78,1,156189,+60m Range,,RANGE+ENGY`60.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Energy T3,3,90,0.0000,124,1,435010,+90m Range,,RANGE+ENGY`90.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Energy T4,4,120,0.0000,183,1,819798,+120m Range,,RANGE+ENGY`120.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Energy T5,5,150,0.0000,250,1,1295010,+150m Range,,RANGE+ENGY`150.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-,,,,,,,,,,,,
-Range Upgrade Missle T1,1,30,0.0000,50,1,22425,+30m Range,,RANGE+MSSL`30.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Missle T2,2,60,0.0000,78,1,156189,+60m Range,,RANGE+MSSL`60.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Missle T3,3,90,0.0000,124,1,435010,+90m Range,,RANGE+MSSL`90.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Missle T4,4,120,0.0000,183,1,819798,+120m Range,,RANGE+MSSL`120.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Missle T5,5,150,0.0000,250,1,1295010,+150m Range,,RANGE+MSSL`150.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-,,,,,,,,,,,,
-Range Upgrade Support T1,1,20,0.0000,30,1,22425,+20m Range,,RANGE+SPPT`20.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Support T2,2,40,0.0000,42,1,156189,+40m Range,,RANGE+SPPT`40.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Support T3,3,60,0.0000,64,1,435010,+60m Range,,RANGE+SPPT`60.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Support T4,4,80,0.0000,90,1,819798,+80m Range,,RANGE+SPPT`80.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Support T5,5,100,0.0000,120,1,1295010,+100m Range,,RANGE+SPPT`100.0`-1`1,,equipment_TTS,Weapon Range Enhancement
-,,,,,,,,,,,,
-Range Upgrade Omni T1,1,30,0.0000,100,1,82125,+30m Range,All Weapon Types,RANGE+BALL`30.0`-1`1 RANGE+ENGY`30.0`-1`1 RANGE+MSSL`30.0`-1`1 RANGE+SPPT`30.0`-1`1 DMGPN`1.10000`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Omni T2,2,60,0.0000,155,1,454011,+60m Range,All Weapon Types,RANGE+BALL`60.0`-1`1 RANGE+ENGY`60.0`-1`1 RANGE+MSSL`60.0`-1`1 RANGE+SPPT`60.0`-1`1 DMGPN`1.15500`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Omni T3,3,90,0.0000,249,1,1229178,+90m Range,All Weapon Types,RANGE+BALL`90.0`-1`1 RANGE+ENGY`90.0`-1`1 RANGE+MSSL`90.0`-1`1 RANGE+SPPT`90.0`-1`1 DMGPN`1.24900`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Omni T4,4,120,0.0000,365,1,2298952,+120m Range,All Weapon Types,RANGE+BALL`120.0`-1`1 RANGE+ENGY`120.0`-1`1 RANGE+MSSL`120.0`-1`1 RANGE+SPPT`120.0`-1`1 DMGPN`1.36500`-1`1,,equipment_TTS,Weapon Range Enhancement
-Range Upgrade Omni T5,5,150,0.0000,500,1,3620120,+150m Range,All Weapon Types,RANGE+BALL`150.0`-1`1 RANGE+ENGY`150.0`-1`1 RANGE+MSSL`150.0`-1`1 RANGE+SPPT`150.0`-1`1 DMGPN`1.50000`-1`1,,equipment_TTS,Weapon Range Enhancement
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-"Weapon Upgrades, Damage",,,,,,,,,,,,
-,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Model Name
-,,,,,,,,,,,,
-Damage Upgrade Ballistic T1,1,105,0.0000,50,1,30125,105% Damage,,DAMAGE+BALL`1.05000`-1`1,,Ballistic,Weapon Damage Upgrade
-Damage Upgrade Ballistic T2,2,110,0.0000,78,1,180685,110% Damage,,DAMAGE+BALL`1.10000`-1`1,,Ballistic,Weapon Damage Upgrade
-Damage Upgrade Ballistic T3,3,115,0.0000,124,1,494515,115% Damage,,DAMAGE+BALL`1.15000`-1`1,,Ballistic,Weapon Damage Upgrade
-Damage Upgrade Ballistic T4,4,120,0.0000,183,1,927618,120% Damage,,DAMAGE+BALL`1.20000`-1`1,,Ballistic,Weapon Damage Upgrade
-Damage Upgrade Ballistic T5,5,125,0.0000,250,1,1462500,125% Damage,,DAMAGE+BALL`1.25000`-1`1,,Ballistic,Weapon Damage Upgrade
-,,,,,,,,,,,,
-Damage Upgrade Energy T1,1,105,0.0000,50,1,30125,105% Damage,,DAMAGE+ENGY`1.05000`-1`1,,Energy,Weapon Damage Upgrade
-Damage Upgrade Energy T2,2,110,0.0000,78,1,180685,110% Damage,,DAMAGE+ENGY`1.10000`-1`1,,Energy,Weapon Damage Upgrade
-Damage Upgrade Energy T3,3,115,0.0000,124,1,494515,115% Damage,,DAMAGE+ENGY`1.15000`-1`1,,Energy,Weapon Damage Upgrade
-Damage Upgrade Energy T4,4,120,0.0000,183,1,927618,120% Damage,,DAMAGE+ENGY`1.20000`-1`1,,Energy,Weapon Damage Upgrade
-Damage Upgrade Energy T5,5,125,0.0000,250,1,1462500,125% Damage,,DAMAGE+ENGY`1.25000`-1`1,,Energy,Weapon Damage Upgrade
-,,,,,,,,,,,,
-Damage Upgrade Missle T1,1,105,0.0000,50,1,30125,105% Damage,,DAMAGE+MSSL`1.05000`-1`1,,Missle,Weapon Damage Upgrade
-Damage Upgrade Missle T2,2,110,0.0000,78,1,180685,110% Damage,,DAMAGE+MSSL`1.10000`-1`1,,Missle,Weapon Damage Upgrade
-Damage Upgrade Missle T3,3,115,0.0000,124,1,494515,115% Damage,,DAMAGE+MSSL`1.15000`-1`1,,Missle,Weapon Damage Upgrade
-Damage Upgrade Missle T4,4,120,0.0000,183,1,927618,120% Damage,,DAMAGE+MSSL`1.20000`-1`1,,Missle,Weapon Damage Upgrade
-Damage Upgrade Missle T5,5,125,0.0000,250,1,1462500,125% Damage,,DAMAGE+MSSL`1.25000`-1`1,,Missle,Weapon Damage Upgrade
-,,,,,,,,,,,,
-Damage Upgrade Support T1,1,105,0.0000,40,1,30125,105% Damage,,DAMAGE+SPPT`1.05000`-1`1,,Support,Weapon Damage Upgrade
-Damage Upgrade Support T2,2,110,0.0000,55,1,180685,110% Damage,,DAMAGE+SPPT`1.10000`-1`1,,Support,Weapon Damage Upgrade
-Damage Upgrade Support T3,3,115,0.0000,81,1,494515,115% Damage,,DAMAGE+SPPT`1.15000`-1`1,,Support,Weapon Damage Upgrade
-Damage Upgrade Support T4,4,120,0.0000,113,1,927618,120% Damage,,DAMAGE+SPPT`1.20000`-1`1,,Support,Weapon Damage Upgrade
-Damage Upgrade Support T5,5,125,0.0000,150,1,1462500,125% Damage,,DAMAGE+SPPT`1.25000`-1`1,,Support,Weapon Damage Upgrade
-,,,,,,,,,,,,
-Damage Upgrade Omni T1,1,105,0.0000,100,1,82125,105% Damage,All Weapon Types,DAMAGE+BALL`1.05000`-1`1 DAMAGE+ENGY`1.05000`-1`1 DAMAGE+MSSL`1.05000`-1`1 DAMAGE+SPPT`1.05000`-1`1 DMGPN`1.10000`-1`1,,specialEquip_Melee,Weapon Damage Upgrade
-Damage Upgrade Omni T2,2,110,0.0000,155,1,454011,110% Damage,All Weapon Types,DAMAGE+BALL`1.10000`-1`1 DAMAGE+ENGY`1.10000`-1`1 DAMAGE+MSSL`1.10000`-1`1 DAMAGE+SPPT`1.10000`-1`1 DMGPN`1.15500`-1`1,,specialEquip_Melee,Weapon Damage Upgrade
-Damage Upgrade Omni T3,3,115,0.0000,249,1,1229178,115% Damage,All Weapon Types,DAMAGE+BALL`1.15000`-1`1 DAMAGE+ENGY`1.15000`-1`1 DAMAGE+MSSL`1.15000`-1`1 DAMAGE+SPPT`1.15000`-1`1 DMGPN`1.24900`-1`1,,specialEquip_Melee,Weapon Damage Upgrade
-Damage Upgrade Omni T4,4,120,0.0000,365,1,2298952,120% Damage,All Weapon Types,DAMAGE+BALL`1.20000`-1`1 DAMAGE+ENGY`1.20000`-1`1 DAMAGE+MSSL`1.20000`-1`1 DAMAGE+SPPT`1.20000`-1`1 DMGPN`1.36500`-1`1,,specialEquip_Melee,Weapon Damage Upgrade
-Damage Upgrade Omni T5,5,125,0.0000,500,1,3620120,125% Damage,All Weapon Types,DAMAGE+BALL`1.25000`-1`1 DAMAGE+ENGY`1.25000`-1`1 DAMAGE+MSSL`1.25000`-1`1 DAMAGE+SPPT`1.25000`-1`1 DMGPN`1.50000`-1`1,,specialEquip_Melee,Weapon Damage Upgrade
+Name,Type,Level,Tonnage,Power Drain,Equip Slots,Cost,GUI Feature A,GUI Feature B,Specials Code,Allowed Locations,Icon Code,Manf. Code,Model Name
+,,,,,,,,,,,,,
+Engine Upgrade,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Engine Upgrade A Basic T1,1,10,0.0625,2 0 1.00000,1,20120,110% Walk/Sprint,,+ENGINE1`1.10000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade A Basic T2,2,10,0.0625,3 0 1.00000,1,23991,120% Walk/Sprint,,+ENGINE1`1.20000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade A Basic T3,3,10,0.0625,4 0 1.00000,1,35603,130% Walk/Sprint,,+ENGINE1`1.30000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade A Basic T4,4,10,0.0625,7 0 1.00000,1,54956,140% Walk/Sprint,,+ENGINE1`1.40000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade A Basic T5,5,10,0.0625,10 0 1.00000,1,82050,150% Walk/Sprint,,+ENGINE1`1.50000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+,,,,,,,,,,,,,
+Engine Upgrade B Enhanced T1,1,13,0.0625,2 0 1.04250,2,50565,113% Walk/Sprint,,+ENGINE2`1.13000 +STABILITY_ENGINE1`7,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T2,2,13,0.0625,3 0 1.06219,2,59295,126% Walk/Sprint,,+ENGINE2`1.26000 +STABILITY_ENGINE1`13,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T3,3,13,0.0625,5 0 1.09818,2,85486,139% Walk/Sprint,,+ENGINE2`1.39000 +STABILITY_ENGINE1`19,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T4,4,13,0.0625,8 0 1.14480,2,129138,152% Walk/Sprint,,+ENGINE2`1.52000 +STABILITY_ENGINE1`25,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T5,5,13,0.0625,12 0 1.20000,2,190250,165% Walk/Sprint,,+ENGINE2`1.65000 +STABILITY_ENGINE1`32,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+,,,,,,,,,,,,,
+Engine Upgrade C Racer T1,1,14.4,0.0625,3 2 1.09250,2,92150,114% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.14400 +STABILITY_ENGINE1`9 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T2,2,14.4,0.0625,4 2 1.13406,2,118898,129% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.28800 +STABILITY_ENGINE1`18 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T3,3,14.4,0.0625,6 4 1.21006,2,199143,143% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.43200 +STABILITY_ENGINE1`27 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T4,4,14.4,0.0625,10 5 1.30847,2,332883,158% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.57600 +STABILITY_ENGINE1`36 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T5,5,14.4,0.0625,16 8 1.42500,2,520120,172% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.72000 +STABILITY_ENGINE1`45 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+,,,,,,,,,,,,,
+Engine Upgrade D Ultra T1,1,16,0.0625,8 5 1.12500,2,191020,116% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.16000 +STABILITY_ENGINE2`12 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T2,2,16,0.0625,9 5 1.19375,2,238491,132% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.32000 +STABILITY_ENGINE2`24 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T3,3,16,0.0625,12 7 1.31945,2,380905,148% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.48000 +STABILITY_ENGINE2`36 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T4,4,16,0.0625,18 9 1.48224,2,618261,164% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.64000 +STABILITY_ENGINE2`48 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T5,5,16,0.0625,25 12 1.67500,2,950560,180% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.80000 +STABILITY_ENGINE2`60 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Jump Jet Upgrade,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+JJ Upgrade A Basic T1,1,16,0.0625,2 0 1.06250,1,20120,116% Jump Distance,,+JJ_DIST1`1.16000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T2,2,16,0.0625,2 0 1.10469,1,23991,132% Jump Distance,,+JJ_DIST1`1.32000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T3,3,16,0.0625,4 0 1.18182,1,35603,148% Jump Distance,,+JJ_DIST1`1.48000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T4,4,16,0.0625,6 0 1.28171,1,54956,164% Jump Distance,,+JJ_DIST1`1.64000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T5,5,16,0.0625,9 0 1.40000,1,82050,180% Jump Distance,,+JJ_DIST1`1.80000,T L,_action_jump,SF,Jump Jet Accelerator
+,,,,,,,,,,,,,
+JJ Upgrade B Turbo T1,1,16,0.0625,5 2 1.05000,2,92150,116% Jump Distance,,+JJ_DIST2`1.16000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T2,2,16,0.0625,6 2 1.07500,2,118898,132% Jump Distance,,+JJ_DIST2`1.32000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T3,3,16,0.0625,9 4 1.12071,2,199143,148% Jump Distance,,+JJ_DIST2`1.48000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T4,4,16,0.0625,13 5 1.17990,2,332883,164% Jump Distance,,+JJ_DIST2`1.64000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T5,5,16,0.0625,20 8 1.25000,2,520120,180% Jump Distance,,+JJ_DIST2`1.80000,T L,_action_jump,SF,Jump Jet Accelerator
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Force Field,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Force Field T1,1,10,0.0625,8 2 1.00000,1,32080,90% Dmg,,+FORCE_FIELD`0.90000,,specialEquip_System,SF,Force Field Generator
+Force Field T2,2,10,0.0625,10 3 1.00000,1,91702,80% Dmg,,+FORCE_FIELD`0.80000,,specialEquip_System,SF,Force Field Generator
+Force Field T3,3,10,0.0625,16 5 1.00000,1,270566,70% Dmg,,+FORCE_FIELD`0.70000,,specialEquip_System,SF,Force Field Generator
+Force Field T4,4,10,0.1250,26 8 1.00000,1,568674,60% Dmg,,+FORCE_FIELD`0.60000,,specialEquip_System,SF,Force Field Generator
+Force Field T5,5,10,0.1250,40 12 1.00000,1,986025,50% Dmg,,+FORCE_FIELD`0.50000,,specialEquip_System,SF,Force Field Generator
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Target System Jammer,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Target Tracking Jammer A Series T1,1,10,0.0625,0 5 1.00000,1,92080,-0.5 Enemy Accuracy,,+JAMMER`0.5,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer A Series T2,2,10,0.0625,0 6 1.00000,1,175477,-1.0 Enemy Accuracy,,+JAMMER`1.0,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer A Series T3,3,10,0.0625,0 9 1.00000,1,425666,-1.5 Enemy Accuracy,,+JAMMER`1.5,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer A Series T4,4,10,0.0625,0 13 1.00000,1,842649,-2.0 Enemy Accuracy,,+JAMMER`2.0,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer A Series T5,5,10,0.0625,0 20 1.00000,1,1426425,-2.5 Enemy Accuracy,,+JAMMER`2.5,,specialEquip_System,SF,Target Tracking System Jammer
+,,,,,,,,,,,,,
+Target Tracking Jammer B Series T1,1,12,0.0625,4 0 1.06250,1,68420,-0.5 Enemy Accuracy,,+JAMMER`0.5,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer B Series T2,2,12,0.0625,5 0 1.10469,1,129151,-1.0 Enemy Accuracy,,+JAMMER`1.0,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer B Series T3,3,12,0.0625,8 0 1.18182,1,311345,-1.5 Enemy Accuracy,,+JAMMER`1.5,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer B Series T4,4,12,0.0625,13 0 1.28171,1,615001,-2.0 Enemy Accuracy,,+JAMMER`2.0,,specialEquip_System,SF,Target Tracking System Jammer
+Target Tracking Jammer B Series T5,5,12,0.0625,20 0 1.40000,1,1040120,-2.5 Enemy Accuracy,,+JAMMER`2.5,,specialEquip_System,SF,Target Tracking System Jammer
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+ECM Unit,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+ECM Unit A Series T1,1,1,0.0625,0 3 1.00000,1,92080,-0.5 Missle Def.,,+ECM`0.5,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit A Series T2,2,1,0.0625,0 4 1.00000,1,175477,-1.0 Missle Def.,,+ECM`1.0,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit A Series T3,3,1,0.0625,0 6 1.00000,1,425666,-1.5 Missle Def.,,+ECM`1.5,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit A Series T4,4,1,0.0625,0 10 1.00000,1,842649,-2.0 Missle Def.,,+ECM`2.0,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit A Series T5,5,1,0.0625,0 16 1.00000,1,1426425,-2.5 Missle Def.,,+ECM`2.5,,specialEquip_System,SF,ECM Counter-Tracking Unit
+,,,,,,,,,,,,,
+ECM Unit B Series T1,1,7,0.0625,4 0 1.02000,1,68420,-0.5 Missle Def.,,+ECM`0.5,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit B Series T2,2,7,0.0625,5 0 1.04250,1,129151,-1.0 Missle Def.,,+ECM`1.0,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit B Series T3,3,7,0.0625,7 0 1.08364,1,311345,-1.5 Missle Def.,,+ECM`1.5,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit B Series T4,4,7,0.0625,11 0 1.13691,1,615001,-2.0 Missle Def.,,+ECM`2.0,,specialEquip_System,SF,ECM Counter-Tracking Unit
+ECM Unit B Series T5,5,7,0.0625,16 0 1.20000,1,1040120,-2.5 Missle Def.,,+ECM`2.5,,specialEquip_System,SF,ECM Counter-Tracking Unit
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Sensor Array Package,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Sensor Array Package T1,1,400,0.0625,2 0 1.00000,1,12050,400m Range Enhance,,+SENSORS`400.0,,equipment_Rangefinder,SF,Sensor Array Package
+Sensor Array Package T2,2,675,0.0625,3 0 1.00000,1,54943,675m Range Enhance,,+SENSORS`675.0,,equipment_Rangefinder,SF,Sensor Array Package
+Sensor Array Package T3,3,950,0.0625,5 1 1.00000,1,144350,950m Range Enhance,,+SENSORS`950.0,,equipment_Rangefinder,SF,Sensor Array Package
+Sensor Array Package T4,4,1225,0.0625,8 3 1.00000,1,267737,1225m Range Enhance,,+SENSORS`1225.0,,equipment_Rangefinder,SF,Sensor Array Package
+Sensor Array Package T5,5,1500,0.0625,12 5 1.00000,1,420120,1500m Range Enhance,,+SENSORS`1500.0,,equipment_Rangefinder,SF,Sensor Array Package
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Cockpit Armor and Upgrades,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Cockpit Armor T1,1,1,0.0000,2 0 1.00000,1,6020,+1 Injury Resist,125% Head Armor,+COCKPIT_ARMOR`1 +HEAD_ARMOR`1.25000,H,equipment_Cockpit,SF,Cockpit Armor
+Cockpit Armor T2,2,1,0.0000,3 0 1.00000,1,46425,+1 Injury Resist,150% Head Armor,+COCKPIT_ARMOR`1 +HEAD_ARMOR`1.50000,H,equipment_Cockpit,SF,Cockpit Armor
+Cockpit Armor T3,3,2,0.0000,5 1 1.00000,1,130646,+2 Injury Resist,175% Head Armor,+COCKPIT_ARMOR`2 +HEAD_ARMOR`1.75000,H,equipment_Cockpit,SF,Cockpit Armor
+Cockpit Armor T4,4,2,0.0000,8 3 1.00000,1,246876,+2 Injury Resist,200% Head Armor,+COCKPIT_ARMOR`2 +HEAD_ARMOR`2.00000,H,equipment_Cockpit,SF,Cockpit Armor
+Cockpit Armor T5,5,3,0.0000,12 5 1.00000,1,390420,+3 Injury Resist,225% Head Armor,+COCKPIT_ARMOR`3 +HEAD_ARMOR`2.25000,H,equipment_Cockpit,SF,Cockpit Armor
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Melee Upgrades,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Stomper DFA Controller T1,1,25,0.0000,2 0 1.00000,1,9020,125% DFA Damage,80% DFA Self Injury,+DFA_DMG`1.25000,,equipment_ActuatorLeg,SF,Stomper
+Stomper DFA Controller T2,2,45,0.0000,3 0 1.00000,1,41718,145% DFA Damage,69% DFA Self Injury,+DFA_DMG`1.45000,,equipment_ActuatorLeg,SF,Stomper
+Stomper DFA Controller T3,3,88,0.0000,5 1 1.00000,1,109875,188% DFA Damage,53% DFA Self Injury,+DFA_DMG`1.88000,,equipment_ActuatorLeg,SF,Stomper
+Stomper DFA Controller T4,4,147,0.0000,8 3 1.00000,1,203936,247% DFA Damage,40% DFA Self Injury,+DFA_DMG`2.47000,,equipment_ActuatorLeg,SF,Stomper
+Stomper DFA Controller T5,5,220,0.0000,12 5 1.00000,1,320100,320% DFA Damage,31% DFA Self Injury,+DFA_DMG`3.20000,,equipment_ActuatorLeg,SF,Stomper
+,,,,,,,,,,,,,
+Melee Combat Controller T1,1,25,0.0000,2 0 1.00000,1,9020,125% Melee Damage,,+MELEE_DMG`1.25000,,specialEquip_Melee,SF,Melee Controller
+Melee Combat Controller T2,2,45,0.0000,3 0 1.00000,1,41718,145% Melee Damage,,+MELEE_DMG`1.45000,,specialEquip_Melee,SF,Melee Controller
+Melee Combat Controller T3,3,88,0.0000,5 1 1.00000,1,109875,188% Melee Damage,,+MELEE_DMG`1.88000,,specialEquip_Melee,SF,Melee Controller
+Melee Combat Controller T4,4,147,0.0000,8 3 1.00000,1,203936,247% Melee Damage,,+MELEE_DMG`2.47000,,specialEquip_Melee,SF,Melee Controller
+Melee Combat Controller T5,5,220,0.0000,12 5 1.00000,1,320100,320% Melee Damage,,+MELEE_DMG`3.20000,,specialEquip_Melee,SF,Melee Controller
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Weapon Upgrades, Accuracy",,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+TTS Ballistic T1,1,0.6,0.0000,2 0 1.00000,1,35050,+0.6 Aim Bonus,,+ACC_BALL`-0.6,,equipment_TTS,SF,Weapon TTS
+TTS Ballistic T2,2,1.2,0.0000,3 0 1.02031,1,188009,+1.2 Aim Bonus,,+ACC_BALL`-1.2,,equipment_TTS,SF,Weapon TTS
+TTS Ballistic T3,3,1.8,0.0000,5 1 1.05745,1,506840,+1.8 Aim Bonus,,+ACC_BALL`-1.8,,equipment_TTS,SF,Weapon TTS
+TTS Ballistic T4,4,2.4,0.0000,8 3 1.10555,1,946845,+2.4 Aim Bonus,,+ACC_BALL`-2.4,,equipment_TTS,SF,Weapon TTS
+TTS Ballistic T5,5,3,0.0000,12 5 1.16250,1,1490250,+3.0 Aim Bonus,,+ACC_BALL`-3.0,,equipment_TTS,SF,Weapon TTS
+,,,,,,,,,,,,,
+TTS Energy T1,1,0.6,0.0000,2 0 1.00000,1,35050,+0.6 Aim Bonus,,+ACC_ENGY`-0.6,,equipment_TTS,SF,Weapon TTS
+TTS Energy T2,2,1.2,0.0000,3 0 1.02031,1,188009,+1.2 Aim Bonus,,+ACC_ENGY`-1.2,,equipment_TTS,SF,Weapon TTS
+TTS Energy T3,3,1.8,0.0000,5 1 1.05745,1,506840,+1.8 Aim Bonus,,+ACC_ENGY`-1.8,,equipment_TTS,SF,Weapon TTS
+TTS Energy T4,4,2.4,0.0000,8 3 1.10555,1,946845,+2.4 Aim Bonus,,+ACC_ENGY`-2.4,,equipment_TTS,SF,Weapon TTS
+TTS Energy T5,5,3,0.0000,12 5 1.16250,1,1490250,+3.0 Aim Bonus,,+ACC_ENGY`-3.0,,equipment_TTS,SF,Weapon TTS
+,,,,,,,,,,,,,
+TTS Missle T1,1,0.6,0.0000,2 0 1.00000,1,35050,+0.6 Aim Bonus,,+ACC_MSSL`-0.6,,equipment_TTS,SF,Weapon TTS
+TTS Missle T2,2,1.2,0.0000,3 0 1.02031,1,188009,+1.2 Aim Bonus,,+ACC_MSSL`-1.2,,equipment_TTS,SF,Weapon TTS
+TTS Missle T3,3,1.8,0.0000,5 1 1.05745,1,506840,+1.8 Aim Bonus,,+ACC_MSSL`-1.8,,equipment_TTS,SF,Weapon TTS
+TTS Missle T4,4,2.4,0.0000,8 3 1.10555,1,946845,+2.4 Aim Bonus,,+ACC_MSSL`-2.4,,equipment_TTS,SF,Weapon TTS
+TTS Missle T5,5,3,0.0000,12 5 1.16250,1,1490250,+3.0 Aim Bonus,,+ACC_MSSL`-3.0,,equipment_TTS,SF,Weapon TTS
+,,,,,,,,,,,,,
+TTS Support T1,1,0.6,0.0000,1 0 1.00000,1,22425,+0.6 Aim Bonus,,+ACC_SPPT`-0.6,,equipment_TTS,SF,Weapon TTS
+TTS Support T2,2,1.2,0.0000,1 0 1.01250,1,26926,+1.2 Aim Bonus,,+ACC_SPPT`-1.2,,equipment_TTS,SF,Weapon TTS
+TTS Support T3,3,1.8,0.0000,3 1 1.03536,1,36309,+1.8 Aim Bonus,,+ACC_SPPT`-1.8,,equipment_TTS,SF,Weapon TTS
+TTS Support T4,4,2.4,0.0000,5 2 1.06495,1,49258,+2.4 Aim Bonus,,+ACC_SPPT`-2.4,,equipment_TTS,SF,Weapon TTS
+TTS Support T5,5,3,0.0000,8 3 1.10000,1,65250,+3.0 Aim Bonus,,+ACC_SPPT`-3.0,,equipment_TTS,SF,Weapon TTS
+,,,,,,,,,,,,,
+TTS Omni T1,1,0.5,0.0000,5 2 1.00000,1,82125,+0.5 Aim Bonus,All Weapon Types,+ACC_OMNI`-0.5,,equipment_TTS,SF,Weapon TTS
+TTS Omni T2,2,1,0.0000,6 2 1.07813,1,327876,+1.0 Aim Bonus,All Weapon Types,+ACC_OMNI`-1.0,,equipment_TTS,SF,Weapon TTS
+TTS Omni T3,3,1.5,0.0000,9 4 1.22097,1,840126,+1.5 Aim Bonus,All Weapon Types,+ACC_OMNI`-1.5,,equipment_TTS,SF,Weapon TTS
+TTS Omni T4,4,2,0.0000,13 5 1.40595,1,1547059,+2.0 Aim Bonus,All Weapon Types,+ACC_OMNI`-2.0,,equipment_TTS,SF,Weapon TTS
+TTS Omni T5,5,2.5,0.0000,20 8 1.62500,1,2420120,+2.5 Aim Bonus,All Weapon Types,+ACC_OMNI`-2.5,,equipment_TTS,SF,Weapon TTS
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Weapon Upgrades, Range",,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Range Upgrade Ballistic T1,1,50,0.0000,4 0 1.00000,1,35050,+50m Range,,+RANGE_BALL`50.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Ballistic T2,2,100,0.0000,5 1 1.02281,1,188009,+100m Range,,+RANGE_BALL`100.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Ballistic T3,3,150,0.0000,8 3 1.06452,1,506840,+150m Range,,+RANGE_BALL`150.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Ballistic T4,4,200,0.0000,13 6 1.11854,1,946845,+200m Range,,+RANGE_BALL`200.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Ballistic T5,5,250,0.0000,20 10 1.18250,1,1490250,+250m Range,,+RANGE_BALL`250.0,,equipment_TTS,SF,Weapon Range Enhancement
+,,,,,,,,,,,,,
+Range Upgrade Energy T1,1,50,0.0000,4 0 1.00000,1,35050,+50m Range,,+RANGE_ENGY`50.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Energy T2,2,100,0.0000,5 1 1.02281,1,188009,+100m Range,,+RANGE_ENGY`100.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Energy T3,3,150,0.0000,8 3 1.06452,1,506840,+150m Range,,+RANGE_ENGY`150.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Energy T4,4,200,0.0000,13 6 1.11854,1,946845,+200m Range,,+RANGE_ENGY`200.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Energy T5,5,250,0.0000,20 10 1.18250,1,1490250,+250m Range,,+RANGE_ENGY`250.0,,equipment_TTS,SF,Weapon Range Enhancement
+,,,,,,,,,,,,,
+Range Upgrade Missle T1,1,120,0.0000,4 0 1.00000,1,35050,+120m Range,,+RANGE_MSSL`120.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Missle T2,2,240,0.0000,5 1 1.02281,1,188009,+240m Range,,+RANGE_MSSL`240.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Missle T3,3,360,0.0000,8 3 1.06452,1,506840,+360m Range,,+RANGE_MSSL`360.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Missle T4,4,480,0.0000,13 6 1.11854,1,946845,+480m Range,,+RANGE_MSSL`480.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Missle T5,5,600,0.0000,20 10 1.18250,1,1490250,+600m Range,,+RANGE_MSSL`600.0,,equipment_TTS,SF,Weapon Range Enhancement
+,,,,,,,,,,,,,
+Range Upgrade Support T1,1,30,0.0000,3 0 1.00000,1,22425,+30m Range,,+RANGE_SPPT`30.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Support T2,2,60,0.0000,4 0 1.01563,1,26926,+60m Range,,+RANGE_SPPT`60.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Support T3,3,90,0.0000,6 1 1.04419,1,36309,+90m Range,,+RANGE_SPPT`90.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Support T4,4,120,0.0000,10 3 1.08119,1,49258,+120m Range,,+RANGE_SPPT`120.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Support T5,5,150,0.0000,16 5 1.12500,1,65250,+150m Range,,+RANGE_SPPT`150.0,,equipment_TTS,SF,Weapon Range Enhancement
+,,,,,,,,,,,,,
+Range Upgrade Omni T1,1,40,0.0000,6 5 1.00000,1,82125,+40m Range,All Weapon Types,+RANGE_BALL`45.0 +RANGE_ENGY`45.0 +RANGE_MSSL`90.0 +RANGE_SPPT`25.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Omni T2,2,80,0.0000,8 6 1.10781,1,327876,+80m Range,All Weapon Types,+RANGE_BALL`90.0 +RANGE_ENGY`90.0 +RANGE_MSSL`180.0 +RANGE_SPPT`50.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Omni T3,3,120,0.0000,13 9 1.30494,1,840126,+120m Range,All Weapon Types,+RANGE_BALL`135.0 +RANGE_ENGY`135.0 +RANGE_MSSL`270.0 +RANGE_SPPT`75.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Omni T4,4,160,0.0000,21 13 1.56021,1,1547059,+160m Range,All Weapon Types,+RANGE_BALL`180.0 +RANGE_ENGY`180.0 +RANGE_MSSL`360.0 +RANGE_SPPT`100.0,,equipment_TTS,SF,Weapon Range Enhancement
+Range Upgrade Omni T5,5,200,0.0000,32 20 1.86250,1,2420120,+200m Range,All Weapon Types,+RANGE_BALL`225.0 +RANGE_ENGY`225.0 +RANGE_MSSL`450.0 +RANGE_SPPT`125.0,,equipment_TTS,SF,Weapon Range Enhancement
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Weapon Upgrades, Damage",,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
+,,,,,,,,,,,,,
+Damage Upgrade Ballistic T1,1,112,0.0000,5 0 1.00000,1,30125,112% Damage,,+DAMAGE_BALL`1.12000,,Ballistic,SF,Weapon Damage Upgrade
+Damage Upgrade Ballistic T2,2,124,0.0000,6 1 1.02500,1,180685,124% Damage,,+DAMAGE_BALL`1.24000,,Ballistic,SF,Weapon Damage Upgrade
+Damage Upgrade Ballistic T3,3,136,0.0000,10 3 1.07071,1,494515,136% Damage,,+DAMAGE_BALL`1.36000,,Ballistic,SF,Weapon Damage Upgrade
+Damage Upgrade Ballistic T4,4,148,0.0000,16 7 1.12990,1,927618,148% Damage,,+DAMAGE_BALL`1.48000,,Ballistic,SF,Weapon Damage Upgrade
+Damage Upgrade Ballistic T5,5,160,0.0000,25 12 1.20000,1,1462500,160% Damage,,+DAMAGE_BALL`1.60000,,Ballistic,SF,Weapon Damage Upgrade
+,,,,,,,,,,,,,
+Damage Upgrade Energy T1,1,112,0.0000,5 0 1.00000,1,30125,112% Damage,,+DAMAGE_ENGY`1.12000,,Energy,SF,Weapon Damage Upgrade
+Damage Upgrade Energy T2,2,124,0.0000,6 1 1.02500,1,180685,124% Damage,,+DAMAGE_ENGY`1.24000,,Energy,SF,Weapon Damage Upgrade
+Damage Upgrade Energy T3,3,136,0.0000,10 3 1.07071,1,494515,136% Damage,,+DAMAGE_ENGY`1.36000,,Energy,SF,Weapon Damage Upgrade
+Damage Upgrade Energy T4,4,148,0.0000,16 7 1.12990,1,927618,148% Damage,,+DAMAGE_ENGY`1.48000,,Energy,SF,Weapon Damage Upgrade
+Damage Upgrade Energy T5,5,160,0.0000,25 12 1.20000,1,1462500,160% Damage,,+DAMAGE_ENGY`1.60000,,Energy,SF,Weapon Damage Upgrade
+,,,,,,,,,,,,,
+Damage Upgrade Missle T1,1,112,0.0000,5 0 1.00000,1,30125,112% Damage,,+DAMAGE_MSSL`1.12000,,Missle,SF,Weapon Damage Upgrade
+Damage Upgrade Missle T2,2,124,0.0000,6 1 1.02500,1,180685,124% Damage,,+DAMAGE_MSSL`1.24000,,Missle,SF,Weapon Damage Upgrade
+Damage Upgrade Missle T3,3,136,0.0000,10 3 1.07071,1,494515,136% Damage,,+DAMAGE_MSSL`1.36000,,Missle,SF,Weapon Damage Upgrade
+Damage Upgrade Missle T4,4,148,0.0000,16 7 1.12990,1,927618,148% Damage,,+DAMAGE_MSSL`1.48000,,Missle,SF,Weapon Damage Upgrade
+Damage Upgrade Missle T5,5,160,0.0000,25 12 1.20000,1,1462500,160% Damage,,+DAMAGE_MSSL`1.60000,,Missle,SF,Weapon Damage Upgrade
+,,,,,,,,,,,,,
+Damage Upgrade Support T1,1,112,0.0000,4 0 1.00000,1,30125,112% Damage,,+DAMAGE_SPPT`1.12000,,Support,SF,Weapon Damage Upgrade
+Damage Upgrade Support T2,2,124,0.0000,5 1 1.02063,1,180685,124% Damage,,+DAMAGE_SPPT`1.24000,,Support,SF,Weapon Damage Upgrade
+Damage Upgrade Support T3,3,136,0.0000,8 2 1.05834,1,494515,136% Damage,,+DAMAGE_SPPT`1.36000,,Support,SF,Weapon Damage Upgrade
+Damage Upgrade Support T4,4,148,0.0000,13 5 1.10717,1,927618,148% Damage,,+DAMAGE_SPPT`1.48000,,Support,SF,Weapon Damage Upgrade
+Damage Upgrade Support T5,5,160,0.0000,20 8 1.16500,1,1462500,160% Damage,,+DAMAGE_SPPT`1.60000,,Support,SF,Weapon Damage Upgrade
+,,,,,,,,,,,,,
+Damage Upgrade Omni T1,1,108,0.0000,10 8 1.00000,1,82125,108% Damage,All Weapon Types,+DAMAGE_BALL`1.08000 +DAMAGE_ENGY`1.08000 +DAMAGE_MSSL`1.08000 +DAMAGE_SPPT`1.08000,,specialEquip_Melee,SF,Weapon Damage Upgrade
+Damage Upgrade Omni T2,2,116,0.0000,13 10 1.12500,1,454011,116% Damage,All Weapon Types,+DAMAGE_BALL`1.16000 +DAMAGE_ENGY`1.16000 +DAMAGE_MSSL`1.16000 +DAMAGE_SPPT`1.16000,,specialEquip_Melee,SF,Weapon Damage Upgrade
+Damage Upgrade Omni T3,3,124,0.0000,20 14 1.35355,1,1229178,124% Damage,All Weapon Types,+DAMAGE_BALL`1.24000 +DAMAGE_ENGY`1.24000 +DAMAGE_MSSL`1.24000 +DAMAGE_SPPT`1.24000,,specialEquip_Melee,SF,Weapon Damage Upgrade
+Damage Upgrade Omni T4,4,132,0.0000,33 22 1.64952,1,2298952,132% Damage,All Weapon Types,+DAMAGE_BALL`1.32000 +DAMAGE_ENGY`1.32000 +DAMAGE_MSSL`1.32000 +DAMAGE_SPPT`1.32000,,specialEquip_Melee,SF,Weapon Damage Upgrade
+Damage Upgrade Omni T5,5,140,0.0000,50 32 2.00000,1,3620120,140% Damage,All Weapon Types,+DAMAGE_BALL`1.40000 +DAMAGE_ENGY`1.40000 +DAMAGE_MSSL`1.40000 +DAMAGE_SPPT`1.40000,,specialEquip_Melee,SF,Weapon Damage Upgrade

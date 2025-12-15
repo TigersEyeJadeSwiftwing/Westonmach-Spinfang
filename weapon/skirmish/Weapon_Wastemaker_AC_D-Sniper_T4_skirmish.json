@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Manufacturer": "Westonmach",
+    "Manufacturer": "Gralthler",
     "Cost": 122000,
     "Rarity": 0,
     "Purchasable": true,
@@ -9,23 +9,23 @@
     "UIName": "Wastemaker AC D-Sniper T4",
     "Name": "Wastemaker AC D-Sniper T4",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated when installed: 4\n\n"
+    "Details": "Heat generated per turn: 5.\nDamage taken from all sources: 109.0930%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC2",
-  "MinRange": 0,
-  "MaxRange": 1900,
+  "MinRange": 400,
+  "MaxRange": 1150,
   "RangeSplit": [
-    0,
-    900,
-    1900
+    400,
+    400,
+    1150
   ],
-  "ammoCategoryID": "ReaperSniper",
+  "ammoCategoryID": "WM_Snp",
   "StartingAmmoCapacity": 0,
-  "Damage": 33,
+  "Damage": 18,
   "HeatDamage": 0,
-  "Instability": 4,
+  "Instability": 2,
   "DamageVariance": 0,
   "CriticalChanceMultiplier": 0.4,
   "IndirectFireCapable": false,
@@ -37,8 +37,8 @@
   "AccuracyModifier": -1,
   "EvasivePipsIgnored": 0,
   "HeatGenerated": 12,
-  "AttackRecoil": 0,
-  "RefireModifier": 3,
+  "AttackRecoil": 1,
+  "RefireModifier": 2,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2_Ultra",
   "BonusValueA": "2 Shot Burst",
   "BonusValueB": "",
@@ -47,7 +47,7 @@
   "PrefabIdentifier": "AC2",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 0.0625,
+  "Tonnage": 0.25,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -64,7 +64,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -87,8 +87,42 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 4,
+        "modValue": -5,
         "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.09093,
+        "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",

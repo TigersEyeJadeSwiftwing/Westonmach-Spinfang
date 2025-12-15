@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Manufacturer": "Westonmach",
+    "Manufacturer": "Gralthler",
     "Cost": 25000,
     "Rarity": 0,
     "Purchasable": true,
@@ -15,17 +15,17 @@
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
   "MinRange": 0,
-  "MaxRange": 300,
+  "MaxRange": 190,
   "RangeSplit": [
     0,
     90,
-    300
+    190
   ],
-  "ammoCategoryID": "ReaperHeavy",
+  "ammoCategoryID": "WM_Hvy",
   "StartingAmmoCapacity": 0,
-  "Damage": 100,
+  "Damage": 80,
   "HeatDamage": 0,
-  "Instability": 26,
+  "Instability": 21,
   "DamageVariance": 0,
   "CriticalChanceMultiplier": 0.9,
   "IndirectFireCapable": false,
@@ -37,7 +37,7 @@
   "AccuracyModifier": 0,
   "EvasivePipsIgnored": 0,
   "HeatGenerated": 20,
-  "AttackRecoil": 1,
+  "AttackRecoil": 0,
   "RefireModifier": 3,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
   "BonusValueA": "",
@@ -47,7 +47,7 @@
   "PrefabIdentifier": "AC20",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 0.125,
+  "Tonnage": 0.3125,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,

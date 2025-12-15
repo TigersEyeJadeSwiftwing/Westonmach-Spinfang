@@ -26,6 +26,8 @@
                 "Preview"
             ],
             "List_of_Description_Data_Types" : [
+                "float",
+                "neg_float",
                 "int",
                 "neg_int",
                 "percent",
@@ -40,7 +42,7 @@
     [
         { "Name" : "Effect_Damage_Taken_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "-DMG_TAKEN",
           "Prepend" : [
-            { "Text" : "Damage taken from enemies and other sources: ", "Data_Type" : "percent", "Digits" : "4" }
+            { "Text" : "Damage taken from all sources: ", "Data_Type" : "percent", "Digits" : "4" }
           ]
         },
         {
@@ -82,7 +84,7 @@
     [
         { "Name" : "Effect_Heat_Sinking_Reduction_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "-HEAT_SINKING",
           "Prepend" : [
-            { "Text" : "Heat generated per turn from equipped gear: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Heat generated per turn: ", "Data_Type" : "neg_int", "Digits" : "0" }
           ]
         },
         {
@@ -128,7 +130,7 @@
     [
         { "Name" : "Effect_Equipment_Armor_Penalty", "Mod_WS_EquipEffect_ID" : "-ARMOR",
           "Prepend" : [
-            { "Text" : "Unit's armor effectiveness when installed: ", "Data_Type" : "one_div_percent", "Digits" : "4" }
+            { "Text" : "Unit's armor effectiveness: ", "Data_Type" : "one_div_percent", "Digits" : "4" }
           ]
         },
         {
@@ -290,7 +292,7 @@
     [
         { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "-GEAR_HEAT_TOLERANCE",
           "Prepend" : [
-            { "Text" : "Max heat and overheating threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Max heat and overheating modifiers: ", "Data_Type" : "neg_int", "Digits" : "0" }
           ]
         },
         {
@@ -338,7 +340,7 @@
     [
         { "Name" : "Effect_Max_Heat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "-MAX_HEAT",
           "Prepend" : [
-            { "Text" : "Max heat threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Max heat threshold modifier: ", "Data_Type" : "neg_int", "Digits" : "0" }
           ]
         },
         {
@@ -366,7 +368,7 @@
     [
         { "Name" : "Effect_Overheat_Level_Debuff", "Mod_WS_EquipEffect_ID" : "-OVERHEAT_LEVEL",
           "Prepend" : [
-            { "Text" : "Overheating threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Overheating threshold modifier: ", "Data_Type" : "neg_int", "Digits" : "0" }
           ]
         },
         {

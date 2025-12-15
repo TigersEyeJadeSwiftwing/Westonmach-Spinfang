@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 819798,
+    "Cost": 946845,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,13 +8,13 @@
     "UIName": "Range Upgrade Missle T4",
     "Id": "Gear_Range_Upgrade_Missle_T4",
     "Name": "Range Upgrade Missle T4",
-    "Details": "Heat generated when installed: 19\n\n",
+    "Details": "Rocket / Missle weapon range increase: 480 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 13.\nMax heat and overheating modifiers: 6.\nDamage taken from all sources: 111.8540%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "+120m Range",
+  "BonusValueA": "+480m Range",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -39,7 +39,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -62,8 +62,94 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 19,
+        "modValue": -13,
         "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.\\nMaximum allowed heat decreased by [AMT].\\nOverheat threshold decreased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Subtract",
+        "modValue": -6,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Subtract",
+        "modValue": -6,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.11854,
+        "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",
@@ -107,7 +193,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "LongRange",
         "operation": "Float_Add",
-        "modValue": 120,
+        "modValue": 480,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -158,7 +244,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "MaxRange",
         "operation": "Float_Add",
-        "modValue": 120,
+        "modValue": 480,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",

@@ -534,6 +534,11 @@
 		<Unit filename="pilot_ability/TraitDef_WS_Walk_Plus10.json" />
 		<Unit filename="pilot_ability/TraitDef_WS_Walk_Plus20.json" />
 		<Unit filename="pilot_ability/TraitDef_WS_Walk_Plus30.json" />
+		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_01.json" />
+		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_02.json" />
+		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_03.json" />
+		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_04.json" />
+		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_05.json" />
 		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_Ballistic_01.json" />
 		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_Ballistic_02.json" />
 		<Unit filename="pilot_ability/TraitDef_WS_Weapon_Aim_Bonus_Ballistic_03.json" />

@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Manufacturer": "Westonmach",
+    "Manufacturer": "Gralthler",
     "Cost": 56250,
     "Rarity": 0,
     "Purchasable": true,
@@ -9,23 +9,23 @@
     "UIName": "Wastemaker AC B-Medium T3",
     "Name": "Wastemaker AC B-Medium T3",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated when installed: 2\n\n"
+    "Details": "Heat generated per turn: 2.\nDamage taken from all sources: 104.2430%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC10",
   "MinRange": 0,
-  "MaxRange": 540,
+  "MaxRange": 320,
   "RangeSplit": [
     0,
     120,
-    540
+    320
   ],
-  "ammoCategoryID": "ReaperMedium",
+  "ammoCategoryID": "WM_Med",
   "StartingAmmoCapacity": 0,
-  "Damage": 75,
+  "Damage": 70,
   "HeatDamage": 0,
-  "Instability": 12,
+  "Instability": 11,
   "DamageVariance": 0,
   "CriticalChanceMultiplier": 0.8,
   "IndirectFireCapable": false,
@@ -47,7 +47,7 @@
   "PrefabIdentifier": "AC10",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 0.0625,
+  "Tonnage": 0.25,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -66,7 +66,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -89,8 +89,42 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 2,
+        "modValue": -2,
         "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.04243,
+        "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",

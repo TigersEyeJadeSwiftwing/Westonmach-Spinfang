@@ -35,6 +35,8 @@
                 "Preview"
             ],
             "List_of_Description_Data_Types" : [
+                "float",
+                "neg_float",
                 "int",
                 "neg_int",
                 "percent",
@@ -49,7 +51,7 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Stun_2x5", "Mod_WS_EquipEffect_ID" : "STUN_2x5",
           "Prepend" : [
-            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect (movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -122,7 +124,7 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Stun_2x10", "Mod_WS_EquipEffect_ID" : "STUN_2x10",
           "Prepend" : [
-            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect (movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -195,7 +197,7 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Stun_2x1", "Mod_WS_EquipEffect_ID" : "STUN_2x1",
           "Prepend" : [
-            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect (movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -268,7 +270,7 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Stun_2x12", "Mod_WS_EquipEffect_ID" : "STUN_2x12",
           "Prepend" : [
-            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect (movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -341,7 +343,7 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Stun_3x5", "Mod_WS_EquipEffect_ID" : "STUN_3x5",
           "Prepend" : [
-            { "Text" : "Target Stun Effect (movement distance modifier, applies to walking, sprinting, and jump jet movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Stun Effect (movement distance): ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Stun Effect Duration: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative stun effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -414,7 +416,7 @@
     [
         { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP1",
           "Prepend" : [
-            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Difficulty to enemy target's attacks: +", "Data_Type" : "float", "Digits" : "2" },
             { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative impaired aim effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -460,7 +462,7 @@
     [
         { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP2",
           "Prepend" : [
-            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "float", "Digits" : "2" },
             { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative impaired aim effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -506,7 +508,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_2x3",
           "Prepend" : [
-            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -552,7 +554,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x3",
           "Prepend" : [
-            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -598,7 +600,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_4x3",
           "Prepend" : [
-            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -644,7 +646,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_2x15",
           "Prepend" : [
-            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -690,7 +692,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x15",
           "Prepend" : [
-            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -736,7 +738,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_4x15",
           "Prepend" : [
-            { "Text" : "Multiplier to target's damage from further attacks, from weakened defenses: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -782,7 +784,7 @@
     [
         { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_TOL_DMG_3x5",
           "Prepend" : [
-            { "Text" : "Target's maximum allowed heat and overheating threshold impaired by: ", "Data_Type" : "int", "Digits" : "4" },
+            { "Text" : "Target modifier to max heat and overheating thresholds: ", "Data_Type" : "neg_int", "Digits" : "4" },
             { "Text" : "Effect Duration of impaired heat thresholds: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative heat thresholds of target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -864,7 +866,9 @@
     [
         { "Name" : "Effect_Heat_Sinking_Debuff_from_damage_3x5", "Mod_WS_EquipEffect_ID" : "HEAT_DMG_5x3",
           "Prepend" : [
-            { "Text" : "Persistant heat per turn inflicted to target upon hit: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Persistant heat per turn to target: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Duration of extra heat: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -878,7 +882,7 @@
             },
             "durationData" : {
                 "duration" : 5,
-                "stackLimit" : 3
+                "stackLimit" : 3,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,

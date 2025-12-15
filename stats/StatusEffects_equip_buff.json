@@ -56,6 +56,8 @@
                 "Preview"
             ],
             "List_of_Description_Data_Types" : [
+                "float",
+                "neg_float",
                 "int",
                 "neg_int",
                 "percent",
@@ -70,7 +72,7 @@
     [
         { "Name" : "Effect_Head_Armor_Bonus", "Mod_WS_EquipEffect_ID" : "+HEAD_ARMOR",
           "Prepend" : [
-            { "Text" : "Unit's head armor effectiveness: ", "Data_Type" : "percent", "Digits" : "0" }
+            { "Text" : "Unit's head armor effectiveness: ", "Data_Type" : "percent", "Digits" : "2" }
           ]
         },
         {
@@ -92,8 +94,8 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "+ENGINE1",
           "Prepend" : [
-            { "Text" : "Walking / Sprinting movement spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
-            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Walking / Sprinting movement: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative engine upgrades: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
 		{
@@ -145,8 +147,8 @@
     [
         { "Name" : "Effect_Engine_Walk_Run_Buff", "Mod_WS_EquipEffect_ID" : "+ENGINE2",
           "Prepend" : [
-            { "Text" : "Walking / Sprinting movement spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
-            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Walking / Sprinting movement: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Maximum cumulative engine upgrades: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
 		{
@@ -199,7 +201,7 @@
         { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "+JJ_DIST1",
           "Prepend" : [
             { "Text" : "Jumping spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
-            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Maximum cumulative jump jet upgrades: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -228,7 +230,7 @@
         { "Name" : "Effect_Jump_Jet_Buff", "Mod_WS_EquipEffect_ID" : "+JJ_DIST2",
           "Prepend" : [
             { "Text" : "Jumping spaces/turn: ", "Data_Type" : "percent", "Digits" : "2" },
-            { "Text" : "Maximum cumulative movement distance bonuses: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Maximum cumulative jump jet upgrades: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -258,7 +260,7 @@
           "Prepend" : [
             { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
             { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Maximum cumulative heat threshold modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Maximum cumulative, effective coolant plants: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -433,9 +435,9 @@
             },
             "statisticData" : {
                 "statName" : "MaxStability",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "10",
-                "modType" : "System.Int32"
+                "modType" : "System.Single"
             }
         },
         {
@@ -453,9 +455,9 @@
             },
             "statisticData" : {
                 "statName" : "UnsteadyThreshold",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "10",
-                "modType" : "System.Int32"
+                "modType" : "System.Single"
             }
         }
     ],
@@ -482,9 +484,9 @@
             },
             "statisticData" : {
                 "statName" : "MaxStability",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "10",
-                "modType" : "System.Int32"
+                "modType" : "System.Single"
             }
         },
         {
@@ -502,9 +504,9 @@
             },
             "statisticData" : {
                 "statName" : "UnsteadyThreshold",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "10",
-                "modType" : "System.Int32"
+                "modType" : "System.Single"
             }
         }
     ],
@@ -531,9 +533,9 @@
             },
             "statisticData" : {
                 "statName" : "MaxStability",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "10",
-                "modType" : "System.Int32"
+                "modType" : "System.Single"
             }
         },
         {
@@ -551,9 +553,9 @@
             },
             "statisticData" : {
                 "statName" : "UnsteadyThreshold",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "10",
-                "modType" : "System.Int32"
+                "modType" : "System.Single"
             }
         }
     ],
@@ -561,8 +563,8 @@
     [
         { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT",
           "Prepend" : [
-            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Maximum cumulative initiative modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Combat turn initiative bonus: +", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative initiative buffs: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -621,8 +623,8 @@
     [
         { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT_ENGINE1",
           "Prepend" : [
-            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Maximum cumulative engine initiative modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Combat turn initiative bonus: +", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative initiative buffs: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -681,8 +683,8 @@
     [
         { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT_ENGINE2",
           "Prepend" : [
-            { "Text" : "Combat turn initiative modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Maximum cumulative engine initiative modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Combat turn initiative bonus: +", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum cumulative initiative buffs: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -741,7 +743,7 @@
     [
         { "Name" : "Effect_Force_Field_Buff", "Mod_WS_EquipEffect_ID" : "+FORCE_FIELD",
           "Prepend" : [
-            { "Text" : "Damage taken modifier: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Damage taken, all sources: ", "Data_Type" : "percent", "Digits" : "2" },
             { "Text" : "Maximum cumulative force fields: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -784,7 +786,7 @@
     [
         { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "+JAMMER",
           "Prepend" : [
-            { "Text" : "Enemy aim (direct fire) difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Enemy aim (direct fire) difficulty modifier: +", "Data_Type" : "float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -827,7 +829,7 @@
     [
         { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "+ECM",
           "Prepend" : [
-            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1204,7 +1206,7 @@
     [
         { "Name" : "Effect_Accuracy_Support_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_SPPT",
           "Prepend" : [
-            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1264,7 +1266,7 @@
     [
         { "Name" : "Effect_Accuracy_Energy_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_ENGY",
           "Prepend" : [
-            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1324,7 +1326,7 @@
     [
         { "Name" : "Effect_Accuracy_Ballistic_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_BALL",
           "Prepend" : [
-            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1384,7 +1386,7 @@
     [
         { "Name" : "Effect_Accuracy_Missle_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_MSSL",
           "Prepend" : [
-            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1444,16 +1446,16 @@
     [
         { "Name" : "Effect_Accuracy_Omni_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_OMNI",
           "Prepend" : [
-            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Weapon accuracy (all types) increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
             "nature" : "Buff",
             "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Ballistic-Buff",
-                "Name" : "BALLISTIC WEAPON ACCURACY UPGRADED",
-                "Details" : "Ballistic weapon attacks have their difficulty to hit enemies modified by [AMT].",
+                "Id" : "StatusEffect-WS-Weapon_Accuracy_All_Weapons-Buff",
+                "Name" : "WEAPON ACCURACY UPGRADED",
+                "Details" : "Weapon (all types) attacks have their difficulty to hit enemies modified by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "durationData" : {
@@ -1480,125 +1482,7 @@
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            }
-        },
-        {
-            "nature" : "Buff",
-            "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Energy-Buff",
-                "Name" : "ENERGY WEAPON ACCURACY UPGRADED",
-                "Details" : "Energy weapon attacks have their difficulty to hit enemies modified by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Energy",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            }
-        },
-        {
-            "nature" : "Buff",
-            "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Missle-Buff",
-                "Name" : "MISSLE WEAPON ACCURACY UPGRADED",
-                "Details" : "Missle weapon attacks have their difficulty to hit enemies modified by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Missile",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            }
-        },
-        {
-            "nature" : "Buff",
-            "Description" : {
-                "Id" : "StatusEffect-WS-Weapon_Accuracy_Support-Buff",
-                "Name" : "SUPPORT WEAPON ACCURACY UPGRADED",
-                "Details" : "Support weapon attacks have their difficulty to hit enemies modified by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "AntiPersonnel",
+                "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
@@ -1609,7 +1493,7 @@
     [
         { "Name" : "Effect_Support_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_SPPT",
           "Prepend" : [
-            { "Text" : "Support weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Support weapon range increase: ", "Data_Type" : "meters", "Digits" : "0" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1628,7 +1512,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -1679,7 +1563,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -1720,7 +1604,7 @@
     [
         { "Name" : "Effect_Energy_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_ENGY",
           "Prepend" : [
-            { "Text" : "Energy weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Energy weapon range increase: ", "Data_Type" : "meters", "Digits" : "0" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1739,7 +1623,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -1790,7 +1674,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -1831,7 +1715,7 @@
     [
         { "Name" : "Effect_Ballistic_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_BALL",
           "Prepend" : [
-            { "Text" : "Ballistic weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Ballistic weapon range increase: ", "Data_Type" : "meters", "Digits" : "0" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1850,7 +1734,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -1901,7 +1785,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -1942,7 +1826,7 @@
     [
         { "Name" : "Effect_Missile_Weapon_Range_Increase", "Mod_WS_EquipEffect_ID" : "+RANGE_MSSL",
           "Prepend" : [
-            { "Text" : "Rocket / Missle weapon range increase: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Rocket / Missle weapon range increase: ", "Data_Type" : "meters", "Digits" : "0" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1961,7 +1845,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -2012,7 +1896,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -2225,8 +2109,8 @@
     [
         { "Name" : "Effect_Sensor_Range_Buff", "Mod_WS_EquipEffect_ID" : "+SENSORS",
           "Prepend" : [
-            { "Text" : "Sensor range enhancement: ", "Data_Type" : "meters", "Digits" : "0" },
-            { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Sensor range increase: ", "Data_Type" : "meters", "Digits" : "0" },
+            { "Text" : "Maximum cumulative sensor range modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {
@@ -2236,7 +2120,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -2287,7 +2171,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -2338,7 +2222,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -2406,7 +2290,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {

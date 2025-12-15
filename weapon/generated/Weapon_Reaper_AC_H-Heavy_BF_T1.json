@@ -9,7 +9,7 @@
     "UIName": "Reaper AC H-Heavy BF T1",
     "Name": "Reaper AC H-Heavy BF T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Stun Effect (movement distance): 89.0900%.\nStun Effect Duration: 2 turns.\nMaximum cumulative stun effects on target: 12x.\n\n    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -23,9 +23,9 @@
   ],
   "ammoCategoryID": "ReaperHeavyBurst",
   "StartingAmmoCapacity": 0,
-  "Damage": 55,
-  "HeatDamage": 4,
-  "Instability": 81,
+  "Damage": 36,
+  "HeatDamage": 3,
+  "Instability": 53,
   "DamageVariance": 0,
   "CriticalChanceMultiplier": 0.75,
   "IndirectFireCapable": false,
@@ -62,9 +62,9 @@
   "statusEffects": [
     {
       "Description": {
-        "Id": "StatusEffect-WS-Walk_Speed_Debuff",
-        "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+        "Id": "StatusEffect-WS-Walk_Speed-Stun_2x12",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -87,15 +87,15 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 0.9438743127,
+        "modValue": 0.8909,
         "modType": "System.Single"
       }
     },
     {
       "Description": {
-        "Id": "StatusEffect-WS-Run_Speed_Debuff",
-        "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+        "Id": "StatusEffect-WS-Run_Speed-Stun_2x12",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -118,15 +118,15 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 0.9438743127,
+        "modValue": 0.8909,
         "modType": "System.Single"
       }
     },
     {
       "Description": {
-        "Id": "StatusEffect-WS-Jump_Speed_Debuff",
-        "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+        "Id": "StatusEffect-WS-Jump_Speed-Stun_2x12",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -149,7 +149,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": 0.9438743127,
+        "modValue": 0.8909,
         "modType": "System.Single"
       }
     }

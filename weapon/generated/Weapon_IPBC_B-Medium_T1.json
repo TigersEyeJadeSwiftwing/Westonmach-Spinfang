@@ -9,21 +9,21 @@
     "UIName": "IPBC B-Medium T1",
     "Name": "IPBC B-Medium T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated when installed: 2\n\n"
+    "Details": "Target multiplier to all further damage: 104.5640%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",
   "WeaponSubType": "AC10",
   "MinRange": 0,
-  "MaxRange": 270,
+  "MaxRange": 160,
   "RangeSplit": [
     0,
-    120,
-    270
+    90,
+    160
   ],
   "ammoCategoryID": "NotSet",
   "StartingAmmoCapacity": 0,
-  "Damage": 11,
+  "Damage": 8,
   "HeatDamage": 0,
   "Instability": 1,
   "DamageVariance": 0,
@@ -36,7 +36,7 @@
   "ProjectilesPerShot": 1,
   "AccuracyModifier": 1,
   "EvasivePipsIgnored": 0,
-  "HeatGenerated": 16,
+  "HeatGenerated": 12,
   "AttackRecoil": 0,
   "RefireModifier": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Ultra",
@@ -47,7 +47,7 @@
   "PrefabIdentifier": "AC10",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 0.125,
+  "Tonnage": 0.0625,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -61,55 +61,17 @@
   },
   "statusEffects": [
     {
-      "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "Description": {
-        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
-        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-      },
-      "durationData": {
-        "ticksOnActivations": false,
-        "useActivationsOfTarget": false,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "duration": -1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "HeatSinkCapacity",
-        "operation": "Int_Subtract",
-        "modValue": 2,
-        "modType": "System.Int32",
-        "additionalRules": "NotSet",
-        "targetCollection": "NotSet",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      }
-    },
-    {
       "Description": {
         "Id": "StatusEffect-WS-Damage_Weakness",
         "Name": "WEAKNESS AGAINST DAMAGE",
-        "Details": "Mech takes [AMT] damage from all sources and types of attacks.",
+        "Details": "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
         "Icon": "uixSvgIcon_maint_Level2"
       },
       "effectType": "StatisticEffect",
       "nature": "Debuff",
       "durationData": {
         "duration": 3,
-        "stackLimit": 12,
+        "stackLimit": 15,
         "ticksOnActivations": true,
         "useActivationsOfTarget": true,
         "ticksOnEndOfRound": false,
@@ -130,83 +92,9 @@
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": 1.01876927,
+        "operation": "Float_Divide",
+        "modValue": 1.04564,
         "modType": "System.Single"
-      }
-    },
-    {
-      "Description": {
-        "Id": "StatusEffect-WS-Max_Heat-Debuff",
-        "Name": "MAX HEAT IMPAIRMENT",
-        "Details": "Maximum allowed heat and overheating threshold impaired by [AMT].",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "durationData": {
-        "duration": 3,
-        "stackLimit": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "MaxHeat",
-        "operation": "Int_Add",
-        "modValue": -5,
-        "modType": "System.Int32"
-      }
-    },
-    {
-      "Description": {
-        "Id": "StatusEffect-WS-Overheat_Threshold-Debuff",
-        "Name": "OVERHEAT THRESHOLD IMPAIRMENT",
-        "Details": "Overheat threshold impaired by [AMT]",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "durationData": {
-        "duration": 3,
-        "stackLimit": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "OverheatLevel",
-        "operation": "Int_Add",
-        "modValue": -5,
-        "modType": "System.Int32"
       }
     }
   ]

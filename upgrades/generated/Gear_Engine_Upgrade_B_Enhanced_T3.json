@@ -1,0 +1,228 @@
+{
+  "Description": {
+    "Cost": 85486,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Spinfang",
+    "Model": "Engine Speed Upgrade",
+    "UIName": "Engine Upgrade B Enhanced T3",
+    "Id": "Gear_Engine_Upgrade_B_Enhanced_T3",
+    "Name": "Engine Upgrade B Enhanced T3",
+    "Details": "Walking / Sprinting movement: 139.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: 19.\nUnsteady threshold modifier: 19.\nHeat generated per turn: 5.\nDamage taken from all sources: 109.8180%.\n\n",
+    "Icon": "uixSvgIcon_action_evasivemove"
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BonusValueA": "139% Walk/Sprint",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0.0625,
+  "AllowedLocations": "CenterTorso, LeftTorso, RightTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant1",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Subtract",
+        "modValue": -5,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.09818,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Walk_Speed_Modifier-Engine2",
+        "Name": "ENGINE PERFORMANCE UPGRADE",
+        "Details": "This unit's engine upgrade(s) increases it's walk and sprint distance by [AMT].",
+        "Icon": "uixSvgIcon_action_evasivemove"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": true
+      },
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 1.39,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Run_Speed_Modifier-Engine2",
+        "Name": "ENGINE PERFORMANCE UPGRADE",
+        "Details": "This unit's engine upgrade(s) increases it's walk and sprint distance by [AMT].",
+        "Icon": "uixSvgIcon_action_evasivemove"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "hideApplicationFloatie": true
+      },
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 1.39,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Stability_Maximum-Engine1",
+        "Name": "STABILITY INCREASED",
+        "Details": "Maximum stability and unsteady thresholds increased by [AMT].",
+        "Icon": "uixSvgIcon_status_unsteady"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxStability",
+        "operation": "Float_Add",
+        "modValue": 19,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Stability_Unsteady_Threshold-Engine1",
+        "Name": "UNSTEADY THRESHOLD INCREASED",
+        "Details": "Unsteady threshold increased by [AMT].",
+        "Icon": "uixSvgIcon_status_unsteady"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "UnsteadyThreshold",
+        "operation": "Float_Add",
+        "modValue": 19,
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

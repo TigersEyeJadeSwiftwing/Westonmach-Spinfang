@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 22425,
+    "Cost": 35050,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,13 +8,13 @@
     "UIName": "TTS Ballistic T1",
     "Id": "Gear_TTS_Ballistic_T1",
     "Name": "TTS Ballistic T1",
-    "Details": "Heat generated when installed: 5\n\n",
+    "Details": "Ballistic weapon accuracy increase: \n\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 2.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "+1 Aim Bonus",
+  "BonusValueA": "+0.6 Aim Bonus",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -38,7 +38,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -61,7 +61,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 5,
+        "modValue": -2,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -74,9 +74,9 @@
     {
       "nature": "Buff",
       "Description": {
-        "Id": "StatusEffect-WS-Weapon_Accuracy_Ballistic_Modifier",
+        "Id": "StatusEffect-WS-Weapon_Accuracy_Ballistic-Buff",
         "Name": "BALLISTIC WEAPON ACCURACY UPGRADED",
-        "Details": "Ballistic weapon attacks have their hit improved by [AMT].",
+        "Details": "Ballistic weapon attacks have their difficulty to hit enemies modified by [AMT].",
         "Icon": "uixSvgIcon_equipment_TTS"
       },
       "durationData": {
@@ -106,7 +106,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "AccuracyModifier",
         "operation": "Float_Add",
-        "modValue": -1,
+        "modValue": -0.6,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",

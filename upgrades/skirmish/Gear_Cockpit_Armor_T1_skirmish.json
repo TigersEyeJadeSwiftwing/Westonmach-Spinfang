@@ -8,14 +8,14 @@
     "UIName": "Cockpit Armor T1",
     "Id": "Gear_Cockpit_Armor_T1_skirmish",
     "Name": "Cockpit Armor T1",
-    "Details": "Heat generated when installed: 5\n\n",
+    "Details": "Pilot injuries negated: 1.\nUnit's head armor effectiveness: 125.00%.\nHeat generated per turn: 2.\n\n",
     "Icon": "uixSvgIcon_equipment_Cockpit"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "BonusValueA": "+1 Injury Resist",
-  "BonusValueB": "",
+  "BonusValueB": "125% Head Armor",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
@@ -37,7 +37,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -60,7 +60,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 5,
+        "modValue": -2,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -89,14 +89,14 @@
         "range": 0,
         "forcePathRebuild": false,
         "forceVisRebuild": false,
-        "showInTargetPreview": false,
+        "showInTargetPreview": true,
         "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Pilot_HealthAdd-T1",
-        "Name": "INJURY RESIST INCREASED",
-        "Details": "Prevents [AMT] Injuries against a MechWarrior.",
+        "Id": "StatusEffect-Pilot_Injury_Resist-Buff",
+        "Name": "COCKPIT UPGRADE: INJURY RESIST INCREASED",
+        "Details": "This unit has an upgraded cockpit that prevents [AMT] injuries against it's MechWarrior.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -122,29 +122,31 @@
       "poorlyMaintainedEffectData": null
     },
     {
-      "Description": {
-        "Id": "StatusEffect-WS-Overheat_Threshold-Increased",
-        "Name": "OVERHEAT THRESHOLD DECREASED",
-        "Details": "Overheat threshold decreased by [-AMT]",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-      },
       "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1
-      },
+      "nature": "Buff",
       "targetingData": {
         "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
         "showInTargetPreview": true,
         "showInStatusPanel": true
       },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "Description": {
+        "Id": "StatusEffect-WS-Armor_Bonus-Head",
+        "Name": "HEAD ARMOR BONUS",
+        "Details": "This unit's starting and maximum head armor is multiplied by [AMT], from an installed cockpit upgrade.",
+        "Icon": "uixSvgIcon_maint_Level0"
+      },
       "statisticData": {
-        "statName": "OverheatLevel",
-        "operation": "Int_Add",
-        "modValue": -1,
-        "modType": "System.Int32"
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": true,
+        "statName": "Head.Armor",
+        "operation": "Float_Multiply",
+        "modValue": 1.25,
+        "modType": "System.Single"
       }
     }
   ]

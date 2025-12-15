@@ -9,23 +9,23 @@
     "UIName": "Reaper AC G-Medium BF T3",
     "Name": "Reaper AC G-Medium BF T3",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated when installed: 4\n\n    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Stun Effect (movement distance): 91.0590%.\nStun Effect Duration: 2 turns.\nMaximum cumulative stun effects on target: 12x.\nHeat generated per turn: 4.\nDamage taken from all sources: 105.6570%.\n\n    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Light, Medium, and Heavy models use focused kinetic projection technology to fly their projectiles towards close and medium-ranged targets, with Heavy models built to shoot targets at closer range but with larger projectiles that do more damage and greater stability knockdown effect.  Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC10",
   "MinRange": 0,
-  "MaxRange": 480,
+  "MaxRange": 360,
   "RangeSplit": [
     0,
     90,
-    480
+    360
   ],
   "ammoCategoryID": "ReaperMediumBurst",
   "StartingAmmoCapacity": 0,
-  "Damage": 44,
-  "HeatDamage": 3,
-  "Instability": 56,
+  "Damage": 29,
+  "HeatDamage": 2,
+  "Instability": 37,
   "DamageVariance": 0,
   "CriticalChanceMultiplier": 0.725,
   "IndirectFireCapable": false,
@@ -64,7 +64,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -87,7 +87,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 4,
+        "modValue": -4,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -98,10 +98,44 @@
       }
     },
     {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
       "Description": {
-        "Id": "StatusEffect-WS-Walk_Speed_Debuff",
-        "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": 1.05657,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Walk_Speed-Stun_2x12",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -124,15 +158,15 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 0.9583245286,
+        "modValue": 0.91059,
         "modType": "System.Single"
       }
     },
     {
       "Description": {
-        "Id": "StatusEffect-WS-Run_Speed_Debuff",
-        "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+        "Id": "StatusEffect-WS-Run_Speed-Stun_2x12",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -155,15 +189,15 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 0.9583245286,
+        "modValue": 0.91059,
         "modType": "System.Single"
       }
     },
     {
       "Description": {
-        "Id": "StatusEffect-WS-Jump_Speed_Debuff",
-        "Name": "IMPAIRED MOVEMENT",
-        "Details": "This unit is temporarily stunned and has it's movement speed multiplied by [AMT].",
+        "Id": "StatusEffect-WS-Jump_Speed-Stun_2x12",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
         "Icon": "uixSvgIcon_statusStunned"
       },
       "effectType": "StatisticEffect",
@@ -186,7 +220,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": 0.9583245286,
+        "modValue": 0.91059,
         "modType": "System.Single"
       }
     }

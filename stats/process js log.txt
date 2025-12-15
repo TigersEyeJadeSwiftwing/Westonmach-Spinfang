@@ -1,0 +1,1362 @@
+Process.js, started:
+Mon Dec 15 2025 17:55:32 GMT-0500 (Eastern Standard Time)
+
+
+
+Row Index: 2, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, however Ultra-Kinetic Machine Gun ammunition is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  This solid alloy material makes up all of the rounds, and there is no casing, gunpowder, or chemical components, explosive or otherwise.  As such, there isn't any part of the ammunition to explode or burn if the ammunition or it's storage container gets damaged or even set on fire in combat, so no explosion will occur from a critical hit.
+
+    Ultra-Kinetic Machine Gun Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.
+
+    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_02x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_02x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_04x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_04x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_06x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_06x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_08x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_08x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_10x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_10x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_13x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_13x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_15x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_15x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_18x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_18x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_22x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_22x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_UK-MG_Ammo_25x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_UK-MG_Ammo_25x.json
+
+Row Index: 21, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Deathfire Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.
+
+    Deathfire rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Deathfire rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher's type and level.
+
+    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_02x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_02x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_05x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_05x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_09x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_09x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_14x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_14x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_19x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_19x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_25x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_25x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_32x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_32x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Deathfire_Rocket_Ammo_40x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Deathfire_Rocket_Ammo_40x.json
+
+Row Index: 37, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper Nine Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.
+
+    Viper Nine rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Viper Nine rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher's type and level.
+
+    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_02x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_02x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_05x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_05x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_09x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_09x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_14x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_14x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_19x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_19x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_25x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_25x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_32x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_32x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_40x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Viper_Nine_Rocket_Ammo_40x.json
+
+Row Index: 53, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, including Reaper Auto Cannon ammunition, which have warheads that can be made to explode under certain conditions.  Aside from the warhead, a Reaper Auto Cannon round is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  The rounds do not leave any shell or casing behind after firing, and do not use gunpowder or out-dated archaic technology to propel the round through and out of the barrel, but use alternative technology.
+
+    Reaper Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.
+
+    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_08x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_08x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_14x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_14x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_21x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_21x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_30x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_30x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_40x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_A-Light_Ammo_40x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_07x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_07x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_12x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_12x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_19x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_19x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_27x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_27x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_36x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_B-Medium_Ammo_36x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_06x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_06x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_10x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_10x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_16x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_16x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_23x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_23x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_30x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_C-Heavy_Ammo_30x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_06x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_06x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_11x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_11x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_18x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_18x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_25x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_25x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_33x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_D-Sniper_Ammo_33x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_05x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_05x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_09x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_09x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_12x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_12x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_16x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_16x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_20x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_E-Ultra_Ammo_20x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_08x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_08x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_14x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_14x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_21x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_21x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_30x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_30x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_40x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_F-Light_BF_Ammo_40x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_07x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_07x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_12x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_12x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_19x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_19x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_27x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_27x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_36x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_G-Medium_BF_Ammo_36x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_06x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_06x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_10x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_10x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_16x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_16x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_23x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_23x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_30x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_30x.json
+
+Row Index: 123, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, although Wastemaker Cannon ammunition is completely made up of a shaped slug, with no casing, no warhead, and no chemical or explosive propellant of any kind as it relies on the cannon shooting it to propel it through the air.  As such, it will not explode while inside of an ammunition bin that gets hit or damaged, and is therefore not a fire or explosion hazard.  Wastemaker rounds differ from Reaper Auto Cannon rounds in these ways, as well as the rounds and the guns that fire them being smaller.  Wastemaker rounds are made of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Gralthler.  Wastemaker Auto Cannon rounds use a technology other than archaic methods involving gunpowder, etc., to propel the rounds.
+
+    Wastemaker Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.
+
+    Gralthler weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_03x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_03x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_06x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_06x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_10x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_10x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_16x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_16x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_23x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_23x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_30x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_A-Light_Ammo_30x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_02x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_02x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_05x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_05x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_09x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_09x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_13x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_13x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_19x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_19x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_25x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_B-Medium_Ammo_25x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_02x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_02x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_04x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_04x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_07x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_07x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_11x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_11x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_15x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_15x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_20x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_C-Heavy_Ammo_20x.json
+
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_01x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_01x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_02x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_02x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_05x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_05x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_08x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_08x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_12x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_12x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_17x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_17x.json
+Wrote file: ..\ammunitionBox\generated\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_22x.json
+Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_22x.json
+
+Weapons:
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L01_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L02_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L03_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L04_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L05_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L06_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L07_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L08_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L09_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L10_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L01_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L01_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L02_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L02_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L03_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L03_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L04_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L04_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L05_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L05.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L05_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L06_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L06.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L06_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L07_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L07.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L07_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L08_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L08.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L08_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L09_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L09.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L09_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L10_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L10.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L10_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T5_skirmish.json
+
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T1_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T2_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T3_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T4_skirmish.json
+Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_A_Basic_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_A_Basic_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_A_Basic_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_A_Basic_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_A_Basic_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_B_Enhanced_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_B_Enhanced_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_B_Enhanced_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_B_Enhanced_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_B_Enhanced_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_B_Enhanced_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_B_Enhanced_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_B_Enhanced_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_B_Enhanced_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_B_Enhanced_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_C_Racer_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_C_Racer_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_C_Racer_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_C_Racer_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_C_Racer_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_C_Racer_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_C_Racer_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_C_Racer_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_C_Racer_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_C_Racer_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_D_Ultra_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_D_Ultra_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_D_Ultra_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_D_Ultra_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_D_Ultra_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_D_Ultra_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_D_Ultra_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_D_Ultra_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_D_Ultra_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_D_Ultra_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_A_Basic_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_A_Basic_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_A_Basic_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_A_Basic_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_A_Basic_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_A_Basic_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_A_Basic_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_A_Basic_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_A_Basic_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_A_Basic_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_B_Turbo_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_B_Turbo_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_B_Turbo_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_B_Turbo_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_B_Turbo_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_B_Turbo_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_B_Turbo_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_B_Turbo_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_JJ_Upgrade_B_Turbo_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_JJ_Upgrade_B_Turbo_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Force_Field_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Force_Field_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Force_Field_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Force_Field_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Force_Field_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_A_Series_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_A_Series_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_A_Series_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_A_Series_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_A_Series_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_A_Series_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_A_Series_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_A_Series_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_A_Series_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_A_Series_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_B_Series_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_B_Series_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_B_Series_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_B_Series_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_B_Series_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_B_Series_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_B_Series_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_B_Series_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Target_Tracking_Jammer_B_Series_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_B_Series_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_A_Series_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_A_Series_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_A_Series_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_A_Series_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_A_Series_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_A_Series_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_A_Series_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_A_Series_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_A_Series_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_A_Series_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_B_Series_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_B_Series_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_B_Series_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_B_Series_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_B_Series_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_B_Series_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_B_Series_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_B_Series_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_ECM_Unit_B_Series_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_B_Series_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Sensor_Array_Package_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Sensor_Array_Package_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Sensor_Array_Package_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Sensor_Array_Package_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Sensor_Array_Package_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Sensor_Array_Package_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Sensor_Array_Package_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Sensor_Array_Package_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Sensor_Array_Package_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Sensor_Array_Package_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Cockpit_Armor_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Cockpit_Armor_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Cockpit_Armor_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Cockpit_Armor_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Cockpit_Armor_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Cockpit_Armor_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Cockpit_Armor_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Cockpit_Armor_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Cockpit_Armor_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Cockpit_Armor_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Stomper_DFA_Controller_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Stomper_DFA_Controller_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Stomper_DFA_Controller_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Stomper_DFA_Controller_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Stomper_DFA_Controller_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Stomper_DFA_Controller_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Stomper_DFA_Controller_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Stomper_DFA_Controller_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Stomper_DFA_Controller_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Stomper_DFA_Controller_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Melee_Combat_Controller_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Melee_Combat_Controller_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Melee_Combat_Controller_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Melee_Combat_Controller_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Melee_Combat_Controller_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Melee_Combat_Controller_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Melee_Combat_Controller_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Melee_Combat_Controller_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Melee_Combat_Controller_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Melee_Combat_Controller_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_TTS_Ballistic_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Ballistic_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Ballistic_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Ballistic_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Ballistic_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Ballistic_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Ballistic_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Ballistic_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Ballistic_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Ballistic_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_TTS_Energy_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Energy_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Energy_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Energy_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Energy_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Energy_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Energy_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Energy_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Energy_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Energy_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_TTS_Missle_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Missle_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Missle_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Missle_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Missle_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Missle_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Missle_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Missle_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Missle_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Missle_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_TTS_Support_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Support_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Support_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Support_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Support_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Support_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Support_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Support_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Support_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Support_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_TTS_Omni_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Omni_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Omni_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Omni_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Omni_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Omni_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Omni_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Omni_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_TTS_Omni_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_TTS_Omni_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Ballistic_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Ballistic_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Ballistic_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Ballistic_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Ballistic_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Ballistic_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Ballistic_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Ballistic_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Ballistic_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Ballistic_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Energy_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Energy_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Energy_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Energy_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Energy_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Energy_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Energy_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Energy_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Energy_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Energy_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Missle_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Missle_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Missle_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Missle_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Missle_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Missle_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Missle_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Missle_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Missle_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Missle_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Support_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Support_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Support_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Support_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Support_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Support_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Support_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Support_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Support_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Support_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Omni_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Omni_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Omni_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Omni_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Omni_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Omni_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Omni_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Omni_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Range_Upgrade_Omni_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Range_Upgrade_Omni_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Ballistic_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Ballistic_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Ballistic_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Ballistic_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Ballistic_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Ballistic_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Ballistic_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Ballistic_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Ballistic_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Ballistic_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Energy_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Energy_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Energy_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Energy_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Energy_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Energy_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Energy_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Energy_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Energy_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Energy_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Missle_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Missle_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Missle_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Missle_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Missle_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Missle_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Missle_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Missle_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Missle_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Missle_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Support_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Support_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Support_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Support_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Support_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Support_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Support_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Support_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Support_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Support_T5_skirmish.json
+
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Omni_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T1_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Omni_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T2_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Omni_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T3_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Omni_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T4_skirmish.json
+Wrote file: ..\upgrades\generated\Gear_Damage_Upgrade_Omni_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T5_skirmish.json
+
+
+Pilot Trait Codes:
+    Multi-Targ    AbilityDefG5
+    Breach-Shot    AbilityDefG8
+    Bulwark    AbilityDefGu5
+    Coolant-Vent    AbilityDefGu8
+    Sure-Foot    AbilityDefP5
+    Ace-Pilot    AbilityDefP8
+    Sensor-Lock    AbilityDefT5A
+    Master-Tact    AbilityDefT8A
+    Dmg-Resist1    TraitDef_WS_Damage_Resist_01
+    Dmg-Resist2    TraitDef_WS_Damage_Resist_02
+    Dmg-Resist3    TraitDef_WS_Damage_Resist_03
+    Dmg-Resist4    TraitDef_WS_Damage_Resist_04
+    Dmg-Resist5    TraitDef_WS_Damage_Resist_05
+    Aim1    TraitDef_WS_Weapon_Aim_Bonus_01
+    Aim2    TraitDef_WS_Weapon_Aim_Bonus_02
+    Aim3    TraitDef_WS_Weapon_Aim_Bonus_03
+    Aim4    TraitDef_WS_Weapon_Aim_Bonus_04
+    Aim5    TraitDef_WS_Weapon_Aim_Bonus_05
+    Aim-Ballistic1    TraitDef_WS_Weapon_Aim_Bonus_Ballistic_01
+    Aim-Ballistic2    TraitDef_WS_Weapon_Aim_Bonus_Ballistic_02
+    Aim-Ballistic3    TraitDef_WS_Weapon_Aim_Bonus_Ballistic_03
+    Aim-Ballistic4    TraitDef_WS_Weapon_Aim_Bonus_Ballistic_04
+    Aim-Ballistic5    TraitDef_WS_Weapon_Aim_Bonus_Ballistic_05
+    Aim-Energy1    TraitDef_WS_Weapon_Aim_Bonus_Energy_01
+    Aim-Energy2    TraitDef_WS_Weapon_Aim_Bonus_Energy_02
+    Aim-Energy3    TraitDef_WS_Weapon_Aim_Bonus_Energy_03
+    Aim-Energy4    TraitDef_WS_Weapon_Aim_Bonus_Energy_04
+    Aim-Energy5    TraitDef_WS_Weapon_Aim_Bonus_Energy_05
+    Aim-Missle1    TraitDef_WS_Weapon_Aim_Bonus_Missle_01
+    Aim-Missle2    TraitDef_WS_Weapon_Aim_Bonus_Missle_02
+    Aim-Missle3    TraitDef_WS_Weapon_Aim_Bonus_Missle_03
+    Aim-Missle4    TraitDef_WS_Weapon_Aim_Bonus_Missle_04
+    Aim-Missle5    TraitDef_WS_Weapon_Aim_Bonus_Missle_05
+    Rng1    TraitDef_WS_Weapon_Range_Bonus_01
+    Rng2    TraitDef_WS_Weapon_Range_Bonus_02
+    Rng3    TraitDef_WS_Weapon_Range_Bonus_03
+    Rng4    TraitDef_WS_Weapon_Range_Bonus_04
+    Rng5    TraitDef_WS_Weapon_Range_Bonus_05
+    Rng-Ballistic1    TraitDef_WS_Weapon_Range_Bonus_Ballistic_01
+    Rng-Ballistic2    TraitDef_WS_Weapon_Range_Bonus_Ballistic_02
+    Rng-Ballistic3    TraitDef_WS_Weapon_Range_Bonus_Ballistic_03
+    Rng-Energy1    TraitDef_WS_Weapon_Range_Bonus_Energy_01
+    Rng-Energy2    TraitDef_WS_Weapon_Range_Bonus_Energy_02
+    Rng-Energy3    TraitDef_WS_Weapon_Range_Bonus_Energy_03
+    Rng-Missle1    TraitDef_WS_Weapon_Range_Bonus_Missle_01
+    Rng-Missle2    TraitDef_WS_Weapon_Range_Bonus_Missle_02
+    Rng-Missle3    TraitDef_WS_Weapon_Range_Bonus_Missle_03
+    Dmg1    TraitDef_WS_Weapon_Damage_Bonus_01
+    Dmg2    TraitDef_WS_Weapon_Damage_Bonus_02
+    Dmg3    TraitDef_WS_Weapon_Damage_Bonus_03
+    Dmg4    TraitDef_WS_Weapon_Damage_Bonus_04
+    Dmg5    TraitDef_WS_Weapon_Damage_Bonus_05
+    Dmg-Ballistic1    TraitDef_WS_Weapon_Damage_Bonus_Ballistic_01
+    Dmg-Ballistic2    TraitDef_WS_Weapon_Damage_Bonus_Ballistic_02
+    Dmg-Ballistic3    TraitDef_WS_Weapon_Damage_Bonus_Ballistic_03
+    Dmg-Energy1    TraitDef_WS_Weapon_Damage_Bonus_Energy_01
+    Dmg-Energy2    TraitDef_WS_Weapon_Damage_Bonus_Energy_02
+    Dmg-Energy3    TraitDef_WS_Weapon_Damage_Bonus_Energy_03
+    Dmg-Missle1    TraitDef_WS_Weapon_Damage_Bonus_Missle_01
+    Dmg-Missle2    TraitDef_WS_Weapon_Damage_Bonus_Missle_02
+    Dmg-Missle3    TraitDef_WS_Weapon_Damage_Bonus_Missle_03
+    Dmg-Stability1    TraitDef_WS_Weapon_Stability_Damage_Bonus_01
+    Dmg-Stability2    TraitDef_WS_Weapon_Stability_Damage_Bonus_02
+    Dmg-Stability3    TraitDef_WS_Weapon_Stability_Damage_Bonus_03
+    Dmg-Stability4    TraitDef_WS_Weapon_Stability_Damage_Bonus_04
+    Dmg-Stability5    TraitDef_WS_Weapon_Stability_Damage_Bonus_05
+    Dmg-Heat1    TraitDef_WS_Weapon_Heat_Damage_Bonus_01
+    Dmg-Heat2    TraitDef_WS_Weapon_Heat_Damage_Bonus_02
+    Dmg-Heat3    TraitDef_WS_Weapon_Heat_Damage_Bonus_03
+    Dmg-Heat4    TraitDef_WS_Weapon_Heat_Damage_Bonus_04
+    Dmg-Heat5    TraitDef_WS_Weapon_Heat_Damage_Bonus_05
+    Dodge1    TraitDef_WS_Dodging_1
+    Dodge2    TraitDef_WS_Dodging_2
+    Dodge3    TraitDef_WS_Dodging_3
+    Dodge4    TraitDef_WS_Dodging_4
+    Dodge5    TraitDef_WS_Dodging_5
+    No-Headshot    TraitDefHeadshotImmunity
+    Veteran    TraitDefVeteranMechWarrior
+    Elite    TraitDefEliteMechWarrior
+Total number of trait codes: 79
+
+Pilot sprite file names:
+ws_img_pilot_Almandine.png
+ws_img_pilot_Arctic_Fox.png
+ws_img_pilot_Arctic_Snow.png
+ws_img_pilot_Black_Fox.png
+ws_img_pilot_Blade_Hawk.png
+ws_img_pilot_Blood_Lightning.png
+ws_img_pilot_Blue_Warrior.png
+ws_img_pilot_Blue_Warrior_alt_1.png
+ws_img_pilot_Bronze_Wood.png
+ws_img_pilot_Cheetah.png
+ws_img_pilot_Chrome_Puma.png
+ws_img_pilot_Cloud_Fighter.png
+ws_img_pilot_Cobalt.png
+ws_img_pilot_Cobalt_alt_1.png
+ws_img_pilot_Cobalt_alt_2.png
+ws_img_pilot_Cobra.png
+ws_img_pilot_Cobra_alt_1.png
+ws_img_pilot_Coolstone_Cat.png
+ws_img_pilot_Copper_Fox.png
+ws_img_pilot_Copper_Fox_alt_1.png
+ws_img_pilot_Copper_Wolf.png
+ws_img_pilot_Cougar_Winter.png
+ws_img_pilot_Crystal_Stiletto.png
+ws_img_pilot_Deep_Sky.png
+ws_img_pilot_Defthand.png
+ws_img_pilot_Desert_Sand.png
+ws_img_pilot_Diamond_Sword.png
+ws_img_pilot_Egyptian_Sunrise.png
+ws_img_pilot_Feral.png
+ws_img_pilot_Firewalker.png
+ws_img_pilot_Glass_Snake.png
+ws_img_pilot_Golden_Solar_Corona.png
+ws_img_pilot_Golden_Sword.png
+ws_img_pilot_Grand_Flight.png
+ws_img_pilot_High_Road_Wolf.png
+ws_img_pilot_Hot_Lightning.png
+ws_img_pilot_Iolite.png
+ws_img_pilot_Iolite_alt_1.png
+ws_img_pilot_Iron_Plains.png
+ws_img_pilot_Iron_Soldier.png
+ws_img_pilot_Jet.png
+ws_img_pilot_Jet_alt_1.png
+ws_img_pilot_Laser_Blade.png
+ws_img_pilot_Leopard.png
+ws_img_pilot_Leopard_Blade.png
+ws_img_pilot_Long_Flight_Thunder.png
+ws_img_pilot_Lunar_Coyote.png
+ws_img_pilot_Magicland_Panther.png
+ws_img_pilot_Magic_Katana.png
+ws_img_pilot_Metal_Fields.png
+ws_img_pilot_Morning_Fox.png
+ws_img_pilot_Morning_Windfire.png
+ws_img_pilot_Mountain_Glory.png
+ws_img_pilot_North_Forest.png
+ws_img_pilot_Photon_Ninjato.png
+ws_img_pilot_Pinewood.png
+ws_img_pilot_Prismatic.png
+ws_img_pilot_Prismatic_alt_1.png
+ws_img_pilot_Quickfighter.png
+ws_img_pilot_Rage_Fighter.png
+ws_img_pilot_Raging_Vitality.png
+ws_img_pilot_Raptor.png
+ws_img_pilot_Red_Thunder_Dawn.png
+ws_img_pilot_Riverside_Cougar.png
+ws_img_pilot_Sapphire_Lake.png
+ws_img_pilot_Shotgun.png
+ws_img_pilot_Sky_Raven.png
+ws_img_pilot_Snow_Flint.png
+ws_img_pilot_Solar_Dream_Sky.png
+ws_img_pilot_Solar_Glory.png
+ws_img_pilot_Solar_Wind_Spellcaster.png
+ws_img_pilot_Solar_Wizard.png
+ws_img_pilot_Solar_Youth.png
+ws_img_pilot_Spunk_Cutlass.png
+ws_img_pilot_Steel_Wolf.png
+ws_img_pilot_Strong_Fire_Slayer.png
+ws_img_pilot_Summer_Quartz.png
+ws_img_pilot_Summer_Wind.png
+ws_img_pilot_Sun_Tiger.png
+ws_img_pilot_Sun_Tiger_alt_1.png
+ws_img_pilot_Tall_Cloud.png
+ws_img_pilot_Tall_Crystal_Sky.png
+ws_img_pilot_Tall_Tornado_Wind.png
+ws_img_pilot_Thunder_Day.png
+ws_img_pilot_Tigerland.png
+ws_img_pilot_Tigerstone_1.png
+ws_img_pilot_Tigerstone_2.png
+ws_img_pilot_Tigerstone_3.png
+ws_img_pilot_Tigerstone_4.png
+ws_img_pilot_Tigerstone_5.png
+ws_img_pilot_Tundrahawk.png
+ws_img_pilot_Warrior_Fields.png
+ws_img_pilot_War_Path.png
+ws_img_pilot_White_Snake.png
+ws_img_pilot_Wind_Fire.png
+ws_img_pilot_Winter_Day.png
+ws_img_pilot_Wolf.png
+ws_img_pilot_Yellow_Viper.png
+Total number of face name filenames: 98
+
+Custom Battlemech pilots / Mechwarriors:
+Incomplete pilot - no pilot JSON file written, for pilot: 1 at spreadsheet row: 2, for pilot with face: Almandine
+  Spreadsheet row data: Almandine,,,,,,,,,,,,,,
+Incomplete pilot - no pilot JSON file written, for pilot: 2 at spreadsheet row: 3, for pilot with face: Arctic Fox
+  Spreadsheet row data: Arctic Fox,,,,,,,,,,,,,,
+Wrote JSON file for pilot 3 callsign: Gentle Slaughter, face: Arctic Snow, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Slaughter.json
+Wrote JSON file for pilot 4 callsign: Sweet Hot Death, face: Black Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Sweet_Hot_Death.json
+Wrote JSON file for pilot 5 callsign: Binoculars, face: Blade Hawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Binoculars.json
+Wrote JSON file for pilot 6 callsign: Meat On A Stick, face: Blood Lightning, file: ..\pilot\skirmish\pilot_ws_skirmish_Meat_On_A_Stick.json
+Wrote JSON file for pilot 7 callsign: Mach Five Assault, face: Blue Warrior, file: ..\pilot\skirmish\pilot_ws_skirmish_Mach_Five_Assault.json
+Wrote JSON file for pilot 8 callsign: Flesh Wound, face: Blue Warrior alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Flesh_Wound.json
+Wrote JSON file for pilot 9 callsign: Spaghetti, face: Bronze Wood, file: ..\pilot\skirmish\pilot_ws_skirmish_Spaghetti.json
+Incomplete pilot - no pilot JSON file written, for pilot: 10 at spreadsheet row: 11, for pilot with face: Cheetah
+  Spreadsheet row data: Cheetah,,,,,,,,,,,,,,
+Wrote JSON file for pilot 11 callsign: Lucid Dream, face: Chrome Puma, file: ..\pilot\skirmish\pilot_ws_skirmish_Lucid_Dream.json
+Wrote JSON file for pilot 12 callsign: Turbo Twit, face: Cloud Fighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Turbo_Twit.json
+Wrote JSON file for pilot 13 callsign: Tornado Blood Warrior, face: Cobalt, file: ..\pilot\skirmish\pilot_ws_skirmish_Tornado_Blood_Warrior.json
+Wrote JSON file for pilot 14 callsign: Rage Wind, face: Cobalt alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Rage_Wind.json
+Wrote JSON file for pilot 15 callsign: Decapitated Beverage, face: Cobalt alt 2, file: ..\pilot\skirmish\pilot_ws_skirmish_Decapitated_Beverage.json
+Wrote JSON file for pilot 16 callsign: Acid Burn, face: Cobra, file: ..\pilot\skirmish\pilot_ws_skirmish_Acid_Burn.json
+Wrote JSON file for pilot 17 callsign: Facial Mutilation, face: Cobra alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Facial_Mutilation.json
+Wrote JSON file for pilot 18 callsign: Chainsaw Tooth, face: Coolstone Cat, file: ..\pilot\skirmish\pilot_ws_skirmish_Chainsaw_Tooth.json
+Wrote JSON file for pilot 19 callsign: Prismatic Cougar, face: Copper Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Prismatic_Cougar.json
+Wrote JSON file for pilot 20 callsign: Chrome Kitten, face: Copper Fox alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Chrome_Kitten.json
+Wrote JSON file for pilot 21 callsign: Shark Fin, face: Copper Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Shark_Fin.json
+Incomplete pilot - no pilot JSON file written, for pilot: 22 at spreadsheet row: 23, for pilot with face: Cougar Winter
+  Spreadsheet row data: Cougar Winter,,,,,,,,,,,,,,
+Wrote JSON file for pilot 23 callsign: Leather Jacket, face: Crystal Stiletto, file: ..\pilot\skirmish\pilot_ws_skirmish_Leather_Jacket.json
+Wrote JSON file for pilot 24 callsign: Wild Kid, face: Deep Sky, file: ..\pilot\skirmish\pilot_ws_skirmish_Wild_Kid.json
+Wrote JSON file for pilot 25 callsign: Space Case, face: Defthand, file: ..\pilot\skirmish\pilot_ws_skirmish_Space_Case.json
+Wrote JSON file for pilot 26 callsign: Black Coffee, face: Desert Sand, file: ..\pilot\skirmish\pilot_ws_skirmish_Black_Coffee.json
+Wrote JSON file for pilot 27 callsign: Toaster Oven, face: Diamond Sword, file: ..\pilot\skirmish\pilot_ws_skirmish_Toaster_Oven.json
+Incomplete pilot - no pilot JSON file written, for pilot: 28 at spreadsheet row: 29, for pilot with face: Egyptian Sunrise
+  Spreadsheet row data: Egyptian Sunrise,,,,,,,,,,,,,,
+Wrote JSON file for pilot 29 callsign: Wild Boy, face: Feral, file: ..\pilot\skirmish\pilot_ws_skirmish_Wild_Boy.json
+Wrote JSON file for pilot 30 callsign: Rabid Firecracker, face: Firewalker, file: ..\pilot\skirmish\pilot_ws_skirmish_Rabid_Firecracker.json
+Wrote JSON file for pilot 31 callsign: Sunray, face: Glass Snake, file: ..\pilot\skirmish\pilot_ws_skirmish_Sunray.json
+Incomplete pilot - no pilot JSON file written, for pilot: 32 at spreadsheet row: 33, for pilot with face: Golden Solar Corona
+  Spreadsheet row data: Golden Solar Corona,,,,,,,,,,,,,,
+Wrote JSON file for pilot 33 callsign: Electrocution Party, face: Golden Sword, file: ..\pilot\skirmish\pilot_ws_skirmish_Electrocution_Party.json
+Wrote JSON file for pilot 34 callsign: Oil Can, face: Grand Flight, file: ..\pilot\skirmish\pilot_ws_skirmish_Oil_Can.json
+Wrote JSON file for pilot 35 callsign: Blood Streak, face: High Road Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Blood_Streak.json
+Wrote JSON file for pilot 36 callsign: Mad Tarantula, face: Hot Lightning, file: ..\pilot\skirmish\pilot_ws_skirmish_Mad_Tarantula.json
+Wrote JSON file for pilot 37 callsign: Hot Stuff, face: Iolite, file: ..\pilot\skirmish\pilot_ws_skirmish_Hot_Stuff.json
+Incomplete pilot - no pilot JSON file written, for pilot: 38 at spreadsheet row: 39, for pilot with face: Iolite alt 1
+  Spreadsheet row data: Iolite alt 1,,,,,,,,,,,,,,
+Wrote JSON file for pilot 39 callsign: Garbage Man, face: Iron Plains, file: ..\pilot\skirmish\pilot_ws_skirmish_Garbage_Man.json
+Wrote JSON file for pilot 40 callsign: Bad Boy, face: Iron Soldier, file: ..\pilot\skirmish\pilot_ws_skirmish_Bad_Boy.json
+Wrote JSON file for pilot 41 callsign: Flesh Splatter, face: Jet, file: ..\pilot\skirmish\pilot_ws_skirmish_Flesh_Splatter.json
+Wrote JSON file for pilot 42 callsign: Cool Guy, face: Jet alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Cool_Guy.json
+Wrote JSON file for pilot 43 callsign: Raging Bloodshed, face: Laser Blade, file: ..\pilot\skirmish\pilot_ws_skirmish_Raging_Bloodshed.json
+Incomplete pilot - no pilot JSON file written, for pilot: 44 at spreadsheet row: 45, for pilot with face: Leopard
+  Spreadsheet row data: Leopard,,,,,,,,,,,,,,
+Wrote JSON file for pilot 45 callsign: Manslaughter Delight, face: Leopard Blade, file: ..\pilot\skirmish\pilot_ws_skirmish_Manslaughter_Delight.json
+Wrote JSON file for pilot 46 callsign: Cleaver, face: Long Flight Thunder, file: ..\pilot\skirmish\pilot_ws_skirmish_Cleaver.json
+Incomplete pilot - no pilot JSON file written, for pilot: 47 at spreadsheet row: 48, for pilot with face: Lunar Coyote
+  Spreadsheet row data: Lunar Coyote,,,,,,,,,,,,,,
+Wrote JSON file for pilot 48 callsign: Murder Kitten, face: Magic Katana, file: ..\pilot\skirmish\pilot_ws_skirmish_Murder_Kitten.json
+Wrote JSON file for pilot 49 callsign: True Color Torture, face: Magicland Panther, file: ..\pilot\skirmish\pilot_ws_skirmish_True_Color_Torture.json
+Wrote JSON file for pilot 50 callsign: Meat Chunk Cutter, face: Metal Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Meat_Chunk_Cutter.json
+Wrote JSON file for pilot 51 callsign: Critical Breakage, face: Morning Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Critical_Breakage.json
+Wrote JSON file for pilot 52 callsign: Soldier Slay What, face: Morning Windfire, file: ..\pilot\skirmish\pilot_ws_skirmish_Soldier_Slay_What.json
+Wrote JSON file for pilot 53 callsign: Fortuitous Undertaking, face: Mountain Glory, file: ..\pilot\skirmish\pilot_ws_skirmish_Fortuitous_Undertaking.json
+Wrote JSON file for pilot 54 callsign: Glory Carnage, face: North Forest, file: ..\pilot\skirmish\pilot_ws_skirmish_Glory_Carnage.json
+Wrote JSON file for pilot 55 callsign: Land of Revenge, face: Photon Ninjato, file: ..\pilot\skirmish\pilot_ws_skirmish_Land_of_Revenge.json
+Wrote JSON file for pilot 56 callsign: Lynching Holiday, face: Pinewood, file: ..\pilot\skirmish\pilot_ws_skirmish_Lynching_Holiday.json
+Wrote JSON file for pilot 57 callsign: Courage Force, face: Prismatic, file: ..\pilot\skirmish\pilot_ws_skirmish_Courage_Force.json
+Wrote JSON file for pilot 58 callsign: Vigorous Intensity, face: Prismatic alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Vigorous_Intensity.json
+Wrote JSON file for pilot 59 callsign: Lunchtime Massacre, face: Quickfighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Lunchtime_Massacre.json
+Wrote JSON file for pilot 60 callsign: Skull Cleaver, face: Rage Fighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Skull_Cleaver.json
+Wrote JSON file for pilot 61 callsign: Coffee Break, face: Raging Vitality, file: ..\pilot\skirmish\pilot_ws_skirmish_Coffee_Break.json
+Wrote JSON file for pilot 62 callsign: Sun Zombie, face: Raptor, file: ..\pilot\skirmish\pilot_ws_skirmish_Sun_Zombie.json
+Wrote JSON file for pilot 63 callsign: Power Dive, face: Red Thunder Dawn, file: ..\pilot\skirmish\pilot_ws_skirmish_Power_Dive.json
+Wrote JSON file for pilot 64 callsign: Bronze Skeleton, face: Riverside Cougar, file: ..\pilot\skirmish\pilot_ws_skirmish_Bronze_Skeleton.json
+Wrote JSON file for pilot 65 callsign: Totality Infliction, face: Sapphire Lake, file: ..\pilot\skirmish\pilot_ws_skirmish_Totality_Infliction.json
+Wrote JSON file for pilot 66 callsign: Superphotonic, face: Shotgun, file: ..\pilot\skirmish\pilot_ws_skirmish_Superphotonic.json
+Wrote JSON file for pilot 67 callsign: Contrasensical, face: Sky Raven, file: ..\pilot\skirmish\pilot_ws_skirmish_Contrasensical.json
+Wrote JSON file for pilot 68 callsign: Lethal Disfigurement, face: Snow Flint, file: ..\pilot\skirmish\pilot_ws_skirmish_Lethal_Disfigurement.json
+Wrote JSON file for pilot 69 callsign: Deathbreak, face: Solar Dream Sky, file: ..\pilot\skirmish\pilot_ws_skirmish_Deathbreak.json
+Wrote JSON file for pilot 70 callsign: Tender Loathing Care, face: Solar Glory, file: ..\pilot\skirmish\pilot_ws_skirmish_Tender_Loathing_Care.json
+Wrote JSON file for pilot 71 callsign: Murder Club, face: Solar Wind Spellcaster, file: ..\pilot\skirmish\pilot_ws_skirmish_Murder_Club.json
+Incomplete pilot - no pilot JSON file written, for pilot: 72 at spreadsheet row: 73, for pilot with face: Solar Wizard
+  Spreadsheet row data: Solar Wizard,,,,,,,,,,,,,,
+Wrote JSON file for pilot 73 callsign: Chunky Decapitation, face: Solar Youth, file: ..\pilot\skirmish\pilot_ws_skirmish_Chunky_Decapitation.json
+Wrote JSON file for pilot 74 callsign: Mobster Buddy, face: Spunk Cutlass, file: ..\pilot\skirmish\pilot_ws_skirmish_Mobster_Buddy.json
+Wrote JSON file for pilot 75 callsign: Dry Rot, face: Steel Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dry_Rot.json
+Wrote JSON file for pilot 76 callsign: Terminal Catastrophe, face: Strong Fire Slayer, file: ..\pilot\skirmish\pilot_ws_skirmish_Terminal_Catastrophe.json
+Wrote JSON file for pilot 77 callsign: Gratuitous Ooga Chucka, face: Summer Quartz, file: ..\pilot\skirmish\pilot_ws_skirmish_Gratuitous_Ooga_Chucka.json
+Wrote JSON file for pilot 78 callsign: Ambush Predator, face: Summer Wind, file: ..\pilot\skirmish\pilot_ws_skirmish_Ambush_Predator.json
+Wrote JSON file for pilot 79 callsign: Gung Ho, face: Sun Tiger, file: ..\pilot\skirmish\pilot_ws_skirmish_Gung_Ho.json
+Wrote JSON file for pilot 80 callsign: Blockhead, face: Sun Tiger alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Blockhead.json
+Wrote JSON file for pilot 81 callsign: Fusion Thrash, face: Tall Cloud, file: ..\pilot\skirmish\pilot_ws_skirmish_Fusion_Thrash.json
+Wrote JSON file for pilot 82 callsign: Regal Club, face: Tall Crystal Sky, file: ..\pilot\skirmish\pilot_ws_skirmish_Regal_Club.json
+Wrote JSON file for pilot 83 callsign: Gentle Brutality, face: Tall Tornado Wind, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Brutality.json
+Wrote JSON file for pilot 84 callsign: More Painful If You Please, face: Thunder Day, file: ..\pilot\skirmish\pilot_ws_skirmish_More_Painful_If_You_Please.json
+Wrote JSON file for pilot 85 callsign: Asphyxiation, face: Tigerland, file: ..\pilot\skirmish\pilot_ws_skirmish_Asphyxiation.json
+Incomplete pilot - no pilot JSON file written, for pilot: 86 at spreadsheet row: 87, for pilot with face: Tigerstone 1, callsign: Tiger One
+  Spreadsheet row data: Tigerstone 1,Tiger One,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
+Incomplete pilot - no pilot JSON file written, for pilot: 87 at spreadsheet row: 88, for pilot with face: Tigerstone 2, callsign: Tiger Two
+  Spreadsheet row data: Tigerstone 2,Tiger Two,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
+Incomplete pilot - no pilot JSON file written, for pilot: 88 at spreadsheet row: 89, for pilot with face: Tigerstone 3, callsign: Tiger Three
+  Spreadsheet row data: Tigerstone 3,Tiger Three,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
+Incomplete pilot - no pilot JSON file written, for pilot: 89 at spreadsheet row: 90, for pilot with face: Tigerstone 4, callsign: Tiger Four
+  Spreadsheet row data: Tigerstone 4,Tiger Four,John,Doe,Male,,,,,,,,m_pro01_stark_chad,,
+Incomplete pilot - no pilot JSON file written, for pilot: 90 at spreadsheet row: 91, for pilot with face: Tigerstone 5, callsign: Tiger Five
+  Spreadsheet row data: Tigerstone 5,Tiger Five,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
+Wrote JSON file for pilot 91 callsign: Majestic Conquest, face: Tundrahawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Majestic_Conquest.json
+Wrote JSON file for pilot 92 callsign: War Path, face: War Path, file: ..\pilot\skirmish\pilot_ws_skirmish_War_Path.json
+Wrote JSON file for pilot 93 callsign: Eat Suck, face: Warrior Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Eat_Suck.json
+Wrote JSON file for pilot 94 callsign: Torture Compartment, face: White Snake, file: ..\pilot\skirmish\pilot_ws_skirmish_Torture_Compartment.json
+Wrote JSON file for pilot 95 callsign: Toxic Waste Dump, face: Wind Fire, file: ..\pilot\skirmish\pilot_ws_skirmish_Toxic_Waste_Dump.json
+Wrote JSON file for pilot 96 callsign: Hurt In A Box, face: Winter Day, file: ..\pilot\skirmish\pilot_ws_skirmish_Hurt_In_A_Box.json
+Wrote JSON file for pilot 97 callsign: Dude You Suck, face: Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dude_You_Suck.json
+Wrote JSON file for pilot 98 callsign: Car Crash, face: Yellow Viper, file: ..\pilot\skirmish\pilot_ws_skirmish_Car_Crash.json
+
+Total pilot JSON files written: 83
+Total pilot JSON files attempted: 98
+Total incomplete pilots (no file written) or errors: 15
+
+
+
+Writing output to log file: "process js log.txt"...
+  at: Mon Dec 15 2025 17:55:33 GMT-0500 (Eastern Standard Time)

@@ -8,7 +8,7 @@
     "UIName": "Sensor Array Package T2",
     "Id": "Gear_Sensor_Array_Package_T2",
     "Name": "Sensor Array Package T2",
-    "Details": "Heat generated when installed: 8\n\n",
+    "Details": "Sensor range increase: 675 meters.\nMaximum cumulative sensor range modifiers: 1x.\nHeat generated per turn: 3.\n\n",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "StatName": null,
@@ -38,7 +38,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT HEAT GENERATED",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
         "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -61,7 +61,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": 8,
+        "modValue": -3,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -97,7 +97,7 @@
       "Description": {
         "Id": "StatusEffect-WS-Spotting_Distance_Gain",
         "Name": "SENSOR RANGE INCREASED",
-        "Details": "This unit's Sensor spotting, visibility, and detection range is increased by [AMT]m.",
+        "Details": "This unit's Sensor spotting, visibility, and detection range are increased by [AMT]m.",
         "Icon": "uixSvgIcon_equipment_Rangefinder"
       },
       "nature": "Buff",
