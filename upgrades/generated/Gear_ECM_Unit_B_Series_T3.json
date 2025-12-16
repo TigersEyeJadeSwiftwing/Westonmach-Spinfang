@@ -8,7 +8,7 @@
     "UIName": "ECM Unit B Series T3",
     "Id": "Gear_ECM_Unit_B_Series_T3",
     "Name": "ECM Unit B Series T3",
-    "Details": "Incoming rocket / missle aim difficulty modifier: 1.50.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 7.\nDamage taken from all sources: 108.3640%.\n\n",
+    "Details": "Incoming rocket / missle aim difficulty modifier: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 108.3640%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,

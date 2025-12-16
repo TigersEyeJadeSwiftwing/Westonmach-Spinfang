@@ -8,7 +8,7 @@
     "UIName": "Force Field T5",
     "Id": "Gear_Force_Field_T5",
     "Name": "Force Field T5",
-    "Details": "Damage taken, all sources: 50.00%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: 40.\nMax heat and overheating modifiers: 12.\n\n",
+    "Details": "Damage taken, all sources: 50.00%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -12,
+        "modValue": 12,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -12,
+        "modValue": 12,
         "modType": "System.Int32"
       }
     },

@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Ballistic T4",
     "Id": "Gear_Range_Upgrade_Ballistic_T4_skirmish",
     "Name": "Range Upgrade Ballistic T4",
-    "Details": "Ballistic weapon range increase: 200 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 13.\nMax heat and overheating modifiers: 6.\nDamage taken from all sources: 111.8540%.\n\n",
+    "Details": "Ballistic weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 111.8540%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -6,
+        "modValue": 6,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -6,
+        "modValue": 6,
         "modType": "System.Int32"
       }
     },

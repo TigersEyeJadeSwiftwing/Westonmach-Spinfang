@@ -8,7 +8,7 @@
     "UIName": "TTS Omni T3",
     "Id": "Gear_TTS_Omni_T3",
     "Name": "TTS Omni T3",
-    "Details": "Weapon accuracy (all types) increase: \n\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 9.\nMax heat and overheating modifiers: 4.\nDamage taken from all sources: 122.0970%.\n\n",
+    "Details": "Weapon accuracy (all types) increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 122.0970%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -4,
+        "modValue": 4,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -4,
+        "modValue": 4,
         "modType": "System.Int32"
       }
     },

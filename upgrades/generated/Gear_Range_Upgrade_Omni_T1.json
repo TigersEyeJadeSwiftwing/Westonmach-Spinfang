@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Omni T1",
     "Id": "Gear_Range_Upgrade_Omni_T1",
     "Name": "Range Upgrade Omni T1",
-    "Details": "Ballistic weapon range increase: 45 meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: 45 meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: 90 meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: 25 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 6.\nMax heat and overheating modifiers: 5.\n\n",
+    "Details": "Ballistic weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -93,7 +93,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },

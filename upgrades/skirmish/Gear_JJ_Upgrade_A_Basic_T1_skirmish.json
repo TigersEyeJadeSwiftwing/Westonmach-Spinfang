@@ -8,7 +8,7 @@
     "UIName": "JJ Upgrade A Basic T1",
     "Id": "Gear_JJ_Upgrade_A_Basic_T1_skirmish",
     "Name": "JJ Upgrade A Basic T1",
-    "Details": "Jumping spaces/turn: 116.00%.\nMaximum cumulative jump jet upgrades: 1x.\nHeat generated per turn: 2.\nDamage taken from all sources: 106.2500%.\n\n",
+    "Details": "Jumping spaces/turn: 116.00%.\nMaximum cumulative jump jet upgrades: 1x.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 106.2500%.\n\n",
     "Icon": "uixSvgIcon_action_jump"
   },
   "StatName": null,

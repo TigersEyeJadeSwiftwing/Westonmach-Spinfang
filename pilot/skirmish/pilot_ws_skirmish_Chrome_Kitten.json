@@ -60,10 +60,6 @@
     "TraitDefMinRangeReduce45",
     "TraitDefCalledShotImprove",
     "TraitDefIndirectReduceTwo",
-    "TraitDef_WS_Weapon_Range_Bonus_02",
-    "TraitDef_WS_Weapon_Range_Bonus_Ballistic_01",
-    "TraitDef_WS_Weapon_Damage_Bonus_Ballistic_01",
-    "TraitDef_WS_Weapon_Stability_Damage_Bonus_01",
     "AbilityDefG5",
     "AbilityDefP5"
   ],

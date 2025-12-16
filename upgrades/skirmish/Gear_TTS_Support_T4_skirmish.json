@@ -8,7 +8,7 @@
     "UIName": "TTS Support T4",
     "Id": "Gear_TTS_Support_T4_skirmish",
     "Name": "TTS Support T4",
-    "Details": "Support weapon accuracy increase: \n\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 5.\nMax heat and overheating modifiers: 2.\nDamage taken from all sources: 106.4950%.\n\n",
+    "Details": "Support weapon accuracy increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 106.4950%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -2,
+        "modValue": 2,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -2,
+        "modValue": 2,
         "modType": "System.Int32"
       }
     },

@@ -9,7 +9,7 @@
     "UIName": "Wastemaker AC C-Heavy T2",
     "Name": "Wastemaker AC C-Heavy T2",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated per turn: 1.\nDamage taken from all sources: 102.0000%.\n\n"
+    "Details": "Heat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 102.0000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Energy T5",
     "Id": "Gear_Range_Upgrade_Energy_T5",
     "Name": "Range Upgrade Energy T5",
-    "Details": "Energy weapon range increase: 250 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 20.\nMax heat and overheating modifiers: 10.\nDamage taken from all sources: 118.2500%.\n\n",
+    "Details": "Energy weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 118.2500%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -10,
+        "modValue": 10,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -10,
+        "modValue": 10,
         "modType": "System.Int32"
       }
     },

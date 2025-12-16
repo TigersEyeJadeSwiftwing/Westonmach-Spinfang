@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Missle T4",
     "Id": "Gear_Range_Upgrade_Missle_T4",
     "Name": "Range Upgrade Missle T4",
-    "Details": "Rocket / Missle weapon range increase: 480 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 13.\nMax heat and overheating modifiers: 6.\nDamage taken from all sources: 111.8540%.\n\n",
+    "Details": "Rocket / Missle weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 111.8540%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -6,
+        "modValue": 6,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -6,
+        "modValue": 6,
         "modType": "System.Int32"
       }
     },

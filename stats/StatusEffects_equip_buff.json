@@ -60,6 +60,8 @@
                 "neg_float",
                 "int",
                 "neg_int",
+                "modifier",
+                "neg_modifier",
                 "percent",
                 "one_div_percent",
                 "meters",
@@ -258,8 +260,8 @@
     [
         { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "+COOLANT_PLANT",
           "Prepend" : [
-            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative, effective coolant plants: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -308,8 +310,8 @@
     [
         { "Name" : "Effect_Overheat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "+HEAT_MOD",
           "Prepend" : [
-            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "modifier", "Digits" : "0" }
           ]
         },
         {
@@ -357,7 +359,7 @@
     [
         { "Name" : "Effect_Max_Heat_Levels_Buff", "Mod_WS_EquipEffect_ID" : "+MAX_HEAT",
           "Prepend" : [
-            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum allowed heat modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative heat threshold modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -386,7 +388,7 @@
     [
         { "Name" : "Effect_Overheat_Level_Buff", "Mod_WS_EquipEffect_ID" : "+OVERHEAT",
           "Prepend" : [
-            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Overheating shutdown threshold modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative heat threshold modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -415,8 +417,8 @@
     [
         { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "+STABILITY",
           "Prepend" : [
-            { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Maximum stability modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative stability modifiers: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -425,7 +427,7 @@
                 "Id" : "StatusEffect-WS-Stability_Maximum_Buff",
                 "Name" : "STABILITY INCREASED",
                 "Details" : "Maximum stability and unsteady thresholds increased by [AMT].",
-                "Icon" : "uixSvgIcon_status_unsteady"
+                "Icon" : "uixSvgIcon_ability_sureFooting"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
@@ -445,7 +447,7 @@
                 "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold_Buff",
                 "Name" : "UNSTEADY THRESHOLD INCREASED",
                 "Details" : "Unsteady threshold increased by [AMT].",
-                "Icon" : "uixSvgIcon_status_unsteady"
+                "Icon" : "uixSvgIcon_ability_sureFooting"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : -1 },
@@ -465,8 +467,8 @@
     [
         { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "+STABILITY_ENGINE1",
           "Prepend" : [
-            { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Maximum stability modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "modifier", "Digits" : "0" }
           ]
         },
         {
@@ -474,7 +476,7 @@
                 "Id" : "StatusEffect-WS-Stability_Maximum-Engine1",
                 "Name" : "STABILITY INCREASED",
                 "Details" : "Maximum stability and unsteady thresholds increased by [AMT].",
-                "Icon" : "uixSvgIcon_status_unsteady"
+                "Icon" : "uixSvgIcon_ability_sureFooting"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : 1 },
@@ -494,7 +496,7 @@
                 "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold-Engine1",
                 "Name" : "UNSTEADY THRESHOLD INCREASED",
                 "Details" : "Unsteady threshold increased by [AMT].",
-                "Icon" : "uixSvgIcon_status_unsteady"
+                "Icon" : "uixSvgIcon_ability_sureFooting"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : 1 },
@@ -514,8 +516,8 @@
     [
         { "Name" : "Effect_Stability_Buff", "Mod_WS_EquipEffect_ID" : "+STABILITY_ENGINE2",
           "Prepend" : [
-            { "Text" : "Maximum stability modifier: ", "Data_Type" : "int", "Digits" : "0" },
-            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "int", "Digits" : "0" }
+            { "Text" : "Maximum stability modifier: ", "Data_Type" : "modifier", "Digits" : "0" },
+            { "Text" : "Unsteady threshold modifier: ", "Data_Type" : "modifier", "Digits" : "0" }
           ]
         },
         {
@@ -523,7 +525,7 @@
                 "Id" : "StatusEffect-WS-Stability_Maximum-Engine2",
                 "Name" : "STABILITY INCREASED",
                 "Details" : "Maximum stability and unsteady thresholds increased by [AMT].",
-                "Icon" : "uixSvgIcon_status_unsteady"
+                "Icon" : "uixSvgIcon_ability_sureFooting"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : 2 },
@@ -543,7 +545,7 @@
                 "Id" : "StatusEffect-WS-Stability_Unsteady_Threshold-Engine2",
                 "Name" : "UNSTEADY THRESHOLD INCREASED",
                 "Details" : "Unsteady threshold increased by [AMT].",
-                "Icon" : "uixSvgIcon_status_unsteady"
+                "Icon" : "uixSvgIcon_ability_sureFooting"
             },
             "effectType" : "StatisticEffect", "nature" : "Buff",
             "durationData" : { "duration" : -1, "stackLimit" : 2 },
@@ -563,7 +565,7 @@
     [
         { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT",
           "Prepend" : [
-            { "Text" : "Combat turn initiative bonus: +", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Combat turn initiative bonus: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative initiative buffs: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -623,7 +625,7 @@
     [
         { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT_ENGINE1",
           "Prepend" : [
-            { "Text" : "Combat turn initiative bonus: +", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Combat turn initiative bonus: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative initiative buffs: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -683,7 +685,7 @@
     [
         { "Name" : "Effect_Initiative_Buff", "Mod_WS_EquipEffect_ID" : "+INIT_ENGINE2",
           "Prepend" : [
-            { "Text" : "Combat turn initiative bonus: +", "Data_Type" : "int", "Digits" : "0" },
+            { "Text" : "Combat turn initiative bonus: ", "Data_Type" : "modifier", "Digits" : "0" },
             { "Text" : "Maximum cumulative initiative buffs: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -786,7 +788,7 @@
     [
         { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "+JAMMER",
           "Prepend" : [
-            { "Text" : "Enemy aim (direct fire) difficulty modifier: +", "Data_Type" : "float", "Digits" : "2" },
+            { "Text" : "Enemy aim (direct fire) difficulty modifier: ", "Data_Type" : "modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -829,7 +831,7 @@
     [
         { "Name" : "Effect_Targeting_Jammer_Buff", "Mod_WS_EquipEffect_ID" : "+ECM",
           "Prepend" : [
-            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "float", "Digits" : "2" },
+            { "Text" : "Incoming rocket / missle aim difficulty modifier: ", "Data_Type" : "modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -942,7 +944,7 @@
                 "Id" : "StatusEffect-WS-Melee_Damage-Buff",
                 "Name" : "MELEE DAMAGE INCREASED",
                 "Details" : "Melee attacks by this unit deal [AMT] additional damage to the enemy.",
-                "Icon" : "uixSvgIcon_specialEquip_Melee"
+                "Icon" : "UixSvgIcon_specialEquip_Melee"
             },
             "durationData" : {
                 "duration" : -1,
@@ -993,7 +995,7 @@
                 "Id" : "StatusEffect-WS-Melee_Stability_Damage-Buff",
                 "Name" : "MELEE STABILITY DAMAGE INCREASED",
                 "Details" : "Melee attacks by this unit deal [AMT] additional stability damage to the enemy.",
-                "Icon" : "uixSvgIcon_specialEquip_Melee"
+                "Icon" : "UixSvgIcon_specialEquip_Melee"
             },
             "durationData" : {
                 "duration" : -1,
@@ -1206,7 +1208,7 @@
     [
         { "Name" : "Effect_Accuracy_Support_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_SPPT",
           "Prepend" : [
-            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
+            { "Text" : "Support weapon accuracy increase: ", "Data_Type" : "neg_modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1266,7 +1268,7 @@
     [
         { "Name" : "Effect_Accuracy_Energy_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_ENGY",
           "Prepend" : [
-            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
+            { "Text" : "Energy weapon accuracy increase: ", "Data_Type" : "neg_modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1326,7 +1328,7 @@
     [
         { "Name" : "Effect_Accuracy_Ballistic_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_BALL",
           "Prepend" : [
-            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
+            { "Text" : "Ballistic weapon accuracy increase: ", "Data_Type" : "neg_modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1386,7 +1388,7 @@
     [
         { "Name" : "Effect_Accuracy_Missle_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_MSSL",
           "Prepend" : [
-            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
+            { "Text" : "Missle weapon accuracy increase: ", "Data_Type" : "neg_modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -1446,7 +1448,7 @@
     [
         { "Name" : "Effect_Accuracy_Omni_Buff", "Mod_WS_EquipEffect_ID" : "+ACC_OMNI",
           "Prepend" : [
-            { "Text" : "Weapon accuracy (all types) increase: ", "Data_Type" : "neg_float", "Digits" : "2" },
+            { "Text" : "Weapon accuracy (all types) increase: ", "Data_Type" : "neg_modifier", "Digits" : "2" },
             { "Text" : "Maximum cumulative modifiers of this type: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },

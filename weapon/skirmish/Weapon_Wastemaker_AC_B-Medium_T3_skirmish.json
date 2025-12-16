@@ -9,7 +9,7 @@
     "UIName": "Wastemaker AC B-Medium T3",
     "Name": "Wastemaker AC B-Medium T3",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated per turn: 2.\nDamage taken from all sources: 104.2430%.\n\n"
+    "Details": "Heat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 104.2430%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -54,7 +54,7 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "range_medium"
+      "range_standard"
     ],
     "tagSetSourceFile": ""
   },

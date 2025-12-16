@@ -10,7 +10,7 @@
     "UIName": "Reaper AC H-Heavy BF Ammo 23x",
     "Id": "AmmunitionBox_WS_Reaper_AC_H-Heavy_BF_Ammo_23x",
     "Name": "Reaper AC H-Heavy BF Ammo 23x",
-    "Details": "Capacity: 575\nCartridges or Rounds per Firing: 5\nNumber of Firings: 115\nHeat generated per turn: 8.\nMax heat and overheating modifiers: 8.\nDamage taken from all sources: 101.9020%.\n\n    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, including Reaper Auto Cannon ammunition, which have warheads that can be made to explode under certain conditions.  Aside from the warhead, a Reaper Auto Cannon round is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  The rounds do not leave any shell or casing behind after firing, and do not use gunpowder or out-dated archaic technology to propel the round through and out of the barrel, but use alternative technology.\n\n    Reaper Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",
+    "Details": "Capacity: 575\nCartridges or Rounds per Firing: 5\nNumber of Firings: 115\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 101.9020%.\n\n    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, including Reaper Auto Cannon ammunition, which have warheads that can be made to explode under certain conditions.  Aside from the warhead, a Reaper Auto Cannon round is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  The rounds do not leave any shell or casing behind after firing, and do not use gunpowder or out-dated archaic technology to propel the round through and out of the barrel, but use alternative technology.\n\n    Reaper Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "575 Rounds",
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -8,
+        "modValue": 8,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -8,
+        "modValue": 8,
         "modType": "System.Int32"
       }
     },

@@ -8,7 +8,7 @@
     "UIName": "Target Tracking Jammer A Series T4",
     "Id": "Gear_Target_Tracking_Jammer_A_Series_T4_skirmish",
     "Name": "Target Tracking Jammer A Series T4",
-    "Details": "Enemy aim (direct fire) difficulty modifier: +2.00.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: 13.\n\n",
+    "Details": "Enemy aim (direct fire) difficulty modifier: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
@@ -54,7 +54,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -13,
+        "modValue": 13,
         "modType": "System.Int32"
       }
     },
@@ -80,7 +80,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -13,
+        "modValue": 13,
         "modType": "System.Int32"
       }
     },

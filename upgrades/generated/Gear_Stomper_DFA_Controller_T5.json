@@ -8,7 +8,7 @@
     "UIName": "Stomper DFA Controller T5",
     "Id": "Gear_Stomper_DFA_Controller_T5",
     "Name": "Stomper DFA Controller T5",
-    "Details": "DFA damage to enemy modifier: 320.00%.\nDFA stability damage to enemy modifier: 320.00%.\n31.25%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 12.\nMax heat and overheating modifiers: 5.\n\n",
+    "Details": "DFA damage to enemy modifier: 320.00%.\nDFA stability damage to enemy modifier: 320.00%.\n31.25%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_equipment_ActuatorLeg"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },

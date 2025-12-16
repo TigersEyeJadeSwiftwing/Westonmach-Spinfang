@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Missle T1",
     "Id": "Gear_Damage_Upgrade_Missle_T1",
     "Name": "Damage Upgrade Missle T1",
-    "Details": "Missle / Rocket weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 5.\n\n",
+    "Details": "Missle / Rocket weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "StatName": null,

@@ -8,7 +8,7 @@
     "UIName": "Melee Combat Controller T4",
     "Id": "Gear_Melee_Combat_Controller_T4_skirmish",
     "Name": "Melee Combat Controller T4",
-    "Details": "Melee damage modifier: 247.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 8.\nMax heat and overheating modifiers: 3.\n\n",
+    "Details": "Melee damage modifier: 247.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -3,
+        "modValue": 3,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -3,
+        "modValue": 3,
         "modType": "System.Int32"
       }
     },
@@ -129,7 +129,7 @@
         "Id": "StatusEffect-WS-Melee_Damage-Buff",
         "Name": "MELEE DAMAGE INCREASED",
         "Details": "Melee attacks by this unit deal [AMT] additional damage to the enemy.",
-        "Icon": "uixSvgIcon_specialEquip_Melee"
+        "Icon": "UixSvgIcon_specialEquip_Melee"
       },
       "durationData": {
         "duration": -1,
@@ -180,7 +180,7 @@
         "Id": "StatusEffect-WS-Melee_Stability_Damage-Buff",
         "Name": "MELEE STABILITY DAMAGE INCREASED",
         "Details": "Melee attacks by this unit deal [AMT] additional stability damage to the enemy.",
-        "Icon": "uixSvgIcon_specialEquip_Melee"
+        "Icon": "UixSvgIcon_specialEquip_Melee"
       },
       "durationData": {
         "duration": -1,

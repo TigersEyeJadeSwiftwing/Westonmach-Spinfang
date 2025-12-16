@@ -8,7 +8,7 @@
     "UIName": "Melee Combat Controller T2",
     "Id": "Gear_Melee_Combat_Controller_T2_skirmish",
     "Name": "Melee Combat Controller T2",
-    "Details": "Melee damage modifier: 145.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 3.\n\n",
+    "Details": "Melee damage modifier: 145.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,
@@ -77,7 +77,7 @@
         "Id": "StatusEffect-WS-Melee_Damage-Buff",
         "Name": "MELEE DAMAGE INCREASED",
         "Details": "Melee attacks by this unit deal [AMT] additional damage to the enemy.",
-        "Icon": "uixSvgIcon_specialEquip_Melee"
+        "Icon": "UixSvgIcon_specialEquip_Melee"
       },
       "durationData": {
         "duration": -1,
@@ -128,7 +128,7 @@
         "Id": "StatusEffect-WS-Melee_Stability_Damage-Buff",
         "Name": "MELEE STABILITY DAMAGE INCREASED",
         "Details": "Melee attacks by this unit deal [AMT] additional stability damage to the enemy.",
-        "Icon": "uixSvgIcon_specialEquip_Melee"
+        "Icon": "UixSvgIcon_specialEquip_Melee"
       },
       "durationData": {
         "duration": -1,

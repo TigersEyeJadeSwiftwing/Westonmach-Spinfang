@@ -9,7 +9,7 @@
     "UIName": "Wastemaker AC A-Light T4",
     "Name": "Wastemaker AC A-Light T4",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated per turn: 3.\nDamage taken from all sources: 106.4950%.\n\n"
+    "Details": "Heat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 106.4950%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

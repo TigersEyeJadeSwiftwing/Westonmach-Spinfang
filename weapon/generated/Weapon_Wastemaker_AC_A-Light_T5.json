@@ -9,7 +9,7 @@
     "UIName": "Wastemaker AC A-Light T5",
     "Name": "Wastemaker AC A-Light T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated per turn: 5.\nDamage taken from all sources: 110.0000%.\n\n"
+    "Details": "Heat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 110.0000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

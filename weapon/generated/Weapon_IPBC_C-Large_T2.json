@@ -9,7 +9,7 @@
     "UIName": "IPBC C-Large T2",
     "Name": "IPBC C-Large T2",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 111.9970%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: 2.\nMax heat and overheating modifiers: 1.\nDamage taken from all sources: 102.0000%.\n\n"
+    "Details": "Target multiplier to all further damage: 111.9970%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 102.0000%.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },
@@ -146,7 +146,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },

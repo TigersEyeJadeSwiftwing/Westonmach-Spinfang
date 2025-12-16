@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Missle T2",
     "Id": "Gear_Range_Upgrade_Missle_T2",
     "Name": "Range Upgrade Missle T2",
-    "Details": "Rocket / Missle weapon range increase: 240 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 5.\nMax heat and overheating modifiers: 1.\nDamage taken from all sources: 102.2810%.\n\n",
+    "Details": "Rocket / Missle weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 102.2810%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -93,7 +93,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },

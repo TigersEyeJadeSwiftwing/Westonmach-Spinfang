@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Missle T4",
     "Id": "Gear_Damage_Upgrade_Missle_T4",
     "Name": "Damage Upgrade Missle T4",
-    "Details": "Missle / Rocket weapon damage modifier: 148.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 16.\nMax heat and overheating modifiers: 7.\nDamage taken from all sources: 112.9900%.\n\n",
+    "Details": "Missle / Rocket weapon damage modifier: 148.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 112.9900%.\n\n",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -7,
+        "modValue": 7,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -7,
+        "modValue": 7,
         "modType": "System.Int32"
       }
     },

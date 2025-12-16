@@ -35,7 +35,8 @@
     "TraitDefMeleeHit2",
     "TraitDefMeleeHit3",
     "TraitDefMeleeHit4",
-    "TraitDefUnsteadySet80"
+    "TraitDefUnsteadySet80",
+    "AbilityDefGu5"
   ],
   "AIPersonality": "Undefined",
   "PilotTags": {

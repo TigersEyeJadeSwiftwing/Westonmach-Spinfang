@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T1",
     "Id": "Gear_Range_Upgrade_Support_T1_skirmish",
     "Name": "Range Upgrade Support T1",
-    "Details": "Support weapon range increase: 30 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 3.\n\n",
+    "Details": "Support weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

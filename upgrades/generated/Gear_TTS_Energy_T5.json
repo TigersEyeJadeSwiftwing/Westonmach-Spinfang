@@ -8,7 +8,7 @@
     "UIName": "TTS Energy T5",
     "Id": "Gear_TTS_Energy_T5",
     "Name": "TTS Energy T5",
-    "Details": "Energy weapon accuracy increase: \n\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 12.\nMax heat and overheating modifiers: 5.\nDamage taken from all sources: 116.2500%.\n\n",
+    "Details": "Energy weapon accuracy increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 116.2500%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },

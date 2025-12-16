@@ -8,7 +8,7 @@
     "UIName": "Cockpit Armor T1",
     "Id": "Gear_Cockpit_Armor_T1",
     "Name": "Cockpit Armor T1",
-    "Details": "Pilot injuries negated: 1.\nUnit's head armor effectiveness: 125.00%.\nHeat generated per turn: 2.\n\n",
+    "Details": "Pilot injuries negated: 1.\nUnit's head armor effectiveness: 125.00%.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_equipment_Cockpit"
   },
   "StatName": null,

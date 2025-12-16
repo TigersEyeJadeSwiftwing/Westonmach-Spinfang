@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade A Basic T3",
     "Id": "Gear_Engine_Upgrade_A_Basic_T3",
     "Name": "Engine Upgrade A Basic T3",
-    "Details": "Walking / Sprinting movement: 130.00%.\nMaximum cumulative engine upgrades: 1x.\nHeat generated per turn: 4.\n\n",
+    "Details": "Walking / Sprinting movement: 130.00%.\nMaximum cumulative engine upgrades: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

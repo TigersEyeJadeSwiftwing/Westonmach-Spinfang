@@ -9,7 +9,7 @@
     "UIName": "Deathfire RL T3 L08",
     "Name": "Deathfire RL T3 L08",
     "Icon": "uixSvgIcon_weapon_Missile",
-    "Details": "Heat generated per turn: 11.\nMax heat and overheating modifiers: 5.\nDamage taken from all sources: 107.8100%.\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Heat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 107.8100%.\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Missile",
   "Type": "LRM",
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },
@@ -145,7 +145,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },

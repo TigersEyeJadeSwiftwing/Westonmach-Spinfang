@@ -9,7 +9,7 @@
     "UIName": "Viper Nine RL T2 L09",
     "Name": "Viper Nine RL T2 L09",
     "Icon": "uixSvgIcon_weapon_Missile",
-    "Details": "Heat generated per turn: 10.\nMax heat and overheating modifiers: 1.\nDamage taken from all sources: 104.8160%.\n\n    Viper Nine Rockets are extreme long-range rockets with explosive warheads that fly in straight lines and lack indirect fire, something like beefed-up SRMs.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Heat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 104.8160%.\n\n    Viper Nine Rockets are extreme long-range rockets with explosive warheads that fly in straight lines and lack indirect fire, something like beefed-up SRMs.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Missile",
   "Type": "SRM",
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },
@@ -145,7 +145,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },

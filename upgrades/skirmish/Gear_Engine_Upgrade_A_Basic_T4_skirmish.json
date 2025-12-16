@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade A Basic T4",
     "Id": "Gear_Engine_Upgrade_A_Basic_T4_skirmish",
     "Name": "Engine Upgrade A Basic T4",
-    "Details": "Walking / Sprinting movement: 140.00%.\nMaximum cumulative engine upgrades: 1x.\nHeat generated per turn: 7.\n\n",
+    "Details": "Walking / Sprinting movement: 140.00%.\nMaximum cumulative engine upgrades: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

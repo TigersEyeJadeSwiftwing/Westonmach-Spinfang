@@ -1,7 +1,17 @@
 Process.js, started:
-Mon Dec 15 2025 19:07:01 GMT-0500 (Eastern Standard Time)
+Tue Dec 16 2025 15:24:21 GMT-0500 (Eastern Standard Time)
 
-
+Cleaning folder: "../ammunitionBox/generated/"...
+Cleaning folder: "../ammunitionBox/skirmish/"...
+Cleaning folder: "../weapon/generated/"...
+Cleaning folder: "../weapon/skirmish/"...
+Cleaning folder: "../heatsinks/generated/"...
+Cleaning folder: "../heatsinks/skirmish/"...
+Cleaning folder: "../jumpjets/generated/"...
+Cleaning folder: "../jumpjets/skirmish/"...
+Cleaning folder: "../upgrades/generated/"...
+Cleaning folder: "../upgrades/skirmish/"...
+Cleaning folder: "../pilot/skirmish/"...
 
 Row Index: 2, Description:
     Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, however Ultra-Kinetic Machine Gun ammunition is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  This solid alloy material makes up all of the rounds, and there is no casing, gunpowder, or chemical components, explosive or otherwise.  As such, there isn't any part of the ammunition to explode or burn if the ammunition or it's storage container gets damaged or even set on fire in combat, so no explosion will occur from a critical hit.
@@ -1238,10 +1248,8 @@ ws_img_pilot_Yellow_Viper.png
 Total number of face name filenames: 98
 
 Custom Battlemech pilots / Mechwarriors:
-Incomplete pilot - no pilot JSON file written, for pilot: 1 at spreadsheet row: 2, for pilot with face: Almandine
-  Spreadsheet row data: Almandine,,,,,,,,,,,,,,
-Incomplete pilot - no pilot JSON file written, for pilot: 2 at spreadsheet row: 3, for pilot with face: Arctic Fox
-  Spreadsheet row data: Arctic Fox,,,,,,,,,,,,,,
+Wrote JSON file for pilot 1 callsign: Slaughter Shop, face: Almandine, file: ..\pilot\skirmish\pilot_ws_skirmish_Slaughter_Shop.json
+Wrote JSON file for pilot 2 callsign: Mutilation Stall, face: Arctic Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Mutilation_Stall.json
 Wrote JSON file for pilot 3 callsign: Gentle Slaughter, face: Arctic Snow, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Slaughter.json
 Wrote JSON file for pilot 4 callsign: Sweet Hot Death, face: Black Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Sweet_Hot_Death.json
 Wrote JSON file for pilot 5 callsign: Binoculars, face: Blade Hawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Binoculars.json
@@ -1249,8 +1257,7 @@ Wrote JSON file for pilot 6 callsign: Meat On A Stick, face: Blood Lightning, fi
 Wrote JSON file for pilot 7 callsign: Mach Five Assault, face: Blue Warrior, file: ..\pilot\skirmish\pilot_ws_skirmish_Mach_Five_Assault.json
 Wrote JSON file for pilot 8 callsign: Flesh Wound, face: Blue Warrior alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Flesh_Wound.json
 Wrote JSON file for pilot 9 callsign: Spaghetti, face: Bronze Wood, file: ..\pilot\skirmish\pilot_ws_skirmish_Spaghetti.json
-Incomplete pilot - no pilot JSON file written, for pilot: 10 at spreadsheet row: 11, for pilot with face: Cheetah
-  Spreadsheet row data: Cheetah,,,,,,,,,,,,,,
+Wrote JSON file for pilot 10 callsign: Dead Meat Buffet, face: Cheetah, file: ..\pilot\skirmish\pilot_ws_skirmish_Dead_Meat_Buffet.json
 Wrote JSON file for pilot 11 callsign: Lucid Dream, face: Chrome Puma, file: ..\pilot\skirmish\pilot_ws_skirmish_Lucid_Dream.json
 Wrote JSON file for pilot 12 callsign: Turbo Twit, face: Cloud Fighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Turbo_Twit.json
 Wrote JSON file for pilot 13 callsign: Tornado Blood Warrior, face: Cobalt, file: ..\pilot\skirmish\pilot_ws_skirmish_Tornado_Blood_Warrior.json
@@ -1262,38 +1269,32 @@ Wrote JSON file for pilot 18 callsign: Chainsaw Tooth, face: Coolstone Cat, file
 Wrote JSON file for pilot 19 callsign: Prismatic Cougar, face: Copper Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Prismatic_Cougar.json
 Wrote JSON file for pilot 20 callsign: Chrome Kitten, face: Copper Fox alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Chrome_Kitten.json
 Wrote JSON file for pilot 21 callsign: Shark Fin, face: Copper Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Shark_Fin.json
-Incomplete pilot - no pilot JSON file written, for pilot: 22 at spreadsheet row: 23, for pilot with face: Cougar Winter
-  Spreadsheet row data: Cougar Winter,,,,,,,,,,,,,,
+Wrote JSON file for pilot 22 callsign: Decapitation Stall, face: Cougar Winter, file: ..\pilot\skirmish\pilot_ws_skirmish_Decapitation_Stall.json
 Wrote JSON file for pilot 23 callsign: Leather Jacket, face: Crystal Stiletto, file: ..\pilot\skirmish\pilot_ws_skirmish_Leather_Jacket.json
 Wrote JSON file for pilot 24 callsign: Wild Kid, face: Deep Sky, file: ..\pilot\skirmish\pilot_ws_skirmish_Wild_Kid.json
 Wrote JSON file for pilot 25 callsign: Space Case, face: Defthand, file: ..\pilot\skirmish\pilot_ws_skirmish_Space_Case.json
 Wrote JSON file for pilot 26 callsign: Black Coffee, face: Desert Sand, file: ..\pilot\skirmish\pilot_ws_skirmish_Black_Coffee.json
 Wrote JSON file for pilot 27 callsign: Toaster Oven, face: Diamond Sword, file: ..\pilot\skirmish\pilot_ws_skirmish_Toaster_Oven.json
-Incomplete pilot - no pilot JSON file written, for pilot: 28 at spreadsheet row: 29, for pilot with face: Egyptian Sunrise
-  Spreadsheet row data: Egyptian Sunrise,,,,,,,,,,,,,,
+Wrote JSON file for pilot 28 callsign: Dismemberment Celebration Party, face: Egyptian Sunrise, file: ..\pilot\skirmish\pilot_ws_skirmish_Dismemberment_Celebration_Party.json
 Wrote JSON file for pilot 29 callsign: Wild Boy, face: Feral, file: ..\pilot\skirmish\pilot_ws_skirmish_Wild_Boy.json
 Wrote JSON file for pilot 30 callsign: Rabid Firecracker, face: Firewalker, file: ..\pilot\skirmish\pilot_ws_skirmish_Rabid_Firecracker.json
 Wrote JSON file for pilot 31 callsign: Sunray, face: Glass Snake, file: ..\pilot\skirmish\pilot_ws_skirmish_Sunray.json
-Incomplete pilot - no pilot JSON file written, for pilot: 32 at spreadsheet row: 33, for pilot with face: Golden Solar Corona
-  Spreadsheet row data: Golden Solar Corona,,,,,,,,,,,,,,
+Wrote JSON file for pilot 32 callsign: Accredited Electrocution, face: Golden Solar Corona, file: ..\pilot\skirmish\pilot_ws_skirmish_Accredited_Electrocution.json
 Wrote JSON file for pilot 33 callsign: Electrocution Party, face: Golden Sword, file: ..\pilot\skirmish\pilot_ws_skirmish_Electrocution_Party.json
 Wrote JSON file for pilot 34 callsign: Oil Can, face: Grand Flight, file: ..\pilot\skirmish\pilot_ws_skirmish_Oil_Can.json
 Wrote JSON file for pilot 35 callsign: Blood Streak, face: High Road Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Blood_Streak.json
 Wrote JSON file for pilot 36 callsign: Mad Tarantula, face: Hot Lightning, file: ..\pilot\skirmish\pilot_ws_skirmish_Mad_Tarantula.json
 Wrote JSON file for pilot 37 callsign: Hot Stuff, face: Iolite, file: ..\pilot\skirmish\pilot_ws_skirmish_Hot_Stuff.json
-Incomplete pilot - no pilot JSON file written, for pilot: 38 at spreadsheet row: 39, for pilot with face: Iolite alt 1
-  Spreadsheet row data: Iolite alt 1,,,,,,,,,,,,,,
+Wrote JSON file for pilot 38 callsign: Devastation Specialist, face: Iolite alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Devastation_Specialist.json
 Wrote JSON file for pilot 39 callsign: Garbage Man, face: Iron Plains, file: ..\pilot\skirmish\pilot_ws_skirmish_Garbage_Man.json
 Wrote JSON file for pilot 40 callsign: Bad Boy, face: Iron Soldier, file: ..\pilot\skirmish\pilot_ws_skirmish_Bad_Boy.json
 Wrote JSON file for pilot 41 callsign: Flesh Splatter, face: Jet, file: ..\pilot\skirmish\pilot_ws_skirmish_Flesh_Splatter.json
 Wrote JSON file for pilot 42 callsign: Cool Guy, face: Jet alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Cool_Guy.json
 Wrote JSON file for pilot 43 callsign: Raging Bloodshed, face: Laser Blade, file: ..\pilot\skirmish\pilot_ws_skirmish_Raging_Bloodshed.json
-Incomplete pilot - no pilot JSON file written, for pilot: 44 at spreadsheet row: 45, for pilot with face: Leopard
-  Spreadsheet row data: Leopard,,,,,,,,,,,,,,
+Wrote JSON file for pilot 44 callsign: Personal Disfigurement Technician, face: Leopard, file: ..\pilot\skirmish\pilot_ws_skirmish_Personal_Disfigurement_Technician.json
 Wrote JSON file for pilot 45 callsign: Manslaughter Delight, face: Leopard Blade, file: ..\pilot\skirmish\pilot_ws_skirmish_Manslaughter_Delight.json
 Wrote JSON file for pilot 46 callsign: Cleaver, face: Long Flight Thunder, file: ..\pilot\skirmish\pilot_ws_skirmish_Cleaver.json
-Incomplete pilot - no pilot JSON file written, for pilot: 47 at spreadsheet row: 48, for pilot with face: Lunar Coyote
-  Spreadsheet row data: Lunar Coyote,,,,,,,,,,,,,,
+Wrote JSON file for pilot 47 callsign: Death By Stupid, face: Lunar Coyote, file: ..\pilot\skirmish\pilot_ws_skirmish_Death_By_Stupid.json
 Wrote JSON file for pilot 48 callsign: Murder Kitten, face: Magic Katana, file: ..\pilot\skirmish\pilot_ws_skirmish_Murder_Kitten.json
 Wrote JSON file for pilot 49 callsign: True Color Torture, face: Magicland Panther, file: ..\pilot\skirmish\pilot_ws_skirmish_True_Color_Torture.json
 Wrote JSON file for pilot 50 callsign: Meat Chunk Cutter, face: Metal Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Meat_Chunk_Cutter.json
@@ -1318,8 +1319,7 @@ Wrote JSON file for pilot 68 callsign: Lethal Disfigurement, face: Snow Flint, f
 Wrote JSON file for pilot 69 callsign: Deathbreak, face: Solar Dream Sky, file: ..\pilot\skirmish\pilot_ws_skirmish_Deathbreak.json
 Wrote JSON file for pilot 70 callsign: Tender Loathing Care, face: Solar Glory, file: ..\pilot\skirmish\pilot_ws_skirmish_Tender_Loathing_Care.json
 Wrote JSON file for pilot 71 callsign: Murder Club, face: Solar Wind Spellcaster, file: ..\pilot\skirmish\pilot_ws_skirmish_Murder_Club.json
-Incomplete pilot - no pilot JSON file written, for pilot: 72 at spreadsheet row: 73, for pilot with face: Solar Wizard
-  Spreadsheet row data: Solar Wizard,,,,,,,,,,,,,,
+Wrote JSON file for pilot 72 callsign: Slaughtercraft, face: Solar Wizard, file: ..\pilot\skirmish\pilot_ws_skirmish_Slaughtercraft.json
 Wrote JSON file for pilot 73 callsign: Chunky Decapitation, face: Solar Youth, file: ..\pilot\skirmish\pilot_ws_skirmish_Chunky_Decapitation.json
 Wrote JSON file for pilot 74 callsign: Mobster Buddy, face: Spunk Cutlass, file: ..\pilot\skirmish\pilot_ws_skirmish_Mobster_Buddy.json
 Wrote JSON file for pilot 75 callsign: Dry Rot, face: Steel Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dry_Rot.json
@@ -1333,16 +1333,11 @@ Wrote JSON file for pilot 82 callsign: Regal Club, face: Tall Crystal Sky, file:
 Wrote JSON file for pilot 83 callsign: Gentle Brutality, face: Tall Tornado Wind, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Brutality.json
 Wrote JSON file for pilot 84 callsign: More Painful If You Please, face: Thunder Day, file: ..\pilot\skirmish\pilot_ws_skirmish_More_Painful_If_You_Please.json
 Wrote JSON file for pilot 85 callsign: Asphyxiation, face: Tigerland, file: ..\pilot\skirmish\pilot_ws_skirmish_Asphyxiation.json
-Incomplete pilot - no pilot JSON file written, for pilot: 86 at spreadsheet row: 87, for pilot with face: Tigerstone 1, callsign: Tiger One
-  Spreadsheet row data: Tigerstone 1,Tiger One,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
-Incomplete pilot - no pilot JSON file written, for pilot: 87 at spreadsheet row: 88, for pilot with face: Tigerstone 2, callsign: Tiger Two
-  Spreadsheet row data: Tigerstone 2,Tiger Two,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
-Incomplete pilot - no pilot JSON file written, for pilot: 88 at spreadsheet row: 89, for pilot with face: Tigerstone 3, callsign: Tiger Three
-  Spreadsheet row data: Tigerstone 3,Tiger Three,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
-Incomplete pilot - no pilot JSON file written, for pilot: 89 at spreadsheet row: 90, for pilot with face: Tigerstone 4, callsign: Tiger Four
-  Spreadsheet row data: Tigerstone 4,Tiger Four,John,Doe,Male,,,,,,,,m_pro01_stark_chad,,
-Incomplete pilot - no pilot JSON file written, for pilot: 90 at spreadsheet row: 91, for pilot with face: Tigerstone 5, callsign: Tiger Five
-  Spreadsheet row data: Tigerstone 5,Tiger Five,John,Doe,Male,,,16,16,16,16,16,m_pro01_stark_chad,,
+Wrote JSON file for pilot 86 callsign: Tiger 1, face: Tigerstone 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_1.json
+Wrote JSON file for pilot 87 callsign: Tiger 2, face: Tigerstone 2, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_2.json
+Wrote JSON file for pilot 88 callsign: Tiger 3, face: Tigerstone 3, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_3.json
+Wrote JSON file for pilot 89 callsign: Tiger 4, face: Tigerstone 4, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_4.json
+Wrote JSON file for pilot 90 callsign: Tiger 5, face: Tigerstone 5, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_5.json
 Wrote JSON file for pilot 91 callsign: Majestic Conquest, face: Tundrahawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Majestic_Conquest.json
 Wrote JSON file for pilot 92 callsign: War Path, face: War Path, file: ..\pilot\skirmish\pilot_ws_skirmish_War_Path.json
 Wrote JSON file for pilot 93 callsign: Eat Suck, face: Warrior Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Eat_Suck.json
@@ -1352,11 +1347,11 @@ Wrote JSON file for pilot 96 callsign: Hurt In A Box, face: Winter Day, file: ..
 Wrote JSON file for pilot 97 callsign: Dude You Suck, face: Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dude_You_Suck.json
 Wrote JSON file for pilot 98 callsign: Car Crash, face: Yellow Viper, file: ..\pilot\skirmish\pilot_ws_skirmish_Car_Crash.json
 
-Total pilot JSON files written: 83
+Total pilot JSON files written: 98
 Total pilot JSON files attempted: 98
-Total incomplete pilots (no file written) or errors: 15
+Total incomplete pilots (no file written) or errors: 0
 
 
 
 Writing output to log file: "process js log.txt"...
-  at: Mon Dec 15 2025 19:07:02 GMT-0500 (Eastern Standard Time)
+  at: Tue Dec 16 2025 15:24:22 GMT-0500 (Eastern Standard Time)

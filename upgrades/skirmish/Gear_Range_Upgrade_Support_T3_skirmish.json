@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T3",
     "Id": "Gear_Range_Upgrade_Support_T3_skirmish",
     "Name": "Range Upgrade Support T3",
-    "Details": "Support weapon range increase: 90 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 6.\nMax heat and overheating modifiers: 1.\nDamage taken from all sources: 104.4190%.\n\n",
+    "Details": "Support weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 104.4190%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },

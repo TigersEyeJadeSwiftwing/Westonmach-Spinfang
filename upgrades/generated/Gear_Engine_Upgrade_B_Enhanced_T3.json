@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade B Enhanced T3",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T3",
     "Name": "Engine Upgrade B Enhanced T3",
-    "Details": "Walking / Sprinting movement: 139.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: 19.\nUnsteady threshold modifier: 19.\nHeat generated per turn: 5.\nDamage taken from all sources: 109.8180%.\n\n",
+    "Details": "Walking / Sprinting movement: 139.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 109.8180%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -177,7 +177,7 @@
         "Id": "StatusEffect-WS-Stability_Maximum-Engine1",
         "Name": "STABILITY INCREASED",
         "Details": "Maximum stability and unsteady thresholds increased by [AMT].",
-        "Icon": "uixSvgIcon_status_unsteady"
+        "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "effectType": "StatisticEffect",
       "nature": "Buff",
@@ -203,7 +203,7 @@
         "Id": "StatusEffect-WS-Stability_Unsteady_Threshold-Engine1",
         "Name": "UNSTEADY THRESHOLD INCREASED",
         "Details": "Unsteady threshold increased by [AMT].",
-        "Icon": "uixSvgIcon_status_unsteady"
+        "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "effectType": "StatisticEffect",
       "nature": "Buff",

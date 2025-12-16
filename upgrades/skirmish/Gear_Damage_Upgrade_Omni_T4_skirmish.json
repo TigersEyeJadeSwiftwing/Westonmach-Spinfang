@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Omni T4",
     "Id": "Gear_Damage_Upgrade_Omni_T4_skirmish",
     "Name": "Damage Upgrade Omni T4",
-    "Details": "Ballistic weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 33.\nMax heat and overheating modifiers: 22.\nDamage taken from all sources: 164.9520%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 132.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 164.9520%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -22,
+        "modValue": 22,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -22,
+        "modValue": 22,
         "modType": "System.Int32"
       }
     },

@@ -58,9 +58,6 @@
     "TraitDefIndirectReduceOne",
     "TraitDefMinRangeReduce45",
     "TraitDefCalledShotImprove",
-    "TraitDef_WS_Dodging_1",
-    "TraitDef_WS_Weapon_Heat_Damage_Bonus_01",
-    "TraitDef_WS_Weapon_Range_Bonus_Missle_02",
     "AbilityDefG5"
   ],
   "AIPersonality": "Undefined",

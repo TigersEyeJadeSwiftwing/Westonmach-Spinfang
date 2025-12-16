@@ -13,14 +13,12 @@ Object.defineProperty(
     }
 );
 
-const EmptyFolder = (folderPath) => {
-    if (fs.existsSync(folderPath)) {
-        fs.rmSync(folderPath, { recursive: true, force: true });
-        fs.mkdirSync(folderPath);
-    }
-};
-
-const drain_divisor = 250.0;
+let Effects = [];
+let ItemDescriptions = [];
+let IconList = [];
+let console_output = [];
+let console_index_count = 0;
+let log_file = "";
 
 // Hard-coded input/output folders
 const folder_input = "./";
@@ -52,12 +50,26 @@ const json_upgrades = path.join(folder_input, "equipment_template.json");
 const csv_pilot_skirmish = path.join(folder_input, "pilot_skirmish.csv");
 const json_pilot_skirmish = path.join(folder_input, "pilot_skirmish_template.json");
 
-var Effects = [];
-var ItemDescriptions = [];
-var IconList = [];
-var console_output = [];
-var console_index_count = 0;
-var log_file = "";
+const EmptyFolder = (folderPath) => {
+    if (fs.existsSync(folderPath)) {
+        Log("Cleaning folder: \"" + folderPath + "\"...");
+        fs.rmSync(folderPath, { recursive: true, force: true });
+        fs.mkdirSync(folderPath);
+    }
+    else {
+        Log("Error: Attempted to clean non-existant folder: \"" + folderPath + "\".");
+    }
+};
+
+function EquipDescValue(input, digits) {
+    if (typeof value !== "number") return "INVALID_VALUE";
+    if (typeof digits !== "number") return "INVALID_DIGITS";
+
+    const sign_text = input < 0 ? "-" : "+";
+    const value_text = input.toFixed(digits);
+
+    return sign_text + value_text;
+}
 
 function Log_Start() {
     log_file = "Process.js, started:\n" + new Date().toString() + "\n\n";
@@ -221,11 +233,14 @@ function FindEquipmentEffect(tag, value) {
 
                 let effect_text_line = data_text + "\n";
                 if (data_type === "float") effect_text_line = data_text + data_value.toFixed(data_digits) + ".";
+                else if (data_type === "neg_float") effect_text_line = data_text + (-data_value).toFixed(data_digits) + ".";
                 else if (data_type === "int") effect_text_line = data_text + data_value.toFixed(0) + ".";
                 else if (data_type === "neg_int") effect_text_line = data_text + (-data_value).toFixed(0) + ".";
+                else if (data_type === "modifier") effect_text_line = data_text + EquipDescValue(data_value, data_digits) + ".";
+                else if (data_type === "neg_modifier") effect_text_line = data_text + EquipDescValue(-data_value, data_digits) + ".";
                 else if (data_type === "percent") effect_text_line = data_text + (data_value * 100.0).toFixed(data_digits) + "%.";
                 else if (data_type === "one_div_percent") effect_text_line = (100.0 / data_value).toFixed(data_digits) + "%.";
-                else if (data_type === "meters") effect_text_line = data_text + (data_value).toFixed(0) + " meters.";
+                else if (data_type === "meters") effect_text_line = data_text + EquipDescValue(data_value, data_digits) + " meters.";
                 else if (data_type === "effect_duration") effect_text_line = data_text + (data_duration).toFixed(0) + " turns.";
                 else if (data_type === "stack_limit") effect_text_line = data_text + (data_stack).toFixed(0) + "x.";
 
@@ -504,18 +519,21 @@ function Main_Weapons(diag=false) {
             }
             else
                 item_tags.push( "component_type_stock" );
-            const range_tag = String(row[index.range_tag]);
-            if (range_tag === "close") item_tags.push( "range_close" );
-            else if (range_tag === "standard") item_tags.push( "range_standard" );
-            else if (range_tag === "long") item_tags.push( "range_long" );
-            else if (range_tag === "very-long") item_tags.push( "range_very-long" );
-            else if (range_tag === "extreme") item_tags.push( "range_extreme" );
-            else if (range_tag === "short") item_tags.push( "range_close" );
-            else if (range_tag === "medium") item_tags.push( "range_standard" );
-            else if (range_tag === "far") item_tags.push( "range_long" );
-            else item_tags.push( range_tag );
-            data.ComponentTags.items = item_tags;
-            let item_tags_skirmish = [ "component_type_stock", "range_" + range_tag.Deep() ];
+
+            const range_tag_input = String(row[index.range_tag]);
+            let range_tag = "";
+            if (range_tag_input === "close") range_tag = "range_close";
+            else if (range_tag_input === "standard") range_tag = "range_standard";
+            else if (range_tag_input === "long") range_tag = "range_long";
+            else if (range_tag_input === "very-long") range_tag = "range_very-long";
+            else if (range_tag_input === "extreme") range_tag = "range_extreme";
+            else if (range_tag_input === "short") range_tag = "range_close";
+            else if (range_tag_input === "medium") range_tag = "range_standard";
+            else if (range_tag_input === "far") range_tag = "range_long";
+
+            item_tags.push( range_tag );
+            const item_tags_skirmish = [ "component_type_stock", range_tag.Deep() ];
+            data.ComponentTags.items = item_tags.Deep();
             data.ComponentTags.items.push( "BLACKLISTED" );
 
             const range_min = Number(row[index.range_min]);
@@ -740,7 +758,7 @@ function Main_Pilots_Skirmish(diag=false) {
             let trait_codes = [];
             if (trait_codes_2_string.length > 0) {
                 const tr = trait_codes_2_string.split(" ");
-                trait_codes = trait_codes.concat(tr).Deep();
+                // trait_codes = trait_codes.concat(tr).Deep();
             }
             if (trait_codes_1_string.length > 0) {
                 const tr = trait_codes_1_string.split(" ");
@@ -1045,7 +1063,7 @@ function SetSpecials(data, specials_codes, drain_data) {
         }
     }
     if (drain[1] !== "0") {
-        const fx = FindEquipmentEffect( "-GEAR_HEAT_TOLERANCE", Number(drain[1]) * -1 );
+        const fx = FindEquipmentEffect( "-GEAR_HEAT_TOLERANCE", Number(drain[1]) );
         if (fx) {
             drain_text = drain_text.Deep() + fx.info.Deep();
             fx_array = fx_array.Deep().concat(fx.data);

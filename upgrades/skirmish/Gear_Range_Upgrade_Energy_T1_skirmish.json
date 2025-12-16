@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Energy T1",
     "Id": "Gear_Range_Upgrade_Energy_T1_skirmish",
     "Name": "Range Upgrade Energy T1",
-    "Details": "Energy weapon range increase: 50 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 4.\n\n",
+    "Details": "Energy weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

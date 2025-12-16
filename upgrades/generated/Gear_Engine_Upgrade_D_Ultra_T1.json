@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade D Ultra T1",
     "Id": "Gear_Engine_Upgrade_D_Ultra_T1",
     "Name": "Engine Upgrade D Ultra T1",
-    "Details": "Walking / Sprinting movement: 116.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: 12.\nUnsteady threshold modifier: 12.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: 8.\nMax heat and overheating modifiers: 5.\nDamage taken from all sources: 112.5000%.\n\n",
+    "Details": "Walking / Sprinting movement: 116.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nCombat turn initiative bonus: INVALID_VALUE.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 112.5000%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -93,7 +93,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -5,
+        "modValue": 5,
         "modType": "System.Int32"
       }
     },
@@ -228,7 +228,7 @@
         "Id": "StatusEffect-WS-Stability_Maximum-Engine2",
         "Name": "STABILITY INCREASED",
         "Details": "Maximum stability and unsteady thresholds increased by [AMT].",
-        "Icon": "uixSvgIcon_status_unsteady"
+        "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "effectType": "StatisticEffect",
       "nature": "Buff",
@@ -254,7 +254,7 @@
         "Id": "StatusEffect-WS-Stability_Unsteady_Threshold-Engine2",
         "Name": "UNSTEADY THRESHOLD INCREASED",
         "Details": "Unsteady threshold increased by [AMT].",
-        "Icon": "uixSvgIcon_status_unsteady"
+        "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "effectType": "StatisticEffect",
       "nature": "Buff",

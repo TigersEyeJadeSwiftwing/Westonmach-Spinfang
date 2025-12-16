@@ -30,6 +30,8 @@
                 "neg_float",
                 "int",
                 "neg_int",
+                "modifier",
+                "neg_modifier",
                 "percent",
                 "one_div_percent",
                 "meters",
@@ -84,7 +86,7 @@
     [
         { "Name" : "Effect_Heat_Sinking_Reduction_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "-HEAT_SINKING",
           "Prepend" : [
-            { "Text" : "Heat generated per turn: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Heat generated per turn: ", "Data_Type" : "neg_modifier", "Digits" : "0" }
           ]
         },
         {
@@ -292,7 +294,7 @@
     [
         { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "-GEAR_HEAT_TOLERANCE",
           "Prepend" : [
-            { "Text" : "Max heat and overheating modifiers: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Max heat and overheating modifiers: ", "Data_Type" : "neg_modifier", "Digits" : "0" }
           ]
         },
         {
@@ -340,7 +342,7 @@
     [
         { "Name" : "Effect_Max_Heat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "-MAX_HEAT",
           "Prepend" : [
-            { "Text" : "Max heat threshold modifier: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Max heat threshold modifier: ", "Data_Type" : "neg_modifier", "Digits" : "0" }
           ]
         },
         {
@@ -368,7 +370,7 @@
     [
         { "Name" : "Effect_Overheat_Level_Debuff", "Mod_WS_EquipEffect_ID" : "-OVERHEAT_LEVEL",
           "Prepend" : [
-            { "Text" : "Overheating threshold modifier: ", "Data_Type" : "neg_int", "Digits" : "0" }
+            { "Text" : "Overheating threshold modifier: ", "Data_Type" : "neg_modifier", "Digits" : "0" }
           ]
         },
         {

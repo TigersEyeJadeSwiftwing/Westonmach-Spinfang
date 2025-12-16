@@ -39,6 +39,8 @@
                 "neg_float",
                 "int",
                 "neg_int",
+                "modifier",
+                "neg_modifier",
                 "percent",
                 "one_div_percent",
                 "meters",
@@ -416,7 +418,7 @@
     [
         { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP1",
           "Prepend" : [
-            { "Text" : "Difficulty to enemy target's attacks: +", "Data_Type" : "float", "Digits" : "2" },
+            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "modifier", "Digits" : "2" },
             { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative impaired aim effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -462,7 +464,7 @@
     [
         { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP2",
           "Prepend" : [
-            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "float", "Digits" : "2" },
+            { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "modifier", "Digits" : "2" },
             { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative impaired aim effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -784,7 +786,7 @@
     [
         { "Name" : "Effect_Overheat_Levels_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_TOL_DMG_3x5",
           "Prepend" : [
-            { "Text" : "Target modifier to max heat and overheating thresholds: ", "Data_Type" : "neg_int", "Digits" : "4" },
+            { "Text" : "Target modifier to max heat and overheating thresholds: ", "Data_Type" : "neg_modifier", "Digits" : "0" },
             { "Text" : "Effect Duration of impaired heat thresholds: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative heat thresholds of target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -866,7 +868,7 @@
     [
         { "Name" : "Effect_Heat_Sinking_Debuff_from_damage_3x5", "Mod_WS_EquipEffect_ID" : "HEAT_DMG_5x3",
           "Prepend" : [
-            { "Text" : "Persistant heat per turn to target: ", "Data_Type" : "neg_int", "Digits" : "0" },
+            { "Text" : "Persistant heat per turn to target: ", "Data_Type" : "neg_modifier", "Digits" : "0" },
             { "Text" : "Duration of extra heat: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]

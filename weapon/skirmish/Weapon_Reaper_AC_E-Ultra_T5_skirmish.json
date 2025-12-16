@@ -9,7 +9,7 @@
     "UIName": "Reaper AC E-Ultra T5",
     "Name": "Reaper AC E-Ultra T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Stun Effect (movement distance): 20.0000%.\nStun Effect Duration: 2 turns.\nMaximum cumulative stun effects on target: 1x.\nHeat generated per turn: 32.\nMax heat and overheating modifiers: 10.\nDamage taken from all sources: 125.0000%.\n\n    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Stun Effect (movement distance): 20.0000%.\nStun Effect Duration: 2 turns.\nMaximum cumulative stun effects on target: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 125.0000%.\n\n    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Ultra models offer only one or a few shots of very large, \"killer\" rounds that can take out almost anything before running out of ammunition.  Medium, Heavy, and Ultra models will partially stun a target on a successful hit for one to a few rounds, causing the target to have reduced mobility in the form of reduced walking, running, and jumping distance.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -54,7 +54,7 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "range_medium"
+      "range_standard"
     ],
     "tagSetSourceFile": ""
   },
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -10,
+        "modValue": 10,
         "modType": "System.Int32"
       }
     },
@@ -145,7 +145,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -10,
+        "modValue": 10,
         "modType": "System.Int32"
       }
     },

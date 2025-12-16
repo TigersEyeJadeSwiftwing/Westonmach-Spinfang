@@ -65,6 +65,7 @@ Tender Loathing Care
 
 Unused:
 Sky Soldier
+Drop-Over Dead Duck
 
 ambush
 ruin
@@ -86,7 +87,9 @@ waste
 wreck
 injury
 lacerate
+decapitation
 disfigurement
+dismemberment
 rot
 rust
 scathe
@@ -102,10 +105,13 @@ booth
 boutique
 cell
 
+buffet
 eatery
 diner
 cafe
 snack bar
+coffee shop
+shop
 
 /////
 Voices:

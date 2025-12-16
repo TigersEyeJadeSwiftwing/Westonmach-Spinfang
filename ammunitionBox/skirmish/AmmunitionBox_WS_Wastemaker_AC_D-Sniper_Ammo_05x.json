@@ -10,7 +10,7 @@
     "UIName": "Wastemaker AC D-Sniper Ammo 05x",
     "Id": "AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Ammo_05x",
     "Name": "Wastemaker AC D-Sniper Ammo 05x",
-    "Details": "Capacity: 140\nCartridges or Rounds per Firing: 2\nNumber of Firings: 70\nHeat generated per turn: 1.\nMax heat and overheating modifiers: 1.\nDamage taken from all sources: 100.2410%.\n\n    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, although Wastemaker Cannon ammunition is completely made up of a shaped slug, with no casing, no warhead, and no chemical or explosive propellant of any kind as it relies on the cannon shooting it to propel it through the air.  As such, it will not explode while inside of an ammunition bin that gets hit or damaged, and is therefore not a fire or explosion hazard.  Wastemaker rounds differ from Reaper Auto Cannon rounds in these ways, as well as the rounds and the guns that fire them being smaller.  Wastemaker rounds are made of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Gralthler.  Wastemaker Auto Cannon rounds use a technology other than archaic methods involving gunpowder, etc., to propel the rounds.\n\n    Wastemaker Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Gralthler weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",
+    "Details": "Capacity: 140\nCartridges or Rounds per Firing: 2\nNumber of Firings: 70\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 100.2410%.\n\n    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, although Wastemaker Cannon ammunition is completely made up of a shaped slug, with no casing, no warhead, and no chemical or explosive propellant of any kind as it relies on the cannon shooting it to propel it through the air.  As such, it will not explode while inside of an ammunition bin that gets hit or damaged, and is therefore not a fire or explosion hazard.  Wastemaker rounds differ from Reaper Auto Cannon rounds in these ways, as well as the rounds and the guns that fire them being smaller.  Wastemaker rounds are made of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Gralthler.  Wastemaker Auto Cannon rounds use a technology other than archaic methods involving gunpowder, etc., to propel the rounds.\n\n    Wastemaker Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.\n\n    Gralthler weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "140 Rounds",
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -1,
+        "modValue": 1,
         "modType": "System.Int32"
       }
     },

@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T1",
     "Id": "Gear_Damage_Upgrade_Support_T1",
     "Name": "Damage Upgrade Support T1",
-    "Details": "Support weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 4.\n\n",
+    "Details": "Support weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,

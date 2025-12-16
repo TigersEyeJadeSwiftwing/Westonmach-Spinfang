@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Energy T3",
     "Id": "Gear_Damage_Upgrade_Energy_T3_skirmish",
     "Name": "Damage Upgrade Energy T3",
-    "Details": "Energy weapon damage modifier: 136.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: 10.\nMax heat and overheating modifiers: 3.\nDamage taken from all sources: 107.0710%.\n\n",
+    "Details": "Energy weapon damage modifier: 136.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 107.0710%.\n\n",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "StatName": null,
@@ -92,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -3,
+        "modValue": 3,
         "modType": "System.Int32"
       }
     },
@@ -118,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -3,
+        "modValue": 3,
         "modType": "System.Int32"
       }
     },

@@ -8,7 +8,7 @@
     "UIName": "ECM Unit A Series T2",
     "Id": "Gear_ECM_Unit_A_Series_T2_skirmish",
     "Name": "ECM Unit A Series T2",
-    "Details": "Incoming rocket / missle aim difficulty modifier: 1.00.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: 4.\n\n",
+    "Details": "Incoming rocket / missle aim difficulty modifier: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
@@ -54,7 +54,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -4,
+        "modValue": 4,
         "modType": "System.Int32"
       }
     },
@@ -80,7 +80,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -4,
+        "modValue": 4,
         "modType": "System.Int32"
       }
     },

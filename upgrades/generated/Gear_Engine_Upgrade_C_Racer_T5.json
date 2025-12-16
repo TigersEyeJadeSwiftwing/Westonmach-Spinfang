@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade C Racer T5",
     "Id": "Gear_Engine_Upgrade_C_Racer_T5",
     "Name": "Engine Upgrade C Racer T5",
-    "Details": "Walking / Sprinting movement: 172.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: 45.\nUnsteady threshold modifier: 45.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: 16.\nMax heat and overheating modifiers: 8.\nDamage taken from all sources: 142.5000%.\n\n",
+    "Details": "Walking / Sprinting movement: 172.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nCombat turn initiative bonus: INVALID_VALUE.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 142.5000%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -94,7 +94,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": -8,
+        "modValue": 8,
         "modType": "System.Int32"
       }
     },
@@ -120,7 +120,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": -8,
+        "modValue": 8,
         "modType": "System.Int32"
       }
     },
@@ -229,7 +229,7 @@
         "Id": "StatusEffect-WS-Stability_Maximum-Engine1",
         "Name": "STABILITY INCREASED",
         "Details": "Maximum stability and unsteady thresholds increased by [AMT].",
-        "Icon": "uixSvgIcon_status_unsteady"
+        "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "effectType": "StatisticEffect",
       "nature": "Buff",
@@ -255,7 +255,7 @@
         "Id": "StatusEffect-WS-Stability_Unsteady_Threshold-Engine1",
         "Name": "UNSTEADY THRESHOLD INCREASED",
         "Details": "Unsteady threshold increased by [AMT].",
-        "Icon": "uixSvgIcon_status_unsteady"
+        "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "effectType": "StatisticEffect",
       "nature": "Buff",
