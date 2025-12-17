@@ -759,6 +759,22 @@ function Main_Pilots_Skirmish(diag=false) {
             if (trait_codes_2_string.length > 0) {
                 const tr = trait_codes_2_string.split(" ");
                 // trait_codes = trait_codes.concat(tr).Deep();
+                trait_codes.push("Aim1", "Aim2", "Aim3", "Aim4", "Aim5");
+                trait_codes.push("Aim-Ballistic1", "Aim-Ballistic2", "Aim-Ballistic3", "Aim-Ballistic4", "Aim-Ballistic5");
+                trait_codes.push("Aim-Energy1", "Aim-Energy2", "Aim-Energy3", "Aim-Energy4", "Aim-Energy5");
+                trait_codes.push("Aim-Missle1", "Aim-Missle2", "Aim-Missle3", "Aim-Missle4", "Aim-Missle5");
+                trait_codes.push("Rng1", "Rng2", "Rng3", "Rng4", "Rng5");
+                trait_codes.push("Rng-Ballistic1", "Rng-Ballistic2", "Rng-Ballistic3");
+                trait_codes.push("Rng-Energy1", "Rng-Energy2", "Rng-Energy3");
+                trait_codes.push("Rng-Missle1", "Rng-Missle2", "Rng-Missle3");
+                trait_codes.push("Dmg1", "Dmg2", "Dmg3", "Dmg4", "Dmg5");
+                trait_codes.push("Dmg-Ballistic1", "Dmg-Ballistic2", "Dmg-Ballistic3");
+                trait_codes.push("Dmg-Energy1", "Dmg-Energy2", "Dmg-Energy3");
+                trait_codes.push("Dmg-Missle1", "Dmg-Missle2", "Dmg-Missle3");
+                trait_codes.push("Dmg-Stability1", "Dmg-Stability2", "Dmg-Stability3", "Dmg-Stability4", "Dmg-Stability5");
+                trait_codes.push("Dmg-Heat1", "Dmg-Heat2", "Dmg-Heat3", "Dmg-Heat4", "Dmg-Heat5");
+                trait_codes.push("Dmg-Resist1", "Dmg-Resist2", "Dmg-Resist3", "Dmg-Resist4", "Dmg-Resist5");
+                trait_codes.push("Dodge1", "Dodge2", "Dodge3", "Dodge4", "Dodge5");
             }
             if (trait_codes_1_string.length > 0) {
                 const tr = trait_codes_1_string.split(" ");
