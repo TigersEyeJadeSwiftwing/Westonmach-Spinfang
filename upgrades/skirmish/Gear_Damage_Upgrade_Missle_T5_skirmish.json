@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Missle T5",
     "Id": "Gear_Damage_Upgrade_Missle_T5_skirmish",
     "Name": "Damage Upgrade Missle T5",
-    "Details": "Missle / Rocket weapon damage modifier: 160.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 120.0000%.\n\n",
+    "Details": "Missle / Rocket weapon damage modifier: 160.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +25.\nMax heat and overheating modifiers: --12.\nDamage taken from all sources: 120.0000%.\n\n",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "StatName": null,

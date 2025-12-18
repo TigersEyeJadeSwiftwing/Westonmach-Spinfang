@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Energy T1",
     "Id": "Gear_Damage_Upgrade_Energy_T1_skirmish",
     "Name": "Damage Upgrade Energy T1",
-    "Details": "Energy weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
+    "Details": "Energy weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\n\n",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "StatName": null,

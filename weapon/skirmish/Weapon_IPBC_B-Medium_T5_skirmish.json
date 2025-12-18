@@ -9,7 +9,7 @@
     "UIName": "IPBC B-Medium T5",
     "Name": "IPBC B-Medium T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 108.9980%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 116.0000%.\n\n"
+    "Details": "Target multiplier to all further damage: 108.9980%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 116.0000%.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",

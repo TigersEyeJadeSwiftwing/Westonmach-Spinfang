@@ -8,7 +8,7 @@
     "UIName": "Sensor Array Package T1",
     "Id": "Gear_Sensor_Array_Package_T1",
     "Name": "Sensor Array Package T1",
-    "Details": "Sensor range increase: INVALID_VALUE meters.\nMaximum cumulative sensor range modifiers: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
+    "Details": "Sensor range increase: +400 meters.\nMaximum cumulative sensor range modifiers: 1x.\nHeat generated per turn: +2.\n\n",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "StatName": null,

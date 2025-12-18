@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Missle T1",
     "Id": "Gear_Range_Upgrade_Missle_T1",
     "Name": "Range Upgrade Missle T1",
-    "Details": "Rocket / Missle weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
+    "Details": "Rocket / Missle weapon range increase: +120 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +4.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

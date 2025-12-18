@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade B Enhanced T2",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T2_skirmish",
     "Name": "Engine Upgrade B Enhanced T2",
-    "Details": "Walking / Sprinting movement: 126.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 106.2190%.\n\n",
+    "Details": "Walking / Sprinting movement: 126.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +13.\nUnsteady threshold modifier: +13.\nHeat generated per turn: +3.\nDamage taken from all sources: 106.2190%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

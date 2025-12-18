@@ -8,7 +8,7 @@
     "UIName": "TTS Missle T4",
     "Id": "Gear_TTS_Missle_T4_skirmish",
     "Name": "TTS Missle T4",
-    "Details": "Missle weapon accuracy increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 110.5550%.\n\n",
+    "Details": "Missle weapon accuracy increase: +2.40.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 110.5550%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

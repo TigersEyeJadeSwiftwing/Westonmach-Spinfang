@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade C Racer T2",
     "Id": "Gear_Engine_Upgrade_C_Racer_T2_skirmish",
     "Name": "Engine Upgrade C Racer T2",
-    "Details": "Walking / Sprinting movement: 128.80%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nCombat turn initiative bonus: INVALID_VALUE.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 113.4060%.\n\n",
+    "Details": "Walking / Sprinting movement: 128.80%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +18.\nUnsteady threshold modifier: +18.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: +4.\nMax heat and overheating modifiers: --2.\nDamage taken from all sources: 113.4060%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

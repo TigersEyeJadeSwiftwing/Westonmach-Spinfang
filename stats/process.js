@@ -26,6 +26,7 @@ const folder_root = "../";
 const folder_ammobox = "../ammunitionBox/generated/";
 const folder_ammobox_skirmish = "../ammunitionBox/skirmish/";
 const folder_weapons = "../weapon/generated/";
+const folder_weapons_game = "../weapon/game/";
 const folder_weapons_skirmish = "../weapon/skirmish/";
 const folder_heatsinks = "../heatsinks/generated/";
 const folder_heatsinks_skirmish = "../heatsinks/skirmish/";
@@ -61,8 +62,33 @@ const EmptyFolder = (folderPath) => {
     }
 };
 
+function ConsolidateJsonFiles(path_input, filename_output) {
+    Log("");
+
+    let output_file = [];
+    Log("Consolidating JSON files from \"" + path_input + "\" to \"" + filename_output + "\".");
+    Log("");
+
+    fs.readdirSync(path_input).forEach(file => {
+        const input = JSON.parse( fs.readFileSync( path_input + String(file), "utf8") );
+
+        if (input) {
+            output_file.push(input);
+            Log("Added \"" + file + "\".");
+        } else {
+            Log("Error adding file \"" + file + "\".");
+        }
+    });
+
+    fs.writeFileSync(filename_output, JSON.stringify(output_file, null, 2), "utf8");
+    Log("Wrote file: " + filename_output);
+    FlushConsole();
+};
+
 function EquipDescValue(input, digits) {
-    if (typeof value !== "number") return "INVALID_VALUE";
+    const input_number = Number(input);
+
+    if (typeof input_number !== "number") return "INVALID_VALUE";
     if (typeof digits !== "number") return "INVALID_DIGITS";
 
     const sign_text = input < 0 ? "-" : "+";
@@ -115,6 +141,7 @@ function ClearDirs() {
     EmptyFolder(folder_ammobox);
     EmptyFolder(folder_ammobox_skirmish);
     EmptyFolder(folder_weapons);
+    EmptyFolder(folder_weapons_game);
     EmptyFolder(folder_weapons_skirmish);
     EmptyFolder(folder_heatsinks);
     EmptyFolder(folder_heatsinks_skirmish);
@@ -391,6 +418,7 @@ function Main_AmmoBoxes(diag=false) {
 function Main_Weapons(diag=false) {
     const output_folder = folder_weapons;
     const output_folder_skirmish = folder_weapons_skirmish;
+    const output_folder_game = folder_weapons_game;
     const fext = ".json";
 
     // Load files
@@ -421,7 +449,7 @@ function Main_Weapons(diag=false) {
 
             const d_name = ("Weapon_").concat(e_name.replaceAll("Burst Fire", "BF").replaceAll(" ", "_"));
             // const f_name = path.join(folder_input, "test.json");
-            const f_name = path.join(output_folder, d_name.concat(fext));
+            const f_name = path.join(output_folder_game, d_name.concat(fext));
             const f_name_skirmish = path.join(output_folder_skirmish, d_name.concat("_skirmish", fext));
 
             let index = {};
@@ -562,6 +590,9 @@ function Main_Weapons(diag=false) {
 
         FlushConsole();
     });
+
+    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "weapons_skirmish.json");
+    ConsolidateJsonFiles(output_folder_game, output_folder + "weapons_game.json");
 }
 
 function Main_Pilots_Skirmish(diag=false) {
@@ -759,22 +790,24 @@ function Main_Pilots_Skirmish(diag=false) {
             if (trait_codes_2_string.length > 0) {
                 const tr = trait_codes_2_string.split(" ");
                 // trait_codes = trait_codes.concat(tr).Deep();
-                trait_codes.push("Aim1", "Aim2", "Aim3", "Aim4", "Aim5");
-                trait_codes.push("Aim-Ballistic1", "Aim-Ballistic2", "Aim-Ballistic3", "Aim-Ballistic4", "Aim-Ballistic5");
-                trait_codes.push("Aim-Energy1", "Aim-Energy2", "Aim-Energy3", "Aim-Energy4", "Aim-Energy5");
-                trait_codes.push("Aim-Missle1", "Aim-Missle2", "Aim-Missle3", "Aim-Missle4", "Aim-Missle5");
-                trait_codes.push("Rng1", "Rng2", "Rng3", "Rng4", "Rng5");
-                trait_codes.push("Rng-Ballistic1", "Rng-Ballistic2", "Rng-Ballistic3");
-                trait_codes.push("Rng-Energy1", "Rng-Energy2", "Rng-Energy3");
-                trait_codes.push("Rng-Missle1", "Rng-Missle2", "Rng-Missle3");
-                trait_codes.push("Dmg1", "Dmg2", "Dmg3", "Dmg4", "Dmg5");
-                trait_codes.push("Dmg-Ballistic1", "Dmg-Ballistic2", "Dmg-Ballistic3");
-                trait_codes.push("Dmg-Energy1", "Dmg-Energy2", "Dmg-Energy3");
-                trait_codes.push("Dmg-Missle1", "Dmg-Missle2", "Dmg-Missle3");
-                trait_codes.push("Dmg-Stability1", "Dmg-Stability2", "Dmg-Stability3", "Dmg-Stability4", "Dmg-Stability5");
-                trait_codes.push("Dmg-Heat1", "Dmg-Heat2", "Dmg-Heat3", "Dmg-Heat4", "Dmg-Heat5");
-                trait_codes.push("Dmg-Resist1", "Dmg-Resist2", "Dmg-Resist3", "Dmg-Resist4", "Dmg-Resist5");
-                trait_codes.push("Dodge1", "Dodge2", "Dodge3", "Dodge4", "Dodge5");
+                {
+                    trait_codes.push("Aim1", "Aim2", "Aim3", "Aim4", "Aim5");
+                    trait_codes.push("Aim-Ballistic1", "Aim-Ballistic2", "Aim-Ballistic3", "Aim-Ballistic4", "Aim-Ballistic5");
+                    trait_codes.push("Aim-Energy1", "Aim-Energy2", "Aim-Energy3", "Aim-Energy4", "Aim-Energy5");
+                    trait_codes.push("Aim-Missle1", "Aim-Missle2", "Aim-Missle3", "Aim-Missle4", "Aim-Missle5");
+                    trait_codes.push("Rng1", "Rng2", "Rng3", "Rng4", "Rng5");
+                    trait_codes.push("Rng-Ballistic1", "Rng-Ballistic2", "Rng-Ballistic3");
+                    trait_codes.push("Rng-Energy1", "Rng-Energy2", "Rng-Energy3");
+                    trait_codes.push("Rng-Missle1", "Rng-Missle2", "Rng-Missle3");
+                    trait_codes.push("Dmg1", "Dmg2", "Dmg3", "Dmg4", "Dmg5");
+                    trait_codes.push("Dmg-Ballistic1", "Dmg-Ballistic2", "Dmg-Ballistic3");
+                    trait_codes.push("Dmg-Energy1", "Dmg-Energy2", "Dmg-Energy3");
+                    trait_codes.push("Dmg-Missle1", "Dmg-Missle2", "Dmg-Missle3");
+                    trait_codes.push("Dmg-Stability1", "Dmg-Stability2", "Dmg-Stability3", "Dmg-Stability4", "Dmg-Stability5");
+                    trait_codes.push("Dmg-Heat1", "Dmg-Heat2", "Dmg-Heat3", "Dmg-Heat4", "Dmg-Heat5");
+                    trait_codes.push("Dmg-Resist1", "Dmg-Resist2", "Dmg-Resist3", "Dmg-Resist4", "Dmg-Resist5");
+                    trait_codes.push("Dodge1", "Dodge2", "Dodge3", "Dodge4", "Dodge5");
+                }
             }
             if (trait_codes_1_string.length > 0) {
                 const tr = trait_codes_1_string.split(" ");

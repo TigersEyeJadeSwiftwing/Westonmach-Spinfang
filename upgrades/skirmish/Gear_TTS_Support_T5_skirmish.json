@@ -8,7 +8,7 @@
     "UIName": "TTS Support T5",
     "Id": "Gear_TTS_Support_T5_skirmish",
     "Name": "TTS Support T5",
-    "Details": "Support weapon accuracy increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 110.0000%.\n\n",
+    "Details": "Support weapon accuracy increase: +3.00.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 110.0000%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

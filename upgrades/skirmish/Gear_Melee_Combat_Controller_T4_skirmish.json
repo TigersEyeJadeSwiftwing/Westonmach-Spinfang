@@ -8,7 +8,7 @@
     "UIName": "Melee Combat Controller T4",
     "Id": "Gear_Melee_Combat_Controller_T4_skirmish",
     "Name": "Melee Combat Controller T4",
-    "Details": "Melee damage modifier: 247.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
+    "Details": "Melee damage modifier: 247.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,

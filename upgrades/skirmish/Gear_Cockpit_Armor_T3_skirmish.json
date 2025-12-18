@@ -8,7 +8,7 @@
     "UIName": "Cockpit Armor T3",
     "Id": "Gear_Cockpit_Armor_T3_skirmish",
     "Name": "Cockpit Armor T3",
-    "Details": "Pilot injuries negated: 2.\nUnit's head armor effectiveness: 175.00%.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
+    "Details": "Pilot injuries negated: 2.\nUnit's head armor effectiveness: 175.00%.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: --1.\n\n",
     "Icon": "uixSvgIcon_equipment_Cockpit"
   },
   "StatName": null,

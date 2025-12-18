@@ -8,7 +8,7 @@
     "UIName": "TTS Missle T3",
     "Id": "Gear_TTS_Missle_T3",
     "Name": "TTS Missle T3",
-    "Details": "Missle weapon accuracy increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 105.7450%.\n\n",
+    "Details": "Missle weapon accuracy increase: +1.80.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: --1.\nDamage taken from all sources: 105.7450%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

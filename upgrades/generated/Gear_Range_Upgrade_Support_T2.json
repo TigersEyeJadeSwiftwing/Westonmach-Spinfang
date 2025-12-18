@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T2",
     "Id": "Gear_Range_Upgrade_Support_T2",
     "Name": "Range Upgrade Support T2",
-    "Details": "Support weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 101.5630%.\n\n",
+    "Details": "Support weapon range increase: +60 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +4.\nDamage taken from all sources: 101.5630%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

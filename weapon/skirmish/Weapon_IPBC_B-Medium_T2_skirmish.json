@@ -9,7 +9,7 @@
     "UIName": "IPBC B-Medium T2",
     "Name": "IPBC B-Medium T2",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 105.5730%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 102.0000%.\n\n"
+    "Details": "Target multiplier to all further damage: 105.5730%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +1.\nDamage taken from all sources: 102.0000%.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",

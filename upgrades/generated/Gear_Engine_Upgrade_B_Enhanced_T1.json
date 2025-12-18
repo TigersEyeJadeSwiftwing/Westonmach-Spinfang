@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade B Enhanced T1",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T1",
     "Name": "Engine Upgrade B Enhanced T1",
-    "Details": "Walking / Sprinting movement: 113.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nHeat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 104.2500%.\n\n",
+    "Details": "Walking / Sprinting movement: 113.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +7.\nUnsteady threshold modifier: +7.\nHeat generated per turn: +2.\nDamage taken from all sources: 104.2500%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade D Ultra T2",
     "Id": "Gear_Engine_Upgrade_D_Ultra_T2_skirmish",
     "Name": "Engine Upgrade D Ultra T2",
-    "Details": "Walking / Sprinting movement: 132.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nCombat turn initiative bonus: INVALID_VALUE.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 119.3750%.\n\n",
+    "Details": "Walking / Sprinting movement: 132.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +24.\nUnsteady threshold modifier: +24.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: +9.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 119.3750%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

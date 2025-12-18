@@ -1,9 +1,10 @@
 Process.js, started:
-Wed Dec 17 2025 13:08:20 GMT-0500 (Eastern Standard Time)
+Thu Dec 18 2025 16:10:16 GMT-0500 (Eastern Standard Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/skirmish/"...
 Cleaning folder: "../weapon/generated/"...
+Cleaning folder: "../weapon/game/"...
 Cleaning folder: "../weapon/skirmish/"...
 Cleaning folder: "../heatsinks/generated/"...
 Cleaning folder: "../heatsinks/skirmish/"...
@@ -293,445 +294,853 @@ Wrote file: ..\ammunitionBox\skirmish\AmmunitionBox_WS_Wastemaker_AC_D-Sniper_Am
 
 Weapons:
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_A-Light_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_A-Light_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_A-Light_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_A-Light_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_A-Light_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_A-Light_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_A-Light_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_B-Medium_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_B-Medium_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_B-Medium_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_B-Medium_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_B-Medium_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_B-Medium_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_B-Medium_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_C-Heavy_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_C-Heavy_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_C-Heavy_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_C-Heavy_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_C-Heavy_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_C-Heavy_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_C-Heavy_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_D-Sniper_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_D-Sniper_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_D-Sniper_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_D-Sniper_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_D-Sniper_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_D-Sniper_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_E-Ultra_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_F-Light_BF_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_G-Medium_BF_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T1.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T2.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T3.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T4.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Reaper_AC_H-Heavy_BF_T5.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L01.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L01.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L01.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L01.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L01.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L01_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L02.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L02.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L02.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L02.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L02.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L02_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L03.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L03.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L03.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L03.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L03.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L03_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L04.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L04.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L04.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L04.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L04.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L04_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L05.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L05.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L05.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L05.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L05.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L05_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L06.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L06.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L06.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L06.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L06.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L06_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L07.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L07.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L07.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L07.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L07.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L07_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L08.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L08.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L08.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L08.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L08.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L08_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L09.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L09.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L09.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L09.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L09.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L09_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T1_L10.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T2_L10.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T2_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T2_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T3_L10.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T3_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T3_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T4_L10.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T4_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T4_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Deathfire_RL_T5_L10.json
+Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T5_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T5_L10_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L01.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L01.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L01.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L01.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L01_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L01.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L01_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L02.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L02.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L02.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L02.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L02_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L02.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L02.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L02_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L03.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L03.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L03.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L03.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L03_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L03.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L03.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L03_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L04.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L04.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L04.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L04.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L04_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L04.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L04_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L05.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L05.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L05.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L05.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L05_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L05.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L05.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L05_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L06.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L06.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L06.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L06.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L06_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L06.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L06.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L06_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L07.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L07.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L07.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L07.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L07_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L07.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L07.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L07_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L08.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L08.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L08.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L08.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L08_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L08.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L08.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L08_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L09.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L09.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L09.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L09.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L09_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L09.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L09.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L09_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T1_L10.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T1_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T1_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T2_L10.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T2_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T2_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T3_L10.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T3_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T3_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T4_L10.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T4_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T4_L10_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Viper_Nine_RL_T5_L10.json
+Wrote file: ..\weapon\game\Weapon_Viper_Nine_RL_T5_L10.json
 Wrote file: ..\weapon\skirmish\Weapon_Viper_Nine_RL_T5_L10_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T1.json
+Wrote file: ..\weapon\game\Weapon_Enforcer_UK-MG_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T2.json
+Wrote file: ..\weapon\game\Weapon_Enforcer_UK-MG_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T3.json
+Wrote file: ..\weapon\game\Weapon_Enforcer_UK-MG_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T4.json
+Wrote file: ..\weapon\game\Weapon_Enforcer_UK-MG_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Enforcer_UK-MG_T5.json
+Wrote file: ..\weapon\game\Weapon_Enforcer_UK-MG_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Enforcer_UK-MG_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T1.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_A-Small_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T2.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_A-Small_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T3.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_A-Small_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T4.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_A-Small_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_A-Small_T5.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_A-Small_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_A-Small_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T1.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_B-Medium_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T2.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_B-Medium_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T3.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_B-Medium_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T4.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_B-Medium_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_B-Medium_T5.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_B-Medium_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_B-Medium_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T1.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_C-Large_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T2.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_C-Large_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T3.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_C-Large_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T4.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_C-Large_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_C-Large_T5.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_C-Large_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_C-Large_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T1.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_D-Ultra_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T2.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_D-Ultra_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T3.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_D-Ultra_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T4.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_D-Ultra_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_MF_Laser_D-Ultra_T5.json
+Wrote file: ..\weapon\game\Weapon_MF_Laser_D-Ultra_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_MF_Laser_D-Ultra_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T1.json
+Wrote file: ..\weapon\game\Weapon_IPBC_B-Medium_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T2.json
+Wrote file: ..\weapon\game\Weapon_IPBC_B-Medium_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T3.json
+Wrote file: ..\weapon\game\Weapon_IPBC_B-Medium_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T4.json
+Wrote file: ..\weapon\game\Weapon_IPBC_B-Medium_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_B-Medium_T5.json
+Wrote file: ..\weapon\game\Weapon_IPBC_B-Medium_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_B-Medium_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T1.json
+Wrote file: ..\weapon\game\Weapon_IPBC_C-Large_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T2.json
+Wrote file: ..\weapon\game\Weapon_IPBC_C-Large_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T3.json
+Wrote file: ..\weapon\game\Weapon_IPBC_C-Large_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T4.json
+Wrote file: ..\weapon\game\Weapon_IPBC_C-Large_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_IPBC_C-Large_T5.json
+Wrote file: ..\weapon\game\Weapon_IPBC_C-Large_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_IPBC_C-Large_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T1.json
+Wrote file: ..\weapon\game\Weapon_Plasma_Ball_Cannon_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T2.json
+Wrote file: ..\weapon\game\Weapon_Plasma_Ball_Cannon_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T3.json
+Wrote file: ..\weapon\game\Weapon_Plasma_Ball_Cannon_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T4.json
+Wrote file: ..\weapon\game\Weapon_Plasma_Ball_Cannon_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Plasma_Ball_Cannon_T5.json
+Wrote file: ..\weapon\game\Weapon_Plasma_Ball_Cannon_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Plasma_Ball_Cannon_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T1.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_A-Light_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T2.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_A-Light_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T3.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_A-Light_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T4.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_A-Light_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_A-Light_T5.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_A-Light_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_A-Light_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T1.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_B-Medium_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T2.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_B-Medium_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T3.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_B-Medium_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T4.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_B-Medium_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_B-Medium_T5.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_B-Medium_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_B-Medium_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T1.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_C-Heavy_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T2.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_C-Heavy_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T3.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_C-Heavy_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T4.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_C-Heavy_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_C-Heavy_T5.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_C-Heavy_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_C-Heavy_T5_skirmish.json
 
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T1.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_D-Sniper_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T1_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T2.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_D-Sniper_T2.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T2_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T3.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_D-Sniper_T3.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T3_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T4.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_D-Sniper_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T4_skirmish.json
-Wrote file: ..\weapon\generated\Weapon_Wastemaker_AC_D-Sniper_T5.json
+Wrote file: ..\weapon\game\Weapon_Wastemaker_AC_D-Sniper_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Wastemaker_AC_D-Sniper_T5_skirmish.json
+
+Consolidating JSON files from "../weapon/skirmish/" to "../weapon/generated/weapons_skirmish.json".
+
+Added "Weapon_Deathfire_RL_T1_L01_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L02_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L03_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L04_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L05_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L06_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L07_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L08_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L09_skirmish.json".
+Added "Weapon_Deathfire_RL_T1_L10_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L01_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L02_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L03_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L04_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L05_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L06_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L07_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L08_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L09_skirmish.json".
+Added "Weapon_Deathfire_RL_T2_L10_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L01_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L02_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L03_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L04_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L05_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L06_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L07_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L08_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L09_skirmish.json".
+Added "Weapon_Deathfire_RL_T3_L10_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L01_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L02_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L03_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L04_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L05_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L06_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L07_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L08_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L09_skirmish.json".
+Added "Weapon_Deathfire_RL_T4_L10_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L01_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L02_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L03_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L04_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L05_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L06_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L07_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L08_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L09_skirmish.json".
+Added "Weapon_Deathfire_RL_T5_L10_skirmish.json".
+Added "Weapon_Enforcer_UK-MG_T1_skirmish.json".
+Added "Weapon_Enforcer_UK-MG_T2_skirmish.json".
+Added "Weapon_Enforcer_UK-MG_T3_skirmish.json".
+Added "Weapon_Enforcer_UK-MG_T4_skirmish.json".
+Added "Weapon_Enforcer_UK-MG_T5_skirmish.json".
+Added "Weapon_IPBC_B-Medium_T1_skirmish.json".
+Added "Weapon_IPBC_B-Medium_T2_skirmish.json".
+Added "Weapon_IPBC_B-Medium_T3_skirmish.json".
+Added "Weapon_IPBC_B-Medium_T4_skirmish.json".
+Added "Weapon_IPBC_B-Medium_T5_skirmish.json".
+Added "Weapon_IPBC_C-Large_T1_skirmish.json".
+Added "Weapon_IPBC_C-Large_T2_skirmish.json".
+Added "Weapon_IPBC_C-Large_T3_skirmish.json".
+Added "Weapon_IPBC_C-Large_T4_skirmish.json".
+Added "Weapon_IPBC_C-Large_T5_skirmish.json".
+Added "Weapon_MF_Laser_A-Small_T1_skirmish.json".
+Added "Weapon_MF_Laser_A-Small_T2_skirmish.json".
+Added "Weapon_MF_Laser_A-Small_T3_skirmish.json".
+Added "Weapon_MF_Laser_A-Small_T4_skirmish.json".
+Added "Weapon_MF_Laser_A-Small_T5_skirmish.json".
+Added "Weapon_MF_Laser_B-Medium_T1_skirmish.json".
+Added "Weapon_MF_Laser_B-Medium_T2_skirmish.json".
+Added "Weapon_MF_Laser_B-Medium_T3_skirmish.json".
+Added "Weapon_MF_Laser_B-Medium_T4_skirmish.json".
+Added "Weapon_MF_Laser_B-Medium_T5_skirmish.json".
+Added "Weapon_MF_Laser_C-Large_T1_skirmish.json".
+Added "Weapon_MF_Laser_C-Large_T2_skirmish.json".
+Added "Weapon_MF_Laser_C-Large_T3_skirmish.json".
+Added "Weapon_MF_Laser_C-Large_T4_skirmish.json".
+Added "Weapon_MF_Laser_C-Large_T5_skirmish.json".
+Added "Weapon_MF_Laser_D-Ultra_T1_skirmish.json".
+Added "Weapon_MF_Laser_D-Ultra_T2_skirmish.json".
+Added "Weapon_MF_Laser_D-Ultra_T3_skirmish.json".
+Added "Weapon_MF_Laser_D-Ultra_T4_skirmish.json".
+Added "Weapon_MF_Laser_D-Ultra_T5_skirmish.json".
+Added "Weapon_Plasma_Ball_Cannon_T1_skirmish.json".
+Added "Weapon_Plasma_Ball_Cannon_T2_skirmish.json".
+Added "Weapon_Plasma_Ball_Cannon_T3_skirmish.json".
+Added "Weapon_Plasma_Ball_Cannon_T4_skirmish.json".
+Added "Weapon_Plasma_Ball_Cannon_T5_skirmish.json".
+Added "Weapon_Reaper_AC_A-Light_T1_skirmish.json".
+Added "Weapon_Reaper_AC_A-Light_T2_skirmish.json".
+Added "Weapon_Reaper_AC_A-Light_T3_skirmish.json".
+Added "Weapon_Reaper_AC_A-Light_T4_skirmish.json".
+Added "Weapon_Reaper_AC_A-Light_T5_skirmish.json".
+Added "Weapon_Reaper_AC_B-Medium_T1_skirmish.json".
+Added "Weapon_Reaper_AC_B-Medium_T2_skirmish.json".
+Added "Weapon_Reaper_AC_B-Medium_T3_skirmish.json".
+Added "Weapon_Reaper_AC_B-Medium_T4_skirmish.json".
+Added "Weapon_Reaper_AC_B-Medium_T5_skirmish.json".
+Added "Weapon_Reaper_AC_C-Heavy_T1_skirmish.json".
+Added "Weapon_Reaper_AC_C-Heavy_T2_skirmish.json".
+Added "Weapon_Reaper_AC_C-Heavy_T3_skirmish.json".
+Added "Weapon_Reaper_AC_C-Heavy_T4_skirmish.json".
+Added "Weapon_Reaper_AC_C-Heavy_T5_skirmish.json".
+Added "Weapon_Reaper_AC_D-Sniper_T1_skirmish.json".
+Added "Weapon_Reaper_AC_D-Sniper_T2_skirmish.json".
+Added "Weapon_Reaper_AC_D-Sniper_T3_skirmish.json".
+Added "Weapon_Reaper_AC_D-Sniper_T4_skirmish.json".
+Added "Weapon_Reaper_AC_D-Sniper_T5_skirmish.json".
+Added "Weapon_Reaper_AC_E-Ultra_T1_skirmish.json".
+Added "Weapon_Reaper_AC_E-Ultra_T2_skirmish.json".
+Added "Weapon_Reaper_AC_E-Ultra_T3_skirmish.json".
+Added "Weapon_Reaper_AC_E-Ultra_T4_skirmish.json".
+Added "Weapon_Reaper_AC_E-Ultra_T5_skirmish.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T1_skirmish.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T2_skirmish.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T3_skirmish.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T4_skirmish.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T5_skirmish.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T1_skirmish.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T2_skirmish.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T3_skirmish.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T4_skirmish.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T5_skirmish.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T1_skirmish.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T2_skirmish.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T3_skirmish.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T4_skirmish.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T5_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L01_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L02_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L03_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L04_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L05_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L06_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L07_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L08_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L09_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T1_L10_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L01_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L02_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L03_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L04_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L05_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L06_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L07_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L08_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L09_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T2_L10_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L01_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L02_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L03_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L04_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L05_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L06_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L07_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L08_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L09_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T3_L10_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L01_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L02_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L03_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L04_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L05_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L06_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L07_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L08_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L09_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T4_L10_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L01_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L02_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L03_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L04_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L05_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L06_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L07_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L08_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L09_skirmish.json".
+Added "Weapon_Viper_Nine_RL_T5_L10_skirmish.json".
+Added "Weapon_Wastemaker_AC_A-Light_T1_skirmish.json".
+Added "Weapon_Wastemaker_AC_A-Light_T2_skirmish.json".
+Added "Weapon_Wastemaker_AC_A-Light_T3_skirmish.json".
+Added "Weapon_Wastemaker_AC_A-Light_T4_skirmish.json".
+Added "Weapon_Wastemaker_AC_A-Light_T5_skirmish.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T1_skirmish.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T2_skirmish.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T3_skirmish.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T4_skirmish.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T5_skirmish.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T1_skirmish.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T2_skirmish.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T3_skirmish.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T4_skirmish.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T5_skirmish.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T1_skirmish.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T2_skirmish.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T3_skirmish.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T4_skirmish.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T5_skirmish.json".
+Wrote file: ../weapon/generated/weapons_skirmish.json
+
+Consolidating JSON files from "../weapon/game/" to "../weapon/generated/weapons_game.json".
+
+Added "Weapon_Deathfire_RL_T1_L01.json".
+Added "Weapon_Deathfire_RL_T1_L02.json".
+Added "Weapon_Deathfire_RL_T1_L03.json".
+Added "Weapon_Deathfire_RL_T1_L04.json".
+Added "Weapon_Deathfire_RL_T1_L05.json".
+Added "Weapon_Deathfire_RL_T1_L06.json".
+Added "Weapon_Deathfire_RL_T1_L07.json".
+Added "Weapon_Deathfire_RL_T1_L08.json".
+Added "Weapon_Deathfire_RL_T1_L09.json".
+Added "Weapon_Deathfire_RL_T1_L10.json".
+Added "Weapon_Deathfire_RL_T2_L01.json".
+Added "Weapon_Deathfire_RL_T2_L02.json".
+Added "Weapon_Deathfire_RL_T2_L03.json".
+Added "Weapon_Deathfire_RL_T2_L04.json".
+Added "Weapon_Deathfire_RL_T2_L05.json".
+Added "Weapon_Deathfire_RL_T2_L06.json".
+Added "Weapon_Deathfire_RL_T2_L07.json".
+Added "Weapon_Deathfire_RL_T2_L08.json".
+Added "Weapon_Deathfire_RL_T2_L09.json".
+Added "Weapon_Deathfire_RL_T2_L10.json".
+Added "Weapon_Deathfire_RL_T3_L01.json".
+Added "Weapon_Deathfire_RL_T3_L02.json".
+Added "Weapon_Deathfire_RL_T3_L03.json".
+Added "Weapon_Deathfire_RL_T3_L04.json".
+Added "Weapon_Deathfire_RL_T3_L05.json".
+Added "Weapon_Deathfire_RL_T3_L06.json".
+Added "Weapon_Deathfire_RL_T3_L07.json".
+Added "Weapon_Deathfire_RL_T3_L08.json".
+Added "Weapon_Deathfire_RL_T3_L09.json".
+Added "Weapon_Deathfire_RL_T3_L10.json".
+Added "Weapon_Deathfire_RL_T4_L01.json".
+Added "Weapon_Deathfire_RL_T4_L02.json".
+Added "Weapon_Deathfire_RL_T4_L03.json".
+Added "Weapon_Deathfire_RL_T4_L04.json".
+Added "Weapon_Deathfire_RL_T4_L05.json".
+Added "Weapon_Deathfire_RL_T4_L06.json".
+Added "Weapon_Deathfire_RL_T4_L07.json".
+Added "Weapon_Deathfire_RL_T4_L08.json".
+Added "Weapon_Deathfire_RL_T4_L09.json".
+Added "Weapon_Deathfire_RL_T4_L10.json".
+Added "Weapon_Deathfire_RL_T5_L01.json".
+Added "Weapon_Deathfire_RL_T5_L02.json".
+Added "Weapon_Deathfire_RL_T5_L03.json".
+Added "Weapon_Deathfire_RL_T5_L04.json".
+Added "Weapon_Deathfire_RL_T5_L05.json".
+Added "Weapon_Deathfire_RL_T5_L06.json".
+Added "Weapon_Deathfire_RL_T5_L07.json".
+Added "Weapon_Deathfire_RL_T5_L08.json".
+Added "Weapon_Deathfire_RL_T5_L09.json".
+Added "Weapon_Deathfire_RL_T5_L10.json".
+Added "Weapon_Enforcer_UK-MG_T1.json".
+Added "Weapon_Enforcer_UK-MG_T2.json".
+Added "Weapon_Enforcer_UK-MG_T3.json".
+Added "Weapon_Enforcer_UK-MG_T4.json".
+Added "Weapon_Enforcer_UK-MG_T5.json".
+Added "Weapon_IPBC_B-Medium_T1.json".
+Added "Weapon_IPBC_B-Medium_T2.json".
+Added "Weapon_IPBC_B-Medium_T3.json".
+Added "Weapon_IPBC_B-Medium_T4.json".
+Added "Weapon_IPBC_B-Medium_T5.json".
+Added "Weapon_IPBC_C-Large_T1.json".
+Added "Weapon_IPBC_C-Large_T2.json".
+Added "Weapon_IPBC_C-Large_T3.json".
+Added "Weapon_IPBC_C-Large_T4.json".
+Added "Weapon_IPBC_C-Large_T5.json".
+Added "Weapon_MF_Laser_A-Small_T1.json".
+Added "Weapon_MF_Laser_A-Small_T2.json".
+Added "Weapon_MF_Laser_A-Small_T3.json".
+Added "Weapon_MF_Laser_A-Small_T4.json".
+Added "Weapon_MF_Laser_A-Small_T5.json".
+Added "Weapon_MF_Laser_B-Medium_T1.json".
+Added "Weapon_MF_Laser_B-Medium_T2.json".
+Added "Weapon_MF_Laser_B-Medium_T3.json".
+Added "Weapon_MF_Laser_B-Medium_T4.json".
+Added "Weapon_MF_Laser_B-Medium_T5.json".
+Added "Weapon_MF_Laser_C-Large_T1.json".
+Added "Weapon_MF_Laser_C-Large_T2.json".
+Added "Weapon_MF_Laser_C-Large_T3.json".
+Added "Weapon_MF_Laser_C-Large_T4.json".
+Added "Weapon_MF_Laser_C-Large_T5.json".
+Added "Weapon_MF_Laser_D-Ultra_T1.json".
+Added "Weapon_MF_Laser_D-Ultra_T2.json".
+Added "Weapon_MF_Laser_D-Ultra_T3.json".
+Added "Weapon_MF_Laser_D-Ultra_T4.json".
+Added "Weapon_MF_Laser_D-Ultra_T5.json".
+Added "Weapon_Plasma_Ball_Cannon_T1.json".
+Added "Weapon_Plasma_Ball_Cannon_T2.json".
+Added "Weapon_Plasma_Ball_Cannon_T3.json".
+Added "Weapon_Plasma_Ball_Cannon_T4.json".
+Added "Weapon_Plasma_Ball_Cannon_T5.json".
+Added "Weapon_Reaper_AC_A-Light_T1.json".
+Added "Weapon_Reaper_AC_A-Light_T2.json".
+Added "Weapon_Reaper_AC_A-Light_T3.json".
+Added "Weapon_Reaper_AC_A-Light_T4.json".
+Added "Weapon_Reaper_AC_A-Light_T5.json".
+Added "Weapon_Reaper_AC_B-Medium_T1.json".
+Added "Weapon_Reaper_AC_B-Medium_T2.json".
+Added "Weapon_Reaper_AC_B-Medium_T3.json".
+Added "Weapon_Reaper_AC_B-Medium_T4.json".
+Added "Weapon_Reaper_AC_B-Medium_T5.json".
+Added "Weapon_Reaper_AC_C-Heavy_T1.json".
+Added "Weapon_Reaper_AC_C-Heavy_T2.json".
+Added "Weapon_Reaper_AC_C-Heavy_T3.json".
+Added "Weapon_Reaper_AC_C-Heavy_T4.json".
+Added "Weapon_Reaper_AC_C-Heavy_T5.json".
+Added "Weapon_Reaper_AC_D-Sniper_T1.json".
+Added "Weapon_Reaper_AC_D-Sniper_T2.json".
+Added "Weapon_Reaper_AC_D-Sniper_T3.json".
+Added "Weapon_Reaper_AC_D-Sniper_T4.json".
+Added "Weapon_Reaper_AC_D-Sniper_T5.json".
+Added "Weapon_Reaper_AC_E-Ultra_T1.json".
+Added "Weapon_Reaper_AC_E-Ultra_T2.json".
+Added "Weapon_Reaper_AC_E-Ultra_T3.json".
+Added "Weapon_Reaper_AC_E-Ultra_T4.json".
+Added "Weapon_Reaper_AC_E-Ultra_T5.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T1.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T2.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T3.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T4.json".
+Added "Weapon_Reaper_AC_F-Light_BF_T5.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T1.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T2.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T3.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T4.json".
+Added "Weapon_Reaper_AC_G-Medium_BF_T5.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T1.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T2.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T3.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T4.json".
+Added "Weapon_Reaper_AC_H-Heavy_BF_T5.json".
+Added "Weapon_Viper_Nine_RL_T1_L01.json".
+Added "Weapon_Viper_Nine_RL_T1_L02.json".
+Added "Weapon_Viper_Nine_RL_T1_L03.json".
+Added "Weapon_Viper_Nine_RL_T1_L04.json".
+Added "Weapon_Viper_Nine_RL_T1_L05.json".
+Added "Weapon_Viper_Nine_RL_T1_L06.json".
+Added "Weapon_Viper_Nine_RL_T1_L07.json".
+Added "Weapon_Viper_Nine_RL_T1_L08.json".
+Added "Weapon_Viper_Nine_RL_T1_L09.json".
+Added "Weapon_Viper_Nine_RL_T1_L10.json".
+Added "Weapon_Viper_Nine_RL_T2_L01.json".
+Added "Weapon_Viper_Nine_RL_T2_L02.json".
+Added "Weapon_Viper_Nine_RL_T2_L03.json".
+Added "Weapon_Viper_Nine_RL_T2_L04.json".
+Added "Weapon_Viper_Nine_RL_T2_L05.json".
+Added "Weapon_Viper_Nine_RL_T2_L06.json".
+Added "Weapon_Viper_Nine_RL_T2_L07.json".
+Added "Weapon_Viper_Nine_RL_T2_L08.json".
+Added "Weapon_Viper_Nine_RL_T2_L09.json".
+Added "Weapon_Viper_Nine_RL_T2_L10.json".
+Added "Weapon_Viper_Nine_RL_T3_L01.json".
+Added "Weapon_Viper_Nine_RL_T3_L02.json".
+Added "Weapon_Viper_Nine_RL_T3_L03.json".
+Added "Weapon_Viper_Nine_RL_T3_L04.json".
+Added "Weapon_Viper_Nine_RL_T3_L05.json".
+Added "Weapon_Viper_Nine_RL_T3_L06.json".
+Added "Weapon_Viper_Nine_RL_T3_L07.json".
+Added "Weapon_Viper_Nine_RL_T3_L08.json".
+Added "Weapon_Viper_Nine_RL_T3_L09.json".
+Added "Weapon_Viper_Nine_RL_T3_L10.json".
+Added "Weapon_Viper_Nine_RL_T4_L01.json".
+Added "Weapon_Viper_Nine_RL_T4_L02.json".
+Added "Weapon_Viper_Nine_RL_T4_L03.json".
+Added "Weapon_Viper_Nine_RL_T4_L04.json".
+Added "Weapon_Viper_Nine_RL_T4_L05.json".
+Added "Weapon_Viper_Nine_RL_T4_L06.json".
+Added "Weapon_Viper_Nine_RL_T4_L07.json".
+Added "Weapon_Viper_Nine_RL_T4_L08.json".
+Added "Weapon_Viper_Nine_RL_T4_L09.json".
+Added "Weapon_Viper_Nine_RL_T4_L10.json".
+Added "Weapon_Viper_Nine_RL_T5_L01.json".
+Added "Weapon_Viper_Nine_RL_T5_L02.json".
+Added "Weapon_Viper_Nine_RL_T5_L03.json".
+Added "Weapon_Viper_Nine_RL_T5_L04.json".
+Added "Weapon_Viper_Nine_RL_T5_L05.json".
+Added "Weapon_Viper_Nine_RL_T5_L06.json".
+Added "Weapon_Viper_Nine_RL_T5_L07.json".
+Added "Weapon_Viper_Nine_RL_T5_L08.json".
+Added "Weapon_Viper_Nine_RL_T5_L09.json".
+Added "Weapon_Viper_Nine_RL_T5_L10.json".
+Added "Weapon_Wastemaker_AC_A-Light_T1.json".
+Added "Weapon_Wastemaker_AC_A-Light_T2.json".
+Added "Weapon_Wastemaker_AC_A-Light_T3.json".
+Added "Weapon_Wastemaker_AC_A-Light_T4.json".
+Added "Weapon_Wastemaker_AC_A-Light_T5.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T1.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T2.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T3.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T4.json".
+Added "Weapon_Wastemaker_AC_B-Medium_T5.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T1.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T2.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T3.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T4.json".
+Added "Weapon_Wastemaker_AC_C-Heavy_T5.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T1.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T2.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T3.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T4.json".
+Added "Weapon_Wastemaker_AC_D-Sniper_T5.json".
+Wrote file: ../weapon/generated/weapons_game.json
 
 Wrote file: ..\upgrades\generated\Gear_Engine_Upgrade_A_Basic_T1.json
 Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T1_skirmish.json
@@ -1237,6 +1646,9 @@ ws_img_pilot_Tigerstone_2.png
 ws_img_pilot_Tigerstone_3.png
 ws_img_pilot_Tigerstone_4.png
 ws_img_pilot_Tigerstone_5.png
+ws_img_pilot_Tigerstone_6.png
+ws_img_pilot_Tigerstone_7.png
+ws_img_pilot_Tigerstone_8.png
 ws_img_pilot_Tundrahawk.png
 ws_img_pilot_Warrior_Fields.png
 ws_img_pilot_War_Path.png
@@ -1245,7 +1657,7 @@ ws_img_pilot_Wind_Fire.png
 ws_img_pilot_Winter_Day.png
 ws_img_pilot_Wolf.png
 ws_img_pilot_Yellow_Viper.png
-Total number of face name filenames: 98
+Total number of face name filenames: 101
 
 Custom Battlemech pilots / Mechwarriors:
 Wrote JSON file for pilot 1 callsign: Slaughter Shop, face: Almandine, file: ..\pilot\skirmish\pilot_ws_skirmish_Slaughter_Shop.json
@@ -1354,4 +1766,4 @@ Total incomplete pilots (no file written) or errors: 0
 
 
 Writing output to log file: "process js log.txt"...
-  at: Wed Dec 17 2025 13:08:21 GMT-0500 (Eastern Standard Time)
+  at: Thu Dec 18 2025 16:10:17 GMT-0500 (Eastern Standard Time)

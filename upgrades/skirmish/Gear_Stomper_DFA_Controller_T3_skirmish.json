@@ -8,7 +8,7 @@
     "UIName": "Stomper DFA Controller T3",
     "Id": "Gear_Stomper_DFA_Controller_T3_skirmish",
     "Name": "Stomper DFA Controller T3",
-    "Details": "DFA damage to enemy modifier: 188.00%.\nDFA stability damage to enemy modifier: 188.00%.\n53.19%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
+    "Details": "DFA damage to enemy modifier: 188.00%.\nDFA stability damage to enemy modifier: 188.00%.\n53.19%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: --1.\n\n",
     "Icon": "uixSvgIcon_equipment_ActuatorLeg"
   },
   "StatName": null,

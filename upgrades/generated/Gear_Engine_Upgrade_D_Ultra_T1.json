@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade D Ultra T1",
     "Id": "Gear_Engine_Upgrade_D_Ultra_T1",
     "Name": "Engine Upgrade D Ultra T1",
-    "Details": "Walking / Sprinting movement: 116.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nCombat turn initiative bonus: INVALID_VALUE.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 112.5000%.\n\n",
+    "Details": "Walking / Sprinting movement: 116.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +12.\nUnsteady threshold modifier: +12.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 112.5000%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

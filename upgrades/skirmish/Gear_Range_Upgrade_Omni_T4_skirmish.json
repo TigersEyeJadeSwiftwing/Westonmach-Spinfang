@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Omni T4",
     "Id": "Gear_Range_Upgrade_Omni_T4_skirmish",
     "Name": "Range Upgrade Omni T4",
-    "Details": "Ballistic weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 156.0210%.\n\n",
+    "Details": "Ballistic weapon range increase: +180 meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: +180 meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: +360 meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: +100 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +21.\nMax heat and overheating modifiers: --13.\nDamage taken from all sources: 156.0210%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

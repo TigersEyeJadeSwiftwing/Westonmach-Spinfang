@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Ballistic T3",
     "Id": "Gear_Damage_Upgrade_Ballistic_T3_skirmish",
     "Name": "Damage Upgrade Ballistic T3",
-    "Details": "Ballistic weapon damage modifier: 136.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 107.0710%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 136.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 107.0710%.\n\n",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "StatName": null,

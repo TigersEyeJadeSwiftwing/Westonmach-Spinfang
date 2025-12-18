@@ -8,7 +8,7 @@
     "UIName": "TTS Ballistic T1",
     "Id": "Gear_TTS_Ballistic_T1_skirmish",
     "Name": "TTS Ballistic T1",
-    "Details": "Ballistic weapon accuracy increase: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
+    "Details": "Ballistic weapon accuracy increase: +0.60.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +2.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

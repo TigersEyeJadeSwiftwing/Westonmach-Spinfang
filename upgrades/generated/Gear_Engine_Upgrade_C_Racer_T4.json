@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade C Racer T4",
     "Id": "Gear_Engine_Upgrade_C_Racer_T4",
     "Name": "Engine Upgrade C Racer T4",
-    "Details": "Walking / Sprinting movement: 157.60%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: INVALID_VALUE.\nUnsteady threshold modifier: INVALID_VALUE.\nCombat turn initiative bonus: INVALID_VALUE.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 130.8470%.\n\n",
+    "Details": "Walking / Sprinting movement: 157.60%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +36.\nUnsteady threshold modifier: +36.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 130.8470%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

@@ -8,7 +8,7 @@
     "UIName": "Melee Combat Controller T3",
     "Id": "Gear_Melee_Combat_Controller_T3",
     "Name": "Melee Combat Controller T3",
-    "Details": "Melee damage modifier: 188.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
+    "Details": "Melee damage modifier: 188.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: --1.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,

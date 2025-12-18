@@ -8,7 +8,7 @@
     "UIName": "Target Tracking Jammer A Series T5",
     "Id": "Gear_Target_Tracking_Jammer_A_Series_T5",
     "Name": "Target Tracking Jammer A Series T5",
-    "Details": "Enemy aim (direct fire) difficulty modifier: INVALID_VALUE.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
+    "Details": "Enemy aim (direct fire) difficulty modifier: +2.50.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: --20.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,

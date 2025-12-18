@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Missle T5",
     "Id": "Gear_Range_Upgrade_Missle_T5_skirmish",
     "Name": "Range Upgrade Missle T5",
-    "Details": "Rocket / Missle weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\nDamage taken from all sources: 118.2500%.\n\n",
+    "Details": "Rocket / Missle weapon range increase: +600 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: --10.\nDamage taken from all sources: 118.2500%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

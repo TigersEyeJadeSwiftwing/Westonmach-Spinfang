@@ -9,7 +9,7 @@
     "UIName": "Wastemaker AC D-Sniper T2",
     "Name": "Wastemaker AC D-Sniper T2",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Heat generated per turn: INVALID_VALUE.\nDamage taken from all sources: 101.7500%.\n\n"
+    "Details": "Heat generated per turn: +1.\nDamage taken from all sources: 101.7500%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

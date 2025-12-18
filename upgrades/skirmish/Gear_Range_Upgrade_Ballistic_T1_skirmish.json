@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Ballistic T1",
     "Id": "Gear_Range_Upgrade_Ballistic_T1_skirmish",
     "Name": "Range Upgrade Ballistic T1",
-    "Details": "Ballistic weapon range increase: INVALID_VALUE meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: INVALID_VALUE.\n\n",
+    "Details": "Ballistic weapon range increase: +50 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +4.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

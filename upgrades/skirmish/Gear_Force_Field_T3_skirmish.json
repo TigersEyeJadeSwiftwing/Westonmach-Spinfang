@@ -8,7 +8,7 @@
     "UIName": "Force Field T3",
     "Id": "Gear_Force_Field_T3_skirmish",
     "Name": "Force Field T3",
-    "Details": "Damage taken, all sources: 70.00%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: INVALID_VALUE.\nMax heat and overheating modifiers: INVALID_VALUE.\n\n",
+    "Details": "Damage taken, all sources: 70.00%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: --5.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
