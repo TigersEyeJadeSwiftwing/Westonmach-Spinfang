@@ -7,7 +7,6 @@
     "BattleTechVersionMin": "1.9.1",
 
     "DependsOn": [
-        "ExtendedConversations"
     ],
 
     "OptionallyDependsOn": [
