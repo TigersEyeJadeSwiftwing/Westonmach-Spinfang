@@ -19,6 +19,7 @@ let IconList = [];
 let console_output = [];
 let console_index_count = 0;
 let log_file = "";
+let hrtime_0, hrtime_1 = null;
 
 // Hard-coded input/output folders
 const folder_input = "./";
@@ -67,6 +68,8 @@ const EmptyFolder = (folderPath) => {
 };
 
 function ConsolidateJsonFiles(path_input, filename_output, empty_source_folder) {
+    return;
+
     Log("");
 
     let output_file = [];
@@ -107,14 +110,31 @@ function EquipDescValue(input, digits) {
 }
 
 function Log_Start() {
-    log_file = "Process.js, started:\n" + new Date().toString() + "\n\n";
+    Log("process.js, started:");
+    hrtime_0 = process.hrtime();
+    Log("Seconds: " + hrtime_0[0].toLocaleString(0) + ", Nanoseconds: " + hrtime_0[1].toLocaleString(0));
+    Log( new Date().toString() );
+    Log("");
+
+    FlushConsole();
 }
 
 function Log_End() {
     FlushConsole();
-    Log("");
+
+    Log("process.js, completed:");
+    hrtime_1 = process.hrtime();
+    Log("Seconds: " + hrtime_1[0].toLocaleString(0) + ", Nanoseconds: " + hrtime_1[1].toLocaleString(0));
+    Log( new Date().toString() );
     Log("Writing output to log file: \"process js log.txt\"...");
-    Log("  at: " + new Date().toString());
+    const time_0 = (hrtime_0[0] * 1e9) + hrtime_0[1];
+    const time_1 = (hrtime_1[0] * 1e9) + hrtime_1[1];
+    const time = time_1 - time_0;
+    const elapsed_seconds = Math.floor(time / 1e9);
+    const elapsed_nanoseconds = time - (elapsed_seconds * 1e9);
+    Log("Elapsed program run-time, Seconds: " + elapsed_seconds.toLocaleString(0) + ", Nanoseconds: " + elapsed_nanoseconds.toLocaleString(0) + "\n");
+    Log("");
+
     FlushConsole();
 
     try {

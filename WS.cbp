@@ -1017,9 +1017,14 @@
 		<Unit filename="stats/ammo_box.ods" />
 		<Unit filename="stats/ammo_box.pdf" />
 		<Unit filename="stats/ammo_box_template.json" />
+		<Unit filename="stats/clean.js" />
 		<Unit filename="stats/equipment.csv" />
 		<Unit filename="stats/equipment.ods" />
+		<Unit filename="stats/equipment.pdf" />
 		<Unit filename="stats/equipment_template.json" />
+		<Unit filename="stats/icon_dump/assets0.xml" />
+		<Unit filename="stats/icon_dump/assets1.xml" />
+		<Unit filename="stats/icon_dump/assets2.xml" />
 		<Unit filename="stats/icons.json" />
 		<Unit filename="stats/index.html" />
 		<Unit filename="stats/item_descriptions.json" />
@@ -1028,6 +1033,7 @@
 		<Unit filename="stats/pilot_skirmish.ods" />
 		<Unit filename="stats/pilot_skirmish.pdf" />
 		<Unit filename="stats/pilot_skirmish_template.json" />
+		<Unit filename="stats/process js log.txt" />
 		<Unit filename="stats/process.js" />
 		<Unit filename="stats/weapon.csv" />
 		<Unit filename="stats/weapon.json" />
