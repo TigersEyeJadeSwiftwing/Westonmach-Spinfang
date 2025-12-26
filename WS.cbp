@@ -397,6 +397,7 @@
 		<Unit filename="milestones/milestone_106_title_threeYearsLater.json" />
 		<Unit filename="milestones/milestone_114_sim_leopard_start.json" />
 		<Unit filename="mod.json" />
+		<Unit filename="mod.txt" />
 		<Unit filename="modstate.json" />
 		<Unit filename="movement/movedef_fireshrike_FS-5FX.json" />
 		<Unit filename="movement/movedef_killer_KLR-86A.json" />

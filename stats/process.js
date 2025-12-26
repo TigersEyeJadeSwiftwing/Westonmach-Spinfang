@@ -24,15 +24,19 @@ let log_file = "";
 const folder_input = "./";
 const folder_root = "../";
 const folder_ammobox = "../ammunitionBox/generated/";
+const folder_ammobox_game = "../ammunitionBox/game/";
 const folder_ammobox_skirmish = "../ammunitionBox/skirmish/";
 const folder_weapons = "../weapon/generated/";
 const folder_weapons_game = "../weapon/game/";
 const folder_weapons_skirmish = "../weapon/skirmish/";
 const folder_heatsinks = "../heatsinks/generated/";
+const folder_heatsinks_game = "../heatsinks/game/";
 const folder_heatsinks_skirmish = "../heatsinks/skirmish/";
 const folder_jumpjets = "../jumpjets/generated/";
+const folder_jumpjets_game = "../jumpjets/game/";
 const folder_jumpjets_skirmish = "../jumpjets/skirmish/";
 const folder_upgrades = "../upgrades/generated/";
+const folder_upgrades_game = "../upgrades/game/";
 const folder_upgrades_skirmish = "../upgrades/skirmish/";
 const folder_pilot_skirmish = "../pilot/skirmish/";
 const folder_pilot_face_sprites = "../sprites_pilots/";
@@ -62,7 +66,7 @@ const EmptyFolder = (folderPath) => {
     }
 };
 
-function ConsolidateJsonFiles(path_input, filename_output) {
+function ConsolidateJsonFiles(path_input, filename_output, empty_source_folder) {
     Log("");
 
     let output_file = [];
@@ -82,6 +86,11 @@ function ConsolidateJsonFiles(path_input, filename_output) {
 
     fs.writeFileSync(filename_output, JSON.stringify(output_file, null, 2), "utf8");
     Log("Wrote file: " + filename_output);
+    if (empty_source_folder) {
+        EmptyFolder(path_input);
+        Log("Cleared contents of source folder: " + path_input);
+    }
+
     FlushConsole();
 };
 
@@ -139,15 +148,19 @@ function FlushConsole() {
 
 function ClearDirs() {
     EmptyFolder(folder_ammobox);
+    EmptyFolder(folder_ammobox_game);
     EmptyFolder(folder_ammobox_skirmish);
     EmptyFolder(folder_weapons);
     EmptyFolder(folder_weapons_game);
     EmptyFolder(folder_weapons_skirmish);
     EmptyFolder(folder_heatsinks);
+    EmptyFolder(folder_heatsinks_game);
     EmptyFolder(folder_heatsinks_skirmish);
     EmptyFolder(folder_jumpjets);
+    EmptyFolder(folder_jumpjets_game);
     EmptyFolder(folder_jumpjets_skirmish);
     EmptyFolder(folder_upgrades);
+    EmptyFolder(folder_upgrades_game);
     EmptyFolder(folder_upgrades_skirmish);
     EmptyFolder(folder_pilot_skirmish);
 }
@@ -292,8 +305,9 @@ function FindEquipmentEffect(tag, value) {
 }
 
 function Main_AmmoBoxes(diag=false) {
-    const output_folder_story = folder_ammobox;
+    const output_folder = folder_ammobox;
     const output_folder_skirmish = folder_ammobox_skirmish;
+    const output_folder_game = folder_ammobox_game;
     const input_json = json_ammobox;
     const input_csv = csv_ammobox;
     const filename_ext = ".json";
@@ -339,7 +353,7 @@ function Main_AmmoBoxes(diag=false) {
 
             const item_name = element_name.Deep().replaceAll("Burst Fire", "BF");
             const file_name_base = ("AmmunitionBox_WS_").concat(element_name.Deep().replaceAll("Burst Fire", "BF").replaceAll(" ", "_"));
-            const file_name_story = path.join(output_folder_story, file_name_base.concat(filename_ext));
+            const f_name_game = path.join(output_folder_game, file_name_base.concat(filename_ext));
             const file_name_skirmish = path.join(output_folder_skirmish, file_name_base.concat(filename_ext));
 
             let index = {};
@@ -404,15 +418,18 @@ function Main_AmmoBoxes(diag=false) {
             data_story.ComponentTags.items = item_tags_story;
             data_skirmish.ComponentTags.items = item_tags_skirmish;
 
-            fs.writeFileSync(file_name_story, JSON.stringify(data_story, null, 2), "utf8");
+            fs.writeFileSync(f_name_game, JSON.stringify(data_story, null, 2), "utf8");
             fs.writeFileSync(file_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
-            Log("Wrote file: " + file_name_story + "\nWrote file: " + file_name_skirmish);
+            Log("Wrote file: " + f_name_game + "\nWrote file: " + file_name_skirmish);
         } else {
             FlushConsole();
         }
 
         FlushConsole();
     });
+
+    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "ammoboxes_skirmish.json", true);
+    ConsolidateJsonFiles(output_folder_game, output_folder + "ammoboxes_game.json", true);
 }
 
 function Main_Weapons(diag=false) {
@@ -448,8 +465,7 @@ function Main_Weapons(diag=false) {
             let data = JSON.parse(JSON.stringify(json_template));
 
             const d_name = ("Weapon_").concat(e_name.replaceAll("Burst Fire", "BF").replaceAll(" ", "_"));
-            // const f_name = path.join(folder_input, "test.json");
-            const f_name = path.join(output_folder_game, d_name.concat(fext));
+            const f_name_game = path.join(output_folder_game, d_name.concat(fext));
             const f_name_skirmish = path.join(output_folder_skirmish, d_name.concat("_skirmish", fext));
 
             let index = {};
@@ -580,10 +596,9 @@ function Main_Weapons(diag=false) {
             data_skirmish.ComponentTags.items = item_tags_skirmish.Deep();
             data_skirmish.Description.Id = data_skirmish.Description.Id.Deep() + "_skirmish";
 
-            fs.writeFileSync(f_name, JSON.stringify(data, null, 2), "utf8");
+            fs.writeFileSync(f_name_game, JSON.stringify(data, null, 2), "utf8");
             fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
-            // console.log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
-            Log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
+            Log("Wrote file: " + f_name_game + "\nWrote file: " + f_name_skirmish);
         } else {
             FlushConsole();
         }
@@ -591,8 +606,8 @@ function Main_Weapons(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "weapons_skirmish.json");
-    ConsolidateJsonFiles(output_folder_game, output_folder + "weapons_game.json");
+    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "weapons_skirmish.json", true);
+    ConsolidateJsonFiles(output_folder_game, output_folder + "weapons_game.json", true);
 }
 
 function Main_Pilots_Skirmish(diag=false) {
@@ -867,6 +882,7 @@ function Main_Pilots_Skirmish(diag=false) {
 
 function Main_Upgrades(diag=false) {
     const output_folder = folder_upgrades;
+    const output_folder_game = folder_upgrades_game;
     const output_folder_skirmish = folder_upgrades_skirmish;
     const fext = ".json";
 
@@ -894,7 +910,7 @@ function Main_Upgrades(diag=false) {
             let data = JSON.parse(JSON.stringify(json_template));
 
             const d_name = ("Gear_").concat(e_name.replaceAll(" ", "_"));
-            const f_name = path.join(output_folder, d_name.concat(fext));
+            const f_name_game = path.join(output_folder_game, d_name.concat(fext));
             const f_name_skirmish = path.join(output_folder_skirmish, d_name.concat("_skirmish", fext));
 
             let index = {};
@@ -957,16 +973,18 @@ function Main_Upgrades(diag=false) {
             data_skirmish.ComponentTags.items = item_tags_skirmish.Deep();
             data_skirmish.Description.Id = data_skirmish.Description.Id.Deep() + "_skirmish";
 
-            fs.writeFileSync(f_name, JSON.stringify(data, null, 2), "utf8");
+            fs.writeFileSync(f_name_game, JSON.stringify(data, null, 2), "utf8");
             fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
-            // console.log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
-            Log("Wrote file: " + f_name + "\nWrote file: " + f_name_skirmish);
+            Log("Wrote file: " + f_name_game + "\nWrote file: " + f_name_skirmish);
         } else {
             FlushConsole();
         }
 
         FlushConsole();
     });
+
+    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "upgrades_skirmish.json", true);
+    ConsolidateJsonFiles(output_folder_game, output_folder + "upgrades_game.json", true);
 }
 
 function ParseSpecials(codes) {
