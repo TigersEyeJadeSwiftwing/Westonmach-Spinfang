@@ -1,0 +1,62 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 25025,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Enforcer_UK-MG_T1_skirmish",
+    "Model": "Enforcer Ultra-Kinetic Machine Gun",
+    "UIName": "Enforcer UK-MG T1",
+    "Name": "Enforcer UK-MG T1",
+    "Icon": "uixSvgIcon_weapon_Support",
+    "Details": "    Westonmach Ultra-Kinetic Machine Guns shoot lightweight but hard-hitting rounds that are made out of shaped, metal alloy materials with a custom-engineered atomic structure, designed and patented by Westonmach corporation.  Their ammunition doesn't contain or use any gunpowder, chemicals, or explosives, and as such can be struck, damaged, and set on fire without any risk of exploding.  The guns that fire them, not the ammunition, accelerate the rounds, and so the speed and range of the fired rounds depend on the gun that shoots them and not the ammunition.\n\n    Westonmach Enforcer Machine Guns are designed to shoot rounds for a considerable distance, and rival short and medium range lasers and other battlemech-mounted weaponry, while at the same time functioning as support weapons that fire during battlemech melee combat.  UK (Ultra-Kinetic) Machine Guns have an increased chance of inflicting critical hits when hitting a target.\n\n    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+  },
+  "Category": "AntiPersonnel",
+  "Type": "MachineGun",
+  "WeaponSubType": "MachineGun",
+  "MinRange": 0,
+  "MaxRange": 120,
+  "RangeSplit": [
+    0,
+    60,
+    120
+  ],
+  "ammoCategoryID": "UKMG",
+  "StartingAmmoCapacity": 0,
+  "Damage": 8,
+  "HeatDamage": 0,
+  "Instability": 0,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 1.6,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 3,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 0,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 0,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "MachineGun",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": []
+}

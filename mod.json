@@ -26,7 +26,7 @@
         { "Type": "SimGameConstants", "Path": "simGameConstants" },
         { "Type": "SimGameEventDef", "Path": "events", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "SimGameConversations", "Path": "simGameConversations", "ShouldMergeJSON": false, "AddToDB": true  },
-        { "Type": "SimGameMilestoneDef", "Path": "milestones", "ShouldMergeJSON": true, "AddToDB": true }
+        { "Type": "SimGameMilestoneDef", "Path": "milestones", "ShouldMergeJSON": true, "AddToDB": true },
       	{ "Type": "ShipModuleUpgrade", "Path": "shipUpgrades" },
         { "Type": "StarSystemDef", "Path": "starsystem", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "ItemCollectionDef", "Path": "item_collections_WS" },
@@ -42,13 +42,19 @@
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
 
         { "Type": "WeaponDef", "Path": "weapon/generated", "ShouldMergeJSON": false, "AddToDB": true  },
-        { "Type": "AmmunitionDef", "Path": "ammunition", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "WeaponDef", "Path": "weapon/skirmish", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "WeaponDef", "Path": "weapon/game", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox/generated", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox/skirmish", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox/game", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "AmmunitionDef", "Path": "ammunition", "ShouldMergeJSON": false, "AddToDB": true  },
 
         { "Type": "HeatSinkDef", "Path": "heatsinks", "ShouldMergeJSON": false, "AddToDB": true  },
 
       	{ "Type": "JumpJetDef", "Path": "jumpjets", "ShouldMergeJSON": false, "AddToDB": true },
 
         { "Type": "UpgradeDef", "Path": "upgrades/generated", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "UpgradeDef", "Path": "upgrades/skirmish", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "UpgradeDef", "Path": "upgrades/game", "ShouldMergeJSON": false, "AddToDB": true  }
     ]
 }

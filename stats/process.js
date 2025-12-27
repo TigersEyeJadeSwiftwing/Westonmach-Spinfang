@@ -373,8 +373,8 @@ function Main_AmmoBoxes(diag=false) {
 
             const item_name = element_name.Deep().replaceAll("Burst Fire", "BF");
             const file_name_base = ("AmmunitionBox_WS_").concat(element_name.Deep().replaceAll("Burst Fire", "BF").replaceAll(" ", "_"));
-            const f_name_game = path.join(output_folder_game, file_name_base.concat(filename_ext));
-            const file_name_skirmish = path.join(output_folder_skirmish, file_name_base.concat(filename_ext));
+            const file_name_game = String(output_folder_game) + String(file_name_base) + "_game" + String(filename_ext);
+            const file_name_skirmish = String(output_folder_skirmish) + String(file_name_base) + "_skirmish" + String(filename_ext);
 
             let index = {};
             index.name = String(headers.indexOf("Name"));
@@ -408,12 +408,12 @@ function Main_AmmoBoxes(diag=false) {
                     "Number of Firings: " + String(item_attacks_per_item) + "\n";
 
             const item_tags = [ "component_type_stock" ];
-            const item_tags_story = item_tags.Deep().concat( ["BLACKLISTED"] );
+            const item_tags_story = item_tags.concat( ["BLACKLISTED"] ).Deep();
             const item_tags_skirmish = item_tags.Deep();
 
             data.Description.Name = item_name;
             data.Description.UIName = item_name;
-            data.Description.Id = file_name_base;
+            data.Description.Id = String(file_name_base) + "_placeholder";
             data.Description.Model = String(row[index.model_name]);
             data.Description.Cost = Number(row[index.cost]);
             data.Description.Icon = GetIcon( String(row[index.icon_code]) );
@@ -433,14 +433,16 @@ function Main_AmmoBoxes(diag=false) {
 
             data.Description.Details = item_description_prepend.Deep() + data.Description.Details.Deep() + item_description.Deep();
 
-            let data_story = data;
-            let data_skirmish = data.Deep();
+            let data_story = data.Deep();
+            data_story.Description.Id = String(file_name_base) + "_game";
             data_story.ComponentTags.items = item_tags_story;
+            let data_skirmish = data.Deep();
+            data_skirmish.Description.Id = String(file_name_base) + "_skirmish";
             data_skirmish.ComponentTags.items = item_tags_skirmish;
 
-            fs.writeFileSync(f_name_game, JSON.stringify(data_story, null, 2), "utf8");
+            fs.writeFileSync(file_name_game, JSON.stringify(data_story, null, 2), "utf8");
             fs.writeFileSync(file_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
-            Log("Wrote file: " + f_name_game + "\nWrote file: " + file_name_skirmish);
+            Log("Wrote file: " + file_name_game + "\nWrote file: " + file_name_skirmish);
         } else {
             FlushConsole();
         }
