@@ -826,7 +826,8 @@ function Main_Pilots_Skirmish(diag=false) {
             let trait_codes = [];
             if (trait_codes_2_string.length > 0) {
                 const tr = trait_codes_2_string.split(" ");
-                // trait_codes = trait_codes.concat(tr).Deep();
+                trait_codes = trait_codes.concat(tr).Deep();
+                /*
                 {
                     trait_codes.push("Aim1", "Aim2", "Aim3", "Aim4", "Aim5");
                     trait_codes.push("Aim-Ballistic1", "Aim-Ballistic2", "Aim-Ballistic3", "Aim-Ballistic4", "Aim-Ballistic5");
@@ -845,6 +846,7 @@ function Main_Pilots_Skirmish(diag=false) {
                     trait_codes.push("Dmg-Resist1", "Dmg-Resist2", "Dmg-Resist3", "Dmg-Resist4", "Dmg-Resist5");
                     trait_codes.push("Dodge1", "Dodge2", "Dodge3", "Dodge4", "Dodge5");
                 }
+                */
             }
             if (trait_codes_1_string.length > 0) {
                 const tr = trait_codes_1_string.split(" ");
