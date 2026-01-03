@@ -8,7 +8,7 @@
     "UIName": "TTS Omni T3",
     "Id": "Gear_TTS_Omni_T3",
     "Name": "TTS Omni T3",
-    "Details": "Weapon accuracy (all types) increase: +1.50.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +9.\nMax heat and overheating modifiers: --4.\nDamage taken from all sources: 122.0970%.\n\n",
+    "Details": "Weapon accuracy (all types) increase: +1.50.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +9.\nMax heat and overheating modifiers: -4.\nDamage taken from all sources: 122.0970%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 85486,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,19 +8,19 @@
     "UIName": "Engine Upgrade B Enhanced T3",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T3_skirmish",
     "Name": "Engine Upgrade B Enhanced T3",
-    "Details": "Walking / Sprinting movement: 139.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +19.\nUnsteady threshold modifier: +19.\nHeat generated per turn: +5.\nDamage taken from all sources: 109.8180%.\n\n",
+    "Details": "Walking / Sprinting movement: 130.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +24.\nUnsteady threshold modifier: +24.\nHeat generated per turn: +5.\nDamage taken from all sources: 109.8180%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "139% Walk/Sprint",
+  "BonusValueA": "130% Walk/Sprint",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 2,
+  "InventorySize": 1,
   "Tonnage": 0.0625,
   "AllowedLocations": "CenterTorso, LeftTorso, RightTorso",
   "DisallowedLocations": "All",
@@ -127,7 +127,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.39,
+        "modValue": 1.3,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -160,7 +160,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.39,
+        "modValue": 1.3,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -192,7 +192,7 @@
       "statisticData": {
         "statName": "MaxStability",
         "operation": "Float_Add",
-        "modValue": 19,
+        "modValue": 24,
         "modType": "System.Single"
       }
     },
@@ -218,7 +218,7 @@
       "statisticData": {
         "statName": "UnsteadyThreshold",
         "operation": "Float_Add",
-        "modValue": 19,
+        "modValue": 24,
         "modType": "System.Single"
       }
     }

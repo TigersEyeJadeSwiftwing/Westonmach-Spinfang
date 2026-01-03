@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_WM_Hvy",
   "Capacity": 8,
   "Description": {
-    "Cost": 3350,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

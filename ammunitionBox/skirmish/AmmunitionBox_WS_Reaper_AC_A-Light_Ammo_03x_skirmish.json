@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_Reaper_L",
   "Capacity": 36,
   "Description": {
-    "Cost": 10607,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

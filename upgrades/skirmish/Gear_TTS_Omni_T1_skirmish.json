@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 82125,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "TTS Omni T1",
     "Id": "Gear_TTS_Omni_T1_skirmish",
     "Name": "TTS Omni T1",
-    "Details": "Weapon accuracy (all types) increase: +0.50.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: --2.\n\n",
+    "Details": "Weapon accuracy (all types) increase: +0.50.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: -2.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

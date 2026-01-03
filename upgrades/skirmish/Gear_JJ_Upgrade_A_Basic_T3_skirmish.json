@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 35603,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,13 +8,13 @@
     "UIName": "JJ Upgrade A Basic T3",
     "Id": "Gear_JJ_Upgrade_A_Basic_T3_skirmish",
     "Name": "JJ Upgrade A Basic T3",
-    "Details": "Jumping spaces/turn: 148.00%.\nMaximum cumulative jump jet upgrades: 1x.\nHeat generated per turn: +4.\nDamage taken from all sources: 118.1820%.\n\n",
+    "Details": "Jumping spaces/turn: 145.00%.\nMaximum cumulative jump jet upgrades: 1x.\nHeat generated per turn: +4.\nDamage taken from all sources: 109.6570%.\n\n",
     "Icon": "uixSvgIcon_action_jump"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "148% Jump Distance",
+  "BonusValueA": "145% Jump Distance",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -94,7 +94,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 1.18182,
+        "modValue": 1.09657,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -126,7 +126,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": 1.48,
+        "modValue": 1.45,
         "modType": "System.Single"
       }
     }

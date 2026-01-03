@@ -8,13 +8,13 @@
     "UIName": "JJ Upgrade B Turbo T4",
     "Id": "Gear_JJ_Upgrade_B_Turbo_T4",
     "Name": "JJ Upgrade B Turbo T4",
-    "Details": "Jumping spaces/turn: 164.00%.\nMaximum cumulative jump jet upgrades: 2x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 117.9900%.\n\n",
+    "Details": "Jumping spaces/turn: 160.00%.\nMaximum cumulative jump jet upgrades: 2x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: -5.\nDamage taken from all sources: 117.9900%.\n\n",
     "Icon": "uixSvgIcon_action_jump"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "164% Jump Distance",
+  "BonusValueA": "160% Jump Distance",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -180,7 +180,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": 1.64,
+        "modValue": 1.6,
         "modType": "System.Single"
       }
     }

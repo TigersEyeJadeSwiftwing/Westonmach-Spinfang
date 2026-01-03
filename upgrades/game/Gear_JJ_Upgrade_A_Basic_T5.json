@@ -8,13 +8,13 @@
     "UIName": "JJ Upgrade A Basic T5",
     "Id": "Gear_JJ_Upgrade_A_Basic_T5",
     "Name": "JJ Upgrade A Basic T5",
-    "Details": "Jumping spaces/turn: 180.00%.\nMaximum cumulative jump jet upgrades: 1x.\nHeat generated per turn: +9.\nDamage taken from all sources: 140.0000%.\n\n",
+    "Details": "Jumping spaces/turn: 175.00%.\nMaximum cumulative jump jet upgrades: 1x.\nHeat generated per turn: +9.\nDamage taken from all sources: 120.0000%.\n\n",
     "Icon": "uixSvgIcon_action_jump"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "180% Jump Distance",
+  "BonusValueA": "175% Jump Distance",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -96,7 +96,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 1.4,
+        "modValue": 1.2,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -128,7 +128,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": 1.8,
+        "modValue": 1.75,
         "modType": "System.Single"
       }
     }

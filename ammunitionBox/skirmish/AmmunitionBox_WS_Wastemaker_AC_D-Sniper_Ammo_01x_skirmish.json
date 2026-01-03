@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_WM_Snp",
   "Capacity": 28,
   "Description": {
-    "Cost": 3010,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

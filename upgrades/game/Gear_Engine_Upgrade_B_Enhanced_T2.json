@@ -8,19 +8,19 @@
     "UIName": "Engine Upgrade B Enhanced T2",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T2",
     "Name": "Engine Upgrade B Enhanced T2",
-    "Details": "Walking / Sprinting movement: 126.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +13.\nUnsteady threshold modifier: +13.\nHeat generated per turn: +3.\nDamage taken from all sources: 106.2190%.\n\n",
+    "Details": "Walking / Sprinting movement: 120.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +16.\nUnsteady threshold modifier: +16.\nHeat generated per turn: +3.\nDamage taken from all sources: 106.2190%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "126% Walk/Sprint",
+  "BonusValueA": "120% Walk/Sprint",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 2,
+  "InventorySize": 1,
   "Tonnage": 0.0625,
   "AllowedLocations": "CenterTorso, LeftTorso, RightTorso",
   "DisallowedLocations": "All",
@@ -128,7 +128,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.26,
+        "modValue": 1.2,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -161,7 +161,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.26,
+        "modValue": 1.2,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -193,7 +193,7 @@
       "statisticData": {
         "statName": "MaxStability",
         "operation": "Float_Add",
-        "modValue": 13,
+        "modValue": 16,
         "modType": "System.Single"
       }
     },
@@ -219,7 +219,7 @@
       "statisticData": {
         "statName": "UnsteadyThreshold",
         "operation": "Float_Add",
-        "modValue": 13,
+        "modValue": 16,
         "modType": "System.Single"
       }
     }

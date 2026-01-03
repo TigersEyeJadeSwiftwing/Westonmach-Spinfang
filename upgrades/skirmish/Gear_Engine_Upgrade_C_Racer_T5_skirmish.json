@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 520120,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,13 +8,13 @@
     "UIName": "Engine Upgrade C Racer T5",
     "Id": "Gear_Engine_Upgrade_C_Racer_T5_skirmish",
     "Name": "Engine Upgrade C Racer T5",
-    "Details": "Walking / Sprinting movement: 172.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +45.\nUnsteady threshold modifier: +45.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: --8.\nDamage taken from all sources: 142.5000%.\n\n",
+    "Details": "Walking / Sprinting movement: 166.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +70.\nUnsteady threshold modifier: +70.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: -8.\nDamage taken from all sources: 142.5000%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "172% Walk/Sprint",
+  "BonusValueA": "166% Walk/Sprint",
   "BonusValueB": "+1 Initiative Bonus",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -179,7 +179,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.72,
+        "modValue": 1.66,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -212,7 +212,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.72,
+        "modValue": 1.66,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -244,7 +244,7 @@
       "statisticData": {
         "statName": "MaxStability",
         "operation": "Float_Add",
-        "modValue": 45,
+        "modValue": 70,
         "modType": "System.Single"
       }
     },
@@ -270,7 +270,7 @@
       "statisticData": {
         "statName": "UnsteadyThreshold",
         "operation": "Float_Add",
-        "modValue": 45,
+        "modValue": 70,
         "modType": "System.Single"
       }
     },
@@ -308,8 +308,8 @@
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
         "statName": "BaseInitiative",
-        "operation": "Int_Subtract",
-        "modValue": 1,
+        "operation": "Int_Add",
+        "modValue": -1,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",

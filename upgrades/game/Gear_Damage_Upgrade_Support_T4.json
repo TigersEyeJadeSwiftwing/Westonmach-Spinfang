@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T4",
     "Id": "Gear_Damage_Upgrade_Support_T4",
     "Name": "Damage Upgrade Support T4",
-    "Details": "Support weapon damage modifier: 148.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 110.7170%.\n\n",
+    "Details": "Support weapon damage modifier: 148.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: -5.\nDamage taken from all sources: 110.7170%.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,

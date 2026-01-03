@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Omni T2",
     "Id": "Gear_Damage_Upgrade_Omni_T2",
     "Name": "Damage Upgrade Omni T2",
-    "Details": "Ballistic weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: --10.\nDamage taken from all sources: 112.5000%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 116.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: -10.\nDamage taken from all sources: 112.5000%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,

@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_UKMG",
   "Capacity": 90,
   "Description": {
-    "Cost": 3879,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

@@ -37,7 +37,7 @@
   "AccuracyModifier": 0,
   "EvasivePipsIgnored": 0,
   "HeatGenerated": 20,
-  "AttackRecoil": 1,
+  "AttackRecoil": 0,
   "RefireModifier": 3,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
   "BonusValueA": "Stuns Target",

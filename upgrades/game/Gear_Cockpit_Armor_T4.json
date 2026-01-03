@@ -8,7 +8,7 @@
     "UIName": "Cockpit Armor T4",
     "Id": "Gear_Cockpit_Armor_T4",
     "Name": "Cockpit Armor T4",
-    "Details": "Pilot injuries negated: 2.\nUnit's head armor effectiveness: 200.00%.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\n\n",
+    "Details": "Pilot injuries negated: 2.\nUnit's head armor effectiveness: 200.00%.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: -3.\n\n",
     "Icon": "uixSvgIcon_equipment_Cockpit"
   },
   "StatName": null,

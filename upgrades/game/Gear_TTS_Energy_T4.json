@@ -8,7 +8,7 @@
     "UIName": "TTS Energy T4",
     "Id": "Gear_TTS_Energy_T4",
     "Name": "TTS Energy T4",
-    "Details": "Energy weapon accuracy increase: +2.40.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 110.5550%.\n\n",
+    "Details": "Energy weapon accuracy increase: +2.40.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: -3.\nDamage taken from all sources: 110.5550%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

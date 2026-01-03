@@ -1,7 +1,7 @@
 {
   "Description": {
     "Manufacturer": "Westonmach",
-    "Cost": 288360,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Id": "Weapon_IPBC_B-Medium_T3_skirmish",
@@ -9,7 +9,7 @@
     "UIName": "IPBC B-Medium T3",
     "Name": "IPBC B-Medium T3",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 106.6430%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +4.\nMax heat and overheating modifiers: --1.\nDamage taken from all sources: 105.6570%.\n\n"
+    "Details": "Target multiplier to all further damage: 106.6430%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +4.\nMax heat and overheating modifiers: -1.\nDamage taken from all sources: 105.6570%.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",

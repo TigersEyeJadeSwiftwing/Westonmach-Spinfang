@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 506840,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Ballistic T3",
     "Id": "Gear_Range_Upgrade_Ballistic_T3_skirmish",
     "Name": "Range Upgrade Ballistic T3",
-    "Details": "Ballistic weapon range increase: +150 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 106.4520%.\n\n",
+    "Details": "Ballistic weapon range increase: +150 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: -3.\nDamage taken from all sources: 106.4520%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

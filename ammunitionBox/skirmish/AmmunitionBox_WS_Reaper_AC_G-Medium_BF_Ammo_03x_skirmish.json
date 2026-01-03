@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_Reaper_MB",
   "Capacity": 120,
   "Description": {
-    "Cost": 21389,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

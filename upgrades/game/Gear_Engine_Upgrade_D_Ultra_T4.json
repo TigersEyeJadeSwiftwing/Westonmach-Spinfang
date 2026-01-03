@@ -8,13 +8,13 @@
     "UIName": "Engine Upgrade D Ultra T4",
     "Id": "Gear_Engine_Upgrade_D_Ultra_T4",
     "Name": "Engine Upgrade D Ultra T4",
-    "Details": "Walking / Sprinting movement: 164.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +48.\nUnsteady threshold modifier: +48.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: +18.\nMax heat and overheating modifiers: --9.\nDamage taken from all sources: 148.2240%.\n\n",
+    "Details": "Walking / Sprinting movement: 168.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +120.\nUnsteady threshold modifier: +120.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: +18.\nMax heat and overheating modifiers: -9.\nDamage taken from all sources: 148.2240%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "164% Walk/Sprint",
+  "BonusValueA": "168% Walk/Sprint",
   "BonusValueB": "+1 Initiative Bonus",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -181,7 +181,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.64,
+        "modValue": 1.68,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -214,7 +214,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.64,
+        "modValue": 1.68,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -246,7 +246,7 @@
       "statisticData": {
         "statName": "MaxStability",
         "operation": "Float_Add",
-        "modValue": 48,
+        "modValue": 120,
         "modType": "System.Single"
       }
     },
@@ -272,7 +272,7 @@
       "statisticData": {
         "statName": "UnsteadyThreshold",
         "operation": "Float_Add",
-        "modValue": 48,
+        "modValue": 120,
         "modType": "System.Single"
       }
     },
@@ -310,8 +310,8 @@
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
         "statName": "BaseInitiative",
-        "operation": "Int_Subtract",
-        "modValue": 1,
+        "operation": "Int_Add",
+        "modValue": -1,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",

@@ -9,40 +9,40 @@ Engine Upgrade A Basic T3,3,10,0.0625,4 0 1.00000,1,35603,130% Walk/Sprint,,+ENG
 Engine Upgrade A Basic T4,4,10,0.0625,7 0 1.00000,1,54956,140% Walk/Sprint,,+ENGINE1`1.40000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
 Engine Upgrade A Basic T5,5,10,0.0625,10 0 1.00000,1,82050,150% Walk/Sprint,,+ENGINE1`1.50000,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
 ,,,,,,,,,,,,,
-Engine Upgrade B Enhanced T1,1,13,0.0625,2 0 1.04250,2,50565,113% Walk/Sprint,,+ENGINE2`1.13000 +STABILITY_ENGINE1`7,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade B Enhanced T2,2,13,0.0625,3 0 1.06219,2,59295,126% Walk/Sprint,,+ENGINE2`1.26000 +STABILITY_ENGINE1`13,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade B Enhanced T3,3,13,0.0625,5 0 1.09818,2,85486,139% Walk/Sprint,,+ENGINE2`1.39000 +STABILITY_ENGINE1`19,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade B Enhanced T4,4,13,0.0625,8 0 1.14480,2,129138,152% Walk/Sprint,,+ENGINE2`1.52000 +STABILITY_ENGINE1`25,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade B Enhanced T5,5,13,0.0625,12 0 1.20000,2,190250,165% Walk/Sprint,,+ENGINE2`1.65000 +STABILITY_ENGINE1`32,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T1,1,10,0.0625,2 0 1.04250,1,50565,110% Walk/Sprint,,+ENGINE2`1.10000 +STABILITY_ENGINE1`8,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T2,2,10,0.0625,3 0 1.06219,1,59295,120% Walk/Sprint,,+ENGINE2`1.20000 +STABILITY_ENGINE1`16,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T3,3,10,0.0625,5 0 1.09818,1,85486,130% Walk/Sprint,,+ENGINE2`1.30000 +STABILITY_ENGINE1`24,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T4,4,10,0.0625,8 0 1.14480,1,129138,140% Walk/Sprint,,+ENGINE2`1.40000 +STABILITY_ENGINE1`32,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade B Enhanced T5,5,10,0.0625,12 0 1.20000,1,190250,150% Walk/Sprint,,+ENGINE2`1.50000 +STABILITY_ENGINE1`40,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
 ,,,,,,,,,,,,,
-Engine Upgrade C Racer T1,1,14.4,0.0625,3 2 1.09250,2,92150,114% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.14400 +STABILITY_ENGINE1`9 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade C Racer T2,2,14.4,0.0625,4 2 1.13406,2,118898,129% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.28800 +STABILITY_ENGINE1`18 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade C Racer T3,3,14.4,0.0625,6 4 1.21006,2,199143,143% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.43200 +STABILITY_ENGINE1`27 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade C Racer T4,4,14.4,0.0625,10 5 1.30847,2,332883,158% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.57600 +STABILITY_ENGINE1`36 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade C Racer T5,5,14.4,0.0625,16 8 1.42500,2,520120,172% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.72000 +STABILITY_ENGINE1`45 +INIT_ENGINE1`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T1,1,13.2,0.0625,3 2 1.09250,2,92150,113% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.13200 +STABILITY_ENGINE1`14 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T2,2,13.2,0.0625,4 2 1.13406,2,118898,126% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.26400 +STABILITY_ENGINE1`28 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T3,3,13.2,0.0625,6 4 1.21006,2,199143,140% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.39600 +STABILITY_ENGINE1`42 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T4,4,13.2,0.0625,10 5 1.30847,2,332883,153% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.52800 +STABILITY_ENGINE1`56 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade C Racer T5,5,13.2,0.0625,16 8 1.42500,2,520120,166% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.66000 +STABILITY_ENGINE1`70 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
 ,,,,,,,,,,,,,
-Engine Upgrade D Ultra T1,1,16,0.0625,8 5 1.12500,2,191020,116% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.16000 +STABILITY_ENGINE2`12 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade D Ultra T2,2,16,0.0625,9 5 1.19375,2,238491,132% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.32000 +STABILITY_ENGINE2`24 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade D Ultra T3,3,16,0.0625,12 7 1.31945,2,380905,148% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.48000 +STABILITY_ENGINE2`36 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade D Ultra T4,4,16,0.0625,18 9 1.48224,2,618261,164% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.64000 +STABILITY_ENGINE2`48 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
-Engine Upgrade D Ultra T5,5,16,0.0625,25 12 1.67500,2,950560,180% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.80000 +STABILITY_ENGINE2`60 +INIT_ENGINE2`1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T1,1,17,0.0625,8 5 1.12500,2,191020,117% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.17000 +STABILITY_ENGINE2`30 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T2,2,17,0.0625,9 5 1.19375,2,238491,134% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.34000 +STABILITY_ENGINE2`60 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T3,3,17,0.0625,12 7 1.31945,2,380905,151% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.51000 +STABILITY_ENGINE2`90 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T4,4,17,0.0625,18 9 1.48224,2,618261,168% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.68000 +STABILITY_ENGINE2`120 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
+Engine Upgrade D Ultra T5,5,17,0.0625,25 12 1.67500,2,950560,185% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.85000 +STABILITY_ENGINE2`150 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 Jump Jet Upgrade,,,,,,,,,,,,,
 ,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
 ,,,,,,,,,,,,,
-JJ Upgrade A Basic T1,1,16,0.0625,2 0 1.06250,1,20120,116% Jump Distance,,+JJ_DIST1`1.16000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade A Basic T2,2,16,0.0625,2 0 1.10469,1,23991,132% Jump Distance,,+JJ_DIST1`1.32000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade A Basic T3,3,16,0.0625,4 0 1.18182,1,35603,148% Jump Distance,,+JJ_DIST1`1.48000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade A Basic T4,4,16,0.0625,6 0 1.28171,1,54956,164% Jump Distance,,+JJ_DIST1`1.64000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade A Basic T5,5,16,0.0625,9 0 1.40000,1,82050,180% Jump Distance,,+JJ_DIST1`1.80000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T1,1,15,0.0625,2 0 1.04000,1,20120,115% Jump Distance,,+JJ_DIST1`1.15000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T2,2,15,0.0625,2 0 1.06000,1,23991,130% Jump Distance,,+JJ_DIST1`1.30000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T3,3,15,0.0625,4 0 1.09657,1,35603,145% Jump Distance,,+JJ_DIST1`1.45000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T4,4,15,0.0625,6 0 1.14392,1,54956,160% Jump Distance,,+JJ_DIST1`1.60000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade A Basic T5,5,15,0.0625,9 0 1.20000,1,82050,175% Jump Distance,,+JJ_DIST1`1.75000,T L,_action_jump,SF,Jump Jet Accelerator
 ,,,,,,,,,,,,,
-JJ Upgrade B Turbo T1,1,16,0.0625,5 2 1.05000,2,92150,116% Jump Distance,,+JJ_DIST2`1.16000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade B Turbo T2,2,16,0.0625,6 2 1.07500,2,118898,132% Jump Distance,,+JJ_DIST2`1.32000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade B Turbo T3,3,16,0.0625,9 4 1.12071,2,199143,148% Jump Distance,,+JJ_DIST2`1.48000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade B Turbo T4,4,16,0.0625,13 5 1.17990,2,332883,164% Jump Distance,,+JJ_DIST2`1.64000,T L,_action_jump,SF,Jump Jet Accelerator
-JJ Upgrade B Turbo T5,5,16,0.0625,20 8 1.25000,2,520120,180% Jump Distance,,+JJ_DIST2`1.80000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T1,1,15,0.0625,5 2 1.05000,2,92150,115% Jump Distance,,+JJ_DIST2`1.15000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T2,2,15,0.0625,6 2 1.07500,2,118898,130% Jump Distance,,+JJ_DIST2`1.30000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T3,3,15,0.0625,9 4 1.12071,2,199143,145% Jump Distance,,+JJ_DIST2`1.45000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T4,4,15,0.0625,13 5 1.17990,2,332883,160% Jump Distance,,+JJ_DIST2`1.60000,T L,_action_jump,SF,Jump Jet Accelerator
+JJ Upgrade B Turbo T5,5,15,0.0625,20 8 1.25000,2,520120,175% Jump Distance,,+JJ_DIST2`1.75000,T L,_action_jump,SF,Jump Jet Accelerator
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
@@ -94,7 +94,7 @@ ECM Unit B Series T5,5,7,0.0625,16 0 1.20000,1,1040120,-2.5 Missle Def.,,+ECM`2.
 Sensor Array Package,,,,,,,,,,,,,
 ,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Code (Code`Value`Duration`Stack),Allowed Locations,Icon Code,Maker Code,Model Name
 ,,,,,,,,,,,,,
-Sensor Array Package T1,1,400,0.0625,2 0 1.00000,1,12050,400m Range Enhance,,+SENSORS`400.0,,equipment_Rangefinder,SF,Sensor Array Package
+Sensor Array Package T1,1,450,0.0625,2 0 1.00000,1,12050,450m Range Enhance,,+SENSORS`450.0,,equipment_Rangefinder,SF,Sensor Array Package
 Sensor Array Package T2,2,675,0.0625,3 0 1.00000,1,54943,675m Range Enhance,,+SENSORS`675.0,,equipment_Rangefinder,SF,Sensor Array Package
 Sensor Array Package T3,3,950,0.0625,5 1 1.00000,1,144350,950m Range Enhance,,+SENSORS`950.0,,equipment_Rangefinder,SF,Sensor Array Package
 Sensor Array Package T4,4,1225,0.0625,8 3 1.00000,1,267737,1225m Range Enhance,,+SENSORS`1225.0,,equipment_Rangefinder,SF,Sensor Array Package

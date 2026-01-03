@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T5",
     "Id": "Gear_Range_Upgrade_Support_T5",
     "Name": "Range Upgrade Support T5",
-    "Details": "Support weapon range increase: +150 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: --5.\nDamage taken from all sources: 112.5000%.\n\n",
+    "Details": "Support weapon range increase: +150 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: -5.\nDamage taken from all sources: 112.5000%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

@@ -1,0 +1,157 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 122000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Reaper_AC_H-Sniper_2x_T1",
+    "Model": "Reaper Sniper Auto Cannon",
+    "UIName": "Reaper AC H-Sniper 2x T1",
+    "Name": "Reaper AC H-Sniper 2x T1",
+    "Icon": "uixSvgIcon_weapon_Ballistic",
+    "Details": "Stun Effect (movement distance): 93.3030%.\nStun Effect Duration: 2 turns.\nMaximum cumulative stun effects on target: 10x.\n\n    Westonmach's Reaper Auto Cannons are known for their light weight, massive damage, long range, and being compact in size.  Their projectiles have penetrating tips and explosive warheads, and deal a massive knock-down punch as well as armor and structure damage.  Their warheads also deal heat damage.  Heavier models have an increased chance of inflicting critical hits.\n\n    Reaper ACs and their ammunition are both constructed from metal alloys with custom-engineered atomic structure designed by Westonmach, making them very strong while being very lightweight and compact.  Their ammunition, aside from their warheads, are solid custom alloy rounds with no explosives or propellants, so how fast and far the projectiles fly depends on the gun that shoots them, not the ammunition.\n\n    Sniper models are designed for very long range attack.  They fire a pair of shots that use very long, needle-like rounds, which have an accuracy bonus for distant targets.  They have serious accuracy penalties when used against close-range targets, which they are not designed to attack.\n\n    These weapons come in different models (Light, Medium, Heavy, Ultra, Sniper, etc.) as well as multiple \"type\" levels (Type 1, Type 2, etc.).  Weapons of a higher type have increased damage and range, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC2",
+  "MinRange": 900,
+  "MaxRange": 1600,
+  "RangeSplit": [
+    900,
+    900,
+    1600
+  ],
+  "ammoCategoryID": "ReaperSniper",
+  "StartingAmmoCapacity": 0,
+  "Damage": 35,
+  "HeatDamage": 3,
+  "Instability": 18,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.95,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 4,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": -2,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 24,
+  "AttackRecoil": 0,
+  "RefireModifier": 2,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC2_Ultra",
+  "BonusValueA": "Stuns Target",
+  "BonusValueB": "2 Shot Burst",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC2",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0.0625,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Walk_Speed-Stun_2x10",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 2,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.93303,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Run_Speed-Stun_2x10",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 2,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.93303,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Speed-Stun_2x10",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 2,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 0.93303,
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

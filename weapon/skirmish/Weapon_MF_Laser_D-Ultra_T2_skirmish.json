@@ -1,7 +1,7 @@
 {
   "Description": {
     "Manufacturer": "Westonmach",
-    "Cost": 640800,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Id": "Weapon_MF_Laser_D-Ultra_T2_skirmish",
@@ -9,7 +9,7 @@
     "UIName": "MF Laser D-Ultra T2",
     "Name": "MF Laser D-Ultra T2",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Persistant heat per turn to target: --4.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\nHeat generated per turn: +1.\nMax heat and overheating modifiers: --1.\nDamage taken from all sources: 101.5000%.\n\n    Westonmach Multi-Frequency Battlemech lasers are super-intense laser weapons that shoot a laser beam containing multiple lasers of different frequencies at the same time, integrated into one beam of energy.  They do a serious amount of damage to their targets, and also heat up the target when they hit.  Like regular battlemech-mounted lasers, they enjoy an accuracy bonus, and don't require any ammunition.  The small versions are support weapons that fire during melee.\n\n    Westonmach Multi-Frequency lasers will temporarily impair a target's ability to cool itself, overheating the target on a successful hit.  A target hit by one of these lasers will have a lower maximum heat threshold for a few turns, as well as a lower threshold for shutting down.  In addition, while a target that has been hit is cooling off, the damaged area is melting and hot, and for a short time won't protect the target as much from further damage, making other damage temporarily reduce armor and structure a little more than it normally would.\n\n    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Persistant heat per turn to target: -4.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\nHeat generated per turn: +1.\nMax heat and overheating modifiers: -1.\nDamage taken from all sources: 101.5000%.\n\n    Westonmach Multi-Frequency Battlemech lasers are super-intense laser weapons that shoot a laser beam containing multiple lasers of different frequencies at the same time, integrated into one beam of energy.  They do a serious amount of damage to their targets, and also heat up the target when they hit.  Like regular battlemech-mounted lasers, they enjoy an accuracy bonus, and don't require any ammunition.  The small versions are support weapons that fire during melee.\n\n    Westonmach Multi-Frequency lasers will temporarily impair a target's ability to cool itself, overheating the target on a successful hit.  A target hit by one of these lasers will have a lower maximum heat threshold for a few turns, as well as a lower threshold for shutting down.  In addition, while a target that has been hit is cooling off, the damaged area is melting and hot, and for a short time won't protect the target as much from further damage, making other damage temporarily reduce armor and structure a little more than it normally would.\n\n    These weapons come in different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Energy",
   "Type": "Laser",

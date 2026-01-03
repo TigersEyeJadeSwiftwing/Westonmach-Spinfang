@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 1229178,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Omni T3",
     "Id": "Gear_Damage_Upgrade_Omni_T3_skirmish",
     "Name": "Damage Upgrade Omni T3",
-    "Details": "Ballistic weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: --14.\nDamage taken from all sources: 135.3550%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: -14.\nDamage taken from all sources: 135.3550%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,

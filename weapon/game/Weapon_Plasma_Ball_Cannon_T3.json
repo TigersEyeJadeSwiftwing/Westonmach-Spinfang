@@ -9,7 +9,7 @@
     "UIName": "Plasma Ball Cannon T3",
     "Name": "Plasma Ball Cannon T3",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Persistant heat per turn to target: --15.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\nHeat generated per turn: +3.\nDamage taken from all sources: 103.5360%.\n\n"
+    "Details": "Persistant heat per turn to target: -15.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\nHeat generated per turn: +3.\nDamage taken from all sources: 103.5360%.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",

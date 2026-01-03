@@ -8,7 +8,7 @@
     "UIName": "Stomper DFA Controller T1",
     "Id": "Gear_Stomper_DFA_Controller_T1",
     "Name": "Stomper DFA Controller T1",
-    "Details": "DFA damage to enemy modifier: 125.00%.\nDFA stability damage to enemy modifier: 125.00%.\n80.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +2.\n\n",
+    "Details": "DFA damage to enemy modifier: 125.00%.\nDFA stability damage to enemy modifier: 125.00%.\nDFA self-inflicted damage modifier: 80.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +2.\n\n",
     "Icon": "uixSvgIcon_equipment_ActuatorLeg"
   },
   "StatName": null,

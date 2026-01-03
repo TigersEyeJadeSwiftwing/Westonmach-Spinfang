@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 946845,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "TTS Ballistic T4",
     "Id": "Gear_TTS_Ballistic_T4_skirmish",
     "Name": "TTS Ballistic T4",
-    "Details": "Ballistic weapon accuracy increase: +2.40.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 110.5550%.\n\n",
+    "Details": "Ballistic weapon accuracy increase: +2.40.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: -3.\nDamage taken from all sources: 110.5550%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

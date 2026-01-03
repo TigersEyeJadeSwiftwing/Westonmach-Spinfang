@@ -99,12 +99,13 @@ function ConsolidateJsonFiles(path_input, filename_output, empty_source_folder) 
 
 function EquipDescValue(input, digits) {
     const input_number = Number(input);
+    const input_digits = Number(digits);
 
     if (typeof input_number !== "number") return "INVALID_VALUE";
-    if (typeof digits !== "number") return "INVALID_DIGITS";
+    if (typeof input_digits !== "number") return "INVALID_DIGITS";
 
-    const sign_text = input < 0 ? "-" : "+";
-    const value_text = input.toFixed(digits);
+    const sign_text = input_number < 0 ? "" : "+";
+    const value_text = input_number.toFixed(input_digits);
 
     return sign_text + value_text;
 }
@@ -293,13 +294,13 @@ function FindEquipmentEffect(tag, value) {
 
                 let effect_text_line = data_text + "\n";
                 if (data_type === "float") effect_text_line = data_text + data_value.toFixed(data_digits) + ".";
-                else if (data_type === "neg_float") effect_text_line = data_text + (-data_value).toFixed(data_digits) + ".";
+                else if (data_type === "neg_float") effect_text_line = data_text + (-1 * data_value).toFixed(data_digits) + ".";
                 else if (data_type === "int") effect_text_line = data_text + data_value.toFixed(0) + ".";
-                else if (data_type === "neg_int") effect_text_line = data_text + (-data_value).toFixed(0) + ".";
+                else if (data_type === "neg_int") effect_text_line = data_text + (-1 * data_value).toFixed(0) + ".";
                 else if (data_type === "modifier") effect_text_line = data_text + EquipDescValue(data_value, data_digits) + ".";
-                else if (data_type === "neg_modifier") effect_text_line = data_text + EquipDescValue(-data_value, data_digits) + ".";
+                else if (data_type === "neg_modifier") effect_text_line = data_text + EquipDescValue(-1 * data_value, data_digits) + ".";
                 else if (data_type === "percent") effect_text_line = data_text + (data_value * 100.0).toFixed(data_digits) + "%.";
-                else if (data_type === "one_div_percent") effect_text_line = (100.0 / data_value).toFixed(data_digits) + "%.";
+                else if (data_type === "one_div_percent") effect_text_line = data_text + (100.0 / data_value).toFixed(data_digits) + "%.";
                 else if (data_type === "meters") effect_text_line = data_text + EquipDescValue(data_value, data_digits) + " meters.";
                 else if (data_type === "effect_duration") effect_text_line = data_text + (data_duration).toFixed(0) + " turns.";
                 else if (data_type === "stack_limit") effect_text_line = data_text + (data_stack).toFixed(0) + "x.";
@@ -439,6 +440,7 @@ function Main_AmmoBoxes(diag=false) {
             let data_skirmish = data.Deep();
             data_skirmish.Description.Id = String(file_name_base) + "_skirmish";
             data_skirmish.ComponentTags.items = item_tags_skirmish;
+            data_skirmish.Description.Cost = 0;
 
             fs.writeFileSync(file_name_game, JSON.stringify(data_story, null, 2), "utf8");
             fs.writeFileSync(file_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
@@ -617,6 +619,7 @@ function Main_Weapons(diag=false) {
             let data_skirmish = data.Deep();
             data_skirmish.ComponentTags.items = item_tags_skirmish.Deep();
             data_skirmish.Description.Id = data_skirmish.Description.Id.Deep() + "_skirmish";
+            data_skirmish.Description.Cost = 0;
 
             fs.writeFileSync(f_name_game, JSON.stringify(data, null, 2), "utf8");
             fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
@@ -996,6 +999,7 @@ function Main_Upgrades(diag=false) {
             let data_skirmish = data.Deep();
             data_skirmish.ComponentTags.items = item_tags_skirmish.Deep();
             data_skirmish.Description.Id = data_skirmish.Description.Id.Deep() + "_skirmish";
+            data_skirmish.Description.Cost = 0;
 
             fs.writeFileSync(f_name_game, JSON.stringify(data, null, 2), "utf8");
             fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");

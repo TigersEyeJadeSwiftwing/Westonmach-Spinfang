@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_WM_Lgt",
   "Capacity": 48,
   "Description": {
-    "Cost": 10229,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

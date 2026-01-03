@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 144350,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "Sensor Array Package T3",
     "Id": "Gear_Sensor_Array_Package_T3_skirmish",
     "Name": "Sensor Array Package T3",
-    "Details": "Sensor range increase: +950 meters.\nMaximum cumulative sensor range modifiers: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: --1.\n\n",
+    "Details": "Sensor range increase: +950 meters.\nMaximum cumulative sensor range modifiers: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: -1.\n\n",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "StatName": null,

@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 740,302, Nanoseconds: 646,740,800
-Sat Dec 27 2025 06:11:58 GMT-0500 (Eastern Standard Time)
+Seconds: 71,342, Nanoseconds: 971,424,000
+Sat Jan 03 2026 11:46:08 GMT-0500 (Eastern Standard Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -343,49 +343,126 @@ Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T4_skirmish.json
 Wrote file: ..\weapon\game\Weapon_Reaper_AC_D-Sniper_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_D-Sniper_T5_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T1.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T1_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T2.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T2_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T3.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T3_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T4.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T4_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Ultra_T5.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Ultra_T5_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Light_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Light_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Light_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Light_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Light_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Light_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Light_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Light_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_E-Light_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_E-Light_2x_T5_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T1.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T1_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T2.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T2_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T3.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T3_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T4.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T4_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Light_BF_T5.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Light_BF_T5_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Medium_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Medium_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Medium_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Medium_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Medium_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Medium_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Medium_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Medium_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_F-Medium_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_F-Medium_2x_T5_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T1.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T1_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T2.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T2_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T3.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T3_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T4.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T4_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Medium_BF_T5.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Medium_BF_T5_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Heavy_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Heavy_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Heavy_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Heavy_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Heavy_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Heavy_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Heavy_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Heavy_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_G-Heavy_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_G-Heavy_2x_T5_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T1.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T1_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T2.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T2_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T3.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T3_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T4.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T4_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Heavy_BF_T5.json
-Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Heavy_BF_T5_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Sniper_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Sniper_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Sniper_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Sniper_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Sniper_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Sniper_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Sniper_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Sniper_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_H-Sniper_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_H-Sniper_2x_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_I-Ultra_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_I-Ultra_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_I-Ultra_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_I-Ultra_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_I-Ultra_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_I-Ultra_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_I-Ultra_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_I-Ultra_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_I-Ultra_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_I-Ultra_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_J-Light_BF_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_J-Light_BF_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_J-Light_BF_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_J-Light_BF_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_J-Light_BF_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_J-Light_BF_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_J-Light_BF_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_J-Light_BF_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_J-Light_BF_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_J-Light_BF_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_K-Medium_BF_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_K-Medium_BF_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_K-Medium_BF_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_K-Medium_BF_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_K-Medium_BF_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_K-Medium_BF_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_K-Medium_BF_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_K-Medium_BF_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_K-Medium_BF_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_K-Medium_BF_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_L-Heavy_BF_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_L-Heavy_BF_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_L-Heavy_BF_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_L-Heavy_BF_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_L-Heavy_BF_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_L-Heavy_BF_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_L-Heavy_BF_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_L-Heavy_BF_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_L-Heavy_BF_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_L-Heavy_BF_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_M-Light_BF_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_M-Light_BF_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_M-Light_BF_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_M-Light_BF_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_M-Light_BF_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_M-Light_BF_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_M-Light_BF_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_M-Light_BF_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_M-Light_BF_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_M-Light_BF_2x_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_N-Medium_BF_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_N-Medium_BF_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_N-Medium_BF_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_N-Medium_BF_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_N-Medium_BF_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_N-Medium_BF_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_N-Medium_BF_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_N-Medium_BF_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_N-Medium_BF_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_N-Medium_BF_2x_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_O-Heavy_BF_2x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_O-Heavy_BF_2x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_O-Heavy_BF_2x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_O-Heavy_BF_2x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_O-Heavy_BF_2x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_O-Heavy_BF_2x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_O-Heavy_BF_2x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_O-Heavy_BF_2x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Reaper_AC_O-Heavy_BF_2x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Reaper_AC_O-Heavy_BF_2x_T5_skirmish.json
 
 Wrote file: ..\weapon\game\Weapon_Deathfire_RL_T1_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Deathfire_RL_T1_L01_skirmish.json
@@ -1342,29 +1419,32 @@ Wrote JSON file for pilot 82 callsign: Regal Club, face: Tall Crystal Sky, file:
 Wrote JSON file for pilot 83 callsign: Gentle Brutality, face: Tall Tornado Wind, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Brutality.json
 Wrote JSON file for pilot 84 callsign: More Painful If You Please, face: Thunder Day, file: ..\pilot\skirmish\pilot_ws_skirmish_More_Painful_If_You_Please.json
 Wrote JSON file for pilot 85 callsign: Asphyxiation, face: Tigerland, file: ..\pilot\skirmish\pilot_ws_skirmish_Asphyxiation.json
-Wrote JSON file for pilot 86 callsign: Tiger 1, face: Tigerstone 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_1.json
-Wrote JSON file for pilot 87 callsign: Tiger 2, face: Tigerstone 2, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_2.json
-Wrote JSON file for pilot 88 callsign: Tiger 3, face: Tigerstone 3, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_3.json
-Wrote JSON file for pilot 89 callsign: Tiger 4, face: Tigerstone 4, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_4.json
-Wrote JSON file for pilot 90 callsign: Tiger 5, face: Tigerstone 5, file: ..\pilot\skirmish\pilot_ws_skirmish_Tiger_5.json
-Wrote JSON file for pilot 91 callsign: Majestic Conquest, face: Tundrahawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Majestic_Conquest.json
-Wrote JSON file for pilot 92 callsign: War Path, face: War Path, file: ..\pilot\skirmish\pilot_ws_skirmish_War_Path.json
-Wrote JSON file for pilot 93 callsign: Eat Suck, face: Warrior Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Eat_Suck.json
-Wrote JSON file for pilot 94 callsign: Torture Compartment, face: White Snake, file: ..\pilot\skirmish\pilot_ws_skirmish_Torture_Compartment.json
-Wrote JSON file for pilot 95 callsign: Toxic Waste Dump, face: Wind Fire, file: ..\pilot\skirmish\pilot_ws_skirmish_Toxic_Waste_Dump.json
-Wrote JSON file for pilot 96 callsign: Hurt In A Box, face: Winter Day, file: ..\pilot\skirmish\pilot_ws_skirmish_Hurt_In_A_Box.json
-Wrote JSON file for pilot 97 callsign: Dude You Suck, face: Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dude_You_Suck.json
-Wrote JSON file for pilot 98 callsign: Car Crash, face: Yellow Viper, file: ..\pilot\skirmish\pilot_ws_skirmish_Car_Crash.json
+Wrote JSON file for pilot 86 callsign: Tigerstone 1, face: Tigerstone 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_1.json
+Wrote JSON file for pilot 87 callsign: Tigerstone 2, face: Tigerstone 2, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_2.json
+Wrote JSON file for pilot 88 callsign: Tigerstone 3, face: Tigerstone 3, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_3.json
+Wrote JSON file for pilot 89 callsign: Tigerstone 4, face: Tigerstone 4, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_4.json
+Wrote JSON file for pilot 90 callsign: Tigerstone 5, face: Tigerstone 5, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_5.json
+Wrote JSON file for pilot 91 callsign: Tigerstone 6, face: Tigerstone 6, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_6.json
+Wrote JSON file for pilot 92 callsign: Tigerstone 7, face: Tigerstone 7, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_7.json
+Wrote JSON file for pilot 93 callsign: Tigerstone 8, face: Tigerstone 8, file: ..\pilot\skirmish\pilot_ws_skirmish_Tigerstone_8.json
+Wrote JSON file for pilot 94 callsign: Majestic Conquest, face: Tundrahawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Majestic_Conquest.json
+Wrote JSON file for pilot 95 callsign: War Path, face: War Path, file: ..\pilot\skirmish\pilot_ws_skirmish_War_Path.json
+Wrote JSON file for pilot 96 callsign: Eat Suck, face: Warrior Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Eat_Suck.json
+Wrote JSON file for pilot 97 callsign: Torture Compartment, face: White Snake, file: ..\pilot\skirmish\pilot_ws_skirmish_Torture_Compartment.json
+Wrote JSON file for pilot 98 callsign: Toxic Waste Dump, face: Wind Fire, file: ..\pilot\skirmish\pilot_ws_skirmish_Toxic_Waste_Dump.json
+Wrote JSON file for pilot 99 callsign: Hurt In A Box, face: Winter Day, file: ..\pilot\skirmish\pilot_ws_skirmish_Hurt_In_A_Box.json
+Wrote JSON file for pilot 100 callsign: Dude You Suck, face: Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dude_You_Suck.json
+Wrote JSON file for pilot 101 callsign: Car Crash, face: Yellow Viper, file: ..\pilot\skirmish\pilot_ws_skirmish_Car_Crash.json
 
-Total pilot JSON files written: 98
-Total pilot JSON files attempted: 98
+Total pilot JSON files written: 101
+Total pilot JSON files attempted: 101
 Total incomplete pilots (no file written) or errors: 0
 
 
 process.js, completed:
-Seconds: 740,303, Nanoseconds: 613,023,500
-Sat Dec 27 2025 06:11:59 GMT-0500 (Eastern Standard Time)
+Seconds: 71,343, Nanoseconds: 860,690,200
+Sat Jan 03 2026 11:46:09 GMT-0500 (Eastern Standard Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 966,282,700
+Elapsed program run-time, Seconds: 0, Nanoseconds: 889,266,200
 
 

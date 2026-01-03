@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 840126,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Omni T3",
     "Id": "Gear_Range_Upgrade_Omni_T3_skirmish",
     "Name": "Range Upgrade Omni T3",
-    "Details": "Ballistic weapon range increase: +135 meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: +135 meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: +270 meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: +75 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: --9.\nDamage taken from all sources: 130.4940%.\n\n",
+    "Details": "Ballistic weapon range increase: +135 meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: +135 meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: +270 meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: +75 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: -9.\nDamage taken from all sources: 130.4940%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

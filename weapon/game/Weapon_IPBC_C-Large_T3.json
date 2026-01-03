@@ -9,7 +9,7 @@
     "UIName": "IPBC C-Large T3",
     "Name": "IPBC C-Large T3",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 115.5720%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +6.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 105.6570%.\n\n"
+    "Details": "Target multiplier to all further damage: 115.5720%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +6.\nMax heat and overheating modifiers: -3.\nDamage taken from all sources: 105.6570%.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",

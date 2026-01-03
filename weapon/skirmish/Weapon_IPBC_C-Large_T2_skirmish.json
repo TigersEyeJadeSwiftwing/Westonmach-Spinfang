@@ -1,7 +1,7 @@
 {
   "Description": {
     "Manufacturer": "Westonmach",
-    "Cost": 384160,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Id": "Weapon_IPBC_C-Large_T2_skirmish",
@@ -9,7 +9,7 @@
     "UIName": "IPBC C-Large T2",
     "Name": "IPBC C-Large T2",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 111.9970%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +2.\nMax heat and overheating modifiers: --1.\nDamage taken from all sources: 102.0000%.\n\n"
+    "Details": "Target multiplier to all further damage: 111.9970%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +2.\nMax heat and overheating modifiers: -1.\nDamage taken from all sources: 102.0000%.\n\n"
   },
   "Category": "Energy",
   "Type": "Autocannon",

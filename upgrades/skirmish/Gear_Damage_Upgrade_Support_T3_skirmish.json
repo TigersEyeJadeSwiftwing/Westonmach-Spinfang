@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 494515,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T3",
     "Id": "Gear_Damage_Upgrade_Support_T3_skirmish",
     "Name": "Damage Upgrade Support T3",
-    "Details": "Support weapon damage modifier: 136.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: --2.\nDamage taken from all sources: 105.8340%.\n\n",
+    "Details": "Support weapon damage modifier: 136.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: -2.\nDamage taken from all sources: 105.8340%.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,

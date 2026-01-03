@@ -1,7 +1,7 @@
 {
   "Description": {
     "Manufacturer": "Westonmach",
-    "Cost": 825000,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Id": "Weapon_Deathfire_RL_T5_L10_skirmish",
@@ -9,7 +9,7 @@
     "UIName": "Deathfire RL T5 L10",
     "Name": "Deathfire RL T5 L10",
     "Icon": "uixSvgIcon_weapon_Missile",
-    "Details": "Heat generated per turn: +32.\nMax heat and overheating modifiers: --25.\nDamage taken from all sources: 130.0000%.\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Heat generated per turn: +32.\nMax heat and overheating modifiers: -25.\nDamage taken from all sources: 130.0000%.\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Missile",
   "Type": "LRM",

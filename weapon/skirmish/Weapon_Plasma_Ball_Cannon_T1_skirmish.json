@@ -1,7 +1,7 @@
 {
   "Description": {
     "Manufacturer": "Westonmach",
-    "Cost": 24020,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Id": "Weapon_Plasma_Ball_Cannon_T1_skirmish",
@@ -9,7 +9,7 @@
     "UIName": "Plasma Ball Cannon T1",
     "Name": "Plasma Ball Cannon T1",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Persistant heat per turn to target: --5.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\n\n"
+    "Details": "Persistant heat per turn to target: -5.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",

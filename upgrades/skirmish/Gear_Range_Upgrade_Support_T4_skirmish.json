@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 49258,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T4",
     "Id": "Gear_Range_Upgrade_Support_T4_skirmish",
     "Name": "Range Upgrade Support T4",
-    "Details": "Support weapon range increase: +120 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: --3.\nDamage taken from all sources: 108.1190%.\n\n",
+    "Details": "Support weapon range increase: +120 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: -3.\nDamage taken from all sources: 108.1190%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

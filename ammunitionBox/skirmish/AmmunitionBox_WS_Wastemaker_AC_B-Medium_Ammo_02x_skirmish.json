@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_WM_Med",
   "Capacity": 24,
   "Description": {
-    "Cost": 15431,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_Reaper_HB",
   "Capacity": 75,
   "Description": {
-    "Cost": 43239,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

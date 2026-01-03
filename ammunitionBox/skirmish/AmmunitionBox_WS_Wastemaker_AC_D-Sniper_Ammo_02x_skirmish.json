@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_WM_Snp",
   "Capacity": 56,
   "Description": {
-    "Cost": 18089,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
