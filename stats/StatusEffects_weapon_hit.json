@@ -11,8 +11,8 @@
                 "STUN_2x1",
                 "STUN_2x12",
                 "STUN_3x5",
-                "SNRSIMP1",
-                "SNRSIMP2",
+                "SNRSIMP_1x4",
+                "SNRSIMP_2x4",
                 "WEAKEN_2x3",
                 "WEAKEN_3x3",
                 "WEAKEN_4x3",
@@ -416,7 +416,7 @@
     ],
 
     [
-        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP1",
+        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP_1x4",
           "Prepend" : [
             { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "modifier", "Digits" : "2" },
             { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
@@ -462,7 +462,7 @@
     ],
 
     [
-        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP2",
+        { "Name" : "Effect_Sensors_Impaired_Debuff", "Mod_WS_EquipEffect_ID" : "SNRSIMP_2x4",
           "Prepend" : [
             { "Text" : "Difficulty to enemy target's attacks: ", "Data_Type" : "modifier", "Digits" : "2" },
             { "Text" : "Effect Duration of target's aim adjustment: ", "Data_Type" : "effect_duration", "Digits" : "0" },
@@ -546,7 +546,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Divide",
+                "operation" : "Float_Multiply",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -592,7 +592,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Divide",
+                "operation" : "Float_Multiply",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -638,7 +638,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Divide",
+                "operation" : "Float_Multiply",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -684,7 +684,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Divide",
+                "operation" : "Float_Multiply",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -730,7 +730,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Divide",
+                "operation" : "Float_Multiply",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -776,7 +776,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Divide",
+                "operation" : "Float_Multiply",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }

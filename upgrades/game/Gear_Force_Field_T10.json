@@ -1,52 +1,26 @@
 {
   "Description": {
-    "Manufacturer": "Westonmach",
-    "Cost": 384160,
+    "Cost": 4861427,
     "Rarity": 0,
     "Purchasable": true,
-    "Id": "Weapon_IPBC_C-Large_T2",
-    "Model": "Ion Particle Bolt Cannon",
-    "UIName": "IPBC C-Large T2",
-    "Name": "IPBC C-Large T2",
-    "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Target multiplier to all further damage: 111.9970%.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 15x.\nHeat generated per turn: +2.\nMax heat and overheating modifiers: -1.\nDamage taken from all sources: 102.0000%.\n\n"
+    "Manufacturer": "Spinfang",
+    "Model": "Force Field Generator",
+    "UIName": "Force Field T10",
+    "Id": "Gear_Force_Field_T10",
+    "Name": "Force Field T10",
+    "Details": "Damage taken, all sources: 5.00%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: +170.\nMax heat and overheating modifiers: -53.\n\n",
+    "Icon": "UixSvgIcon_specialEquip_System"
   },
-  "Category": "Energy",
-  "Type": "Autocannon",
-  "WeaponSubType": "AC20",
-  "MinRange": 0,
-  "MaxRange": 260,
-  "RangeSplit": [
-    0,
-    90,
-    260
-  ],
-  "ammoCategoryID": "NotSet",
-  "StartingAmmoCapacity": 0,
-  "Damage": 15,
-  "HeatDamage": 0,
-  "Instability": 8,
-  "DamageVariance": 0,
-  "CriticalChanceMultiplier": 1.05,
-  "IndirectFireCapable": false,
-  "AOECapable": false,
-  "OverheatedDamageMultiplier": 0,
-  "EvasiveDamageMultiplier": 0,
-  "ShotsWhenFired": 5,
-  "ProjectilesPerShot": 1,
-  "AccuracyModifier": 1,
-  "EvasivePipsIgnored": 0,
-  "HeatGenerated": 18,
-  "AttackRecoil": 0,
-  "RefireModifier": 0,
-  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
-  "BonusValueA": "5 Shot Burst",
-  "BonusValueB": "Impairs Target",
-  "ComponentType": "Weapon",
-  "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "AC20",
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BonusValueA": "5% Dmg",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 2,
+  "InventorySize": 1,
   "Tonnage": 0.125,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -54,7 +28,6 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "range_long",
       "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
@@ -88,7 +61,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": -2,
+        "modValue": -170,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -120,7 +93,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Subtract",
-        "modValue": 1,
+        "modValue": 53,
         "modType": "System.Int32"
       }
     },
@@ -146,22 +119,22 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Subtract",
-        "modValue": 1,
+        "modValue": 53,
         "modType": "System.Int32"
       }
     },
     {
       "effectType": "StatisticEffect",
-      "nature": "Debuff",
+      "nature": "Buff",
       "Description": {
-        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-        "Details": "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Id": "StatusEffect-WS-Force_Field-Buff",
+        "Name": "Force Field",
+        "Details": "This unit takes [AMT] less damage from all sources and types of attacks.",
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "durationData": {
         "duration": -1,
-        "stackLimit": -1
+        "stackLimit": 1
       },
       "targetingData": {
         "effectTriggerType": "Passive",
@@ -174,7 +147,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 1.02,
+        "modValue": 0.05,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -182,43 +155,6 @@
         "targetWeaponType": "NotSet",
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
-      }
-    },
-    {
-      "Description": {
-        "Id": "StatusEffect-WS-Damage_Weakness",
-        "Name": "WEAKNESS AGAINST DAMAGE",
-        "Details": "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
-        "Icon": "uixSvgIcon_maint_Level2"
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Debuff",
-      "durationData": {
-        "duration": 4,
-        "stackLimit": 15,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": 1.11997,
-        "modType": "System.Single"
       }
     }
   ]

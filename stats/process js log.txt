@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 71,342, Nanoseconds: 971,424,000
-Sat Jan 03 2026 11:46:08 GMT-0500 (Eastern Standard Time)
+Seconds: 50,058, Nanoseconds: 984,724,400
+Fri Jan 09 2026 19:35:44 GMT-0500 (Eastern Standard Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -892,6 +892,16 @@ Wrote file: ..\upgrades\game\Gear_Force_Field_T4.json
 Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T4_skirmish.json
 Wrote file: ..\upgrades\game\Gear_Force_Field_T5.json
 Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T5_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field_T6.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T6_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field_T7.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T7_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field_T8.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T8_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field_T9.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T9_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field_T10.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T10_skirmish.json
 
 Wrote file: ..\upgrades\game\Gear_Target_Tracking_Jammer_A_Series_T1.json
 Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_A_Series_T1_skirmish.json
@@ -1236,6 +1246,7 @@ ws_img_pilot_Arctic_Snow.png
 ws_img_pilot_Black_Fox.png
 ws_img_pilot_Blade_Hawk.png
 ws_img_pilot_Blood_Lightning.png
+ws_img_pilot_Blood_Storm_1.png
 ws_img_pilot_Blue_Warrior.png
 ws_img_pilot_Blue_Warrior_alt_1.png
 ws_img_pilot_Bronze_Wood.png
@@ -1266,6 +1277,7 @@ ws_img_pilot_Golden_Sword.png
 ws_img_pilot_Grand_Flight.png
 ws_img_pilot_High_Road_Wolf.png
 ws_img_pilot_Hot_Lightning.png
+ws_img_pilot_Ice_Hawk_1.png
 ws_img_pilot_Iolite.png
 ws_img_pilot_Iolite_alt_1.png
 ws_img_pilot_Iron_Plains.png
@@ -1288,6 +1300,7 @@ ws_img_pilot_Photon_Ninjato.png
 ws_img_pilot_Pinewood.png
 ws_img_pilot_Prismatic.png
 ws_img_pilot_Prismatic_alt_1.png
+ws_img_pilot_Purple_Mountain_1.png
 ws_img_pilot_Quickfighter.png
 ws_img_pilot_Rage_Fighter.png
 ws_img_pilot_Raging_Vitality.png
@@ -1328,10 +1341,11 @@ ws_img_pilot_Warrior_Fields.png
 ws_img_pilot_War_Path.png
 ws_img_pilot_White_Snake.png
 ws_img_pilot_Wind_Fire.png
+ws_img_pilot_Winter_Coyote_1.png
 ws_img_pilot_Winter_Day.png
 ws_img_pilot_Wolf.png
 ws_img_pilot_Yellow_Viper.png
-Total number of face name filenames: 101
+Total number of face name filenames: 105
 
 Custom Battlemech pilots / Mechwarriors:
 Wrote JSON file for pilot 1 callsign: Slaughter Shop, face: Almandine, file: ..\pilot\skirmish\pilot_ws_skirmish_Slaughter_Shop.json
@@ -1442,9 +1456,9 @@ Total incomplete pilots (no file written) or errors: 0
 
 
 process.js, completed:
-Seconds: 71,343, Nanoseconds: 860,690,200
-Sat Jan 03 2026 11:46:09 GMT-0500 (Eastern Standard Time)
+Seconds: 50,060, Nanoseconds: 128,777,700
+Fri Jan 09 2026 19:35:45 GMT-0500 (Eastern Standard Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 889,266,200
+Elapsed program run-time, Seconds: 1, Nanoseconds: 144,053,300
 
 

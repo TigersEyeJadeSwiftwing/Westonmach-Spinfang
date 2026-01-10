@@ -54,6 +54,11 @@ Force Field T2,2,10,0.0625,10 3 1.00000,1,91702,80% Dmg,,+FORCE_FIELD`0.80000,,s
 Force Field T3,3,10,0.0625,16 5 1.00000,1,270566,70% Dmg,,+FORCE_FIELD`0.70000,,specialEquip_System,SF,Force Field Generator
 Force Field T4,4,10,0.1250,26 8 1.00000,1,568674,60% Dmg,,+FORCE_FIELD`0.60000,,specialEquip_System,SF,Force Field Generator
 Force Field T5,5,10,0.1250,40 12 1.00000,1,986025,50% Dmg,,+FORCE_FIELD`0.50000,,specialEquip_System,SF,Force Field Generator
+Force Field T6,6,10,0.0625,58 18 1.00000,1,1522619,40% Dmg,,+FORCE_FIELD`0.40000,,specialEquip_System,SF,Force Field Generator
+Force Field T7,7,10,0.0625,80 25 1.00000,1,2178456,30% Dmg,,+FORCE_FIELD`0.30000,,specialEquip_System,SF,Force Field Generator
+Force Field T8,8,10,0.0625,106 33 1.00000,1,2953537,20% Dmg,,+FORCE_FIELD`0.20000,,specialEquip_System,SF,Force Field Generator
+Force Field T9,9,10,0.1250,136 42 1.00000,1,3847860,10% Dmg,,+FORCE_FIELD`0.10000,,specialEquip_System,SF,Force Field Generator
+Force Field T10,10,9.5,0.1250,170 53 1.00000,1,4861427,5% Dmg,,+FORCE_FIELD`0.05000,,specialEquip_System,SF,Force Field Generator
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,

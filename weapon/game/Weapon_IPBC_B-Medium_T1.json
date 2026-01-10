@@ -92,7 +92,7 @@
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Divide",
+        "operation": "Float_Multiply",
         "modValue": 1.04564,
         "modType": "System.Single"
       }
