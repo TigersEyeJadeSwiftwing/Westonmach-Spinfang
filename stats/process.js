@@ -41,11 +41,13 @@ const folder_upgrades_game = "../upgrades/game/";
 const folder_upgrades_skirmish = "../upgrades/skirmish/";
 const folder_pilot_skirmish = "../pilot/skirmish/";
 const folder_pilot_face_sprites = "../sprites_pilots/";
+const folder_editor = "../editor/";
+const folder_editor_data = "../editor/data/";
 
 // File names
 const csv_ammobox = path.join(folder_input, "ammo_box.csv");
 const json_ammobox = path.join(folder_input, "ammo_box_template.json");
-const csv_weapons = path.join(folder_input, "weapon.csv");
+const csv_weapons = path.join(folder_input, "weapon - set 2.csv");
 const json_weapons = path.join(folder_input, "weapon.json");
 const csv_heatsinks = path.join(folder_input, "heatsinks.csv");
 const json_heatsinks = path.join(folder_input, "heatsinks.json");
@@ -67,9 +69,7 @@ const EmptyFolder = (folderPath) => {
     }
 };
 
-function ConsolidateJsonFiles(path_input, filename_output, empty_source_folder) {
-    return;
-
+function ConsolidateJsonFiles(path_input, filename_output, empty_source_folder=false) {
     Log("");
 
     let output_file = [];
@@ -452,8 +452,8 @@ function Main_AmmoBoxes(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "ammoboxes_skirmish.json", true);
-    ConsolidateJsonFiles(output_folder_game, output_folder + "ammoboxes_game.json", true);
+    ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "ammoboxes_skirmish.json");
+    ConsolidateJsonFiles(output_folder_game, folder_editor_data + "ammoboxes_game.json");
 }
 
 function Main_Weapons(diag=false) {
@@ -631,8 +631,8 @@ function Main_Weapons(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "weapons_skirmish.json", true);
-    ConsolidateJsonFiles(output_folder_game, output_folder + "weapons_game.json", true);
+    ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "weapons_skirmish.json");
+    ConsolidateJsonFiles(output_folder_game, folder_editor_data + "weapons_game.json");
 }
 
 function Main_Pilots_Skirmish(diag=false) {
@@ -753,7 +753,8 @@ function Main_Pilots_Skirmish(diag=false) {
             data.BaseTactics = Number(row[index.tactics]);
             data.Health = Number(row[index.health]);
             data.Voice = String(row[index.voice]);
-            data.PilotTags.items = ["BLACKLISTED", "pilot_release_ksbeta", "pilot_release_skirmish"];
+            // data.PilotTags.items = ["BLACKLISTED", "pilot_release_ksbeta", "pilot_release_skirmish"];
+            data.PilotTags.items = ["BLACKLISTED", "pilot_release_skirmish"];
             data.PilotTags.items.push(dat.name_tag.Deep());
 
             const trait_codes_1_string = String(row[index.trait_codes_1]);
@@ -1011,8 +1012,8 @@ function Main_Upgrades(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, output_folder + "upgrades_skirmish.json", true);
-    ConsolidateJsonFiles(output_folder_game, output_folder + "upgrades_game.json", true);
+    ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "upgrades_skirmish.json");
+    ConsolidateJsonFiles(output_folder_game, folder_editor_data + "upgrades_game.json");
 }
 
 function ParseSpecials(codes) {

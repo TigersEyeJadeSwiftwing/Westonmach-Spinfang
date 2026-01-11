@@ -1,0 +1,323 @@
+Name,Type,Level,Tonnage,Power Drain,Equip Slots,Damage Regular,Damage Heat,Damage Stability,Total Damage Regular,Total Damage Heat,Total Damage Stability,Number of Shots,Range Min,Range Optimal,Range Max,Heat Gen,Critical Chance,Cost,Accuracy,Projectiles per Shot,Attack Recoil,Refire Modifier,Indirect Fire,Ammo Category,Range Tag,Weapon Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Manf. Code,Weapon Model Name
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Westonmach / Spingfang product catalog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Cannon, Reaper AC",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+Reaper AC A-Lgt 1x T1,1,0,0.0625,0 0 1.00000,1,60,0,3,60,0,3,1,0,10,250,5,0.5000,8000,0.00,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,,WEAKEN_2x3`1.07722,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC A-Lgt 1x T2,2,0.31,0.0625,1 0 1.00225,1,71,0,6,71,0,6,1,0,13,313,9,0.5750,11656,-0.38,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,,WEAKEN_2x3`1.10179,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC A-Lgt 1x T3,3,0.63,0.0625,3 1 1.00636,1,83,0,10,83,0,10,1,0,15,375,13,0.6500,28683,-0.75,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,,WEAKEN_2x3`1.12531,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC A-Lgt 1x T4,4,0.94,0.0625,7 1 1.01169,1,94,0,15,94,0,15,1,0,18,438,16,0.7250,64995,-1.13,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,,WEAKEN_2x3`1.14789,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC A-Lgt 1x T5,5,1.25,0.0625,12 2 1.01800,1,105,0,22,105,0,22,1,0,20,500,20,0.8000,125000,-1.50,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,,WEAKEN_2x3`1.16961,Ballistic,WS,Reaper Light Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC B-Med 1x T1,1,1.3,0.0625,0 0 1.00000,1,75,1,16,75,1,16,1,0,10,250,12,0.9000,14000,-0.50,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,,WEAKEN_3x3`1.18167,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC B-Med 1x T2,2,1.73,0.0625,2 0 1.00406,1,91,2,26,91,2,26,1,0,13,313,19,1.0250,19813,-0.88,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,,WEAKEN_3x3`1.22483,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC B-Med 1x T3,3,2.15,0.0625,6 1 1.01149,1,108,3,39,108,3,39,1,0,15,375,26,1.1500,46880,-1.25,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,,WEAKEN_3x3`1.26515,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC B-Med 1x T4,4,2.58,0.0625,14 2 1.02111,1,124,4,55,124,4,55,1,0,18,438,33,1.2750,104608,-1.63,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,,WEAKEN_3x3`1.30305,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC B-Med 1x T5,5,3,0.0625,24 4 1.03250,1,140,5,73,140,5,73,1,0,20,500,40,1.4000,200000,-2.00,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,,WEAKEN_3x3`1.33887,Ballistic,WS,Reaper Medium Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC C-Hvy 1x T1,1,3.15,0.0625,0 0 1.00000,1,100,3,55,100,3,55,1,0,10,250,18,1.6500,22500,-1.00,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,,WEAKEN_4x3`1.38383,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC C-Hvy 1x T2,2,3.36,0.0625,2 0 1.00563,1,116,5,69,116,5,69,1,0,13,313,29,1.8625,31797,-1.38,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,,WEAKEN_4x3`1.42604,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC C-Hvy 1x T3,3,3.58,0.0625,9 2 1.01591,1,133,8,85,133,8,85,1,0,15,375,39,2.0750,75091,-1.75,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,,WEAKEN_4x3`1.46590,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC C-Hvy 1x T4,4,3.79,0.0625,20 3 1.02923,1,149,10,102,149,10,102,1,0,18,438,50,2.2875,167424,-2.13,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,,WEAKEN_4x3`1.50369,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC C-Hvy 1x T5,5,4,0.0625,36 6 1.04500,1,165,12,120,165,12,120,1,0,20,500,60,2.5000,320000,-2.50,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,,WEAKEN_4x3`1.53968,Ballistic,WS,Reaper Heavy Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC D-Snpr 1x T1,1,0,0.0625,0 0 1.00000,1,15,0,1,30,0,2,2,225,450,900,10,0.6500,16000,-1.00,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,2 Shot Burst,WEAKEN_3x6`1.00816,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC D-Snpr 1x T2,2,0.66,0.0625,1 0 1.00313,1,18,1,2,36,2,4,2,269,538,1075,15,0.9875,21906,-1.25,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,2 Shot Burst,WEAKEN_3x6`1.08148,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC D-Snpr 1x T3,3,1.33,0.0625,5 1 1.00884,1,20,3,4,40,6,8,2,313,625,1250,20,1.3250,49411,-1.50,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,2 Shot Burst,WEAKEN_3x6`1.13607,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC D-Snpr 1x T4,4,1.99,0.0625,11 2 1.01624,1,23,4,8,46,8,16,2,357,713,1425,25,1.6625,108069,-1.75,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,2 Shot Burst,WEAKEN_3x6`1.18003,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC D-Snpr 1x T5,5,2.65,0.0625,20 3 1.02500,1,25,5,11,50,10,22,2,400,800,1600,30,2.0000,205000,-2.00,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,2 Shot Burst,WEAKEN_3x6`1.21707,Ballistic,WS,Reaper Sniper Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC E-Lgt 3x T1,1,0,0.1250,0 0 1.00000,2,60,0,3,180,0,9,3,0,10,250,15,0.5000,40000,0.00,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,3 Cannons,WEAKEN_2x3`1.07722,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC E-Lgt 3x T2,2,0.31,0.1250,2 0 1.00687,2,71,0,6,213,0,18,3,0,13,313,26,0.5750,58280,-0.38,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,3 Cannons,WEAKEN_2x3`1.10179,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC E-Lgt 3x T3,3,0.63,0.1250,9 2 1.01944,2,83,0,10,249,0,30,3,0,15,375,38,0.6500,143415,-0.75,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,3 Cannons,WEAKEN_2x3`1.12531,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC E-Lgt 3x T4,4,0.94,0.1250,20 3 1.03571,2,94,0,15,282,0,45,3,0,18,438,49,0.7250,324975,-1.13,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,3 Cannons,WEAKEN_2x3`1.14789,Ballistic,WS,Reaper Light Auto Cannon
+Reaper AC E-Lgt 3x T5,5,1.25,0.1250,36 6 1.05498,2,105,0,22,315,0,66,3,0,20,500,60,0.8000,625000,-1.50,1,0,0,FALSE,ReaperLight,long,Ballistic,AC,AC5,AC5,AC5_Ultra,Weakens Target,3 Cannons,WEAKEN_2x3`1.16961,Ballistic,WS,Reaper Light Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC F-Med 3x T1,1,1.3,0.1250,0 0 1.00000,2,75,1,16,225,3,48,3,0,10,250,36,0.9000,70000,-0.50,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,3 Cannons,WEAKEN_3x3`1.18167,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC F-Med 3x T2,2,1.73,0.1250,5 1 1.01259,2,91,2,26,273,6,78,3,0,13,313,57,1.0250,99065,-0.88,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,3 Cannons,WEAKEN_3x3`1.22483,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC F-Med 3x T3,3,2.15,0.1250,18 3 1.03560,2,108,3,39,324,9,117,3,0,15,375,78,1.1500,234400,-1.25,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,3 Cannons,WEAKEN_3x3`1.26515,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC F-Med 3x T4,4,2.58,0.1250,41 7 1.06541,2,124,4,55,372,12,165,3,0,18,438,99,1.2750,523040,-1.63,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,3 Cannons,WEAKEN_3x3`1.30305,Ballistic,WS,Reaper Medium Auto Cannon
+Reaper AC F-Med 3x T5,5,3,0.1250,72 12 1.10070,2,140,5,73,420,15,219,3,0,20,500,120,1.4000,1000000,-2.00,1,0,0,FALSE,ReaperMedium,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,Weakens Target,3 Cannons,WEAKEN_3x3`1.33887,Ballistic,WS,Reaper Medium Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC G-Hvy 3x T1,1,3.15,0.1250,0 0 1.00000,2,100,3,55,300,9,165,3,0,10,250,54,1.6500,112500,-1.00,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,3 Cannons,WEAKEN_4x3`1.38383,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC G-Hvy 3x T2,2,3.36,0.1250,7 1 1.01765,2,116,5,69,348,15,207,3,0,13,313,86,1.8625,158985,-1.38,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,3 Cannons,WEAKEN_4x3`1.42604,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC G-Hvy 3x T3,3,3.58,0.1250,27 5 1.04991,2,133,8,85,399,24,255,3,0,15,375,117,2.0750,375455,-1.75,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,3 Cannons,WEAKEN_4x3`1.46590,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC G-Hvy 3x T4,4,3.79,0.1250,61 10 1.09169,2,149,10,102,447,30,306,3,0,18,438,149,2.2875,837120,-2.13,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,3 Cannons,WEAKEN_4x3`1.50369,Ballistic,WS,Reaper Heavy Auto Cannon
+Reaper AC G-Hvy 3x T5,5,4,0.1250,108 18 1.14117,2,165,12,120,495,36,360,3,0,20,500,180,2.5000,1600000,-2.50,1,0,0,FALSE,ReaperHeavy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,Weakens Target,3 Cannons,WEAKEN_4x3`1.53968,Ballistic,WS,Reaper Heavy Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper AC H-Snpr 3x T1,1,0,0.1250,0 0 1.00000,2,15,0,1,90,0,6,6,225,450,900,30,0.6500,80000,-1.00,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,3 Cannons,WEAKEN_3x6`1.00816,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC H-Snpr 3x T2,2,0.66,0.1250,4 1 1.00961,2,18,1,2,108,6,12,6,269,538,1075,45,0.9875,109530,-1.25,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,3 Cannons,WEAKEN_3x6`1.08148,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC H-Snpr 3x T3,3,1.33,0.1250,15 2 1.02718,2,20,3,4,120,18,24,6,313,625,1250,60,1.3250,247055,-1.50,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,3 Cannons,WEAKEN_3x6`1.13607,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC H-Snpr 3x T4,4,1.99,0.1250,34 5 1.04994,2,23,4,8,138,24,48,6,357,713,1425,75,1.6625,540345,-1.75,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,3 Cannons,WEAKEN_3x6`1.18003,Ballistic,WS,Reaper Sniper Auto Cannon
+Reaper AC H-Snpr 3x T5,5,2.65,0.1250,60 9 1.07689,2,25,5,11,150,30,66,6,400,800,1600,90,2.0000,1025000,-2.00,1,0,0,FALSE,ReaperSniper,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,Weakens Target,3 Cannons,WEAKEN_3x6`1.21707,Ballistic,WS,Reaper Sniper Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rocket Launcher, Deathfire",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L01,1,1,0.0625,0 0 1.00000,1,10,0,0,10,0,0,1,30,90,400,2,0.2000,3000,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L01,2,1,0.0625,0 0 1.00677,1,12,0,0,12,0,0,1,30,90,425,5,0.4500,6311,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L01,3,1,0.0625,1 0 1.01696,1,13,0,0,13,0,0,1,30,90,450,13,0.7000,13213,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L01,4,1,0.0625,4 1 1.02903,1,15,0,0,15,0,0,1,30,90,475,23,0.9500,22737,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L01,5,1,0.0625,9 4 1.04250,1,17,0,0,17,0,0,1,30,90,500,35,1.2000,34500,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L02,1,2,0.0625,0 0 1.00133,1,13,0,0,13,0,0,1,30,90,400,6,0.2000,71028,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L02,2,2,0.0625,0 0 1.00842,1,15,0,0,15,0,0,1,30,90,425,11,0.4500,93940,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L02,3,2,0.0625,2 1 1.01910,1,17,0,0,17,0,0,1,30,90,450,21,0.7000,141698,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L02,4,2,0.0625,5 2 1.03173,1,19,0,0,19,0,0,1,30,90,475,34,0.9500,207608,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L02,5,2,0.0625,12 5 1.04583,1,21,0,0,21,0,0,1,30,90,500,51,1.2000,289006,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L03,1,3,0.0625,0 0 1.00267,1,18,0,0,18,0,0,1,30,90,400,10,0.2000,139056,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L03,2,3,0.0625,1 0 1.01008,1,21,0,0,21,0,0,1,30,90,425,16,0.4500,181569,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L03,3,3,0.0625,3 1 1.02123,1,24,0,0,24,0,0,1,30,90,450,29,0.7000,270184,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L03,4,3,0.0625,7 3 1.03443,1,26,0,0,26,0,0,1,30,90,475,46,0.9500,392478,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L03,5,3,0.0625,16 6 1.04917,1,29,0,0,29,0,0,1,30,90,500,67,1.2000,543511,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L04,1,4,0.0625,1 0 1.00400,1,13,0,0,26,0,0,2,30,90,400,15,0.2000,207083,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L04,2,4,0.0625,1 1 1.01173,1,15,0,0,30,0,0,2,30,90,425,22,0.4500,269198,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L04,3,4,0.0625,4 2 1.02336,1,17,0,0,34,0,0,2,30,90,450,37,0.7000,398670,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L04,4,4,0.0625,9 4 1.03713,1,19,0,0,38,0,0,2,30,90,475,58,0.9500,577349,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L04,5,4,0.0625,19 8 1.05250,1,21,0,0,42,0,0,2,30,90,500,83,1.2000,798017,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L05,1,5,0.1250,1 1 1.00533,2,17,0,0,34,0,0,2,30,90,400,19,0.2000,275111,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L05,2,5,0.1250,2 1 1.01338,2,20,0,0,40,0,0,2,30,90,425,27,0.4500,356826,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L05,3,5,0.1250,5 2 1.02549,2,23,0,0,46,0,0,2,30,90,450,45,0.7000,527155,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L05,4,5,0.1250,11 5 1.03983,2,25,0,0,50,0,0,2,30,90,475,69,0.9500,762219,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L05,5,5,0.1250,23 9 1.05583,2,28,0,0,56,0,0,2,30,90,500,99,1.2000,1052522,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L06,1,6,0.1250,2 1 1.00667,2,15,0,0,45,0,0,3,30,90,400,23,0.2000,343139,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L06,2,6,0.1250,3 2 1.01503,2,17,0,0,51,0,0,3,30,90,425,33,0.4500,444455,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L06,3,6,0.1250,6 3 1.02762,2,20,0,0,60,0,0,3,30,90,450,53,0.7000,655641,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L06,4,6,0.1250,13 6 1.04253,2,22,0,0,66,0,0,3,30,90,475,81,0.9500,947090,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L06,5,6,0.1250,26 11 1.05917,2,25,0,0,75,0,0,3,30,90,500,116,1.2000,1307028,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L07,1,7,0.1250,2 1 1.00800,2,19,0,0,57,0,0,3,30,90,400,27,0.2000,411167,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L07,2,7,0.1250,4 2 1.01668,2,22,0,0,66,0,0,3,30,90,425,38,0.4500,532084,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L07,3,7,0.1250,8 4 1.02975,2,25,0,0,75,0,0,3,30,90,450,61,0.7000,784127,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L07,4,7,0.1250,16 7 1.04523,2,28,0,0,84,0,0,3,30,90,475,93,0.9500,1131960,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L07,5,7,0.1250,29 12 1.06250,2,31,0,0,93,0,0,3,30,90,500,132,1.2000,1561533,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L08,1,8,0.1250,3 2 1.00933,2,17,0,0,68,0,0,4,30,90,400,32,0.2000,479194,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L08,2,8,0.1250,5 3 1.01833,2,20,0,0,80,0,0,4,30,90,425,44,0.4500,619713,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L08,3,8,0.1250,9 5 1.03189,2,23,0,0,92,0,0,4,30,90,450,69,0.7000,912613,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L08,4,8,0.1250,18 8 1.04793,2,26,0,0,104,0,0,4,30,90,475,104,0.9500,1316831,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L08,5,8,0.1250,31 13 1.06583,2,29,0,0,116,0,0,4,30,90,500,148,1.2000,1816039,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L09,1,9,0.1875,4 2 1.01067,3,21,0,0,84,0,0,4,30,90,400,36,0.2000,547222,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L09,2,9,0.1875,6 3 1.01999,3,25,0,0,100,0,0,4,30,90,425,49,0.4500,707342,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L09,3,9,0.1875,11 6 1.03402,3,28,0,0,112,0,0,4,30,90,450,77,0.7000,1041098,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L09,4,9,0.1875,20 9 1.05063,3,31,0,0,124,0,0,4,30,90,475,116,0.9500,1501701,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L09,5,9,0.1875,34 14 1.06917,3,35,0,0,140,0,0,4,30,90,500,164,1.2000,2070544,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathfire RL T1 L10,1,10,0.1875,5 3 1.01200,3,20,0,0,100,0,0,5,30,90,400,40,0.2000,615250,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.90000 WEAKEN_DF`0.05000 HEAT_DF`2,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T2 L10,2,10,0.1875,7 4 1.02164,3,23,0,0,115,0,0,5,30,90,425,55,0.4500,794971,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.83125 WEAKEN_DF`0.08750 HEAT_DF`3,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T3 L10,3,10,0.1875,13 7 1.03615,3,27,0,0,135,0,0,5,30,90,450,85,0.7000,1169584,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.76250 WEAKEN_DF`0.12500 HEAT_DF`4,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T4 L10,4,10,0.1875,22 10 1.05332,3,30,0,0,150,0,0,5,30,90,475,128,0.9500,1686572,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.69375 WEAKEN_DF`0.16250 HEAT_DF`5,Missile,WS,Death Fire Rocket Launcher
+Deathfire RL T5 L10,5,10,0.1875,36 15 1.07250,3,33,0,0,165,0,0,5,30,90,500,180,1.2000,2325050,0,1,0,0,TRUE,DFR,long,Missile,LRM,LRM20,lrm20,LRM20,Stuns Weakens,,STUN_DF`0.62500 WEAKEN_DF`0.20000 HEAT_DF`6,Missile,WS,Death Fire Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rocket Launcher, Viper Nine",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L01,1,1,0.0625,1 0 1.00000,1,9,0,1,9,0,1,1,500,900,1400,3,0.9000,23246,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L01,2,1,0.0625,1 0 1.00391,1,10,0,1,10,0,1,1,500,900,1500,3,1.0750,46492,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L01,3,1,0.0625,2 1 1.01563,1,12,0,1,12,0,1,1,500,900,1600,3,1.2500,69738,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L01,4,1,0.0625,3 3 1.03516,1,13,0,1,13,0,1,1,500,900,1700,3,1.4250,92985,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L01,5,1,0.0625,5 5 1.06250,1,15,0,1,15,0,1,1,500,900,1800,3,1.6000,116231,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L02,1,2,0.0625,1 0 1.00175,1,7,0,1,14,0,2,2,500,900,1400,6,0.9000,30187,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L02,2,2,0.0625,2 0 1.00619,1,8,0,1,16,0,2,2,500,900,1500,6,1.0750,60375,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L02,3,2,0.0625,3 1 1.01953,1,9,0,1,18,0,2,2,500,900,1600,6,1.2500,90562,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L02,4,2,0.0625,4 3 1.04175,1,10,0,1,20,0,2,2,500,900,1700,6,1.4250,120750,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L02,5,2,0.0625,6 6 1.07287,1,11,0,1,22,0,2,2,500,900,1800,6,1.6000,150937,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L03,1,3,0.1250,2 0 1.00469,2,8,0,1,24,0,3,3,500,900,1400,9,0.9000,39889,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L03,2,3,0.1250,2 0 1.01004,2,9,0,1,27,0,3,3,500,900,1500,9,1.0750,79778,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L03,3,3,0.1250,4 2 1.02611,2,10,0,1,30,0,3,3,500,900,1600,9,1.2500,119668,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L03,4,3,0.1250,5 4 1.05287,2,11,0,1,33,0,3,3,500,900,1700,9,1.4250,159557,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L03,5,3,0.1250,8 7 1.09035,2,12,0,1,36,0,3,3,500,900,1800,9,1.6000,199446,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L04,1,4,0.1250,3 0 1.00836,2,9,0,1,36,0,4,4,500,900,1400,12,0.9000,51972,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L04,2,4,0.1250,3 1 1.01484,2,10,0,1,40,0,4,4,500,900,1500,12,1.0750,103944,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L04,3,4,0.1250,5 2 1.03430,2,11,0,1,44,0,4,4,500,900,1600,12,1.2500,155915,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L04,4,4,0.1250,7 5 1.06673,2,13,0,1,52,0,4,4,500,900,1700,12,1.4250,207887,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L04,5,4,0.1250,11 9 1.11213,2,14,0,1,56,0,4,4,500,900,1800,12,1.6000,259859,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L05,1,5,0.1250,4 0 1.01260,2,8,0,1,48,0,6,6,500,900,1400,18,0.9000,66203,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L05,2,5,0.1250,4 1 1.02039,2,9,0,1,54,0,6,6,500,900,1500,18,1.0750,132406,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L05,3,5,0.1250,6 3 1.04377,2,11,0,1,66,0,6,6,500,900,1600,18,1.2500,198608,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L05,4,5,0.1250,9 6 1.08273,2,12,0,1,72,0,6,6,500,900,1700,18,1.4250,264811,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L05,5,5,0.1250,14 11 1.13728,2,13,0,1,78,0,6,6,500,900,1800,18,1.6000,331014,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L06,1,6,0.1875,5 0 1.01731,3,9,0,1,63,0,7,7,500,900,1400,21,0.9000,82419,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L06,2,6,0.1875,6 1 1.02656,3,11,0,1,77,0,7,7,500,900,1500,21,1.0750,164838,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L06,3,6,0.1875,8 3 1.05430,3,12,0,1,84,0,7,7,500,900,1600,21,1.2500,247257,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L06,4,6,0.1875,12 8 1.10054,3,13,0,1,91,0,7,7,500,900,1700,21,1.4250,329676,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L06,5,6,0.1875,17 14 1.16528,3,15,0,1,105,0,7,7,500,900,1800,21,1.6000,412096,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L07,1,7,0.1875,6 0 1.02245,3,9,0,1,81,0,9,9,500,900,1400,27,0.9000,100497,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L07,2,7,0.1875,7 1 1.03328,3,10,0,1,90,0,9,9,500,900,1500,27,1.0750,200994,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L07,3,7,0.1875,10 4 1.06578,3,12,0,1,108,0,9,9,500,900,1600,27,1.2500,301491,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L07,4,7,0.1875,14 9 1.11994,3,13,0,1,117,0,9,9,500,900,1700,27,1.4250,401988,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L07,5,7,0.1875,20 16 1.19577,3,15,0,1,135,0,9,9,500,900,1800,27,1.6000,502485,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L08,1,8,0.2500,7 0 1.02796,4,9,0,1,99,0,11,11,500,900,1400,33,0.9000,120338,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L08,2,8,0.2500,8 1 1.04049,4,10,0,1,110,0,11,11,500,900,1500,33,1.0750,240676,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L08,3,8,0.2500,11 5 1.07810,4,12,0,1,132,0,11,11,500,900,1600,33,1.2500,361015,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L08,4,8,0.2500,17 11 1.14077,4,13,0,1,143,0,11,11,500,900,1700,33,1.4250,481353,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L08,5,8,0.2500,24 19 1.22851,4,15,0,1,165,0,11,11,500,900,1800,33,1.6000,601691,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L09,1,9,0.2500,9 0 1.03382,4,8,0,1,112,0,14,14,500,900,1400,42,0.9000,141862,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L09,2,9,0.2500,10 1 1.04816,4,10,0,1,140,0,14,14,500,900,1500,42,1.0750,283724,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L09,3,9,0.2500,13 5 1.09119,4,11,0,1,154,0,14,14,500,900,1600,42,1.2500,425586,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L09,4,9,0.2500,19 12 1.16290,4,13,0,1,182,0,14,14,500,900,1700,42,1.4250,567448,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L09,5,9,0.2500,28 22 1.26330,4,14,0,1,196,0,14,14,500,900,1800,42,1.6000,709310,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Viper Nine RL T1 L10,1,10,0.2500,10 0 1.04000,4,9,0,1,144,0,16,16,500,900,1400,48,0.9000,165000,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T2 L10,2,10,0.2500,11 2 1.05625,4,10,0,1,160,0,16,16,500,900,1500,48,1.0750,330000,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T3 L10,3,10,0.2500,16 6 1.10500,4,12,0,1,192,0,16,16,500,900,1600,48,1.2500,495000,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T4 L10,4,10,0.2500,22 14 1.18625,4,13,0,1,208,0,16,16,500,900,1700,48,1.4250,660000,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+Viper Nine RL T5 L10,5,10,0.2500,32 25 1.30000,4,14,0,1,224,0,16,16,500,900,1800,48,1.6000,825000,0,1,0,0,FALSE,ViperR,extreme,Missile,SRM,SRM6,srm6,SRM6,,,,Missile,WS,Viper Nine Rocket Launcher
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Machine Gun, Enforcer",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+Enforcer UK-MG T1,1, ,0.0000,0 0 1.00000,1,8,0,0,25,0,0,3,0,60,120,0,1.6000,25025,0,1,0,0,FALSE,UKMG,short,Support,MG,MachineGun,MachineGun,MachineGun,,,,Support,WS,Enforcer Ultra-Kinetic Machine Gun
+Enforcer UK-MG T2,2,,0.0000,1 0 1.02000,1,10,0,0,29,0,0,3,0,60,150,0,1.7000,31277,0,1,0,0,FALSE,UKMG,short,Support,MG,MachineGun,MachineGun,MachineGun,,,,Support,WS,Enforcer Ultra-Kinetic Machine Gun
+Enforcer UK-MG T3,3,,0.0000,3 0 1.05657,1,11,0,0,34,0,0,3,0,60,180,0,1.8000,50031,0,1,0,0,FALSE,UKMG,short,Support,MG,MachineGun,MachineGun,MachineGun,,,,Support,WS,Enforcer Ultra-Kinetic Machine Gun
+Enforcer UK-MG T4,4,,0.0000,7 0 1.10392,1,14,0,0,42,0,0,3,0,60,210,0,1.9000,81289,0,1,0,0,FALSE,UKMG,short,Support,MG,MachineGun,MachineGun,MachineGun,,,,Support,WS,Enforcer Ultra-Kinetic Machine Gun
+Enforcer UK-MG T5,5,,0.0000,12 0 1.16000,1,17,0,0,50,0,0,3,0,60,240,0,2.0000,125050,0,1,0,0,FALSE,UKMG,short,Support,MG,MachineGun,MachineGun,MachineGun,,,,Support,WS,Enforcer Ultra-Kinetic Machine Gun
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Laser, Multi-Frequency",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+MF Laser A-Small T1,1,0.525,0.0000,0 0 1.00000,1,15,1,0,15,1,0,1,0,60,100,5,0.8000,20000,-1,1,0,0,FALSE,NotSet,short,Support,Laser,SmallLaser,Laser,Laser_Small,Melts Target,,HEAT_DMG_5x3`1,Energy,WS,Multi-Frequency Laser
+MF Laser A-Small T2,2,0.525,0.0000,1 0 1.01500,1,19,2,0,19,2,0,1,0,60,115,5,0.8500,40000,-1,1,0,0,FALSE,NotSet,short,Support,Laser,SmallLaser,Laser,Laser_Small,Melts Target,,HEAT_DMG_5x3`1,Energy,WS,Multi-Frequency Laser
+MF Laser A-Small T3,3,0.525,0.0000,2 0 1.04243,1,23,3,0,23,3,0,1,0,60,130,5,0.9000,60000,-1,1,0,0,FALSE,NotSet,short,Support,Laser,SmallLaser,Laser,Laser_Small,Melts Target,,HEAT_DMG_5x3`2,Energy,WS,Multi-Frequency Laser
+MF Laser A-Small T4,4,0.525,0.0000,5 0 1.07794,1,26,4,0,26,4,0,1,0,60,145,5,0.9500,80000,-1,1,0,0,FALSE,NotSet,short,Support,Laser,SmallLaser,Laser,Laser_Small,Melts Target,,HEAT_DMG_5x3`2,Energy,WS,Multi-Frequency Laser
+MF Laser A-Small T5,5,0.525,0.0000,8 0 1.12000,1,30,5,0,30,5,0,1,0,60,160,5,1.0000,100000,-1,1,0,0,FALSE,NotSet,short,Support,Laser,SmallLaser,Laser,Laser_Small,Melts Target,,HEAT_DMG_5x3`3,Energy,WS,Multi-Frequency Laser
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MF Laser B-Medium T1,1,0.825,0.0625,0 0 1.00000,1,40,3,0,40,3,0,1,0,90,160,10,0.8000,60250,-1,1,0,0,FALSE,NotSet,medium,Energy,Laser,MediumLaser,Laser,Laser_Medium,Melts Target,,HEAT_DMG_5x3`1,Energy,WS,Multi-Frequency Laser
+MF Laser B-Medium T2,2,0.825,0.0625,1 0 1.01500,1,45,4,0,45,4,0,1,0,90,180,10,0.8500,120500,-1,1,0,0,FALSE,NotSet,medium,Energy,Laser,MediumLaser,Laser,Laser_Medium,Melts Target,,HEAT_DMG_5x3`2,Energy,WS,Multi-Frequency Laser
+MF Laser B-Medium T3,3,0.825,0.0625,3 0 1.04243,1,50,6,0,50,6,0,1,0,90,200,10,0.9000,180750,-1,1,0,0,FALSE,NotSet,medium,Energy,Laser,MediumLaser,Laser,Laser_Medium,Melts Target,,HEAT_DMG_5x3`2,Energy,WS,Multi-Frequency Laser
+MF Laser B-Medium T4,4,0.825,0.0625,7 0 1.07794,1,55,7,0,55,7,0,1,0,90,220,10,0.9500,241000,-1,1,0,0,FALSE,NotSet,medium,Energy,Laser,MediumLaser,Laser,Laser_Medium,Melts Target,,HEAT_DMG_5x3`3,Energy,WS,Multi-Frequency Laser
+MF Laser B-Medium T5,5,0.825,0.0625,12 0 1.12000,1,60,8,0,60,8,0,1,0,90,240,10,1.0000,301250,-1,1,0,0,FALSE,NotSet,medium,Energy,Laser,MediumLaser,Laser,Laser_Medium,Melts Target,,HEAT_DMG_5x3`4,Energy,WS,Multi-Frequency Laser
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MF Laser C-Large T1,1,1.4,0.1250,0 0 1.00000,2,65,5,0,65,5,0,1,0,90,230,15,1.0500,190325,-1,1,0,0,FALSE,NotSet,long,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`1,Energy,WS,Multi-Frequency Laser
+MF Laser C-Large T2,2,1.4,0.1250,1 0 1.01500,2,74,6,0,74,6,0,1,0,90,260,15,1.1000,380650,-1,1,0,0,FALSE,NotSet,long,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`3,Energy,WS,Multi-Frequency Laser
+MF Laser C-Large T3,3,1.4,0.1250,4 1 1.04243,2,83,8,0,83,8,0,1,0,90,290,15,1.1500,570975,-1,1,0,0,FALSE,NotSet,long,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`4,Energy,WS,Multi-Frequency Laser
+MF Laser C-Large T4,4,1.4,0.1250,9 1 1.07794,2,91,9,0,91,9,0,1,0,90,320,15,1.2000,761300,-1,1,0,0,FALSE,NotSet,long,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`6,Energy,WS,Multi-Frequency Laser
+MF Laser C-Large T5,5,1.4,0.1250,16 2 1.12000,2,100,10,0,100,10,0,1,0,90,350,15,1.2500,951625,-1,1,0,0,FALSE,NotSet,long,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`7,Energy,WS,Multi-Frequency Laser
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MF Laser D-Ultra T1,1,2,0.1875,0 1 1.00000,2,115,12,0,115,12,0,1,0,120,400,25,1.3000,320400,-2,1,0,0,FALSE,NotSet,extreme,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`2,Energy,WS,Multi-Frequency Laser
+MF Laser D-Ultra T2,2,2,0.1875,1 1 1.01500,2,121,13,0,121,13,0,1,0,120,450,25,1.3500,640800,-2,1,0,0,FALSE,NotSet,extreme,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`4,Energy,WS,Multi-Frequency Laser
+MF Laser D-Ultra T3,3,2,0.1875,5 2 1.04243,2,128,14,0,128,14,0,1,0,120,500,25,1.4000,961200,-2,1,0,0,FALSE,NotSet,extreme,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`6,Energy,WS,Multi-Frequency Laser
+MF Laser D-Ultra T4,4,2,0.1875,11 3 1.07794,2,134,15,0,134,15,0,1,0,120,550,25,1.4500,1281600,-2,1,0,0,FALSE,NotSet,extreme,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`8,Energy,WS,Multi-Frequency Laser
+MF Laser D-Ultra T5,5,2,0.1875,20 5 1.12000,2,140,16,0,140,16,0,1,0,120,600,25,1.5000,1602000,-2,1,0,0,FALSE,NotSet,extreme,Energy,Laser,LargeLaser,Laser,Laser_Large,Melts Target,,HEAT_DMG_5x3`10,Energy,WS,Multi-Frequency Laser
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Cannon, Ion Particle Bolt",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+IPBC B-Medium T1,1,,0.0625,0 0 1.00000,1,8,0,1,40,0,5,5,0,90,160,12,0.9000,96120,1,1,0,0,FALSE,NotSet,medium,Energy,AC,AC10,AC10,AC10_Ultra,5 Shot Burst,Impairs Target,WEAKEN_3x15`1.04564,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC B-Medium T2,2,,0.0625,1 0 1.02000,1,9,0,1,45,0,5,5,0,90,180,12,0.9500,192240,1,1,0,0,FALSE,NotSet,medium,Energy,AC,AC10,AC10,AC10_Ultra,5 Shot Burst,Impairs Target,WEAKEN_3x15`1.05573,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC B-Medium T3,3,,0.0625,4 1 1.05657,1,10,0,1,50,0,5,5,0,90,200,12,1.0000,288360,1,1,0,0,FALSE,NotSet,medium,Energy,AC,AC10,AC10,AC10_Ultra,5 Shot Burst,Impairs Target,WEAKEN_3x15`1.06643,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC B-Medium T4,4,,0.0625,9 3 1.10392,1,11,0,1,55,0,5,5,0,90,220,12,1.0500,384480,1,1,0,0,FALSE,NotSet,medium,Energy,AC,AC10,AC10,AC10_Ultra,5 Shot Burst,Impairs Target,WEAKEN_3x15`1.07782,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC B-Medium T5,5,,0.0625,16 5 1.16000,1,12,0,2,60,0,10,5,0,90,240,12,1.1000,480600,1,1,0,0,FALSE,NotSet,medium,Energy,AC,AC10,AC10,AC10_Ultra,5 Shot Burst,Impairs Target,WEAKEN_3x15`1.08998,Ballistic,WS,Ion Particle Bolt Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IPBC C-Large T1,1,,0.1250,0 0 1.00000,2,13,0,7,65,0,35,5,0,90,230,18,1.0000,192080,1,1,0,0,FALSE,NotSet,long,Energy,AC,AC20,AC20,AC20_Ultra,5 Shot Burst,Impairs Target,WEAKEN_4x15`1.08998,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC C-Large T2,2,,0.1250,2 1 1.02000,2,15,0,8,75,0,40,5,0,90,260,18,1.0500,384160,1,1,0,0,FALSE,NotSet,long,Energy,AC,AC20,AC20,AC20_Ultra,5 Shot Burst,Impairs Target,WEAKEN_4x15`1.11997,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC C-Large T3,3,,0.1250,6 3 1.05657,2,17,0,9,85,0,45,5,0,90,290,18,1.1000,576240,1,1,0,0,FALSE,NotSet,long,Energy,AC,AC20,AC20,AC20_Ultra,5 Shot Burst,Impairs Target,WEAKEN_4x15`1.15572,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC C-Large T4,4,,0.1250,14 6 1.10392,2,18,0,9,90,0,45,5,0,90,320,18,1.1500,768320,1,1,0,0,FALSE,NotSet,long,Energy,AC,AC20,AC20,AC20_Ultra,5 Shot Burst,Impairs Target,WEAKEN_4x15`1.19963,Ballistic,WS,Ion Particle Bolt Cannon
+IPBC C-Large T5,5,,0.1250,25 10 1.16000,2,20,0,10,100,0,50,5,0,90,350,18,1.2000,960400,1,1,0,0,FALSE,NotSet,long,Energy,AC,AC20,AC20,AC20_Ultra,5 Shot Burst,Impairs Target,WEAKEN_4x15`1.25594,Ballistic,WS,Ion Particle Bolt Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Cannon, Plasma Ball",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+Plasma Ball Cannon T1,1,5,0.0625,0 0 1.00000,1,0,40,0,0,40,0,1,120,120,400,12,0.2000,24020,1,1,0,2,FALSE,NotSet,medium,Energy,PPC,PPC,PPC,PPC,Melts Target,,HEAT_DMG_5x3`5,Energy,WS,Plasma Ball Cannon
+Plasma Ball Cannon T2,2,5,0.0625,1 0 1.01250,1,0,51,0,0,51,0,1,120,120,450,12,0.2500,48040,1,1,0,2,FALSE,NotSet,medium,Energy,PPC,PPC,PPC,PPC,Melts Target,,HEAT_DMG_5x3`10,Energy,WS,Plasma Ball Cannon
+Plasma Ball Cannon T3,3,5,0.0625,3 0 1.03536,1,0,63,0,0,63,0,1,120,120,500,12,0.3000,72060,1,1,0,2,FALSE,NotSet,medium,Energy,PPC,PPC,PPC,PPC,Melts Target,,HEAT_DMG_5x3`15,Energy,WS,Plasma Ball Cannon
+Plasma Ball Cannon T4,4,5,0.0625,6 0 1.06495,1,0,74,0,0,74,0,1,120,120,550,12,0.3500,96080,1,1,0,2,FALSE,NotSet,medium,Energy,PPC,PPC,PPC,PPC,Melts Target,,HEAT_DMG_5x3`20,Energy,WS,Plasma Ball Cannon
+Plasma Ball Cannon T5,5,5,0.0625,10 0 1.10000,1,0,85,0,0,85,0,1,120,120,600,12,0.4000,120100,1,1,0,2,FALSE,NotSet,medium,Energy,PPC,PPC,PPC,PPC,Melts Target,,HEAT_DMG_5x3`25,Energy,WS,Plasma Ball Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gralthler product catalog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Cannon, Wastemaker AC",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Damage / Shot,per,Attack,Total Damage,,,Shots,Range,,,Total Heat,Critical Mult.,Cost,Acc.,Pjct. / Shot,Recoil,Refire,Indirect Fire,Ammo Category,Range Tag,Category,Weapon Type,Weapon Sub Type,Prefab ID,Weapon Effect ID,GUI Feature A,GUI Feature B,Specials Code,Icon Code,Maker Code,Weapon Model Name
+,,,,,,Regular,Heat,Stability,Regular,Heat,Stability,,Min,Optimal,Max,,,,,,,,,,,,,,,,,,,,,
+Wastemaker AC A-Light T1,1,1,0.1875,0 0 1.00000,1,40,0,5,40,0,5,1,0,150,370,5,0.7000,6250,0,5,0,1,FALSE,WM_Lgt,long,Ballistic,AC,AC5,AC5,AC5_Ultra,,,,Ballistic,GR,Wastemaker Light Auto Cannon
+Wastemaker AC A-Light T2,2,1,0.1875,0 0 1.01250,1,45,0,6,45,0,6,1,0,150,400,5,0.7000,12500,0,5,0,1,FALSE,WM_Lgt,long,Ballistic,AC,AC5,AC5,AC5_Ultra,,,,Ballistic,GR,Wastemaker Light Auto Cannon
+Wastemaker AC A-Light T3,3,1,0.1875,1 0 1.03536,1,50,0,6,50,0,6,1,0,150,430,5,0.7000,18750,0,5,0,1,FALSE,WM_Lgt,long,Ballistic,AC,AC5,AC5,AC5_Ultra,,,,Ballistic,GR,Wastemaker Light Auto Cannon
+Wastemaker AC A-Light T4,4,1,0.1875,3 0 1.06495,1,55,0,7,55,0,7,1,0,150,460,5,0.7000,25000,0,5,0,1,FALSE,WM_Lgt,long,Ballistic,AC,AC5,AC5,AC5_Ultra,,,,Ballistic,GR,Wastemaker Light Auto Cannon
+Wastemaker AC A-Light T5,5,1,0.1875,5 0 1.10000,1,60,0,8,60,0,8,1,0,150,490,5,0.7000,31250,0,5,0,1,FALSE,WM_Lgt,long,Ballistic,AC,AC5,AC5,AC5_Ultra,,,,Ballistic,GR,Wastemaker Light Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wastemaker AC B-Medium T1,1,1,0.2500,0 0 1.00000,1,60,0,10,60,0,10,1,0,120,280,12,0.8000,18750,0,5,0,2,FALSE,WM_Med,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,,,,Ballistic,GR,Wastemaker Medium Auto Cannon
+Wastemaker AC B-Medium T2,2,1,0.2500,1 0 1.01500,1,65,0,11,65,0,11,1,0,120,300,12,0.8000,37500,0,5,0,2,FALSE,WM_Med,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,,,,Ballistic,GR,Wastemaker Medium Auto Cannon
+Wastemaker AC B-Medium T3,3,1,0.2500,2 0 1.04243,1,70,0,11,70,0,11,1,0,120,320,12,0.8000,56250,0,5,0,2,FALSE,WM_Med,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,,,,Ballistic,GR,Wastemaker Medium Auto Cannon
+Wastemaker AC B-Medium T4,4,1,0.2500,5 0 1.07794,1,75,0,12,75,0,12,1,0,120,340,12,0.8000,75000,0,5,0,2,FALSE,WM_Med,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,,,,Ballistic,GR,Wastemaker Medium Auto Cannon
+Wastemaker AC B-Medium T5,5,1,0.2500,8 0 1.12000,1,80,0,13,80,0,13,1,0,120,360,12,0.8000,93750,0,5,0,2,FALSE,WM_Med,medium,Ballistic,AC,AC10,AC10,AC10_Ultra,,,,Ballistic,GR,Wastemaker Medium Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wastemaker AC C-Heavy T1,1,1,0.3125,0 0 1.00000,1,80,0,21,80,0,21,1,0,90,190,20,0.9000,25000,0,5,0,3,FALSE,WM_Hvy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,,,,Ballistic,GR,Wastemaker Heavy Auto Cannon
+Wastemaker AC C-Heavy T2,2,1,0.3125,1 0 1.02000,1,85,0,22,85,0,22,1,0,90,200,20,0.9000,50000,0,5,0,3,FALSE,WM_Hvy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,,,,Ballistic,GR,Wastemaker Heavy Auto Cannon
+Wastemaker AC C-Heavy T3,3,1,0.3125,3 0 1.05657,1,90,0,24,90,0,24,1,0,90,210,20,0.9000,75000,0,5,0,3,FALSE,WM_Hvy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,,,,Ballistic,GR,Wastemaker Heavy Auto Cannon
+Wastemaker AC C-Heavy T4,4,1,0.3125,7 0 1.10392,1,95,0,25,95,0,25,1,0,90,240,20,0.9000,100000,0,5,0,3,FALSE,WM_Hvy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,,,,Ballistic,GR,Wastemaker Heavy Auto Cannon
+Wastemaker AC C-Heavy T5,5,1,0.3125,12 0 1.16000,1,100,0,26,100,0,26,1,0,90,250,20,0.9000,125000,0,5,0,3,FALSE,WM_Hvy,short,Ballistic,AC,AC20,AC20,AC20_Ultra,,,,Ballistic,GR,Wastemaker Heavy Auto Cannon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wastemaker AC D-Sniper T1,1,1,0.2500,0 0 1.00000,1,12,0,2,24,0,4,2,400,400,1000,12,0.4000,30500,-1,5,1,2,FALSE,WM_Snp,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,2 Shot Burst,,,Ballistic,GR,Wastemaker Sniper Auto Cannon
+Wastemaker AC D-Sniper T2,2,1,0.2500,1 0 1.01750,1,14,0,2,28,0,4,2,400,400,1050,12,0.4000,61000,-1,5,1,2,FALSE,WM_Snp,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,2 Shot Burst,,,Ballistic,GR,Wastemaker Sniper Auto Cannon
+Wastemaker AC D-Sniper T3,3,1,0.2500,2 0 1.04950,1,16,0,2,32,0,4,2,400,400,1100,12,0.4000,91500,-1,5,1,2,FALSE,WM_Snp,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,2 Shot Burst,,,Ballistic,GR,Wastemaker Sniper Auto Cannon
+Wastemaker AC D-Sniper T4,4,1,0.2500,5 0 1.09093,1,18,0,2,36,0,4,2,400,400,1150,12,0.4000,122000,-1,5,1,2,FALSE,WM_Snp,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,2 Shot Burst,,,Ballistic,GR,Wastemaker Sniper Auto Cannon
+Wastemaker AC D-Sniper T5,5,1,0.2500,8 0 1.14000,1,20,0,3,40,0,6,2,400,400,1200,12,0.4000,152500,-1,5,1,2,FALSE,WM_Snp,extreme,Ballistic,AC,AC2,AC2,AC2_Ultra,2 Shot Burst,,,Ballistic,GR,Wastemaker Sniper Auto Cannon

@@ -9,45 +9,45 @@
     "UIName": "Deathfire RL T2 L04",
     "Name": "Deathfire RL T2 L04",
     "Icon": "uixSvgIcon_weapon_Missile",
-    "Details": "Heat generated per turn: +3.\nMax heat and overheating modifiers: -1.\nDamage taken from all sources: 101.4840%.\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
+    "Details": "Stun Effect (movement distance): 83.1250%.\nStun Effect Duration: 3 turns.\nMaximum cumulative stun effects on target: 10x.\nTarget multiplier to all further damage: 8.7500%.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 10x.\nPersistant heat per turn to target: -3.\nDuration of extra heat: 3 turns.\nMaximum cumulative effects on target: 10x.\nHeat generated per turn: +1.\nMax heat and overheating modifiers: -1.\nDamage taken from all sources: 101.1730%.\n\n    Deathfire Rockets are heavy-hitting, long-range rockets with explosive warheads that function much like LRMs.  They can be used for indirect fire with the help of a spotter.  Small and compact compared to SRM and LRM missiles, they don't take up a lot of space, and are made out of high-tech materials that make them lightweight.\n\n    These weapons come in different \"levels\" (1 to 10), which determine how large the launchers are, how many rockets they fire in an attack, and how much space they use up intalled in a battlemech,  and also different \"type\" levels (Type 1, Type 2, etc.).  Versions of weapons of a higher type have increased damage, range, and sometimes accuracy, but also weaken the structural integrity of a battlemech's armor as a trade-off."
   },
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM20",
-  "MinRange": 250,
-  "MaxRange": 600,
+  "MinRange": 30,
+  "MaxRange": 425,
   "RangeSplit": [
-    250,
-    500,
-    600
+    30,
+    90,
+    425
   ],
   "ammoCategoryID": "DFR",
   "StartingAmmoCapacity": 0,
-  "Damage": 11,
+  "Damage": 15,
   "HeatDamage": 0,
   "Instability": 0,
   "DamageVariance": 0,
-  "CriticalChanceMultiplier": 1.075,
+  "CriticalChanceMultiplier": 0.45,
   "IndirectFireCapable": true,
   "AOECapable": false,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "ShotsWhenFired": 4,
+  "ShotsWhenFired": 2,
   "ProjectilesPerShot": 1,
   "AccuracyModifier": 0,
   "EvasivePipsIgnored": 0,
-  "HeatGenerated": 8,
+  "HeatGenerated": 22,
   "AttackRecoil": 0,
   "RefireModifier": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
-  "BonusValueA": "",
+  "BonusValueA": "Stuns Weakens",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "lrm20",
   "BattleValue": 0,
-  "InventorySize": 2,
-  "Tonnage": 0.125,
+  "InventorySize": 1,
+  "Tonnage": 0.0625,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -87,7 +87,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Subtract",
-        "modValue": -3,
+        "modValue": -1,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -173,8 +173,181 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 1.01484,
+        "modValue": 1.01173,
         "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Walk_Speed-Stun_DF",
+        "Name": "MAGIC EFFECT: SLOWED MOVEMENT",
+        "Details": "This unit is temporarily slowed from the magical effect of one or more Deathfire rockets' enchanted warheads, and temporarily has it's movement speed (distance) of all types multiplied by [INVERSE_AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 3,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.83125,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Run_Speed-Stun_DF",
+        "Name": "IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 3,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.83125,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Speed-Stun_DF",
+        "Name": "IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 3,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 0.83125,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Weakness_Deathfire",
+        "Name": "MAGIC EFFECT: ARMOR DAMAGE",
+        "Details": "This unit's defenses are magically weakened from one or more Deathfire rocket warheads, and temporarily takes [AMT] additional damage from all sources, until the enchanted warhead's curse wears off.",
+        "Icon": "uixSvgIcon_maint_Level2"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 3,
+        "stackLimit": 10,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.0875,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Deathfire-Thermal_Damage_Inflicted-On_Hit",
+        "Name": "MAGIC EFFECT: CONTINUAL HEAT",
+        "Details": "This battlemech has been hit by one or more Deathfire rockets, and temporarily suffers [INVERSE_AMT] additional heat per turn until the effects from the Deathfire warhead(s) wear off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "duration": 3,
+        "stackLimit": 10,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Subtract",
+        "modValue": 3,
+        "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
         "targetWeaponCategory": "NotSet",
