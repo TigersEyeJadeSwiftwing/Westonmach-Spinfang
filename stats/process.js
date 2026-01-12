@@ -1159,7 +1159,7 @@ function SetSpecials(data, specials_codes, drain_data) {
         }
     }
     if (drain[1] !== "0") {
-        const fx = FindEquipmentEffect( "-GEAR_HEAT_TOLERANCE", Number(drain[1]) );
+        const fx = FindEquipmentEffect( "-GEAR_HEAT_TOLERANCE", Number(drain[1]) * -1 );
         if (fx) {
             drain_text = drain_text.Deep() + fx.info.Deep();
             fx_array = fx_array.Deep().concat(fx.data);

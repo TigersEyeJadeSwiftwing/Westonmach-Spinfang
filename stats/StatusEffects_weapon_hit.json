@@ -550,7 +550,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -596,7 +596,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -642,7 +642,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -688,7 +688,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -734,7 +734,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -780,7 +780,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -826,7 +826,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "0.5",
                 "modType" : "System.Single"
             }
@@ -872,7 +872,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "MaxHeat",
-                "operation" : "Int_Subtract",
+                "operation" : "Int_Add",
                 "modValue" : "10",
                 "modType" : "System.Int32"
             }
@@ -1127,7 +1127,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "HeatSinkCapacity",
-                "operation" : "Int_Subtract",
+                "operation" : "Int_Add",
                 "modValue" : "1",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
