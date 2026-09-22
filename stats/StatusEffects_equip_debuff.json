@@ -44,7 +44,7 @@
     [
         { "Name" : "Effect_Damage_Taken_From_Equipped_Gear_Multiplier_Penalty", "Mod_WS_EquipEffect_ID" : "-DMG_TAKEN",
           "Prepend" : [
-            { "Text" : "Damage taken from all sources: ", "Data_Type" : "percent", "Digits" : "4" }
+            { "Text" : "Additional damage taken by unit (trade-off): ", "Data_Type" : "percent", "Digits" : "4" }
           ]
         },
         {
@@ -53,7 +53,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
                 "Name" : "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-                "Details" : "This battlemech takes [AMT] damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+                "Details" : "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "durationData" : {
@@ -70,7 +70,7 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Int_Add",
+                "operation" : "Float_Add",
                 "modValue" : "1.2",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
@@ -301,7 +301,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
                 "Name" : "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
-                "Details" : "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.\\nMaximum allowed heat decreased by [AMT].\\nOverheat threshold decreased by [AMT].",
+                "Details" : "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.  Maximum allowed heat adjusted by [AMT].  Overheat threshold adjusted by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -349,7 +349,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Max_Heat-Debuff",
                 "Name" : "MAX HEAT DECREASED",
-                "Details" : "Maximum allowed heat decreased by [AMT].",
+                "Details" : "Maximum allowed heat adjusted by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -377,7 +377,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Overheat_Threshold-Debuff",
                 "Name" : "OVERHEAT THRESHOLD DECREASED",
-                "Details" : "Overheat threshold decreased by [AMT]",
+                "Details" : "Overheat threshold adjusted by [AMT]",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",

@@ -1,9 +1,10 @@
 {
     "enumerationValueList" : [
+
         {
             "ID" : 17,
-            "Name" : "ReaperLight",
-            "FriendlyName" : "ReaperLight",
+            "Name" : "AC_Prd_Lgt",
+            "FriendlyName" : "AC_Prd_Lgt",
             "IsBallistic" : true,
             "IsMissile" : false,
             "IsEnergy" : false,
@@ -16,8 +17,8 @@
         },
         {
             "ID" : 18,
-            "Name" : "ReaperMedium",
-            "FriendlyName" : "ReaperMedium",
+            "Name" : "AC_Prd_Med",
+            "FriendlyName" : "AC_Prd_Med",
             "IsBallistic" : true,
             "IsMissile" : false,
             "IsEnergy" : false,
@@ -30,8 +31,8 @@
         },
         {
             "ID" : 19,
-            "Name" : "ReaperHeavy",
-            "FriendlyName" : "ReaperHeavy",
+            "Name" : "AC_Prd_Hvy",
+            "FriendlyName" : "AC_Prd_Hvy",
             "IsBallistic" : true,
             "IsMissile" : false,
             "IsEnergy" : false,
@@ -44,8 +45,8 @@
         },
         {
             "ID" : 20,
-            "Name" : "ReaperSniper",
-            "FriendlyName" : "ReaperSniper",
+            "Name" : "AC_Prd_Snp",
+            "FriendlyName" : "AC_Prd_Snp",
             "IsBallistic" : true,
             "IsMissile" : false,
             "IsEnergy" : false,
@@ -56,66 +57,11 @@
             "Icon" : "BallisticHardpointIcon",
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC2"
         },
+
         {
             "ID" : 21,
-            "Name" : "ReaperUltra",
-            "FriendlyName" : "ReaperUltra",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC20"
-        },
-        {
-            "ID" : 22,
-            "Name" : "ReaperLightBurst",
-            "FriendlyName" : "ReaperLightBurst",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC5"
-        },
-        {
-            "ID" : 23,
-            "Name" : "ReaperMediumBurst",
-            "FriendlyName" : "ReaperMediumBurst",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC10"
-        },
-        {
-            "ID" : 24,
-            "Name" : "ReaperHeavyBurst",
-            "FriendlyName" : "ReaperHeavyBurst",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC20"
-        },
-        {
-            "ID" : 25,
-            "Name" : "UKMG",
-            "FriendlyName" : "UKMG",
+            "Name" : "MG_UltraK",
+            "FriendlyName" : "MG_UltraK",
             "IsBallistic" : false,
             "IsMissile" : false,
             "IsEnergy" : false,
@@ -126,10 +72,11 @@
             "Icon" : "SmallHardpointIcon",
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_MG"
         },
+
         {
-            "ID" : 26,
-            "Name" : "DFR",
-            "FriendlyName" : "DFR",
+            "ID" : 22,
+            "Name" : "RL_Cripple",
+            "FriendlyName" : "RL_Cripple",
             "IsBallistic" : false,
             "IsMissile" : true,
             "IsEnergy" : false,
@@ -141,9 +88,9 @@
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_LRM"
         },
         {
-            "ID" : 27,
-            "Name" : "ViperR",
-            "FriendlyName" : "ViperR",
+            "ID" : 23,
+            "Name" : "RL_Viper2",
+            "FriendlyName" : "RL_Viper2",
             "IsBallistic" : false,
             "IsMissile" : true,
             "IsEnergy" : false,
@@ -153,62 +100,7 @@
             "FallbackUIColor" : null,
             "Icon" : "MissileHardpointIcon",
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_SRM"
-        },
-        {
-            "ID" : 28,
-            "Name" : "WM_Lgt",
-            "FriendlyName" : "WM_Lgt",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC5"
-        },
-        {
-            "ID" : 29,
-            "Name" : "WM_Med",
-            "FriendlyName" : "WM_Med",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC10"
-        },
-        {
-            "ID" : 30,
-            "Name" : "WM_Hvy",
-            "FriendlyName" : "WM_Hvy",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC20"
-        },
-        {
-            "ID" : 31,
-            "Name" : "WM_Snp",
-            "FriendlyName" : "WM_Snp",
-            "IsBallistic" : true,
-            "IsMissile" : false,
-            "IsEnergy" : false,
-            "IsSupport" : false,
-            "UsesInternalAmmo" : false,
-            "UIColorRef" : "Ballistic",
-            "FallbackUIColor" : null,
-            "Icon" : "BallisticHardpointIcon",
-            "OutOfAmmoAudioVOEvent" : "AmmoDepleted_AC2"
         }
+
     ]
 }

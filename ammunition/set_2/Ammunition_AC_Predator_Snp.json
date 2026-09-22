@@ -1,0 +1,19 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_AC_Predator_Snp",
+      "Name" : "Sniper Predator AC Ammo",
+      "Details" : "Ammunition for the Sniper Predator Autocannon.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ammunitionTypeID" : "Normal",
+   "Category" : "NotSet",
+   "ammoCategoryID" : "AC_Prd_Snp",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

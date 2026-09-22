@@ -1,0 +1,19 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_WM_Hvy",
+      "Name" : "Heavy Wastemaker Ammo",
+      "Details" : "Ammunition for the Heavy Wastemaker Autocannon.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ammunitionTypeID" : "Normal",
+   "Category" : "NotSet",
+   "ammoCategoryID" : "WM_Hvy",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

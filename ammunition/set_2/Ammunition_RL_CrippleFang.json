@@ -1,0 +1,19 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_RL_CrippleFang",
+      "Name" : "CF Ammo",
+      "Details" : "CrippleFang Rockets.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ammunitionTypeID" : "Normal",
+   "Category" : "NotSet",
+   "ammoCategoryID" : "RL_Cripple",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

@@ -47,7 +47,7 @@ const folder_editor_data = "../editor/data/";
 // File names
 const csv_ammobox = path.join(folder_input, "ammo_box.csv");
 const json_ammobox = path.join(folder_input, "ammo_box_template.json");
-const csv_weapons = path.join(folder_input, "weapon - set 2.csv");
+const csv_weapons = path.join(folder_input, "weapon.csv");
 const json_weapons = path.join(folder_input, "weapon.json");
 const csv_heatsinks = path.join(folder_input, "heatsinks.csv");
 const json_heatsinks = path.join(folder_input, "heatsinks.json");
@@ -285,14 +285,14 @@ function FindEquipmentEffect(tag, value) {
             const prepend_data = fx[0].Prepend.Deep();
 
             for (let i = 0; i < prepend_data.length; i++) {
-                const data_text = prepend_data[i].Text;
-                const data_type = prepend_data[i].Data_Type;
-                const data_digits = Number(prepend_data[i].Digits);
-                const data_value = value;
-                const data_duration = fx[1].durationData.duration;
-                const data_stack = fx[1].durationData.stackLimit;
+                const data_text = prepend_data[i].Text.Deep();
+                const data_type = prepend_data[i].Data_Type.Deep();
+                const data_digits = Number(prepend_data[i].Digits.Deep());
+                const data_value = value.Deep();
+                const data_duration = fx[1].durationData.duration.Deep();
+                const data_stack = fx[1].durationData.stackLimit.Deep();
 
-                let effect_text_line = data_text + "\n";
+                let effect_text_line = data_text.Deep() + "\n";
                 if (data_type === "float") effect_text_line = data_text + data_value.toFixed(data_digits) + ".";
                 else if (data_type === "neg_float") effect_text_line = data_text + (-1 * data_value).toFixed(data_digits) + ".";
                 else if (data_type === "int") effect_text_line = data_text + data_value.toFixed(0) + ".";
@@ -452,8 +452,8 @@ function Main_AmmoBoxes(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "ammoboxes_skirmish.json");
-    ConsolidateJsonFiles(output_folder_game, folder_editor_data + "ammoboxes_game.json");
+    // ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "ammoboxes_skirmish.json");
+    // ConsolidateJsonFiles(output_folder_game, folder_editor_data + "ammoboxes_game.json");
 }
 
 function Main_Weapons(diag=false) {
@@ -631,8 +631,8 @@ function Main_Weapons(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "weapons_skirmish.json");
-    ConsolidateJsonFiles(output_folder_game, folder_editor_data + "weapons_game.json");
+    // ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "weapons_skirmish.json");
+    // ConsolidateJsonFiles(output_folder_game, folder_editor_data + "weapons_game.json");
 }
 
 function Main_Pilots_Skirmish(diag=false) {
@@ -1012,8 +1012,8 @@ function Main_Upgrades(diag=false) {
         FlushConsole();
     });
 
-    ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "upgrades_skirmish.json");
-    ConsolidateJsonFiles(output_folder_game, folder_editor_data + "upgrades_game.json");
+    // ConsolidateJsonFiles(output_folder_skirmish, folder_editor_data + "upgrades_skirmish.json");
+    // ConsolidateJsonFiles(output_folder_game, folder_editor_data + "upgrades_game.json");
 }
 
 function ParseSpecials(codes) {
@@ -1165,7 +1165,7 @@ function SetSpecials(data, specials_codes, drain_data) {
             fx_array = fx_array.Deep().concat(fx.data);
         }
     }
-    if (drain[2] !== "1.00000") {
+    if (drain[2] !== "0.00000") {
         const fx = FindEquipmentEffect( "-DMG_TAKEN", Number(drain[2]) );
         if (fx) {
             drain_text = drain_text.Deep() + fx.info.Deep();

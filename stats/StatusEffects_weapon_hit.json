@@ -20,8 +20,11 @@
                 "WEAKEN_2x15",
                 "WEAKEN_3x15",
                 "WEAKEN_4x15",
+                "NERF_DAMAGE_2x5",
+                "NERF_RANGE_2x8",
                 "HEAT_TOL_DMG_3x5",
                 "HEAT_DMG_5x3",
+                "HEAT_DMG_2x15",
                 "STUN_DF",
                 "WEAKEN_DF",
                 "HEAT_DF"
@@ -514,7 +517,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_2x3",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "float", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -523,7 +526,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -560,7 +563,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x3",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "float", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -569,7 +572,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -606,7 +609,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_4x3",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "float", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -615,7 +618,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -652,7 +655,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x6",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "float", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -661,7 +664,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -698,7 +701,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_2x15",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "float", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -707,7 +710,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -744,7 +747,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_3x15",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "float", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -753,7 +756,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -790,7 +793,7 @@
     [
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "WEAKEN_4x15",
           "Prepend" : [
-            { "Text" : "Target multiplier to all further damage: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Enemies suffer further damage when attacked: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Effect Duration of weakening of target: ", "Data_Type" : "effect_duration", "Digits" : "0" },
             { "Text" : "Maximum cumulative weakening effects on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
@@ -799,7 +802,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Damage_Weakness",
                 "Name" : "WEAKNESS AGAINST DAMAGE",
-                "Details" : "This unit's defenses are weakened, and takes [AMT] additional damage from all sources.",
+                "Details" : "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
                 "Icon" : "uixSvgIcon_maint_Level2"
             },
             "effectType" : "StatisticEffect", "nature" : "Debuff",
@@ -828,6 +831,137 @@
                 "statName" : "DamageReductionMultiplierAll",
                 "operation" : "Float_Add",
                 "modValue" : "0.5",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "NERF_DAMAGE_2x5",
+          "Prepend" : [
+            { "Text" : "Target's attack damage adjusted: ", "Data_Type" : "percent", "Digits" : "4" },
+            { "Text" : "Duration of the target's reduced attack damage when attacking: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Max cumulative effects of the target's weapons doing reduced damage: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Nerf_Damage",
+                "Name" : "CURSE: WEAKER RANGED WEAPON DAMAGE",
+                "Details" : "This unit is magically cursed so that it's damage inflicted by all of it's ranged weapons are temporarily at [AMT]x.",
+                "Icon" : "uixSvgIcon_maint_Level2"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 2,
+                "stackLimit" : 5,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "targetCollection" : "Weapon",
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.9",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "NERF_RANGE_2x8",
+          "Prepend" : [
+            { "Text" : "Target's weapon's ranges reduced: ", "Data_Type" : "meters", "Digits" : "0" },
+            { "Text" : "Duration target weapon range reduced: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Max cumulative effects of the target's weapons having reduced ranges: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Nerf_Range_LongRange",
+                "Name" : "CURSE: REDUCED WEAPON RANGE",
+                "Details" : "This unit is magically cursed so that it's ranged weapons have an adjusted maximum range of [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 2,
+                "stackLimit" : 8,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "targetCollection" : "Weapon",
+                "statName" : "LongRange",
+                "operation" : "Float_Subtract",
+                "modValue" : "30.0",
+                "modType" : "System.Single"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-WS-Nerf_Range_MaxRange",
+                "Name" : "CURSE: REDUCED WEAPON RANGE",
+                "Details" : "This unit is magically cursed so that it's ranged weapons have an adjusted maximum range of [AMT]m.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "effectType" : "StatisticEffect", "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 2,
+                "stackLimit" : 8,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "targetCollection" : "Weapon",
+                "statName" : "MaxRange",
+                "operation" : "Float_Subtract",
+                "modValue" : "30.0",
                 "modType" : "System.Single"
             }
         }
@@ -935,6 +1069,59 @@
             "durationData" : {
                 "duration" : 5,
                 "stackLimit" : 3,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatSinkCapacity",
+                "operation" : "Int_Subtract",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+
+    [
+        { "Name" : "Effect_Deathfire_Magic_Heat_Sinking_Debuff", "Mod_WS_EquipEffect_ID" : "HEAT_DMG_2x15",
+          "Prepend" : [
+            { "Text" : "Persistant heat per turn to target: ", "Data_Type" : "neg_modifier", "Digits" : "0" },
+            { "Text" : "Duration of extra heat: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Maximum cumulative effects of extra heat on target: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+          ]
+        },
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Deathfire-Thermal_Damage_Inflicted-On_Hit",
+                "Name" : "MAGIC EFFECT: CONTINUAL HEAT",
+                "Details" : "This battlemech temporarily suffers [AMT] less heat negation per turn until the curse wears off.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "durationData" : {
+                "duration" : 2,
+                "stackLimit" : 15,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
@@ -1101,7 +1288,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Deathfire-Thermal_Damage_Inflicted-On_Hit",
                 "Name" : "MAGIC EFFECT: CONTINUAL HEAT",
-                "Details" : "This battlemech has been hit by one or more Deathfire rockets, and temporarily suffers [INVERSE_AMT] additional heat per turn until the effects from the Deathfire warhead(s) wear off.",
+                "Details" : "This battlemech has been hit by one or more Deathfire rockets, and temporarily suffers [AMT] less heat negation per turn until the effects from the Deathfire warhead(s) wear off.",
                 "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
             },
             "durationData" : {

@@ -745,7 +745,7 @@
     [
         { "Name" : "Effect_Force_Field_Buff", "Mod_WS_EquipEffect_ID" : "+FORCE_FIELD",
           "Prepend" : [
-            { "Text" : "Damage taken, all sources: ", "Data_Type" : "percent", "Digits" : "2" },
+            { "Text" : "Damage taken, all sources: ", "Data_Type" : "percent", "Digits" : "4" },
             { "Text" : "Maximum cumulative force fields: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
@@ -755,7 +755,7 @@
             "Description" : {
                 "Id" : "StatusEffect-WS-Force_Field-Buff",
                 "Name" : "Force Field",
-                "Details" : "This unit takes [AMT] less damage from all sources and types of attacks.",
+                "Details" : "With it's magical force field, this unit takes [AMT] less damage from all sources and types of attacks.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "durationData" : {

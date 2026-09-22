@@ -33,8 +33,8 @@
         { "Type": "ItemCollectionDef", "Path": "item_collections_WS_append", "ShouldAppendText": true },
 
       	{ "Type": "Sprite", "Path": "sprites_pilots", "ShouldMergeJSON": false, "AddToDB": true },
-      	{ "Type": "PilotDef", "Path": "pilot", "ShouldMergeJSON": false, "AddToDB": true },
       	{ "Type": "AbilityDef", "Path": "pilot_ability", "ShouldMergeJSON": false, "AddToDB": true },
+      	{ "Type": "PilotDef", "Path": "pilot", "ShouldMergeJSON": false, "AddToDB": true },
 
         { "Type": "MechDef", "Path": "mech/new", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
@@ -47,7 +47,7 @@
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox/generated", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox/skirmish", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox/game", "ShouldMergeJSON": false, "AddToDB": true  },
-        { "Type": "AmmunitionDef", "Path": "ammunition", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "AmmunitionDef", "Path": "ammunition/set_2", "ShouldMergeJSON": false, "AddToDB": true  },
 
         { "Type": "HeatSinkDef", "Path": "heatsinks", "ShouldMergeJSON": false, "AddToDB": true  },
 
