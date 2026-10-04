@@ -1,0 +1,98 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 570975,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Magi-Laser_F-Heavy_3x_T1",
+    "Model": "Magical Tactical Combat Laser",
+    "UIName": "Magi-Laser F-Heavy 3x T1",
+    "Name": "Magi-Laser F-Heavy 3x T1",
+    "Icon": "uixSvgIcon_weapon_Energy",
+    "Details": "Additional damage taken by unit (trade-off): 5.9250%.\n\n"
+  },
+  "Category": "Energy",
+  "Type": "Laser",
+  "WeaponSubType": "LargeLaser",
+  "MinRange": 0,
+  "MaxRange": 250,
+  "RangeSplit": [
+    0,
+    0,
+    250
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "Damage": 70,
+  "HeatDamage": 8,
+  "Instability": 0,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 2,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 3,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": -1,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 48,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+  "BonusValueA": "3x Weapon",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0.25,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_standard",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.05925,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ]
+}

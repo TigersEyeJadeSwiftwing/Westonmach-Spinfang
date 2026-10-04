@@ -1,0 +1,62 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Viper-9_RL_T1_L01_skirmish",
+    "Model": "Viper-9 Rocket Launcher",
+    "UIName": "Viper-9 RL T1 L01",
+    "Name": "Viper-9 RL T1 L01",
+    "Icon": "uixSvgIcon_weapon_Missile",
+    "Details": ""
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 120,
+  "MaxRange": 800,
+  "RangeSplit": [
+    120,
+    320,
+    800
+  ],
+  "ammoCategoryID": "RL_Viper9",
+  "StartingAmmoCapacity": 0,
+  "Damage": 8,
+  "HeatDamage": 0,
+  "Instability": 2,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.9,
+  "IndirectFireCapable": true,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 2,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 2,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 1,
+  "AttackRecoil": 0,
+  "RefireModifier": 1,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm20",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.0625,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": []
+}

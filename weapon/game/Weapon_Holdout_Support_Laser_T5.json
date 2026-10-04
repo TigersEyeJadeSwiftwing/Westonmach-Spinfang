@@ -1,0 +1,306 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 25050,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Holdout_Support_Laser_T5",
+    "Model": "Holdout Support Laser",
+    "UIName": "Holdout Support Laser T5",
+    "Name": "Holdout Support Laser T5",
+    "Icon": "uixSvgIcon_weapon_Support",
+    "Details": "Stun Effect (movement distance): 65.0000%.\nStun Effect Duration: 3 turns.\nMaximum cumulative stun effects on target: 5x.\nTarget's weapon's ranges reduced: +70 meters.\nDuration target weapon range reduced: 2 turns.\nMax cumulative effects of the target's weapons having reduced ranges: 8x.\nHeat generated per turn: +12.\nAdditional damage taken by unit (trade-off): 5.0000%.\n\n"
+  },
+  "Category": "AntiPersonnel",
+  "Type": "Laser",
+  "WeaponSubType": "SmallLaser",
+  "MinRange": 0,
+  "MaxRange": 90,
+  "RangeSplit": [
+    0,
+    0,
+    90
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "Damage": 8,
+  "HeatDamage": 0,
+  "Instability": 0,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 2.5,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 0,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 6,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_Laser_Small",
+  "BonusValueA": "Stun Movement",
+  "BonusValueB": "Curse Range",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant3",
+      "range_close",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": -12,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.05,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Walk_Speed-Stun_3x5",
+        "Name": "IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 3,
+        "stackLimit": 5
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.65,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Run_Speed-Stun_3x5",
+        "Name": "IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 3,
+        "stackLimit": 5
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.65,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Speed-Stun_3x5",
+        "Name": "IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 3,
+        "stackLimit": 5
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 0.65,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Nerf_Range_LongRange",
+        "Name": "CURSE: REDUCED WEAPON RANGE",
+        "Details": "This unit is magically cursed so that it's ranged weapons have an adjusted maximum range of [AMT]m.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 2,
+        "stackLimit": 8,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "targetCollection": "Weapon",
+        "statName": "LongRange",
+        "operation": "Float_Subtract",
+        "modValue": 70,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Nerf_Range_MaxRange",
+        "Name": "CURSE: REDUCED WEAPON RANGE",
+        "Details": "This unit is magically cursed so that it's ranged weapons have an adjusted maximum range of [AMT]m.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 2,
+        "stackLimit": 8,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "targetCollection": "Weapon",
+        "statName": "MaxRange",
+        "operation": "Float_Subtract",
+        "modValue": 70,
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

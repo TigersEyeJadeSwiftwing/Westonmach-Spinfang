@@ -1,0 +1,135 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 112500,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Predator_AC_G-Hvy_3x_T1",
+    "Model": "Predator Heavy Auto Cannon",
+    "UIName": "Predator AC G-Hvy 3x T1",
+    "Name": "Predator AC G-Hvy 3x T1",
+    "Icon": "uixSvgIcon_weapon_Ballistic",
+    "Details": "Enemies suffer further damage when attacked: 0.1500.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 3x.\nAdditional damage taken by unit (trade-off): 18.0000%.\n\n"
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 0,
+  "MaxRange": 200,
+  "RangeSplit": [
+    0,
+    100,
+    200
+  ],
+  "ammoCategoryID": "AC_Prd_Hvy",
+  "StartingAmmoCapacity": 0,
+  "Damage": 96,
+  "HeatDamage": 3,
+  "Instability": 53,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 1.65,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 3,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 1,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 54,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
+  "BonusValueA": "Weakens Target",
+  "BonusValueB": "3x Weapon",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC20",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0.125,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.18,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Weakness",
+        "Name": "WEAKNESS AGAINST DAMAGE",
+        "Details": "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
+        "Icon": "uixSvgIcon_maint_Level2"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 4,
+        "stackLimit": 3,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.15,
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

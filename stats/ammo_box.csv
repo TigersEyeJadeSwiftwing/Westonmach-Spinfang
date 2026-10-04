@@ -4,18 +4,11 @@ UK-MG Ammo,,,,,,,,,,,,,,,,
 Description:,````Ammo Bins contain the rounds needed for projectile-based weaponry` with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit` however Ultra-Kinetic Machine Gun ammunition is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure` thanks to an open-standard technology developed and by Westonmach.  This solid alloy material makes up all of the rounds` and there is no casing` gunpowder` or chemical components` explosive or otherwise.  As such` there isn't any part of the ammunition to explode or burn if the ammunition or it's storage container gets damaged or even set on fire in combat` so no explosion will occur from a critical hit.\n\n````Ultra-Kinetic Machine Gun Ammo Bins may feed multiple weapons` which do not have to be installed in the same location` thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts` like any other ammunition bins.\n\n````Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In battlemechs` this comes at the cost of weakened total armor for the battlemech` because of the magistics that apply` however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also` larger capacity ammunition bins will impair the battlemech's cooling capabilities` resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.,,,,,,,,,,,,,,,
 ,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Codes (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
 ,,,,,,,,,,,,,,,,
-UK-MG Ammo 01x,1,1,0.0000,0 0 0.00000,1,2000,12 Cartridges,4 Attacks,,ammoBox_Support,12,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 02x,2,2,0.0000,0 0 0.00137,1,2609,24 Cartridges,8 Attacks,,ammoBox_Support,24,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 03x,3,3,0.0000,0 0 0.00388,1,3879,36 Cartridges,12 Attacks,,ammoBox_Support,36,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 04x,4,4,0.0000,1 0 0.00712,1,5632,48 Cartridges,16 Attacks,,ammoBox_Support,48,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 06x,5,6,0.0000,1 1 0.01096,1,7797,72 Cartridges,24 Attacks,,ammoBox_Support,72,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 08x,6,8,0.0000,2 1 0.01532,1,10331,96 Cartridges,32 Attacks,,ammoBox_Support,96,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 10x,7,10,0.0000,3 1 0.02014,1,13204,120 Cartridges,40 Attacks,,ammoBox_Support,120,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 13x,8,13,0.0000,4 2 0.02538,1,16393,156 Cartridges,52 Attacks,,ammoBox_Support,156,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 15x,9,15,0.0000,5 3 0.03101,1,19880,180 Cartridges,60 Attacks,,ammoBox_Support,180,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 18x,10,18,0.0000,7 3 0.03700,1,23652,216 Cartridges,72 Attacks,,ammoBox_Support,216,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 22x,11,22,0.0000,8 4 0.04334,1,27696,264 Cartridges,88 Attacks,,ammoBox_Support,264,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
-UK-MG Ammo 25x,12,25,0.0000,10 5 0.05000,1,32000,300 Cartridges,100 Attacks,,ammoBox_Support,300,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 02x,1,2,0.0000,0 0 0.00000,1,2000,30 Cartridges,10 Attacks,,ammoBox_Support,30,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 04x,2,4,0.0000,1 0 0.00063,1,2609,60 Cartridges,20 Attacks,,ammoBox_Support,60,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 09x,3,9,0.0000,3 0 0.00177,1,3879,135 Cartridges,45 Attacks,,ammoBox_Support,135,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 16x,4,16,0.0000,7 0 0.00325,1,5632,240 Cartridges,80 Attacks,,ammoBox_Support,240,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
+UK-MG Ammo 25x,5,25,0.0000,12 0 0.00500,1,7797,375 Cartridges,125 Attacks,,ammoBox_Support,375,3,Ammunition_MG_UltraK,FALSE,GN,Ultra-Kinetic MG Ammunition
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
@@ -23,31 +16,35 @@ UK-MG Ammo 25x,12,25,0.0000,10 5 0.05000,1,32000,300 Cartridges,100 Attacks,,amm
 Description:,````Ammo Bins contain the rounds needed for projectile-based weaponry` with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  CrippleFang Rocket Ammunition Bins may feed multiple weapons` which do not have to be installed in the same location as each other or the ammunition bin` thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms` legs` torso parts` etc.\n\n````CrippleFang rockets are a bit bigger than SRM and LRM missles` and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  CrippleFang rockets use magical technology in that the rockets will have characteristics determined by the launching units` such as damage dealt` maximum range` etc.` that will vary depending on the launcher’s type and level.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs` this comes at the cost of weakened total armor for the battlemech` because of the magistics that apply` however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also` larger capacity ammunition bins will impair the battlemech’s cooling capabilities` resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.,,,,,,,,,,,,,,,
 ,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Codes (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
 ,,,,,,,,,,,,,,,,
-CrippleFang Rockets 01x,1,1,0.0000,0 0 0.00000,1,8000,8 Rockets,,,ammoBox_Missile,8,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 02x,2,2,0.0000,0 0 0.00619,1,14373,16 Rockets,,,ammoBox_Missile,16,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 04x,3,4,0.0000,1 1 0.01750,1,27656,32 Rockets,,,ammoBox_Missile,32,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 06x,4,6,0.0000,2 1 0.03215,1,45988,48 Rockets,,,ammoBox_Missile,48,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 09x,5,9,0.0000,4 3 0.04950,1,68627,72 Rockets,,,ammoBox_Missile,72,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 12x,6,12,0.0000,6 4 0.06917,1,95126,96 Rockets,,,ammoBox_Missile,96,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 16x,7,16,0.0000,9 6 0.09093,1,125170,128 Rockets,,,ammoBox_Missile,128,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 20x,8,20,0.0000,12 8 0.11459,1,158524,160 Rockets,,,ammoBox_Missile,160,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
-CrippleFang Rockets 25x,9,25,0.0000,16 10 0.14000,1,195000,200 Rockets,,,ammoBox_Missile,200,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
+CrippleFang Rockets 02x,1,2,0.0000,0 0 0.00000,1,8000,50 Rockets,,,ammoBox_Missile,50,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
+CrippleFang Rockets 04x,2,4,0.0000,1 1 0.00313,1,14373,100 Rockets,,,ammoBox_Missile,100,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
+CrippleFang Rockets 08x,3,8,0.0000,4 3 0.00884,1,27656,200 Rockets,,,ammoBox_Missile,200,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
+CrippleFang Rockets 13x,4,13,0.0000,9 6 0.01624,1,45988,325 Rockets,,,ammoBox_Missile,325,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
+CrippleFang Rockets 20x,5,20,0.0000,16 10 0.02500,1,68627,500 Rockets,,,ammoBox_Missile,500,1,Ammunition_RL_CrippleFang,TRUE,GN,CrippleFang Rocket Ammunition
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+"Rocket, Viper Two",,,,,,,,,,,,,,,,
+Description:,````Ammo Bins contain the rounds needed for projectile-based weaponry` with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper-2 Rocket Ammunition Bins may feed multiple weapons` which do not have to be installed in the same location as each other or the ammunition bin` thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms` legs` torso parts` etc.\n\n````Viper-2 rockets are a bit bigger than SRM and LRM missles` and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Viper-2 rockets use magical technology in that the rockets will have characteristics determined by the launching units` such as damage dealt` maximum range` etc.` that will vary depending on the launcher’s type and level.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs` this comes at the cost of weakened total armor for the battlemech` because of the magistics that apply` however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also` larger capacity ammunition bins will impair the battlemech’s cooling capabilities` resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.,,,,,,,,,,,,,,,
+,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Codes (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
+,,,,,,,,,,,,,,,,
+Viper-2 Rockets 02x,1,2,0.0000,0 0 0.00000,1,8000,50 Rockets,,,ammoBox_Missile,50,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
+Viper-2 Rockets 04x,2,4,0.0000,1 1 0.00313,1,14373,100 Rockets,,,ammoBox_Missile,100,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
+Viper-2 Rockets 08x,3,8,0.0000,4 3 0.00884,1,27656,200 Rockets,,,ammoBox_Missile,200,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
+Viper-2 Rockets 13x,4,13,0.0000,9 6 0.01624,1,45988,325 Rockets,,,ammoBox_Missile,325,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
+Viper-2 Rockets 20x,5,20,0.0000,16 10 0.02500,1,68627,500 Rockets,,,ammoBox_Missile,500,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 "Rocket, Viper Nine",,,,,,,,,,,,,,,,
-Description:,````Ammo Bins contain the rounds needed for projectile-based weaponry` with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper-2 Rocket Ammunition Bins may feed multiple weapons` which do not have to be installed in the same location as each other or the ammunition bin` thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms` legs` torso parts` etc.\n\n````Viper-2 rockets are a bit bigger than SRM and LRM missles` and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Viper-2 rockets use magical technology in that the rockets will have characteristics determined by the launching units` such as damage dealt` maximum range` etc.` that will vary depending on the launcher’s type and level.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs` this comes at the cost of weakened total armor for the battlemech` because of the magistics that apply` however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also` larger capacity ammunition bins will impair the battlemech’s cooling capabilities` resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.,,,,,,,,,,,,,,,
+Description:,````Ammo Bins contain the rounds needed for projectile-based weaponry` with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper-9 Rocket Ammunition Bins may feed multiple weapons` which do not have to be installed in the same location as each other or the ammunition bin` thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms` legs` torso parts` etc.\n\n````Viper-9 rockets are a bit smaller than SRM and LRM missles` and their launchers of higher levels can take up less space than typical LRM and SRM launchers.  Viper-9 rockets use magical technology in that the rockets will have characteristics determined by the launching units` such as damage dealt` maximum range` etc.` that will vary depending on the launcher’s type and level.\n\n    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs` this comes at the cost of weakened total armor for the battlemech` because of the magistics that apply` however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also` larger capacity ammunition bins will impair the battlemech’s cooling capabilities` resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.,,,,,,,,,,,,,,,
 ,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Codes (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
 ,,,,,,,,,,,,,,,,
-Viper-2 Rockets 01x,1,1,0.0000,0 0 0.00000,1,8000,25 Rockets,,,ammoBox_Missile,25,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 02x,2,2,0.0000,0 0 0.00619,1,14373,50 Rockets,,,ammoBox_Missile,50,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 03x,3,3,0.0000,1 1 0.01750,1,27656,75 Rockets,,,ammoBox_Missile,75,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 05x,4,5,0.0000,2 1 0.03215,1,45988,125 Rockets,,,ammoBox_Missile,125,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 07x,5,7,0.0000,4 3 0.04950,1,68627,175 Rockets,,,ammoBox_Missile,175,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 10x,6,10,0.0000,6 4 0.06917,1,95126,250 Rockets,,,ammoBox_Missile,250,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 13x,7,13,0.0000,9 6 0.09093,1,125170,325 Rockets,,,ammoBox_Missile,325,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 16x,8,16,0.0000,12 8 0.11459,1,158524,400 Rockets,,,ammoBox_Missile,400,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
-Viper-2 Rockets 20x,9,20,0.0000,16 10 0.14000,1,195000,500 Rockets,,,ammoBox_Missile,500,1,Ammunition_RL_Viper2,TRUE,GN,Viper-2 Rocket Ammunition
+Viper-9 Rockets 02x,1,2,0.0000,0 0 0.00000,1,8000,100 Rockets,,,ammoBox_Missile,100,1,Ammunition_RL_Viper9,TRUE,GN,Viper-9 Rocket Ammunition
+Viper-9 Rockets 04x,2,4,0.0000,1 1 0.00313,1,14373,200 Rockets,,,ammoBox_Missile,200,1,Ammunition_RL_Viper9,TRUE,GN,Viper-9 Rocket Ammunition
+Viper-9 Rockets 08x,3,8,0.0000,4 3 0.00884,1,27656,400 Rockets,,,ammoBox_Missile,400,1,Ammunition_RL_Viper9,TRUE,GN,Viper-9 Rocket Ammunition
+Viper-9 Rockets 13x,4,13,0.0000,9 6 0.01624,1,45988,650 Rockets,,,ammoBox_Missile,650,1,Ammunition_RL_Viper9,TRUE,GN,Viper-9 Rocket Ammunition
+Viper-9 Rockets 20x,5,20,0.0000,16 10 0.02500,1,68627,1000 Rockets,,,ammoBox_Missile,1000,1,Ammunition_RL_Viper9,TRUE,GN,Viper-9 Rocket Ammunition
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
@@ -55,32 +52,26 @@ Reaper Auto Cannon Ammo,,,,,,,,,,,,,,,,
 Description:,````Ammo Bins contain the rounds needed for projectile-based weaponry` with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit` including Predator Auto Cannon ammunition` which have warheads that can be made to explode under certain conditions.  Aside from the warhead` a Predator Auto Cannon round is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure` thanks to an open-standard technology developed and by Westonmach.  The rounds do not leave any shell or casing behind after firing` and do not use gunpowder or out-dated archaic technology to propel the round through and out of the barrel` but use alternative technology.\n\n````Predator Auto Cannon Ammo Bins may feed multiple weapons` which do not have to be installed in the same location` thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts` like any other ammunition bins.\n\n    Westonmach weapon ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs` this comes at the cost of weakened total armor for the battlemech` because of the magistics that apply` however the smallest capacity ammunition box of it’s type usually does not incur any such tradeoff.  Also` larger capacity ammunition bins will impair the battlemech’s cooling capabilities` resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.,,,,,,,,,,,,,,,
 ,Type,Level,Tons,Drain,Slots,Cost,GUI Feature A,GUI Feature B,Specials Codes (Code`Value`Duration`Stack),Icon Code,Cap,Shots / Attack,Ammo ID,Can Explode,Manf Code,Model Name
 ,,,,,,,,,,,,,,,,
-Predator AC A-Light Ammo 01x,1,1,0.0000,0 0 0.00000,1,2000,25 Rounds,25 Attacks,,ammoBox_Ballistic,25,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
-Predator AC A-Light Ammo 02x,2,2,0.0000,1 1 0.00313,1,18634,50 Rounds,50 Attacks,,ammoBox_Ballistic,50,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
-Predator AC A-Light Ammo 05x,3,5,0.0000,3 3 0.00884,1,53306,125 Rounds,125 Attacks,,ammoBox_Ballistic,125,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
-Predator AC A-Light Ammo 08x,4,8,0.0000,7 7 0.01624,1,101156,200 Rounds,200 Attacks,,ammoBox_Ballistic,200,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
-Predator AC A-Light Ammo 12x,5,12,0.0000,12 12 0.02500,1,160250,300 Rounds,300 Attacks,,ammoBox_Ballistic,300,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
+Predator AC A-Light Ammo 01x,1,1,0.0000,0 0 0.00000,1,2000,40 Rounds,40 Attacks,,ammoBox_Ballistic,40,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
+Predator AC A-Light Ammo 02x,2,2,0.0000,1 1 0.00313,1,18634,80 Rounds,80 Attacks,,ammoBox_Ballistic,80,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
+Predator AC A-Light Ammo 04x,3,4,0.0000,5 3 0.00884,1,53306,160 Rounds,160 Attacks,,ammoBox_Ballistic,160,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
+Predator AC A-Light Ammo 07x,4,7,0.0000,11 6 0.01624,1,101156,280 Rounds,280 Attacks,,ammoBox_Ballistic,280,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
+Predator AC A-Light Ammo 10x,5,10,0.0000,20 10 0.02500,1,160250,400 Rounds,400 Attacks,,ammoBox_Ballistic,400,1,Ammunition_AC_Predator_Lgt,TRUE,GN,Predator AC Ammunition
 ,,,,,,,,,,,,,,,,
+Predator AC B-Medium Ammo 01x,1,1,0.0000,0 0 0.00000,1,4200,20 Rounds,20 Attacks,,ammoBox_Ballistic,20,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
+Predator AC B-Medium Ammo 02x,2,2,0.0000,1 1 0.00313,1,37421,40 Rounds,40 Attacks,,ammoBox_Ballistic,40,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
+Predator AC B-Medium Ammo 04x,3,4,0.0000,5 3 0.00884,1,106667,80 Rounds,80 Attacks,,ammoBox_Ballistic,80,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
+Predator AC B-Medium Ammo 07x,4,7,0.0000,11 6 0.01624,1,202230,140 Rounds,140 Attacks,,ammoBox_Ballistic,140,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
+Predator AC B-Medium Ammo 10x,5,10,0.0000,20 10 0.02500,1,320250,200 Rounds,200 Attacks,,ammoBox_Ballistic,200,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
 ,,,,,,,,,,,,,,,,
+Predator AC C-Heavy Ammo 01x,1,1,0.0000,0 0 0.00000,1,6600,10 Rounds,10 Attacks,,ammoBox_Ballistic,10,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
+Predator AC C-Heavy Ammo 02x,2,2,0.0000,1 1 0.00313,1,77409,20 Rounds,20 Attacks,,ammoBox_Ballistic,20,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
+Predator AC C-Heavy Ammo 04x,3,4,0.0000,5 3 0.00884,1,225004,40 Rounds,40 Attacks,,ammoBox_Ballistic,40,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
+Predator AC C-Heavy Ammo 07x,4,7,0.0000,11 6 0.01624,1,428694,70 Rounds,70 Attacks,,ammoBox_Ballistic,70,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
+Predator AC C-Heavy Ammo 10x,5,10,0.0000,20 10 0.02500,1,680250,100 Rounds,100 Attacks,,ammoBox_Ballistic,100,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
 ,,,,,,,,,,,,,,,,
-Predator AC B-Medium Ammo 01x,1,1,0.0000,0 0 0.00000,1,4200,12 Rounds,12 Attacks,,ammoBox_Ballistic,12,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
-Predator AC B-Medium Ammo 02x,2,2,0.0000,1 1 0.00313,1,37421,24 Rounds,24 Attacks,,ammoBox_Ballistic,24,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
-Predator AC B-Medium Ammo 05x,3,5,0.0000,3 3 0.00884,1,106667,60 Rounds,60 Attacks,,ammoBox_Ballistic,60,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
-Predator AC B-Medium Ammo 08x,4,8,0.0000,7 7 0.01624,1,202230,96 Rounds,96 Attacks,,ammoBox_Ballistic,96,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
-Predator AC B-Medium Ammo 12x,5,12,0.0000,12 12 0.02500,1,320250,144 Rounds,144 Attacks,,ammoBox_Ballistic,144,1,Ammunition_AC_Predator_Med,TRUE,GN,Predator AC Ammunition
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-Predator AC C-Heavy Ammo 01x,1,1,0.0000,0 0 0.00000,1,6600,6 Rounds,6 Attacks,,ammoBox_Ballistic,6,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
-Predator AC C-Heavy Ammo 02x,2,2,0.0000,1 1 0.00313,1,77409,12 Rounds,12 Attacks,,ammoBox_Ballistic,12,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
-Predator AC C-Heavy Ammo 05x,3,5,0.0000,3 3 0.00884,1,225004,30 Rounds,30 Attacks,,ammoBox_Ballistic,30,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
-Predator AC C-Heavy Ammo 08x,4,8,0.0000,7 7 0.01624,1,428694,48 Rounds,48 Attacks,,ammoBox_Ballistic,48,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
-Predator AC C-Heavy Ammo 12x,5,12,0.0000,12 12 0.02500,1,680250,72 Rounds,72 Attacks,,ammoBox_Ballistic,72,1,Ammunition_AC_Predator_Hvy,TRUE,GN,Predator AC Ammunition
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-Predator AC D-Sniper Ammo 01x,1,1,0.0000,0 0 0.00000,1,5000,20 Rounds,10 Attacks,,ammoBox_Ballistic,20,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
-Predator AC D-Sniper Ammo 02x,2,2,0.0000,1 1 0.00313,1,57162,40 Rounds,20 Attacks,,ammoBox_Ballistic,40,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
-Predator AC D-Sniper Ammo 05x,3,5,0.0000,3 3 0.00884,1,165889,100 Rounds,50 Attacks,,ammoBox_Ballistic,100,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
-Predator AC D-Sniper Ammo 08x,4,8,0.0000,7 7 0.01624,1,315939,160 Rounds,80 Attacks,,ammoBox_Ballistic,160,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
-Predator AC D-Sniper Ammo 12x,5,12,0.0000,12 12 0.02500,1,501250,240 Rounds,120 Attacks,,ammoBox_Ballistic,240,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
+Predator AC D-Sniper Ammo 01x,1,1,0.0000,0 0 0.00000,1,5000,60 Rounds,30 Attacks,,ammoBox_Ballistic,60,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
+Predator AC D-Sniper Ammo 02x,2,2,0.0000,1 1 0.00313,1,57162,120 Rounds,60 Attacks,,ammoBox_Ballistic,120,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
+Predator AC D-Sniper Ammo 04x,3,4,0.0000,5 3 0.00884,1,165889,240 Rounds,120 Attacks,,ammoBox_Ballistic,240,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
+Predator AC D-Sniper Ammo 07x,4,7,0.0000,11 6 0.01624,1,315939,420 Rounds,210 Attacks,,ammoBox_Ballistic,420,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition
+Predator AC D-Sniper Ammo 10x,5,10,0.0000,20 10 0.02500,1,501250,600 Rounds,300 Attacks,,ammoBox_Ballistic,600,2,Ammunition_AC_Predator_Snp,TRUE,GN,Predator AC Ammunition

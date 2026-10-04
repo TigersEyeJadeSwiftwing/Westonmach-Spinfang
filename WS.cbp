@@ -206,6 +206,7 @@
 		<Unit filename="ammunition/set_2/Ammunition_MG_UltraK.json" />
 		<Unit filename="ammunition/set_2/Ammunition_RL_CrippleFang.json" />
 		<Unit filename="ammunition/set_2/Ammunition_RL_Viper2.json" />
+		<Unit filename="ammunition/set_2/Ammunition_RL_Viper9.json" />
 		<Unit filename="chassis/chassisdef_bazooka_BZ-WS1.json" />
 		<Unit filename="chassis/chassisdef_catapult_CPLT-WS.json" />
 		<Unit filename="chassis/chassisdef_centurion_CN9-WS.json" />

@@ -1,0 +1,100 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Predator_AC_B-Med_1x_T1_skirmish",
+    "Model": "Predator Medium Auto Cannon",
+    "UIName": "Predator AC B-Med 1x T1",
+    "Name": "Predator AC B-Med 1x T1",
+    "Icon": "uixSvgIcon_weapon_Ballistic",
+    "Details": "Enemies suffer further damage when attacked: 0.1000.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 3x.\n\n"
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC10",
+  "MinRange": 0,
+  "MaxRange": 350,
+  "RangeSplit": [
+    0,
+    175,
+    350
+  ],
+  "ammoCategoryID": "AC_Prd_Med",
+  "StartingAmmoCapacity": 0,
+  "Damage": 64,
+  "HeatDamage": 1,
+  "Instability": 14,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.9,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 1,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 12,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC10_Ultra",
+  "BonusValueA": "Weakens Target",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC10",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.0625,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_standard"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Weakness",
+        "Name": "WEAKNESS AGAINST DAMAGE",
+        "Details": "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
+        "Icon": "uixSvgIcon_maint_Level2"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 3,
+        "stackLimit": 3,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.1,
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

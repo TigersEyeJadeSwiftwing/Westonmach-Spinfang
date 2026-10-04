@@ -840,8 +840,8 @@
         { "Name" : "Effect_Weakness_Against_Damage", "Mod_WS_EquipEffect_ID" : "NERF_DAMAGE_2x5",
           "Prepend" : [
             { "Text" : "Target's attack damage adjusted: ", "Data_Type" : "percent", "Digits" : "4" },
-            { "Text" : "Duration of the target's reduced attack damage when attacking: ", "Data_Type" : "effect_duration", "Digits" : "0" },
-            { "Text" : "Max cumulative effects of the target's weapons doing reduced damage: ", "Data_Type" : "stack_limit", "Digits" : "0" }
+            { "Text" : "Duration of this effect: ", "Data_Type" : "effect_duration", "Digits" : "0" },
+            { "Text" : "Max times this effect stacks: ", "Data_Type" : "stack_limit", "Digits" : "0" }
           ]
         },
         {

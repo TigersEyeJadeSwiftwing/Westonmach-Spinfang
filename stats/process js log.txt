@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 569,896, Nanoseconds: 29,878,200
-Mon Sep 21 2026 12:13:40 GMT-0400 (Eastern Daylight Time)
+Seconds: 99,358, Nanoseconds: 741,248,000
+Sat Oct 03 2026 19:20:13 GMT-0400 (Eastern Daylight Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -26,84 +26,72 @@ Row Index: 2, Description:
 
     Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
 
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_01x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_02x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_03x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_03x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_04x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_04x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_06x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_06x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_08x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_08x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_10x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_10x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_13x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_13x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_15x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_15x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_18x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_18x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_22x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_22x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_09x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_09x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_16x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_16x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_UK-MG_Ammo_25x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_UK-MG_Ammo_25x_skirmish.json
 
-Row Index: 21, Description:
+Row Index: 14, Description:
     Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  CrippleFang Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.
 
     CrippleFang rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  CrippleFang rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher's type and level.
 
     Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
 
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_01x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_02x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_04x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_04x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_06x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_06x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_09x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_09x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_12x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_12x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_16x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_16x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_08x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_08x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_13x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_13x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_20x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_20x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_CrippleFang_Rockets_25x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_CrippleFang_Rockets_25x_skirmish.json
 
-Row Index: 37, Description:
+Row Index: 26, Description:
     Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper-2 Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.
 
     Viper-2 rockets are a bit bigger than SRM and LRM missles, and their launchers of higher levels can take up more space than typical LRM and SRM launchers.  Viper-2 rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher's type and level.
 
     Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
 
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_01x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_02x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_03x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_03x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_05x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_05x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_07x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_07x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_10x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_10x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_04x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_04x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_08x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_08x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_13x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_13x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_16x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_16x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-2_Rockets_20x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-2_Rockets_20x_skirmish.json
 
-Row Index: 53, Description:
+Row Index: 38, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.  Viper-9 Rocket Ammunition Bins may feed multiple weapons, which do not have to be installed in the same location as each other or the ammunition bin, thanks to a battlemech's internal mechanisms that transfer ammunition around inside arms, legs, torso parts, etc.
+
+    Viper-9 rockets are a bit smaller than SRM and LRM missles, and their launchers of higher levels can take up less space than typical LRM and SRM launchers.  Viper-9 rockets use magical technology in that the rockets will have characteristics determined by the launching units, such as damage dealt, maximum range, etc., that will vary depending on the launcher's type and level.
+
+    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In Battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-9_Rockets_02x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-9_Rockets_02x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-9_Rockets_04x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-9_Rockets_04x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-9_Rockets_08x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-9_Rockets_08x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-9_Rockets_13x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-9_Rockets_13x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Viper-9_Rockets_20x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Viper-9_Rockets_20x_skirmish.json
+
+Row Index: 50, Description:
     Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, including Predator Auto Cannon ammunition, which have warheads that can be made to explode under certain conditions.  Aside from the warhead, a Predator Auto Cannon round is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  The rounds do not leave any shell or casing behind after firing, and do not use gunpowder or out-dated archaic technology to propel the round through and out of the barrel, but use alternative technology.
 
     Predator Auto Cannon Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.
@@ -114,45 +102,45 @@ Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_01x_
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_02x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_05x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_05x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_08x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_08x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_12x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_12x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_04x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_04x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_07x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_07x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_10x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_A-Light_Ammo_10x_skirmish.json
 
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_01x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_02x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_05x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_05x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_08x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_08x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_12x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_12x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_04x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_04x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_07x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_07x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_10x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_10x_skirmish.json
 
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_01x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_02x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_05x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_05x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_08x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_08x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_12x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_12x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_04x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_04x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_07x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_07x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_10x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_C-Heavy_Ammo_10x_skirmish.json
 
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_01x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_01x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_02x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_02x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_05x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_05x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_08x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_08x_skirmish.json
-Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_12x_game.json
-Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_12x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_04x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_04x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_07x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_07x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_10x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_10x_skirmish.json
 
 Weapons:
 
@@ -244,27 +232,49 @@ Wrote file: ..\weapon\skirmish\Weapon_Predator_AC_H-Snp_3x_T4_skirmish.json
 Wrote file: ..\weapon\game\Weapon_Predator_AC_H-Snp_3x_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Predator_AC_H-Snp_3x_T5_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_1x_T1.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_1x_T1_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_1x_T2.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_1x_T2_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_1x_T3.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_1x_T3_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_1x_T4.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_1x_T4_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_1x_T5.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_1x_T5_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_A-Light_1x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_A-Light_1x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_A-Light_1x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_A-Light_1x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_A-Light_1x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_A-Light_1x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_A-Light_1x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_A-Light_1x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_A-Light_1x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_A-Light_1x_T5_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_3x_T1.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_3x_T1_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_3x_T2.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_3x_T2_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_3x_T3.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_3x_T3_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_3x_T4.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_3x_T4_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_3x_T5.json
-Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_3x_T5_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_B-Heavy_1x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_B-Heavy_1x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_B-Heavy_1x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_B-Heavy_1x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_B-Heavy_1x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_B-Heavy_1x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_B-Heavy_1x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_B-Heavy_1x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_B-Heavy_1x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_B-Heavy_1x_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_C-Light_3x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_C-Light_3x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_C-Light_3x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_C-Light_3x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_C-Light_3x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_C-Light_3x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_C-Light_3x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_C-Light_3x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_C-Light_3x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_C-Light_3x_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_D-Heavy_3x_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_D-Heavy_3x_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_D-Heavy_3x_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_D-Heavy_3x_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_D-Heavy_3x_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_D-Heavy_3x_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_D-Heavy_3x_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_D-Heavy_3x_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Ion_Magi-AC_D-Heavy_3x_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Ion_Magi-AC_D-Heavy_3x_T5_skirmish.json
 
 Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L01.json
 Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L01_skirmish.json
@@ -310,181 +320,93 @@ Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L04_skirmish.json
 Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L04.json
 Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L04_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T2_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T2_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T3_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T3_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T4_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L05_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L1.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L1.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L1.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L1.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L1.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L1_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T2_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T2_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T3_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T3_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T4_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L06_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L2.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L2.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L2.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L2.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L2.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L2_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T2_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T2_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T3_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T3_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T4_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L07_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L3.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L3.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L3.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L3.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L3.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L3_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T2_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T2_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T3_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T3_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T4_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L08_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L4.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L4.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L4.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L4.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L4.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L4_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T2_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T2_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T3_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T3_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T4_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L09_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T1_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T1_L01_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T2_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T2_L01_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T3_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T3_L01_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T4_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T4_L01_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T5_L01.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T5_L01_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T1_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T1_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T2_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T2_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T3_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T3_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T4_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T4_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Cripplefang_RL_T5_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Cripplefang_RL_T5_L10_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T1_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T1_L02_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T2_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T2_L02_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T3_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T3_L02_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T4_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T4_L02_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T5_L02.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T5_L02_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L01.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L01_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L01.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L01_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L01.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L01_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L01.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L01_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L01.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L01_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T1_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T1_L03_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T2_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T2_L03_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T3_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T3_L03_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T4_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T4_L03_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T5_L03.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T5_L03_skirmish.json
 
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L02.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L02_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L02.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L02_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L02.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L02_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L02.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L02_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L02.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L02_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L03.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L03_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L03.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L03_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L03.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L03_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L03.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L03_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L03.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L03_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L04.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L04_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L04.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L04_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L04.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L04_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L04.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L04_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L04.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L04_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L05_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L05.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L05_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L06_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L06.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L06_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L07_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L07.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L07_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L08_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L08.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L08_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L09_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L09.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L09_skirmish.json
-
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T1_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T1_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T2_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T2_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T3_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T3_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T4_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T4_L10_skirmish.json
-Wrote file: ..\weapon\game\Weapon_Viper-2_RL_T5_L10.json
-Wrote file: ..\weapon\skirmish\Weapon_Viper-2_RL_T5_L10_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T1_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T1_L04_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T2_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T2_L04_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T3_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T3_L04_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T4_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T4_L04_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Viper-9_RL_T5_L04.json
+Wrote file: ..\weapon\skirmish\Weapon_Viper-9_RL_T5_L04_skirmish.json
 
 Wrote file: ..\weapon\game\Weapon_Magi-Laser_A-Light_1x_T1.json
 Wrote file: ..\weapon\skirmish\Weapon_Magi-Laser_A-Light_1x_T1_skirmish.json
@@ -1260,9 +1182,9 @@ Total incomplete pilots (no file written) or errors: 0
 
 
 process.js, completed:
-Seconds: 569,896, Nanoseconds: 924,654,400
-Mon Sep 21 2026 12:13:41 GMT-0400 (Eastern Daylight Time)
+Seconds: 99,359, Nanoseconds: 648,974,400
+Sat Oct 03 2026 19:20:14 GMT-0400 (Eastern Daylight Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 894,776,200
+Elapsed program run-time, Seconds: 0, Nanoseconds: 907,726,400
 
 

@@ -1,0 +1,100 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Predator_AC_D-Snp_1x_T1_skirmish",
+    "Model": "Predator Sniper Auto Cannon",
+    "UIName": "Predator AC D-Snp 1x T1",
+    "Name": "Predator AC D-Snp 1x T1",
+    "Icon": "uixSvgIcon_weapon_Ballistic",
+    "Details": "Enemies suffer further damage when attacked: 0.0833.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 6x.\n\n"
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC2",
+  "MinRange": 160,
+  "MaxRange": 1200,
+  "RangeSplit": [
+    160,
+    500,
+    1200
+  ],
+  "ammoCategoryID": "AC_Prd_Snp",
+  "StartingAmmoCapacity": 0,
+  "Damage": 10,
+  "HeatDamage": 0,
+  "Instability": 1,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.65,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 2,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 1,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 10,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC2_Ultra",
+  "BonusValueA": "Weakens Target",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC2",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.0625,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Weakness",
+        "Name": "WEAKNESS AGAINST DAMAGE",
+        "Details": "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
+        "Icon": "uixSvgIcon_maint_Level2"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 3,
+        "stackLimit": 6,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.08333,
+        "modType": "System.Single"
+      }
+    }
+  ]
+}
