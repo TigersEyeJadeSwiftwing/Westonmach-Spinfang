@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Omni T3",
     "Id": "Gear_Damage_Upgrade_Omni_T3_skirmish",
     "Name": "Damage Upgrade Omni T3",
-    "Details": "Ballistic weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nMissle / Rocket weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon damage modifier: 124.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +14.\nAdditional damage taken by unit (trade-off): 35.3550%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 124.00%.\n    Effect stacks up to -1 times.\nEnergy weapon damage modifier: 124.00%.\n    Effect stacks up to -1 times.\nMissle / Rocket weapon damage modifier: 124.00%.\n    Effect stacks up to -1 times.\nSupport weapon damage modifier: 124.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +14.\nAdditional damage taken by unit (trade-off): 35.3550%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,
@@ -292,5 +292,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`5"
 }

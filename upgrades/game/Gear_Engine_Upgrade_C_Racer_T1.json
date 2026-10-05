@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade C Racer T1",
     "Id": "Gear_Engine_Upgrade_C_Racer_T1",
     "Name": "Engine Upgrade C Racer T1",
-    "Details": "Walking / Sprinting movement: 113.20%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +14.\nUnsteady threshold modifier: +14.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 1x.\nHeat generated per turn: +3.\nMax heat and overheating modifiers: +2.\nAdditional damage taken by unit (trade-off): 9.2500%.\n\n",
+    "Details": "Walking / Sprinting movement: 113.20%.\n    Effect stacks up to -1 times.\nMaximum stability modifier: +14.\nUnsteady threshold modifier: +14.\nCombat turn initiative bonus: +1.\n    Effect stacks up to -1 times.\nHeat generated per turn: +3.\nMax heat and overheating modifiers: +2.\nAdditional damage taken by unit (trade-off): 9.2500%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -20,7 +20,7 @@
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 2,
+  "InventorySize": 1,
   "Tonnage": 0.0625,
   "AllowedLocations": "CenterTorso, LeftTorso, RightTorso",
   "DisallowedLocations": "All",
@@ -326,5 +326,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`3`9"
 }

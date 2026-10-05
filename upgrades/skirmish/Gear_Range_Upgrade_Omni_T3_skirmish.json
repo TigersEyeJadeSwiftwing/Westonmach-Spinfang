@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Omni T3",
     "Id": "Gear_Range_Upgrade_Omni_T3_skirmish",
     "Name": "Range Upgrade Omni T3",
-    "Details": "Ballistic weapon range increase: +135 meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: +135 meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: +270 meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: +75 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +9.\nAdditional damage taken by unit (trade-off): 30.4940%.\n\n",
+    "Details": "Ballistic weapon range increase: +135 meters.\n    Effect stacks up to -1 times.\nEnergy weapon range increase: +135 meters.\n    Effect stacks up to -1 times.\nRocket / Missle weapon range increase: +270 meters.\n    Effect stacks up to -1 times.\nSupport weapon range increase: +75 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +9.\nAdditional damage taken by unit (trade-off): 30.4940%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -564,5 +564,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`5"
 }

@@ -9,7 +9,7 @@
     "UIName": "Predator AC D-Snp 1x T1",
     "Name": "Predator AC D-Snp 1x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.0833.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 6x.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.0833.\n    For 3 turns.\n    Effect stacks up to 3 times.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -96,5 +96,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_ballistic`3`9"
 }

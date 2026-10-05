@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Omni T4",
     "Id": "Gear_Range_Upgrade_Omni_T4",
     "Name": "Range Upgrade Omni T4",
-    "Details": "Ballistic weapon range increase: +180 meters.\nMaximum cumulative modifiers of this type: 1x.\nEnergy weapon range increase: +180 meters.\nMaximum cumulative modifiers of this type: 1x.\nRocket / Missle weapon range increase: +360 meters.\nMaximum cumulative modifiers of this type: 1x.\nSupport weapon range increase: +100 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +21.\nMax heat and overheating modifiers: +13.\nAdditional damage taken by unit (trade-off): 56.0210%.\n\n",
+    "Details": "Ballistic weapon range increase: +180 meters.\n    Effect stacks up to -1 times.\nEnergy weapon range increase: +180 meters.\n    Effect stacks up to -1 times.\nRocket / Missle weapon range increase: +360 meters.\n    Effect stacks up to -1 times.\nSupport weapon range increase: +100 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +21.\nMax heat and overheating modifiers: +13.\nAdditional damage taken by unit (trade-off): 56.0210%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -566,5 +566,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`4"
 }

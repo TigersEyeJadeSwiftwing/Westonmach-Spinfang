@@ -8,7 +8,7 @@
     "UIName": "TTS Support T1",
     "Id": "Gear_TTS_Support_T1",
     "Name": "TTS Support T1",
-    "Details": "Support weapon accuracy increase: +0.60.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +1.\n\n",
+    "Details": "Support weapon accuracy increase: +0.60.\n    Effect stacks up to -1 times.\nHeat generated per turn: +1.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -122,5 +122,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`3`9"
 }

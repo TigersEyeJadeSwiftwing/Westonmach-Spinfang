@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Ballistic T1",
     "Id": "Gear_Damage_Upgrade_Ballistic_T1",
     "Name": "Damage Upgrade Ballistic T1",
-    "Details": "Ballistic weapon damage modifier: 112.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\n\n",
+    "Details": "Ballistic weapon damage modifier: 112.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +5.\n\n",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "StatName": null,
@@ -105,5 +105,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`3`9"
 }

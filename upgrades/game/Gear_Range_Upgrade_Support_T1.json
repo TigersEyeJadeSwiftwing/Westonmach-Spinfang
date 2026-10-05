@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T1",
     "Id": "Gear_Range_Upgrade_Support_T1",
     "Name": "Range Upgrade Support T1",
-    "Details": "Support weapon range increase: +30 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +3.\n\n",
+    "Details": "Support weapon range increase: +30 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +3.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -173,5 +173,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`3`9"
 }

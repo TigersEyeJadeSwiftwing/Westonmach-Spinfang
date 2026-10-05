@@ -8,13 +8,13 @@
     "UIName": "Range Upgrade Ballistic T5",
     "Id": "Gear_Range_Upgrade_Ballistic_T5_skirmish",
     "Name": "Range Upgrade Ballistic T5",
-    "Details": "Ballistic weapon range increase: +250 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +10.\nAdditional damage taken by unit (trade-off): 18.2500%.\n\n",
+    "Details": "Ballistic weapon range increase: +300 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +10.\nAdditional damage taken by unit (trade-off): 18.2500%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "+250m Range",
+  "BonusValueA": "+300m Range",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -191,7 +191,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "LongRange",
         "operation": "Float_Add",
-        "modValue": 250,
+        "modValue": 300,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -242,7 +242,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "MaxRange",
         "operation": "Float_Add",
-        "modValue": 250,
+        "modValue": 300,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -258,5 +258,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`3"
 }

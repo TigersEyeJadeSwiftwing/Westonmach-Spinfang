@@ -1,0 +1,137 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 36020,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Breaker_Cannon_A-Light_T1",
+    "Model": "Breaker Cannon",
+    "UIName": "Breaker Cannon A-Light T1",
+    "Name": "Breaker Cannon A-Light T1",
+    "Icon": "uixSvgIcon_weapon_Energy",
+    "Details": "Heat generated per turn: +4.\nAdditional damage taken by unit (trade-off): 1.0000%.\n\n"
+  },
+  "Category": "Energy",
+  "Type": "Gauss",
+  "WeaponSubType": "Gauss",
+  "MinRange": 0,
+  "MaxRange": 700,
+  "RangeSplit": [
+    0,
+    250,
+    700
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "Damage": 32,
+  "HeatDamage": 0,
+  "Instability": 5,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.8,
+  "IndirectFireCapable": false,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 0,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 8,
+  "AttackRecoil": 0,
+  "RefireModifier": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Gauss",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.0625,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_long",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": -4,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.01,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ],
+  "item_collection3": "itemCollection_WS_weapon_energy_non-laser`3`9"
+}

@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade D Ultra T3",
     "Id": "Gear_Engine_Upgrade_D_Ultra_T3",
     "Name": "Engine Upgrade D Ultra T3",
-    "Details": "Walking / Sprinting movement: 151.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +90.\nUnsteady threshold modifier: +90.\nCombat turn initiative bonus: +1.\nMaximum cumulative initiative buffs: 2x.\nHeat generated per turn: +12.\nMax heat and overheating modifiers: +7.\nAdditional damage taken by unit (trade-off): 31.9450%.\n\n",
+    "Details": "Walking / Sprinting movement: 151.00%.\n    Effect stacks up to -1 times.\nMaximum stability modifier: +90.\nUnsteady threshold modifier: +90.\nCombat turn initiative bonus: +1.\n    Effect stacks up to -1 times.\nHeat generated per turn: +12.\nMax heat and overheating modifiers: +7.\nAdditional damage taken by unit (trade-off): 31.9450%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -327,5 +327,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`5"
 }

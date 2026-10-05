@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T3",
     "Id": "Gear_Range_Upgrade_Support_T3",
     "Name": "Range Upgrade Support T3",
-    "Details": "Support weapon range increase: +90 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +6.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 4.4190%.\n\n",
+    "Details": "Support weapon range increase: +90 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +6.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 4.4190%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -260,5 +260,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`5"
 }

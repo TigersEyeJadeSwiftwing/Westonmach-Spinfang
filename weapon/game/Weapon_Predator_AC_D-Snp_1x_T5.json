@@ -9,7 +9,7 @@
     "UIName": "Predator AC D-Snp 1x T5",
     "Name": "Predator AC D-Snp 1x T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1667.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 6x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +3.\nAdditional damage taken by unit (trade-off): 3.2500%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1667.\n    For 3 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +3.\nAdditional damage taken by unit (trade-off): 3.2500%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -222,5 +222,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_ballistic_rare`1`3"
 }

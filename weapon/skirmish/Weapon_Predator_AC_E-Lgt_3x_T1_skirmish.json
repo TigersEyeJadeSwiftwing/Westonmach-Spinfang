@@ -9,7 +9,7 @@
     "UIName": "Predator AC E-Lgt 3x T1",
     "Name": "Predator AC E-Lgt 3x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.0500.\nEffect Duration of weakening of target: 2 turns.\nMaximum cumulative weakening effects on target: 3x.\nAdditional damage taken by unit (trade-off): 7.5000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.0500.\n    For 2 turns.\n    Effect stacks up to 2 times.\nAdditional damage taken by unit (trade-off): 7.5000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -130,5 +130,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_ballistic`1`6"
 }

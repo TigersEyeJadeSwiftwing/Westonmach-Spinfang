@@ -9,7 +9,7 @@
     "UIName": "Predator AC F-Med 3x T1",
     "Name": "Predator AC F-Med 3x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1000.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 3x.\nAdditional damage taken by unit (trade-off): 12.0000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1000.\n    For 3 turns.\n    Effect stacks up to 3 times.\nAdditional damage taken by unit (trade-off): 12.0000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -131,5 +131,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_ballistic`1`6"
 }

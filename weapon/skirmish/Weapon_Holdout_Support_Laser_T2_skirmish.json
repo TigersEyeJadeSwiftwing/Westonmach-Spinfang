@@ -9,7 +9,7 @@
     "UIName": "Holdout Support Laser T2",
     "Name": "Holdout Support Laser T2",
     "Icon": "uixSvgIcon_weapon_Support",
-    "Details": "Stun Effect (movement distance): 80.0000%.\nStun Effect Duration: 3 turns.\nMaximum cumulative stun effects on target: 5x.\nTarget's weapon's ranges reduced: +36 meters.\nDuration target weapon range reduced: 2 turns.\nMax cumulative effects of the target's weapons having reduced ranges: 8x.\nHeat generated per turn: +1.\nAdditional damage taken by unit (trade-off): 0.6250%.\n\n"
+    "Details": "Stun Effect (movement distance): 80.0000%.\n    For 3 turns.\n    Effect stacks up to 3 times.\nTarget's weapon's ranges reduced: +36 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +1.\nAdditional damage taken by unit (trade-off): 0.6250%.\n\n"
   },
   "Category": "AntiPersonnel",
   "Type": "Laser",
@@ -300,5 +300,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_energy_laser`2`7"
 }

@@ -9,7 +9,7 @@
     "UIName": "Plasma Ball Cannon T4",
     "Name": "Plasma Ball Cannon T4",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Persistant heat per turn to target: -45.\nDuration of extra heat: 5 turns.\nMaximum cumulative effects on target: 3x.\nHeat generated per turn: +9.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 6.4950%.\n\n"
+    "Details": "Persistant heat per turn to target: -45.\n    For 5 turns.\n    Effect stacks up to 5 times.\nHeat generated per turn: +9.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 6.4950%.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",
@@ -226,5 +226,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_energy_non-laser_rare`2`4"
 }

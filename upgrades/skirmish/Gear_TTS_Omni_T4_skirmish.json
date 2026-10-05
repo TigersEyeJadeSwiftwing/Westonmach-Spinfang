@@ -8,7 +8,7 @@
     "UIName": "TTS Omni T4",
     "Id": "Gear_TTS_Omni_T4_skirmish",
     "Name": "TTS Omni T4",
-    "Details": "Weapon accuracy (all types) increase: +2.00.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 40.5950%.\n\n",
+    "Details": "Weapon accuracy (all types) increase: +2.00.\n    Effect stacks up to -1 times.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 40.5950%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -194,5 +194,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`1`4"
 }

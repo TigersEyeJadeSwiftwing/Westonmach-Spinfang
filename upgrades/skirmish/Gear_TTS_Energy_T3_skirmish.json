@@ -8,7 +8,7 @@
     "UIName": "TTS Energy T3",
     "Id": "Gear_TTS_Energy_T3_skirmish",
     "Name": "TTS Energy T3",
-    "Details": "Energy weapon accuracy increase: +1.80.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 5.7450%.\n\n",
+    "Details": "Energy weapon accuracy increase: +1.80.\n    Effect stacks up to -1 times.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 5.7450%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -207,5 +207,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`2`5"
 }

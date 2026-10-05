@@ -9,7 +9,7 @@
     "UIName": "Holdout Support Laser T3",
     "Name": "Holdout Support Laser T3",
     "Icon": "uixSvgIcon_weapon_Support",
-    "Details": "Stun Effect (movement distance): 75.0000%.\nStun Effect Duration: 3 turns.\nMaximum cumulative stun effects on target: 5x.\nTarget's weapon's ranges reduced: +48 meters.\nDuration target weapon range reduced: 2 turns.\nMax cumulative effects of the target's weapons having reduced ranges: 8x.\nHeat generated per turn: +3.\nAdditional damage taken by unit (trade-off): 1.7680%.\n\n"
+    "Details": "Stun Effect (movement distance): 75.0000%.\n    For 3 turns.\n    Effect stacks up to 3 times.\nTarget's weapon's ranges reduced: +48 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +3.\nAdditional damage taken by unit (trade-off): 1.7680%.\n\n"
   },
   "Category": "AntiPersonnel",
   "Type": "Laser",
@@ -302,5 +302,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_energy_laser`2`5"
 }

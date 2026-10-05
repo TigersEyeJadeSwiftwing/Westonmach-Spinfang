@@ -9,7 +9,7 @@
     "UIName": "Predator AC F-Med 3x T5",
     "Name": "Predator AC F-Med 3x T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.4000.\nEffect Duration of weakening of target: 3 turns.\nMaximum cumulative weakening effects on target: 3x.\nHeat generated per turn: +72.\nMax heat and overheating modifiers: +12.\nAdditional damage taken by unit (trade-off): 24.0000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.4000.\n    For 3 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +72.\nMax heat and overheating modifiers: +12.\nAdditional damage taken by unit (trade-off): 24.0000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -222,5 +222,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_ballistic_rare`1`2"
 }

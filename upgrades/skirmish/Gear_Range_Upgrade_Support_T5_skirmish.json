@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Support T5",
     "Id": "Gear_Range_Upgrade_Support_T5_skirmish",
     "Name": "Range Upgrade Support T5",
-    "Details": "Support weapon range increase: +150 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 12.5000%.\n\n",
+    "Details": "Support weapon range increase: +150 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 12.5000%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -258,5 +258,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`3"
 }

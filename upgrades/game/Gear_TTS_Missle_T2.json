@@ -8,7 +8,7 @@
     "UIName": "TTS Missle T2",
     "Id": "Gear_TTS_Missle_T2",
     "Name": "TTS Missle T2",
-    "Details": "Missle weapon accuracy increase: +1.20.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +3.\nAdditional damage taken by unit (trade-off): 2.0310%.\n\n",
+    "Details": "Missle weapon accuracy increase: +1.20.\n    Effect stacks up to -1 times.\nHeat generated per turn: +3.\nAdditional damage taken by unit (trade-off): 2.0310%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -156,5 +156,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`2`7"
 }

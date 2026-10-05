@@ -8,7 +8,7 @@
     "UIName": "Sensor Array Package T2",
     "Id": "Gear_Sensor_Array_Package_T2_skirmish",
     "Name": "Sensor Array Package T2",
-    "Details": "Sensor range increase: +675 meters.\nMaximum cumulative sensor range modifiers: 1x.\nHeat generated per turn: +3.\n\n",
+    "Details": "Sensor range increase: +675 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +3.\n\n",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "StatName": null,
@@ -223,5 +223,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`2`7"
 }

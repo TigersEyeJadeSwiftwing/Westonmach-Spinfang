@@ -8,13 +8,13 @@
     "UIName": "Range Upgrade Energy T4",
     "Id": "Gear_Range_Upgrade_Energy_T4_skirmish",
     "Name": "Range Upgrade Energy T4",
-    "Details": "Energy weapon range increase: +200 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +6.\nAdditional damage taken by unit (trade-off): 11.8540%.\n\n",
+    "Details": "Energy weapon range increase: +240 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +6.\nAdditional damage taken by unit (trade-off): 11.8540%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "+200m Range",
+  "BonusValueA": "+240m Range",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -191,7 +191,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "LongRange",
         "operation": "Float_Add",
-        "modValue": 200,
+        "modValue": 240,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -242,7 +242,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "MaxRange",
         "operation": "Float_Add",
-        "modValue": 200,
+        "modValue": 240,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -258,5 +258,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`4"
 }

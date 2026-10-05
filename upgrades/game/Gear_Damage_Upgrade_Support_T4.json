@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T4",
     "Id": "Gear_Damage_Upgrade_Support_T4",
     "Name": "Damage Upgrade Support T4",
-    "Details": "Support weapon damage modifier: 148.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 10.7170%.\n\n",
+    "Details": "Support weapon damage modifier: 148.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +13.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 10.7170%.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,
@@ -192,5 +192,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`4"
 }

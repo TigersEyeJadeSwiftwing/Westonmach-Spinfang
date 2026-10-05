@@ -8,13 +8,13 @@
     "UIName": "Force Field T10",
     "Id": "Gear_Force_Field_T10",
     "Name": "Force Field T10",
-    "Details": "Damage taken, all sources: 5.0000%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: +170.\nMax heat and overheating modifiers: +53.\n\n",
+    "Details": "Damage taken, all sources: 2.0000%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +69.\nMax heat and overheating modifiers: +32.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "5% Dmg",
+  "BonusValueA": "2.00% Dmg",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -61,7 +61,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -170,
+        "modValue": -69,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -93,7 +93,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -53,
+        "modValue": -32,
         "modType": "System.Int32"
       }
     },
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -53,
+        "modValue": -32,
         "modType": "System.Int32"
       }
     },
@@ -147,7 +147,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 0.05,
+        "modValue": 0.02,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -157,5 +157,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`2"
 }

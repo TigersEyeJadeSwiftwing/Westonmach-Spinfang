@@ -9,7 +9,7 @@
     "UIName": "Predator AC C-Hvy 1x T1",
     "Name": "Predator AC C-Hvy 1x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1500.\nEffect Duration of weakening of target: 4 turns.\nMaximum cumulative weakening effects on target: 3x.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1500.\n    For 4 turns.\n    Effect stacks up to 4 times.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -97,5 +97,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_ballistic`3`9"
 }

@@ -1,0 +1,189 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 332615,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Viper-9_RL_T2_L3",
+    "Model": "Viper-9 Rocket Launcher",
+    "UIName": "Viper-9 RL T2 L3",
+    "Name": "Viper-9 RL T2 L3",
+    "Icon": "uixSvgIcon_weapon_Missile",
+    "Details": "Heat generated per turn: +11.\nMax heat and overheating modifiers: +4.\nAdditional damage taken by unit (trade-off): 2.0170%.\n\n"
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 120,
+  "MaxRange": 900,
+  "RangeSplit": [
+    120,
+    320,
+    900
+  ],
+  "ammoCategoryID": "RL_Viper9",
+  "StartingAmmoCapacity": 0,
+  "Damage": 11,
+  "HeatDamage": 0,
+  "Instability": 3,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 1.175,
+  "IndirectFireCapable": true,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 12,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 1,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 19,
+  "AttackRecoil": 0,
+  "RefireModifier": 1,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm20",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0.125,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": -11,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.  Maximum allowed heat adjusted by [AMT].  Overheat threshold adjusted by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Add",
+        "modValue": -4,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Add",
+        "modValue": -4,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.02017,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ],
+  "item_collection3": "itemCollection_WS_weapon_rocket`2`7"
+}

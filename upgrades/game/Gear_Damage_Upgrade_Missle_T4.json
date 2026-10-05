@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Missle T4",
     "Id": "Gear_Damage_Upgrade_Missle_T4",
     "Name": "Damage Upgrade Missle T4",
-    "Details": "Missle / Rocket weapon damage modifier: 148.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +7.\nAdditional damage taken by unit (trade-off): 12.9900%.\n\n",
+    "Details": "Missle / Rocket weapon damage modifier: 148.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +7.\nAdditional damage taken by unit (trade-off): 12.9900%.\n\n",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "StatName": null,
@@ -192,5 +192,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`4"
 }

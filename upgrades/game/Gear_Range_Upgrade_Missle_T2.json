@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Missle T2",
     "Id": "Gear_Range_Upgrade_Missle_T2",
     "Name": "Range Upgrade Missle T2",
-    "Details": "Rocket / Missle weapon range increase: +240 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 2.2810%.\n\n",
+    "Details": "Rocket / Missle weapon range increase: +240 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 2.2810%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
@@ -259,5 +259,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`7"
 }

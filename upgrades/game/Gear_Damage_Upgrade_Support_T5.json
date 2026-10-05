@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T5",
     "Id": "Gear_Damage_Upgrade_Support_T5",
     "Name": "Damage Upgrade Support T5",
-    "Details": "Support weapon damage modifier: 160.00%.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +8.\nAdditional damage taken by unit (trade-off): 16.5000%.\n\n",
+    "Details": "Support weapon damage modifier: 160.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +8.\nAdditional damage taken by unit (trade-off): 16.5000%.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,
@@ -192,5 +192,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`1`3"
 }

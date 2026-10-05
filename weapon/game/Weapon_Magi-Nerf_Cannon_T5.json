@@ -9,7 +9,7 @@
     "UIName": "Magi-Nerf Cannon T5",
     "Name": "Magi-Nerf Cannon T5",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Target's attack damage adjusted: 50.0000%.\nDuration of this effect: 2 turns.\nMax times this effect stacks: 5x.\nTarget's weapon's ranges reduced: +180 meters.\nDuration target weapon range reduced: 2 turns.\nMax cumulative effects of the target's weapons having reduced ranges: 8x.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +8.\nAdditional damage taken by unit (trade-off): 10.0000%.\n\n"
+    "Details": "Target's attack damage adjusted: 50.0000%.\n    For 2 turns.\n    Effect stacks up to 2 times.\nTarget's weapon's ranges reduced: +180 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +8.\nAdditional damage taken by unit (trade-off): 10.0000%.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",
@@ -299,5 +299,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_weapon_energy_non-laser_rare`2`2"
 }

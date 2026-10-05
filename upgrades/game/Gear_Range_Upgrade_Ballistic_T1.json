@@ -8,13 +8,13 @@
     "UIName": "Range Upgrade Ballistic T1",
     "Id": "Gear_Range_Upgrade_Ballistic_T1",
     "Name": "Range Upgrade Ballistic T1",
-    "Details": "Ballistic weapon range increase: +50 meters.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +4.\n\n",
+    "Details": "Ballistic weapon range increase: +60 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +4.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "+50m Range",
+  "BonusValueA": "+60m Range",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -106,7 +106,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "LongRange",
         "operation": "Float_Add",
-        "modValue": 50,
+        "modValue": 60,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -157,7 +157,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "MaxRange",
         "operation": "Float_Add",
-        "modValue": 50,
+        "modValue": 60,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",
@@ -173,5 +173,6 @@
       "instantModData": null,
       "poorlyMaintainedEffectData": null
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`3`9"
 }

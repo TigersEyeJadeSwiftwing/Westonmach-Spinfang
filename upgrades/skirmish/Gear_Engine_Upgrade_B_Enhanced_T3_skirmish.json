@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade B Enhanced T3",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T3_skirmish",
     "Name": "Engine Upgrade B Enhanced T3",
-    "Details": "Walking / Sprinting movement: 130.00%.\nMaximum cumulative engine upgrades: 2x.\nMaximum stability modifier: +24.\nUnsteady threshold modifier: +24.\nHeat generated per turn: +5.\nAdditional damage taken by unit (trade-off): 9.8180%.\n\n",
+    "Details": "Walking / Sprinting movement: 130.00%.\n    Effect stacks up to -1 times.\nMaximum stability modifier: +24.\nUnsteady threshold modifier: +24.\nHeat generated per turn: +5.\nAdditional damage taken by unit (trade-off): 9.8180%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
@@ -222,5 +222,6 @@
         "modType": "System.Single"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`5"
 }

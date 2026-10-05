@@ -21,6 +21,19 @@ let console_index_count = 0;
 let log_file = "";
 let hrtime_0, hrtime_1 = null;
 
+let ic_ammo_ballistic = "itemCollection_WS_ammo_ballistic,,,\n";
+let ic_ammo_rocket = "itemCollection_WS_ammo_rocket,,,\n";
+let ic_weapon_ballistic = "itemCollection_WS_weapon_ballistic,,,\n";
+let ic_weapon_ballistic_rare = "itemCollection_WS_weapon_ballistic_rare,,,\n";
+let ic_weapon_energy_laser = "itemCollection_WS_weapon_energy_laser_rare,,,\n";
+let ic_weapon_energy_laser_rare = "itemCollection_WS_weapon_energy_laser_rare,,,\n";
+let ic_weapon_energy_nonlaser = "itemCollection_WS_weapon_energy_non-laser,,,\n";
+let ic_weapon_energy_nonlaser_rare = "itemCollection_WS_weapon_energy_non-laser_rare,,,\n";
+let ic_weapon_rocket = "itemCollection_WS_weapon_rocket,,,\n";
+let ic_weapon_rocket_rare = "itemCollection_WS_weapon_rocket_rare,,,\n";
+let ic_upgrade_electronic = "itemCollection_WS_upgrade_electronic,,,\n";
+let ic_upgrade_mechanical = "itemCollection_WS_upgrade_mechanical,,,\n";
+
 // Hard-coded input/output folders
 const folder_input = "./";
 const folder_root = "../";
@@ -302,8 +315,13 @@ function FindEquipmentEffect(tag, value) {
                 else if (data_type === "percent") effect_text_line = data_text + (data_value * 100.0).toFixed(data_digits) + "%.";
                 else if (data_type === "one_div_percent") effect_text_line = data_text + (100.0 / data_value).toFixed(data_digits) + "%.";
                 else if (data_type === "meters") effect_text_line = data_text + EquipDescValue(data_value, data_digits) + " meters.";
-                else if (data_type === "effect_duration") effect_text_line = data_text + (data_duration).toFixed(0) + " turns.";
-                else if (data_type === "stack_limit") effect_text_line = data_text + (data_stack).toFixed(0) + "x.";
+                // else if (data_type === "effect_duration") effect_text_line = data_text + (data_duration).toFixed(0) + " turns.";
+                // else if (data_type === "stack_limit") effect_text_line = data_text + (data_stack).toFixed(0) + "x.";
+
+                if (data_type === "effect_duration")
+                    effect_text_line = "    For " + (data_duration).toFixed(0) + " turns.";
+                if (data_type === "stack_limit")
+                    effect_text_line = "    Effect stacks up to " + (data_duration).toFixed(0) + " times.";
 
                 effect_text = effect_text.Deep() + effect_text_line.Deep() + "\n";
             }
@@ -323,6 +341,96 @@ function FindEquipmentEffect(tag, value) {
     Log("Error: No Battlemech Equipment Effect was found in Effects with a matching ID of: " + tag);
     FlushConsole();
     return null;
+}
+
+function PreFillIcFiles() {
+    FlushConsole();
+    Log("");
+    Log("Pre-filling Item Collection Files that need it.....");
+
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Light,Upgrade,4,10" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Medium,Upgrade,4,10" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Heavy,Upgrade,4,10" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Assault,Upgrade,4,10" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Ultra,Upgrade,4,10" + "\n"
+
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t1_0,Upgrade,4,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t2_0,Upgrade,3,7" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t3_0,Upgrade,3,5" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t4_0,Upgrade,3,4" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t5_0,Upgrade,2,2" + "\n"
+
+    Log("");
+    Log(ic_upgrade_mechanical);
+    Log("");
+    FlushConsole();
+}
+
+function Main_IcFiles() {
+    FlushConsole();
+
+    Log("Writing Item Collection Files.....");
+
+    try {
+        let ic_file = "";
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_upgrade_mechanical.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_upgrade_mechanical);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_upgrade_electronic.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_upgrade_electronic);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_ammo_ballistic.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_ammo_ballistic);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_ammo_rocket.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_ammo_rocket);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_ballistic.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_ballistic);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_ballistic_rare.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_ballistic_rare);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_energy_laser.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_energy_laser);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_energy_laser_rare.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_energy_laser_rare);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_energy_non-laser.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_energy_nonlaser);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_energy_non-laser_rare.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_energy_nonlaser_rare);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_rocket.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_rocket);
+
+        ic_file = path.join(folder_root, "item_collections_WS/itemCollection_WS_weapon_rocket_rare.csv");
+        Log("Writing file \"" + ic_file + "\".....");
+        fs.writeFileSync(ic_file, ic_weapon_rocket_rare);
+
+    } catch (err) {
+        console.error(err);
+        Log(err);
+        FlushConsole();
+        return;
+    }
+
+    Log("Success.")
+    FlushConsole();
 }
 
 function Main_AmmoBoxes(diag=false) {
@@ -395,6 +503,7 @@ function Main_AmmoBoxes(diag=false) {
             index.can_explode = Number(headers.indexOf("Can Explode"));
             index.manufacturer = Number(headers.indexOf("Manf. Code"));
             index.model_name = Number(headers.indexOf("Model Name"));
+            index.item_collection = Number(headers.indexOf("Item Collection"));
 
             const item_type = row[index.type] ? Number(row[index.type]) : 1;
             const item_level = row[index.level] ? Number(row[index.level]) : 1;
@@ -427,6 +536,7 @@ function Main_AmmoBoxes(diag=false) {
             data.Capacity = Number(row[index.capacity]);
             data.AmmoID = String(row[index.ammo_id]);
             data.CanExplode = String(row[index.can_explode]) === "TRUE" ? true : false;
+            data.item_collection3 = "itemCollection_WS_" + String(row[index.item_collection]);
 
             const specials_codes = row[index.specials_codes] ? String(row[index.specials_codes]) : null;
             const drain = row[index.drain] ? String(row[index.drain]) : null;
@@ -445,6 +555,14 @@ function Main_AmmoBoxes(diag=false) {
             fs.writeFileSync(file_name_game, JSON.stringify(data_story, null, 2), "utf8");
             fs.writeFileSync(file_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
             Log("Wrote file: " + file_name_game + "\nWrote file: " + file_name_skirmish);
+
+            if (data.item_collection3) {
+                let ic = data.item_collection3.split("`");
+                let ic_text = data_story.Description.Id.Deep() + ",AmmunitionBox," + String(ic[1]) + "," + String(ic[2]) + "\n";
+
+                if (ic[0] === "itemCollection_WS_ammo_ballistic") ic_ammo_ballistic = ic_ammo_ballistic.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_ammo_rocket") ic_ammo_rocket = ic_ammo_rocket.Deep() + ic_text;
+            }
         } else {
             FlushConsole();
         }
@@ -530,6 +648,7 @@ function Main_Weapons(diag=false) {
             index.icon_code = Number(headers.indexOf("Icon Code"));
             index.manufacturer = Number(headers.indexOf("Manf. Code"));
             index.weapon_model_name = Number(headers.indexOf("Weapon Model Name"));
+            index.item_collection = Number(headers.indexOf("Item Collection"));
 
             const item_type = row[index.type] ? Number(row[index.type]) : 1;
             const item_level = row[index.level] ? Number(row[index.level]) : 1;
@@ -558,6 +677,7 @@ function Main_Weapons(diag=false) {
             data.WeaponEffectID = ("WeaponEffect-Weapon_").concat( String(row[index.weapon_effect_id]) );
             data.BonusValueA = String(row[index.gui_feature_a]);
             data.BonusValueB = String(row[index.gui_feature_b]);
+            data.item_collection3 = "itemCollection_WS_" + String(row[index.item_collection]);
 
             const weapon_category = String(row[index.weapon_category]);
             data.Category = weapon_category;
@@ -624,6 +744,20 @@ function Main_Weapons(diag=false) {
             fs.writeFileSync(f_name_game, JSON.stringify(data, null, 2), "utf8");
             fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
             Log("Wrote file: " + f_name_game + "\nWrote file: " + f_name_skirmish);
+
+            if (data.item_collection3) {
+                let ic = data.item_collection3.split("`");
+                let ic_text = d_name.Deep() + ",Weapon," + String(ic[1]) + "," + String(ic[2]) + "\n";
+
+                if (ic[0] === "itemCollection_WS_weapon_ballistic") ic_weapon_ballistic = ic_weapon_ballistic.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_ballistic_rare") ic_weapon_ballistic_rare = ic_weapon_ballistic_rare.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_energy_laser") ic_weapon_energy_laser = ic_weapon_energy_laser.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_energy_laser_rare") ic_weapon_energy_laser_rare = ic_weapon_energy_laser_rare.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_energy_non-laser") ic_weapon_energy_nonlaser = ic_weapon_energy_nonlaser.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_energy_non-laser_rare") ic_weapon_energy_nonlaser_rare = ic_weapon_energy_nonlaser_rare.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_rocket") ic_weapon_rocket = ic_weapon_rocket.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_weapon_rocket_rare") ic_weapon_rocket_rare = ic_weapon_rocket_rare.Deep() + ic_text;
+            }
         } else {
             FlushConsole();
         }
@@ -956,12 +1090,13 @@ function Main_Upgrades(diag=false) {
             index.icon_code = Number(headers.indexOf("Icon Code"));
             index.manufacturer = Number(headers.indexOf("Manf. Code"));
             index.model_name = Number(headers.indexOf("Model Name"));
+            index.item_collection = Number(headers.indexOf("Item Collection"));
 
             const item_type = row[index.type] ? Number(row[index.type]) : 1;
             const item_level = row[index.level] ? Number(row[index.level]) : 1;
 
             data.Description.Cost = Number(row[index.cost]);
-            data.Description.Id = d_name;
+            data.Description.Id = d_name.Deep();
             data.Description.Name = row[index.name];
             data.Description.UIName = row[index.name];
             data.Description.Model = row[index.model_name];
@@ -971,6 +1106,7 @@ function Main_Upgrades(diag=false) {
             data.InventorySize = Number(row[index.equip_slots]);
             data.BonusValueA = String(row[index.gui_feature_a]);
             data.BonusValueB = String(row[index.gui_feature_b]);
+            data.item_collection3 = "itemCollection_WS_" + String(row[index.item_collection]);
 
             data.AllowedLocations = GetAllowedLocations( String(row[index.allowed_locations]) );
 
@@ -1005,6 +1141,14 @@ function Main_Upgrades(diag=false) {
             fs.writeFileSync(f_name_game, JSON.stringify(data, null, 2), "utf8");
             fs.writeFileSync(f_name_skirmish, JSON.stringify(data_skirmish, null, 2), "utf8");
             Log("Wrote file: " + f_name_game + "\nWrote file: " + f_name_skirmish);
+
+            if (data.item_collection3) {
+                let ic = data.item_collection3.split("`");
+                let ic_text = d_name.Deep() + ",Upgrade," + String(ic[1]) + "," + String(ic[2]) + "\n";
+
+                if (ic[0] === "itemCollection_WS_upgrade_electronic") ic_upgrade_electronic = ic_upgrade_electronic.Deep() + ic_text;
+                else if (ic[0] === "itemCollection_WS_upgrade_mechanical") ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + ic_text;
+            }
         } else {
             FlushConsole();
         }
@@ -1203,9 +1347,12 @@ function Main() {
 
     ClearDirs();
 
+    PreFillIcFiles();
+
     Main_AmmoBoxes();
     Main_Weapons();
     Main_Upgrades();
+    Main_IcFiles();
     Main_Pilots_Skirmish();
 
     Log_End();

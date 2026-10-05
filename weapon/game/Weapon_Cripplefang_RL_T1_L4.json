@@ -1,0 +1,310 @@
+{
+  "Description": {
+    "Manufacturer": "Westonmach",
+    "Cost": 101250,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Id": "Weapon_Cripplefang_RL_T1_L4",
+    "Model": "Cripplefang Rocket Launcher",
+    "UIName": "Cripplefang RL T1 L4",
+    "Name": "Cripplefang RL T1 L4",
+    "Icon": "uixSvgIcon_weapon_Missile",
+    "Details": "Stun Effect (movement distance): 84.0900%.\n    For 2 turns.\n    Effect stacks up to 2 times.\nEnemies suffer further damage when attacked: 0.4732.\n    For 2 turns.\n    Effect stacks up to 2 times.\nPersistant heat per turn to target: -4.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +10.\nAdditional damage taken by unit (trade-off): 3.2500%.\n\n"
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 90,
+  "MaxRange": 200,
+  "RangeSplit": [
+    90,
+    200,
+    200
+  ],
+  "ammoCategoryID": "RL_Cripple",
+  "StartingAmmoCapacity": 0,
+  "Damage": 5,
+  "HeatDamage": 0,
+  "Instability": 0,
+  "DamageVariance": 0,
+  "CriticalChanceMultiplier": 0.2,
+  "IndirectFireCapable": true,
+  "AOECapable": false,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "ShotsWhenFired": 10,
+  "ProjectilesPerShot": 1,
+  "AccuracyModifier": 2,
+  "EvasivePipsIgnored": 0,
+  "HeatGenerated": 80,
+  "AttackRecoil": 1,
+  "RefireModifier": 1,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "BonusValueA": "Impairs Target",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm20",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0.125,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": -10,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.0325,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Walk_Speed-Stun_2x10",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 2,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.8409,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Run_Speed-Stun_2x10",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 2,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": 0.8409,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Speed-Stun_2x10",
+        "Name": "STUNNED: IMPAIRED MOVEMENT",
+        "Details": "This unit is temporarily stunned, and has it's movement speed of all types multiplied by [AMT].",
+        "Icon": "uixSvgIcon_statusStunned"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "duration": 2,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 0.8409,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Weakness",
+        "Name": "WEAKNESS AGAINST DAMAGE",
+        "Details": "This unit's defenses are weakened, and takes [AMT]x additional damage from all sources.",
+        "Icon": "uixSvgIcon_maint_Level2"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": 2,
+        "stackLimit": 15,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.47315,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Deathfire-Thermal_Damage_Inflicted-On_Hit",
+        "Name": "MAGIC EFFECT: CONTINUAL HEAT",
+        "Details": "This battlemech temporarily suffers [AMT] less heat negation per turn until the curse wears off.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "duration": 2,
+        "stackLimit": 15,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Subtract",
+        "modValue": 4,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ],
+  "item_collection3": "itemCollection_WS_weapon_rocket`3`9"
+}
