@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 46,022, Nanoseconds: 210,931,500
-Mon Oct 05 2026 18:47:51 GMT-0400 (Eastern Daylight Time)
+Seconds: 54,339, Nanoseconds: 970,587,700
+Mon Oct 05 2026 21:06:29 GMT-0400 (Eastern Daylight Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -18,19 +18,20 @@ Cleaning folder: "../upgrades/generated/"...
 Cleaning folder: "../upgrades/game/"...
 Cleaning folder: "../upgrades/skirmish/"...
 Cleaning folder: "../pilot/skirmish/"...
+
 Pre-filling Item Collection Files that need it.....
 
 itemCollection_WS_upgrade_mechanical,,,
-Gear_JumpJet_Spinfang_Elite_Light,Upgrade,4,10
-Gear_JumpJet_Spinfang_Elite_Medium,Upgrade,4,10
-Gear_JumpJet_Spinfang_Elite_Heavy,Upgrade,4,10
-Gear_JumpJet_Spinfang_Elite_Assault,Upgrade,4,10
-Gear_JumpJet_Spinfang_Elite_Ultra,Upgrade,4,10
-Gear_Coolant_Plant_t1_0,Upgrade,4,9
-Gear_Coolant_Plant_t2_0,Upgrade,3,7
-Gear_Coolant_Plant_t3_0,Upgrade,3,5
-Gear_Coolant_Plant_t4_0,Upgrade,3,4
-Gear_Coolant_Plant_t5_0,Upgrade,2,2
+Gear_JumpJet_Spinfang_Elite_Light,JumpJet,5,9
+Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,5,9
+Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,5,9
+Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,5,9
+Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,5,9
+Gear_Coolant_Plant_t1_0,HeatSink,4,9
+Gear_Coolant_Plant_t2_0,HeatSink,3,7
+Gear_Coolant_Plant_t3_0,HeatSink,3,5
+Gear_Coolant_Plant_t4_0,HeatSink,3,4
+Gear_Coolant_Plant_t5_0,HeatSink,2,2
 
 
 
@@ -1223,9 +1224,9 @@ Total incomplete pilots (no file written) or errors: 0
 
 
 process.js, completed:
-Seconds: 46,022, Nanoseconds: 727,794,600
-Mon Oct 05 2026 18:47:51 GMT-0400 (Eastern Daylight Time)
+Seconds: 54,340, Nanoseconds: 611,864,000
+Mon Oct 05 2026 21:06:29 GMT-0400 (Eastern Daylight Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 516,863,100
+Elapsed program run-time, Seconds: 0, Nanoseconds: 641,276,300
 
 

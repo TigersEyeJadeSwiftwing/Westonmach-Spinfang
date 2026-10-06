@@ -184,12 +184,12 @@
 		"MaxMechsPerPod" : 6,
 		"StartingDropShip" : "argo",
 		"UpgradedDropShip" : "argo",
-		"StartingPlayerMech" : "mechdef_fireshrike_FS-5FX_INIT",
+		"StartingPlayerMech" : "mechdef_blackjack_BJ-1",
 		"StartingLance" : [
-			"mechdef_pest_P-7_INIT",
-			"mechdef_commando_XCOM-F6_INIT",
-			"mechdef_flea_FLE-80_INIT",
-			"mechdef_blackjack_BJ-1"
+			"mechdef_vindicator_VND-1R",
+			"mechdef_shadowhawk_SHD-2H",
+			"mechdef_spider_SDR-5V",
+			"mechdef_locust_LCT-1V"
 		],
 		"StartingMechWarriors" : [
 			"pilot_sim_starter_glitch",

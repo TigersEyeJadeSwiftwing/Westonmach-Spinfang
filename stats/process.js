@@ -348,17 +348,17 @@ function PreFillIcFiles() {
     Log("");
     Log("Pre-filling Item Collection Files that need it.....");
 
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Light,Upgrade,4,10" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Medium,Upgrade,4,10" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Heavy,Upgrade,4,10" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Assault,Upgrade,4,10" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Ultra,Upgrade,4,10" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Light,JumpJet,5,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,5,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,5,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,5,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,5,9" + "\n"
 
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t1_0,Upgrade,4,9" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t2_0,Upgrade,3,7" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t3_0,Upgrade,3,5" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t4_0,Upgrade,3,4" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t5_0,Upgrade,2,2" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t1_0,HeatSink,4,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t2_0,HeatSink,3,7" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t3_0,HeatSink,3,5" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t4_0,HeatSink,3,4" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t5_0,HeatSink,2,2" + "\n"
 
     Log("");
     Log(ic_upgrade_mechanical);
