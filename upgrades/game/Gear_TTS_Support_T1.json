@@ -8,7 +8,7 @@
     "UIName": "TTS Support T1",
     "Id": "Gear_TTS_Support_T1",
     "Name": "TTS Support T1",
-    "Details": "Support weapon accuracy increase: +0.60.\n    Effect stacks up to -1 times.\nHeat generated per turn: +1.\n\n",
+    "Details": "Support weapon accuracy increase: +0.60.\n    Effect stacks up to 1 times.\nHeat generated per turn: +1.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

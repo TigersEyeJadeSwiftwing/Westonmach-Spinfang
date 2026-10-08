@@ -9,7 +9,7 @@
     "UIName": "Predator AC H-Snp 3x T5",
     "Name": "Predator AC H-Snp 3x T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1667.\n    For 3 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +60.\nMax heat and overheating modifiers: +9.\nAdditional damage taken by unit (trade-off): 19.5000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1667.\n    For 3 turns.\n    Effect stacks up to 6 times.\nHeat generated per turn: +60.\nMax heat and overheating modifiers: +9.\nAdditional damage taken by unit (trade-off): 19.5000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

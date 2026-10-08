@@ -9,7 +9,7 @@
     "UIName": "Magi-Nerf Cannon T2",
     "Name": "Magi-Nerf Cannon T2",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Target's attack damage adjusted: 72.5000%.\n    For 2 turns.\n    Effect stacks up to 2 times.\nTarget's weapon's ranges reduced: +90 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +1.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 1.2500%.\n\n"
+    "Details": "Target's attack damage adjusted: 72.5000%.\n    For 2 turns.\n    Effect stacks up to 5 times.\nTarget's weapon's ranges reduced: +90 meters.\n    For 2 turns.\n    Effect stacks up to 8 times.\nHeat generated per turn: +1.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 1.2500%.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",

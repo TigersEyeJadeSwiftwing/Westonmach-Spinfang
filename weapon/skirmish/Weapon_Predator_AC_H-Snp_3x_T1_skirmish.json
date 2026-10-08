@@ -9,7 +9,7 @@
     "UIName": "Predator AC H-Snp 3x T1",
     "Name": "Predator AC H-Snp 3x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.0833.\n    For 3 turns.\n    Effect stacks up to 3 times.\nAdditional damage taken by unit (trade-off): 9.7500%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.0833.\n    For 3 turns.\n    Effect stacks up to 6 times.\nAdditional damage taken by unit (trade-off): 9.7500%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

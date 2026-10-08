@@ -8,7 +8,7 @@
     "UIName": "TTS Support T3",
     "Id": "Gear_TTS_Support_T3_skirmish",
     "Name": "TTS Support T3",
-    "Details": "Support weapon accuracy increase: +1.80.\n    Effect stacks up to -1 times.\nHeat generated per turn: +3.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 3.5360%.\n\n",
+    "Details": "Support weapon accuracy increase: +1.80.\n    Effect stacks up to 1 times.\nHeat generated per turn: +3.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 3.5360%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

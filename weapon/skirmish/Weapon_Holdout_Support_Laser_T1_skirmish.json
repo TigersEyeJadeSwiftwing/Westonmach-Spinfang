@@ -9,7 +9,7 @@
     "UIName": "Holdout Support Laser T1",
     "Name": "Holdout Support Laser T1",
     "Icon": "uixSvgIcon_weapon_Support",
-    "Details": "Stun Effect (movement distance): 85.0000%.\n    For 3 turns.\n    Effect stacks up to 3 times.\nTarget's weapon's ranges reduced: +25 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\n\n"
+    "Details": "Stun Effect (movement distance): 85.0000%.\n    For 3 turns.\n    Effect stacks up to 5 times.\nTarget's weapon's ranges reduced: +25 meters.\n    For 2 turns.\n    Effect stacks up to 8 times.\n\n"
   },
   "Category": "AntiPersonnel",
   "Type": "Laser",

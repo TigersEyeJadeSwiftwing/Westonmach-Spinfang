@@ -8,7 +8,7 @@
     "UIName": "Sensor Array Package T2",
     "Id": "Gear_Sensor_Array_Package_T2",
     "Name": "Sensor Array Package T2",
-    "Details": "Sensor range increase: +675 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +3.\n\n",
+    "Details": "Sensor range increase: +675 meters.\n    Effect stacks up to 1 times.\nHeat generated per turn: +3.\n\n",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "StatName": null,

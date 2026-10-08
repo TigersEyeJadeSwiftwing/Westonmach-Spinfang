@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Ballistic T2",
     "Id": "Gear_Range_Upgrade_Ballistic_T2_skirmish",
     "Name": "Range Upgrade Ballistic T2",
-    "Details": "Ballistic weapon range increase: +120 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 2.2810%.\n\n",
+    "Details": "Ballistic weapon range increase: +120 meters.\n    Effect stacks up to 1 times.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 2.2810%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

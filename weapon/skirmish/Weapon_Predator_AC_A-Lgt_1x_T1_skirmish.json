@@ -9,7 +9,7 @@
     "UIName": "Predator AC A-Lgt 1x T1",
     "Name": "Predator AC A-Lgt 1x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.0500.\n    For 2 turns.\n    Effect stacks up to 2 times.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.0500.\n    For 2 turns.\n    Effect stacks up to 3 times.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

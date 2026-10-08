@@ -9,7 +9,7 @@
     "UIName": "Magi-Nerf Cannon T1",
     "Name": "Magi-Nerf Cannon T1",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Target's attack damage adjusted: 80.0000%.\n    For 2 turns.\n    Effect stacks up to 2 times.\nTarget's weapon's ranges reduced: +60 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\n\n"
+    "Details": "Target's attack damage adjusted: 80.0000%.\n    For 2 turns.\n    Effect stacks up to 5 times.\nTarget's weapon's ranges reduced: +60 meters.\n    For 2 turns.\n    Effect stacks up to 8 times.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",

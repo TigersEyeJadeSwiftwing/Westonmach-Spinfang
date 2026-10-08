@@ -8,7 +8,7 @@
     "UIName": "Force Field T10",
     "Id": "Gear_Force_Field_T10_skirmish",
     "Name": "Force Field T10",
-    "Details": "Damage taken, all sources: 2.0000%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +69.\nMax heat and overheating modifiers: +32.\n\n",
+    "Details": "Damage taken, all sources: 2.0000%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +69.\nMax heat and overheating modifiers: +32.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,

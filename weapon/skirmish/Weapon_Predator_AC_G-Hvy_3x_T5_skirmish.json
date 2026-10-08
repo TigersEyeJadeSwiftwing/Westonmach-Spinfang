@@ -9,7 +9,7 @@
     "UIName": "Predator AC G-Hvy 3x T5",
     "Name": "Predator AC G-Hvy 3x T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.6000.\n    For 4 turns.\n    Effect stacks up to 4 times.\nHeat generated per turn: +108.\nMax heat and overheating modifiers: +18.\nAdditional damage taken by unit (trade-off): 36.0000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.6000.\n    For 4 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +108.\nMax heat and overheating modifiers: +18.\nAdditional damage taken by unit (trade-off): 36.0000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

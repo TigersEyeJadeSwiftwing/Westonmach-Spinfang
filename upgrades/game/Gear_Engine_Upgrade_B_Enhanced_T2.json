@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade B Enhanced T2",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T2",
     "Name": "Engine Upgrade B Enhanced T2",
-    "Details": "Walking / Sprinting movement: 120.00%.\n    Effect stacks up to -1 times.\nMaximum stability modifier: +16.\nUnsteady threshold modifier: +16.\nHeat generated per turn: +3.\nAdditional damage taken by unit (trade-off): 6.2190%.\n\n",
+    "Details": "Walking / Sprinting movement: 120.00%.\n    Effect stacks up to 2 times.\nMaximum stability modifier: +16.\nUnsteady threshold modifier: +16.\nHeat generated per turn: +3.\nAdditional damage taken by unit (trade-off): 6.2190%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

@@ -9,7 +9,7 @@
     "UIName": "Plasma Ball Cannon T1",
     "Name": "Plasma Ball Cannon T1",
     "Icon": "uixSvgIcon_weapon_Energy",
-    "Details": "Persistant heat per turn to target: -30.\n    For 5 turns.\n    Effect stacks up to 5 times.\n\n"
+    "Details": "Persistant heat per turn to target: -30.\n    For 5 turns.\n    Effect stacks up to 3 times.\n\n"
   },
   "Category": "Energy",
   "Type": "PPC",

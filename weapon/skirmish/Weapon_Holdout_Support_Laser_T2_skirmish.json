@@ -9,7 +9,7 @@
     "UIName": "Holdout Support Laser T2",
     "Name": "Holdout Support Laser T2",
     "Icon": "uixSvgIcon_weapon_Support",
-    "Details": "Stun Effect (movement distance): 80.0000%.\n    For 3 turns.\n    Effect stacks up to 3 times.\nTarget's weapon's ranges reduced: +36 meters.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +1.\nAdditional damage taken by unit (trade-off): 0.6250%.\n\n"
+    "Details": "Stun Effect (movement distance): 80.0000%.\n    For 3 turns.\n    Effect stacks up to 5 times.\nTarget's weapon's ranges reduced: +36 meters.\n    For 2 turns.\n    Effect stacks up to 8 times.\nHeat generated per turn: +1.\nAdditional damage taken by unit (trade-off): 0.6250%.\n\n"
   },
   "Category": "AntiPersonnel",
   "Type": "Laser",

@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Omni T5",
     "Id": "Gear_Range_Upgrade_Omni_T5_skirmish",
     "Name": "Range Upgrade Omni T5",
-    "Details": "Ballistic weapon range increase: +225 meters.\n    Effect stacks up to -1 times.\nEnergy weapon range increase: +225 meters.\n    Effect stacks up to -1 times.\nRocket / Missle weapon range increase: +450 meters.\n    Effect stacks up to -1 times.\nSupport weapon range increase: +125 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +32.\nMax heat and overheating modifiers: +20.\nAdditional damage taken by unit (trade-off): 86.2500%.\n\n",
+    "Details": "Ballistic weapon range increase: +225 meters.\n    Effect stacks up to 1 times.\nEnergy weapon range increase: +225 meters.\n    Effect stacks up to 1 times.\nRocket / Missle weapon range increase: +450 meters.\n    Effect stacks up to 1 times.\nSupport weapon range increase: +125 meters.\n    Effect stacks up to 1 times.\nHeat generated per turn: +32.\nMax heat and overheating modifiers: +20.\nAdditional damage taken by unit (trade-off): 86.2500%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

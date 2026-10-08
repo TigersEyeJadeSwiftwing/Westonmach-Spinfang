@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T3",
     "Id": "Gear_Damage_Upgrade_Support_T3_skirmish",
     "Name": "Damage Upgrade Support T3",
-    "Details": "Support weapon damage modifier: 136.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: +2.\nAdditional damage taken by unit (trade-off): 5.8340%.\n\n",
+    "Details": "Support weapon damage modifier: 136.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: +2.\nAdditional damage taken by unit (trade-off): 5.8340%.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,

@@ -8,7 +8,7 @@
     "UIName": "TTS Ballistic T5",
     "Id": "Gear_TTS_Ballistic_T5",
     "Name": "TTS Ballistic T5",
-    "Details": "Ballistic weapon accuracy increase: +3.00.\n    Effect stacks up to -1 times.\nHeat generated per turn: +12.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 16.2500%.\n\n",
+    "Details": "Ballistic weapon accuracy increase: +3.00.\n    Effect stacks up to 1 times.\nHeat generated per turn: +12.\nMax heat and overheating modifiers: +5.\nAdditional damage taken by unit (trade-off): 16.2500%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

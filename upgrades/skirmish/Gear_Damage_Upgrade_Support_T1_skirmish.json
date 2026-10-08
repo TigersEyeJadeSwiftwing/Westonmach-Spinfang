@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T1",
     "Id": "Gear_Damage_Upgrade_Support_T1_skirmish",
     "Name": "Damage Upgrade Support T1",
-    "Details": "Support weapon damage modifier: 112.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +4.\n\n",
+    "Details": "Support weapon damage modifier: 112.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +4.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,

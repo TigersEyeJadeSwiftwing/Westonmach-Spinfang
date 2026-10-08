@@ -8,7 +8,7 @@
     "UIName": "Sensor Array Package T1",
     "Id": "Gear_Sensor_Array_Package_T1_skirmish",
     "Name": "Sensor Array Package T1",
-    "Details": "Sensor range increase: +450 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +2.\n\n",
+    "Details": "Sensor range increase: +450 meters.\n    Effect stacks up to 1 times.\nHeat generated per turn: +2.\n\n",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "StatName": null,

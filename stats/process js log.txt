@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 54,339, Nanoseconds: 970,587,700
-Mon Oct 05 2026 21:06:29 GMT-0400 (Eastern Daylight Time)
+Seconds: 96,893, Nanoseconds: 666,283,000
+Thu Oct 08 2026 19:37:47 GMT-0400 (Eastern Daylight Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -27,11 +27,11 @@ Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,5,9
 Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,5,9
 Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,5,9
 Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,5,9
-Gear_Coolant_Plant_t1_0,HeatSink,4,9
-Gear_Coolant_Plant_t2_0,HeatSink,3,7
-Gear_Coolant_Plant_t3_0,HeatSink,3,5
-Gear_Coolant_Plant_t4_0,HeatSink,3,4
-Gear_Coolant_Plant_t5_0,HeatSink,2,2
+Gear_Coolant_Plant_t1_0,HeatSink,5,9
+Gear_Coolant_Plant_t2_0,HeatSink,5,7
+Gear_Coolant_Plant_t3_0,HeatSink,4,6
+Gear_Coolant_Plant_t4_0,HeatSink,4,4
+Gear_Coolant_Plant_t5_0,HeatSink,3,3
 
 
 
@@ -157,6 +157,24 @@ Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_07x
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_07x_skirmish.json
 Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_10x_game.json
 Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Predator_AC_D-Sniper_Ammo_10x_skirmish.json
+
+Row Index: 80, Description:
+    Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.  Most Ammo Bins will explode and destroy their installed location when they receive a Critical Hit, however Ultra-Kinetic Machine Gun ammunition is made up of solid high-tech metal alloy metals engineered to have a custom-structured atomic structure, thanks to an open-standard technology developed and by Westonmach.  This solid alloy material makes up all of the rounds, and there is no casing, gunpowder, or chemical components, explosive or otherwise.  As such, there isn't any part of the ammunition to explode or burn if the ammunition or it's storage container gets damaged or even set on fire in combat, so no explosion will occur from a critical hit.
+
+    Ultra-Kinetic Machine Gun Ammo Bins may feed multiple weapons, which do not have to be installed in the same location, thanks to a battlemech's internal mechanisms which feed and transfer ammunition around inside of a battlemech's parts, like any other ammunition bins.
+
+    Westonmach ammuntion bins use magical extradimensional technology to fit their ammunition into a space smaller than the total cubic area of all of the ammunition itself.  In battlemechs, this comes at the cost of weakened total armor for the battlemech, because of the magistics that apply, however the smallest capacity ammunition box of it's type usually does not incur any such tradeoff.  Also, larger capacity ammunition bins will impair the battlemech's cooling capabilities, resulting in a small to moderate reduction in the overheating threshold and also the maximum amount of heat the battlemech can take.
+
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Defender_AC_Ammo_05x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Defender_AC_Ammo_05x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Defender_AC_Ammo_10x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Defender_AC_Ammo_10x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Defender_AC_Ammo_20x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Defender_AC_Ammo_20x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Defender_AC_Ammo_33x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Defender_AC_Ammo_33x_skirmish.json
+Wrote file: ../ammunitionBox/game/AmmunitionBox_WS_Defender_AC_Ammo_50x_game.json
+Wrote file: ../ammunitionBox/skirmish/AmmunitionBox_WS_Defender_AC_Ammo_50x_skirmish.json
 
 Weapons:
 
@@ -566,6 +584,17 @@ Wrote file: ..\weapon\game\Weapon_Holdout_Support_Laser_T4.json
 Wrote file: ..\weapon\skirmish\Weapon_Holdout_Support_Laser_T4_skirmish.json
 Wrote file: ..\weapon\game\Weapon_Holdout_Support_Laser_T5.json
 Wrote file: ..\weapon\skirmish\Weapon_Holdout_Support_Laser_T5_skirmish.json
+
+Wrote file: ..\weapon\game\Weapon_Defender_AC_T1.json
+Wrote file: ..\weapon\skirmish\Weapon_Defender_AC_T1_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Defender_AC_T2.json
+Wrote file: ..\weapon\skirmish\Weapon_Defender_AC_T2_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Defender_AC_T3.json
+Wrote file: ..\weapon\skirmish\Weapon_Defender_AC_T3_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Defender_AC_T4.json
+Wrote file: ..\weapon\skirmish\Weapon_Defender_AC_T4_skirmish.json
+Wrote file: ..\weapon\game\Weapon_Defender_AC_T5.json
+Wrote file: ..\weapon\skirmish\Weapon_Defender_AC_T5_skirmish.json
 
 Wrote file: ..\upgrades\game\Gear_Engine_Upgrade_A_Basic_T1.json
 Wrote file: ..\upgrades\skirmish\Gear_Engine_Upgrade_A_Basic_T1_skirmish.json
@@ -1224,9 +1253,9 @@ Total incomplete pilots (no file written) or errors: 0
 
 
 process.js, completed:
-Seconds: 54,340, Nanoseconds: 611,864,000
-Mon Oct 05 2026 21:06:29 GMT-0400 (Eastern Daylight Time)
+Seconds: 96,894, Nanoseconds: 347,406,500
+Thu Oct 08 2026 19:37:48 GMT-0400 (Eastern Daylight Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 641,276,300
+Elapsed program run-time, Seconds: 0, Nanoseconds: 681,123,500
 
 

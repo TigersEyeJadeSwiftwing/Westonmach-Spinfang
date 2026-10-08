@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Support T2",
     "Id": "Gear_Damage_Upgrade_Support_T2",
     "Name": "Damage Upgrade Support T2",
-    "Details": "Support weapon damage modifier: 124.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 2.0630%.\n\n",
+    "Details": "Support weapon damage modifier: 124.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +5.\nMax heat and overheating modifiers: +1.\nAdditional damage taken by unit (trade-off): 2.0630%.\n\n",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "StatName": null,

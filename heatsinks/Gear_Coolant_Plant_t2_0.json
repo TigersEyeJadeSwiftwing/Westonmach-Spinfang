@@ -1,5 +1,5 @@
 {
-    "DissipationCapacity" : 100,
+    "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 803006,
         "Rarity" : 1,
@@ -25,6 +25,45 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
+        {
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "Description" : {
+                "Id" : "StatusEffect-WS-Heat_Sinking_Coolant_Plant",
+                "Name" : "COOLANT PLANT",
+                "Details" : "This Battlemech's heat sinking is adjusted by [AMT] from one or more on-board coolant plants.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "durationData" : {
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "duration" : -1,
+                "stackLimit" : 5
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatSinkCapacity",
+                "operation" : "Int_Add",
+                "modValue" : "100",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+
         {
             "durationData" : {
                 "duration" : -1,

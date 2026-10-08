@@ -9,7 +9,7 @@
     "UIName": "Predator AC E-Lgt 3x T2",
     "Name": "Predator AC E-Lgt 3x T2",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.0875.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +2.\nAdditional damage taken by unit (trade-off): 8.2880%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.0875.\n    For 2 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +2.\nAdditional damage taken by unit (trade-off): 8.2880%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

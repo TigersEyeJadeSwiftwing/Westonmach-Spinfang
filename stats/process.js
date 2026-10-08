@@ -321,7 +321,7 @@ function FindEquipmentEffect(tag, value) {
                 if (data_type === "effect_duration")
                     effect_text_line = "    For " + (data_duration).toFixed(0) + " turns.";
                 if (data_type === "stack_limit")
-                    effect_text_line = "    Effect stacks up to " + (data_duration).toFixed(0) + " times.";
+                    effect_text_line = "    Effect stacks up to " + (data_stack).toFixed(0) + " times.";
 
                 effect_text = effect_text.Deep() + effect_text_line.Deep() + "\n";
             }
@@ -354,11 +354,11 @@ function PreFillIcFiles() {
     ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,5,9" + "\n"
     ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,5,9" + "\n"
 
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t1_0,HeatSink,4,9" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t2_0,HeatSink,3,7" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t3_0,HeatSink,3,5" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t4_0,HeatSink,3,4" + "\n"
-    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t5_0,HeatSink,2,2" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t1_0,HeatSink,5,9" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t2_0,HeatSink,5,7" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t3_0,HeatSink,4,6" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t4_0,HeatSink,4,4" + "\n"
+    ic_upgrade_mechanical = ic_upgrade_mechanical.Deep() + "Gear_Coolant_Plant_t5_0,HeatSink,3,3" + "\n"
 
     Log("");
     Log(ic_upgrade_mechanical);

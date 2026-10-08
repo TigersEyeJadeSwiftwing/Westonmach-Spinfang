@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Omni T4",
     "Id": "Gear_Damage_Upgrade_Omni_T4_skirmish",
     "Name": "Damage Upgrade Omni T4",
-    "Details": "Ballistic weapon damage modifier: 132.00%.\n    Effect stacks up to -1 times.\nEnergy weapon damage modifier: 132.00%.\n    Effect stacks up to -1 times.\nMissle / Rocket weapon damage modifier: 132.00%.\n    Effect stacks up to -1 times.\nSupport weapon damage modifier: 132.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +33.\nMax heat and overheating modifiers: +22.\nAdditional damage taken by unit (trade-off): 64.9520%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 132.00%.\n    Effect stacks up to 1 times.\nEnergy weapon damage modifier: 132.00%.\n    Effect stacks up to 1 times.\nMissle / Rocket weapon damage modifier: 132.00%.\n    Effect stacks up to 1 times.\nSupport weapon damage modifier: 132.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +33.\nMax heat and overheating modifiers: +22.\nAdditional damage taken by unit (trade-off): 64.9520%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
   "StatName": null,

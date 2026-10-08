@@ -9,7 +9,7 @@
     "UIName": "Predator AC G-Hvy 3x T1",
     "Name": "Predator AC G-Hvy 3x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1500.\n    For 4 turns.\n    Effect stacks up to 4 times.\nAdditional damage taken by unit (trade-off): 18.0000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1500.\n    For 4 turns.\n    Effect stacks up to 3 times.\nAdditional damage taken by unit (trade-off): 18.0000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",

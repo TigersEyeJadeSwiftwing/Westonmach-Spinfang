@@ -203,6 +203,7 @@
 		<Unit filename="ammunition/set_2/Ammunition_AC_Predator_Lgt.json" />
 		<Unit filename="ammunition/set_2/Ammunition_AC_Predator_Med.json" />
 		<Unit filename="ammunition/set_2/Ammunition_AC_Predator_Snp.json" />
+		<Unit filename="ammunition/set_2/Ammunition_DF_AC.json" />
 		<Unit filename="ammunition/set_2/Ammunition_MG_UltraK.json" />
 		<Unit filename="ammunition/set_2/Ammunition_RL_CrippleFang.json" />
 		<Unit filename="ammunition/set_2/Ammunition_RL_Viper2.json" />

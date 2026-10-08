@@ -8,7 +8,7 @@
     "UIName": "JJ Upgrade A Basic T5",
     "Id": "Gear_JJ_Upgrade_A_Basic_T5",
     "Name": "JJ Upgrade A Basic T5",
-    "Details": "Jumping spaces/turn: 175.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +9.\nAdditional damage taken by unit (trade-off): 20.0000%.\n\n",
+    "Details": "Jumping spaces/turn: 175.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +9.\nAdditional damage taken by unit (trade-off): 20.0000%.\n\n",
     "Icon": "uixSvgIcon_action_jump"
   },
   "StatName": null,

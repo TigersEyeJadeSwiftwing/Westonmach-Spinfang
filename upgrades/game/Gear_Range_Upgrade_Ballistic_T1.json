@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Ballistic T1",
     "Id": "Gear_Range_Upgrade_Ballistic_T1",
     "Name": "Range Upgrade Ballistic T1",
-    "Details": "Ballistic weapon range increase: +60 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +4.\n\n",
+    "Details": "Ballistic weapon range increase: +60 meters.\n    Effect stacks up to 1 times.\nHeat generated per turn: +4.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

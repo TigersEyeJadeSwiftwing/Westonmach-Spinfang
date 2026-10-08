@@ -8,7 +8,7 @@
     "UIName": "Engine Upgrade C Racer T5",
     "Id": "Gear_Engine_Upgrade_C_Racer_T5",
     "Name": "Engine Upgrade C Racer T5",
-    "Details": "Walking / Sprinting movement: 166.00%.\n    Effect stacks up to -1 times.\nMaximum stability modifier: +70.\nUnsteady threshold modifier: +70.\nCombat turn initiative bonus: +1.\n    Effect stacks up to -1 times.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +8.\nAdditional damage taken by unit (trade-off): 42.5000%.\n\n",
+    "Details": "Walking / Sprinting movement: 166.00%.\n    Effect stacks up to 2 times.\nMaximum stability modifier: +70.\nUnsteady threshold modifier: +70.\nCombat turn initiative bonus: +1.\n    Effect stacks up to 1 times.\nHeat generated per turn: +16.\nMax heat and overheating modifiers: +8.\nAdditional damage taken by unit (trade-off): 42.5000%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,

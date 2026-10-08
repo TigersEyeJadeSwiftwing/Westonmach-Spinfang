@@ -8,7 +8,7 @@
     "UIName": "Range Upgrade Energy T3",
     "Id": "Gear_Range_Upgrade_Energy_T3_skirmish",
     "Name": "Range Upgrade Energy T3",
-    "Details": "Energy weapon range increase: +180 meters.\n    Effect stacks up to -1 times.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: +3.\nAdditional damage taken by unit (trade-off): 6.4520%.\n\n",
+    "Details": "Energy weapon range increase: +180 meters.\n    Effect stacks up to 1 times.\nHeat generated per turn: +8.\nMax heat and overheating modifiers: +3.\nAdditional damage taken by unit (trade-off): 6.4520%.\n\n",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "StatName": null,

@@ -8,7 +8,7 @@
     "UIName": "Damage Upgrade Ballistic T3",
     "Id": "Gear_Damage_Upgrade_Ballistic_T3",
     "Name": "Damage Upgrade Ballistic T3",
-    "Details": "Ballistic weapon damage modifier: 136.00%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: +3.\nAdditional damage taken by unit (trade-off): 7.0710%.\n\n",
+    "Details": "Ballistic weapon damage modifier: 136.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: +3.\nAdditional damage taken by unit (trade-off): 7.0710%.\n\n",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "StatName": null,

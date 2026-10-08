@@ -9,7 +9,7 @@
     "UIName": "Cripplefang RL T5 L3",
     "Name": "Cripplefang RL T5 L3",
     "Icon": "uixSvgIcon_weapon_Missile",
-    "Details": "Stun Effect (movement distance): 72.4780%.\n    For 2 turns.\n    Effect stacks up to 2 times.\nEnemies suffer further damage when attacked: 0.6041.\n    For 2 turns.\n    Effect stacks up to 2 times.\nPersistant heat per turn to target: -15.\n    For 2 turns.\n    Effect stacks up to 2 times.\nHeat generated per turn: +39.\nMax heat and overheating modifiers: +11.\nAdditional damage taken by unit (trade-off): 8.0000%.\n\n"
+    "Details": "Stun Effect (movement distance): 72.4780%.\n    For 2 turns.\n    Effect stacks up to 10 times.\nEnemies suffer further damage when attacked: 0.6041.\n    For 2 turns.\n    Effect stacks up to 15 times.\nPersistant heat per turn to target: -15.\n    For 2 turns.\n    Effect stacks up to 15 times.\nHeat generated per turn: +39.\nMax heat and overheating modifiers: +11.\nAdditional damage taken by unit (trade-off): 8.0000%.\n\n"
   },
   "Category": "Missile",
   "Type": "LRM",

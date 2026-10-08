@@ -8,7 +8,7 @@
     "UIName": "Force Field T04",
     "Id": "Gear_Force_Field_T04",
     "Name": "Force Field T04",
-    "Details": "Damage taken, all sources: 31.2500%.\n    Effect stacks up to -1 times.\nHeat generated per turn: +15.\nMax heat and overheating modifiers: +5.\n\n",
+    "Details": "Damage taken, all sources: 31.2500%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +15.\nMax heat and overheating modifiers: +5.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
