@@ -1,0 +1,200 @@
+{
+    "Description": {
+        "Cost": 2100000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Commando",
+        "Id": "chassisdef_commando_COM-9JT",
+        "Name": "Commando",
+        "Details": "This version of the Commando sports two autocannons, backed up with a trio of machine guns.  It has a single energy weapon hardpoint to mount a backup weapon of some kind on it's gun arm, in this case with a Breaker autocannon.  The 9JT variant supports a bit more tonnage, but doesn't support rockets or missles.  It has an on-board coolant plant, and a sensor array package that lets it detect enemies from farther away and obnoxiously find and sneak up on them, coming close enough to deal pain and defeat smaller battlemechs.",
+        "Icon": "uixTxrIcon_commando"
+    },
+    "MovementCapDefID": "movedef_commando_COM-2D",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_commando",
+    "PrefabIdentifier": "chrPrfMech_commandoBase-001",
+    "PrefabBase": "commando",
+    "Tonnage": 25,
+    "InitialTonnage": 10,
+    "weightClass": "LIGHT",
+    "BattleValue": 2061000,
+    "Heatsinks": 0,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 35,
+    "MeleeInstability": 25,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 450,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 600,
+            "MaxRearArmor": 300,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 800,
+            "MaxRearArmor": 400,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 600,
+            "MaxRearArmor": 300,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "COM-9JT",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Light Fighter",
+    "YangsThoughts": "This version of the Commando sports two autocannons, backed up with a trio of machine guns.  It has a single energy weapon hardpoint to mount a backup weapon of some kind on it's gun arm, in this case with a Breaker autocannon.  The 9JT variant supports a bit more tonnage, but doesn't support rockets or missles.  It has an on-board coolant plant, and a sensor array package that lets it detect enemies from farther away and obnoxiously find and sneak up on them, coming close enough to deal pain and defeat smaller battlemechs."
+}

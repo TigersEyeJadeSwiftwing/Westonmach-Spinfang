@@ -1,0 +1,209 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Windleaf",
+        "Name": "Windleaf",
+        "Details": "Windleaf is a high-tech, Earth-gravity world with healthy and lush forests and breathtaking pollution-free oceans.  It is known for it's tourism and it's manufacturing industries which are extensive, yet don't accumulate pollution thanks to a combination of technology and government policies, as well as a population that maintains and lives by strict discipline when it comes to protecting nature and intolerance of pollution.  Pirates maintain a mild but stubborn presence here, along with a black market, although they aren't the most dangerous sort of pirates one might find across the stars.  Even the pirates, not to mention the common criminals and villians in this planet's peoples, fight to protect nature and wildlife and don't tolerate pollution.  Even the most filthy and sleazy, unethical untouchables and dishonorable few, as well as pirates and other criminals, will actually call the cops on anyone who pollutes the environment or harms wildlife, including leaving cigarette butts in grass and soil.  House Kurita also maintains a headquarters with offices here, along with warehouses and their own internal marketplaces.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -29.13,
+        "y": -458.45,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_terran",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_other_factionhq_kurita",
+            "planet_progress_1",
+            "planet_feature_moon01",
+            "planet_industry_recreation",
+            "planet_industry_mining",
+            "planet_industry_rich",
+            "planet_industry_agriculture",
+            "planet_other_blackmarket",
+            "planet_other_volcanic",
+            "planet_other_hub",
+            "planet_name_windleaf",
+            "planet_faction_kurita",
+            "planet_industry_electronics"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical",
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "tundraFrozen"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 2,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 50,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 35,
+    "SystemShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronics",
+        "itemCollection_shop_electronicsProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Windleaf",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -2,
+    "DifficultyList": [
+        -2,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "AuriganPirates",
+        "Kurita"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "Kurita"
+    ]
+}

@@ -9,7 +9,7 @@
     "UIName": "Predator AC H-Snp 3x T5",
     "Name": "Predator AC H-Snp 3x T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1667.\n    For 3 turns.\n    Effect stacks up to 6 times.\nHeat generated per turn: +60.\nMax heat and overheating modifiers: +9.\nAdditional damage taken by unit (trade-off): 19.5000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1667.\n    For 3 turns.\n    Effect stacks up to 6 times.\nHeat generated per turn: +24.\nMax heat and overheating modifiers: +12.\nAdditional damage taken by unit (trade-off): 12.5000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -36,7 +36,7 @@
   "ProjectilesPerShot": 1,
   "AccuracyModifier": -3,
   "EvasivePipsIgnored": 0,
-  "HeatGenerated": 90,
+  "HeatGenerated": 40,
   "AttackRecoil": 0,
   "RefireModifier": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2_Ultra",
@@ -87,7 +87,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -60,
+        "modValue": -24,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -9,
+        "modValue": -12,
         "modType": "System.Int32"
       }
     },
@@ -145,7 +145,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -9,
+        "modValue": -12,
         "modType": "System.Int32"
       }
     },
@@ -173,7 +173,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Add",
-        "modValue": 0.195,
+        "modValue": 0.125,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",

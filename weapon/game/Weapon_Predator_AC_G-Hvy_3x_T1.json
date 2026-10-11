@@ -9,7 +9,7 @@
     "UIName": "Predator AC G-Hvy 3x T1",
     "Name": "Predator AC G-Hvy 3x T1",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.1500.\n    For 4 turns.\n    Effect stacks up to 3 times.\nAdditional damage taken by unit (trade-off): 18.0000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.1500.\n    For 4 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +6.\nAdditional damage taken by unit (trade-off): 12.5000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -36,7 +36,7 @@
   "ProjectilesPerShot": 1,
   "AccuracyModifier": 1,
   "EvasivePipsIgnored": 0,
-  "HeatGenerated": 54,
+  "HeatGenerated": 22,
   "AttackRecoil": 0,
   "RefireModifier": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
@@ -64,6 +64,44 @@
       "effectType": "StatisticEffect",
       "nature": "Debuff",
       "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": -6,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
         "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
         "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
         "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
@@ -84,7 +122,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Add",
-        "modValue": 0.18,
+        "modValue": 0.125,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",

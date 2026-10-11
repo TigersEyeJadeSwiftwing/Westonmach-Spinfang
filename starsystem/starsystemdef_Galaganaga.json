@@ -138,7 +138,10 @@
     "FactionShopItems": [
         "itemCollection_faction_AuriganPirates",
         "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
         "itemCollection_major_Locals",
         "itemCollection_shop_researchProgression",
         "itemCollection_shop_chemicals",

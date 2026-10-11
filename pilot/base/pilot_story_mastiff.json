@@ -43,7 +43,17 @@
 	  "TraitDefUnsteadySet60",
 	  "TraitDefSprintIncrease20",
 	  "TraitDefMinRangeReduce45",
-	  "TraitDefCalledShotMaster"
+	  "TraitDefCalledShotMaster",
+
+        "TraitDef_WS_Damage_Resist_05",
+        "TraitDef_WS_Dodging_5",
+        "TraitDef_WS_Jump_Plus30",
+        "TraitDef_WS_Walk_Plus30",
+        "TraitDef_WS_Sensor_Range_03",
+        "TraitDef_WS_Weapon_Aim_Bonus_05",
+        "TraitDef_WS_Weapon_Damage_Bonus_05",
+        "TraitDef_WS_Weapon_Range_Bonus_05",
+        "TraitDefUnsteadySet40"
    ],
    "AIPersonality" : "Undefined",
    "PilotTags" : {

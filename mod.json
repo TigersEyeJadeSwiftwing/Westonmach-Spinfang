@@ -37,7 +37,8 @@
       	{ "Type": "PilotDef", "Path": "pilot", "ShouldMergeJSON": false, "AddToDB": true },
 
         { "Type": "MechDef", "Path": "mech/new", "ShouldMergeJSON": false, "AddToDB": true },
-        { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech/story", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis/new", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis_original", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
 

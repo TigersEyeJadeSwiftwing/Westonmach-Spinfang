@@ -140,6 +140,7 @@
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
+        "itemCollection_faction_Steiner",
         "itemCollection_minor_Locals",
         "itemCollection_major_Locals",
         "itemCollection_shop_electronicsProgression",
@@ -158,6 +159,7 @@
         "itemCollection_shop_battlefieldProgression"
     ],
     "BlackMarketShopItems": [
+        "itemCollection_faction_Steiner",
         "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
         "itemCollection_major_Locals",

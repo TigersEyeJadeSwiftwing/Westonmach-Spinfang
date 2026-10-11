@@ -129,7 +129,12 @@
     "UseMaxContractOverride": true,
     "MaxContractOverride": 25,
     "SystemShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
         "itemCollection_shop_manufacturing",
         "itemCollection_shop_mining",
         "itemCollection_shop_miningProgression",
@@ -139,6 +144,9 @@
     "factionShopOwnerID": "Davion",
     "FactionShopItems": [
         "itemCollection_faction_Davion",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
         "itemCollection_shop_manufacturing",
         "itemCollection_shop_mining",
@@ -147,6 +155,9 @@
         "itemCollection_shop_battlefield"
     ],
     "BlackMarketShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
         "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
         "itemCollection_shop_manufacturing",

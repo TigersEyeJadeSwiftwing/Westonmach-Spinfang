@@ -1,0 +1,251 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_ready",
+            "unit_lance_support",
+            "unit_role_sniper",
+			"unit_range_long",
+			"unit_range_short",
+			"unit_jumpOK",
+			"unit_armor_high",
+			"Kurita",
+			"NotLiao",
+			"NotMarik",
+			"NotMagistracyOfCanopus",
+			"NotTaurianConcordat"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_panther_PNT-TH7",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 3590000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Panther PNT-TH7",
+        "Id": "mechdef_panther_PNT-TH7",
+        "Name": "Panther",
+        "Details": "The Panther TH7 variant trades all energy weapons for two single medium Predator autocannons, and has two long-range Viper-9 rocket launchers that are both moved to it's left arm.  It has jump jets and enhanced sensors to pick up long-range targets from farther away, and a coolant plant to keep it's heat levels low even when stressed by attacking with an alpha strike.  It also has higher overall tonnage than the normal version, sporting heavier armor and doing a bit better in melee combat.  Overall, with it's weapons changed around a bit, this 'mech is flexible in what it can be made for.",
+        "Icon": "uixTxrIcon_panther"
+    },
+    "simGameMechPartCost": 360000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 165,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 165,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 225,
+            "CurrentRearArmor": 125,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 225,
+            "AssignedRearArmor": 125
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 300,
+            "CurrentRearArmor": 150,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 300,
+            "AssignedRearArmor": 150
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 225,
+            "CurrentRearArmor": 125,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 225,
+            "AssignedRearArmor": 125
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_04x_game",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Coolant_Plant_t1_0",
+            "SimGameUID" : "",
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Sensor_Array_Package_T1",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+
+        {
+            "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "Weapon_Viper-9_RL_T1_L1",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Weapon",
+            "HardpointSlot" : 0,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "Weapon_Viper-9_RL_T1_L1",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Weapon",
+            "HardpointSlot" : 1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "AmmunitionBox_WS_Viper-9_Rockets_04x_game",
+            "SimGameUID" : "",
+            "ComponentDefType" : "AmmunitionBox",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+
+    ]
+}

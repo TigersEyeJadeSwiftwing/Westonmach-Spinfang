@@ -21,11 +21,11 @@ Engine Upgrade C Racer T3,3,13.2,0.0625,6 4 0.21006,1,199143,140% Walk/Sprint,+1
 Engine Upgrade C Racer T4,4,13.2,0.0625,10 5 0.30847,1,332883,153% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.52800 +STABILITY_ENGINE1`56 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`1`4
 Engine Upgrade C Racer T5,5,13.2,0.0625,16 8 0.42500,1,520120,166% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.66000 +STABILITY_ENGINE1`70 +INIT_ENGINE1`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`1`3
 ,,,,,,,,,,,,,,
-Engine Upgrade D Ultra T1,1,17,0.0625,8 5 0.12500,2,191020,117% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.17000 +STABILITY_ENGINE2`30 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`3`9
-Engine Upgrade D Ultra T2,2,17,0.0625,9 5 0.19375,2,238491,134% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.34000 +STABILITY_ENGINE2`60 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`2`7
-Engine Upgrade D Ultra T3,3,17,0.0625,12 7 0.31945,2,380905,151% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.51000 +STABILITY_ENGINE2`90 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`2`5
-Engine Upgrade D Ultra T4,4,17,0.0625,18 9 0.48224,2,618261,168% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.68000 +STABILITY_ENGINE2`120 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`1`4
-Engine Upgrade D Ultra T5,5,17,0.0625,25 12 0.67500,2,950560,185% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.85000 +STABILITY_ENGINE2`150 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`1`3
+Engine Upgrade D Ultra T1,1,17,0.0625,8 5 0.12500,1,191020,117% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.17000 +STABILITY_ENGINE2`30 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`3`9
+Engine Upgrade D Ultra T2,2,17,0.0625,9 5 0.19375,1,238491,134% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.34000 +STABILITY_ENGINE2`60 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`2`7
+Engine Upgrade D Ultra T3,3,17,0.0625,12 7 0.31945,1,380905,151% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.51000 +STABILITY_ENGINE2`90 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`2`5
+Engine Upgrade D Ultra T4,4,17,0.0625,18 9 0.48224,1,618261,168% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.68000 +STABILITY_ENGINE2`120 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`1`4
+Engine Upgrade D Ultra T5,5,17,0.0625,25 12 0.67500,1,950560,185% Walk/Sprint,+1 Initiative Bonus,+ENGINE2`1.85000 +STABILITY_ENGINE2`150 +INIT_ENGINE2`-1,CT LT RT,action_evasivemove,SF,Engine Speed Upgrade,upgrade_mechanical`1`3
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,

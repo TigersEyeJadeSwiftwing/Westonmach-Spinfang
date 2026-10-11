@@ -9,7 +9,7 @@
     "UIName": "Predator AC G-Hvy 3x T5",
     "Name": "Predator AC G-Hvy 3x T5",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.6000.\n    For 4 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +108.\nMax heat and overheating modifiers: +18.\nAdditional damage taken by unit (trade-off): 36.0000%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.6000.\n    For 4 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +48.\nMax heat and overheating modifiers: +16.\nAdditional damage taken by unit (trade-off): 17.5000%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -36,7 +36,7 @@
   "ProjectilesPerShot": 1,
   "AccuracyModifier": -3,
   "EvasivePipsIgnored": 0,
-  "HeatGenerated": 180,
+  "HeatGenerated": 75,
   "AttackRecoil": 0,
   "RefireModifier": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
@@ -89,7 +89,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -108,
+        "modValue": -48,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -121,7 +121,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -18,
+        "modValue": -16,
         "modType": "System.Int32"
       }
     },
@@ -147,7 +147,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -18,
+        "modValue": -16,
         "modType": "System.Int32"
       }
     },
@@ -175,7 +175,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Add",
-        "modValue": 0.36,
+        "modValue": 0.175,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",

@@ -222,6 +222,9 @@
 		<Unit filename="chassis/chassisdef_pest_P-7.json" />
 		<Unit filename="chassis/chassisdef_pest_P-7A.json" />
 		<Unit filename="chassis/chassisdef_wrathful_WRT-16.json" />
+		<Unit filename="chassis/new/chassisdef_commando_COM-9JT.json" />
+		<Unit filename="chassis/new/chassisdef_panther_PNT-TH7.json" />
+		<Unit filename="chassis/new/chassisdef_spider_SDR-IH4.json" />
 		<Unit filename="chassis_original/chassisdef_annihilator_ANH-1A.json" />
 		<Unit filename="chassis_original/chassisdef_annihilator_ANH-JH.json" />
 		<Unit filename="chassis_original/chassisdef_archer_ARC-2R.json" />
@@ -372,6 +375,10 @@
 		<Unit filename="item_collections_WS_append/itemCollection_shop_miningProgression.csv" />
 		<Unit filename="item_collections_WS_append/itemCollection_shop_research.csv" />
 		<Unit filename="item_collections_WS_append/itemCollection_shop_researchProgression.csv" />
+		<Unit filename="item_collections_WS_append/itemCollection_systemStores_MechParts_BlackMarket_Light.csv" />
+		<Unit filename="item_collections_WS_append/itemCollection_systemStores_MechParts_common_Light.csv" />
+		<Unit filename="item_collections_WS_append/itemCollection_systemStores_Mechs_BlackMarket_Light.csv" />
+		<Unit filename="item_collections_WS_append/itemCollection_systemStores_Mechs_common_Light.csv" />
 		<Unit filename="jumpjets/Gear_JumpJet_Generic_Assault.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Generic_Heavy.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Generic_Mega.json" />
@@ -382,8 +389,12 @@
 		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Medium.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Elite_Ultra.json" />
 		<Unit filename="jumpjets/Gear_JumpJet_Spinfang_Omni.json" />
-		<Unit filename="mech/story/mechdef_atlas_AS7-D-HT.json" />
+		<Unit filename="mech/new/mechdef_commando_COM-9JT.json" />
+		<Unit filename="mech/new/mechdef_panther_PNT-TH7.json" />
+		<Unit filename="mech/new/mechdef_spider_SDR-IH4.json" />
 		<Unit filename="mech/story/mechdef_highlander_HGN-732b.json" />
+		<Unit filename="mech/temp/mechdef_atlas_AS7-D-HT.json" />
+		<Unit filename="mech/temp/mechdef_highlander_HGN-732b.json" />
 		<Unit filename="mech/ws/mechdef_bazooka_BZ-WS1.json" />
 		<Unit filename="mech/ws/mechdef_catapult_CPLT-WS.json" />
 		<Unit filename="mech/ws/mechdef_centurion_CN9-WS.json" />
@@ -760,6 +771,7 @@
 		<Unit filename="starsystem/starsystemdef_Tal_Tengar.json" />
 		<Unit filename="starsystem/starsystemdef_Tal_Tinlan.json" />
 		<Unit filename="starsystem/starsystemdef_Windland.json" />
+		<Unit filename="starsystem/starsystemdef_Windleaf.json" />
 		<Unit filename="starsystem/starsystemdef_Wynsprach.json" />
 		<Unit filename="starsystem_base/starsystemdef_Addasar.json" />
 		<Unit filename="starsystem_base/starsystemdef_Adrar.json" />

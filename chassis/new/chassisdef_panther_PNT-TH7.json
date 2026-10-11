@@ -1,0 +1,196 @@
+{
+    "Description": {
+        "Cost": 2800000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Panther",
+        "Id": "chassisdef_panther_PNT-TH7",
+        "Name": "Panther",
+        "Details": "The Panther TH7 variant trades all energy weapons for two single medium Predator autocannons, and has two long-range Viper-9 rocket launchers that are both moved to it's left arm.  It has jump jets and enhanced sensors to pick up long-range targets from farther away, and a coolant plant to keep it's heat levels low even when stressed by attacking with an alpha strike.  It also has higher overall tonnage than the normal version, sporting heavier armor and doing a bit better in melee combat.  Overall, with it's weapons changed around a bit, this 'mech is flexible in what it can be made for.",
+        "Icon": "uixTxrIcon_panther"
+    },
+    "MovementCapDefID": "movedef_panther_PNT-9R",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_panther",
+    "PrefabIdentifier": "chrPrfMech_pantherBase-001",
+    "PrefabBase": "panther",
+    "Tonnage": 38,
+    "InitialTonnage": 13,
+    "weightClass": "LIGHT",
+    "BattleValue": 3087000,
+    "Heatsinks": 0,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 55,
+    "MeleeInstability": 40,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 50,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 45,
+    "DFAInstability": 50,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 1,
+            "InventorySlots": 1,
+            "MaxArmor": 600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1000,
+            "MaxRearArmor": 600,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1400,
+            "MaxRearArmor": 800,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1000,
+            "MaxRearArmor": 600,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 12,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "PNT-TH7",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Multi-Purpose Fighter",
+    "YangsThoughts": "The Panther TH7 variant trades all energy weapons for two single medium Predator autocannons, and has two long-range Viper-9 rocket launchers that are both moved to it's left arm.  It has jump jets and enhanced sensors to pick up long-range targets from farther away, and a coolant plant to keep it's heat levels low even when stressed by attacking with an alpha strike.  It also has higher overall tonnage than the normal version, sporting heavier armor and doing a bit better in melee combat.  Overall, with it's weapons changed around a bit, this 'mech is flexible in what it can be made for."
+}

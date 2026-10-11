@@ -9,7 +9,7 @@
     "UIName": "Predator AC F-Med 3x T4",
     "Name": "Predator AC F-Med 3x T4",
     "Icon": "uixSvgIcon_weapon_Ballistic",
-    "Details": "Enemies suffer further damage when attacked: 0.3250.\n    For 3 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +41.\nMax heat and overheating modifiers: +7.\nAdditional damage taken by unit (trade-off): 19.5190%.\n\n"
+    "Details": "Enemies suffer further damage when attacked: 0.3250.\n    For 3 turns.\n    Effect stacks up to 3 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +6.\nAdditional damage taken by unit (trade-off): 13.2480%.\n\n"
   },
   "Category": "Ballistic",
   "Type": "Autocannon",
@@ -36,7 +36,7 @@
   "ProjectilesPerShot": 1,
   "AccuracyModifier": -2,
   "EvasivePipsIgnored": 0,
-  "HeatGenerated": 99,
+  "HeatGenerated": 42,
   "AttackRecoil": 0,
   "RefireModifier": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Ultra",
@@ -89,7 +89,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -41,
+        "modValue": -20,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -121,7 +121,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -7,
+        "modValue": -6,
         "modType": "System.Int32"
       }
     },
@@ -147,7 +147,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -7,
+        "modValue": -6,
         "modType": "System.Int32"
       }
     },
@@ -175,7 +175,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Add",
-        "modValue": 0.19519,
+        "modValue": 0.13248,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
