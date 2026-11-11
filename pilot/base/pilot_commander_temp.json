@@ -1,0 +1,53 @@
+{
+   "Description" : {
+      "Id" : "pilot_commander_temp",
+      "Name" : "Arclight",
+      "FirstName" : "Nicolette",
+      "LastName" : "McKinney",
+      "Callsign" : "Arclight",
+      "Gender" : "Female",
+      "factionID" : "MagistracyOfCanopus",
+      "Age" : 30,
+      "Details" : "A former Solaris 7 Gladiator, fallen from noble birth.",
+      "Icon" : "Arclight"
+   },
+   "BaseGunnery" : 4,
+   "BonusGunnery" : 0,
+   "BasePiloting" : 2,
+   "BonusPiloting" : 0,
+   "BaseGuts" : 3,
+   "BonusGuts" : 0,
+   "BaseTactics" : 2,
+   "BonusTactics" : 0,
+   "ExperienceUnspent" : 0,
+   "ExperienceSpent" : 0,
+   "Injuries" : 0,
+   "Health" : 8,
+   "LethalInjury" : false,
+   "Incapacitated" : false,
+   "Morale" : 0,
+   "Voice" : "",
+   "abilityDefNames" : [
+        "TraitDef_WS_Damage_Resist_05",
+        "TraitDef_WS_Dodging_2",
+        "TraitDef_WS_Walk_Plus50",
+        "TraitDef_WS_Sprint_Plus50",
+        "TraitDef_WS_Jump_Plus50",
+        "TraitDef_WS_Sensor_Range_01",
+        "TraitDef_WS_Weapon_Aim_Bonus_05",
+        "TraitDef_WS_Weapon_Damage_Bonus_05",
+        "TraitDef_WS_Weapon_Range_Bonus_05"
+   ],
+   "AIPersonality" : "Undefined",
+   "PilotTags" : {
+      "items" : [
+		"BLACKLISTED",
+		"commander_player",
+         "pilot_taurian",
+         "pilot_tech",
+         "pilot_spacer"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "PilotCost" : 0
+}

@@ -128,18 +128,6 @@
                                 },
                                 {
                                     "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Plastic_Splash",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Power_Dive",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
                                     "value" : "pilot_ws_Prismatic_Cougar",
                                     "valueConstant" : null,
                                     "additionalValues" : null
@@ -147,54 +135,6 @@
                                 {
                                     "Type" : "MechWarrior_AddRoster",
                                     "value" : "pilot_ws_Rage_Fire",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Screwdriver",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Skin_Peeler",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Slamdancer",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Space_Case",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Spaghetti",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Superphotonic",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Thrustheavy",
-                                    "valueConstant" : null,
-                                    "additionalValues" : null
-                                },
-                                {
-                                    "Type" : "MechWarrior_AddRoster",
-                                    "value" : "pilot_ws_Wild_Boy",
                                     "valueConstant" : null,
                                     "additionalValues" : null
                                 }
@@ -223,5 +163,5 @@
     "PublishState" : "PUBLISHED",
     "ValidationState" : "UNTESTED",
     "EventType" : "NORMAL",
-    "OneTimeEvent" : false
+    "OneTimeEvent" : true
 }

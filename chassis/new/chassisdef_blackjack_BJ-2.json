@@ -1,0 +1,234 @@
+{
+    "Description": {
+        "Cost": 4000000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Blackjack",
+        "Id": "chassisdef_blackjack_BJ-2",
+        "Name": "Blackjack",
+        "Details": "The Blackjack's version 2 battlemechs are rock-solid and serious mainstay patrol and combat battlemechs, supporting many Predator autocannons at a time along with a number of Viper-2 short-range rockets, and some machineguns as an extra touch of sweet hot lethality.  With beefed-up armor and support for up to a tough 59 tons, this variant means serious business for a medium class battlemech, and is top-tier for such.  It also has reinforced and redesigned internal structure, that can take more of a beating.  However, unlike the version 1, this variant doesn't support any energy weapons, unless you like small lasers or something for support weapons you put on it.",
+        "Icon": "uixTxrIcon_blackjack"
+    },
+    "MovementCapDefID": "movedef_blackjack_BJ-2",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_blackjack",
+    "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
+    "PrefabBase": "blackjack",
+    "Tonnage": 59,
+    "InitialTonnage": 8.0,
+    "weightClass": "MEDIUM",
+    "BattleValue": 4567000,
+    "Heatsinks": 0,
+    "TopSpeed": 600,
+    "TurnRadius": 135,
+    "MaxJumpjets": 8,
+    "Stability": 180,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 45,
+    "MeleeInstability": 50,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 60,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 50,
+    "DFAInstability": 60,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 24
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1400,
+            "MaxRearArmor": 800,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1600,
+            "MaxRearArmor": 1000,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1400,
+            "MaxRearArmor": 800,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "BJ-2",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Frontline Patrol & Combat",
+    "YangsThoughts": "The Blackjack's version 2 battlemechs are rock-solid and serious mainstay patrol and combat battlemechs, supporting many Predator autocannons at a time along with a number of Viper-2 short-range rockets, and some machineguns as an extra touch of sweet hot lethality.  With beefed-up armor and support for up to a tough 59 tons, this variant means serious business for a medium class battlemech, and is top-tier for such.  It also has reinforced and redesigned internal structure, that can take more of a beating.  However, unlike the version 1, this variant doesn't support any energy weapons, unless you like small lasers or something for support weapons you put on it."
+}

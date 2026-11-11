@@ -1,0 +1,247 @@
+{
+    "Description": {
+        "Cost": 12800000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Highlander",
+        "Id": "chassisdef_highlander_HGN-W300",
+        "Name": "Highlander",
+        "Details": "The Highlander W300, or \"Warrior 300\", is a 110 ton variant of the Highlander battlemech that can mount up to four ballistic weapons and plenty of rocket or missle launchers, and really take a beating with it's support for a lot of armor.  With it's high tonnage it also has superior support for some serious weaponry.  It can do more melee damage than the standard Highlander battlemech, and supports two jump jets.",
+        "Icon": "uixTxrIcon_highlander"
+    },
+    "MovementCapDefID": "movedef_highlander_HGN-733",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_highlander",
+    "PrefabIdentifier": "chrPrfMech_highlanderBase-001",
+    "PrefabBase": "highlander",
+    "Tonnage": 110,
+    "InitialTonnage": 26,
+    "weightClass": "ASSAULT",
+    "BattleValue": 13642000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 350,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 180,
+    "MeleeInstability": 160,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 180,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 20,
+    "DFAInstability": 180,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 950,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1900,
+            "MaxRearArmor": 950,
+            "InternalStructure": 95
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2900,
+            "MaxRearArmor": 1450,
+            "InternalStructure": 145
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1900,
+            "MaxRearArmor": 950,
+            "InternalStructure": 95
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1600,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1900,
+            "MaxRearArmor": -1,
+            "InternalStructure": 95
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1900,
+            "MaxRearArmor": -1,
+            "InternalStructure": 95
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "HGN-W300",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut & Heavy Cavalry",
+    "YangsThoughts": "The Highlander W300, or \"Warrior 300\", is a 110 ton variant of the Highlander battlemech that can mount up to four ballistic weapons and plenty of rocket or missle launchers, and really take a beating with it's support for a lot of armor.  With it's high tonnage it also has superior support for some serious weaponry.  It can do more melee damage than the standard Highlander battlemech, and supports two jump jets.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_General_GM_Ballistic_Siege_Compensators",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
+}

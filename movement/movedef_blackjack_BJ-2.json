@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_blackjack_BJ-2",
+      "Name" : "MovementCapabilitiesDef for Blackjack BJ-2",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 200.0,
+   "MaxSprintDistance" : 380.0,
+   "WalkVelocity" : 24.0,
+   "RunVelocity" : 42.0,
+   "SprintVelocity" : 48.0,
+   "LimpVelocity" : 12.0,
+   "WalkAcceleration" : 40.0,
+   "SprintAcceleration" : 60.0,
+   "MaxRadialVelocity" : 120.0,
+   "MaxRadialAcceleration" : 360.0,
+   "MaxJumpVel" : 400.0,
+   "MaxJumpAccel" : 50.0,
+   "MaxJumpVerticalAccel" : 100.0
+}

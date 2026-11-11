@@ -1,0 +1,237 @@
+{
+    "Description": {
+        "Cost": 5200000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Rifleman",
+        "Id": "chassisdef_rifleman_RFL-5BT",
+        "Name": "Rifleman",
+        "Details": "The Rifleman's 5BT variant features a redesign which will blow you away, as it offers a heavy-duty four ballistic weapons per each arm, with support on both sides of the torso for missles or rockets, for superior firepower.  It doesn't leave any room for energy or support weapons.  It's beefed-up chassis supports up to six jump jets for increased mobility.  This battlemech can be a monster on the field, at least when it comes to firepower.  It also supports additional tonnage, which translates into heavier ballistic weapons and more armor.",
+        "Icon": "uixTxrIcon_rifleman"
+    },
+    "MovementCapDefID": "movedef_rifleman_RFL-3C",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_rifleman",
+    "PrefabIdentifier": "chrPrfMech_riflemanBase-001",
+    "PrefabBase": "rifleman",
+    "Tonnage": 72,
+    "InitialTonnage": 12.0,
+    "weightClass": "HEAVY",
+    "Heatsinks": 0,
+    "MaxJumpjets": 8,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 70,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 85,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 50,
+    "DFAInstability": 85,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 24
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1400,
+            "MaxRearArmor": 700,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2000,
+            "MaxRearArmor": 1000,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1400,
+            "MaxRearArmor": 700,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1400,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0.5
+        },
+        {
+            "x": 4.5,
+            "y": 13,
+            "z": -0.5
+        },
+        {
+            "x": -4.5,
+            "y": 13,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0.5
+        },
+        {
+            "x": 4.5,
+            "y": 13,
+            "z": -0.5
+        },
+        {
+            "x": -4.5,
+            "y": 13,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 5,
+            "z": 1.25
+        },
+        {
+            "x": -2.5,
+            "y": 5,
+            "z": 1.25
+        }
+    ],
+    "VariantName": "RFL-5BT",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper & Frontline Fighter",
+    "YangsThoughts": "The Rifleman's 5BT variant features a redesign which will blow you away, as it offers a heavy-duty four ballistic weapons per each arm, with support on both sides of the torso for missles or rockets, for superior firepower.  It doesn't leave any room for energy or support weapons.  It's beefed-up chassis supports up to six jump jets for increased mobility.  This battlemech can be a monster on the field, at least when it comes to firepower.  It also supports additional tonnage, which translates into heavier ballistic weapons and more armor.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "Head",
+            "ComponentDefID" : "Gear_General_Rangefinder_Suite",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
+}

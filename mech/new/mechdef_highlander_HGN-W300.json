@@ -1,0 +1,298 @@
+{
+    "ChassisID": "chassisdef_highlander_HGN-W300",
+    "Description": {
+        "Cost": 58350000,
+        "Details": "The Highlander W300, or \"Warrior 300\", is a 110 ton variant of the Highlander battlemech that can mount up to four ballistic weapons and plenty of rocket or missle launchers, and really take a beating with it's support for a lot of armor.  With it's high tonnage it also has superior support for some serious weaponry.  It can do more melee damage than the standard Highlander battlemech, and supports two jump jets.",
+        "Icon": "uixTxrIcon_highlander",
+        "Id": "mechdef_highlander_HGN-W300",
+        "Manufacturer": null,
+        "Model": null,
+        "Name": "Highlander",
+        "Purchasable": true,
+        "Rarity": 4,
+        "UIName": "Highlander HGN-W300"
+    },
+    "HeraldryID": null,
+    "Locations": [
+        {
+            "AssignedArmor": 625,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 625,
+            "CurrentInternalStructure": 16,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "Head"
+        },
+        {
+            "AssignedArmor": 925,
+            "AssignedRearArmor": 525,
+            "CurrentArmor": 925,
+            "CurrentInternalStructure": 145,
+            "CurrentRearArmor": 525,
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso"
+        },
+        {
+            "AssignedArmor": 725,
+            "AssignedRearArmor": 325,
+            "CurrentArmor": 725,
+            "CurrentInternalStructure": 95,
+            "CurrentRearArmor": 325,
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso"
+        },
+        {
+            "AssignedArmor": 725,
+            "AssignedRearArmor": 325,
+            "CurrentArmor": 725,
+            "CurrentInternalStructure": 95,
+            "CurrentRearArmor": 325,
+            "DamageLevel": "Functional",
+            "Location": "RightTorso"
+        },
+        {
+            "AssignedArmor": 525,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 525,
+            "CurrentInternalStructure": 75,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "LeftArm"
+        },
+        {
+            "AssignedArmor": 525,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 525,
+            "CurrentInternalStructure": 75,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "RightArm"
+        },
+        {
+            "AssignedArmor": 525,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 525,
+            "CurrentInternalStructure": 95,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg"
+        },
+        {
+            "AssignedArmor": 525,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 525,
+            "CurrentInternalStructure": 95,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "RightLeg"
+        }
+    ],
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_release",
+            "unit_range_medium",
+            "unit_indirectFire",
+            "unit_jumpOK",
+            "unit_speed_low",
+            "unit_armor_high",
+            "Liao",
+            "Steiner"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Version": 1,
+    "inventory": [
+        {
+            "ComponentDefID": "Gear_JumpJet_Generic_Mega",
+            "ComponentDefType": "JumpJet",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_JumpJet_Generic_Mega",
+            "ComponentDefType": "JumpJet",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "CenterTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "CenterTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Viper-9_RL_T1_L3",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Viper-9_RL_T1_L3",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 1,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Viper-9_RL_T1_L3",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 2,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Ion_Magi-AC_A-Light_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Ion_Magi-AC_A-Light_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 1,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Ion_Magi-AC_A-Light_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 2,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "AmmunitionBox_WS_Viper-9_Rockets_02x_game",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        }
+    ],
+    "simGameMechPartCost": 1380000
+}

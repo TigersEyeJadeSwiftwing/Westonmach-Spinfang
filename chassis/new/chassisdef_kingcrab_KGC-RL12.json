@@ -1,0 +1,260 @@
+{
+    "Description": {
+        "Cost": 13200000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "King Crab",
+        "Id": "chassisdef_kingcrab_KGC-RL12",
+        "Name": "King Crab",
+        "Details": "Designed to rule as the leader of a pack, the King Crab Royal 12 version of the King crab features a large number of long-range rockets, dual pairs of ballistic hardpoints that are equipped with a total of four predator cannons, and also a ballistic seige computer borrowed from the Annihilator and a battle-coordination coms system computer borrowed from the Cyclops, making it a very powerful command battlemech to lead and coordinate other battlemechs on the battlefield at 120 tons.  With elite jump-jets, that magically lighten overall tonnage for more support for armor and equipment, it has a large amount of armor.  That, and it's internal structure is reinforced and superior to that of any battlemech of only 100 tons and lighter, including the 0000 model.",
+        "Icon": "uixTxrIcon_kingcrab"
+    },
+    "MovementCapDefID": "movedef_kingcrab_KGC-0000",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_kingcrab",
+    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+    "PrefabBase": "kingcrab",
+    "Tonnage": 120,
+    "InitialTonnage": 25,
+    "weightClass": "ASSAULT",
+    "BattleValue": 13206000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 500,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.2,
+    "VisibilityMultiplier": 1.2,
+    "SensorRangeMultiplier": 1.2,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 200,
+    "MeleeInstability": 200,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 200,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 50,
+    "DFAInstability": 50,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 1200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 300
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 3000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 170
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 4000,
+            "MaxRearArmor": 2500,
+            "InternalStructure": 280
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 6000,
+            "MaxRearArmor": 4000,
+            "InternalStructure": 320
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 4000,
+            "MaxRearArmor": 2500,
+            "InternalStructure": 280
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 3000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 170
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 3000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 250
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 3000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 250
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": -1
+        }
+    ],
+    "VariantName": "KGC-RL12",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut & Close Assault",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_General_GM_Ballistic_Siege_Compensators",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ],
+    "YangsThoughts": "Designed to rule as the leader of a pack, the King Crab Royal 12 version of the King crab features a large number of long-range rockets, dual pairs of ballistic hardpoints that are equipped with a total of four predator cannons, and also a ballistic seige computer borrowed from the Annihilator and a battle-coordination coms system computer borrowed from the Cyclops, making it a very powerful command battlemech to lead and coordinate other battlemechs on the battlefield at 120 tons.  With elite jump-jets, that magically lighten overall tonnage for more support for armor and equipment, it has a large amount of armor.  That, and it's internal structure is reinforced and superior to that of any battlemech of only 100 tons and lighter, including the 0000 model."
+}

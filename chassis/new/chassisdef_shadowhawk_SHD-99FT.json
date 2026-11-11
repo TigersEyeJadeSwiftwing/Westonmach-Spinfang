@@ -1,0 +1,231 @@
+{
+    "Description": {
+        "Cost": 5600000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Shadow Hawk",
+        "Id": "chassisdef_shadowhawk_SHD-99FT",
+        "Name": "Shadow Hawk",
+        "Details": "The Shadow Hawk 99FT variant is based upon the 2H model, but is lighter yet stronger, made to support more tonnage and more armor, only needs up to four jump jets instead of five, mounts more rockets and missles, and instead of any energy or support weapons it mounts two more ballistic weapons on one arm, making it one heck of a warrior for a medium battlemech at 58 tons.  Although all of the weapons it supports require ammunition, it can be still be customized for various roles, and prove itself quite valuable.  I would get one or two of these if they are available somewhere.",
+        "Icon": "uixTxrIcon_shadowhawk"
+    },
+    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_shadowhawk",
+    "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
+    "PrefabBase": "shadowhawk",
+    "Tonnage": 58,
+    "InitialTonnage": 15,
+    "weightClass": "MEDIUM",
+    "BattleValue": 5171000,
+    "Heatsinks": 0,
+    "TopSpeed": 80,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 85,
+    "MeleeInstability": 55,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 70,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 24
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1600,
+            "MaxRearArmor": 800,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 2400,
+            "MaxRearArmor": 1200,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 1600,
+            "MaxRearArmor": 800,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 1000,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 1800,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "SHD-99FT",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Multi-Role Combat",
+    "YangsThoughts": "The Shadow Hawk 99FT variant is based upon the 2H model, but is lighter yet stronger, made to support more tonnage and more armor, only needs up to four jump jets instead of five, mounts more rockets and missles, and instead of any energy or support weapons it mounts two more ballistic weapons on one arm, making it one heck of a warrior for a medium battlemech at 58 tons.  Although all of the weapons it supports require ammunition, it can be still be customized for various roles, and prove itself quite valuable.  I would get one or two of these if they are available somewhere."
+}

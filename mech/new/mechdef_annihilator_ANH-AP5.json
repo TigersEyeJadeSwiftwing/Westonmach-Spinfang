@@ -1,0 +1,342 @@
+{
+    "ChassisID": "chassisdef_annihilator_ANH-AP5",
+    "Description": {
+        "Cost": 31220000,
+        "Details": "The Annihilator's AP5 variant doesn't have it's weapon hardpoints randomly scattered in a chaotic mess of a hodge-podge mess of a placement system, but instead has it's weapons neatly organized in a symmetrical and organized layout and placement.  It also has more advanced weapons and equipment, including an integrated battle computer in the mid-torso area that coordinates actions of the entire lance and grants an initiative bonus to itself and all allies.  It is unstoppable with a staggering amount of armor.",
+        "Icon": "uixTxrIcon_annihilator",
+        "Id": "mechdef_annihilator_ANH-AP5",
+        "Manufacturer": null,
+        "Model": null,
+        "Name": "Annihilator",
+        "Purchasable": true,
+        "Rarity": 2,
+        "UIName": "Annihilator ANH-AP5"
+    },
+    "HeraldryID": null,
+    "Locations": [
+        {
+            "AssignedArmor": 600,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 600,
+            "CurrentInternalStructure": 16,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "Head"
+        },
+        {
+            "AssignedArmor": 1245,
+            "AssignedRearArmor": 525,
+            "CurrentArmor": 1245,
+            "CurrentInternalStructure": 155,
+            "CurrentRearArmor": 525,
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso"
+        },
+        {
+            "AssignedArmor": 795,
+            "AssignedRearArmor": 320,
+            "CurrentArmor": 795,
+            "CurrentInternalStructure": 105,
+            "CurrentRearArmor": 320,
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso"
+        },
+        {
+            "AssignedArmor": 795,
+            "AssignedRearArmor": 320,
+            "CurrentArmor": 795,
+            "CurrentInternalStructure": 105,
+            "CurrentRearArmor": 320,
+            "DamageLevel": "Functional",
+            "Location": "RightTorso"
+        },
+        {
+            "AssignedArmor": 620,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 620,
+            "CurrentInternalStructure": 85,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "LeftArm"
+        },
+        {
+            "AssignedArmor": 620,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 620,
+            "CurrentInternalStructure": 85,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "RightArm"
+        },
+        {
+            "AssignedArmor": 620,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 620,
+            "CurrentInternalStructure": 105,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg"
+        },
+        {
+            "AssignedArmor": 620,
+            "AssignedRearArmor": 0,
+            "CurrentArmor": 620,
+            "CurrentInternalStructure": 105,
+            "CurrentRearArmor": 0,
+            "DamageLevel": "Functional",
+            "Location": "RightLeg"
+        }
+    ],
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_release",
+            "unit_ready",
+            "unit_role_sniper",
+            "unit_range_medium",
+            "unit_speed_low",
+            "Davion",
+            "Kurita",
+            "Liao",
+            "Marik",
+            "Steiner"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Version": 1,
+    "inventory": [
+        {
+            "ComponentDefID": "Gear_JumpJet_Spinfang_Elite_Assault",
+            "ComponentDefType": "JumpJet",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_JumpJet_Spinfang_Elite_Assault",
+            "ComponentDefType": "JumpJet",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Enforcer_UK-MG_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "RightTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Enforcer_UK-MG_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "LeftTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 1,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 2,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 1,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Predator_AC_B-Med_1x_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 2,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Breaker_Cannon_B-Medium_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 3,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Breaker_Cannon_B-Medium_T1",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 3,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_07x_game",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "AmmunitionBox_WS_Predator_AC_B-Medium_Ammo_07x_game",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "AmmunitionBox_WS_UK-MG_Ammo_09x_game",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "AmmunitionBox_WS_UK-MG_Ammo_09x_game",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t3_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t3_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t5_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Coolant_Plant_t4_0",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "CenterTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        }
+    ],
+    "simGameMechPartCost": 1130000
+}

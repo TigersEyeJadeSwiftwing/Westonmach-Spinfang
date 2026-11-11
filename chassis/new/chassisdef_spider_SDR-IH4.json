@@ -8,7 +8,7 @@
         "UIName": "Spider",
         "Id": "chassisdef_spider_SDR-IH4",
         "Name": "Spider",
-        "Details": "The Spider's IH4 variant has two ballistic hardpoints, twin-terror heavy ion magi-autocannons, and four machine guns, although it supports up to six support weapons.  It has more overall available tonnage, which is good for better, thicker armor, and retains the usual super-maneuverable engines and jump jets, making it very capable of walking and jumping in and back out of short and medium range of enemies to blast away at them when in range.  It also has an on-board coolant plant, keeping it cooler than the standard model.",
+        "Details": "The Spider's IH4 variant has two ballistic hardpoints, twin-terror heavy ion magi-autocannons, and four machine guns, although it supports up to ten support weapons.  It has more overall available tonnage, which is good for better, thicker armor, and retains the usual super-maneuverable engines and jump jets, making it very capable of walking and jumping in and back out of short and medium range of enemies to blast away at them when in range.  It also has an on-board coolant plant, keeping it cooler than the standard model.",
         "Icon": "uixTxrIcon_spider"
     },
     "MovementCapDefID": "movedef_spider_SDR-5V",
@@ -74,6 +74,14 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -114,6 +122,14 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -204,5 +220,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Extremely Maneuverable Scout",
-    "YangsThoughts": "The Spider's IH4 variant has two ballistic hardpoints, twin-terror heavy ion magi-autocannons, and four machine guns, although it supports up to six support weapons.  It has more overall available tonnage, which is good for better, thicker armor, and retains the usual super-maneuverable engines and jump jets, making it very capable of walking and jumping in and back out of short and medium range of enemies to blast away at them when in range.  It also has an on-board coolant plant, keeping it cooler than the standard model."
+    "YangsThoughts": "The Spider's IH4 variant has two ballistic hardpoints, twin-terror heavy ion magi-autocannons, and four machine guns, although it supports up to ten support weapons.  It has more overall available tonnage, which is good for better, thicker armor, and retains the usual super-maneuverable engines and jump jets, making it very capable of walking and jumping in and back out of short and medium range of enemies to blast away at them when in range.  It also has an on-board coolant plant, keeping it cooler than the standard model."
 }
