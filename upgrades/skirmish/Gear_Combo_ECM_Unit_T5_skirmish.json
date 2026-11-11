@@ -1,21 +1,21 @@
 {
   "Description": {
-    "Cost": 91702,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
-    "Model": "Force Field Generator",
-    "UIName": "Force Field T2",
-    "Id": "Gear_Force_Field_T2",
-    "Name": "Force Field T2",
-    "Details": "Damage taken, all sources: 80.0000%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: +10.\nMax heat and overheating modifiers: +3.\n\n",
+    "Model": "ECM Counter-Tracking Unit",
+    "UIName": "Combo ECM Unit T5",
+    "Id": "Gear_Combo_ECM_Unit_T5_skirmish",
+    "Name": "Combo ECM Unit T5",
+    "Details": "Enemy aim (direct fire) difficulty modifier: +2.50.\n    Effect stacks up to 1 times.\nIncoming rocket / missle aim difficulty modifier: +2.50.\n    Effect stacks up to 1 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +20.\nAdditional damage taken by unit (trade-off): 10.0000%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "80% Dmg",
-  "BonusValueB": "",
+  "BonusValueA": "-2.5 Enemy Accuracy",
+  "BonusValueB": "-2.5 Missle Def.",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
@@ -27,8 +27,7 @@
   "CriticalComponent": false,
   "ComponentTags": {
     "items": [
-      "component_type_stock",
-      "BLACKLISTED"
+      "component_type_stock"
     ],
     "tagSetSourceFile": ""
   },
@@ -61,7 +60,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -10,
+        "modValue": -20,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -93,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -3,
+        "modValue": -20,
         "modType": "System.Int32"
       }
     },
@@ -119,17 +118,51 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -3,
+        "modValue": -20,
         "modType": "System.Int32"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
+        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": 0.1,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
       }
     },
     {
       "effectType": "StatisticEffect",
       "nature": "Buff",
       "Description": {
-        "Id": "StatusEffect-WS-Force_Field-Buff",
-        "Name": "Force Field",
-        "Details": "With it's magical force field, this unit takes [AMT] less damage from all sources and types of attacks.",
+        "Id": "StatusEffect-WS-Targeting_Jammer-Buff",
+        "Name": "TARGETING JAMMER",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with direct fire attacks.",
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "durationData": {
@@ -145,9 +178,9 @@
       "statisticData": {
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
-        "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": 0.8,
+        "statName": "ToHitThisActorDirectFire",
+        "operation": "Float_Add",
+        "modValue": 2.5,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -156,6 +189,41 @@
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
       }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Targeting_ECM_Missle-Buff",
+        "Name": "ECM COUNTER-TRACKING UNIT",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with rockets and missles.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": 2.5,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "Missile",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`1`3"
 }

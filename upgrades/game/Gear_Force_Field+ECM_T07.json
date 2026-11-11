@@ -1,21 +1,21 @@
 {
   "Description": {
-    "Cost": 2178456,
+    "Cost": 3173680,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
     "Model": "Force Field Generator",
-    "UIName": "Force Field T7",
-    "Id": "Gear_Force_Field_T7",
-    "Name": "Force Field T7",
-    "Details": "Damage taken, all sources: 30.0000%.\nMaximum cumulative force fields: 1x.\nHeat generated per turn: +80.\nMax heat and overheating modifiers: +25.\n\n",
+    "UIName": "Force Field+ECM T07",
+    "Id": "Gear_Force_Field+ECM_T07",
+    "Name": "Force Field+ECM T07",
+    "Details": "Damage taken, all sources: 6.2500%.\n    Effect stacks up to 1 times.\nEnemy aim (direct fire) difficulty modifier: +1.75.\n    Effect stacks up to 1 times.\nIncoming rocket / missle aim difficulty modifier: +1.75.\n    Effect stacks up to 1 times.\nHeat generated per turn: +35.\nMax heat and overheating modifiers: +16.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "30% Dmg",
-  "BonusValueB": "",
+  "BonusValueA": "6.25% Dmg",
+  "BonusValueB": "-1.75 Enemy Accuracy",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
@@ -61,7 +61,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -80,
+        "modValue": -35,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -93,7 +93,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -25,
+        "modValue": -16,
         "modType": "System.Int32"
       }
     },
@@ -119,7 +119,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -25,
+        "modValue": -16,
         "modType": "System.Int32"
       }
     },
@@ -147,7 +147,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": 0.3,
+        "modValue": 0.0625,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -156,6 +156,75 @@
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
       }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Targeting_Jammer-Buff",
+        "Name": "TARGETING JAMMER",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with direct fire attacks.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActorDirectFire",
+        "operation": "Float_Add",
+        "modValue": 1.75,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Targeting_ECM_Missle-Buff",
+        "Name": "ECM COUNTER-TRACKING UNIT",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with rockets and missles.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": 1.75,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "Missile",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`2`4"
 }

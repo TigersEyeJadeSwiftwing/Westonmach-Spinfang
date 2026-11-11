@@ -8,13 +8,13 @@
     "UIName": "Engine Upgrade A Basic T4",
     "Id": "Gear_Engine_Upgrade_A_Basic_T4",
     "Name": "Engine Upgrade A Basic T4",
-    "Details": "Walking / Sprinting movement: 140.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +7.\n\n",
+    "Details": "Walking / Sprinting movement: 164.00%.\n    Effect stacks up to 1 times.\nJumping spaces/turn: 164.00%.\n    Effect stacks up to 1 times.\nHeat generated per turn: +7.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "140% Walk/Sprint",
+  "BonusValueA": "164% Walk/Sprint",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -95,7 +95,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.4,
+        "modValue": 1.64,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -128,7 +128,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.4,
+        "modValue": 1.64,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -136,6 +136,32 @@
         "targetWeaponType": "NotSet",
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Distance-JJ_Upgrade1",
+        "Name": "UPGRADED JUMP DISTANCE",
+        "Details": "This unit's jump jet upgrade(s) increases it's jumping distance by [AMT].",
+        "Icon": "uixSvgIcon_action_jump"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 1.64,
+        "modType": "System.Single"
       }
     }
   ],

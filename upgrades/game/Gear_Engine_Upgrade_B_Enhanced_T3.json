@@ -8,13 +8,13 @@
     "UIName": "Engine Upgrade B Enhanced T3",
     "Id": "Gear_Engine_Upgrade_B_Enhanced_T3",
     "Name": "Engine Upgrade B Enhanced T3",
-    "Details": "Walking / Sprinting movement: 130.00%.\n    Effect stacks up to 2 times.\nMaximum stability modifier: +24.\nUnsteady threshold modifier: +24.\nHeat generated per turn: +5.\nAdditional damage taken by unit (trade-off): 9.8180%.\n\n",
+    "Details": "Walking / Sprinting movement: 145.00%.\n    Effect stacks up to 2 times.\nMaximum stability modifier: +24.\nUnsteady threshold modifier: +24.\nJumping spaces/turn: 145.00%.\n    Effect stacks up to 2 times.\nHeat generated per turn: +5.\nAdditional damage taken by unit (trade-off): 9.8180%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "130% Walk/Sprint",
+  "BonusValueA": "145% Walk/Sprint",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -129,7 +129,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.3,
+        "modValue": 1.45,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -162,7 +162,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.3,
+        "modValue": 1.45,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -221,6 +221,32 @@
         "statName": "UnsteadyThreshold",
         "operation": "Float_Add",
         "modValue": 24,
+        "modType": "System.Single"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Distance-JJ_Upgrade2",
+        "Name": "UPGRADED JUMP DISTANCE",
+        "Details": "This unit's jump jet upgrade(s) increases it's jumping distance by [AMT].",
+        "Icon": "uixSvgIcon_action_jump"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 1.45,
         "modType": "System.Single"
       }
     }

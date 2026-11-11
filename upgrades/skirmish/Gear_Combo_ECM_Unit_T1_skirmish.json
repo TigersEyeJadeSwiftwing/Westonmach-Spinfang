@@ -1,21 +1,21 @@
 {
   "Description": {
-    "Cost": 425666,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
-    "Model": "Target Tracking System Jammer",
-    "UIName": "Target Tracking Jammer A Series T3",
-    "Id": "Gear_Target_Tracking_Jammer_A_Series_T3",
-    "Name": "Target Tracking Jammer A Series T3",
-    "Details": "Enemy aim (direct fire) difficulty modifier: +1.50.\nMaximum cumulative modifiers of this type: 1x.\nMax heat and overheating modifiers: +9.\n\n",
+    "Model": "ECM Counter-Tracking Unit",
+    "UIName": "Combo ECM Unit T1",
+    "Id": "Gear_Combo_ECM_Unit_T1_skirmish",
+    "Name": "Combo ECM Unit T1",
+    "Details": "Enemy aim (direct fire) difficulty modifier: +0.50.\n    Effect stacks up to 1 times.\nIncoming rocket / missle aim difficulty modifier: +0.50.\n    Effect stacks up to 1 times.\nHeat generated per turn: +2.\nMax heat and overheating modifiers: +2.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "-1.5 Enemy Accuracy",
-  "BonusValueB": "",
+  "BonusValueA": "-0.5 Enemy Accuracy",
+  "BonusValueB": "-0.5 Missle Def.",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
@@ -27,13 +27,49 @@
   "CriticalComponent": false,
   "ComponentTags": {
     "items": [
-      "component_type_variant",
-      "component_type_variant1",
-      "BLACKLISTED"
+      "component_type_stock"
     ],
     "tagSetSourceFile": ""
   },
   "statusEffects": [
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "Description": {
+        "Id": "StatusEffect-WS-Heat_Generated_Per_Turn_From_Equipped_Gear_Multiplier_Penalty",
+        "Name": "INSTALLED EQUIPMENT HEAT GENERATED TRADEOFF",
+        "Details": "This Battlemech's equipment generates [AMT] heat per turn, as a trade-off for equipped weapons and other items.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "durationData": {
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": -2,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
     {
       "Description": {
         "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
@@ -56,7 +92,7 @@
       "statisticData": {
         "statName": "MaxHeat",
         "operation": "Int_Add",
-        "modValue": -9,
+        "modValue": -2,
         "modType": "System.Int32"
       }
     },
@@ -82,7 +118,7 @@
       "statisticData": {
         "statName": "OverheatLevel",
         "operation": "Int_Add",
-        "modValue": -9,
+        "modValue": -2,
         "modType": "System.Int32"
       }
     },
@@ -110,7 +146,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "ToHitThisActorDirectFire",
         "operation": "Float_Add",
-        "modValue": 1.5,
+        "modValue": 0.5,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -119,6 +155,41 @@
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
       }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Targeting_ECM_Missle-Buff",
+        "Name": "ECM COUNTER-TRACKING UNIT",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with rockets and missles.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": 0.5,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "Missile",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`3`9"
 }

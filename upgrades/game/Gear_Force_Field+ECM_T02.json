@@ -1,21 +1,21 @@
 {
   "Description": {
-    "Cost": 68420,
+    "Cost": 166130,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
-    "Model": "Target Tracking System Jammer",
-    "UIName": "Target Tracking Jammer B Series T1",
-    "Id": "Gear_Target_Tracking_Jammer_B_Series_T1",
-    "Name": "Target Tracking Jammer B Series T1",
-    "Details": "Enemy aim (direct fire) difficulty modifier: +0.50.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +4.\nAdditional damage taken by unit (trade-off): 6.2500%.\n\n",
+    "Model": "Force Field Generator",
+    "UIName": "Force Field+ECM T02",
+    "Id": "Gear_Force_Field+ECM_T02",
+    "Name": "Force Field+ECM T02",
+    "Details": "Damage taken, all sources: 66.6670%.\n    Effect stacks up to 1 times.\nEnemy aim (direct fire) difficulty modifier: +0.50.\n    Effect stacks up to 1 times.\nIncoming rocket / missle aim difficulty modifier: +0.50.\n    Effect stacks up to 1 times.\nHeat generated per turn: +9.\nMax heat and overheating modifiers: +2.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "-0.5 Enemy Accuracy",
-  "BonusValueB": "",
+  "BonusValueA": "66.67% Dmg",
+  "BonusValueB": "-0.50 Enemy Accuracy",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
@@ -61,7 +61,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -4,
+        "modValue": -9,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -72,14 +72,14 @@
       }
     },
     {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.  Maximum allowed heat adjusted by [AMT].  Overheat threshold adjusted by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
       "effectType": "StatisticEffect",
       "nature": "Debuff",
-      "Description": {
-        "Id": "StatusEffect-WS-Damage_Taken_From_Equipped_Gear_Multiplier_Penalty",
-        "Name": "INSTALLED EQUIPMENT DAMAGE RESIST PENALTY",
-        "Details": "This battlemech takes [AMT]x additional damage from all sources and types of attacks, as a trade-off for equipped weapons and other items.",
-        "Icon": "UixSvgIcon_specialEquip_System"
-      },
       "durationData": {
         "duration": -1,
         "stackLimit": -1
@@ -91,11 +91,63 @@
         "showInStatusPanel": true
       },
       "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Add",
+        "modValue": -2,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Add",
+        "modValue": -2,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Force_Field-Buff",
+        "Name": "Force Field",
+        "Details": "With it's magical force field, this unit takes [AMT] less damage from all sources and types of attacks.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Add",
-        "modValue": 0.0625,
+        "operation": "Float_Multiply",
+        "modValue": 0.66667,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -138,6 +190,41 @@
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
       }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Targeting_ECM_Missle-Buff",
+        "Name": "ECM COUNTER-TRACKING UNIT",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with rockets and missles.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": 0.5,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "Missile",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_mechanical`4`8"
 }
