@@ -1,0 +1,162 @@
+gen_pilots.js, started:
+Seconds: 212,501, Nanoseconds: 1,953,000
+Sun Oct 25 2026 13:20:37 GMT-0400 (Eastern Daylight Time)
+
+Cleaning folder: "../pilot/story/generated/"...
+Reading Pilot Template.....
+Finished Reading ..\pilot\pilot_ws_Template.json
+
+Error: EISDIR: illegal operation on a directory, read
+Found a pilot that already uses: ws_img_pilot_Tigerstone_2
+Found a pilot that already uses: ws_img_pilot_Tigerstone_5
+Found a pilot that already uses: ws_img_pilot_Tigerstone_3
+Found a pilot that already uses: ws_img_pilot_Prismatic
+Found a pilot that already uses: ws_img_pilot_Prismatic_3
+Found a pilot that already uses: ws_img_pilot_Tigerstone_0
+Found a pilot that already uses: ws_img_pilot_Tigerstone_4
+Found a pilot that already uses: ws_img_pilot_Tigerstone_6
+Found a pilot that already uses: ws_img_pilot_Tigerstone_7
+Found a pilot that already uses: ws_img_pilot_Tigerstone_8
+Found a pilot that already uses: ws_img_pilot_Cobra
+Found a pilot that already uses: ws_img_pilot_Desert_Sand
+Found a pilot that already uses: ws_img_pilot_Yellow_Viper
+Found a pilot that already uses: ws_img_pilot_Glass_Snake
+Found a pilot that already uses: ws_img_pilot_Tundrahawk
+Found a pilot that already uses: ws_img_pilot_Blue_Warrior
+Found a pilot that already uses: ws_img_pilot_Raging_Vitality
+Found a pilot that already uses: ws_img_pilot_Firewalker
+Found a pilot that already uses: ws_img_pilot_Copper_Fox
+Found a pilot that already uses: ws_img_pilot_Tigerstone_1
+
+Total already-used pilot images: 20
+
+../pilot/story/generated/pilot_hall_Arctic_Fox.json
+../pilot/story/generated/pilot_hall_Arctic_Snow.json
+../pilot/story/generated/pilot_hall_Black_Fox.json
+../pilot/story/generated/pilot_hall_Blade_Hawk.json
+../pilot/story/generated/pilot_hall_Blood_Lightning.json
+../pilot/story/generated/pilot_hall_Blood_Storm.json
+../pilot/story/generated/pilot_hall_Blood_Storm_2.json
+File ws_img_pilot_Blue_Warrior.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Blue_Warrior_alt_1.json
+../pilot/story/generated/pilot_hall_Bronze_Wood.json
+../pilot/story/generated/pilot_hall_Chrome_Puma.json
+../pilot/story/generated/pilot_hall_Cloud_Fighter.json
+../pilot/story/generated/pilot_hall_Cobalt.json
+../pilot/story/generated/pilot_hall_Cobalt_2.json
+File ws_img_pilot_Cobra.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Cobra_2.json
+../pilot/story/generated/pilot_hall_Coolstone_Cat.json
+File ws_img_pilot_Copper_Fox.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Copper_Fox_2.json
+../pilot/story/generated/pilot_hall_Copper_Wolf.json
+../pilot/story/generated/pilot_hall_Cougar_Winter.json
+../pilot/story/generated/pilot_hall_Crystal_Stiletto.json
+../pilot/story/generated/pilot_hall_Deep_Sky.json
+../pilot/story/generated/pilot_hall_Defthand.json
+File ws_img_pilot_Desert_Sand.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Diamond_Sword.json
+../pilot/story/generated/pilot_hall_Diamond_Sword_2.json
+../pilot/story/generated/pilot_hall_Egyptian_Sunrise.json
+../pilot/story/generated/pilot_hall_Feral.json
+File ws_img_pilot_Firewalker.png is already used in a customized pilot json file.
+File ws_img_pilot_Glass_Snake.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Golden_Solar_Corona.json
+../pilot/story/generated/pilot_hall_Golden_Sword.json
+../pilot/story/generated/pilot_hall_Grand_Flight.json
+../pilot/story/generated/pilot_hall_High_Road_Wolf.json
+../pilot/story/generated/pilot_hall_High_Warrior.json
+../pilot/story/generated/pilot_hall_Hot_Lightning.json
+../pilot/story/generated/pilot_hall_Ice_Hawk.json
+../pilot/story/generated/pilot_hall_Iolite.json
+../pilot/story/generated/pilot_hall_Iolite_2.json
+../pilot/story/generated/pilot_hall_Iron_Plains.json
+../pilot/story/generated/pilot_hall_Iron_Soldier.json
+../pilot/story/generated/pilot_hall_Jet.json
+../pilot/story/generated/pilot_hall_Jet_2.json
+../pilot/story/generated/pilot_hall_Laser_Blade.json
+../pilot/story/generated/pilot_hall_Leopard.json
+../pilot/story/generated/pilot_hall_Leopard_2.json
+../pilot/story/generated/pilot_hall_Leopard_Blade.json
+../pilot/story/generated/pilot_hall_Long_Flight_Thunder.json
+../pilot/story/generated/pilot_hall_Lunar_Coyote.json
+../pilot/story/generated/pilot_hall_Magicland_Panther.json
+../pilot/story/generated/pilot_hall_Magic_Katana.json
+../pilot/story/generated/pilot_hall_Metal_Fields.json
+../pilot/story/generated/pilot_hall_Morning_Fox.json
+../pilot/story/generated/pilot_hall_Morning_Windfire.json
+../pilot/story/generated/pilot_hall_Mountain_Glory.json
+../pilot/story/generated/pilot_hall_Mountain_Wind.json
+../pilot/story/generated/pilot_hall_North_Forest.json
+../pilot/story/generated/pilot_hall_Photon_Ninjato.json
+../pilot/story/generated/pilot_hall_Pinewood.json
+File ws_img_pilot_Prismatic.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Prismatic_2.json
+File ws_img_pilot_Prismatic_3.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Prismatic_4.json
+../pilot/story/generated/pilot_hall_Purple_Mountain.json
+../pilot/story/generated/pilot_hall_Purple_Mountain_2.json
+../pilot/story/generated/pilot_hall_Quickfighter.json
+../pilot/story/generated/pilot_hall_Rage_Fighter.json
+File ws_img_pilot_Raging_Vitality.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Raptor.json
+../pilot/story/generated/pilot_hall_Red_Crystal.json
+../pilot/story/generated/pilot_hall_Red_Thunder_Dawn.json
+../pilot/story/generated/pilot_hall_Red_Thunder_Dawn_2.json
+../pilot/story/generated/pilot_hall_Riverside_Cougar.json
+../pilot/story/generated/pilot_hall_Sapphire_Lake.json
+../pilot/story/generated/pilot_hall_Shotgun.json
+../pilot/story/generated/pilot_hall_Sky_Raven.json
+../pilot/story/generated/pilot_hall_Snow_Flint.json
+../pilot/story/generated/pilot_hall_Solar_Dream_Sky.json
+../pilot/story/generated/pilot_hall_Solar_Glory.json
+../pilot/story/generated/pilot_hall_Solar_Wind_Spellcaster.json
+../pilot/story/generated/pilot_hall_Solar_Wizard.json
+../pilot/story/generated/pilot_hall_Solar_Youth.json
+../pilot/story/generated/pilot_hall_Spring_Grass.json
+../pilot/story/generated/pilot_hall_Spunk_Cutlass.json
+../pilot/story/generated/pilot_hall_Steel_Wolf.json
+../pilot/story/generated/pilot_hall_Strong_Fire_Slayer.json
+../pilot/story/generated/pilot_hall_Summer_Quartz.json
+../pilot/story/generated/pilot_hall_Summer_Wind.json
+../pilot/story/generated/pilot_hall_Sun_Tiger.json
+../pilot/story/generated/pilot_hall_Sun_Tiger_2.json
+../pilot/story/generated/pilot_hall_Tall_Cloud.json
+../pilot/story/generated/pilot_hall_Tall_Crystal_Sky.json
+../pilot/story/generated/pilot_hall_Tall_Tornado_Wind.json
+../pilot/story/generated/pilot_hall_Thunder_Day.json
+../pilot/story/generated/pilot_hall_Tigerland.json
+File ws_img_pilot_Tigerstone_0.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_1.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Tigerstone_10.json
+File ws_img_pilot_Tigerstone_2.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_3.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_4.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_5.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_6.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_7.png is already used in a customized pilot json file.
+File ws_img_pilot_Tigerstone_8.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Tigerstone_9.json
+File ws_img_pilot_Tundrahawk.png is already used in a customized pilot json file.
+../pilot/story/generated/pilot_hall_Two_Handed_Sword.json
+../pilot/story/generated/pilot_hall_Warrior_Fields.json
+../pilot/story/generated/pilot_hall_War_Path.json
+../pilot/story/generated/pilot_hall_White_Snake.json
+../pilot/story/generated/pilot_hall_Wind_Fang.json
+../pilot/story/generated/pilot_hall_Wind_Fire.json
+../pilot/story/generated/pilot_hall_Winter_Coyote.json
+../pilot/story/generated/pilot_hall_Winter_Day.json
+../pilot/story/generated/pilot_hall_Wolf.json
+File ws_img_pilot_Yellow_Viper.png is already used in a customized pilot json file.
+
+Total already-used pilot images: 20
+Number of generated pilot json files: 98
+
+
+gen_pilots.js, completed:
+Seconds: 212,501, Nanoseconds: 65,028,700
+Sun Oct 25 2026 13:20:37 GMT-0400 (Eastern Daylight Time)
+Writing output to log file: "gen_pilots js log.txt"...
+Elapsed program run-time, Seconds: 0, Nanoseconds: 63,075,700
+
+

@@ -1,21 +1,21 @@
 {
   "Description": {
-    "Cost": 615001,
+    "Cost": 2205120,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Spinfang",
     "Model": "ECM Counter-Tracking Unit",
-    "UIName": "ECM Unit B Series T4",
-    "Id": "Gear_ECM_Unit_B_Series_T4",
-    "Name": "ECM Unit B Series T4",
-    "Details": "Incoming rocket / missle aim difficulty modifier: +2.00.\nMaximum cumulative modifiers of this type: 1x.\nHeat generated per turn: +11.\nAdditional damage taken by unit (trade-off): 13.6910%.\n\n",
+    "UIName": "Combo ECM Unit T5",
+    "Id": "Gear_Combo_ECM_Unit_T5",
+    "Name": "Combo ECM Unit T5",
+    "Details": "Enemy aim (direct fire) difficulty modifier: +2.50.\n    Effect stacks up to 1 times.\nIncoming rocket / missle aim difficulty modifier: +2.50.\n    Effect stacks up to 1 times.\nHeat generated per turn: +20.\nMax heat and overheating modifiers: +20.\nAdditional damage taken by unit (trade-off): 10.0000%.\n\n",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "-2.0 Missle Def.",
-  "BonusValueB": "",
+  "BonusValueA": "-2.5 Enemy Accuracy",
+  "BonusValueB": "-2.5 Missle Def.",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
@@ -28,7 +28,7 @@
   "ComponentTags": {
     "items": [
       "component_type_variant",
-      "component_type_variant2",
+      "component_type_variant3",
       "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
@@ -62,7 +62,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": -11,
+        "modValue": -20,
         "modType": "System.Int32",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -70,6 +70,58 @@
         "targetWeaponType": "NotSet",
         "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Max_Heat_Threshold-Dual_Debuff",
+        "Name": "MAX HEAT AND OVERHEAT THRESHOLDS DECREASED",
+        "Details": "Installed gear of this unit stresses it's coolant and hink sinking systems, creating extra work for heat management and lowering heat tolerance.  Maximum allowed heat adjusted by [AMT].  Overheat threshold adjusted by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "MaxHeat",
+        "operation": "Int_Add",
+        "modValue": -20,
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Overheat_Threshold-Dual_Debuff",
+        "Name": "OVERHEAT THRESHOLD DECREASED",
+        "Details": "Overheat threshold decreased by [AMT]",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Debuff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "statisticData": {
+        "statName": "OverheatLevel",
+        "operation": "Int_Add",
+        "modValue": -20,
+        "modType": "System.Int32"
       }
     },
     {
@@ -96,7 +148,41 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Add",
-        "modValue": 0.13691,
+        "modValue": 0.1,
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Targeting_Jammer-Buff",
+        "Name": "TARGETING JAMMER",
+        "Details": "Enemies have a [AMT] modifier to difficulty to hit this unit with direct fire attacks.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActorDirectFire",
+        "operation": "Float_Add",
+        "modValue": 2.5,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -130,7 +216,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "ToHitThisActor",
         "operation": "Float_Add",
-        "modValue": 2,
+        "modValue": 2.5,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -140,5 +226,6 @@
         "targetWeaponSubType": "NotSet"
       }
     }
-  ]
+  ],
+  "item_collection3": "itemCollection_WS_upgrade_electronic`1`3"
 }

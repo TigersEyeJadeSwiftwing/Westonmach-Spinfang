@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 346,932, Nanoseconds: 981,009,600
-Sun Oct 11 2026 17:57:22 GMT-0400 (Eastern Daylight Time)
+Seconds: 322,920, Nanoseconds: 363,307,600
+Tue Nov 10 2026 10:48:09 GMT-0500 (Eastern Standard Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -683,6 +683,27 @@ Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T09_skirmish.json
 Wrote file: ..\upgrades\game\Gear_Force_Field_T10.json
 Wrote file: ..\upgrades\skirmish\Gear_Force_Field_T10_skirmish.json
 
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T01.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T01_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T02.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T02_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T03.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T03_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T04.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T04_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T05.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T05_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T06.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T06_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T07.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T07_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T08.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T08_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T09.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T09_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Force_Field+ECM_T10.json
+Wrote file: ..\upgrades\skirmish\Gear_Force_Field+ECM_T10_skirmish.json
+
 Wrote file: ..\upgrades\game\Gear_Target_Tracking_Jammer_T1.json
 Wrote file: ..\upgrades\skirmish\Gear_Target_Tracking_Jammer_T1_skirmish.json
 Wrote file: ..\upgrades\game\Gear_Target_Tracking_Jammer_T2.json
@@ -704,6 +725,17 @@ Wrote file: ..\upgrades\game\Gear_ECM_Unit_T4.json
 Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_T4_skirmish.json
 Wrote file: ..\upgrades\game\Gear_ECM_Unit_T5.json
 Wrote file: ..\upgrades\skirmish\Gear_ECM_Unit_T5_skirmish.json
+
+Wrote file: ..\upgrades\game\Gear_Combo_ECM_Unit_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Combo_ECM_Unit_T1_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Combo_ECM_Unit_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Combo_ECM_Unit_T2_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Combo_ECM_Unit_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Combo_ECM_Unit_T3_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Combo_ECM_Unit_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Combo_ECM_Unit_T4_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Combo_ECM_Unit_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Combo_ECM_Unit_T5_skirmish.json
 
 Wrote file: ..\upgrades\game\Gear_Sensor_Array_Package_T1.json
 Wrote file: ..\upgrades\skirmish\Gear_Sensor_Array_Package_T1_skirmish.json
@@ -914,6 +946,50 @@ Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T4_skirmish.json
 Wrote file: ..\upgrades\game\Gear_Damage_Upgrade_Omni_T5.json
 Wrote file: ..\upgrades\skirmish\Gear_Damage_Upgrade_Omni_T5_skirmish.json
 
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Ballistic_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Ballistic_T1_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Ballistic_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Ballistic_T2_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Ballistic_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Ballistic_T3_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Ballistic_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Ballistic_T4_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Ballistic_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Ballistic_T5_skirmish.json
+
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Energy_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Energy_T1_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Energy_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Energy_T2_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Energy_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Energy_T3_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Energy_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Energy_T4_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Energy_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Energy_T5_skirmish.json
+
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Missle_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Missle_T1_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Missle_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Missle_T2_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Missle_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Missle_T3_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Missle_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Missle_T4_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Missle_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Missle_T5_skirmish.json
+
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Support_T1.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Support_T1_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Support_T2.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Support_T2_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Support_T3.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Support_T3_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Support_T4.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Support_T4_skirmish.json
+Wrote file: ..\upgrades\game\Gear_Weapon_Boost_Support_T5.json
+Wrote file: ..\upgrades\skirmish\Gear_Weapon_Boost_Support_T5_skirmish.json
+
 Writing Item Collection Files.....
 Writing file "..\item_collections_WS\itemCollection_WS_upgrade_mechanical.csv".....
 Writing file "..\item_collections_WS\itemCollection_WS_upgrade_electronic.csv".....
@@ -1013,35 +1089,25 @@ Pilot Trait Codes:
 Total number of trait codes: 79
 
 Pilot sprite file names:
-ws_img_pilot_10.png
-ws_img_pilot_11.png
-ws_img_pilot_12.png
-ws_img_pilot_13.png
-ws_img_pilot_2.png
-ws_img_pilot_4.png
-ws_img_pilot_5.png
-ws_img_pilot_6.png
-ws_img_pilot_7.png
-ws_img_pilot_8.png
-ws_img_pilot_9.png
 ws_img_pilot_Arctic_Fox.png
 ws_img_pilot_Arctic_Snow.png
 ws_img_pilot_Black_Fox.png
 ws_img_pilot_Blade_Hawk.png
 ws_img_pilot_Blood_Lightning.png
-ws_img_pilot_Blood_Storm_1.png
+ws_img_pilot_Blood_Storm.png
+ws_img_pilot_Blood_Storm_2.png
 ws_img_pilot_Blue_Warrior.png
 ws_img_pilot_Blue_Warrior_alt_1.png
 ws_img_pilot_Bronze_Wood.png
 ws_img_pilot_Chrome_Puma.png
 ws_img_pilot_Cloud_Fighter.png
-ws_img_pilot_Cobalt_alt_1.png
-ws_img_pilot_Cobalt_alt_2.png
+ws_img_pilot_Cobalt.png
+ws_img_pilot_Cobalt_2.png
 ws_img_pilot_Cobra.png
-ws_img_pilot_Cobra_alt_1.png
+ws_img_pilot_Cobra_2.png
 ws_img_pilot_Coolstone_Cat.png
 ws_img_pilot_Copper_Fox.png
-ws_img_pilot_Copper_Fox_alt_1.png
+ws_img_pilot_Copper_Fox_2.png
 ws_img_pilot_Copper_Wolf.png
 ws_img_pilot_Cougar_Winter.png
 ws_img_pilot_Crystal_Stiletto.png
@@ -1049,6 +1115,7 @@ ws_img_pilot_Deep_Sky.png
 ws_img_pilot_Defthand.png
 ws_img_pilot_Desert_Sand.png
 ws_img_pilot_Diamond_Sword.png
+ws_img_pilot_Diamond_Sword_2.png
 ws_img_pilot_Egyptian_Sunrise.png
 ws_img_pilot_Feral.png
 ws_img_pilot_Firewalker.png
@@ -1057,16 +1124,18 @@ ws_img_pilot_Golden_Solar_Corona.png
 ws_img_pilot_Golden_Sword.png
 ws_img_pilot_Grand_Flight.png
 ws_img_pilot_High_Road_Wolf.png
+ws_img_pilot_High_Warrior.png
 ws_img_pilot_Hot_Lightning.png
-ws_img_pilot_Ice_Hawk_1.png
+ws_img_pilot_Ice_Hawk.png
 ws_img_pilot_Iolite.png
-ws_img_pilot_Iolite_alt_1.png
+ws_img_pilot_Iolite_2.png
 ws_img_pilot_Iron_Plains.png
 ws_img_pilot_Iron_Soldier.png
 ws_img_pilot_Jet.png
-ws_img_pilot_Jet_alt_1.png
+ws_img_pilot_Jet_2.png
 ws_img_pilot_Laser_Blade.png
 ws_img_pilot_Leopard.png
+ws_img_pilot_Leopard_2.png
 ws_img_pilot_Leopard_Blade.png
 ws_img_pilot_Long_Flight_Thunder.png
 ws_img_pilot_Lunar_Coyote.png
@@ -1076,17 +1145,23 @@ ws_img_pilot_Metal_Fields.png
 ws_img_pilot_Morning_Fox.png
 ws_img_pilot_Morning_Windfire.png
 ws_img_pilot_Mountain_Glory.png
+ws_img_pilot_Mountain_Wind.png
 ws_img_pilot_North_Forest.png
 ws_img_pilot_Photon_Ninjato.png
 ws_img_pilot_Pinewood.png
 ws_img_pilot_Prismatic.png
-ws_img_pilot_Prismatic_alt_1.png
-ws_img_pilot_Purple_Mountain_1.png
+ws_img_pilot_Prismatic_2.png
+ws_img_pilot_Prismatic_3.png
+ws_img_pilot_Prismatic_4.png
+ws_img_pilot_Purple_Mountain.png
+ws_img_pilot_Purple_Mountain_2.png
 ws_img_pilot_Quickfighter.png
 ws_img_pilot_Rage_Fighter.png
 ws_img_pilot_Raging_Vitality.png
 ws_img_pilot_Raptor.png
+ws_img_pilot_Red_Crystal.png
 ws_img_pilot_Red_Thunder_Dawn.png
+ws_img_pilot_Red_Thunder_Dawn_2.png
 ws_img_pilot_Riverside_Cougar.png
 ws_img_pilot_Sapphire_Lake.png
 ws_img_pilot_Shotgun.png
@@ -1097,13 +1172,14 @@ ws_img_pilot_Solar_Glory.png
 ws_img_pilot_Solar_Wind_Spellcaster.png
 ws_img_pilot_Solar_Wizard.png
 ws_img_pilot_Solar_Youth.png
+ws_img_pilot_Spring_Grass.png
 ws_img_pilot_Spunk_Cutlass.png
 ws_img_pilot_Steel_Wolf.png
 ws_img_pilot_Strong_Fire_Slayer.png
 ws_img_pilot_Summer_Quartz.png
 ws_img_pilot_Summer_Wind.png
 ws_img_pilot_Sun_Tiger.png
-ws_img_pilot_Sun_Tiger_alt_1.png
+ws_img_pilot_Sun_Tiger_2.png
 ws_img_pilot_Tall_Cloud.png
 ws_img_pilot_Tall_Crystal_Sky.png
 ws_img_pilot_Tall_Tornado_Wind.png
@@ -1111,6 +1187,7 @@ ws_img_pilot_Thunder_Day.png
 ws_img_pilot_Tigerland.png
 ws_img_pilot_Tigerstone_0.png
 ws_img_pilot_Tigerstone_1.png
+ws_img_pilot_Tigerstone_10.png
 ws_img_pilot_Tigerstone_2.png
 ws_img_pilot_Tigerstone_3.png
 ws_img_pilot_Tigerstone_4.png
@@ -1118,48 +1195,50 @@ ws_img_pilot_Tigerstone_5.png
 ws_img_pilot_Tigerstone_6.png
 ws_img_pilot_Tigerstone_7.png
 ws_img_pilot_Tigerstone_8.png
+ws_img_pilot_Tigerstone_9.png
 ws_img_pilot_Tundrahawk.png
 ws_img_pilot_Two_Handed_Sword.png
 ws_img_pilot_Warrior_Fields.png
 ws_img_pilot_War_Path.png
 ws_img_pilot_White_Snake.png
+ws_img_pilot_Wind_Fang.png
 ws_img_pilot_Wind_Fire.png
-ws_img_pilot_Winter_Coyote_1.png
+ws_img_pilot_Winter_Coyote.png
 ws_img_pilot_Winter_Day.png
 ws_img_pilot_Wolf.png
 ws_img_pilot_Yellow_Viper.png
-Total number of face name filenames: 115
+Total number of face name filenames: 118
 
 Custom Battlemech pilots / Mechwarriors:
-Wrote JSON file for pilot 1 callsign: Slaughter Shop, face: 2, file: ..\pilot\skirmish\pilot_ws_skirmish_Slaughter_Shop.json
-Wrote JSON file for pilot 2 callsign: Tornado Blood Warrior, face: 4, file: ..\pilot\skirmish\pilot_ws_skirmish_Tornado_Blood_Warrior.json
-Wrote JSON file for pilot 3 callsign: Accredited Electrocution, face: 5, file: ..\pilot\skirmish\pilot_ws_skirmish_Accredited_Electrocution.json
-Wrote JSON file for pilot 4 callsign: Scarburger, face: 6, file: ..\pilot\skirmish\pilot_ws_skirmish_Scarburger.json
-Wrote JSON file for pilot 5 callsign: Brutal Punishment, face: 7, file: ..\pilot\skirmish\pilot_ws_skirmish_Brutal_Punishment.json
-Wrote JSON file for pilot 6 callsign: Dead Meat Buffet, face: 8, file: ..\pilot\skirmish\pilot_ws_skirmish_Dead_Meat_Buffet.json
-Wrote JSON file for pilot 7 callsign: Solar Wrath, face: 9, file: ..\pilot\skirmish\pilot_ws_skirmish_Solar_Wrath.json
-Wrote JSON file for pilot 8 callsign: Fast Relief, face: 10, file: ..\pilot\skirmish\pilot_ws_skirmish_Fast_Relief.json
-Wrote JSON file for pilot 9 callsign: Spunk with Style, face: 11, file: ..\pilot\skirmish\pilot_ws_skirmish_Spunk_with_Style.json
-Wrote JSON file for pilot 10 callsign: Hurricane Storm, face: 12, file: ..\pilot\skirmish\pilot_ws_skirmish_Hurricane_Storm.json
-Wrote JSON file for pilot 11 callsign: Rabid Justice, face: 13, file: ..\pilot\skirmish\pilot_ws_skirmish_Rabid_Justice.json
+Error: No pilot face sprite exists for pilot 1 at spreadsheet row 2 with callsign: Slaughter Shop, face: 2, with non-existant face filename: ws_img_pilot_2.png
+Error: No pilot face sprite exists for pilot 2 at spreadsheet row 3 with callsign: Tornado Blood Warrior, face: 4, with non-existant face filename: ws_img_pilot_4.png
+Error: No pilot face sprite exists for pilot 3 at spreadsheet row 4 with callsign: Accredited Electrocution, face: 5, with non-existant face filename: ws_img_pilot_5.png
+Error: No pilot face sprite exists for pilot 4 at spreadsheet row 5 with callsign: Scarburger, face: 6, with non-existant face filename: ws_img_pilot_6.png
+Error: No pilot face sprite exists for pilot 5 at spreadsheet row 6 with callsign: Brutal Punishment, face: 7, with non-existant face filename: ws_img_pilot_7.png
+Error: No pilot face sprite exists for pilot 6 at spreadsheet row 7 with callsign: Dead Meat Buffet, face: 8, with non-existant face filename: ws_img_pilot_8.png
+Error: No pilot face sprite exists for pilot 7 at spreadsheet row 8 with callsign: Solar Wrath, face: 9, with non-existant face filename: ws_img_pilot_9.png
+Error: No pilot face sprite exists for pilot 8 at spreadsheet row 9 with callsign: Fast Relief, face: 10, with non-existant face filename: ws_img_pilot_10.png
+Error: No pilot face sprite exists for pilot 9 at spreadsheet row 10 with callsign: Spunk with Style, face: 11, with non-existant face filename: ws_img_pilot_11.png
+Error: No pilot face sprite exists for pilot 10 at spreadsheet row 11 with callsign: Hurricane Storm, face: 12, with non-existant face filename: ws_img_pilot_12.png
+Error: No pilot face sprite exists for pilot 11 at spreadsheet row 12 with callsign: Rabid Justice, face: 13, with non-existant face filename: ws_img_pilot_13.png
 Wrote JSON file for pilot 12 callsign: Mutilation Stall, face: Arctic Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Mutilation_Stall.json
 Wrote JSON file for pilot 13 callsign: Gentle Slaughter, face: Arctic Snow, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Slaughter.json
 Wrote JSON file for pilot 14 callsign: Sweet Hot Death, face: Black Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Sweet_Hot_Death.json
 Wrote JSON file for pilot 15 callsign: Binoculars, face: Blade Hawk, file: ..\pilot\skirmish\pilot_ws_skirmish_Binoculars.json
 Wrote JSON file for pilot 16 callsign: Meat On A Stick, face: Blood Lightning, file: ..\pilot\skirmish\pilot_ws_skirmish_Meat_On_A_Stick.json
-Wrote JSON file for pilot 17 callsign: Blood Storm, face: Blood Storm 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Blood_Storm.json
+Error: No pilot face sprite exists for pilot 17 at spreadsheet row 18 with callsign: Blood Storm, face: Blood Storm 1, with non-existant face filename: ws_img_pilot_Blood_Storm_1.png
 Wrote JSON file for pilot 18 callsign: Mach Five Assault, face: Blue Warrior, file: ..\pilot\skirmish\pilot_ws_skirmish_Mach_Five_Assault.json
 Wrote JSON file for pilot 19 callsign: Flesh Wound, face: Blue Warrior alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Flesh_Wound.json
 Wrote JSON file for pilot 20 callsign: Spaghetti, face: Bronze Wood, file: ..\pilot\skirmish\pilot_ws_skirmish_Spaghetti.json
 Wrote JSON file for pilot 21 callsign: Lucid Dream, face: Chrome Puma, file: ..\pilot\skirmish\pilot_ws_skirmish_Lucid_Dream.json
 Wrote JSON file for pilot 22 callsign: Turbo Twit, face: Cloud Fighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Turbo_Twit.json
-Wrote JSON file for pilot 23 callsign: Rage Wind, face: Cobalt alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Rage_Wind.json
-Wrote JSON file for pilot 24 callsign: Decapitated Beverage, face: Cobalt alt 2, file: ..\pilot\skirmish\pilot_ws_skirmish_Decapitated_Beverage.json
+Error: No pilot face sprite exists for pilot 23 at spreadsheet row 24 with callsign: Rage Wind, face: Cobalt alt 1, with non-existant face filename: ws_img_pilot_Cobalt_alt_1.png
+Error: No pilot face sprite exists for pilot 24 at spreadsheet row 25 with callsign: Decapitated Beverage, face: Cobalt alt 2, with non-existant face filename: ws_img_pilot_Cobalt_alt_2.png
 Wrote JSON file for pilot 25 callsign: Acid Burn, face: Cobra, file: ..\pilot\skirmish\pilot_ws_skirmish_Acid_Burn.json
-Wrote JSON file for pilot 26 callsign: Facial Mutilation, face: Cobra alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Facial_Mutilation.json
+Error: No pilot face sprite exists for pilot 26 at spreadsheet row 27 with callsign: Facial Mutilation, face: Cobra alt 1, with non-existant face filename: ws_img_pilot_Cobra_alt_1.png
 Wrote JSON file for pilot 27 callsign: Chainsaw Tooth, face: Coolstone Cat, file: ..\pilot\skirmish\pilot_ws_skirmish_Chainsaw_Tooth.json
 Wrote JSON file for pilot 28 callsign: Prismatic Cougar, face: Copper Fox, file: ..\pilot\skirmish\pilot_ws_skirmish_Prismatic_Cougar.json
-Wrote JSON file for pilot 29 callsign: Chrome Kitten, face: Copper Fox alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Chrome_Kitten.json
+Error: No pilot face sprite exists for pilot 29 at spreadsheet row 30 with callsign: Chrome Kitten, face: Copper Fox alt 1, with non-existant face filename: ws_img_pilot_Copper_Fox_alt_1.png
 Wrote JSON file for pilot 30 callsign: Shark Fin, face: Copper Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Shark_Fin.json
 Wrote JSON file for pilot 31 callsign: Decapitation Stall, face: Cougar Winter, file: ..\pilot\skirmish\pilot_ws_skirmish_Decapitation_Stall.json
 Wrote JSON file for pilot 32 callsign: Leather Jacket, face: Crystal Stiletto, file: ..\pilot\skirmish\pilot_ws_skirmish_Leather_Jacket.json
@@ -1176,13 +1255,13 @@ Wrote JSON file for pilot 42 callsign: Electrocution Party, face: Golden Sword, 
 Wrote JSON file for pilot 43 callsign: Oil Can, face: Grand Flight, file: ..\pilot\skirmish\pilot_ws_skirmish_Oil_Can.json
 Wrote JSON file for pilot 44 callsign: Blood Streak, face: High Road Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Blood_Streak.json
 Wrote JSON file for pilot 45 callsign: Mad Tarantula, face: Hot Lightning, file: ..\pilot\skirmish\pilot_ws_skirmish_Mad_Tarantula.json
-Wrote JSON file for pilot 46 callsign: Wild One, face: Ice Hawk 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Wild_One.json
+Error: No pilot face sprite exists for pilot 46 at spreadsheet row 47 with callsign: Wild One, face: Ice Hawk 1, with non-existant face filename: ws_img_pilot_Ice_Hawk_1.png
 Wrote JSON file for pilot 47 callsign: Hot Stuff, face: Iolite, file: ..\pilot\skirmish\pilot_ws_skirmish_Hot_Stuff.json
-Wrote JSON file for pilot 48 callsign: Devastation Specialist, face: Iolite alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Devastation_Specialist.json
+Error: No pilot face sprite exists for pilot 48 at spreadsheet row 49 with callsign: Devastation Specialist, face: Iolite alt 1, with non-existant face filename: ws_img_pilot_Iolite_alt_1.png
 Wrote JSON file for pilot 49 callsign: Garbage Man, face: Iron Plains, file: ..\pilot\skirmish\pilot_ws_skirmish_Garbage_Man.json
 Wrote JSON file for pilot 50 callsign: Bad Boy, face: Iron Soldier, file: ..\pilot\skirmish\pilot_ws_skirmish_Bad_Boy.json
 Wrote JSON file for pilot 51 callsign: Flesh Splatter, face: Jet, file: ..\pilot\skirmish\pilot_ws_skirmish_Flesh_Splatter.json
-Wrote JSON file for pilot 52 callsign: Cool Guy, face: Jet alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Cool_Guy.json
+Error: No pilot face sprite exists for pilot 52 at spreadsheet row 53 with callsign: Cool Guy, face: Jet alt 1, with non-existant face filename: ws_img_pilot_Jet_alt_1.png
 Wrote JSON file for pilot 53 callsign: Raging Bloodshed, face: Laser Blade, file: ..\pilot\skirmish\pilot_ws_skirmish_Raging_Bloodshed.json
 Wrote JSON file for pilot 54 callsign: Personal Disfigurement Technician, face: Leopard, file: ..\pilot\skirmish\pilot_ws_skirmish_Personal_Disfigurement_Technician.json
 Wrote JSON file for pilot 55 callsign: Manslaughter Delight, face: Leopard Blade, file: ..\pilot\skirmish\pilot_ws_skirmish_Manslaughter_Delight.json
@@ -1198,8 +1277,8 @@ Wrote JSON file for pilot 64 callsign: Glory Carnage, face: North Forest, file: 
 Wrote JSON file for pilot 65 callsign: Land of Revenge, face: Photon Ninjato, file: ..\pilot\skirmish\pilot_ws_skirmish_Land_of_Revenge.json
 Wrote JSON file for pilot 66 callsign: Lynching Holiday, face: Pinewood, file: ..\pilot\skirmish\pilot_ws_skirmish_Lynching_Holiday.json
 Wrote JSON file for pilot 67 callsign: Courage Force, face: Prismatic, file: ..\pilot\skirmish\pilot_ws_skirmish_Courage_Force.json
-Wrote JSON file for pilot 68 callsign: Vigorous Intensity, face: Prismatic alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Vigorous_Intensity.json
-Wrote JSON file for pilot 69 callsign: Metal for the Microwave, face: Purple Mountain 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Metal_for_the_Microwave.json
+Error: No pilot face sprite exists for pilot 68 at spreadsheet row 69 with callsign: Vigorous Intensity, face: Prismatic alt 1, with non-existant face filename: ws_img_pilot_Prismatic_alt_1.png
+Error: No pilot face sprite exists for pilot 69 at spreadsheet row 70 with callsign: Metal for the Microwave, face: Purple Mountain 1, with non-existant face filename: ws_img_pilot_Purple_Mountain_1.png
 Wrote JSON file for pilot 70 callsign: Lunchtime Massacre, face: Quickfighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Lunchtime_Massacre.json
 Wrote JSON file for pilot 71 callsign: Skull Cleaver, face: Rage Fighter, file: ..\pilot\skirmish\pilot_ws_skirmish_Skull_Cleaver.json
 Wrote JSON file for pilot 72 callsign: Coffee Break, face: Raging Vitality, file: ..\pilot\skirmish\pilot_ws_skirmish_Coffee_Break.json
@@ -1221,7 +1300,7 @@ Wrote JSON file for pilot 87 callsign: Terminal Catastrophe, face: Strong Fire S
 Wrote JSON file for pilot 88 callsign: Gratuitous Ooga Chucka, face: Summer Quartz, file: ..\pilot\skirmish\pilot_ws_skirmish_Gratuitous_Ooga_Chucka.json
 Wrote JSON file for pilot 89 callsign: Ambush Predator, face: Summer Wind, file: ..\pilot\skirmish\pilot_ws_skirmish_Ambush_Predator.json
 Wrote JSON file for pilot 90 callsign: Gung Ho, face: Sun Tiger, file: ..\pilot\skirmish\pilot_ws_skirmish_Gung_Ho.json
-Wrote JSON file for pilot 91 callsign: Blockhead, face: Sun Tiger alt 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Blockhead.json
+Error: No pilot face sprite exists for pilot 91 at spreadsheet row 92 with callsign: Blockhead, face: Sun Tiger alt 1, with non-existant face filename: ws_img_pilot_Sun_Tiger_alt_1.png
 Wrote JSON file for pilot 92 callsign: Fusion Thrash, face: Tall Cloud, file: ..\pilot\skirmish\pilot_ws_skirmish_Fusion_Thrash.json
 Wrote JSON file for pilot 93 callsign: Regal Club, face: Tall Crystal Sky, file: ..\pilot\skirmish\pilot_ws_skirmish_Regal_Club.json
 Wrote JSON file for pilot 94 callsign: Gentle Brutality, face: Tall Tornado Wind, file: ..\pilot\skirmish\pilot_ws_skirmish_Gentle_Brutality.json
@@ -1242,20 +1321,20 @@ Wrote JSON file for pilot 108 callsign: War Path, face: War Path, file: ..\pilot
 Wrote JSON file for pilot 109 callsign: Eat Suck, face: Warrior Fields, file: ..\pilot\skirmish\pilot_ws_skirmish_Eat_Suck.json
 Wrote JSON file for pilot 110 callsign: Torture Compartment, face: White Snake, file: ..\pilot\skirmish\pilot_ws_skirmish_Torture_Compartment.json
 Wrote JSON file for pilot 111 callsign: Toxic Waste Dump, face: Wind Fire, file: ..\pilot\skirmish\pilot_ws_skirmish_Toxic_Waste_Dump.json
-Wrote JSON file for pilot 112 callsign: Agony in a Can, face: Winter Coyote 1, file: ..\pilot\skirmish\pilot_ws_skirmish_Agony_in_a_Can.json
+Error: No pilot face sprite exists for pilot 112 at spreadsheet row 113 with callsign: Agony in a Can, face: Winter Coyote 1, with non-existant face filename: ws_img_pilot_Winter_Coyote_1.png
 Wrote JSON file for pilot 113 callsign: Hurt In A Box, face: Winter Day, file: ..\pilot\skirmish\pilot_ws_skirmish_Hurt_In_A_Box.json
 Wrote JSON file for pilot 114 callsign: Dude You Suck, face: Wolf, file: ..\pilot\skirmish\pilot_ws_skirmish_Dude_You_Suck.json
 Wrote JSON file for pilot 115 callsign: Car Crash, face: Yellow Viper, file: ..\pilot\skirmish\pilot_ws_skirmish_Car_Crash.json
 
-Total pilot JSON files written: 115
+Total pilot JSON files written: 92
 Total pilot JSON files attempted: 115
-Total incomplete pilots (no file written) or errors: 0
+Total incomplete pilots (no file written) or errors: 23
 
 
 process.js, completed:
-Seconds: 346,933, Nanoseconds: 724,603,700
-Sun Oct 11 2026 17:57:23 GMT-0400 (Eastern Daylight Time)
+Seconds: 322,921, Nanoseconds: 33,059,500
+Tue Nov 10 2026 10:48:09 GMT-0500 (Eastern Standard Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 743,594,100
+Elapsed program run-time, Seconds: 0, Nanoseconds: 669,751,900
 
 
