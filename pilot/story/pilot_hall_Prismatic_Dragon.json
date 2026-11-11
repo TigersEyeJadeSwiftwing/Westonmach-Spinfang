@@ -1,0 +1,91 @@
+{
+    "Description": {
+        "Id": "pilot_hall_Prismatic_Dragon",
+        "Name": "Prismatic Dragon",
+        "FirstName": "Robert",
+        "LastName": "Falkland",
+        "Callsign": "Prismatic Dragon",
+        "Gender": "Male",
+        "factionID": "AuriganMercenaries",
+        "Age": "26",
+        "Details":
+"* This battlemech pilot has special abilities and bonuses in addition to what comes with whatever their gunnery, piloting, guts, and tactics ability numbers are.  They will fight better than another pilot who has the same numbers but no special abilities of this kind.
+* This battlemech pilot, if hired, comes with free, unspent experience points you are free to use to train them with when you hire them.
+
+* Enemy Attack Dodging, Level 3
+* Walking Distance Increase, +30%
+* Sprinting Distance Increase, +50%
+* Jumping Distance Increase, +20%
+* Sensor Range Increase, Level 2
+* General Weapon Damage Bonus, Level 4
+* General Weapon Stability Damage Bonus, Level 5
+* General Weapon Range Bonus, Level 1
+
+    Rob Falkland was born as a boy with dragon DNA and a \"Prismatic\" special face that would later become his callsign as a battlemech pilot.  With his enhanced and majestic nature, he has a side of him that is an apex predator, an ambush predator, and a carnivore as well as a natural hunter in the wilderness of many worlds and not just ones that are found on Planet Earth of any century, but also non-Earth-origin worlds as well, thanks to his zarakite dragon side of himself and his nature and spirit, which completes him and brings him peace, pleasure, and fun, as well as adventure and a love of hunting and also swordfighting and more.  Being half-dragon, he can survive and easily recover from dismemberment and decapitation within seconds, regrow lost body parts, and has a combined, magical spirit so strong and so magical that he can pull off his shirt and grow wings with brilliant feathers out of his back and fly through an atmosphere of more than one world at high speeds whenever he feels he wants to.  It's in a lot more than his DNA and his half-dragon blood.
+
+    Aside from hunting and swordfighting, Rob grew up as a boy who was also into reading books and being educated about things, although one thing that had a strong influence on his childhood was that he was the son of a wealthy military family, with both of his parents being officers in the Aurigan military, who enrolled Rob in a lot of military training programs when he was young.  This included an experimental program that trained him as an assassain and sometimes covert soldier when he was still a kid in school, and as a young assassain he saw some action and got some first-hand experience fighting and taking out a few pirates and terrorists when he was as young as eight years old, and would still go to school and still have much of a normal life as a schoolkid with friends.  He was one of a rare few who did well in the program, as he took it rather well and continued to grow up and still have friends in school he would spend time with, normal friends, and still have a very normal personality that didn't have issues from taking orders and taking lives when called upon to do so.  He also turned out well despite being a bit reckless and naive, and sometimes a social klutz, but one who took discipline and following orders seriously.  He also managed to be a person who would love entertaining others a little, or putting on a show, but he wasn't a \"class clown\" in school as he knew when to save it for and when to be serious.  His IQ score, as far as bookworm smarts, is certainly above average, and so is his \"social IQ\" or social skills.  When it came to doing something for the military and taking orders to track, hunt down, and actually kill very dangerous criminals and terrorists, he didn't take it too hard, and was always able to explain, easily, that he didn't feel sorry for his targets who were very filthy and nasty people, and he had no trouble understanding that his targets were very bad people that had to be taken out, and that taking their lives were very much already justified if he got orders to go after them.
+    Rob participated in the youth assassain military program for a few years, until he was thirteen years old, which was when the government ended the program because most of the children who were enrolled in it, even though hand-picked very carefully to begin with, didn't psychologically do anywhere near as well as Rob did, and had problems with their personalities and dealing with the rough experiences of doing something for the military and taking enemy lives while being so young and still growing up.  Rob was lucky, as he was one of the few who came out fine.
+    When the program ended, and so did a psychological test that they gave everyone who participated, Rob expressed a serious interest in learning to pilot battlemechs and fight pirates and perhaps work a career in the military.  Because of the youth program he was in, he didn't qualify to enter the military as an adult for technical reasons, and there were also politics involved.  His family did however learn that he could work as a mercenary or free-lance sort of battlemech pilot, and accept contracts fighting pirates and working alongside military forces.
+    When the Aurigan government got overthrown, Rob and his family were with forces that were loyal to Kamea Arano, and Rob qualified for and quickly accepted some mercanary work as a battletech pilot even though still a teenager.  Now at the age of sixteen he has some unspent experience points and is ready to fight in a new mercenary group for the restoration of Kamea's position on the throne.
+    Out of coincidence, Rob became slightly aquainted with Yang's technician-turned-mechwarrior, Car Crash, having met him about a year ago, but didn't get a chance to know him very closely.  At one point Rob actually met Yang and Darius, if you can call it that, where he saw them across a room but didn't end up speaking to either one of them, and didn't get introduced to either one of them.
+    Rob is now 16, and has experience points and dedication, ready to put to use.",
+        "Icon": "ws_img_pilot_Prismatic_3"
+    },
+    "BaseGunnery": "1",
+    "BonusGunnery": 0,
+    "BasePiloting": "1",
+    "BonusPiloting": 0,
+    "BaseGuts": "1",
+    "BonusGuts": 0,
+    "BaseTactics": "1",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 4500,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 10,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "m_pro01_stark_chad",
+    "abilityDefNames": [
+        "TraitDef_WS_Dodging_3",
+        "TraitDef_WS_Walk_Plus30",
+        "TraitDef_WS_Sprint_Plus50",
+        "TraitDef_WS_Jump_Plus20",
+        "TraitDef_WS_Sensor_Range_02",
+        "TraitDef_WS_Weapon_Damage_Bonus_04",
+        "TraitDef_WS_Weapon_Stability_Damage_Bonus_05",
+        "TraitDef_WS_Weapon_Range_Bonus_01"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "BLACKLISTED",
+
+            "pilot_aurigan",
+
+            "pilot_assassin",
+            "pilot_athletic",
+            "pilot_bookish",
+            "pilot_brave",
+            "pilot_command",
+            "pilot_comstar",
+            "pilot_gladiator",
+            "pilot_honest",
+            "pilot_lostech",
+            "pilot_mechwarrior",
+            "pilot_military",
+            "pilot_naive",
+            "pilot_reckless",
+            "pilot_spacer",
+            "pilot_tech",
+            "pilot_wealthy",
+
+            "name_Prismatic_Dragon"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0,
+    "IsRonin": true,
+    "IsVanguard": true
+}

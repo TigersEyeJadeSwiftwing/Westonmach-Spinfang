@@ -1,0 +1,92 @@
+{
+    "Description": {
+        "Id": "pilot_hall_Race_Horse",
+        "Name": "Race Horse",
+        "FirstName": "Michael",
+        "LastName": "Anlynd",
+        "Callsign": "Race Horse",
+        "Gender": "Male",
+        "factionID": "Davion",
+        "Age": "26",
+        "Details":
+"* This battlemech pilot has special abilities and bonuses in addition to what comes with whatever their gunnery, piloting, guts, and tactics ability numbers are.  They will fight better than another pilot who has the same numbers but no special abilities of this kind.
+* This battlemech pilot, if hired, comes with free, unspent experience points you are free to use to train them with when you hire them.
+
+* Damage Resist, Level 5
+* Enemy Attack Dodging, Level 5
+* Walking Distance Increase, +50%
+* Sprinting Distance Increase, +50%
+* Jumping Distance Increase, +50%
+* Sensor Range Increase, Level 3
+* General Weapon Aim Bonus, Level 5
+* General Weapon Damage Bonus, Level 5
+* Ballistic Weapon Extra Damage Bonus, Level 2
+* General Weapon Heat Damage Bonus, Level 5
+* General Weapon Stability Damage Bonus, Level 5
+* General Weapon Range Bonus, Level 5
+* Ballistic Weapon Extra Range Bonus, Level 2
+
+    Mike Anlynd was born as a boy with dragon DNA and a \"Tigerstone\" dragon's face, as its called.  This gives him the ability to regrow and regenerate body parts, including after dismemberment and even decapitation, without pain or agony and with it being superficial injury, as well as free of scars and even scabs, and without worry about dying or even getting faint or slowing down from blood loss, from any injury.  He's one of those guys where it's hard for him to die.  He also has the body and reflexes of a 16 year old for his entire life, except of course when he was younger than 16.  Boys like him that have dragon DNA don't die or slow down from natural causes either, not for many years.
+
+    Mike grew up in the Federated Suns, born as a farmer, from a wealthy farming family.  He studied battlemechs and how to pilot them when he was a teenager, and studied under several notable mentors until he was ready to pick a career and, to his dismay, didn't like any of the job offers he had.  Although his parents were hesitant, they decided to allow him to go into mercenary work, and wished him well as he left home, seeking fame and fortune, and a life.
+    Mike has experience commanding and being in charge of other mechwarriors, and is a very good scholar and student, ready to apply some experience to training in whatever gets thrown at him by whatever boss hires him and decides what he's going to practice and excel at.  He's also clean-cut, and grew up with a good, loving family, and stayed out of trouble his whole life so far.  He has some bonus skills and abilities that make him superior, regardless of the numbers for his abilities and what experience points are spent on.",
+        "Icon": "ws_img_pilot_Tigerstone_0"
+    },
+    "BaseGunnery": "1",
+    "BonusGunnery": 0,
+    "BasePiloting": "1",
+    "BonusPiloting": 0,
+    "BaseGuts": "1",
+    "BonusGuts": 0,
+    "BaseTactics": "1",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 5720,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 12,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "m_pro04_brad",
+    "abilityDefNames": [
+        "TraitDef_WS_Damage_Resist_05",
+        "TraitDef_WS_Dodging_5",
+        "TraitDef_WS_Walk_Plus50",
+        "TraitDef_WS_Sprint_Plus50",
+        "TraitDef_WS_Jump_Plus50",
+        "TraitDef_WS_Sensor_Range_03",
+        "TraitDef_WS_Weapon_Aim_Bonus_05",
+        "TraitDef_WS_Weapon_Damage_Bonus_05",
+        "TraitDef_WS_Weapon_Damage_Bonus_Ballistic_02",
+        "TraitDef_WS_Weapon_Heat_Damage_Bonus_05",
+        "TraitDef_WS_Weapon_Stability_Damage_Bonus_05",
+        "TraitDef_WS_Weapon_Range_Bonus_05",
+        "TraitDef_WS_Weapon_Range_Bonus_Ballistic_02"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "BLACKLISTED",
+            "pilot_brave",
+            "pilot_spacer",
+            "pilot_wealthy",
+            "pilot_athletic",
+            "pilot_bookish",
+            "pilot_dependable",
+            "pilot_honest",
+            "pilot_lostech",
+            "pilot_tech",
+            "pilot_spacer",
+            "pilot_command",
+            "pilot_mechwarrior",
+            "pilot_lucky",
+            "pilot_cannot_be_headshot",
+            "name_Race_Horse",
+            "pilot_periphery"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0,
+    "IsRonin": true,
+    "IsVanguard": true
+}

@@ -272,7 +272,7 @@
 		"StartingGlobalContractDifficulty" : 1,
 		"GlobalContractDifficultyMax" : 10,
 		"ContractDifficultyVariance" : 1,
-		"DefaultPilotsPerSystem" : 6,
+		"DefaultPilotsPerSystem" : 50,
 		"DefaultMechTechsPerSystem" : 2,
 		"DefaultMedTechsPerSystem" : 2,
 		"DailyHealValue" : 0,
@@ -355,7 +355,7 @@
 		"StartingDriveMod" : 1,
 		"MaximumDebt" : 0,
 		"DebtWarningValue" : 10000,
-		"DefaultRoninHiringChance" : 0.08,
+		"DefaultRoninHiringChance" : 1.0,
 		"CrewConversationNames" : [
 			"ALEXANDER",
 			"DARIUS",

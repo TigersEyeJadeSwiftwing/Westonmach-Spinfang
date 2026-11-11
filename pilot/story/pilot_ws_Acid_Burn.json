@@ -2,47 +2,66 @@
     "Description" : {
         "Id" : "pilot_ws_Acid_Burn",
         "Name" : "Acid Burn",
-        "FirstName" : "Bill",
-        "LastName" : "Anderton",
+        "FirstName" : "Mark",
+        "LastName" : "Rakker",
         "Callsign" : "Acid Burn",
         "Gender" : "Male",
         "factionID" : "Kurita",
         "Age" : 18,
-        "Details" : "TEST",
+        "Details" :
+"* This battlemech pilot has special abilities and bonuses in addition to what comes with whatever their gunnery, piloting, guts, and tactics ability numbers are.  They will fight better than another pilot who has the same numbers but no special abilities of this kind.
+* This battlemech pilot, if hired, comes with free, unspent experience points you are free to use to train them with when you hire them.
+
+* Damage Resist, Level 4
+* Enemy Attack Dodging, Level 4
+* Walking Distance Increase, +40%
+* Sprinting Distance Increase, +40%
+* Jumping Distance Increase, +40%
+* Sensor Range Increase, Level 3
+* General Weapon Aim Bonus, Level 4
+* General Weapon Damage Bonus, Level 4
+* General Weapon Heat Damage Bonus, Level 2
+* General Weapon Stability Damage Bonus, Level 4
+* General Weapon Range Bonus, Level 4
+
+    Mark Joseph Rakker was a bookworm and a science fiction enthusiast when he was a young child, yet managed to avoid being too much of a geek or otherwise socially inept.  His family owned and ran several businesses, and out of loving Mark allowed him to pursue any career he wanted.  Mark was really into video games, including ones that had battlemechs and mechwarriors in them, and decided he wanted to try piloting a battlemech for real.  He was a bit cautious and edgy at first, uncertain if he would really pick up on doing such a thing for a career and outside of a video game.  When his parents signed him up with a mentor, Mark found he actually enjoyed piloting and fighting battlemechs, and found it held his interest a lot more than he expected.  His hometown in Kruitan space didn't offer much as far as job opportunities for a battlemech pilot, and his parents had to stay put to run their family businesses.  After a tearful good-bye and best, loving wishes, his family let him leave his home, grow up a little, and head off to another city on his home planet, along with his mechwarrior mentor as a guide, looking for work and comparing options.  When Mark became interested in what mercenaries do, he was told by his family that they would support him doing that as long as he didn't join pirates or any group of outlaws.  After looking around for work to start a mercenary career, Mark and his mentor found one group of mercenaries that would take in Mark for a short while until he figured out where he was going to go long-term, and Mark ended up meeting and getting to know Matt Angler, a.k.a Car Crash, which he became friends with.
+    Mark is athletic despite being into reading books and science fiction novels and playing video games, and takes work and studying to be a mechwarrior seriously.  Starting out, he's a friend of Car Crash and has some potential from his training and studies, in the form of experience points that he's willing to use however his new boss decides they should be spent.
+",
         "Icon" : "ws_img_pilot_Cobra"
     },
-        "BaseGunnery" : 4,
+        "BaseGunnery" : 1,
         "BonusGunnery" : 0,
-        "BasePiloting" : 2,
+        "BasePiloting" : 1,
         "BonusPiloting" : 0,
         "BaseGuts" : 1,
         "BonusGuts" : 0,
-        "BaseTactics" : 3,
+        "BaseTactics" : 1,
         "BonusTactics" : 0,
-        "ExperienceUnspent" : 0,
+        "ExperienceUnspent" : 4500,
         "ExperienceSpent" : 0,
         "Injuries" : 0,
-        "Health" : 4,
+        "Health" : 10,
         "LethalInjury" : false,
         "Incapacitated" : false,
         "Morale" : 0,
         "Voice" : "m_pro01_stark_chad",
         "abilityDefNames" : [
-            "TraitDefWeaponHit9",
-            "TraitDefMeleeHit5",
-            "TraitDefDFASelfDmgReduction",
-            "TraitDefRefireReduceTwo",
-            "TraitDefCalledShotImprove",
-            "TraitDefEvasiveChargeAddOne",
-            "TraitDefOverheatAddFifteen",
-            "TraitDefUnsteadySet60",
-            "TraitDefSprintIncrease20"
+            "TraitDef_WS_Damage_Resist_04",
+            "TraitDef_WS_Dodging_4",
+            "TraitDef_WS_Walk_Plus40",
+            "TraitDef_WS_Sprint_Plus40",
+            "TraitDef_WS_Jump_Plus40",
+            "TraitDef_WS_Sensor_Range_03",
+            "TraitDef_WS_Weapon_Aim_Bonus_04",
+            "TraitDef_WS_Weapon_Damage_Bonus_04",
+            "TraitDef_WS_Weapon_Heat_Damage_Bonus_02",
+            "TraitDef_WS_Weapon_Stability_Damage_Bonus_04",
+            "TraitDef_WS_Weapon_Range_Bonus_04"
     ],
     "AIPersonality" : "Undefined",
     "PilotTags" : {
         "items" : [
             "BLACKLISTED",
-            "pilot_backer",
             "pilot_brave",
             "pilot_athletic",
             "pilot_honest",
