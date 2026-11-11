@@ -1,0 +1,272 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Windland",
+        "Name": "Windland",
+        "Details": "Being one of a number of remote 'island' worlds of the Federated Suns located right next to each other, Windland is a dry, arid Earth-sized world that has little vegetation or water except at the poles, where it is frozen.  The planet is however terraformed, so it's small population that mostly works in mines and factories enjoy breathable air and Earth-origin outdoor trees and wildlife, in places where it isn't too dry and barren.  Pirates are also here, in small groups, which maintain black market locations, yet can't organize well enough to offer any contracts for mercenaries.  The main concern, when there is one, is that the whole region of worlds outside of the main territory of The Federated Suns is facing a rebellion and potential civil war from terrorists who call themselves some sort of local government but have no right to do so.  House Davion, which owns Windland, offers contracts for hunting the rebels, although the rebel presence here is quite lightweight and sparse.  Windland doesn't have much as far as agriculture, as there is next to no water here, but the planet does export and sell a number of goods of kinds, supplied by and based upon what it digs up in it's many mines and what it makes in it's factories.  The small population that lives here is a bit wealthy from such business.  Unlike Windland's neighbors such as Wynsprach, Windland doesn't support tourism or sight-seeing, but it does sell a bit in it's stores.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 26.14,
+        "y": -447.25,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_arid",
+            "planet_size_medium",
+            "planet_pop_small",
+            "planet_civ_innersphere",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+            "planet_industry_rich",
+            "planet_other_blackmarket",
+            "planet_progress_1",
+            "planet_name_windland",
+            "planet_faction_davion",
+            "planet_other_gasgiant",
+            "planet_feature_moon01",
+            "planet_feature_moon02",
+            "planet_feature_moon03"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "desertParched",
+        "badlandsParched",
+        "polarFrozen"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 5,
+    "ownerID": "Davion",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 160,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0.5,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 80,
+    "SystemShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefield"
+    ],
+    "factionShopOwnerID": "Davion",
+    "FactionShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_starleague",
+        "itemCollection_shop_starleagueProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefield"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_starleague",
+        "itemCollection_shop_starleagueProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefield"
+    ],
+    "CoreSystemID": "starsystemdef_Windland",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -2,
+    "DifficultyList": [
+        -2,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Davion"
+    ],
+    "contractTargetIDs": [
+        "Locals"
+    ]
+}

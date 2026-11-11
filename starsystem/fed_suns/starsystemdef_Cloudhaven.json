@@ -1,0 +1,278 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Cloudhaven",
+        "Name": "Cloudhaven",
+        "Details": "Cloudhaven is a planet belonging to a group of star systems that are clustered together which belong to The Federated Suns, yet are located outside of their main territory.  The worlds in this group are fighting off a rebellion from a group of terrorists that are trying to overthrow House Davion's ownership of the systems with a rebellion and an attempt at a full-blown civil war if they could have it their way.  Currently, they are not in the most powerful position, and are unlikely to win.  They try to get the populations of this group of star systems to flock to them, and try to appeal to people by calling themselves a 'local government,' yet have no authority or right to do so, and also don't have a very good reputation in the eyes of the people of these star systems, who view them as terrorists and really want House Davion to get rid of them.  Cloudhaven's rebel presence is mild, yet The Federated Suns work with mercenaries and the MRB anyways, here and in the whole region, to suppress and stomp out the terrorists, as extra help in addition to their own military and law enforcement.  Anyways, Cloudhaven is an Earth-sized, terran world with a large population and many climates, diverse and filled with Earth-origin life, including wildlife, plants, and insects, and also Earth-like breathable fresh outdoor air, healthy and safe to enjoy world-wide.  The planet and it's population are wealthy, and enjoy a lot of merchants and trading, and have very large markets with a lot of products to offer year-round.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 23.04,
+        "y": -442.01,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_climate_terran",
+            "planet_size_medium",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_industry_manufacturing",
+            "planet_industry_mining",
+            "planet_industry_rich",
+            "planet_other_blackmarket",
+            "planet_progress_1",
+            "planet_name_Cloudhaven",
+            "planet_faction_davion",
+            "planet_feature_moon01"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "desertParched",
+        "badlandsParched",
+        "jungleTropical",
+        "highlandsSpring",
+        "highlandsFall",
+        "polarFrozen",
+        "tundraFrozen",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 5,
+    "ownerID": "Davion",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 160,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": true,
+    "RoninHiringChance": 0.75,
+    "UseMaxContractOverride": true,
+    "MaxContractOverride": 80,
+    "SystemShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "factionShopOwnerID": "Davion",
+    "FactionShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_starleague",
+        "itemCollection_shop_starleagueProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "BlackMarketShopItems": [
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_Davion",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_MagistracyOfCanopus",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_Marik",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_TaurianConcordat",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Kurita",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_starleague",
+        "itemCollection_shop_starleagueProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_mining",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_battlefield",
+        "itemCollection_shop_battlefieldProgression"
+    ],
+    "CoreSystemID": "starsystemdef_Cloudhaven",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -1,
+    "DifficultyList": [
+        -1,
+        10
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Davion"
+    ],
+    "contractTargetIDs": [
+        "Locals"
+    ]
+}

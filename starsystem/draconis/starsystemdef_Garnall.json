@@ -1,0 +1,166 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Garnall",
+        "Name": "Garnall",
+        "Details": "Garnall is a thriving, high-tech Earth-gravity world with vast mega-cities among lush jungles and oceans.  It is a recreation hotspot, known for it's farms and produce, as well as it's electronics and other technology, not to mention pirates the government constantly tries to stomp out and suppress to no end.  The Draconis Combine has a corporate headquarters here, and shops for special guests who are in good standing with House Kurita.  The Canopians have a hint of a foot in the door as far as a presence here, but a weak one.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -27.02,
+        "y": -454.37,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_terran",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_other_factionhq_kurita",
+            "planet_progress_1",
+            "planet_feature_moon01",
+            "planet_industry_recreation",
+            "planet_industry_aquaculture",
+            "planet_industry_rich",
+            "planet_industry_agriculture",
+            "planet_other_megacity",
+            "planet_other_hub",
+            "planet_name_garnall",
+            "planet_faction_kurita",
+            "planet_industry_electronics"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 2,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 8,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 25,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_electronicsProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_shop_electronicsProgression"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Garnall",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -2,
+    "DifficultyList": [
+        -2,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "MagistracyOfCanopus",
+        "AuriganPirates",
+        "Kurita"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "Kurita"
+    ]
+}

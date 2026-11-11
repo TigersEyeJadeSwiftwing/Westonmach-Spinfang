@@ -1,0 +1,185 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Luckwind",
+        "Name": "Luckwind",
+        "Details": "A thriving jungle and ocean world dotted with mega-cities, Luckwind is a busy, rich world owned and controlled by the Draconis Combine, which has their own headquarters located here, which is also the effective local government.  House Kurita conducts a lot of research experiments here, as well as running a substantial amount of manufacturing.  The system is however plagued by a certain cancer, one in the form of pirates, who constantly target the local industries and technologies of the system.  Fighting the pirates here is an ongoing and perpetual, not to mention bloody and brutal, battle for House Kurita, in both the mega-cities and the jungles of Luckwind.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -52.02,
+        "y": -419.97,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_tropical",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_other_factionhq_kurita",
+            "planet_progress_2",
+            "planet_feature_moon01",
+            "planet_feature_moon03",
+            "planet_industry_recreation",
+            "planet_industry_aquaculture",
+            "planet_industry_rich",
+            "planet_industry_agriculture",
+            "planet_other_megacity",
+            "planet_other_hub",
+            "planet_name_luckwind",
+            "planet_faction_kurita",
+            "planet_industry_research",
+            "planet_industry_manufacturing"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "jungleTropical",
+        "urbanHighTech"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 4,
+    "ownerID": "Kurita",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 9,
+    "SystemInfluence": [
+        {
+            "factionID": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "factionID": "Davion",
+            "Influence": 0
+        },
+        {
+            "factionID": "Liao",
+            "Influence": 0
+        },
+        {
+            "factionID": "Kurita",
+            "Influence": 0
+        },
+        {
+            "factionID": "Marik",
+            "Influence": 0
+        },
+        {
+            "factionID": "Steiner",
+            "Influence": 0
+        },
+        {
+            "factionID": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "factionID": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "factionID": "ComStar",
+            "Influence": 0
+        },
+        {
+            "factionID": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "factionID": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_2"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "G",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+	"itemCollection_shop_mining",
+	"itemCollection_shop_miningProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "factionShopOwnerID": "Kurita",
+    "FactionShopItems": [
+        "itemCollection_faction_Kurita",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+	"itemCollection_shop_mining",
+	"itemCollection_shop_miningProgression",
+        "itemCollection_shop_research",
+        "itemCollection_shop_researchProgression",
+        "itemCollection_shop_manufacturing",
+        "itemCollection_shop_manufacturingProgression",
+	"itemCollection_shop_chemicals",
+	"itemCollection_shop_chemicalsProgression"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Luckwind",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 4,
+    "DifficultyList": [
+        4,
+        9
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "contractEmployerIDs": [
+        "Kurita",
+        "AuriganPirates"
+    ],
+    "contractTargetIDs": [
+        "Kurita",
+        "AuriganPirates"
+    ]
+}
