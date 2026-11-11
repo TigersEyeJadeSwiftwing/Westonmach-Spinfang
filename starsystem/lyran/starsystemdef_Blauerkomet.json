@@ -1,40 +1,36 @@
 {
     "Description": {
-        "Id": "starsystemdef_ParadiseHills",
-        "Name": "Paradise Hills",
-        "Details": "A rich, tropical world of jungle and oceans, Paradise Hills is filled with farms, massive electronics and 'Mech combat equipment industries and research, and unfortunately pirates who want to plunder and steal from it all.  Owned by the Draconis Combine, the jungles of this world are ferocious in how dangerous they are, as the fighting with the pirates has gotten a bit out of hand in recent years, with both pirates and House Kurita fighting harder and putting massive resources into trying to win.  So far the Draconis Combine has maintained control of this world, though gripping it with a bloody and wounded hand, so to speak, hoping to one day stomp out the pirates and return this world into being a vacation and recreation hub that it used to be.  Paradise Hills is a place of a lot of industries and a powerful economy, lots of money, and lots of blood.  One must be brave to do business here.",
+        "Id": "starsystemdef_Blauerkomet",
+        "Name": "Blauerkomet",
+        "Details": "A large, tropical jungle and ocean planet, Blauerkomet is a thriving agricultural world with many farms, and high-technology industries which in particular have very good electronics.  Blauerkomet exports much food and many consumer electronics to nearby star systems, and has a wealthy population.  Part of an off-shoot of the Lyran Commonwealth, this world has minor troubles with pirates and their meddling with business and nearby spacecraft and merchants, but such problems are usually petty.  On the other hand, the local authorities on Blauerkomet aren't used to major pirate-related issues, and don't have experience or know-how in dealing with more significant pirate threats.  The name Blauerkomet, by the way, translates into 'Blue Comet.'",
         "Icon": ""
     },
     "Position": {
-        "x": -50.52,
-        "y": -406.42,
+        "x": 60.12,
+        "y": -524.01,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_climate_tropical",
-            "planet_size_medium",
+            "planet_size_large",
             "planet_pop_medium",
             "planet_civ_innersphere",
             "planet_industry_electronics",
             "planet_industry_research",
-            "planet_industry_chemicals",
-            "planet_other_battlefield",
+	    "planet_industry_agriculture",
+	    "planet_industry_aquaculture",
             "planet_industry_rich",
-            "planet_industry_aquaculture",
-            "planet_industry_agriculture",
+	    "planet_feature_comet",
+            "planet_name_blauerkomet",
+            "planet_faction_steiner",
             "planet_progress_2",
-            "planet_name_paradisehills",
-            "planet_faction_kurita",
-            "planet_feature_moon01",
-            "planet_feature_moon02",
-            "planet_feature_moon03",
+            "planet_feature_moon01"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
-        "jungleTropical",
-        "urbanHighTech"
+        "jungleTropical"
     ],
     "MapRequiredTags": {
         "items": [],
@@ -45,8 +41,8 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 8,
-    "ownerID": "Kurita",
+    "JumpDistance": 9,
+    "ownerID": "Steiner",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 40,
@@ -125,72 +121,66 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "K",
+    "StarType": "A",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": true,
     "MaxContractOverride": 32,
     "SystemShopItems": [
-        "itemCollection_minor_Locals",
-        "itemCollection_major_Locals",
-        "itemCollection_shop_electronicsProgression",
-        "itemCollection_shop_researchProgression",
-        "itemCollection_shop_battlefieldProgression",
-        "itemCollection_shop_electronics",
-        "itemCollection_shop_research",
-        "itemCollection_shop_battlefield",
-	"itemCollection_shop_chemicals",
-	"itemCollection_shop_chemicalsProgression"
-    ],
-    "factionShopOwnerID": "Kurita",
-    "FactionShopItems": [
-        "itemCollection_faction_Kurita",
-        "itemCollection_minor_Locals",
-        "itemCollection_major_Locals",
-        "itemCollection_shop_electronicsProgression",
-        "itemCollection_shop_researchProgression",
-        "itemCollection_shop_battlefieldProgression",
-        "itemCollection_shop_electronics",
-        "itemCollection_shop_research",
-        "itemCollection_shop_battlefield",
-	"itemCollection_shop_chemicals",
-	"itemCollection_shop_chemicalsProgression"
-    ],
-    "BlackMarketShopItems": [
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
         "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
         "itemCollection_major_Locals",
-        "itemCollection_shop_electronicsProgression",
-        "itemCollection_shop_researchProgression",
-        "itemCollection_shop_battlefieldProgression",
-        "itemCollection_shop_electronics",
+        "itemCollection_major_Locals",
         "itemCollection_shop_research",
-        "itemCollection_shop_battlefield",
-	"itemCollection_shop_chemicals",
-	"itemCollection_shop_chemicalsProgression"
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronicsProgression"
     ],
-    "CoreSystemID": "starsystemdef_ParadiseHills",
+    "factionShopOwnerID": "Steiner",
+    "FactionShopItems": [
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_Steiner",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_shop_research",
+        "itemCollection_shop_battlefieldProgression",
+        "itemCollection_shop_electronicsProgression"
+    ],
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Blauerkomet",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 6,
+    "DefaultDifficulty": -2,
     "DifficultyList": [
-        6,
-        10
+        -2,
+        3
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
-        "Kurita",
-        "AuriganPirates"
+        "Steiner"
     ],
     "contractTargetIDs": [
-        "Kurita",
         "AuriganPirates"
     ]
 }

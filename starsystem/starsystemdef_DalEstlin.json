@@ -1,8 +1,8 @@
 {
     "Description": {
         "Id": "starsystemdef_DalEstlin",
-        "Name": "Dal Estlin",
-        "Details": "Property of the Capellan Confederation, Dal Estlin is a dangerous Earth-sized, terraformed tropical world of oceans, jungle, urban cities, large-scale mining operations and factories of sorts, and terribly ruthless pirates that make the planet a very nasty place to set foot on.  It is well populated, with a lot of busy industries, and workers put up with people being slaughtered by the pirates and House Liao's attempts to crush them on a daily basis.  The Capellans make it no secret that they welcome all the help they can get in fighting the pirates, which operate in large organized groups, sometimes taking control of entire areas and terrorizing people in large numbers, with their own armies and battlemechs.  For a warrior, this is a good place to make money, as well as a good place to get yourself killed very quickly.  Regardless, Dal Estlin has thriving marketplaces with much for sale, for those who carry a large wallet and wear some good body armor for all the theives and pirates.  Those who are too refined and too civilized have no business here, and just don't survive - more than a few quick and bloodied seconds, one could say.",
+        "Name": "DalEstlin",
+        "Details": "Property of the Capellan Confederation, DalEstlin is a dangerous Earth-sized, terraformed tropical world of oceans, jungle, urban cities, large-scale mining operations and factories of sorts, and terribly ruthless pirates that make the planet a very nasty place to set foot on.  It is well populated, with a lot of busy industries, and workers put up with people being slaughtered by the pirates and House Liao's attempts to crush them on a daily basis.  The Capellans make it no secret that they welcome all the help they can get in fighting the pirates, which operate in large organized groups, sometimes taking control of entire areas and terrorizing people in large numbers, with their own armies and battlemechs.  For a warrior, this is a good place to make money, as well as a good place to get yourself killed very quickly.  Regardless, Dal Estlin has thriving marketplaces with much for sale, for those who carry a large wallet and wear some good body armor for all the theives and pirates.  Those who are too refined and too civilized have no business here, and just don't survive - more than a few quick and bloodied seconds, one could say.",
         "Icon": ""
     },
     "Position": {
@@ -47,7 +47,7 @@
     "ownerID": "Liao",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 40,
+    "ShopMaxSpecials": 110,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -128,8 +128,10 @@
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": true,
-    "MaxContractOverride": 40,
+    "MaxContractOverride": 50,
     "SystemShopItems": [
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_Liao",
         "itemCollection_minor_Locals",
         "itemCollection_major_Locals",
         "itemCollection_shop_manufacturingProgression",
@@ -139,8 +141,8 @@
         "itemCollection_shop_mining",
         "itemCollection_shop_battlefield",
         "itemCollection_shop_battlefieldProgression",
-	"itemCollection_shop_chemicals",
-	"itemCollection_shop_chemicalsProgression"
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression"
     ],
     "factionShopOwnerID": "Liao",
     "FactionShopItems": [
@@ -154,12 +156,24 @@
         "itemCollection_shop_mining",
         "itemCollection_shop_battlefield",
         "itemCollection_shop_battlefieldProgression",
-	"itemCollection_shop_chemicals",
-	"itemCollection_shop_chemicalsProgression"
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression"
     ],
     "BlackMarketShopItems": [
         "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_AuriganPirates",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
+        "itemCollection_faction_Liao",
         "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_minor_Locals",
+        "itemCollection_major_Locals",
+        "itemCollection_major_Locals",
         "itemCollection_major_Locals",
         "itemCollection_shop_manufacturingProgression",
         "itemCollection_shop_miningProgression",
@@ -168,8 +182,8 @@
         "itemCollection_shop_mining",
         "itemCollection_shop_battlefield",
         "itemCollection_shop_battlefieldProgression",
-	"itemCollection_shop_chemicals",
-	"itemCollection_shop_chemicalsProgression"
+        "itemCollection_shop_chemicals",
+        "itemCollection_shop_chemicalsProgression"
     ],
     "CoreSystemID": "starsystemdef_DalEstlin",
     "StartingSystemModes": [
