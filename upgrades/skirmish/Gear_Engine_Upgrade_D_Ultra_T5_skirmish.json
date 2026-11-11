@@ -8,13 +8,13 @@
     "UIName": "Engine Upgrade D Ultra T5",
     "Id": "Gear_Engine_Upgrade_D_Ultra_T5_skirmish",
     "Name": "Engine Upgrade D Ultra T5",
-    "Details": "Walking / Sprinting movement: 185.00%.\n    Effect stacks up to 2 times.\nMaximum stability modifier: +150.\nUnsteady threshold modifier: +150.\nCombat turn initiative bonus: +1.\n    Effect stacks up to 2 times.\nHeat generated per turn: +25.\nMax heat and overheating modifiers: +12.\nAdditional damage taken by unit (trade-off): 67.5000%.\n\n",
+    "Details": "Walking / Sprinting movement: 200.00%.\n    Effect stacks up to 2 times.\nMaximum stability modifier: +150.\nUnsteady threshold modifier: +150.\nCombat turn initiative bonus: +1.\n    Effect stacks up to 2 times.\nCombat turn initiative bonus: +1.\n    Effect stacks up to 1 times.\nJumping spaces/turn: 200.00%.\n    Effect stacks up to 2 times.\nHeat generated per turn: +25.\nMax heat and overheating modifiers: +12.\nAdditional damage taken by unit (trade-off): 67.5000%.\n\n",
     "Icon": "uixSvgIcon_action_evasivemove"
   },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
-  "BonusValueA": "185% Walk/Sprint",
+  "BonusValueA": "200% Walk/Sprint",
   "BonusValueB": "+1 Initiative Bonus",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -179,7 +179,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.85,
+        "modValue": 2,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -212,7 +212,7 @@
       "statisticData": {
         "statName": "RunSpeed",
         "operation": "Float_Multiply",
-        "modValue": 1.85,
+        "modValue": 2,
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "NotSet",
@@ -324,6 +324,83 @@
       "vfxData": null,
       "instantModData": null,
       "poorlyMaintainedEffectData": null
+    },
+    {
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-WS-Initiative_Adjust-Engine1",
+        "Name": "ENGINE UPGRADE: UNIT INITIATIVE INCREASED",
+        "Details": "This unit has a [INVERSE_AMT] bonus to Initiative every combat turn.",
+        "Icon": "uixSvgIcon_special_Equipment"
+      },
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": -1,
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    },
+    {
+      "Description": {
+        "Id": "StatusEffect-WS-Jump_Distance-JJ_Upgrade2",
+        "Name": "UPGRADED JUMP DISTANCE",
+        "Details": "This unit's jump jet upgrade(s) increases it's jumping distance by [AMT].",
+        "Icon": "uixSvgIcon_action_jump"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": 2,
+        "modType": "System.Single"
+      }
     }
   ],
   "item_collection3": "itemCollection_WS_upgrade_mechanical`1`3"
