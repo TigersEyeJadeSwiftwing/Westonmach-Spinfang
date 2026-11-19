@@ -1,0 +1,46 @@
+{
+	"Description" : {
+		"Id" : "TraitDef_WS_Initiative_Plus_2",
+		"Name" : "Increased Initiative",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior gain 2 Initiative in Combat.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "JumpDistance",
+	"ShortDesc" : "+ 2 Init",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : -1
+			},
+			"targetingData" :
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Trait-WS-Pilot_Initiative_Modifier",
+				"Name" : "Increased Initiative",
+				"Details" : "Gain +2 Initiative",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" :
+			{
+				"statName" : "BaseInitiative",
+				"operation" : "Int_Add",
+				"modValue" : "2",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		}
+	]
+}

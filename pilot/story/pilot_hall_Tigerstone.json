@@ -12,11 +12,12 @@
 "* This battlemech pilot has special abilities and bonuses in addition to what comes with whatever their gunnery, piloting, guts, and tactics ability numbers are.  They will fight better than another pilot who has the same numbers but no special abilities of this kind.
 * This battlemech pilot, if hired, comes with free, unspent experience points you are free to use to train them with when you hire them.
 
+* Initiative Bonus, +1
 * Damage Resist, Level 3
 * Enemy Attack Dodging, Level 3
-* Walking Distance Increase, +30%
-* Sprinting Distance Increase, +30%
-* Jumping Distance Increase, +30%
+* Walking Distance Increase, +100%
+* Sprinting Distance Increase, +100%
+* Jumping Distance Increase, +80%
 * Sensor Range Increase, Level 2
 * General Weapon Aim Bonus, Level 3
 * General Weapon Damage Bonus, Level 3
@@ -44,11 +45,12 @@
     "Morale": 0,
     "Voice": "m_pro01_stark_chad",
     "abilityDefNames": [
+        "TraitDef_WS_Initiative_Plus_1",
         "TraitDef_WS_Damage_Resist_03",
         "TraitDef_WS_Dodging_3",
-        "TraitDef_WS_Walk_Plus30",
-        "TraitDef_WS_Sprint_Plus30",
-        "TraitDef_WS_Jump_Plus30",
+        "TraitDef_WS_Walk_Plus100",
+        "TraitDef_WS_Sprint_Plus100",
+        "TraitDef_WS_Jump_Plus80",
         "TraitDef_WS_Sensor_Range_02",
         "TraitDef_WS_Weapon_Aim_Bonus_03",
         "TraitDef_WS_Weapon_Damage_Bonus_03",
@@ -83,5 +85,5 @@
     },
     "PilotCost": 0,
     "IsRonin": true,
-    "IsVanguard": true
+    "IsVanguard": false
 }

@@ -28,7 +28,7 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "Trait-WS-Jump_Speed_Modifier",
+				"Id" : "Trait-WS-Pilot_Jump_Speed_Modifier",
 				"Name" : "Increased Jump",
 				"Details" : "Gain 10% Jump distance",
 				"Icon" : "uixSvgIcon_action_evasivemove"

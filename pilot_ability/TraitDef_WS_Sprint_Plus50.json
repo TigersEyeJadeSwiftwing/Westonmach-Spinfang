@@ -28,7 +28,7 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "Trait-WS-Sprint_Speed_Modifier",
+				"Id" : "Trait-WS-Pilot_Sprint_Speed_Modifier",
 				"Name" : "Increased Sprint",
 				"Details" : "Gain 50% Sprint distance",
 				"Icon" : "uixSvgIcon_action_evasivemove"
