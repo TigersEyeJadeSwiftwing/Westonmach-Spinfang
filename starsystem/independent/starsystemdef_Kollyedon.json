@@ -132,7 +132,7 @@
         "itemCollection_shop_chemicals"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
-    "FactionShopItems": null,
+    "FactionShopItems": [],
     "BlackMarketShopItems": null,
     "CoreSystemID": "starsystemdef_Kollyedon",
     "StartingSystemModes": [
@@ -150,6 +150,7 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "OrderSkywardSword",
         "Locals",
         "Steiner",
         "TaurianConcordat",
@@ -157,6 +158,10 @@
     ],
     "contractTargetIDs": [
         "Locals",
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "AuriganPirates"
     ]
 }

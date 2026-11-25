@@ -155,11 +155,15 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "OrderSkywardSword",
         "Kurita",
         "AuriganPirates"
     ],
     "contractTargetIDs": [
-        "Kurita",
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "AuriganPirates"
     ]
 }

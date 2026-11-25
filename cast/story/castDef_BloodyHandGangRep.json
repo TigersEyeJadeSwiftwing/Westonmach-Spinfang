@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_BloodyHandGangRep",
+   "internalName" : "BloodyHandGangRep",
+   "firstName" : "",
+   "lastName" : "",
+   "callsign" : null,
+   "rank" : "Gang Representative",
+   "showRank" : true,
+   "gender" : "None",
+   "factionID" : "BloodyHandGang",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../Mods/Westonmach-Spinfang/sprites_portraits/swat_6.png"
+   },
+   "emotePotraitList" : [
+
+   ]
+}

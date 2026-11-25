@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_DeathmarketSyndicateRep",
+   "internalName" : "DeathmarketSyndicateRep",
+   "firstName" : "Mr.",
+   "lastName" : "Sweetlethal",
+   "callsign" : null,
+   "rank" : "Syndicate Representative",
+   "showRank" : true,
+   "gender" : "None",
+   "factionID" : "DeathmarketSyndicate",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../Mods/Westonmach-Spinfang/sprites_portraits/priest_1.png"
+   },
+   "emotePotraitList" : [
+
+   ]
+}

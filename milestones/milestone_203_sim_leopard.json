@@ -1,0 +1,136 @@
+{
+    "Description" : {
+        "Id" : "milestone_203_sim_leopard",
+        "Name" : "sim",
+        "Details" : "Sim game phase",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 203,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {
+			    "items" : [
+					"map_travel_2",
+					"company_leopard_loan_good",
+					"oc03_post_intro_kamea"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "RemovedTags" : {
+				"items" : [
+					"company_leopard_loan_fair",
+					"AARCompleteNotificationsDisabled"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "Stats" : [
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "NextStoryMilestone",
+                    "value" : 210,
+					"set" : true,
+                    "valueConstant" : ""
+                },
+                {
+                    "typeString" : "System.Single",
+                    "name" : "Difficulty",
+                    "value" : 3,
+					"set" : true,
+                    "valueConstant" : ""
+                },
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "MissionsComplete",
+                    "value" : 0,
+					"set" : true,
+                    "valueConstant" : ""
+                }
+			],
+            "Actions" : [
+				{
+					"Type" : "System_SimGameCharacterVisible",
+					"value" : false,
+					"additionalValues" : [
+						"Kamea",
+						"Alexander"
+					]
+				},
+                {
+                    "Type" : "System_SetContractScope",
+                    "value" : "EARLY_CAMPAIGN",
+                    "valueConstant" : null
+                },
+                {
+                    "Type" : "System_SetTargetBreadcrumbSystem",
+                    "value" : "starsystemdef_Weldry",
+                    "valueConstant" : null
+                },
+				{
+					"Type" : "System_ResetContracts",
+					"value" : "",
+                    "valueConstant" : null
+				}
+			],
+            "ForceEvents" : [
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_leopard_mechtechExpenses",
+					"MinDaysWait" : 3,
+					"MaxDaysWait" : 3,
+					"Probability" : 100
+				},
+				{
+					"Scope" : "MechWarrior",
+					"EventID" : "forcedevent_leopard_lastCup",
+					"MinDaysWait" : 18,
+					"MaxDaysWait" : 18,
+					"Probability" : 100
+				},
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_leopard_medicalExpenses",
+					"MinDaysWait" : 30,
+					"MaxDaysWait" : 30,
+					"Probability" : 100
+				},
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_co_intro_Heavy_Metal",
+					"MinDaysWait" : 1,
+					"MaxDaysWait" : 1,
+					"Probability" : 100
+				}
+
+			],
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

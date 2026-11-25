@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_PirateDefault",
+   "internalName" : "PirateDefault",
+   "firstName" : "",
+   "lastName" : "",
+   "callsign" : null,
+   "rank" : "Faction Representative",
+   "showRank" : true,
+   "gender" : "None",
+   "factionID" : "AuriganPirates",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "sprites/Portraits/guiTxrPort_LocalsRep_utr.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

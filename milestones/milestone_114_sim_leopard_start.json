@@ -157,6 +157,22 @@
                     "value" : "Leopard",
                     "valueConstant" : null
                 },
+
+                /* Make visible the new, custom factions */
+                {
+                    "Type" : "System_AddDisplayedFaction",
+                    "value" : "OrderSkywardSword"
+                },
+                {
+                    "Type" : "System_AddDisplayedFaction",
+                    "value" : "DeathmarketSyndicate"
+                },
+                {
+                    "Type" : "System_AddDisplayedFaction",
+                    "value" : "BloodyHandGang"
+                },
+
+                /* Hire additional pilots */
                 {
                     "Type" : "System_StartConversation",
                     "value" : "ws_sim_convo_new_young_pilots",
@@ -165,8 +181,6 @@
 						"Leopard, Command Deck"
 					]
                 },
-
-                /* Hire additional pilots */
 
 				/* set in 111, repeated here for debug purposes */
 				{

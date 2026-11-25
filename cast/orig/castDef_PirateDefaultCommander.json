@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_PirateDefaultCommander",
+    "internalName" : "PirateDefaultCommander",
+    "firstName" : "Pirate",
+    "lastName" : "Leader",
+    "callsign" : "",
+    "rank" : "",
+    "gender" : "NonBinary",
+    "factionID" : "AuriganPirates",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_SE03_PirateLackey_def_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

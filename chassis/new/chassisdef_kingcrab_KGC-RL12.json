@@ -21,7 +21,7 @@
     "weightClass": "ASSAULT",
     "BattleValue": 13206000,
     "Heatsinks": 0,
-    "TopSpeed": 105,
+    "TopSpeed": 300,
     "TurnRadius": 90,
     "MaxJumpjets": 8,
     "Stability": 500,

@@ -1,0 +1,66 @@
+{
+    "Description" : {
+        "Id" : "milestone_431_sim_argo",
+        "Name" : "sim",
+        "Details" : "Sim game phase",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 431,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {},
+            "RemovedTags" : {},
+            "Stats" : [],
+            "Actions" : [
+				{
+                    "Type" : "System_AddContract",
+                    "value" : "trav_story_misc_warCouncil",
+                    "valueConstant" : null,
+					"additionalValues" : [
+						"NoFaction",
+						"AuriganRestoration",
+						"starsystemdef_Weldry"
+					]
+                }
+            ],
+            "ForceEvents" : [
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_co_Skyward_Swords_Gift_2",
+					"MinDaysWait" : 1,
+					"MaxDaysWait" : 1,
+					"Probability" : 100
+				}
+            ],
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

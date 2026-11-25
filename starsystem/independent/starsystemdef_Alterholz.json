@@ -131,7 +131,7 @@
         "itemCollection_shop_manufacturing"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
-    "FactionShopItems": null,
+    "FactionShopItems": [],
     "BlackMarketShopItems": [
         "itemCollection_faction_AuriganPirates",
         "itemCollection_minor_Locals",
@@ -154,6 +154,7 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "OrderSkywardSword",
         "Locals",
         "Steiner",
         "TaurianConcordat",
@@ -161,6 +162,10 @@
     ],
     "contractTargetIDs": [
         "Locals",
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "AuriganPirates"
     ]
 }

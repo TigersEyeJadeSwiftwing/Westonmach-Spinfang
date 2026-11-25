@@ -226,6 +226,10 @@
         "AuriganPirates"
     ],
     "contractTargetIDs": [
-        "Locals"
+        "Locals",
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate"
     ]
 }

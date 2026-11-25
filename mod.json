@@ -16,6 +16,10 @@
     ],
 
     "DataAddendumEntries":[
+        {
+            "name": "BattleTech.FactionEnumeration",
+            "path": "Faction.json"
+        },
     	{
       		"name": "BattleTech.AmmoCategoryEnumeration",
       		"path": "AmmoCategory.json"
@@ -32,12 +36,19 @@
         { "Type": "ItemCollectionDef", "Path": "item_collections_WS" },
         { "Type": "ItemCollectionDef", "Path": "item_collections_WS_append", "ShouldAppendText": true },
 
+      	{ "Type": "CastDef", "Path": "cast/story", "ShouldMergeJSON": false, "AddToDB": true },
+      	{ "Type": "HeraldryDef", "Path": "heraldry/story", "ShouldMergeJSON": false, "AddToDB": true },
+      	{ "Type": "FactionDef", "Path": "factions/story", "ShouldMergeJSON": false, "AddToDB": true },
+      	{ "Type": "FactionDef", "Path": "factions/orig", "ShouldMergeJSON": false, "AddToDB": true },
+
+      	{ "Type": "Sprite", "Path": "sprites_portraits", "ShouldMergeJSON": false, "AddToDB": true },
       	{ "Type": "Sprite", "Path": "sprites_pilots", "ShouldMergeJSON": false, "AddToDB": true },
       	{ "Type": "AbilityDef", "Path": "pilot_ability", "ShouldMergeJSON": false, "AddToDB": true },
       	{ "Type": "PilotDef", "Path": "pilot/base", "ShouldMergeJSON": false, "AddToDB": true },
       	{ "Type": "PilotDef", "Path": "pilot/skirmish", "ShouldMergeJSON": false, "AddToDB": true },
       	{ "Type": "PilotDef", "Path": "pilot/story", "ShouldMergeJSON": false, "AddToDB": true },
 
+      	{ "Type": "HardpointDataDef", "Path": "hardpoints", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "MechDef", "Path": "mech/new", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "MechDef", "Path": "mech/story", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis/new", "ShouldMergeJSON": false, "AddToDB": true },

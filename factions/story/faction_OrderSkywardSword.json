@@ -1,0 +1,56 @@
+{
+    "ID" : "faction_OrderSkywardSword",
+    "Name" : "the Order of the Skyward Sword",
+    "ShortName" : "Skyward Sword Order",
+    "Description" : "The Order of the Skyward Sword is an independent organization of zarakites that are very un-biased and impartial when it comes to various factions and their back-and-forth spit-flinging politics, yet regardless stands against criminals and terrorists, as well as those who are blatently evil in the face of decency and law-abiding, civil, ethics and ways of life.  They are wealthy merchants who run certain, select, members-only marketplaces in various star systems, which they grant access to for those who prove themselves as far as who they stand against.  They also offer a grand dragon's knowledge, wisdom, and council from time to time, and an alliance with them will not interfere with dealings with the factions, with the exception of pirates, which they condemn and won't tolerate.  They are also warriors who will back up their allies when called upon, and are willing to help friends who are in need.",
+    "Demonym" : "Skyward Sword Order",
+    "Government" : "Order of the Skyward Sword",
+    "Allies" : [
+    ],
+    "Enemies" : [
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
+        "AuriganPirates"
+    ],
+    "Presence" : 1,
+    "ReputationStatements" : [
+        "This isn't the most pleasant conversation, but here we are, and with this contract we offer something of a second chance.  Take it or leave it.",
+        "The ride down our road is certainly rough at the moment.  Regardless, perhaps this contract will interest you.",
+        "Greetings.  Getting to this meeting was a little shaky, but maybe this contract will be of interest to you, Commander.",
+        "Hello!  We side with justice in it's many forms, against outlaws, criminals, theives, and terrorists.  Would you be interested in doing business with us, with this contract?",
+        "Greetings, Commander!  The Order of the Skyward Sword is interested in doing business with your company, and offers you a contract that might be up your alley.",
+        "Hello again!  We're pleased that you are once again considering business with The Order of the Skyward Sword, and we offer a contract that we give to those we see as being more honorable than many others!",
+        "Commander!  So nice to see you again, we wish you the best!  Can we do business again?  Perhaps this contract will be good business for you, why don't you look it over?"
+    ],
+    "MissionSuccessStatements" : [
+		"Nicely done, a well-orchastrated success!  We're glad to do business with you, and that you could be of fine service to us today!",
+    ],
+	"GoodFaithFailureStatements" : [
+		"Goodness, sometimes a contract of this sort will turn out like this.  We see that things didn't work out, but we do appreciate your attempt to follow through with the contract.",
+    ],
+	"BadFaithFailureStatements" : [
+		"We see that you fell short of our expectations.  The terms of our contract certainly weren't fulfilled, so I'm afraid we can't offer what we wanted to in return for what happened.  This gives our relationship something of a black eye, no doubt.",
+    ],
+    "factionID" : "OrderSkywardSword",
+	"DefaultCombatLeaderCastDefId" : "castDef_SkywardSwordOrderRep",
+    "DefaultRepresentativeCastDefId" : "castDef_SkywardSwordOrderRep",
+	"factionTagOverride" : "Order of the Skyward Sword",
+    "DataManager" : null,
+    "icon" : "envTxrHrld_066",
+    "heraldryDefId" : "heraldrydef_OrderSkywardSword",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+	"factionMapBorderOverrideColor" : "rgba(0.32,0.32,1.0,1.0)",
+    "StartingReputationValues" : [
+        0,
+        0,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

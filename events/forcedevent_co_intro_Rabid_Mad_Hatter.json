@@ -1,0 +1,153 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_co_intro_Rabid_Mad_Hatter",
+        "Name" : "The Skyward Sword's Gift Offer",
+        "Details" : "    Among your messages in your inbox, you find a recorded message from your representative with The Order of the Skyward Sword, the grand dragon zarakite who goes by the name of William Grandfeather, although the message comes from a mailbox with the name \"William Anderson\".  Zarakites typically have multiple names they will sometimes use, and you're guessing that this is one of Mr. Grandfeather's other names.  Playing the message, you watch his face speak, with authority and honor, yet also warm and friendly, someone who is of course a VIP as any zarakite dragon is, yet easy for any common citizen to approach and talk to with at least common, casual conversation:\r\n\r\n    \"Commander!  I hope this message finds you in good shape, and what it offers comes at a decent time.  The Order of the Skyward Sword has certainly not forgotten your mercenary company or how you have served our interests well in the past, and is willing to offer you a special favor.  I'll get to the point: I have a zarakite tribal half dragon young mechwarrior pilot who seeks some experiences and enrichment in his life, and as part of a karmic quest he has signed himself up to spend some time working a job as a mercenary battlemech pilot.  I carefully hand-picked your company's name from a list of mercenary groups that I feel I can trust to give both him and your company something that both of you can use, and he is highly skilled and in need of experience.\"\r\n\r\n    \"I have sent him to the hiring hall of the star system where you are currently located for your review and consideration of whether or not you would be willing to hire him as a mechwarrior for your mercenary group.  If you find him useful, you're more than willing to keep him in your service for a good number of years, however long you would like.  You can find him at the local hiring hall, and his callsign is 'Rabid Mad Hatter'.  Please consider this offer as a gift, as this is a very special pilot that has a lot to offer, and we don't offer this sort of thing to many.\"\r\n\r\n    \"Thank you for your time, commander.\"",
+        "Icon" : "uixTxrSpot_IncomingTransimission.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 100,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "",
+            "items" : []
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : []
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+            {
+                "obj" : "Reputation.MercenaryReviewBoard",
+                "op" : "GreaterThanOrEqual",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+            {
+                "obj" : "Reputation.OrderSkywardSword",
+                "op" : "GreaterThanOrEqual",
+                "val" : 95,
+                "valueConstant" : "95"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "Commander",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "Injuries",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : "0"
+                }
+            ]
+        },
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "Tags/PlanetTags",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "Tags/PlanetTags",
+                "items" : [
+                    "planet_other_empty"
+                ]
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "OK.",
+                "Details" : "option one",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "A new pilot is available for hire.",
+                        "Details" : "Rabid Mad Hatter is now availalbe for hire, in the local hiring hall.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : []
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : []
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddDisplayedFaction",
+                                    "value" : "OrderSkywardSword"
+                                },
+                                {
+                                    "Type" : "System_AddDisplayedFaction",
+                                    "value" : "DeathmarketSyndicate"
+                                },
+                                {
+                                    "Type" : "System_AddDisplayedFaction",
+                                    "value" : "BloodyHandGang"
+                                },
+                                {
+                                    "Type" : "MechWarrior_AddHiring",
+                                    "value" : "pilot_skyward_Rabid_Mad_Hatter",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true
+}

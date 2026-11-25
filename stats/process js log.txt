@@ -1,6 +1,6 @@
 process.js, started:
-Seconds: 322,920, Nanoseconds: 363,307,600
-Tue Nov 10 2026 10:48:09 GMT-0500 (Eastern Standard Time)
+Seconds: 155,175, Nanoseconds: 156,914,500
+Tue Nov 17 2026 13:29:34 GMT-0500 (Eastern Standard Time)
 
 Cleaning folder: "../ammunitionBox/generated/"...
 Cleaning folder: "../ammunitionBox/game/"...
@@ -22,12 +22,12 @@ Cleaning folder: "../pilot/skirmish/"...
 Pre-filling Item Collection Files that need it.....
 
 itemCollection_WS_upgrade_mechanical,,,
-Gear_JumpJet_Spinfang_Elite_Light,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,5,9
-Gear_Coolant_Plant_t1_0,HeatSink,5,9
+Gear_JumpJet_Spinfang_Elite_Light,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,10,10
+Gear_Coolant_Plant_t1_0,HeatSink,5,10
 Gear_Coolant_Plant_t2_0,HeatSink,5,7
 Gear_Coolant_Plant_t3_0,HeatSink,4,6
 Gear_Coolant_Plant_t4_0,HeatSink,4,4
@@ -1125,6 +1125,7 @@ ws_img_pilot_Golden_Sword.png
 ws_img_pilot_Grand_Flight.png
 ws_img_pilot_High_Road_Wolf.png
 ws_img_pilot_High_Warrior.png
+ws_img_pilot_High_Warrior_2.png
 ws_img_pilot_Hot_Lightning.png
 ws_img_pilot_Ice_Hawk.png
 ws_img_pilot_Iolite.png
@@ -1207,7 +1208,7 @@ ws_img_pilot_Winter_Coyote.png
 ws_img_pilot_Winter_Day.png
 ws_img_pilot_Wolf.png
 ws_img_pilot_Yellow_Viper.png
-Total number of face name filenames: 118
+Total number of face name filenames: 119
 
 Custom Battlemech pilots / Mechwarriors:
 Error: No pilot face sprite exists for pilot 1 at spreadsheet row 2 with callsign: Slaughter Shop, face: 2, with non-existant face filename: ws_img_pilot_2.png
@@ -1332,9 +1333,9 @@ Total incomplete pilots (no file written) or errors: 23
 
 
 process.js, completed:
-Seconds: 322,921, Nanoseconds: 33,059,500
-Tue Nov 10 2026 10:48:09 GMT-0500 (Eastern Standard Time)
+Seconds: 155,175, Nanoseconds: 993,963,800
+Tue Nov 17 2026 13:29:35 GMT-0500 (Eastern Standard Time)
 Writing output to log file: "process js log.txt"...
-Elapsed program run-time, Seconds: 0, Nanoseconds: 669,751,900
+Elapsed program run-time, Seconds: 0, Nanoseconds: 837,049,300
 
 

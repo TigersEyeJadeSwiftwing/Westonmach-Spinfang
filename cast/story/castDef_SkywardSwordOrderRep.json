@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_SkywardSwordOrderRep",
+   "internalName" : "SkywardSwordOrderRep",
+   "firstName" : "William",
+   "lastName" : "Grandfeather",
+   "callsign" : null,
+   "rank" : "Faction Representative",
+   "showRank" : true,
+   "gender" : "None",
+   "factionID" : "OrderSkywardSword",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../Mods/Westonmach-Spinfang/sprites_portraits/North_Forest.png"
+   },
+   "emotePotraitList" : [
+
+   ]
+}

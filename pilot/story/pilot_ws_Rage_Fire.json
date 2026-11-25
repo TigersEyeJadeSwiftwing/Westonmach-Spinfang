@@ -69,7 +69,6 @@
     "PilotTags" : {
         "items" : [
             "BLACKLISTED",
-            "pilot_backer",
             "pilot_honest",
             "pilot_dependable",
             "pilot_brave",

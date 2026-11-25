@@ -173,6 +173,10 @@
         "Steiner"
     ],
     "contractTargetIDs": [
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "AuriganPirates"
     ]
 }

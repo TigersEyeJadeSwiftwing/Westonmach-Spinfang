@@ -139,7 +139,7 @@
         "itemCollection_shop_chemicals"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
-    "FactionShopItems": null,
+    "FactionShopItems": [],
     "BlackMarketShopItems": null,
     "CoreSystemID": "starsystemdef_Blackwheat",
     "StartingSystemModes": [
@@ -157,12 +157,17 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "OrderSkywardSword",
         "Kurita",
         "MagistracyOfCanopus",
         "Locals",
         "AuriganPirates"
     ],
     "contractTargetIDs": [
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "AuriganPirates",
         "Kurita",
         "MagistracyOfCanopus",

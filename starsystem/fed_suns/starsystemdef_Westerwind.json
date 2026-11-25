@@ -106,6 +106,18 @@
         {
             "factionID": "AuriganMercenaries",
             "Influence": 0
+        },
+        {
+            "factionID": "LocalCriminals",
+            "Influence": 0
+        },
+        {
+            "factionID": "BloodyHandGang",
+            "Influence": 0
+        },
+        {
+            "factionID": "DeathmarketSyndicate",
+            "Influence": 0
         }
     ],
     "TravelRequirements": [
@@ -565,9 +577,14 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "OrderSkywardSword",
         "Davion"
     ],
     "contractTargetIDs": [
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "Locals"
     ]
 }

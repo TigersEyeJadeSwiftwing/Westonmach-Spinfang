@@ -563,6 +563,10 @@
         "Davion"
     ],
     "contractTargetIDs": [
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "Locals"
     ]
 }

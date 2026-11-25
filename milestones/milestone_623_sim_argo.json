@@ -1,0 +1,113 @@
+{
+    "Description" : {
+        "Id" : "milestone_623_sim_argo",
+        "Name" : "sim",
+        "Details" : "Sim game phase",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 623,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {
+				"items" : [
+					"oc14_post_armistice"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "RemovedTags" : {
+				"items" : [
+					"AARCompleteNotificationsDisabled"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "Stats" : [],
+            "Actions" : [
+				{
+					"Type" : "System_SimGameCharacterVisible",
+					"value" : false,
+					"additionalValues" : [
+						"Kamea"
+					]
+				},
+                {
+                    "Type" : "System_ToggleIgnoredContractEmployers",
+                    "value" : false,
+					"additionalValues" : [ "TaurianConcordat" ]
+                },
+				{
+                    "Type" : "System_AddContract",
+                    "value" : "trav_story_8_coromodir",
+                    "valueConstant" : null,
+					"additionalValues" : [
+						"AuriganDirectorate",
+						"AuriganRestoration",
+						"starsystemdef_Coromodir"
+					]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Tyrlon",
+					"additionalValues" : [ "starsystemdef_Tyrlon_Flipped" ]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Guldra",
+					"additionalValues" : [ "starsystemdef_Guldra_Flipped" ]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Heliat",
+					"additionalValues" : [ "starsystemdef_Heliat_Flipped" ]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Gangtok",
+					"additionalValues" : [ "starsystemdef_Gangtok_Flipped" ]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Coromodir",
+					"additionalValues" : [ "starsystemdef_Coromodir_Contested" ]
+                }
+            ],
+            "ForceEvents" : [
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_co_Skyward_Swords_Gift_3",
+					"MinDaysWait" : 1,
+					"MaxDaysWait" : 1,
+					"Probability" : 100
+				}
+            ],
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

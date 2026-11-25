@@ -28,7 +28,7 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "Trait-WS-Pilot_Initiative_Modifier",
+				"Id" : "Trait-WS-Pilot_Initiative_Modifier_1",
 				"Name" : "Increased Initiative",
 				"Details" : "Gain +1 Initiative",
 				"Icon" : "uixSvgIcon_action_evasivemove"
@@ -36,7 +36,7 @@
 			"statisticData" :
 			{
 				"statName" : "BaseInitiative",
-				"operation" : "Int_Add",
+				"operation" : "Int_Subtract",
 				"modValue" : "1",
 				"modType" : "System.Int32"
 			},

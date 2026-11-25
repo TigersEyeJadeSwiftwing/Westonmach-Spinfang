@@ -1,0 +1,152 @@
+{
+    "Description" : {
+        "Id" : "milestone_305_sim_argo_start",
+        "Name" : "sim",
+        "Details" : "Sim game phase",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 305,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {
+			    "items" : [
+					"SYSTEM_UseEvents",
+					"SYSTEM_UseTime",
+					"map_travel_1",
+					"map_travel_2",
+					"map_travel_2a",
+					"oc04_post_argo"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "RemovedTags" : {
+				"items" : [
+					"company_leopard_loan_good",
+					"AARCompleteNotificationsDisabled"
+				],
+                "tagSetSourceFile" : ""
+			},
+            "Stats" : [
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "NextStoryMilestone",
+                    "value" : 310,
+					"set" : true,
+                    "valueConstant" : ""
+                },
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "MissionsComplete",
+                    "value" : 0,
+					"set" : true,
+                    "valueConstant" : ""
+                },
+				{
+                    "typeString" : "System.Single",
+                    "name" : "Difficulty",
+                    "value" : 4,
+					"set" : true,
+                    "valueConstant" : ""
+                }
+
+            ],
+            "Actions" : [
+
+			/* set in 202, set again here for debug purposes */
+                {
+                    "Type" : "System_SetContractScope",
+                    "value" : "EARLY_CAMPAIGN",
+                    "valueConstant" : null
+                },
+
+			/* set in 302, set again here for debug purposes */
+                {
+                    "Type" : "System_SetDropship",
+                    "value" : "Argo",
+                    "valueConstant" : null
+                },
+
+			/* set in 302, set again here for debug purposes */
+				{
+					"Type" : "System_SimGameCharacterVisible",
+					"value" : true,
+					"additionalValues" : [
+						"Alexander",
+						"Farah"
+					]
+				},
+
+			/* set in 302, set again here for debug purposes */
+				{
+					"Type" : "System_SimGameCharacterVisible",
+					"value" : false,
+					"additionalValues" : [
+						"Kamea"
+					]
+				},
+                {
+                    "Type" : "System_AddDisplayedFaction",
+                    "value" : "AuriganRestoration"
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Weldry",
+					"additionalValues" : [ "starsystemdef_Weldry_Flipped" ]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Fjaldr",
+					"additionalValues" : [ "starsystemdef_Fjaldr_Flipped" ]
+                },
+				{
+                    "Type" : "StarSystem_SetActiveDef",
+                    "value" : "starsystemdef_Ichlangis",
+					"additionalValues" : [ "starsystemdef_Ichlangis_Flipped" ]
+                },
+				{
+					"Type" : "System_ResetContracts",
+					"value" : "",
+                    "valueConstant" : null
+				}
+            ],
+            "ForceEvents" : [
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_co_Skyward_Swords_Gift_1",
+					"MinDaysWait" : 1,
+					"MaxDaysWait" : 1,
+					"Probability" : 100
+				}
+            ],
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

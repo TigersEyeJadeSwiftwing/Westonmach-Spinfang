@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_BanditRep",
+   "internalName" : "BanditRep",
+   "firstName" : "",
+   "lastName" : "",
+   "callsign" : null,
+   "rank" : "Bandit Representative",
+   "showRank" : true,
+   "gender" : "None",
+   "factionID" : "Bandits",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../Mods/Westonmach-Spinfang/sprites_portraits/swat_11.png"
+   },
+   "emotePotraitList" : [
+
+   ]
+}

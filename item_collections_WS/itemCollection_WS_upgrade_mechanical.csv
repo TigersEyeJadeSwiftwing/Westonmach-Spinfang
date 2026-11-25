@@ -1,10 +1,10 @@
 itemCollection_WS_upgrade_mechanical,,,
-Gear_JumpJet_Spinfang_Elite_Light,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,5,9
-Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,5,9
-Gear_Coolant_Plant_t1_0,HeatSink,5,9
+Gear_JumpJet_Spinfang_Elite_Light,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Medium,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Heavy,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Assault,JumpJet,10,10
+Gear_JumpJet_Spinfang_Elite_Ultra,JumpJet,10,10
+Gear_Coolant_Plant_t1_0,HeatSink,5,10
 Gear_Coolant_Plant_t2_0,HeatSink,5,7
 Gear_Coolant_Plant_t3_0,HeatSink,4,6
 Gear_Coolant_Plant_t4_0,HeatSink,4,4

@@ -1,6 +1,5 @@
 {
     "enumerationValueList" : [
-
         {
             "ID" : 17,
             "Name" : "AC_Prd_Lgt",
@@ -130,6 +129,5 @@
             "Icon" : "SmallHardpointIcon",
             "OutOfAmmoAudioVOEvent" : "AmmoDepleted_MG"
         }
-
     ]
 }

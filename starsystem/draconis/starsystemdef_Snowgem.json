@@ -159,7 +159,10 @@
         "AuriganPirates"
     ],
     "contractTargetIDs": [
-        "Kurita",
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
         "AuriganPirates"
     ]
 }

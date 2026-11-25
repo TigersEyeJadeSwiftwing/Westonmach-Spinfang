@@ -1,0 +1,65 @@
+{
+    "ID" : "faction_BloodyHandGang",
+    "Name" : "the Bloody Hand Gang",
+    "ShortName" : "Bloody Hand",
+    "Description" : "The Bloody Hand Gang is a criminal terrorist group that is wealthy, ruthless, barbaric, and very dangerous, and well-hated across the stars for being somewhat sneaky and mean-spirited in their ways.  Their members include battlemech pilots, and they can and will involve battlemechs in their activities.  They are notorious for kidnapping people and holding them for ransom, as well as robbing and stealing from towns, cities, banks, and even military bases of all things.",
+    "Demonym" : "Bloody Hand",
+    "Government" : "Bloody Hand",
+    "Allies" : [
+    ],
+    "Enemies" : [
+        "OrderSkywardSword",
+        "AuriganPirates",
+        "AuriganMercenaries",
+        "AuriganDirectorate",
+		"Davion",
+		"Steiner",
+        "TaurianConcordat",
+        "MagistracyOfCanopus",
+        "AuriganRestoration",
+        "NoFaction",
+        "Liao",
+		"Locals",
+		"Marik",
+		"Kurita"
+    ],
+    "Presence" : 1,
+    "ReputationStatements" : [
+        "So you're a mercenary.  We've got a deal for you if you want in on something.  Bring your friends.  If not, buzz off.",
+        "So you're a mercenary.  We've got a deal for you if you want in on something.  Bring your friends.  If not, buzz off.",
+        "So you're a mercenary.  We've got a deal for you if you want in on something.  Bring your friends.  If not, buzz off.",
+        "So you're a mercenary.  We've got a deal for you if you want in on something.  Bring your friends.  If not, buzz off.",
+        "So you're a mercenary.  We've got a deal for you if you want in on something.  Bring your friends.  If not, whatever.",
+        "Hey, you guys again.  We've got another deal if you're up for it.  Bring your friends.  If not, maybe later.",
+        "Buddy!  What's up?  Hey we've got another deal for you guys if you want to make some money.  Bring your friends, they're welcome to join in.  If not, check back later.",
+    ],
+    "MissionSuccessStatements" : [
+		"Hey, not bad.  Your money, as promised.  Nice doing business with ya!",
+    ],
+	"GoodFaithFailureStatements" : [
+		"Well, dang, that didn't go too good.  Screw it, let's just pretend that didn't happen, and forget about it.",
+    ],
+	"BadFaithFailureStatements" : [
+		"Well, that sure sucked.  Seriously, did you actually TRY to mess up!?  No really, what the heck!?",
+    ],
+    "factionID" : "BloodyHandGang",
+	"DefaultCombatLeaderCastDefId" : "castDef_BloodyHandGangRep",
+    "DefaultRepresentativeCastDefId" : "castDef_BloodyHandGangRep",
+	"factionTagOverride" : "Bloody Hand Gang",
+    "DataManager" : null,
+    "icon" : "Icon_Jolly_Roger_Red",
+    "heraldryDefId" : "heraldrydef_BloodyHandGang",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+	"factionMapBorderOverrideColor" : "rgba(1.0,0,0.75,1.0)",
+    "StartingReputationValues" : [
+        0,
+        0,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

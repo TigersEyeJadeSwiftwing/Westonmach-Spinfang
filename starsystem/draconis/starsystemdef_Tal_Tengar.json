@@ -243,11 +243,15 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "OrderSkywardSword",
         "AuriganPirates",
         "Kurita"
     ],
     "contractTargetIDs": [
-        "AuriganPirates",
-        "Kurita"
+        "LocalCriminals",
+        "Bandits",
+        "BloodyHandGang",
+        "DeathmarketSyndicate",
+        "AuriganPirates"
     ]
 }

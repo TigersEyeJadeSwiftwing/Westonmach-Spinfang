@@ -1,0 +1,245 @@
+{
+    "Description" : {
+        "Cost" : 6800000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "",
+        "Model" : "",
+        "UIName" : "Catapult",
+        "Id" : "chassisdef_catapult_CPLT-UT1",
+        "Name" : "Catapult",
+        "Details" : "All Catapult variants are fundamentally artillery platforms. The CPLT-UT1 is built for wielding very large numbers of rocket and missle launching weapons at a time, far more than that of the CPLT-C4 and other variants.  It also has increased mobility, with up to 8 jump jets, and increased support for additional tonnage and armor when compared to other variants.  The UT1 also mounts only two support weapons as a humble backup to all of it's rockets and missles.",
+        "Icon" : "uixTxrIcon_catapult"
+    },
+    "MovementCapDefID" : "movedef_catapult_CPLT-C1",
+    "PathingCapDefID" : "pathingdef_heavy",
+    "HardpointDataDefID" : "hardpointdatadef_catapult",
+    "PrefabIdentifier" : "chrPrfMech_catapultBase-001",
+    "PrefabBase" : "catapult",
+    "VariantName" : "CPLT-UT1",
+    "StockRole" : "Heavy Fire Support",
+    "YangsThoughts" : "All Catapult variants are fundamentally artillery platforms. The CPLT-UT1 is built for wielding very large numbers of rocket and missle launching weapons at a time, far more than that of the CPLT-C4 and other variants.  It also has increased mobility, with up to 8 jump jets, and increased support for additional tonnage and armor when compared to other variants.  The UT1 also mounts only two support weapons as a humble backup to all of it's rockets and missles.",
+    "Tonnage" : 72,
+    "InitialTonnage" : 2,
+    "weightClass" : "HEAVY",
+    "Heatsinks" : 0,
+    "TopSpeed" : 200,
+    "TurnRadius" : 90,
+    "MaxJumpjets" : 8,
+    "Stability" : 200,
+    "StabilityDefenses" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+    "Radius" : 8,
+    "PunchesWithLeftArm" : false,
+    "MeleeDamage" : 80,
+    "MeleeInstability" : 90,
+    "MeleeToHitModifier" : 0,
+    "DFADamage" : 120,
+    "DFAToHitModifier" : 0,
+    "DFASelfDamage" : 50,
+    "DFAInstability" : 100,
+    "ChassisTags" : {
+        "items" : [
+
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Locations" : [
+        {
+            "Location" : "Head",
+            "Hardpoints" : [
+
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 1,
+            "MaxArmor" : 900,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 16
+        },
+        {
+            "Location" : "LeftArm",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 8,
+            "MaxArmor" : 1200,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 50
+        },
+        {
+            "Location" : "LeftTorso",
+            "Hardpoints" : [
+
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 10,
+            "MaxArmor" : 1500,
+            "MaxRearArmor" : 750,
+            "InternalStructure" : 75
+        },
+        {
+            "Location" : "CenterTorso",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "AntiPersonnel",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "AntiPersonnel",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 4,
+            "MaxArmor" : 2100,
+            "MaxRearArmor" : 1050,
+            "InternalStructure" : 105
+        },
+        {
+            "Location" : "RightTorso",
+            "Hardpoints" : [
+
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 10,
+            "MaxArmor" : 1500,
+            "MaxRearArmor" : 750,
+            "InternalStructure" : 75
+        },
+        {
+            "Location" : "RightArm",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 8,
+            "MaxArmor" : 1200,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 50
+        },
+        {
+            "Location" : "LeftLeg",
+            "Hardpoints" : [
+
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 4,
+            "MaxArmor" : 1500,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 75
+        },
+        {
+            "Location" : "RightLeg",
+            "Hardpoints" : [
+
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 4,
+            "MaxArmor" : 1500,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 75
+        }
+    ],
+    "LOSSourcePositions" : [
+        {
+            "x" : 0,
+            "y" : 12,
+            "z" : 1
+        },
+        {
+            "x" : 4,
+            "y" : 12,
+            "z" : 0
+        },
+        {
+            "x" : -4,
+            "y" : 12,
+            "z" : 0
+        }
+    ],
+    "LOSTargetPositions" : [
+        {
+            "x" : 0,
+            "y" : 12,
+            "z" : 1
+        },
+        {
+            "x" : 4,
+            "y" : 12,
+            "z" : 0
+        },
+        {
+            "x" : -4,
+            "y" : 12,
+            "z" : 0
+        },
+        {
+            "x" : 3,
+            "y" : 5,
+            "z" : 0
+        },
+        {
+            "x" : -3,
+            "y" : 5,
+            "z" : 0
+        }
+    ],
+    "FixedEquipment" : null
+}

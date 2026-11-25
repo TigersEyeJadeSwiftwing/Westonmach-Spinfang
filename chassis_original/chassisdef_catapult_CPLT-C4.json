@@ -50,7 +50,7 @@
     "DFAInstability" : 80,
     "ChassisTags" : {
         "items" : [
-            
+
         ],
         "tagSetSourceFile" : ""
     },
@@ -58,7 +58,7 @@
         {
             "Location" : "Head",
             "Hardpoints" : [
-                
+
             ],
             "Tonnage" : 0,
             "InventorySlots" : 1,
@@ -87,12 +87,12 @@
         {
             "Location" : "LeftTorso",
             "Hardpoints" : [
-                
+
             ],
             "Tonnage" : 0,
             "InventorySlots" : 10,
             "MaxArmor" : 1500,
-            "MaxRearArmor" : 75,
+            "MaxRearArmor" : 750,
             "InternalStructure" : 75
         },
         {
@@ -124,7 +124,7 @@
         {
             "Location" : "RightTorso",
             "Hardpoints" : [
-                
+
             ],
             "Tonnage" : 0,
             "InventorySlots" : 10,
@@ -153,7 +153,7 @@
         {
             "Location" : "LeftLeg",
             "Hardpoints" : [
-                
+
             ],
             "Tonnage" : 0,
             "InventorySlots" : 4,
@@ -164,7 +164,7 @@
         {
             "Location" : "RightLeg",
             "Hardpoints" : [
-                
+
             ],
             "Tonnage" : 0,
             "InventorySlots" : 4,

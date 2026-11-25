@@ -65,7 +65,6 @@
     "PilotTags" : {
         "items" : [
             "BLACKLISTED",
-            "pilot_backer",
             "pilot_tech",
             "pilot_comstar",
             "pilot_spacer",

@@ -1,0 +1,65 @@
+{
+    "ID" : "faction_DeathmarketSyndicate",
+    "Name" : "the Deathmarket Syndicate",
+    "ShortName" : "Deathmarket",
+    "Description" : "The Deathmarket Syndicate is a criminal and terrorist organization, well organized and with a large number of members, complete with their own ranks, rules, internal laws, offices, bank accounts, and business names and more.  They maintain strict discipline among themselves, are well-educated and high-tech, and rather wealthy.  Many of them have training and skills comparable to what is found in law enforcement and military, and their resources include covert agents, political lawmakers, and battlemechs as well as well-trained battlemech pilots with superior skills.  They are one of few terrorist organizations that have the guts, muscle, skill, and resources to pull off a robbery on a military base and steal battlemechs and kidnap military generals and heads of state, and hold political leaders hostage for a lot more than ransom.  They can threaten and overpower military squads and convoys, and destroy an army base, and get away with it, unlike typical organized criminals.  They also have what it takes when it comes to leverage and more to demand a planetary government allow one of their own to blatantly hold political office and write laws along with other lawmakers, and not be subject to arrest or being denied access to an internal meeting of lawmakers, and then actually write laws that legalize whatever criminal behavior they want, and force jails to let hand-picked, specific criminals go free.  Political leaders hate, despise, and fear them.",
+    "Demonym" : "Deathmarket",
+    "Government" : "Deathmarket Syndicate",
+    "Allies" : [
+    ],
+    "Enemies" : [
+        "OrderSkywardSword",
+        "AuriganPirates",
+        "AuriganMercenaries",
+        "AuriganDirectorate",
+		"Davion",
+		"Steiner",
+        "TaurianConcordat",
+        "MagistracyOfCanopus",
+        "AuriganRestoration",
+        "NoFaction",
+        "Liao",
+		"Locals",
+		"Marik",
+		"Kurita"
+    ],
+    "Presence" : 1,
+    "ReputationStatements" : [
+        "We hereby waste our breath, offering a contract to a certain someones that make filthy scum look like a dream come true.",
+        "Oh, it's you.  Well now, while you're here you might as well take a look at this contract.  It's an honest offer, despite the fact that it should be written on toilet paper.",
+        "How do you do, mercenary?  We are in need of what we believe you can offer, and will compensate you for your trouble.",
+        "How do you do, mercenary?  We are in need of what we believe you can offer, and will compensate you for your trouble.",
+        "How do you do, mercenary?  Once again we are in need of what we believe you can offer, and will compensate you for your trouble with what we hope will satisfy.",
+        "Hello again, commander.  Deathmarket Syndicate once again calls upon your company, and hopes we can both benefit from some business.",
+        "You have won our favor, commander, and once again we hope we both benefit from good business with each other!  Please consider this contract."
+    ],
+    "MissionSuccessStatements" : [
+		"Well done.  We are impressed!  Deathmarket Syndicate appreciates and applauds a service well done!",
+    ],
+	"GoodFaithFailureStatements" : [
+		"Hmmmmm.  We tried, you tried, and you failed, though it could have been worse.  I wonder yet what the future will bring, for you, for us, and for both.....",
+    ],
+	"BadFaithFailureStatements" : [
+		"That was very bad.  I must admit I have an inkling to slay you into bloody meat chunks where you stand in something gratuitously epic and of folklore, and store them in a cool dry place for the next several ages.  Ah, but this time we will be civil - Until next time.",
+    ],
+    "factionID" : "DeathmarketSyndicate",
+	"DefaultCombatLeaderCastDefId" : "castDef_DeathmarketSyndicateRep",
+    "DefaultRepresentativeCastDefId" : "castDef_DeathmarketSyndicateRep",
+	"factionTagOverride" : "Death Market Syndicate",
+    "DataManager" : null,
+    "icon" : "Icon_Jolly_Roger_Metal",
+    "heraldryDefId" : "heraldrydef_DeathmarketSyndicate",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+	"factionMapBorderOverrideColor" : "rgba(0.5,0.2,1.0,1.0)",
+    "StartingReputationValues" : [
+        0,
+        0,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}
